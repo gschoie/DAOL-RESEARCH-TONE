@@ -1,0 +1,102 @@
+name: 톤 수집·AI 분석·배포
+
+# 다올리서치 채널 수집 → AI 톤 분석(증분) → v2 빌드 → 콜라보 레이더 → Pages 배포.
+# 데이터는 캐시가 아니라 리포에 커밋백한다(대시보드 리포에서 겪은 캐시 계보 꼬임 원천 차단).
+on:
+  workflow_dispatch:
+  # 코드 push 시에도 전체 파이프라인 실행(봇 커밋백은 GITHUB_TOKEN이라 재트리거 안 됨 — 무한루프 없음).
+  push:
+    branches: ["main"]
+  schedule:
+    # 한국시간 06·09·12·15·18·21·24시 (3시간 간격). 정각 큐 밀림 방지 12분 오프셋.
+    - cron: "12 0,3,6,9,12,15,21 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tone-refresh
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Python 패키지 준비
+        run: python -m pip install requests beautifulsoup4 lxml pypdf
+
+      - name: 텔레그램 수집 + 정규식 1차 추출
+        run: python build_daol_tone_dashboard.py --refresh
+
+      # 리포트 1건당 LLM 구조화 분석. 캐시(daol_ai_analysis.json)에 누적 — 재호출 없음.
+      # 하루 7회 × 35건 = 245건/일로 Gemini 무료 티어 일일 한도(250) 안에서 백필.
+      # 키가 없으면 조용히 건너뛴다(정규식 데이터만으로 사이트 정상 동작).
+      - name: AI 톤 분석 (증분)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AI_MAX_REPORTS: "35"
+        run: python ai_report_analyzer.py
+
+      - name: 톤 v2 빌드 (타임라인·이벤트·요약)
+        run: python build_daol_tone_v2.py
+
+      - name: 섹터 콜라보 레이더
+        run: python build_daol_collab_radar.py
+
+      - name: 데이터 커밋백
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore(data): 톤 데이터 갱신 $(TZ=Asia/Seoul date +%F)"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: 배포 사이트 조립
+        run: |
+          mkdir -p _site
+          cp site/index.html _site/
+          cp site/daol_collab_radar.html _site/ 2>/dev/null || true
+          cp data/daol_tone_v2.json data/tone_summary.json data/daol_tone_history.json _site/
+
+      - name: 배포 안전망 검사
+        run: |
+          python - <<'EOF'
+          import json, sys
+          d = json.load(open('_site/daol_tone_v2.json', encoding='utf-8'))
+          count = int(d.get('report_count') or 0)
+          if count < 500:
+              print(f"::error::tone v2 report_count dropped to {count}; minimum is 500")
+              sys.exit(1)
+          print(f"safety ok: {count} reports, ai {d.get('ai_analyzed')}")
+          EOF
+
+      - uses: actions/configure-pages@v6
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v5

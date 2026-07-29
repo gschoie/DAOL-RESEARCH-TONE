@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DAOL 리서치 톤</title>
+<style>
+:root{--bg:#f3f4f1;--ink:#17211d;--muted:#6c746f;--line:#dfe2dc;--green:#173f35;--lime:#d9f272;--red:#bd4335}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard,"Noto Sans KR",sans-serif;font-size:14px}
+.wrap{max-width:1440px;margin:auto;padding:22px 20px}
+.hero{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;border-bottom:2px solid #263d35;padding-bottom:12px;margin-bottom:14px;flex-wrap:wrap}
+.hero .eyebrow{margin:0 0 4px;font-size:10px;letter-spacing:.14em;color:#68736d}
+.hero h1{margin:0;font:500 26px Georgia}
+.hero .links{display:flex;gap:12px;align-items:center;font-size:12px}
+.hero a{color:#386453;text-decoration:none}
+.hero a:hover{text-decoration:underline}
+.tone-toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 150px 180px auto auto;gap:10px;align-items:center;background:#fff;border:1px solid var(--line);padding:15px;margin-bottom:14px}
+.tone-toolbar input,.tone-toolbar select{width:100%;border:1px solid #cfd6d0;border-radius:6px;background:#fff;padding:9px 11px;color:var(--ink);font-size:13px}
+.tone-toolbar button{border:0;border-radius:6px;background:var(--green);color:#fff;padding:10px 16px;cursor:pointer}
+.tone-toolbar span{font-size:11px;color:var(--muted);white-space:nowrap}
+.tone-empty{color:var(--muted);font-size:12px}
+.tone-loading{background:#fff;border:1px solid var(--line);padding:40px;text-align:center;color:var(--muted)}
+.tone-event-wrap{background:#fff;border:1px solid var(--line);margin-bottom:14px}
+.tone-event-wrap>summary{cursor:pointer;list-style:none;padding:13px 16px;font-weight:700;font-size:13px;border-bottom:1px solid transparent}
+.tone-event-wrap>summary::-webkit-details-marker{display:none}
+.tone-event-wrap[open]>summary{border-bottom-color:var(--line)}
+.tone-event-wrap>summary em{font-style:normal;color:var(--muted);font-weight:500;font-size:11px;margin-left:7px}
+.tone-event-cols{display:grid;grid-template-columns:1fr 1fr}
+.tone-event-col{min-width:0}
+.tone-event-col+.tone-event-col{border-left:1px solid var(--line)}
+.tone-event-col h5{margin:0;padding:9px 16px 7px;font-size:10.5px;color:#68736d;letter-spacing:.05em;border-bottom:1px solid #eef1ec}
+.tone-event-list{max-height:280px;overflow-y:auto;padding:6px 0}
+.tone-event{display:flex;gap:9px;align-items:baseline;width:100%;border:0;background:transparent;text-align:left;padding:7px 16px;cursor:pointer;font-family:inherit;font-size:12px;border-left:3px solid transparent}
+.tone-event:hover{background:#f4f7f4}
+.tone-event.up{border-left-color:#2e7d4f}.tone-event.down{border-left-color:var(--red)}.tone-event.mid{border-left-color:#b78c2c}
+.tone-event.hold{border-left-color:#c9d2cb}.tone-event.hold em{color:#75807a}
+.tone-event small{color:var(--muted);white-space:nowrap}
+.tone-event em{font-style:normal;font-weight:700;white-space:nowrap;font-size:11px}
+.tone-event.up em{color:#2e7d4f}.tone-event.down em{color:var(--red)}.tone-event.mid em{color:#8a661c}
+.tone-event b{white-space:nowrap}
+.tone-event span{color:#45534c;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.tone-event i{font-style:normal;color:var(--muted);font-size:11px;white-space:nowrap}
+.tone-table-wrap{background:#fff;border:1px solid var(--line);overflow-x:auto}
+.tone-table{width:100%;border-collapse:collapse;font-size:12px;min-width:940px}
+.tone-table th{position:sticky;top:0;background:#f6f8f5;text-align:left;padding:11px 12px;font-size:11px;color:#5b665f;letter-spacing:.03em;border-bottom:2px solid #263d35;white-space:nowrap}
+.tone-table td{padding:10px 12px;border-bottom:1px solid #eef1ec;vertical-align:top}
+.tone-sector-row td{background:#12261f;color:#e9efe9;padding:8px 12px;font-size:12px}
+.tone-sector-row b{font-family:Georgia;font-size:14px;letter-spacing:.02em}
+.sector-ind{border:0;background:transparent;color:var(--lime);cursor:pointer;font-size:11px;margin-left:12px;font-family:inherit}
+.sector-ind:hover{text-decoration:underline}
+.ta-name .analyst-link{border:0;background:transparent;font-weight:700;font-size:14px;font-family:inherit;color:var(--ink);cursor:pointer;padding:0}
+.ta-name .analyst-link:hover{color:#386453;text-decoration:underline}
+.ta-name small{display:block;color:var(--muted);margin-top:3px}
+.op-badge{display:inline-block;border-radius:11px;padding:3px 9px;font-size:11px;font-weight:700;white-space:nowrap}
+.op-badge.op-up{background:#e3f3e7;color:#286342}.op-badge.op-down{background:#f8e9e6;color:#a43c31}.op-badge.op-mid{background:#fff1cf;color:#765c19}.op-badge.op-none{background:#eef1ec;color:#75807a}
+.op-date{display:block;color:var(--muted);margin-top:3px;font-size:10px}
+.conv-dots{color:#173f35;letter-spacing:1.5px;font-size:11px}
+.tone-cell small{display:block;color:var(--muted);margin-top:2px;font-size:10px}
+.tone-cell.t-strong .conv-dots{color:#1f6b43}.tone-cell.t-pos .conv-dots{color:#3c6b58}.tone-cell.t-cau .conv-dots{color:#a1742a}.tone-cell.t-neg .conv-dots{color:var(--red)}
+.conv-spark{display:block}
+.tp-chip{display:block;border:1px solid #e3ddd0;background:#faf8f2;font-family:inherit;font-size:11px;text-align:left;padding:5px 8px;margin:0 0 5px;cursor:pointer;border-left:3px solid #8a5a2b;max-width:250px}
+.tp-chip.up{border-left-color:#2e7d4f}.tp-chip.down{border-left-color:var(--red)}
+.tp-chip:hover{background:#f2efe4}
+.tp-reason{font-style:normal;display:inline-block;background:#ece7d8;color:#6d5b28;border-radius:8px;padding:1px 6px;margin-left:4px;font-size:10px}
+.company-mini{border:1px solid #dce4dd;background:#f2f6f2;color:#2c463d;font-family:inherit;font-size:11px;border-radius:11px;padding:3px 8px;margin:0 4px 4px 0;cursor:pointer}
+.company-mini:hover{background:#e0ebe2}
+.company-mini i{font-style:normal;color:#7d8a82;margin-left:3px;font-size:10px}
+.ta-comps{max-width:230px}.ta-tp{max-width:260px}
+.ta-last{max-width:220px}.ta-last small{color:var(--muted);margin-right:4px}.ta-last a{color:#386453;text-decoration:none}.ta-last a:hover{text-decoration:underline}
+.mini-badge{display:inline-block;background:#eef1ec;color:#45534c;border-radius:10px;padding:2px 8px;font-size:10px;white-space:nowrap}
+.mini-badge.up{background:#e3f3e7;color:#286342}.mini-badge.down{background:#f8e9e6;color:#a43c31}
+.tone-badge{display:inline-flex;gap:5px;align-items:center;border-radius:10px;padding:2px 8px;font-size:10px;background:#eef4ef}
+.tone-badge.t-strong{background:#dff1e5;color:#1f6b43}.tone-badge.t-pos{background:#e8f2ec;color:#33604e}.tone-badge.t-dry{background:#eef1ec;color:#5b665f}.tone-badge.t-cau{background:#fbf3dd;color:#8a661c}.tone-badge.t-neg{background:#f8e9e6;color:#a43c31}
+.tone-modal{position:fixed;inset:0;background:rgba(15,24,20,.55);z-index:80;display:flex;align-items:flex-start;justify-content:center;padding:4vh 18px;overflow-y:auto}
+.tone-modal[hidden]{display:none}
+.tone-modal-box{position:relative;background:#fff;border:1px solid var(--line);width:min(860px,100%);max-height:92vh;overflow-y:auto;padding:22px 26px;box-shadow:0 18px 50px rgba(10,20,15,.35)}
+.tone-modal-close{position:sticky;top:0;float:right;border:0;background:#12261f;color:#fff;width:30px;height:30px;border-radius:50%;font-size:17px;cursor:pointer;z-index:2}
+.drill-header h3{margin:0;font-family:Georgia;font-weight:500;font-size:24px}
+.drill-header h3 small{color:var(--muted);font-size:13px}
+.drill-meta{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0 4px}
+.drill-charts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0;border:1px solid var(--line);padding:14px}
+.drill-charts h4{margin:0 0 8px;font-size:11px;color:#5b665f;letter-spacing:.05em}
+.tone-chart{width:100%;height:auto}
+.tone-chart .ax{font-size:9px;fill:#8a938d}
+.drill-list{margin-top:6px}
+.drill-report{border-top:1px solid #e8ece6;padding:13px 2px}
+.drill-head{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:5px}
+.drill-head small{color:var(--muted);font-weight:700}
+.drill-title{display:block;color:var(--ink);font-weight:600;text-decoration:none;line-height:1.5}
+.drill-title:hover{color:#386453}
+.drill-oneline{margin:5px 0;color:#55645c;font-size:12px;font-style:italic}
+.drill-tp{margin:7px 0;border-left:3px solid #8a5a2b;background:#faf8f2;padding:7px 10px;font-size:12px;font-weight:600}
+.drill-tp.up{border-left-color:#2e7d4f}.drill-tp.down{border-left-color:var(--red)}
+.drill-tp small{display:block;font-weight:400;color:var(--muted);margin-top:4px;font-size:11px}
+.drill-points{margin:6px 0;display:flex;gap:5px;flex-wrap:wrap}
+.pt-chip{background:#eef4ef;color:#33604e;border-radius:10px;padding:2px 9px;font-size:11px}
+.pt-chip.new{background:#dff1e5;color:#1f6b43;font-weight:700}
+.pt-chip.dropped{background:#f6ece9;color:#a05548;text-decoration:line-through}
+.phrase-details{margin:7px 0;font-size:12px}
+.phrase-details summary{cursor:pointer;color:#386453;font-size:11px;font-weight:700}
+.phrase{margin:7px 0;padding:7px 10px;font-size:12px;line-height:1.7}
+.phrase b{display:block;font-size:10px;letter-spacing:.05em;margin-bottom:3px}
+.phrase q{display:block}
+.ph-strong{background:#eaf5ee}.ph-strong b{color:#1f6b43}
+.ph-hedge{background:#fbf5e3}.ph-hedge b{color:#8a661c}
+.ph-neg{background:#f9ecea}.ph-neg b{color:#a43c31}
+.drill-links{margin-top:6px}.drill-links a{color:#386453;font-size:12px}
+@media(max-width:950px){.tone-toolbar{grid-template-columns:1fr 1fr}.tone-toolbar input{grid-column:1/3}.drill-charts{grid-template-columns:1fr}.tone-event-cols{grid-template-columns:1fr}.tone-event-col+.tone-event-col{border-left:0;border-top:1px solid var(--line)}}
+@media(max-width:620px){.tone-toolbar{grid-template-columns:1fr}.tone-toolbar input{grid-column:auto}.tone-modal{padding:8px}.tone-modal-box{padding:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div><p class="eyebrow">DAOL RESEARCH TONE · STANDALONE</p><h1>섹터·애널리스트 톤 보드</h1></div>
+    <div class="links">
+      <a href="https://gschoie.github.io/GS-output-dashboard/" target="_blank" rel="noopener">⌂ 대시보드</a>
+      <a href="https://github.com/gschoie/daol-research-tone/actions/workflows/refresh-tone.yml" target="_blank" rel="noopener">🔄 데이터 갱신 (Actions)</a>
+      <a href="https://t.me/s/daolresearch" target="_blank" rel="noopener">✈ 다올리서치 채널</a>
+    </div>
+  </header>
+  <div class="tone-toolbar">
+    <input id="tone-search" placeholder="애널리스트·섹터·종목 검색">
+    <select id="tone-sector"><option value="">전체 섹터</option></select>
+    <select id="tone-analyst"><option value="">전체 애널리스트</option></select>
+    <button id="tone-refresh" type="button">새로고침</button>
+    <span id="tone-status">불러오는 중…</span>
+  </div>
+  <div id="tone-events"></div>
+  <div id="tone-content"><div class="tone-loading">DAOL 리서치 톤 데이터를 읽고 있습니다.</div></div>
+  <div id="tone-modal" class="tone-modal" hidden><div class="tone-modal-box"><button id="tone-modal-close" class="tone-modal-close" type="button" aria-label="닫기">×</button><div id="tone-modal-body"></div></div></div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const state={tone2:null,toneQ:'',toneSector:'',toneAnalyst:''};
+const convDots=v=>v==null?'':`<span class="conv-dots" title="확신도 ${v}/5">${'●'.repeat(v)}${'○'.repeat(5-v)}</span>`;
+const toneLabelClass=l=>({'강한 확신':'t-strong','긍정':'t-pos','중립·건조':'t-dry','신중':'t-cau','부정적':'t-neg'})[l]||'t-dry';
+const opinionClass=o=>/확대|매수|Overweight/i.test(o)?'op-up':/축소|매도|Underweight/i.test(o)?'op-down':/중립|Neutral/i.test(o)?'op-mid':'op-none';
+const mmdd=s=>String(s||'').slice(5).replace('-','.');
+function sparkline(series,w=110,h=26){const pts=(series||[]).filter(x=>x.v!=null);if(pts.length<2)return '<span class="tone-empty">—</span>';const xs=i=>4+i*(w-8)/(pts.length-1),ys=v=>h-4-(v-1)*(h-8)/4;const line=pts.map((p,i)=>`${xs(i).toFixed(1)},${ys(p.v).toFixed(1)}`).join(' ');const last=pts[pts.length-1];return `<svg class="conv-spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline points="${line}" fill="none" stroke="#3c6b58" stroke-width="1.6"/><circle cx="${xs(pts.length-1).toFixed(1)}" cy="${ys(last.v).toFixed(1)}" r="2.6" fill="#173f35"/><title>${pts.map(p=>`${mmdd(p.date)} ${p.v} (${esc(p.company)})`).join('\n')}</title></svg>`}
+function tpChip(x,withCompany=true){const dir=x.direction||'',cls=dir==='상향'?'up':dir==='하향'?'down':'';const reasons=(x.reasons||[]).map(r=>`<i class="tp-reason">${esc(r)}</i>`).join('');return `<button type="button" class="tp-chip ${cls} tone-ck" data-ck="${esc(x.company_key||'')}" title="${esc(x.evidence||'')}">${withCompany?`<b>${esc(x.company)}</b> `:''}${dir==='상향'?'▲':dir==='하향'?'▼':'●'} ${esc(x.display||dir)}${reasons}</button>`}
+function toneEventRow(e){const cls=e._hold?'hold':/상향|↑/.test(e.type)?'up':/하향|↓/.test(e.type)?'down':/의견|포인트/.test(e.type)?'mid':'';return `<button type="button" class="tone-event ${cls} tone-ck" data-ck="${esc(e.company_key)}" title="${esc(e.evidence||e.detail)}"><small>${mmdd(e.date)}</small><em>${esc(e.type)}</em><b>${esc(e.company)}</b><span>${esc(e.detail)}</span><i>${esc(e.analyst)}</i></button>`}
+function renderToneEvents(){const box=$('#tone-events');if(!box)return;const events=state.tone2?.events||[],steady=state.tone2?.steady||[];if(!events.length&&!steady.length){box.innerHTML='';return}
+ const left=events.slice(0,40).map(toneEventRow).join('')||'<div class="tone-empty" style="padding:8px 16px">변화 이벤트 없음</div>';
+ const right=steady.slice(0,40).map(e=>toneEventRow({...e,_hold:true})).join('')||'<div class="tone-empty" style="padding:8px 16px">TP 유지 보고서 없음</div>';
+ box.innerHTML=`<details class="tone-event-wrap" open><summary>⚡ 최근 변화 이벤트 <em>변화 ${events.length}건 · 유지 ${steady.length}건 · 120일</em></summary><div class="tone-event-cols"><div class="tone-event-col"><h5>TP 조정 · 의견/톤/실적 변화</h5><div class="tone-event-list">${left}</div></div><div class="tone-event-col"><h5>TP 유지 · 신규 커버</h5><div class="tone-event-list">${right}</div></div></div></details>`}
+function analystRow(a){const tone=a.latest_tone?`<div class="tone-cell ${toneLabelClass(a.latest_tone.label)}" title="${esc(a.latest_tone.one_line||'')}">${convDots(a.latest_tone.conviction)}<small>${esc(a.latest_tone.label)} · ${mmdd(a.latest_tone.date)}</small></div>`:'<span class="tone-empty" title="AI 분석 데이터가 아직 없습니다">AI 대기</span>';
+ const tps=(a.tp_events||[]).slice(0,2).map(x=>tpChip(x)).join('')||'<span class="tone-empty">최근 없음</span>';
+ const comps=(a.companies||[]).slice(0,6).map(c=>`<button type="button" class="company-mini tone-ck" data-ck="${esc(c.key)}" title="${esc(c.name)} 히스토리 열기 · ${c.count}건">${esc(c.name)}<i>${c.count}</i></button>`).join('')||'<span class="tone-empty">—</span>';
+ const last=a.last_report?.date?`<small>${mmdd(a.last_report.date)}</small> <a href="${esc(a.last_report.post_url)}" target="_blank" rel="noopener">${esc((a.last_report.title||'').slice(0,52))}</a>`:'—';
+ return `<tr><td class="ta-name"><button type="button" class="tone-ck analyst-link" data-ck="${esc(a.industry_key)}" title="${esc(a.sector)} 산업자료 톤 히스토리">${esc(a.analyst)}</button><small>${a.report_count}건</small></td><td><span class="op-badge ${opinionClass(a.opinion)}">${esc(a.opinion)}</span>${a.opinion_date?`<small class="op-date">${mmdd(a.opinion_date)}</small>`:''}</td><td>${tone}</td><td>${sparkline(a.conviction_series)}</td><td class="ta-tp">${tps}</td><td class="ta-comps">${comps}</td><td class="ta-last">${last}</td></tr>`}
+function renderTone(){const data=state.tone2||{sectors:[]},q=state.toneQ.toLocaleLowerCase();let html='';
+ for(const group of data.sectors||[]){if(state.toneSector&&group.sector!==state.toneSector)continue;
+  const rows=(group.analysts||[]).filter(a=>(!state.toneAnalyst||a.analyst===state.toneAnalyst)&&(!q||JSON.stringify(a).toLocaleLowerCase().includes(q)));
+  if(!rows.length)continue;
+  html+=`<tbody class="tone-sector-group"><tr class="tone-sector-row"><td colspan="7"><b>${esc(group.sector)}</b><button type="button" class="tone-ck sector-ind" data-ck="IND:${esc(group.sector)}">산업 톤 히스토리 →</button></td></tr>${rows.map(analystRow).join('')}</tbody>`}
+ $('#tone-content').innerHTML=html?`<div class="tone-table-wrap"><table class="tone-table"><thead><tr><th>애널리스트</th><th>산업의견</th><th>최근 톤(AI)</th><th>확신도 추이</th><th>최근 TP 변경</th><th>커버 기업</th><th>최근 자료</th></tr></thead>${html}</table></div>`:'<div class="tone-loading">조건에 맞는 자료가 없습니다.</div>';
+ renderToneEvents()}
+function fillToneFilters(){const sectors=(state.tone2?.sectors||[]).map(x=>x.sector),analysts=[...new Set((state.tone2?.sectors||[]).flatMap(g=>g.analysts.map(a=>a.analyst)))].sort((a,b)=>a.localeCompare(b,'ko'));$('#tone-sector').innerHTML='<option value="">전체 섹터</option>'+sectors.map(x=>`<option ${state.toneSector===x?'selected':''}>${esc(x)}</option>`).join('');$('#tone-analyst').innerHTML='<option value="">전체 애널리스트</option>'+analysts.map(x=>`<option ${state.toneAnalyst===x?'selected':''}>${esc(x)}</option>`).join('')}
+function lineChart(points,{w=560,h=150,color='#8a5a2b',fmt=v=>Number(v).toLocaleString()}={}){const pts=points.filter(p=>p.v!=null);if(pts.length<2)return '<div class="tone-empty">표시할 데이터가 2건 미만입니다.</div>';const vs=pts.map(p=>p.v),min=Math.min(...vs),max=Math.max(...vs),pad=(max-min)*0.12||max*0.05||1;const lo=min-pad,hi=max+pad;const xs=i=>44+i*(w-58)/(pts.length-1),ys=v=>h-22-(v-lo)*(h-34)/(hi-lo);const line=pts.map((p,i)=>`${xs(i).toFixed(1)},${ys(p.v).toFixed(1)}`).join(' ');const dots=pts.map((p,i)=>`<circle cx="${xs(i).toFixed(1)}" cy="${ys(p.v).toFixed(1)}" r="3" fill="${color}"><title>${mmdd(p.date)} · ${fmt(p.v)}${p.note?` · ${esc(p.note)}`:''}</title></circle>`).join('');return `<svg class="tone-chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet"><text x="4" y="${ys(max)+4}" class="ax">${fmt(max)}</text><text x="4" y="${ys(min)+4}" class="ax">${fmt(min)}</text><text x="44" y="${h-6}" class="ax">${mmdd(pts[0].date)}</text><text x="${w-14}" y="${h-6}" class="ax" text-anchor="end">${mmdd(pts[pts.length-1].date)}</text><polyline points="${line}" fill="none" stroke="${color}" stroke-width="2"/>${dots}</svg>`}
+function phraseBlock(title,items,cls){return items?.length?`<div class="phrase ${cls}"><b>${title}</b>${items.map(x=>`<q>${esc(x)}</q>`).join('')}</div>`:''}
+function drillReport(r){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.direction==='상향'?'up':r.tp_event.direction==='하향'?'down':''}">TP ${esc(r.tp_event.direction)} ${esc(r.tp_event.display||'')} ${(r.tp_event.reasons||[]).map(x=>`<i class="tp-reason">${esc(x)}</i>`).join('')}${r.tp_event.evidence?`<small>${esc(r.tp_event.evidence)}</small>`:''}</div>`:'';
+ const earnings=['상향','하향'].includes(r.earnings_direction)?`<span class="mini-badge ${r.earnings_direction==='상향'?'up':'down'}" title="${esc(r.earnings_evidence||'')}">실적추정 ${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'';
+ const points=(r.points||[]).map(p=>{const added=(r.points_added||[]).includes(p);return `<span class="pt-chip${added?' new':''}">${added?'＋':''}${esc(p)}</span>`}).join('')+(r.points_dropped||[]).map(p=>`<span class="pt-chip dropped">－${esc(p)}</span>`).join('');
+ const phrases=r.ai&&(r.strong_phrases?.length||r.hedge_phrases?.length||r.negative_phrases?.length)?`<details class="phrase-details"><summary>근거 문구 보기</summary>${phraseBlock('강한 문구',r.strong_phrases,'ph-strong')}${phraseBlock('헤징 문구',r.hedge_phrases,'ph-hedge')}${phraseBlock('부정 문구',r.negative_phrases,'ph-neg')}</details>`:'';
+ return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>`:'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${points?`<div class="drill-points">${points}</div>`:''}${phrases}<div class="drill-links"><a href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
+function openToneCompany(key){const entry=state.tone2?.companies?.[key];if(!entry)return;const timeline=[...entry.timeline];
+ const tpPoints=timeline.filter(r=>r.tp_event&&r.tp_event.value).map(r=>({date:r.date,v:r.tp_event.value,note:r.tp_event.direction}));
+ const convPoints=timeline.filter(r=>r.conviction!=null).map(r=>({date:r.date,v:r.conviction,note:r.tone_label}));
+ const charts=`<div class="drill-charts"><div><h4>적정주가(TP) 추이</h4>${lineChart(tpPoints)}</div><div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#3c6b58',fmt:v=>v})}</div></div>`;
+ $('#tone-modal-body').innerHTML=`<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}<div class="drill-list">${timeline.slice().reverse().map(drillReport).join('')}</div>`;
+ $('#tone-modal').hidden=false;document.body.style.overflow='hidden'}
+function closeToneModal(){$('#tone-modal').hidden=true;document.body.style.overflow=''}
+async function loadTone(){$('#tone-status').textContent='불러오는 중…';
+ try{const r=await fetch(`daol_tone_v2.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(r.status);state.tone2=await r.json()}
+ catch(e){$('#tone-content').innerHTML=`<div class="tone-loading">데이터를 불러오지 못했습니다 (${esc(e.message)}). 잠시 후 새로고침해 주세요.</div>`;$('#tone-status').textContent='로드 실패';return}
+ fillToneFilters();renderTone();
+ const t=state.tone2,stamp=t.generated_at?new Intl.DateTimeFormat('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(t.generated_at)):'';
+ $('#tone-status').textContent=`${stamp} · ${(t.report_count||0).toLocaleString()}건 · AI ${(t.ai_analyzed||0).toLocaleString()}건`}
+$('#tone-search').oninput=e=>{state.toneQ=e.target.value;renderTone()};
+$('#tone-sector').onchange=e=>{state.toneSector=e.target.value;renderTone()};
+$('#tone-analyst').onchange=e=>{state.toneAnalyst=e.target.value;renderTone()};
+$('#tone-refresh').onclick=loadTone;
+$('#tone-modal-close').addEventListener('click',closeToneModal);
+$('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#tone-modal').hidden)closeToneModal()});
+document.addEventListener('click',e=>{const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck)openToneCompany(t.dataset.ck)});
+loadTone();
+</script>
+</body>
+</html>
