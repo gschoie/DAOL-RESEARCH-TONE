@@ -8,8 +8,8 @@ on:
   push:
     branches: ["main"]
   schedule:
-    # 한국시간 06·09·12·15·18·21·24시 (3시간 간격). 정각 큐 밀림 방지 12분 오프셋.
-    - cron: "12 0,3,6,9,12,15,21 * * *"
+    # 하루 1회, 한국시간 아침 07:45 (UTC 22:45 전일).
+    - cron: "45 22 * * *"
 
 permissions:
   contents: write
@@ -37,8 +37,8 @@ jobs:
         run: python build_daol_tone_dashboard.py --refresh
 
       # 리포트 1건당 LLM 구조화 분석. 캐시(daol_ai_analysis.json)에 누적 — 재호출 없음.
-      # 하루 7회 × 35건 = 245건/일로 Gemini 무료 티어 일일 한도(250) 안에서 백필.
-      # 키가 없으면 조용히 건너뛴다(정규식 데이터만으로 사이트 정상 동작).
+      # 하루 1회 스케줄이라 런당 200건(약 22분) — 백필 완료 후엔 하루 신규분만 처리돼 수 분.
+      # 키가 없거나 일일 쿼터 소진 시 우아하게 멈춘다(정규식 데이터만으로 사이트 정상 동작).
       # 이 키로 호출 가능한 모델 목록을 커밋백 데이터로 남긴다(모델 개편 시 진단용).
       - name: 사용 가능 Gemini 모델 덤프
         env:
@@ -63,7 +63,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          AI_MAX_REPORTS: "35"
+          AI_MAX_REPORTS: "200"
+          AI_BUDGET_SECONDS: "1800"
         run: python ai_report_analyzer.py
 
       - name: 톤 v2 빌드 (타임라인·이벤트·요약)
