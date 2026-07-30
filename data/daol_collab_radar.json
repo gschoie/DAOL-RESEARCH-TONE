@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T04:32:07.691700+00:00",
+ "generated_at": "2026-07-30T04:50:06.883080+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1171,
  "hits": [
@@ -8205,7 +8205,7 @@
    "company": "방산",
    "code": "",
    "direction": "수혜",
-   "score": 4,
+   "score": 3,
    "evidences": [
     "방산(Overweight): 전쟁이 끝나도 쇼핑은 계속된다 • 방산 비중확대 견지 • 선호주: 현대로템, 한화에어로스페이스(유지)",
     "EDF의 ASAP+EDIRPA → EDIP ③ EU의 재정 조달 프로그램 - K-방산의 기회 ① IISS가 제시하는 조달 무기체계 ② Readiness 2030의 제시 ③ K-방산에 열려있는 EU 시장."
@@ -8267,6 +8267,40 @@
    "title": "[Fixed Income / 다올투자증권 채권분석 허정인 ☎ 02-2184-2303] ★ QT종료…다음 수순은 QE?",
    "post_url": "https://t.me/daolresearch/12661",
    "source_url": "https://buly.kr/5q8C4G3"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-10-22",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "광고선전비 100억원(절대금액), 관세 100억원 반영해 영업이익 추정"
+   ],
+   "title": "[음식료(Overweight): 줍줍 구간: 내년 요리 재료는? | 다올 이다연] ★ [Indepth] 음식료 3Q25 Preview 및 투자전략 점검",
+   "post_url": "https://t.me/daolresearch/12667",
+   "source_url": "https://bit.ly/4nfcukP"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2025-10-22",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Tesco Superstore 3000여개"
+   ],
+   "title": "[음식료(Overweight): 줍줍 구간: 내년 요리 재료는? | 다올 이다연] ★ [Indepth] 음식료 3Q25 Preview 및 투자전략 점검",
+   "post_url": "https://t.me/daolresearch/12667",
+   "source_url": "https://bit.ly/4nfcukP"
   },
   {
    "theme": "환율/원화",
