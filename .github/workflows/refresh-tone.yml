@@ -8,8 +8,10 @@ on:
   push:
     branches: ["main"]
   schedule:
-    # 하루 1회, 한국시간 아침 07:45 (UTC 22:45 전일).
+    # 아침 런(KST 07:45): 그날 아침 7:00~7:45 발간분을 신규 위주로 빠르게 처리 → 8시 전 배포 목표.
     - cron: "45 22 * * *"
+    # 저녁 런(KST 21:00): 과거 리포트 AI 백필 전용(200건) — 백필 완료 후엔 사실상 노옵.
+    - cron: "0 12 * * *"
 
 permissions:
   contents: write
@@ -63,7 +65,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          AI_MAX_REPORTS: "200"
+          # 아침 런은 신규만 빠르게(15건, ~2분), 저녁 런·수동 실행은 백필 몫(200건, ~22분).
+          AI_MAX_REPORTS: ${{ github.event.schedule == '45 22 * * *' && '15' || '200' }}
           AI_BUDGET_SECONDS: "1800"
         run: python ai_report_analyzer.py
 
