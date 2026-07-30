@@ -1,9 +1,10 @@
 {
- "ran_at": "2026-07-30T04:50:05.525514+00:00",
+ "ran_at": "2026-07-30T05:12:38.992472+00:00",
  "provider": "gemini",
- "analyzed": 0,
- "errors": 8,
- "cached_total": 2,
- "pending_left": 1169,
- "last_error": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+ "analyzed": 35,
+ "errors": 0,
+ "cached_total": 37,
+ "pending_left": 1134,
+ "model_tried": "gemini-flash-lite-latest",
+ "last_error": ""
 }
