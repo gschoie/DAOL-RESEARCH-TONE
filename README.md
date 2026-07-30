@@ -4,7 +4,7 @@
 **"애널리스트가 그 기업/그 산업을 보는 톤이 어떻게 변해왔는가"**를 추적하는 독립 프로그램.
 [GS Research Desk 대시보드](https://gschoie.github.io/GS-output-dashboard/)에서 분리된 별도 프로젝트다.
 
-**사이트**: https://gschoie.github.io/daol-research-tone/
+**사이트**: https://gschoie.github.io/DAOL-RESEARCH-TONE/
 
 ## 무엇을 잡아내나
 
