@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T02:02:26.258761+00:00",
+ "generated_at": "2026-07-30T02:24:51.725540+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1171,
  "hits": [
@@ -15356,6 +15356,23 @@
    "source_url": "https://bit.ly/DOS807"
   },
   {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-02-02",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "△ T ankers International(TI) Suezmax 풀 출 범 △ Br aemar, 2026-2027년 VLCC 및 Suezmax 시황 낙관 전망 otalEnergies가 200억달러 규모의 Mozambique LNG 프로젝트를 재개함에 따라 5년 넘게 지연된 17척의 LNG선 신조 프로젝트가 재가동될 전망 Kpler의 2026년 글로벌 LNG 공급 전망은 2026년 세계 LNG 공급량이 전년 대비 44MTPA "
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 중고선가 > 신조선가. 모잠비크 LNG 재개. Coral에 FLNG 3호 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/13464",
+   "source_url": "https://bit.ly/DOS807"
+  },
+  {
    "theme": "방산 수출",
    "category": "산업테마",
    "date": "2026-02-02",
@@ -15383,8 +15400,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "다올 선박: VLCC 중고선가 > 신조선가.",
-    "선가, 실적, 캐파 ▲ 신조선가지수 184p로 하락-VLGC 하락."
+    "△ T ankers International(TI) Suezmax 풀 출 범 △ Br aemar, 2026-2027년 VLCC 및 Suezmax 시황 낙관 전망 otalEnergies가 200억달러 규모의 Mozambique LNG 프로젝트를 재개함에 따라 5년 넘게 지연된 17척의 LNG선 신조 프로젝트가 재가동될 전망 Kpler의 2026년 글로벌 LNG 공급 전망은 2026년 세계 LNG 공급량이 전년 대비 44MTPA ",
+    "다올 선박: VLCC 중고선가 > 신조선가."
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 중고선가 > 신조선가. 모잠비크 LNG 재개. Coral에 FLNG 3호 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/13464",
@@ -15862,11 +15879,11 @@
    "sector": "조선/기계/방산",
    "company": "다올",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 2,
    "evidences": [
-    "선가, 실적, 캐파 ▷ 신조선가지수 183.73p로 5주 연속 소수점 하락.",
-    "LNG ▲ Woodside Energy LNG선 신조 프로젝트: 20여척 조만간 선주 결정, 조선사와 매칭 △ HD한국조선해양, Tsakos Group LNG선 2+2척 협의."
+    "2019년 이후 첫 LNG선 신조 발주이며, 최근 미국 셰일가스 수출 증가 및 유럽의 러시아 가스 대체 수요 등 긍정적 시장 전망이 배경으로 작용 저비용 공급을 통해 국내 가격 안정성을 훼손하지 않고도 LNG 수출 용량 확대가 가능할 것으로 전망 전문가들은 올해 컨테이너선이나 탱커 발주가 다소 둔화되더라도, 글로벌 에너지 전환에 따른 LNG선 수요와 노후선 교체 주기가 겹치면서 한국 조선사들이 견조한 실적을 이어갈 것으로 전망",
+    "선가, 실적, 캐파 ▷ 신조선가지수 183.73p로 5주 연속 소수점 하락."
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국으로 간 말레이시아 MISC, 다가오는 Woodside의 LNG 20척 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/13524",
