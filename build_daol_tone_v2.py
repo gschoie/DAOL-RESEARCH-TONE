@@ -220,6 +220,9 @@ SECTOR_KEYWORDS = [
 ]
 
 
+# 보드에서 제외할 애널리스트(명단 이탈·비커버리지 등). 여기 추가하면 표·이벤트·타임라인 전부에서 빠진다.
+EXCLUDED_ANALYSTS = {'김지현'}
+
 # 키워드가 엉뚱하게 매기는 기업의 수동 교정(기업명 기준). 예: 리브스메드는 수술기구 = 의료기기.
 COMPANY_SECTOR_OVERRIDES = {'리브스메드': '의료기기'}
 
@@ -246,6 +249,7 @@ def build():
     ai_cache = load_json(AI_CACHE, {})
     sector_map = load_json(SECTOR_MAP_FILE, {})
     records = [merge_report(r, ai_cache.get(str(r['id']))) for r in flat_reports(history)]
+    records = [r for r in records if r['analyst'] not in EXCLUDED_ANALYSTS]
     for r in records: r['sector'] = resolve_sector(r, sector_map)
 
     companies = {}
