@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-30T15:10:43.266043+00:00",
+ "generated_at": "2026-07-30T23:45:10.503298+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1173,
+ "report_count": 1185,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -26805,6 +26805,263 @@
    "title": "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 저평가? 주주환원 확대와 CAPEX 고민",
    "post_url": "https://t.me/daolresearch/14714",
    "source_url": "https://bit.ly/DH2Q26RE"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-07-30",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "아모레퍼시픽",
+   "code": "090430",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "미국 관세 일회성 환급 150억원이 포함됐으나, 이를 제외한 영업이익 1,023억원도 컨센서스 상회 동사 틱톡샵 중심 서구권 육성은 데이터로 확인."
+   ],
+   "title": "[아모레퍼시픽(090430)/ BUY(유지)/ TP 18만원(유지)/ 다올 화장품 박종현] ★ 더마와 헤어케어, 모두 우리다!",
+   "post_url": "https://t.me/daolresearch/14719",
+   "source_url": "https://buly.kr/1n6PN2q"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-07-30",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "DL이앤씨",
+   "code": "375500",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "수주 성과도 전년대비 개선세 유지 - 555억원 규모 자사주 매입 소각 발표."
+   ],
+   "title": "[DL이앤씨(375500)/BUY(유지)/TP 89,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 빠른 실적 개선",
+   "post_url": "https://t.me/daolresearch/14721",
+   "source_url": "https://buly.kr/2qaxG66"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-07-30",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "LG에너지솔루션",
+   "code": "373220",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "3Q26의 경우 전사 매출액은 QoQ +21%, ESS부분은 QoQ +50%를 가정"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ LG에너지솔루션(373220) - 2Q26 Review: 출발 준비",
+   "post_url": "https://t.me/daolresearch/14724",
+   "source_url": "https://buly.kr/CraY3t"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-07-30",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "삼성전기",
+   "code": "009150",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "️ FC-BGA: 가파른 이익 개선 구간 - 2Q 신규 거래선향 AI 데이터센터 네트워크 제품 양산 본격화 - 하반기 서버 CPU·AI 가속기 수요 강세와 공급자 우위가 이어지며 Blended ASP 상승 기조 전망 - AI 반도체의 대면적·고다층화로 실질 Capa 잠식이 심화되는 가운데 탑티어 고객사들과 Capa 투자 및 장기공급 협의 진행 중 → FC-BGA 매출"
+   ],
+   "title": "[삼성전기(009150) | BUY(유지) | TP 280만원(유지) | 다올투자증권 전기전자 김연미] ★ 삼성전기 2Q26 Review - 흔들림 없이 전진 중",
+   "post_url": "https://t.me/daolresearch/14726",
+   "source_url": "https://buly.kr/Yh6Vlo"
+  },
+  {
+   "theme": "HBM/AI반도체",
+   "category": "산업테마",
+   "date": "2026-07-30",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "삼성전기",
+   "code": "009150",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "️ FC-BGA: 가파른 이익 개선 구간 - 2Q 신규 거래선향 AI 데이터센터 네트워크 제품 양산 본격화 - 하반기 서버 CPU·AI 가속기 수요 강세와 공급자 우위가 이어지며 Blended ASP 상승 기조 전망 - AI 반도체의 대면적·고다층화로 실질 Capa 잠식이 심화되는 가운데 탑티어 고객사들과 Capa 투자 및 장기공급 협의 진행 중 → FC-BGA 매출"
+   ],
+   "title": "[삼성전기(009150) | BUY(유지) | TP 280만원(유지) | 다올투자증권 전기전자 김연미] ★ 삼성전기 2Q26 Review - 흔들림 없이 전진 중",
+   "post_url": "https://t.me/daolresearch/14726",
+   "source_url": "https://buly.kr/Yh6Vlo"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-07-30",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "LG전자",
+   "code": "066570",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "️ 2Q26 리뷰 - 별도 기준 매출액 18.4조원(+9%, 이하 YoY), 영업이익 1조 3,270억원(+111%), OPM 7.2% 달성 - 관세 환급 등 약 3,000억원의 일회성 효과가 반영됐으나, 이를 제외해도 본업 이익 개선세는 뚜렷"
+   ],
+   "title": "[LG전자(066570) | BUY(유지) | TP 24만원(유지) | 다올투자증권 전기전자 김연미] ★ LG전자 2Q26 Review - 기대가 숫자로 바뀌는 구간",
+   "post_url": "https://t.me/daolresearch/14729",
+   "source_url": "https://buly.kr/EzlEwnc"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-07-30",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "LG전자",
+   "code": "066570",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "️ AI 데이터센터 냉각: 기대에서 실적으로 - 그동안 수주 기대감에 머물렀던 AI DC 냉각이 이제 실적 추정이 가능한 영역으로 진입 - 상반기 약 6,000억원 수주에 이어 하반기 수조원대 신규 수주 확보 가시화 → 26년 확보한 수주 물량 대부분이 27년부터 매출로 전환되며 수조원대 매출 구간 진입 가능 - 기존 ES가 계절성이 강한 HVAC 사업부였다면, 향후 수주잔고를 기반으로 성장하는 AI 인프라 사업부로 체질 변화"
+   ],
+   "title": "[LG전자(066570) | BUY(유지) | TP 24만원(유지) | 다올투자증권 전기전자 김연미] ★ LG전자 2Q26 Review - 기대가 숫자로 바뀌는 구간",
+   "post_url": "https://t.me/daolresearch/14729",
+   "source_url": "https://buly.kr/EzlEwnc"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-07-30",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "LG전자",
+   "code": "066570",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "️ AI 데이터센터 냉각: 기대에서 실적으로 - 그동안 수주 기대감에 머물렀던 AI DC 냉각이 이제 실적 추정이 가능한 영역으로 진입 - 상반기 약 6,000억원 수주에 이어 하반기 수조원대 신규 수주 확보 가시화 → 26년 확보한 수주 물량 대부분이 27년부터 매출로 전환되며 수조원대 매출 구간 진입 가능 - 기존 ES가 계절성이 강한 HVAC 사업부였다면, 향후 수주잔고를 기반으로 성장하는 AI 인프라 사업부로 체질 변화"
+   ],
+   "title": "[LG전자(066570) | BUY(유지) | TP 24만원(유지) | 다올투자증권 전기전자 김연미] ★ LG전자 2Q26 Review - 기대가 숫자로 바뀌는 구간",
+   "post_url": "https://t.me/daolresearch/14729",
+   "source_url": "https://buly.kr/EzlEwnc"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-07-30",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "주 후반 FOMC 이후 금리 부담이 확대되며 하락했으나, MS 호실적과 반도체 업종 강한 반등에 힘입어 상승 마감",
+    "주 후반 반등 시도에도 빅테크 가이던스·FOMC·중동 상황 등 다수 불확실성을 경계하며 상승분 반납 - DOW(+0.5%), S&P500(+0.4%), NASDAQ(+0.6%) 상승."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (7월 5주차)]",
+   "post_url": "https://t.me/daolresearch/14730",
+   "source_url": "https://buly.kr/5JPZ05L"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-07-30",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "중동 전황 뉴스 혼재된 가운데 AI 투자 과열과 빅테크 수익성 우려로 반도체주 조정 및 순환매 유입."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (7월 5주차)]",
+   "post_url": "https://t.me/daolresearch/14730",
+   "source_url": "https://buly.kr/5JPZ05L"
+  },
+  {
+   "theme": "이차전지 메탈",
+   "category": "원자재",
+   "date": "2026-07-30",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아베스틸지주",
+   "code": "001430",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "판가 인상은 4월-6월에 걸쳐 진행되었으며 1Q26 니켈 가격이 상승한 점이 배경."
+   ],
+   "title": "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(하향)/ 다올 철강 이정우] ★ 보여줄게 아직 많다",
+   "post_url": "https://t.me/daolresearch/14731",
+   "source_url": "https://buly.kr/2fgCHsH"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-07-30",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "POSCO홀딩스",
+   "code": "005490",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "다만, 환율을 비롯해서 철광석, 연료탄 가격이 하향 안정화되고 있어 하반기는 판가 상승 효과 누릴 수 있을 것으로 기대"
+   ],
+   "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 철강도 비철강도 개선",
+   "post_url": "https://t.me/daolresearch/14732",
+   "source_url": "https://buly.kr/Csm9BCN"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-07-30",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "POSCO홀딩스",
+   "code": "005490",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "판가 인상 효과가 반영되며 판가는 톤당 1,023천원에서 1,065천원으로 QoQ +4.6% 증가했지만 원재료비 상승, 유가 상승으로 인한 물류비 등 주원재료비 투입비용이 QoQ +6% 상승했기 때문."
+   ],
+   "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 철강도 비철강도 개선",
+   "post_url": "https://t.me/daolresearch/14732",
+   "source_url": "https://buly.kr/Csm9BCN"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-07-30",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "POSCO홀딩스",
+   "code": "005490",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "다만, 환율을 비롯해서 철광석, 연료탄 가격이 하향 안정화되고 있어 하반기는 판가 상승 효과 누릴 수 있을 것으로 기대"
+   ],
+   "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 철강도 비철강도 개선",
+   "post_url": "https://t.me/daolresearch/14732",
+   "source_url": "https://buly.kr/Csm9BCN"
+  },
+  {
+   "theme": "이차전지 메탈",
+   "category": "원자재",
+   "date": "2026-07-30",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "POSCO홀딩스",
+   "code": "005490",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "자회사 포스코인터내셔널의 호조도 있었지만 철강 부문과 리튬 사업의 적자폭 개선도 주효하게 작용",
+    "CATL 젠샤워 광산이나 호주 광산 재가동으로 탄산리튬 가격 하락했지만 추가 하락은 제한적 판단해 염호 사업 견조한 실적 유지 가능."
+   ],
+   "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 철강도 비철강도 개선",
+   "post_url": "https://t.me/daolresearch/14732",
+   "source_url": "https://buly.kr/Csm9BCN"
   }
  ],
  "cross_mentions": [
@@ -27603,81 +27860,88 @@
  ],
  "candidates": [
   {
+   "term": "CPU",
+   "recent": 6,
+   "total": 8,
+   "sectors": 3,
+   "burst": 7.4
+  },
+  {
    "term": "UAE",
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 7.0
+   "burst": 6.6
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 11,
    "sectors": 5,
-   "burst": 5.4
+   "burst": 5.2
+  },
+  {
+   "term": "수익성이",
+   "recent": 8,
+   "total": 14,
+   "sectors": 8,
+   "burst": 4.2
   },
   {
    "term": "남미",
    "recent": 7,
    "total": 13,
    "sectors": 3,
-   "burst": 3.9
+   "burst": 3.7
   },
   {
    "term": "수율",
    "recent": 7,
    "total": 13,
    "sectors": 4,
-   "burst": 3.9
+   "burst": 3.7
   },
   {
-   "term": "수익성이",
-   "recent": 7,
-   "total": 13,
-   "sectors": 8,
-   "burst": 3.9
-  },
-  {
-   "term": "점진적",
-   "recent": 10,
-   "total": 20,
-   "sectors": 10,
-   "burst": 3.5
-  },
-  {
-   "term": "해협",
-   "recent": 9,
-   "total": 18,
-   "sectors": 3,
-   "burst": 3.5
+   "term": "결과가",
+   "recent": 6,
+   "total": 11,
+   "sectors": 5,
+   "burst": 3.7
   },
   {
    "term": "높아",
    "recent": 11,
    "total": 22,
    "sectors": 7,
-   "burst": 3.5
+   "burst": 3.4
+  },
+  {
+   "term": "점진적",
+   "recent": 10,
+   "total": 20,
+   "sectors": 10,
+   "burst": 3.3
+  },
+  {
+   "term": "해협",
+   "recent": 9,
+   "total": 18,
+   "sectors": 3,
+   "burst": 3.3
   },
   {
    "term": "더해",
    "recent": 7,
    "total": 14,
    "sectors": 6,
-   "burst": 3.4
+   "burst": 3.2
   },
   {
    "term": "증익",
    "recent": 10,
    "total": 21,
    "sectors": 7,
-   "burst": 3.2
-  },
-  {
-   "term": "Peer",
-   "recent": 7,
-   "total": 15,
-   "sectors": 8,
-   "burst": 3.0
+   "burst": 3.1
   }
  ]
 }
