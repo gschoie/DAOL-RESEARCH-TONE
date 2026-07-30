@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T00:23:49.875858+00:00",
+ "generated_at": "2026-07-30T01:28:34.370459+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1171,
  "hits": [
@@ -17987,7 +17987,7 @@
    "source_url": "https://bit.ly/DOS813"
   },
   {
-   "theme": "원전/우라늄",
+   "theme": "금/귀금속",
    "category": "원자재",
    "date": "2026-03-15",
    "analyst": "최광식",
@@ -17997,6 +17997,24 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
+    "참고로 이번 달 중국 Shanghai Waigaoqiao Shipbuilding에서 성약된 Performance Shipping의 158k-DWT급 선박은 척당 81.5백만달러로 상대적으로 낮은 가격에 계약"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 꼬임은 늘 조선업에 기회. 북미 CP2 LNG의 2단계 FID 완료! ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/13773",
+   "source_url": "https://bit.ly/DOS813"
+  },
+  {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-03-15",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "▷ Shell, 카타르산 LNG 공급 중단에 따른 불가항력 선언 ▲ LNG 운임, 가스 가격 강세 지속 시 300,000달러/일 돌파 전망 원자력 추진 상선은 2026년부터 규제 정비와 함께 주류 산업으로 진입할 것으로 전망되며, 컨테이너선의 경우 운항 속도를 최대 30노트까지 높일 수 있을 것으로 기대 이 세 나라는 발전 믹스에서 가스가 차지하는 비중이 최소 1/4 이상이므로, 현물(Spot) LNG 시장 노출도가 크게 확대",
     "그린쉽 ▲ HD한국조선해양-ABS 16,000-TEU급 원자력 추진선 기술 협력."
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 꼬임은 늘 조선업에 기회. 북미 CP2 LNG의 2단계 FID 완료! ⚓ 주시 뉴스",
@@ -27239,10 +27257,10 @@
  "candidates": [
   {
    "term": "UAE",
-   "recent": 8,
-   "total": 12,
+   "recent": 9,
+   "total": 13,
    "sectors": 3,
-   "burst": 6.2
+   "burst": 7.0
   },
   {
    "term": "단일",
