@@ -125,7 +125,7 @@ def gemini_analyze(user_text):
             detail = exc.read().decode('utf-8', errors='ignore')
             # 무료 티어 일일 한도(RPD) 소진은 기다려도 회복 안 됨 — 즉시 중단해 캐시를 저장한다.
             if exc.code == 429 and ('PerDay' in detail or 'RESOURCE_EXHAUSTED' in detail and 'daily' in detail.lower()):
-                raise QuotaExhaustedError(f'Gemini daily quota exhausted: {detail[:200]}') from exc
+                raise QuotaExhaustedError(f'Gemini daily quota exhausted: {detail[:1200]}') from exc
             if exc.code == 429 and attempt < 2:
                 time.sleep(30); continue
             raise RuntimeError(f'Gemini API error {exc.code}: {detail[:300]}') from exc
@@ -244,7 +244,7 @@ def run(max_reports=100, since='', budget_seconds=1500):
                                             'model': model, 'result': normalize_result(raw)}
                 done += 1
             except QuotaExhaustedError as exc:
-                last_error = str(exc)[:300]
+                last_error = str(exc)[:1400]
                 print(f'::warning::{exc}'); break
             except Exception as exc:  # 개별 실패는 건너뛰고 다음 런에서 재시도
                 errors += 1
