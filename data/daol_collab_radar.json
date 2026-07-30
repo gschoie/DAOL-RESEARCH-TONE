@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-30T08:05:36.390871+00:00",
+ "generated_at": "2026-07-30T09:01:36.723284+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1171,
+ "report_count": 1172,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -433,6 +433,23 @@
    "score": 1,
    "evidences": [
     "중국 소비 반등 시 탄력적인 주가 흐름 기대 - 참고로 음식료 업종 내 중국 매출액 비중 상위 기업은 오리온 41% > 삼양식품 24% > CJ제일제당 8% (그린바이오 내 30%) > 농심 5%"
+   ],
+   "title": "[음식료(Overweight): 안정 속 가속 | 다올 음식료 이다연] ★ 음식료 업종 커버리지 개시",
+   "post_url": "https://t.me/daolresearch/11718",
+   "source_url": "https://bit.ly/3Hvd3YK"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2025-06-08",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "음식료",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Google의 <How Brand Awareness Drives Performance>에 따르면, 브랜드를 이미"
    ],
    "title": "[음식료(Overweight): 안정 속 가속 | 다올 음식료 이다연] ★ 음식료 업종 커버리지 개시",
    "post_url": "https://t.me/daolresearch/11718",
@@ -1302,7 +1319,7 @@
    "company": "에스앤디",
    "code": "",
    "direction": "수혜",
-   "score": 4,
+   "score": 2,
    "evidences": [
     "매출액 전망 - 3Q24부터 동사의 일반기능식품소재 매출액 YoY 증가율은 삼양식품 달러 매출액 YoY 증가율 (매출액에 분기평균 원달러 환율을 적용해 임의 달러 변환)을 상회 중."
    ],
@@ -1322,7 +1339,7 @@
    "score": -2,
    "evidences": [
     "클래시스(BUY, TP 8.4만원(하향)) - 시장의 성장과 기업의 전략이 만났을 때 원달러 환율 하락으로 컨센서스 하회 전망(매출액 800억원, 영업이익 404억원) 슈링크 유니버스는 2025.07월 중 유럽 CE-MDR 허가 예정, 신규 마이크로니들 RF 제품인 Quadessy(쿼드세이)는 2025.07월 중 국내 출시 예정 또한 볼뉴머 신규 광고 모델 선정으로 적극적인 국내외 프로모션 기대",
-    "다만, 2Q25E 원달러 환율 하락에 따른 업종 추정치 하향 불가피."
+    "• 클래시스: 원화 강세에 따라 해외 매출 추정치 하향 조정하며"
    ],
    "title": "[다올 의료기기 박종현] ★ 의료기기(Overweight) 2Q25E Preview - 후반전 위한 숨 고르기",
    "post_url": "https://t.me/daolresearch/11859",
@@ -1824,7 +1841,7 @@
    "company": "화장품",
    "code": "",
    "direction": "수혜",
-   "score": 2,
+   "score": 3,
    "evidences": [
     "중국 및 면세 업황 개선 시, 글로벌 레거시 화장품 업종 실적 추정치 상향과 함께 외국인 수급 이탈 우려.",
     "글로벌 화장품 업체들 영업이익 컨센서스 하향 조정되는 가운데, 국내 인디 브랜드 및 ODM 업체들은 2025년 들어 컨센서스 추정치 상향 조정."
@@ -26684,6 +26701,41 @@
    "title": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현 ☎ 02-2184-2351] ★ 7월 FOMC Review: 믿지 못하는 시장",
    "post_url": "https://t.me/daolresearch/14706",
    "source_url": "https://buly.kr/5JPYdz8"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-07-30",
+   "analyst": "김혜영",
+   "sector": "인터넷/게임/레저",
+   "company": "FY26",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "기존 1,900억 달러에서 감소한 것처럼 보이는 이유는 금융리스에서 운용 리스로 전환되는 물량 때문 - FY 2027년부터 데이터센터와 사무실 건물의 내용연수를 기존 15년에서 25년으로 연장.",
+    "CapEx는 기존 가이던스 유지 - FY26 4Q CapEx는 410억 달러로, 이 중 설비 투자 비용으로 현금 지출한 금액은 358억 달러 수준."
+   ],
+   "title": "[Microsoft(MSFT US)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ FY26 4Q Review: 조용하게 강하다 ★ Not Rated",
+   "post_url": "https://t.me/daolresearch/14713",
+   "source_url": "https://buly.kr/9XNkJqt"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-07-30",
+   "analyst": "김혜영",
+   "sector": "인터넷/게임/레저",
+   "company": "FY26",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "Azure의 FY 2026년 합산 매출은 1,000억 달러 돌파 - Productivity and Business Processes 부문 또한 Copilot 유료 사용자 수(Paid Seats)가 3,000만 명을 돌파하며 2026년 4월(2,000만 명) 대비 큰 폭으로 증가"
+   ],
+   "title": "[Microsoft(MSFT US)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ FY26 4Q Review: 조용하게 강하다 ★ Not Rated",
+   "post_url": "https://t.me/daolresearch/14713",
+   "source_url": "https://buly.kr/9XNkJqt"
   }
  ],
  "cross_mentions": [
@@ -27496,13 +27548,6 @@
    "burst": 5.4
   },
   {
-   "term": "수익성이",
-   "recent": 8,
-   "total": 13,
-   "sectors": 8,
-   "burst": 5.2
-  },
-  {
    "term": "남미",
    "recent": 7,
    "total": 13,
@@ -27514,6 +27559,13 @@
    "recent": 7,
    "total": 13,
    "sectors": 4,
+   "burst": 3.9
+  },
+  {
+   "term": "수익성이",
+   "recent": 7,
+   "total": 13,
+   "sectors": 8,
    "burst": 3.9
   },
   {
