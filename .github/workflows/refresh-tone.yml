@@ -43,6 +43,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # 신규 프로젝트는 상위 flash 모델의 무료 일일 쿼터가 0 — flash-lite는 무료 쿼터 제공.
+          GEMINI_MODEL: "gemini-2.5-flash-lite"
           AI_MAX_REPORTS: "35"
         run: python ai_report_analyzer.py
 

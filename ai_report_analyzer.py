@@ -245,6 +245,11 @@ def run(max_reports=100, since='', budget_seconds=1500):
                 done += 1
             except QuotaExhaustedError as exc:
                 last_error = str(exc)[:1400]
+                # Gemini 일일 한도 소진 시 OpenAI 키가 있으면 남은 물량을 폴백으로 계속 처리한다.
+                if analyze is gemini_analyze and os.getenv('OPENAI_API_KEY', '').strip():
+                    print('::warning::Gemini 한도 소진 — OpenAI 폴백으로 전환')
+                    analyze, delay, provider = openai_analyze, float(os.getenv('AI_CALL_DELAY', '0.5')), 'gemini→openai'
+                    continue
                 print(f'::warning::{exc}'); break
             except Exception as exc:  # 개별 실패는 건너뛰고 다음 런에서 재시도
                 errors += 1
