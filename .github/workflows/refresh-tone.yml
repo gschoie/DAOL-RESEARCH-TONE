@@ -72,22 +72,36 @@ jobs:
       - name: 섹터 콜라보 레이더
         run: python build_daol_collab_radar.py
 
-      - name: 데이터 커밋백
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # 콜라보 레이더 HTML(site/)도 산출물이므로 함께 커밋한다 — unstaged로 남기면 rebase가 거부됨.
-          git add data/ site/daol_collab_radar.html
-          git diff --cached --quiet || git commit -m "chore(data): 톤 데이터 갱신 $(TZ=Asia/Seoul date +%F)"
-          git pull --rebase --autostash origin main
-          git push origin main
-
       - name: 배포 사이트 조립
         run: |
           mkdir -p _site
           cp site/index.html _site/
           cp site/daol_collab_radar.html _site/ 2>/dev/null || true
           cp data/daol_tone_v2.json data/tone_summary.json data/daol_tone_history.json _site/
+
+      # 커밋백이 실패해도 배포는 계속한다(데이터는 다음 성공 런에 다시 담김).
+      # 실패 시 진단을 _site/debug_commitback.txt로 배포해 밖에서 원인을 볼 수 있게 한다.
+      - name: 데이터 커밋백
+        run: |
+          set +e
+          (
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/ site/daol_collab_radar.html
+            git diff --cached --quiet || git commit -m "chore(data): 톤 데이터 갱신 $(TZ=Asia/Seoul date +%F)"
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main && git push origin main && exit 0
+              echo "--- push attempt $attempt failed, retrying ---"
+              sleep 5
+            done
+            exit 1
+          ) > commitback.log 2>&1
+          rc=$?
+          cat commitback.log
+          if [ $rc -ne 0 ]; then
+            echo "::warning::데이터 커밋백 실패 — 배포는 계속, 진단은 debug_commitback.txt"
+            { date -u; git status; echo ---; tail -60 commitback.log; } > _site/debug_commitback.txt 2>&1
+          fi
 
       - name: 배포 안전망 검사
         run: |
