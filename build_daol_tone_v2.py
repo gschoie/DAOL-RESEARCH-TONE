@@ -175,24 +175,53 @@ def timeline_events(key, name, timeline):
     return events
 
 
-def canonical_sectors(records):
-    """애널리스트별 최빈 섹터로 통일한다 — '철강'·'철강/비철금속'·'철강금속' 같은
-    표기 흔들림으로 표가 쪼개지는 것을 막는다(동률이면 최근 사용 우선)."""
-    usage = defaultdict(lambda: defaultdict(lambda: [0, '']))
-    for r in records:
-        slot = usage[r['analyst']][r['sector']]
-        slot[0] += 1
-        slot[1] = max(slot[1], r['date'])
-    return {analyst: max(sectors.items(), key=lambda x: (x[1][0], x[1][1]))[0]
-            for analyst, sectors in usage.items()}
+# 섹터는 코스피200 컨센 트래커와 같은 분류(krx_sectors.json: 종목코드→섹터 라벨)를 쓴다.
+# 한 애널리스트가 여러 섹터를 커버하면(예: 조선+방산·항공우주+기계) 섹터마다 행이 생긴다.
+SECTOR_MAP_FILE = DATA_DIR / 'krx_sectors.json'
+# 종목코드가 없거나 매핑에 없는 리포트(산업자료 등)는 제목·헤더 키워드로 분류한다. 순서 = 우선순위.
+SECTOR_KEYWORDS = [
+    (r'로봇', '로봇'), (r'2차전지|이차전지', '2차전지'),
+    (r'조선|선박|해운|신조|탱커|컨테이너선|LNG선', '조선'),
+    (r'방산|防産|항공우주|무기|국방', '방산·항공우주'),
+    (r'건설기계|굴착기|공작기계|기계', '기계'),
+    (r'건설|부동산|주택|분양', '건설'),
+    (r'은행|은행지주', '금융-은행지주'), (r'증권', '금융-증권'), (r'보험', '금융-보험'), (r'카드|캐피탈', '금융-카드기타'),
+    (r'소부장', '반도체소부장'), (r'반도체|HBM|파운드리', '반도체'),
+    (r'전기전자|전자부품|디스플레이|MLCC', '전기전자'),
+    (r'자동차|타이어|모빌리티', '자동차'),
+    (r'운송|물류|항공|해상운임|택배', '운송·물류'),
+    (r'의료기기', '의료기기'), (r'화장품|뷰티', '화장품'), (r'제약|바이오|신약', '제약·바이오'),
+    (r'음식료|식품|라면|음료', '음식료'), (r'통신', '통신'),
+    (r'게임', '게임'), (r'인터넷|플랫폼|\bAI\b', '인터넷/AI'), (r'레저|카지노|면세|여행', '레저/카지노/면세'),
+    (r'엔터', '엔터'), (r'미디어|광고', '미디어·광고'),
+    (r'철강|비철|철광석|후판', '철강·비철'), (r'정유|화학|石化|유가', '정유·화학'),
+    (r'유틸리티|전력|한전', '유틸리티'), (r'유통|리테일', '유통'), (r'지주', '지주회사'),
+    (r'섬유|의류', '섬유·의류'), (r'그린|풍력|태양광|수소', '그린인프라'), (r'IT서비스|SW|소프트웨어', 'IT서비스·SW'),
+    (r'시황|투자전략|매크로|채권|파생|경제|FOMC|리서치본부|콜라보|퀀트', '전략·시황'),
+]
+
+
+def resolve_sector(record, sector_map):
+    if record['code'] and record['code'] in sector_map:
+        return sector_map[record['code']]
+    # 1순위: 제목(그 리포트가 실제 다루는 주제). 2순위: 애널 헤더의 원시 섹터 문자열 —
+    # '자동차/이차전지'처럼 복수 표기는 앞 세그먼트가 주 커버리지이므로 세그먼트 순서대로 본다.
+    for pattern, label in SECTOR_KEYWORDS:
+        if re.search(pattern, record['title'][:160], re.I):
+            return label
+    for segment in re.split(r'[/·,|]+', record['sector'] or ''):
+        for pattern, label in SECTOR_KEYWORDS:
+            if re.search(pattern, segment, re.I):
+                return label
+    return record['sector'] or '기타'
 
 
 def build():
     history = load_json(HISTORY, {'months': []})
     ai_cache = load_json(AI_CACHE, {})
+    sector_map = load_json(SECTOR_MAP_FILE, {})
     records = [merge_report(r, ai_cache.get(str(r['id']))) for r in flat_reports(history)]
-    canon = canonical_sectors(records)
-    for r in records: r['sector'] = canon.get(r['analyst'], r['sector'])
+    for r in records: r['sector'] = resolve_sector(r, sector_map)
 
     companies = {}
     for record in records:
@@ -243,7 +272,8 @@ def build():
                                                         'post_url': latest['post_url']},
         })
     sectors = [{'sector': sector, 'analysts': sorted(rows, key=lambda x: x['analyst'])}
-               for sector, rows in sorted(sectors_map.items(), key=lambda x: (x[0] == '미분류', x[0]))]
+               for sector, rows in sorted(sectors_map.items(),
+                                          key=lambda x: (x[0] in ('전략·시황', '기타', '미분류'), x[0]))]
 
     recent_cut = (datetime.now(timezone.utc) + timedelta(hours=9) - timedelta(days=120)).date().isoformat()
     events = sorted([e for e in all_events if e['date'] >= recent_cut],
