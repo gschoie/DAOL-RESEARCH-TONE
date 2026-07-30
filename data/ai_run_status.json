@@ -1,10 +1,10 @@
 {
- "ran_at": "2026-07-30T09:35:30.334020+00:00",
+ "ran_at": "2026-07-30T09:45:23.271896+00:00",
  "provider": "gemini",
  "analyzed": 34,
  "errors": 1,
- "cached_total": 106,
- "pending_left": 1103,
+ "cached_total": 107,
+ "pending_left": 1069,
  "model_tried": "gemini-flash-lite-latest",
  "last_error": "The read operation timed out"
 }
