@@ -9,7 +9,7 @@ K-DEFENCE 봇과 같은 키 전략: GEMINI_API_KEY(무료 티어) 우선, 없으
   python ai_report_analyzer.py --dry-run          # 미분석 건수만 확인
 """
 import argparse, json, os, re, time, urllib.error, urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -18,6 +18,7 @@ HISTORY = DATA_DIR / 'daol_tone_history.json'
 MSG_FILE = DATA_DIR / 'daol_messages.json'
 PDF_CACHE = DATA_DIR / 'daol_pdf_text_cache.json'
 AI_CACHE = DATA_DIR / 'daol_ai_analysis.json'
+NAVER_CACHE = DATA_DIR / 'naver_consensus_cache.json'
 
 OPENAI_RESPONSES_API = 'https://api.openai.com/v1/responses'
 GEMINI_API_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
@@ -49,6 +50,10 @@ SYSTEM_PROMPT = '''당신은 한국 셀사이드(다올투자증권) 리서치 �
 - investment_points: 핵심 투자포인트 최대 4개. label은 12자 이내의 재사용 가능한 키워드
   (예: "미 함정 MRO", "HBM 증설", "후판가 하락"), summary는 80자 이내 요지.
 - one_line: 이 보고서의 톤을 한 문장으로(60자 이내).
+- estimates: 애널리스트 "본인"의 실적 추정치(시장 컨센서스 아님). quarter_label은 이 보고서가 다루는
+  당분기(실적 발표를 앞둔/리뷰하는 분기)를 '2Q26' 형식으로. quarter_op/year_op는 그 분기/당해 연도의
+  영업이익 추정치(단위: 억원 — 표가 십억원 단위면 10을 곱해 억원으로 환산), quarter_eps/year_eps는
+  EPS 추정치(원). 본문·표에서 확인 안 되면 null. 산업자료는 전부 null.
 모든 텍스트는 한국어.'''
 
 # ── JSON 스키마 (Gemini responseSchema 형식) ────────────────────────────────
@@ -73,9 +78,14 @@ GEMINI_SCHEMA = _g('OBJECT', properties={
     'investment_points': _g('ARRAY', items=_g('OBJECT', properties={
         'label': _g('STRING'), 'summary': _g('STRING')}, required=['label', 'summary'])),
     'one_line': _g('STRING'),
+    'estimates': _g('OBJECT', properties={
+        'quarter_label': _g('STRING'),
+        'quarter_op': _g('NUMBER', nullable=True), 'quarter_eps': _g('NUMBER', nullable=True),
+        'year_op': _g('NUMBER', nullable=True), 'year_eps': _g('NUMBER', nullable=True)},
+        required=['quarter_label', 'quarter_op', 'quarter_eps', 'year_op', 'year_eps']),
 }, required=['report_scope', 'company', 'code', 'opinion', 'tp', 'earnings', 'conviction',
              'tone_label', 'strong_phrases', 'hedge_phrases', 'negative_phrases',
-             'investment_points', 'one_line'])
+             'investment_points', 'one_line', 'estimates'])
 
 
 def _openai_schema(node):
@@ -193,6 +203,13 @@ def normalize_result(raw):
         'investment_points': [{'label': str(p.get('label') or '')[:20], 'summary': str(p.get('summary') or '')[:100]}
                               for p in (raw.get('investment_points') or []) if str(p.get('label') or '').strip()][:4],
         'one_line': str(raw.get('one_line') or '')[:100],
+        'estimates': {
+            'quarter_label': str((raw.get('estimates') or {}).get('quarter_label') or '')[:8],
+            'quarter_op': _num((raw.get('estimates') or {}).get('quarter_op')),
+            'quarter_eps': _num((raw.get('estimates') or {}).get('quarter_eps')),
+            'year_op': _num((raw.get('estimates') or {}).get('year_op')),
+            'year_eps': _num((raw.get('estimates') or {}).get('year_eps')),
+        },
     }
 
 
@@ -228,7 +245,11 @@ def run(max_reports=100, since='', budget_seconds=1500):
     history = load_json(HISTORY, {'months': []})
     cache = load_json(AI_CACHE, {})
     reports = flat_reports(history)
-    pending = [r for r in reports if str(r['id']) not in cache and (not since or r['month'] >= since)]
+    def needs_analysis(rid):
+        entry = cache.get(rid)
+        # 스키마 확장(estimates) 이전에 분석된 항목은 재분석 대상
+        return not entry or 'estimates' not in (entry.get('result') or {})
+    pending = [r for r in reports if needs_analysis(str(r['id'])) and (not since or r['month'] >= since)]
     if not provider:
         (DATA_DIR / 'ai_run_status.json').write_text(json.dumps(
             {'ran_at': datetime.now(timezone.utc).isoformat(), 'provider': None,
@@ -240,6 +261,23 @@ def run(max_reports=100, since='', budget_seconds=1500):
     messages_by_id = {str(m['id']): m for m in load_json(MSG_FILE, [])}
     pdf_cache = load_json(PDF_CACHE, {})
     analyze = gemini_analyze if provider == 'gemini' else openai_analyze
+    recent_cut = (datetime.now(timezone.utc) - timedelta(days=45)).date().isoformat()
+    naver_cache = load_json(NAVER_CACHE, {})
+    naver_changed = False
+
+    def get_consensus(code):
+        nonlocal naver_changed
+        day_key = f"{code}:{datetime.now(timezone.utc).date().isoformat()}"
+        if day_key not in naver_cache:
+            try:
+                import naver_consensus
+                naver_cache[day_key] = naver_consensus.fetch_consensus(code)
+                naver_changed = True
+            except Exception as exc:  # 컨센 실패는 분석을 막지 않는다
+                print(f'::warning::컨센 조회 실패 {code}: {str(exc)[:120]}')
+                return None
+        return naver_cache[day_key]
+
     # 무료 티어 분당 한도를 지키는 호출 간격(Gemini flash 10 RPM)
     delay = float(os.getenv('AI_CALL_DELAY', '6.5' if provider == 'gemini' else '0.5'))
     model_queue = gemini_model_queue() if provider == 'gemini' else [None]
@@ -262,8 +300,15 @@ def run(max_reports=100, since='', budget_seconds=1500):
             try:
                 raw, model = analyze(build_input_text(report, messages_by_id, pdf_cache),
                                      model_queue[model_idx])
-                cache[str(report['id'])] = {'analyzed_at': datetime.now(timezone.utc).isoformat(),
-                                            'model': model, 'result': normalize_result(raw)}
+                result = normalize_result(raw)
+                entry = {'analyzed_at': datetime.now(timezone.utc).isoformat(),
+                         'model': model, 'result': result}
+                # 인제스트 시점의 시장 컨센 스냅샷(네이버). 과거 리포트에 지금 컨센을 붙이면
+                # 왜곡이라 최근 45일 내 리포트에만 저장한다. 코드별 하루 1회 조회.
+                code = result['code'] or report.get('code') or ''
+                if code and report['date'] >= recent_cut:
+                    entry['consensus'] = get_consensus(code)
+                cache[str(report['id'])] = entry
                 done += 1
             except QuotaExhaustedError as exc:
                 last_error = str(exc)[:1400]
@@ -284,6 +329,8 @@ def run(max_reports=100, since='', budget_seconds=1500):
     finally:
         if done:
             AI_CACHE.write_text(json.dumps(cache, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+        if naver_changed:
+            NAVER_CACHE.write_text(json.dumps(naver_cache, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
         status = {'ran_at': datetime.now(timezone.utc).isoformat(), 'provider': provider,
                   'analyzed': done, 'errors': errors, 'cached_total': len(cache),
                   'pending_left': len(pending) - done, 'model_tried': model_queue[model_idx] if provider != 'openai' else 'openai', 'last_error': last_error}
@@ -304,7 +351,8 @@ def main():
     if args.dry_run:
         cache = load_json(AI_CACHE, {})
         pending = [r for r in flat_reports(load_json(HISTORY, {'months': []}))
-                   if str(r['id']) not in cache and (not args.since or r['month'] >= args.since)]
+                   if (str(r['id']) not in cache or 'estimates' not in (cache.get(str(r['id']), {}).get('result') or {}))
+                   and (not args.since or r['month'] >= args.since)]
         print(json.dumps({'provider': ai_provider(), 'cached': len(cache), 'pending': len(pending)}, ensure_ascii=False))
         return
     run(args.max, args.since, args.budget_seconds)

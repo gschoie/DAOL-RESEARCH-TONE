@@ -71,6 +71,28 @@ def fmt_won(v):
     return f'{int(v):,}원' if v else None
 
 
+def _pair(our, cons):
+    # 비교의 주체는 애널 본인 추정 — 추정이 없으면 컨센만 보여줄 이유가 없다.
+    if our is None: return None
+    diff = round((our / cons - 1) * 100, 1) if our and cons else None
+    return {'our': our, 'cons': cons, 'diff_pct': diff}
+
+
+def est_compare(estimates, consensus):
+    """애널 추정 vs 네이버 컨센(인제스트 시점 스냅샷). 표시할 게 없으면 None."""
+    if not estimates or not consensus: return None
+    out = {}
+    q_cons = consensus.get('quarter') or {}
+    if estimates.get('quarter_label') and estimates['quarter_label'] == q_cons.get('label'):
+        op, eps = _pair(estimates.get('quarter_op'), q_cons.get('op')), _pair(estimates.get('quarter_eps'), q_cons.get('eps'))
+        if op or eps: out['quarter'] = {'label': estimates['quarter_label'], 'op': op, 'eps': eps}
+    a_cons = consensus.get('annual') or {}
+    op, eps = _pair(estimates.get('year_op'), a_cons.get('op')), _pair(estimates.get('year_eps'), a_cons.get('eps'))
+    if (op or eps) and a_cons:
+        out['annual'] = {'label': a_cons.get('label') or '당해E', 'op': op, 'eps': eps}
+    return out or None
+
+
 def merge_report(report, ai_entry):
     """v1 정규식 리포트 + AI 분석을 화면용 단일 레코드로 합친다."""
     ai = (ai_entry or {}).get('result')
@@ -108,6 +130,8 @@ def merge_report(report, ai_entry):
             'points': [p['label'] for p in ai['investment_points']],
             'points_detail': ai['investment_points'],
             'earnings_direction': ai['earnings']['direction'], 'earnings_evidence': ai['earnings']['evidence'],
+            'estimates': ai.get('estimates'),
+            'est_compare': est_compare(ai.get('estimates'), (ai_entry or {}).get('consensus')),
             'tp_event': None if tp['direction'] in ('없음', '유지') and not tp['value'] else {
                 'direction': tp['direction'], 'value': tp['value'], 'prior': tp['prior'],
                 # 유지·동일값은 '6,000원 → 6,000원' 대신 단일 표기
@@ -124,6 +148,7 @@ def merge_report(report, ai_entry):
             'strong_phrases': [], 'hedge_phrases': [], 'negative_phrases': [],
             'points': [], 'points_detail': [],
             'earnings_direction': '', 'earnings_evidence': '',
+            'estimates': None, 'est_compare': None,
             'tp_event': first and {
                 'direction': first['direction'], 'value': first.get('new'), 'prior': first.get('old'),
                 'display': first.get('display') or '', 'reasons': classify_regex_reasons(first.get('reasons')),

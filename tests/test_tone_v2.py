@@ -115,6 +115,29 @@ class TimelineEvents(unittest.TestCase):
         self.assertEqual(v2.timeline_events('k', 'n', timeline), [])
 
 
+class EstCompare(unittest.TestCase):
+    CONS = {'quarter': {'label': '2Q26', 'op': 5000.0, 'eps': 1400.0},
+            'annual': {'label': '2026E', 'op': 22000.0, 'eps': 6300.0}}
+
+    def test_matching_quarter_produces_diff(self):
+        est = {'quarter_label': '2Q26', 'quarter_op': 5500.0, 'quarter_eps': None,
+               'year_op': 23000.0, 'year_eps': 6300.0}
+        c = v2.est_compare(est, self.CONS)
+        self.assertEqual(c['quarter']['op']['diff_pct'], 10.0)
+        self.assertEqual(c['annual']['eps']['diff_pct'], 0.0)
+
+    def test_quarter_label_mismatch_skips_quarter(self):
+        est = {'quarter_label': '3Q26', 'quarter_op': 5500.0, 'quarter_eps': None,
+               'year_op': None, 'year_eps': None}
+        c = v2.est_compare(est, self.CONS)
+        self.assertNotIn('quarter', c or {})
+
+    def test_none_when_no_data(self):
+        self.assertIsNone(v2.est_compare(None, self.CONS))
+        self.assertIsNone(v2.est_compare({'quarter_label': '', 'quarter_op': None, 'quarter_eps': None,
+                                          'year_op': None, 'year_eps': None}, self.CONS))
+
+
 class NormalizeResult(unittest.TestCase):
     def test_out_of_range_values_are_clamped(self):
         raw = make_ai()['result']
