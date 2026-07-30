@@ -39,6 +39,26 @@ jobs:
       # 리포트 1건당 LLM 구조화 분석. 캐시(daol_ai_analysis.json)에 누적 — 재호출 없음.
       # 하루 7회 × 35건 = 245건/일로 Gemini 무료 티어 일일 한도(250) 안에서 백필.
       # 키가 없으면 조용히 건너뛴다(정규식 데이터만으로 사이트 정상 동작).
+      # 이 키로 호출 가능한 모델 목록을 커밋백 데이터로 남긴다(모델 개편 시 진단용).
+      - name: 사용 가능 Gemini 모델 덤프
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'EOF'
+          import json, os, urllib.request
+          key = os.environ.get('GEMINI_API_KEY', '').strip()
+          names = []
+          if key:
+              try:
+                  d = json.load(urllib.request.urlopen(
+                      f'https://generativelanguage.googleapis.com/v1beta/models?key={key}&pageSize=100', timeout=30))
+                  names = sorted(m['name'] for m in d.get('models', [])
+                                 if 'generateContent' in m.get('supportedGenerationMethods', []))
+              except Exception as exc:
+                  names = [f'error: {type(exc).__name__}: {exc}'[:300]]
+          open('data/ai_models.json', 'w', encoding='utf-8').write(json.dumps(names, indent=1))
+          EOF
+
       - name: AI 톤 분석 (증분)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
