@@ -56,9 +56,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
+          # 콜라보 레이더 HTML(site/)도 산출물이므로 함께 커밋한다 — unstaged로 남기면 rebase가 거부됨.
+          git add data/ site/daol_collab_radar.html
           git diff --cached --quiet || git commit -m "chore(data): 톤 데이터 갱신 $(TZ=Asia/Seoul date +%F)"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push origin main
 
       - name: 배포 사이트 조립
