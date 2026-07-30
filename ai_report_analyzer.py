@@ -221,6 +221,10 @@ def run(max_reports=100, since='', budget_seconds=1500):
     reports = flat_reports(history)
     pending = [r for r in reports if str(r['id']) not in cache and (not since or r['month'] >= since)]
     if not provider:
+        (DATA_DIR / 'ai_run_status.json').write_text(json.dumps(
+            {'ran_at': datetime.now(timezone.utc).isoformat(), 'provider': None,
+             'analyzed': 0, 'pending_left': len(pending),
+             'last_error': 'GEMINI_API_KEY/OPENAI_API_KEY 시크릿 없음'}, ensure_ascii=False, indent=1), encoding='utf-8')
         print(json.dumps({'provider': None, 'analyzed': 0, 'pending': len(pending),
                           'note': 'GEMINI_API_KEY/OPENAI_API_KEY 없음 — AI 분석 건너뜀'}, ensure_ascii=False))
         return cache
@@ -230,6 +234,7 @@ def run(max_reports=100, since='', budget_seconds=1500):
     # 무료 티어 분당 한도를 지키는 호출 간격(Gemini flash 10 RPM)
     delay = float(os.getenv('AI_CALL_DELAY', '6.5' if provider == 'gemini' else '0.5'))
     done, errors, started = 0, 0, time.monotonic()
+    last_error = ''
     try:
         for report in pending[:max_reports]:
             if time.monotonic() - started > budget_seconds: break
@@ -239,15 +244,22 @@ def run(max_reports=100, since='', budget_seconds=1500):
                                             'model': model, 'result': normalize_result(raw)}
                 done += 1
             except QuotaExhaustedError as exc:
+                last_error = str(exc)[:300]
                 print(f'::warning::{exc}'); break
             except Exception as exc:  # 개별 실패는 건너뛰고 다음 런에서 재시도
                 errors += 1
+                last_error = str(exc)[:300]
                 print(f"::warning::report {report['id']} 분석 실패: {str(exc)[:200]}")
                 if errors >= 8: break
             time.sleep(delay)
     finally:
         if done:
             AI_CACHE.write_text(json.dumps(cache, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+        status = {'ran_at': datetime.now(timezone.utc).isoformat(), 'provider': provider,
+                  'analyzed': done, 'errors': errors, 'cached_total': len(cache),
+                  'pending_left': len(pending) - done, 'last_error': last_error}
+        (DATA_DIR / 'ai_run_status.json').write_text(
+            json.dumps(status, ensure_ascii=False, indent=1), encoding='utf-8')
     print(json.dumps({'provider': provider, 'analyzed': done, 'errors': errors,
                       'cached_total': len(cache), 'pending_left': len(pending) - done}, ensure_ascii=False))
     return cache
