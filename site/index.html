@@ -41,6 +41,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-event b{white-space:nowrap}
 .tone-event span{color:#45534c;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
 .tone-event i{font-style:normal;color:var(--muted);font-size:11px;white-space:nowrap}
+.tone-event em.up{color:#2e7d4f}.tone-event em.down{color:var(--red)}.tone-event em.mid{color:#8a661c}
 .tone-table-wrap{background:#fff;border:1px solid var(--line);overflow-x:auto}
 .tone-table{width:100%;border-collapse:collapse;font-size:12px;min-width:940px}
 .tone-table th{position:sticky;top:0;background:#f6f8f5;text-align:left;padding:11px 12px;font-size:11px;color:#5b665f;letter-spacing:.03em;border-bottom:2px solid #263d35;white-space:nowrap}
@@ -142,15 +143,27 @@ const opinionClass=o=>/확대|매수|Overweight/i.test(o)?'op-up':/축소|매도
 const mmdd=s=>String(s||'').slice(5).replace('-','.');
 function sparkline(series,w=110,h=26){const pts=(series||[]).filter(x=>x.v!=null);if(pts.length<2)return '<span class="tone-empty">—</span>';const xs=i=>4+i*(w-8)/(pts.length-1),ys=v=>h-4-(v-1)*(h-8)/4;const line=pts.map((p,i)=>`${xs(i).toFixed(1)},${ys(p.v).toFixed(1)}`).join(' ');const last=pts[pts.length-1];return `<svg class="conv-spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline points="${line}" fill="none" stroke="#3c6b58" stroke-width="1.6"/><circle cx="${xs(pts.length-1).toFixed(1)}" cy="${ys(last.v).toFixed(1)}" r="2.6" fill="#173f35"/><title>${pts.map(p=>`${mmdd(p.date)} ${p.v} (${esc(p.company)})`).join('\n')}</title></svg>`}
 function tpChip(x,withCompany=true){const dir=x.direction||'',cls=dir==='상향'?'up':dir==='하향'?'down':'';const reasons=(x.reasons||[]).map(r=>`<i class="tp-reason">${esc(r)}</i>`).join('');return `<button type="button" class="tp-chip ${cls} tone-ck" data-ck="${esc(x.company_key||'')}" title="${esc(x.evidence||'')}">${withCompany?`<b>${esc(x.company)}</b> `:''}${dir==='상향'?'▲':dir==='하향'?'▼':'●'} ${esc(x.display||dir)}${reasons}</button>`}
-function toneEventRow(e){const cls=e._hold?'hold':/상향|↑/.test(e.type)?'up':/하향|↓/.test(e.type)?'down':/의견|포인트/.test(e.type)?'mid':'';return `<button type="button" class="tone-event ${cls} tone-ck" data-ck="${esc(e.company_key)}" title="${esc(e.evidence||e.detail)}"><small>${mmdd(e.date)}</small><em>${esc(e.type)}</em><b>${esc(e.company)}</b><span>${esc(e.detail)}</span><i>${esc(e.analyst)}</i></button>`}
+const evShort=t=>({'TP 상향':'TP▲','TP 하향':'TP▼','실적추정 상향':'실적▲','실적추정 하향':'실적▼','의견 변경':'의견','투자포인트 변화':'포인트','톤 급변↑':'톤↑','톤 급변↓':'톤↓'})[t]||t;
+const evCls=t=>/상향|↑/.test(t)?'up':/하향|↓/.test(t)?'down':/의견|포인트/.test(t)?'mid':'';
+function toneEventRow(g){const items=g.items,e=items[0];
+ const cls=g._hold?'hold':(items.some(i=>evCls(i.type)==='down')?'down':items.some(i=>evCls(i.type)==='up')?'up':'mid');
+ const badges=items.map(i=>`<em class="${g._hold?'':evCls(i.type)}">${esc(evShort(i.type))}</em>`).join('');
+ const detail=items.map(i=>i.detail).filter(Boolean).join('  ·  ');
+ const tip=items.map(i=>`[${i.type}] ${i.evidence||i.detail}`).join('  |  ');
+ return `<button type="button" class="tone-event ${cls} tone-ck" data-ck="${esc(e.company_key)}" title="${esc(tip)}"><small>${mmdd(e.date)}</small>${badges}<b>${esc(e.company)}</b><span>${esc(detail)}</span><i>${esc(e.analyst)}</i></button>`}
+function groupEvents(events){const seen=new Map(),out=[];
+ for(const e of events){const k=e.report_id||`${e.company_key}|${e.date}`;
+  if(seen.has(k))seen.get(k).items.push(e);else{const g={items:[e]};seen.set(k,g);out.push(g)}}
+ return out}
 function renderToneEvents(){const box=$('#tone-events');if(!box)return;
  // 상단 섹터/애널 필터를 이벤트 피드에도 적용
  const flt=x=>(!state.toneSector||x.sector===state.toneSector)&&(!state.toneAnalyst||x.analyst===state.toneAnalyst);
  const events=(state.tone2?.events||[]).filter(flt),steady=(state.tone2?.steady||[]).filter(flt);
  if(!events.length&&!steady.length){box.innerHTML='';return}
- const left=events.slice(0,40).map(toneEventRow).join('')||'<div class="tone-empty" style="padding:8px 16px">변화 이벤트 없음</div>';
- const right=steady.slice(0,40).map(e=>toneEventRow({...e,_hold:true})).join('')||'<div class="tone-empty" style="padding:8px 16px">TP 유지 보고서 없음</div>';
- box.innerHTML=`<details class="tone-event-wrap" open><summary>⚡ 최근 변화 이벤트 <em>변화 ${events.length}건 · 유지 ${steady.length}건 · 120일</em></summary><div class="tone-event-cols"><div class="tone-event-col"><h5>TP 조정 · 의견/톤/실적 변화</h5><div class="tone-event-list">${left}</div></div><div class="tone-event-col"><h5>TP 유지 · 신규 커버</h5><div class="tone-event-list">${right}</div></div></div></details>`}
+ const grouped=groupEvents(events);
+ const left=grouped.slice(0,40).map(toneEventRow).join('')||'<div class="tone-empty" style="padding:8px 16px">변화 이벤트 없음</div>';
+ const right=steady.slice(0,40).map(e=>toneEventRow({items:[e],_hold:true})).join('')||'<div class="tone-empty" style="padding:8px 16px">TP 유지 보고서 없음</div>';
+ box.innerHTML=`<details class="tone-event-wrap" open><summary>⚡ 최근 변화 이벤트 <em>변화 ${grouped.length}건 · 유지 ${steady.length}건 · 120일</em></summary><div class="tone-event-cols"><div class="tone-event-col"><h5>TP 조정 · 의견/톤/실적 변화</h5><div class="tone-event-list">${left}</div></div><div class="tone-event-col"><h5>TP 유지 · 신규 커버</h5><div class="tone-event-list">${right}</div></div></div></details>`}
 function analystRow(a,secCell=''){const tone=a.latest_tone?`<div class="tone-cell ${toneLabelClass(a.latest_tone.label)}" title="${esc(a.latest_tone.one_line||'')}">${convDots(a.latest_tone.conviction)}<small>${esc(a.latest_tone.label)} · ${mmdd(a.latest_tone.date)}</small></div>`:'<span class="tone-empty" title="AI 분석 데이터가 아직 없습니다">AI 대기</span>';
  const tps=(a.tp_events||[]).slice(0,2).map(x=>tpChip(x)).join('')||'<span class="tone-empty">최근 없음</span>';
  const comps=(a.companies||[]).slice(0,6).map(c=>`<button type="button" class="company-mini tone-ck" data-ck="${esc(c.key)}" title="${esc(c.name)} 히스토리 열기 · ${c.count}건">${esc(c.name)}<i>${c.count}</i></button>`).join('')||'<span class="tone-empty">—</span>';
