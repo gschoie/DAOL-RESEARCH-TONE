@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T04:13:24.380421+00:00",
+ "generated_at": "2026-07-30T04:32:07.691700+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1171,
  "hits": [
@@ -10020,7 +10020,8 @@
    "direction": "수혜",
    "score": 1,
    "evidences": [
-    "아마존에서 K뷰티 카테고리를 전략 품목으로 설정한만큼 금번 블랙프라이데이 행사에 따른 성수기"
+    "아마존에서 K뷰티 카테고리를 전략 품목으로 설정한만큼 금번 블랙프라이데이 행사에 따른 성수기",
+    "Note: 글로벌 화장품 평균 PER 적용"
    ],
    "title": "[에이피알(278470)/ BUY(유지)/ TP 32만원(상향)/ 다올 화장품 박종현] ★ 3Q25P Review: 가장 높은 산, 가장 긴 강",
    "post_url": "https://t.me/daolresearch/12827",
@@ -27438,6 +27439,13 @@
    "total": 14,
    "sectors": 6,
    "burst": 3.4
+  },
+  {
+   "term": "증익",
+   "recent": 10,
+   "total": 21,
+   "sectors": 7,
+   "burst": 3.2
   },
   {
    "term": "Peer",
