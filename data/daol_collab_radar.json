@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T02:45:08.671492+00:00",
+ "generated_at": "2026-07-30T03:40:32.992135+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1171,
  "hits": [
@@ -12357,6 +12357,23 @@
    "source_url": "https://buly.kr/AF1QrZd"
   },
   {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2025-12-14",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "그린십 △ 선주 Exmar는 2026년 2분기에 첫 암모니아 D/F 가스 운반선을 인도받을 계획 △ 원자력 추진 상선, 2026년부터 ‘주류 산업’로 진입 전망."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG 재개 분위기, 한화의 Austal USA 활용 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/13109",
+   "source_url": "https://bit.ly/DOS801"
+  },
+  {
    "theme": "방산 수출",
    "category": "산업테마",
    "date": "2025-12-14",
@@ -13517,7 +13534,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "그린쉽 △ Kawasaki Heavy Industries, 세계 최대 40,000-cbm급 액화수소 운반선 수주"
+    "그린쉽 △ Kawasaki Heavy Industries, 세계 최대 40,000-cbm급 액화수소 운반선 수주",
+    "그린십 △ Kawasaki Heavy Industries, 세계 최대 40,000-cbm급 액화수소 운반선 수주 △ 2026년 풍력 추진 선박 100척 돌파 전망 및 기술 동향 HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원)"
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: HD현대의 공격적 목표, 한화의 미국 투자 확대, 삼성의 MRSA ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/13257",

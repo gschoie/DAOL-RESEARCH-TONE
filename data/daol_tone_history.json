@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T02:44:38.956342+00:00",
+  "generated_at": "2026-07-30T03:40:31.163793+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1171,
   "months": [
@@ -25611,7 +25611,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/CB5wkEB",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /CB5wkEB (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae432c140>, 'Connection to buly.kr timed out. (connect ",
               "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
               "summary": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality ▶ 자동차: 자동차에서 로봇 생태계로 진화 (1) AI 로보틱스 생태계로 진입하는 자동차 산업 (2) 보스턴다이나믹스, 기업가치 100조 원의 조건 (3) 로봇은 현대차그룹의 지배구조 재편의 새로운 동력 (4) Nvidia의 Alpamayo vs Tesla의 FSD ▶ 로보틱스: 상상이 아닌 검증의 단계로 (1) 현실화되는 로봇 (2) 실험실을 넘어 산업 현장으로: ‘피지컬AI의 실전 배치’ (3) 가사 노동 해방의 서막 (4) 2026년 주목 포인트 ▶ 반도체: 장기 호황의 다음 단서 (1) 보이지 않는 것에 대한 우려 (2) 상상에서 현실로 (3) 칩 진수성찬 (4) 결론 및 투자전략 ▶ 투자의견 및 적정주가 요약 - 현대차: TP 47만원(BUY) - 현대모비스: TP 55만원(BUY)_상향 - SK하이닉스: TP 95만원(BUY) - 삼성전자: TP 16만원(BUY) - 로보티즈: TP Not Rated - 에스피지: TP Not Rated ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/CB5wkEB >",
               "post_url": "https://t.me/daolresearch/13272",
@@ -25684,7 +25684,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/FWUHkm9",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FWUHkm9 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae20053d0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(대형주 4Q25 Preview) - 알고 있음에도 놀랄 준비 완료 ☑️ 4분기 서프라이즈 ☑️ 추세 반등의 시작(타이밍 콜) ☑️ SK하이닉스, 삼성전자 적정주가 Up! 💡 핵심 주제 & 아이디어 요약 \"연초를 기점으로 분위기 전환이 본격화될 것으로 기대합니다. 단기 우려들이 충분히 반영된 상황에서 강력한 메모리 업종 데이터 포인트는 다시 한번 기대감을 형성 시켜줄 수 있는",
               "summary": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(대형주 4Q25 Preview) - 알고 있음에도 놀랄 준비 완료 ☑️ 4분기 서프라이즈 ☑️ 추세 반등의 시작(타이밍 콜) ☑️ SK하이닉스, 삼성전자 적정주가 Up! 💡 핵심 주제 & 아이디어 요약 \"연초를 기점으로 분위기 전환이 본격화될 것으로 기대합니다. 단기 우려들이 충분히 반영된 상황에서 강력한 메모리 업종 데이터 포인트는 다시 한번 기대감을 형성 시켜줄 수 있는 재료입니다. 1월을 유의미한 주가 상승 추세의 시작점 으로 판단하며, 업종 비중확대 유효 시점으로 제시합니다. SK하이닉스 95만원, 삼성전자 16만원 으로 적정주가를 상향합니다.\" ▶️ 4Q25 컨센서스 상회 전망 (범용 제품이 견인하는 큰 폭의 가격 상승) - 대형주 영업이익, 컨센 대폭 상회 → 삼성전자 20.4조원(Con. 16조원), SK하이닉스 17조원(Con. 14.8조원) - 공급자 우위, 공격적 가격 협상 ▶️ 26년 가격 상승 지속의 근거 (수요처 매출 Up & 공급 증가는 제한적) - 최근 2개월 사이, 글로벌 주요 메모리 수요처들의 CY26 매출액 컨센서스 상향 중 - 반면, 26년 메모리 3사 Conventional 공급량은 신규 Fab 공백으로 제한적 증가 ▶️ 투자전략 (25년 1월을 생각해보면) - 24년 12월 바닥다지기~25년 1월 급반등과 유사한 26년 1월 → 1) 단기 우려 기반영, 2) 수급 공백 - 1월 실적 발표 시즌 중 재차 인지될 강한 메모리 업황, 분위기 반전의 트리거 - 대형주 모두 적극적 비중확대 유효한 시점 » SK하이닉스: 그야말로 모든 것이 좋은 시기 - 26년 OP 100.9조원(상향) - 적정주가 95만원(상향) » 삼성전자: 메모리 세상 - 26년 OP 125.2조원(상향) - 적정주가 16만원(상향",
               "post_url": "https://t.me/daolresearch/13193",
@@ -25891,7 +25891,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/AF1cJhS",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /AF1cJhS (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae40ff860>, 'Connection to buly.kr timed out. (connect ",
               "title": "[기가비스(420770) | Not Rated(유지) | 다올투자증권 전기전자 김연미] ★ 9부 능선을 넘는 중인 업황, 장비사 수혜 임박",
               "summary": "[기가비스(420770) | Not Rated(유지) | 다올투자증권 전기전자 김연미] ★ 9부 능선을 넘는 중인 업황, 장비사 수혜 임박 ▶️ 26년부터 재개될 FC-BGA 투자 사이클의 최대 수혜 장비사 - 글로벌 FC-BGA 생산업체들은 과거(21~23년) 대규모 장비 도입 이후 25년까지 기존 장비 개조·전환 통해 대응 - 25년 하반기를 지나며 기존 유휴장비 대부분이 소진된 상황 → 26년 수요(물량)에 대해서는 신규 장비 투자가 불가피한 국면 ▶️ 생산업체들의 투자 가시성이 보여지는 구간 - 삼성전기, 유니마이크론, 이비덴 등 주요 FC-BGA 생산업체 전반에서 신규 투자 및 CapEx 상향 언급이 확인되는 중 - FC-BGA 투자는 초기 단계부터 고객사에 바인딩 되어 가동률 및 물량 보전 조건 등을 전제로 진행된다는 점 감안 시, 전방 업체들의 수요 가시성이 높아지고 있는 상황으로 해석 - AI용 물량의 성장성 감안 시 신규 투자 의사결정(시점 및 강도)은 26년 내 구체화될 가능성이 높다고 판단 ▶️ 예상대비 빠른 업황 속도, 1H26부터 본격적인 실적 온기 예상 - 기가비스는 주요 생산업체 대부분에 공급하고 있어, 업계 전반의 투자 재개 국면에서 개별 고객사 이슈와 무관한 수혜 가능 - 당초 1H26 실적 공백을 예상했으나 업황 개선 속도가 예상대비 빠르게 전개 중 → 1H26부터 본격적인 실적 개선이 나타날 것으로 기대 ▶️ 4Q25 및 26년 실적 전망 - 4Q25 매출액 286억원(+317%, 이하 YoY), 영업이익 101억원(OPM 35%)으로 추정 → 1Q25 일본 고객사향 수주 268억원 중 대부분이 4Q에 반영된 영향 - 고객사들의 CapEx 및 발주 강도 고려 시, 26년 매출액 933억원(+89%), 영업이익 317억원(OPM 34%) 전망 *보고서 ",
               "post_url": "https://t.me/daolresearch/13282",
@@ -25932,7 +25932,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/9tC5zhN",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /9tC5zhN (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3a962a0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[LG전자(066570) | BUY(유지) | TP 12만원(유지) | 다올투자증권 전기전자 김연미] ★ 4Q25 Review - 예상했던 부진보다, 관전포인트에 집중",
               "summary": "[LG전자(066570) | BUY(유지) | TP 12만원(유지) | 다올투자증권 전기전자 김연미] ★ 4Q25 Review - 예상했던 부진보다, 관전포인트에 집중 ▶ 4Q25 리뷰 - 4Q25 연결 영업이익은 컨센서스(-84억원)를 하회한 -1,094억원 기록 - 배경: HS(가전) 사업부와 연결 자회사의 시장 기대치 하회 - HS 부진 이유는 1) 희망퇴직 비용과, 2) 유통재고 효율화에 따른 일회성 비용 발생 → 수요 둔화보다는 선제적인 비용•재고 효율화 영향 - VS 사업부는 전분기에 이어 5%대 OPM 예상, 견조한 수익성 확인 → 영업이익 추정치 상향 조정 ▶ 26년 전망 - 26년 연결 매출액 92.1조원(+3%), 영업이익 3.5조원(+41%), 별도 매출액 68.4조원(+2%), 영업이익 2.6조원(+44%) 전망 - 희망퇴직 비용 발생에 따라 4Q25 실적 부진은 이미 예상됐던 흐름으로, 26년 추가적인 이익 훼손 요인은 제한적 - 인력 효율화에 따른 고정비 절감 효과가 26년부터 본격 반영 ▶ 투자의견 - 향후 주가 트리거는 하이퍼 스케일러향 AI 데이터센터 냉각 진입 가시화 - 주요 파트너사와의 사양 협의 및 퀄 테스트가 막바지 단계에 진입한 것으로 파악, 연내 수주 가시화 기대 - ES 사업부가 AI 데이터센터 냉각 중심의 중장기 성장 방향성을 제시함에 따라, 과거 VS 사업부 성장 기대감이 형성되던 17년•21년과 유사한 환경이 조성되는 중 - 적정주가는 26E BPS에 과거 주가 상승 국면 초입 12MF P/B인 0.9배 적용 *보고서 원문 및 컴플라이언스: https://buly.kr/9tC5zhN",
               "post_url": "https://t.me/daolresearch/13270",
@@ -25965,7 +25965,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/CskwUVO",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /CskwUVO (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae1f70440>, 'Connection to buly.kr timed out. (connect ",
               "title": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ 소문난 AI 잔치, 메인디쉬를 가져오너라",
               "summary": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ 소문난 AI 잔치, 메인디쉬를 가져오너라 ▶ AI Phase 2: 추론의 변화가 곧 인프라의 변화 - 26년, 학습+추론 통합형 인프라로 재편됨에 따라 Full-Load 환경 대응을 위한 전력·발열·통신 최적화가 핵심 경쟁력으로 부상 - 고사양 기판/패키징·고전압 MLCC·맞춤형 냉각 등 고난도 부품 수요↑ - 수요 확대 + 공급 제약 겹친 MLCC·FC-BGA를 핵심 수혜 아이템으로 제시 ▶ MLCC: 지금껏 보지 못한 새로운 수요 곡선 - 26년 MLCC 수요 자극 요인: ① AI 서버용 MLCC 대량 채택 확산 ② PSU(전원공급장치) 구조 변화에 따른 신규 수요 발생 ③ xEV•ADAS의 안정적 성장세 → 26년 서버용 MLCC 총수요 YoY +28%, 전장용 MLCC 총수요 YoY +11% 성장 전망 - 주요 업체 가동률 100%에 근접했으나 유의미한 공급 확대는 27년부터 진행 → 26년까지 수요>공급 구도 지속, MLCC 호황 장기화 ▶ FC-BGA: Bottom-Out! 그려지는 반등 경로 - 3년간 부진했던 FC-BGA 업황, 26년부터 수요 회복 + 공급 다변화로 반등 본격화 - 26년 비(非) NVIDIA향 FC-BGA 수요 YoY +39.5% 전망. 그간 엔비디아 중심으로 수요 편중되었으나, 26년부터 ASIC·네트워크 SoC ·ADAS 등 Non-GPU 수요 부상 - 주요 FC-BGA 생산업체들의 가동률 70~90%까지 회복, 유휴장비 전환 완료 - 26년 하반기부터 본격적인 수급 타이트 전망 + FC-BGA 신규 투자 가능성 제시 ▶ 투자전략 - Top Pick 삼성전기(BUY, TP 36만원) 제시 . FC-BGA 신규 고객사 물량 확대와 MLCC 호황 장기화 및 가격 상승 가능성 감안 시",
               "post_url": "https://t.me/daolresearch/13217",
@@ -26243,7 +26243,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/Aar7uqP",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /Aar7uqP (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3a97320>, 'Connection to buly.kr timed out. (connect ",
               "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 그래도 들고 갈 업종",
               "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 그래도 들고 갈 업종 ▶ 커버리지 은행주 4Q25E Preview ▶ 4Q25E 합산 지배순이익(YoY +12.0%, QoQ -61.0%) 전망. 순이자이익 방어 속 (1) 비이자이익 감소, (2) 충당금전입액 증가, 판관비 증가, 일회성 영업외비용 반영 때문 ▶ 비이자이익 변동성 확대 국면 속 안정적인 핵심이익 중심의 추가 이익체력 확인 필요 시점 ▶ 주가의 하방경직성으로 작용하는 총주주환원율 우상향 전망 유지. 배당성향 상향 예상. 그 외 주주환원 규모 확대 현실화시, 총주주환원율 증가율에 대한 우려는 불필요 ▶ 보고서 원문 및 Compliance Notice < https://buly.kr/Aar7uqP >",
               "post_url": "https://t.me/daolresearch/13262",
@@ -26320,7 +26320,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/FhP4Zp8",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FhP4Zp8 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae241e270>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올 시황 김지현] ★ 머지않은 5,000pt ➡️ 연말 연초 수급 현황, 한국 대형주 베팅 지속 - 1/5 기준 신흥국(+1.1%) 선진국(+0.8%) 아웃퍼폼, 주요 국가별로 한국, 대만, 일본 순으로 강세 - IT 비중 큰 국가로 자금 유입 재개되며 한국, 테크 모멘텀 확대 - 외국인은 1월 들어 순매수 재개. 반도체의 경우 전일 삼성전자 실적, 미국 고용지표 발표를 앞두고 차익실현했음에도 조선, 방산, 원전, 금융 등",
               "summary": "[다올 시황 김지현] ★ 머지않은 5,000pt ➡️ 연말 연초 수급 현황, 한국 대형주 베팅 지속 - 1/5 기준 신흥국(+1.1%) 선진국(+0.8%) 아웃퍼폼, 주요 국가별로 한국, 대만, 일본 순으로 강세 - IT 비중 큰 국가로 자금 유입 재개되며 한국, 테크 모멘텀 확대 - 외국인은 1월 들어 순매수 재개. 반도체의 경우 전일 삼성전자 실적, 미국 고용지표 발표를 앞두고 차익실현했음에도 조선, 방산, 원전, 금융 등 한국 대형주 베팅 지속 ➡️ 강한 연초 효과와 유동성 + 테크 모멘텀 - 대주주 재매수, 90조원에 육박한 예탁금이 보여주는 개인들의 추격 매수가 반도체 강세 견인 - 외국인의 코스피 및 대형주 유입 유인은 11월 대비 12월 외환 보유고 감소로 보여지는 외환당국의 개입 효과로 안정된 환율 - 또한 MSCI 선진국 지수 편입을 겨냥한 접근성 제고 정책의 일환으로 1/2부터 외국인이 해외 증권사 계좌로 국내 주식을 직접 거래 가능하도록 제도 개선 ➡️ 반도체, 외국인의 일시적 차익실현일 이유 - 반도체 업종 12개월 선행 PER 8.8배 수준까지 하락, 반면 후행 PBR은 2.7배로 판데믹과 13년, 16년 사이클 고점 수준을 상회 - DDR3와 DDR4, DDR4 8Gb와 DDR5 16Gb 현물가 동반 급등세가 이전 사이클을 넘어선 이익추정치 상향을 뒷받침 - 코스피 전일 종가 4,545pt 기준 5,000pt까지 10.5%. 12개월 선행 PER 현재 10.3배로 5,000pt는 11.5배에 해당 - 삼성전자 26년 영업이익 추정치 12월 말 대비 상향된 100조원, 상단 133조원, SK하이닉스 26년 영업이익 추정치 85조원, 상단 108조원 - 컨센서스 대비 20% 상향 시 코스피 전체 영업이익 전망치 약 8% 상승분에 해당하며 밸류에이션 부담 없이 5,",
               "post_url": "https://t.me/daolresearch/13230",
@@ -26510,7 +26510,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/AwgeFHn",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /AwgeFHn (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae40cbce0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[크래프톤(259960)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 4Q25 Preview: 조금의 기다림이 필요 ★ 360,000원(하향), BUY(유지)",
               "summary": "[크래프톤(259960)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 4Q25 Preview: 조금의 기다림이 필요 ★ 360,000원(하향), BUY(유지) ▶ 4Q25E 연결 매출액은 9,684억원(+56.8% YoY, +11.2% QoQ), 영업이익은 988억원(-54.1% YoY, -71.7% QoQ) 예상. 매출액은 컨센서스에 소폭 상회하고 영업이익은 컨센서스에 하회할 전망 ▶ [PC] 2,777억원(+19.4% YoY, -21.5% QoQ) 전망. 10월에 스키비티 토일렛(유튜브 쇼츠 기반의 3D 애니메이션), 11월에 포르쉐, 12월에 발렌시아가와의 콜라보를 진행. 포르쉐 이벤트 기간 중에는 스팀 10위권 안쪽의 매출 순위를 유지하였으나 10월과 12월은 상대적으로 낮은 순위 기록. 따라서 비수기였던 4Q24보다는 성장하겠으나 전 분기 대비로는 하락 예상 ▶ [모바일] 3,727억원(+2.9% YoY, -23.7% QoQ)으로 예상. 스키비디 토일렛, 포르쉐와 같은 공동 이벤트를 진행하였으나 성수기인 3분기 대비로는 하락할 전망. 화평정영은 연말 이벤트의 소강으로 앱스토어 매출 순위가 10워권 밖으로 밀려났으나 춘절 이벤트와 함께 매출 순위 반등 ▶ [영업비용] 8,696억원(+116.3% YoY, +66.6% QoQ)으로 추정. 공동근로복지기금 816억원을 일회성으로 인식. 추가적으로 ADK 홀딩스가 연결 편입 되며 영업 비용이 2,800억원 가량 반영 ▶ ADK 홀딩스의 2024년 매출액은 1조 1,616억원, 당기순이익은 129억원 수준. 매출액 규모는 커지지만 이익 기여는 미미. IP 확보를 위해 인수했기 때문에 시너지 효과는 추후 확인 가능할 전망 ▶ PUBG 실적을 조정함에 따라 적정주가는 360,000원으로 하향. 다만 동사는 Franchise I",
               "post_url": "https://t.me/daolresearch/13284",
@@ -26537,7 +26537,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/D3fiZFY",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /D3fiZFY (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae1f71880>, 'Connection to buly.kr timed out. (connect ",
               "title": "[NAVER(035420)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 4Q25 Preview: 탄탄한 매출 성장 ★ 360,000원(유지), BUY(유지)",
               "summary": "[NAVER(035420)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 4Q25 Preview: 탄탄한 매출 성장 ★ 360,000원(유지), BUY(유지) ▶ 4Q25E 연결 매출액은 3조 2,483억원(+12.6% YoY, +3.5% QoQ), 영업이익은 5,758억원(+6.2% YoY, +0.9% QoQ) 예상. 매출액과 영업이익 모두 시장 컨센서스에 부합할 전망 ▶ [서치 플랫폼] 1조 958억원(+2.9% YoY, +3.4% QoQ) 전망. 4분기가 전통적인 광고 성수기이기 때문에 전 분기 대비 성장 예상. 4Q24 LY 용역 제공 정산금 295억원 기저 효과가 있겠으나 ADBoost 등 지면 최적화와 예산의 자동화로 완만한 성장 전망 ▶ [커머스 광고] 3,790억원(+23.2% YoY, +3.5% QoQ)으로 추정. 계절적 성수기와 함께 홈피드 효과 지속될 전망 ▶ [커머스 중개 및 판매] 5,906억원(+42.7% YoY, +5.7% QoQ) 예상. 1) 장기 추석 연휴로 인해 여행 부문의 매출 증가를 기대하며, 2) 중국 이커머스에 대한 미국 관세 면제 철폐와 마케팅비 증액, 비용 절감으로 포시마크의 거래액 상승 예상. 여행 부문과 포시마크 모두 수수료율이 상대적으로 높기 때문에 매출 성장에 긍정적 ▶ [엔터프라이즈] 1,516억원(-14.6% YoY, +1.0% QoQ). 2025년 3월에 수주한 GPUaaS 매출이 4Q25부터 온기로 반영될 전망. 다만 4Q24에 LY 용역 제공 정산금 303억원이 반영되었기 때문에 전년 동기 대비로는 하락 예상 ▶ 네이버파이낸셜과 두나무의 포괄적 주식교환이 성사된다면 국내 스테이블코인 산업 주요 플레이어로 자리 잡을 가능성이 크다고 판단. 또한 1Q26에는 쇼핑 에이전트, 2Q26에는 통합 에이전트를 출시할 계획. 동",
               "post_url": "https://t.me/daolresearch/13251",
@@ -26564,7 +26564,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/6ByAJR8",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /6ByAJR8 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae1f71c10>, 'Connection to buly.kr timed out. (connect ",
               "title": "[카카오(035720)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 4Q25 Preview: 개편 효과 본격 확인 ★ 80,000원(유지), BUY(유지)",
               "summary": "[카카오(035720)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 4Q25 Preview: 개편 효과 본격 확인 ★ 80,000원(유지), BUY(유지) ▶ 4Q25E 연결 매출액은 2조 936억원(+7.0% YoY, +0.3% QoQ), 영업이익은 1,759억원(+133.2% YoY, -15.5% QoQ) 예상. 매출액과 영업이익 모두 시장 컨센서스에 부합할 전망 ▶ [톡비즈] 6,300억원(+12.0% YoY, +10.9% QoQ)으로 추정. 톡비즈의 광고형 매출은 카카오톡 개편 효과가 온기 반영되어 가이던스였던 전년 대비 성장 10%는 상회할 전망. 커머스 또한 추석 연휴 직전 매출이 10월로 이연되어 호조 예상 ▶ [신사업] 4,660억원(+16.2% YoY, +2.9% QoQ) 전망. 카카오페이는 금융서비스 부문 강화가 지속적으로 이어지며 실적 개선세 지속 전망. 카카오모빌리티도 계절적으로 성수기이기 때문에 안정적 성장 예상 ▶ [뮤직] 5,147억원(+9.5% YoY, -8.9% QoQ)으로 추정. 주요 IP인 NCT Dream, RIIZE가 컴백하며 앨범 판매량 310만 장을 기록하였으며, 콘서트 부문에서도 92만 명 모객. 비수기로 진입하는 구간이기 때문에 전분기 대비 하락하겠으나 전년 동기 대비로는 성장할 전망 ▶ 1월부터 브랜드메세지 가격을 유형별(텍스트, 이미지 등)이 아닌 친구/비친구로 나누어 광고 단가 책정. 친구는 20원, 비친구는 25원 수준. 실질적인 인상분은 10% 내외로 추정하며 1Q26부터 반영될 예정. 톡비즈 광고 매출 성장에 기여할 전망 ▶ 1Q26에 카나나를 정식 출시할 계획. 카카오페이 및 모빌리티 기능이 추가되고 그 후 커머스 및 OTA 기업들과 제휴 예정. 2026년은 기능을 확장하는 시기이며 점진적으로 수수료 매출이 반영될 ",
               "post_url": "https://t.me/daolresearch/13250",
@@ -26595,7 +26595,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/3NK1Wve",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3NK1Wve (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae241e930>, 'Connection to buly.kr timed out. (connect ",
               "title": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 12월 카지노 실적: 겨울잠에 들었습니다",
               "summary": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 12월 카지노 실적: 겨울잠에 들었습니다 ▶ 롯데관광개발 - 12월 드랍액 2,213억원(+45.5% YoY, -15.8% MoM), 순매출 410억원(+73.6% YoY, -20.2% MoM), 홀드율은 18.5% - 2025년 누적 드랍액 2조 7,676조원(+60.5% YoY), 순매출 4,767억원(+61.8 % YoY) - 4Q25 순매출은 1,428억원(+93.2% YoY)으로 분기 최대 매출 기록하며 당기순이익도 흑자 가능성 높다고 판단. 동사는 직전 4개 분기 당기순이익이 흑자로 전환되면 리파이낸싱 가능. 2025년 연간 당기순이익이 흑자라면 5월에, 2Q25~1Q26 당기순이익 흑자라면 7월 중에 리파이낸싱 가능할 전망 - 동사의 장기차입금은 3Q25 기준 8,578억원으로 이자율이 6~9% 수준. 리파이낸싱을 통해 이자율이 낮아진다면 연간 수백억원대의 이자 비용이 절감되며 수익성 개선 가능 ▶ 파라다이스 - 12월 드랍액 6,023억원(+11.4% YoY, +0.3% MoM), 순매출 754억원(+7.6% YoY, -5.4% MoM), 홀드율은 12.5% - 2025년 누적 드랍액 7조 1,497억원(+4.1% YoY), 순매출 9,005억원(+9.9% YoY) → MASS 드랍액이 1.6조원으로 2024년 대비 13.4% 상승하였으나 VIP 드랍액은 보합 수준. 12월에 일본 VIP의 드랍액이 2,711억원(+16.2% YoY, +6.4% MoM)으로 전년 대비 큰 폭으로 상승했으나 이는 기저 효과 때문 ▶ GKL - 12월 드랍액 3,304억원(+19.8% YoY, +1.0% MoM), 순매출 363억원(-6.4% YoY, -13.0% MoM), 홀드율은 11% - 2025년 누",
               "post_url": "https://t.me/daolresearch/13221",
@@ -27185,7 +27185,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/5UJ8NOc",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /5UJ8NOc (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae241dfa0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[에이피알(278470)/ BUY(유지)/ TP 32만원(유지)/ 다올 화장품 박종현] ★ 4Q25E Preview: 글로벌 소비재 구매 행태 변화의 최대 수혜",
               "summary": "[에이피알(278470)/ BUY(유지)/ TP 32만원(유지)/ 다올 화장품 박종현] ★ 4Q25E Preview: 글로벌 소비재 구매 행태 변화의 최대 수혜 ▶ 실적 Preview 4Q25E 매출액 4,723억원(YoY +93%, QoQ +22%), 영업이익 1,164억원 (YoY +193%, QoQ +21%)로 컨센서스 부합 전망 [미국] 블랙 프라이데이 포함한 성수기 효과로 2,139억원(YoY +210%, QoQ +42%) 으로 시장 기대치 충족할 전망. 미국 전 오프라인 매장에 입점한 Ulta향 매출액은 130억원 수준으로 QoQ 2배수 성장 이어지고 있으며, 3Q25 20개 < 4Q25 40개로 SKU 증가 중(추가 확대 기대). 틱톡샵에서도 동사 Glass Glow Skincare set가 2025.11월 베스트 셀링 Top 10에서 2위를 기록할만큼 틱톡샵 내 상위 매출 브랜드로 자리매김 중. 아마존 화장품 BSR 100위권에 6 – 7개 제품이 안착한만큼 지속 성장하고 있음 [기타] 매출액 903억원으로 YoY +116%, QoQ +6%. 당초 재고소진 사이클로 돌입 전망했으나, B2B 유통 초입으로 빠른 재고소진에 따른 재구매 이어져 QoQ 매출 성장 전망 [OPM] 24.6% 기대. 프로모션으로 GPM 23.4%로 전망하며, 광고선전비 및 판매수수료 YoY +94%, +78% 증가에도 매출액 증가에 따라 YoY +8.3%p 전망 ▶ 2026E 매출액 2.0조원(YoY +36%), 영업이익 4,971억원(YoY +41%)을 전망. 미국과 기타(B2B) 중심 성장 이어질 전망으로 각각 YoY +46%, +54%. 아마존 영국 런칭 완료, 1H26E 유럽 4개국 추가 런칭 목표. 2026E 내 미국 추가적인 오프라인 채널 확대 예정. 유럽 온/오프라인 시너지를 통해 시",
               "post_url": "https://t.me/daolresearch/13244",
@@ -27228,7 +27228,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/GP46pOm",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /GP46pOm (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae241d310>, 'Connection to buly.kr timed out. (connect ",
               "title": "[파마리서치(214450)/ BUY(유지)/ TP 80만원(유지)/ 다올 의료기기 박종현] ★ 4Q25E Preview: 핸드 오픈 전 레이즈",
               "summary": "[파마리서치(214450)/ BUY(유지)/ TP 80만원(유지)/ 다올 의료기기 박종현] ★ 4Q25E Preview: 핸드 오픈 전 레이즈 ▶ 실적 Preview 4Q25E 매출액 1,511억원(YoY +47%), 영업이익 653억원(YoY +94%, QoQ +6%)으로 컨센서스 부합 전망 [의료기기 내수] 리쥬란 판매 호조로 660억원으로 YoY +58%, QoQ +15%. 1) 리쥬란 시술 가격 반등으로 시술의 선호도 회복, 2) 속건조 개선에 따른 계절적 성수기, 3) 원달러 환율 하락에 따른 인바운드 관광객 구매력 증가로 인해 리쥬란 시술 횟수 증가가 내수 매출 증가 견인 [의료기기 수출] 273억원으로 YoY +39%, QoQ +39%, 유럽향 초도 선적 20억원은 1Q26E로 지연됨에 따라 하향 조정 [화장품 수출] 245억원으로 YoY +75%, QoQ +12% 전망. 스킨케어 제품군 미국 아마존 판매 지속 성장함에 따라서 화장품 실적 성장 견인 [OPM] GPM YoY +5.9%p 증가한 79.3%로 ASP 높은 미국향 화장품 및 의료기기 비중 증가 지속으로 70% 후반 유지 전망. 4Q25E 글로벌 심포지엄 및 리쥬비넥스 광고 개시로 광고선전비 YoY +42%, QoQ +45% 증가한 181억원 집행, OPM 43.2%(YoY +10.5%p) ▶ 2026E 매출액 7,013억원(YoY +29%), 영업이익 3,160억원(YoY +39%)을 전망. 1) 의료기기 수출 YoY +48%로 유럽 판매 개시를 중심으로 중동/남미 판매 국가 확대와 함께 성장 전망. 2) 화장품 수출 YoY +36%로 중국 세포라 입점 완료(오프라인 독점). 미국 스킨케어 제품군은 타사 PDRN 라인업 대비 2배 ASP에도 불구하고 시술 레퍼런스와 함께 판매 호조세 지속 전망. 3) 2H26E",
               "post_url": "https://t.me/daolresearch/13236",
@@ -27269,7 +27269,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/GP466Nd",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /GP466Nd (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae241e1b0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[클래시스(214150)/ BUY(유지)/ TP 8.4만원(유지)/ 다올 의료기기 박종현] ★ 4Q25E Preview: 순항 중, 환입으로 서프라이즈도?",
               "summary": "[클래시스(214150)/ BUY(유지)/ TP 8.4만원(유지)/ 다올 의료기기 박종현] ★ 4Q25E Preview: 순항 중, 환입으로 서프라이즈도? ▶ 실적 Preview [요약] 4Q25E 매출액 984억원(YoY +32%, QoQ +19%), 영업이익 502억원 (YoY +40%, QoQ +33%)으로 컨센서스 부합 전망 [내수 장비] 리팟 30대, 쿼드세이 75대 판매로 117억원(YoY +23%, QoQ +1%) 전망. 슈링크 판매 증가율 둔화를 이루다 장비 통해 만회 [내수 소모품] 볼뉴머 신규 프로모션 효과 기반으로 매출액 183억원(YoY +29%, QoQ +16%) 달성 전망 [수출 장비] 380억원으로 기존 추정치 대비 -12% 하향 조정, 브라질향 판매가 소모품부터 순차 출고됨에 따라 2026E 장비 판매 본격 회복 기대 [수출 소모품] 252억원으로 YoY +38%, QoQ +32% 전망. JL Health 인수 공시 후, 2025.11월 선적 부재, 12월 브라질향 수출 40억원 추정 [영업이익률] 51.0%로 광고선전비 53억원(QoQ -7억원), 대손상각비 10억원(QoQ -13억원) 전망. 유통사 인수로 인한 추가 환입으로 이익률 개선 가능(3Q25 브라질 매출채권 278억원) ▶ 2025.10월 볼뉴머 중국 NMPA 품목 허가 신청. 2H26E 품목 허가 및 출시 전망. 중국 유통사 논의 개시. 슈링크유니버스는 2027E 품목 허가 예정. 2025.12월 ‘Annals of Dermatology’에서 볼뉴머와 경쟁 제품 비교 임상에서 피부 밀도 및 모공 축소 효과에 있어서 경쟁 제품 대비 임상적 개선 효과 확인. 임상적 근거 확보와 함께 볼뉴머 MS 확대 전망 ▶ 2026E 매출액 5,136억원(YoY +50%), 영업이익 2,368억원(YoY +4",
               "post_url": "https://t.me/daolresearch/13216",
@@ -27300,7 +27300,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/15Q9KuB",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /15Q9KuB (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2005c10>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올 의료기기 박종현] ★ 의료기기(Overweight): 허공답보 보단 진검승부 2025.12월 수출데이터 잠정치",
               "summary": "[다올 의료기기 박종현] ★ 의료기기(Overweight): 허공답보 보단 진검승부 2025.12월 수출데이터 잠정치 ▶ Implication 1/1일 4Q25 관세청 수출 데이터 발표와 함께 실적주들에 대한 관심도 높아질 전망. 4Q25 평균 원달러 환율 1,449원/달러(YoY +3.5%, QoQ +4.5%)로 원화 약세에 따라 수출 기업들에 대한 실적 추정치 상향 기대감 존재. 특히 2025.12월 브라질 미용 의료기기 수출 YoY +87%, MoM +139% 기록하며, 클래시스(BUY, TP 8.4만원) 브라질 유통사 인수 효과 확인. 4Q25 실적 발표와 함께 동사 가이던스 발표를 통해 미반영되었던 브라질 유통사 인수 In-organic 성장으로 컨센서스 EPS 상향과 함께 주가 상승 전망. 4Q25를 시작으로 유럽 판매가 본격화되는 파마리서치(BUY, TP 80만원) 또한 2026년에도 EPS YoY +35% 성장 국면. 또한 4Q25 원화 약세에 따라 방한 외국인 구매력 증가에 따른 지출 여력 증가가 국내 미용 의료 시술 횟수 증가 기여 전망. 미용 의료기기 업종에 대한 선호(Overweight) 의견 유지, 미용 의료 성형 환급은 재논의될 예정이나, 원화 약세에 따른 실질 시술 가격 하락폭이 더 큰 국면으로 미용 의료기기 업종 선호. 파마리서치와 클래시스 최선호 ▶ 보툴리눔 톡신 4Q25 전체 118.6백만달러로 YoY +24%, QoQ +4% 달성. 북미와 중국, 브라질이 YoY +25%, +25%, +41% 성장하며 수출 호조 견인. 특히, 2025.12월 북미/중국/브라질/태국 모두 YoY +58%, +62%, +248%, +35%. [대웅제약] 관세 선대응 목적으로 2025.10월 북미향 17.9백만달러 선적으로 4Q25 화성시 선적 QoQ 유사 추정. [휴젤] ",
               "post_url": "https://t.me/daolresearch/13199",
@@ -27344,7 +27344,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/EduUrk6",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /EduUrk6 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae20079b0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[아모레퍼시픽(090430)/ BUY(유지)/ TP 16만원(하향)/ 다올 화장품 박종현] ★ 4Q25E Preview: 일회성 비용에 따른 컨센서스 하회 전망",
               "summary": "[아모레퍼시픽(090430)/ BUY(유지)/ TP 16만원(하향)/ 다올 화장품 박종현] ★ 4Q25E Preview: 일회성 비용에 따른 컨센서스 하회 전망 ▶ 4Q25E 매출액 1.1조원(YoY +3%, QoQ +11%), 영업이익 621억원(YoY -21%, QoQ -32%)을 전망 [국내] 방한 외국인 유입 증가에 따라 MBS채널 및 백화점의 판매 호조 기반으로 YoY +5% [중화권] 전년 높은 기저로 YoY -10%, 설화수 오프라인 매장은 100개 미만으로 감소. 수익성 위주 정책으로 전환 중 [서구권] COSRX 제외 서구권 YoY +19%, QoQ +13% 전망. 미국 YoY +16%로 아마존 블랙프라이 데이 셀인 효과 기반으로 라네즈가 안정적 성장을 하는 가운데, 설화수 일부 백화점 입점 지속. 에스트라는 600여개 북미 세포라 입점 완료하며, QoQ 매출 성장 지속 [COSRX] 매출액 1,290억원 YoY -11%, QoQ +29%을 전망. RX라인 펩타이드 아이패치의 판매 호조와 아마존 블랙프라이데이 기간 중 스네일 라인 판매 호조로 QoQ 성장 기대 [OPM] 4Q25E 5.5%로 구조조정 관련 일회성 비용 350억원 반영 ▶ 2026E 매출액 4.6조원(YoY +8%), 영업이익 4,940억원(YoY +43%)을 전망. 2026E부터 COSRX의 성장 전환이 핵심. 2026E COSRX 매출액 5,150억원으로 YoY +21% 전망. COSRX 성장 및 라네즈 판매 호조, 에스트라 입점 효과를 기반으로 북미 매출액 7,340억원으로 YoY +17% 기대. EMEA 또한 YoY +21% 성장세와 함께 서구권 매출액 1조원 근접 기대(YoY +18%, 매출 비중 212%). 중화권 매출액 5,270억원으로 YoY +3%로 보수적 추정이나, 중화권 판매 회복에 ",
               "post_url": "https://t.me/daolresearch/13198",
@@ -27388,7 +27388,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/3YEl4Oe",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YEl4Oe (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2010c80>, 'Connection to buly.kr timed out. (connect ",
               "title": "[코스맥스(192820)/ BUY(유지)/ TP 21만원(하향)/ 다올 화장품 박종현] ★ 4Q25E Preview: 추정치 하향 조정의 끝",
               "summary": "[코스맥스(192820)/ BUY(유지)/ TP 21만원(하향)/ 다올 화장품 박종현] ★ 4Q25E Preview: 추정치 하향 조정의 끝 ▶ 2024년 이후 2년간 동사의 컨센서스 추이는 연초 이후 상향 조정, 하한기 이후 하향 추이를 반복. 2026E 동사 가이던스 대비 낮은 추정치가 실적 추정치 상향 근거. 특히, 중국 상하이의 대형 고객사 수주 확보 추이 및 광저우 색조 매출 비중 증가 기대. 컨센서스 추정치 하향 조정이 종료되는 국면으로 4Q25E 실적 이후로는 호재에 민감한 국면 진입 기대. 추정치 하향에 따라 적정주가 21만원 하향 ▶ 4Q25E 매출액 5,911억원(YoY +6%, QoQ +1%), 영업이익 408억원(YoY +2%, QoQ -5%)로 컨센서스 소폭 하회 전망. [국내(★)] 매출액 3,640억원으로 YoY +5%. 2025.10월 추석 연휴로 생산 감소로 월매출 YoY 역성장, 11, 12월 YoY 두 자릿수 성장세 회복. [중국(★★★)] 상하이 매출액 970억원으로 스킨케어/색조 수주 증가로 YoY +2%. 광저우 YoY +13%, 로코 신규 고객사 확보 및 채널 다변화 지속 중. [동남아(★)] 인니 YoY -15%, 중저가 경쟁 심화에 따라 수주 감소 지속. 태국 YoY +5%, 미얀마 고객사 수입 허가 지연. [미국(★)] 매출액 YoY +11% ▶ 2026E 매출액 2,7조원(YoY +13%), 영업이익 2,214억원(YoY +13%)를 전망. 중국 고객사 확보가 실적 성장(중국 매출액 6,770억원, YoY +14%)을 견인하는 과정 속, 국내(YoY +13%)/태국(YoY +18%) 법인이 안정적인 성장 * 보고서 원문 및 컴플라이언스 < https://buly.kr/3YEl4Oe > * 텔레그램 채널 링크 < https://t.me/a",
               "post_url": "https://t.me/daolresearch/13197",
@@ -27590,7 +27590,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/HSYcYnM",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /HSYcYnM (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2007230>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 운송 오정하] CJ대한통운(000120) 4Q25 Pre: 기회는 준비된 자의 몫 - 4Q25 연결 영업이익 1,489억원(-4% YoY, 이하 YoY), 컨센서스 부합이 예상됨 - 오네 서비스 안정화 및 쿠팡사태 반사수혜로 물동량 6% 증가가 예상됨 - 다만 글로벌 물류경기 둔화 영향으로 항만, 포워딩 사업 실적 부진 - 쿠팡 청문회 결과에 따라 단기적인 변동성 발생 가능하나 오네 서비스 확산에 따른 시장점유율",
               "summary": "[다올투자증권 운송 오정하] CJ대한통운(000120) 4Q25 Pre: 기회는 준비된 자의 몫 - 4Q25 연결 영업이익 1,489억원(-4% YoY, 이하 YoY), 컨센서스 부합이 예상됨 - 오네 서비스 안정화 및 쿠팡사태 반사수혜로 물동량 6% 증가가 예상됨 - 다만 글로벌 물류경기 둔화 영향으로 항만, 포워딩 사업 실적 부진 - 쿠팡 청문회 결과에 따라 단기적인 변동성 발생 가능하나 오네 서비스 확산에 따른 시장점유율 확대에 집중 - 투자의견 Buy, 적정주가 110,000원 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/HSYcYnM",
               "post_url": "https://t.me/daolresearch/13201",
@@ -27617,7 +27617,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/74XugBO",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /74XugBO (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2006060>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 운송 오정하] 대한항공(003490) 4Q25 Pre: 반전의 항공화물과 아쉬운 환율 - 4Q25 연결 영업이익 2,886억원(-38% YoY, 이하 YoY), 컨센서스 상회가 예상됨. 고환율이 반영되며 수익성은 악화 예상 - 대한항공 별도: 영업이익 4,041억원(-7%) 예상. 추석/겨울 성수기가 반영되며 국제선 운임 +3% 예상 - 항공화물도 운임이 전년대비 1% 상승하며 호조. AI 관련 수요가 상승압력을",
               "summary": "[다올투자증권 운송 오정하] 대한항공(003490) 4Q25 Pre: 반전의 항공화물과 아쉬운 환율 - 4Q25 연결 영업이익 2,886억원(-38% YoY, 이하 YoY), 컨센서스 상회가 예상됨. 고환율이 반영되며 수익성은 악화 예상 - 대한항공 별도: 영업이익 4,041억원(-7%) 예상. 추석/겨울 성수기가 반영되며 국제선 운임 +3% 예상 - 항공화물도 운임이 전년대비 1% 상승하며 호조. AI 관련 수요가 상승압력을 제공함 - 반면 연결 자회사들의 실적 부진은 지속될 전망. 2027년 통합까지 점진적으로 계열사간 시너지가 가시화되는 시점에 재평가를 예상함 - 투자의견 Buy, 적정주가 29,000원 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/74XugBO",
               "post_url": "https://t.me/daolresearch/13200",
@@ -28114,7 +28114,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/5JOOUeK",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /5JOOUeK (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3f92bd0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ LG에너지솔루션(373220) - 4Q25 잠정실적: 이번에도 과도했던 우려",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ LG에너지솔루션(373220) - 4Q25 잠정실적: 이번에도 과도했던 우려 ▶ LG에너지솔루션의 4Q25 잠정실적 공시. 매출액은 6.14조원(YoY -4.8%, QoQ +7.7%), 영업이익은 -1,220억원 기록 ▶ 3Q25에도 매출액 증가세가 커진 ESS사업이 금번에도 QoQ +50%을 넘어서는 매출성장이 나타난 것으로 추정되며, 3Q25 6천억원 > 4Q25에 1조원을 상회한 것으로 추정 ▶ 2026년 GM향 출하량은 감소세를 보일 전망이나, ESS 출하 급증에 힘입어 연간 AMPC 대상 배터리 출하량은 2025년 31GWh > 42GWh로 약 30% 증가할 것으로 추정 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/5JOOUeK >",
               "post_url": "https://t.me/daolresearch/13275",
@@ -28141,7 +28141,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/DlKkeJJ",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /DlKkeJJ (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae1f72630>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 현대차그룹주 주가 견인",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 현대차그룹주 주가 견인 ▶ CES 2026을 통해 현대차그룹이 로봇사업을 집중 공개. 현대차의 미디어데이 발표의 핵심은 보스턴 다이나믹스의 신형 상업용 아틀라스 공개 ▶ 보스턴 다이나믹스는 2030년 기준 3만대 규모 생산계획을 발표. 현대차그룹의 미국 전기차 공장인 HMGMA에서 로봇 훈련센터인 RMAC을 설립 ▶ LG에너지솔루션의 4Q25 영업이익은 -1,220억원 기록. AMPC를 제외시 영업이익은 -4,548억원이며, 역산시 AMPC는 3,328억원에 해당 ▶ LFP 양극재의 핵심 소재인 전구체 국산화 시작. 포스코퓨처엠과 엘앤에프는 LFP 양극재 소재 국내 양산을 2027년부터 개시 예정 ▶ 현대차로보틱스랩에서는 차세대 모빌리티 로봇플랫폼 MobED를 발표. 2026년부터 소매판매가 예정되어 있으며 스스로 판단이 가능한 온디바이스 AI칩이 부각중 ▶ Non-Tesla 진영의 Nvidia에 대한 의존도가 급격하게 상승하기 시작. Alpamayo로 대부분의 카메이커가 대량의 합성데이터 플랫폼을 확보할 수 있게됨 ★보고서 및 컴플라이언스 노티스 ☞ < https://buly.kr/DlKkeJJ >",
               "post_url": "https://t.me/daolresearch/13256",
@@ -28168,7 +28168,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/7mCyPXe",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /7mCyPXe (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae1f70650>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight): 현대차의 로봇 전략 제시, 이제는 실행의 디테일이다",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight): 현대차의 로봇 전략 제시, 이제는 실행의 디테일이다 ▶ CES 2026 미디어 데이에 참가한 결과, 현대차의 2026년 최대 주안점이 휴머노이드 로봇의 개발 및 양산에 맞춰져 있음을 확인 ▶ Atlas를 2028년부터 현대차그룹의 HMGMA에 본격 대량 양산 배치, 2030년에는 연간 3만대 생산 규모를 목표 ▶ 보스턴다이나믹스와 현대차그룹은 HMGMA에 로봇의 현장 훈련을 본격화하기 위해 RMAC(Robot Manufacturing Application Center)를 설립 ▶ 현대차그룹은 글로벌 자동차 회사 중 유일하게 자사 공장내에서 로봇을 직접 훈련시키는 인프라를 보유 ▶ 현대차그룹은 보스턴 다이나믹스의 지분율 93%를 확보한 상태로, 보스턴 다이나믹스의 상업화 가속에 따른 지분가치가 부각되는 초기 국면에 진입 ▶ 향후 일정상 RMAC 건설과 대규모 양산이 본격화되는 과정에서 추가적인 자금 투입 가능성은 감안할 필요가 있음 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/7mCyPXe >",
               "post_url": "https://t.me/daolresearch/13229",
@@ -28199,7 +28199,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/CWvQAWw",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /CWvQAWw (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3a10c80>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 4Q25 Preview: 악재소진, 움직이는 큰 그림",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 4Q25 Preview: 악재소진, 움직이는 큰 그림 ▶ 4Q25 실적 전 계약만료 공시 등이 집중되며 업황부진이 재확인. EV향 사업부진에 대해서 시장은 이미 인지하고 있으며, ESS 사업의 업사이드가 중요. ▶ 1Q26을 앞두고 다운사이드 리스크가 선반영된 삼성SDI와 니켈광산 프로젝트 수혜가 예상되는 에코프로비엠을 선호 ▶ 국내 대형 배터리 셀/소재사들의 실적조정 마무리 단계에 임박. LG에너지솔루션과 삼성SDI의 ESS 및 소형전지 사업이 EV 배터리 매출 비중과 동일한 수준까지 확대 ▶ LG에너지솔루션과 삼성SDI의 4Q25 영업이익은 각각 -188억원, -4,650억원, AMPC는 각각 2,690억원, 581억원 추정. 소재사들의 경우 3사 모두 전분기에 이은 흑자 예상 ▶ EV사업 부진에도 불구, 4Q25의 ESS 매출 확인과 함께 주가 정상화를 예상. 빅테크 업체들의 AI 데이터센터향 Capex 가이던스 발표 이후 ESS 수주 모멘텀이 재점화될 것으로 기대 ▶ 투자의견 및 적정주가 요약 - LG에너지솔루션: TP 50만원(BUY) - 삼성SDI: TP 38만원(BUY)_Top Pick - 포스코퓨처엠: TP 27만원(BUY) - 에코프로비엠: TP 20만원(BUY)_Top Pick - 엘앤에프: TP 13만원(BUY) ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/CWvQAWw >",
               "post_url": "https://t.me/daolresearch/13208",
@@ -28226,7 +28226,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/DlKi6gv",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /DlKi6gv (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2005250>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 로봇으로 시선은 더 빠르게 이동 중",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 로봇으로 시선은 더 빠르게 이동 중 ▶ CES 2026을 앞두고 자동차 산업의 로봇산업 진출에 대한 기대감이 빠르게 확산. 현대차 그룹은 CES에서 AI로보틱스 생태계 확장 전략을 발표할 계획 ▶ HL만도는 최근 CID를 통해 28년부터 2족보행 로봇 액츄에이터를 본격 양산할 계획이라고 발표 ▶ 리튬 가격 반등세 지속. 탄산리튬기준 4Q25에만 50% 이상 반등해 현재 톤당 11.9만 위안 기록 중. 중국의 리튬 공급 조절과 ESS수요가 교차발생 ▶ 엘앤에프의 테슬라향 물량 정정내역 공시. 2025년 12월 종료 기준으로, 미주 대응 물량 3.8조원에 대한 계약금액 (9.7백만원, 사실상 미공급)변경 ▶ 미국의 자동차 수요는 2025년 기준 YoY +2.5% 내외 추정. 12월의 중고차 가격 지수는 YoY +0.6%, MoM +0.3%를 기록 중으로, 산업수요가 견조함을 시사 ▶ 4Q25 테슬라 판매량 발표에 앞서 집계된 컨센서스는 42.3만대. ESS의 경우 13.5GWh로, 전분기 대비 약 1GWh 가량 증가한 수치 ★보고서 및 컴플라이언스 노티스 ☞ < https://buly.kr/DlKi6gv >",
               "post_url": "https://t.me/daolresearch/13204",
@@ -28669,7 +28669,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/2UkH9Ss",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /2UkH9Ss (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3f88440>, 'Connection to buly.kr timed out. (connect ",
               "title": "[오리온(271560) | BUY(유지) | TP 15만원(상향) | 다올 음식료 이다연] ★ 4Q25 Preview: 4Q25 선방, 1Q26 춘절, 2Q26 기저",
               "summary": "[오리온(271560) | BUY(유지) | TP 15만원(상향) | 다올 음식료 이다연] ★ 4Q25 Preview: 4Q25 선방, 1Q26 춘절, 2Q26 기저 ▶ 4Q25 매출액 9,235억원 (YoY +7.2%), 영업이익 1,600억원 (YoY +0.2%, OPM 17.3%)으로 매출액 기준 시장 기대치 상회 추정 ▶ 설 시점 차이로 인한 베이스 부담에도 12월 중국은 선방, 베트남 매출액은 YoY (+) 성장 추정. 이어 1Q26은 설 시점 차가 YoY (+) 효과로 작동하는 분기, 2Q26는 전년 경쟁사의 과재고 프로모션 영향으로 중국 법인 기저가 낮음 ▶ 반면 동사의 ‘26년 P/E는 9배로 Valuation 매력 매우 높음. Downside Risk 대비 Upside Risk가 더 큰 구간임은 분명하며, 이에 적정P/E를 상향해 (11→13배) 적정주가를 15만원으로 상향 조정 *보고서 원문 및 Compliance Notice: https://buly.kr/2UkH9Ss",
               "post_url": "https://t.me/daolresearch/13281",
@@ -28708,7 +28708,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/9MRp36C",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /9MRp36C (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae432c140>, 'Connection to buly.kr timed out. (connect ",
               "title": "[삼양식품(003230) | BUY(유지) | TP 180만원(유지) | 다올 음식료 이다연] ★ 4Q25 Preview: 주가 회복의 실마리 네 가지",
               "summary": "[삼양식품(003230) | BUY(유지) | TP 180만원(유지) | 다올 음식료 이다연] ★ 4Q25 Preview: 주가 회복의 실마리 네 가지 ▶ 4Q25 매출액 6,759억원 (YoY +41.2%, QoQ +7.0), 영업이익 1,485억원 (OPM 22.0%, YoY +69.4%, QoQ +13.4%) 추정 ▶ 적정주가는 ‘26년 EPS에 적정 P/E 25배(유지)를 적용해 도출. 최근 주가 급락으로 현재 주가는 ‘26년 추정치 기준 P/E 17배까지 하락. 동시에 구글 트렌드 지표는 ‘26년 1월 11일 기준 100 (최고값) 기록. 해당 지표를 주가 선행 지표라 가정하면, 현재 주가는 충분히 매력적인 레벨 ▶ 이에 더해 1) 밀양2공장 램프업 효과의 수출액 반영 및 잠재적인 생산량 증대 이벤트 등장 가능성, 2) 미국법인 매출액 QoQ 증가 지속, 3) 소스 관련 글로벌 프랜차이즈 콜라보 등장 가능성 고려 시, 분할 매수 전략 유효 *보고서 원문 및 Compliance Notice: https://buly.kr/9MRp36C",
               "post_url": "https://t.me/daolresearch/13263",
@@ -28992,7 +28992,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/AllsuAA",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /AllsuAA (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3f92720>, 'Connection to buly.kr timed out. (connect ",
               "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 전기로 회복이 눈에 보이기 시작했다",
               "summary": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 전기로 회복이 눈에 보이기 시작했다 ▶ 4Q25E 연결 매출액과 영업이익 각각 5.7조원(YoY +1.4%, QoQ -0.7%), 1,082억원(YoY 흑자전환, QoQ +16.0%)으로 컨센서스 하회하는 실적 전망. 별도실적과 연결실적 모두 QoQ로 OPM이 소폭 개선되긴 하지만 아직 정도는 크지 않음. 연결 자회사는 3Q25에 높은 기저를 형성했고 현대스틸파이프 부진으로 4Q25E 소폭 감소 예상. 2Q26E부터는 현대IFC가 매각으로 연결 영업이익에서 제외되지만, 4Q25E부터 25만톤 생산능력 보유한 인도 푸네 SSC가 가동되면서 실적 기여 가능. 현대IFC 매각 이후 인수 컨소시엄에 20% 투자해 향후 지분법 이익으로 반영 예정 ▶ 4Q25E 별도 매출액과 영업이익 각각 4.5조원(YoY -0.1%, QoQ -1.2%), 730억원(YoY 흑자전환, QoQ +54.9) 추정. 판재류는 2.9백만톤(QoQ -14만톤) 판매로 부진, 봉형강류는 1.3백만톤(QoQ +4만톤)으로 소폭 회복. 철광석과 철스크랩 가격이 모두 QoQ 소폭 상승했음에도 스프레드는 톤당 고로 +7천원, 전기로 +2천원 확대되어 회복기조 지속 중에 있음. 철근 국내 시황은 아직 좋은 상황은 아니지만 2025년 말 톤당 65.5만원에서 최근 톤당 71.0만원으로 가격 반등 성공. 가격 정상화를 위해 국내 철근사들이 가동률을 낮게 유지하고 있는 점이 유효하게 작용 ▶ 수입산 재고의 소진시기는 당초 기대했던 것보다 미뤄지고 있어 열연 판매량과 판매가격에 영향이 미미한 상황. 또한, 중국의 수출허가제 시행으로 인해 시행 이전인 2025.12월 선급용 위주로 후판 수입이 증가. 1H26E 내로 수입산 재고의 소진으로 판매 정상",
               "post_url": "https://t.me/daolresearch/13278",
@@ -29031,7 +29031,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/15QBrc3",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /15QBrc3 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae1f70710>, 'Connection to buly.kr timed out. (connect ",
               "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 45만원(유지)/ 다올 철강 이정우] ★ 전사 회복은 아직",
               "summary": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 45만원(유지)/ 다올 철강 이정우] ★ 전사 회복은 아직 ▶ 3Q25E 연결 매출액과 영업이익 각각 17.2조원(YoY -3.7%, QoQ -0.6%), 3,997억원(YoY +319.1%, QoQ -37.4%)으로 컨센서스 하회 전망. 당분기에 예상보다 낮은 판매량 800만톤 기록 예상해 철강부문의 영업이익률은 전 분기대비 소폭 감소. 또한, 자회사의 부진이 이어지고 있는데, 3Q25중 발생한 포스코이앤씨 영업중단손실 잔여분 등이 4Q25E 발생하면서 2,000억원대 적자 반영. 탄산리튬 가격은 2025년 연말 톤당 16,000달러 대에 진입했지만 전방 업황 회복 지연으로 이차전지소재 부문 영업이익 -946억원 추정 ▶ 포스코 별도 매출액과 영업이익 각각 8.6조원(YoY -5.2%, QoQ +0.7%), 4,523억원(YoY +40.7%, QoQ -22.7%) 전망. 판매량 부진으로 매출액 외형은 작아졌으나, 스프레드는 QoQ 플랫한 수준으로 예상해 OPM은 전 분기대비 1.4%p 감소한 5.2% 추정 ▶ 수입산 열연 재고는 아직 시장에서 해소되지 않은 상태로 추정되어 열연 판가인상 시점은 지연. 다만, 중국산 열연수입량은 반덤핑 관세 부과 이후 오퍼가 거의 발생하지 않고 있어 해소 시점 이후의 판매량 회복을 기대. 또한, 중국의 수출허가제 시행을 앞두고 12월 후판 수입량 급증. 1Q26E까지도 수입산 제품의 영향은 일부 이어질 가능성 존재. 다만, 중국의 수출허가제 시행으로 수출가격은 소폭 반등해 긍정적 ▶ 투자의견 BUY, 적정주가 45만원 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/15QBrc3 >",
               "post_url": "https://t.me/daolresearch/13248",
@@ -29561,7 +29561,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/AF1bwvr",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /AF1bwvr (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3a950d0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 12월 미국 처방 실적",
               "summary": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 12월 미국 처방 실적 ▶ Infliximab 점유율(IV시장 기준): Remicade 49.8%, Inflectra 29.5%, Renflexis 10.4%, Avsola 10.3% (수량 기준) ▶ Remicade 55.8%, Inflectra 30.2%, Renflexis 8.4%, Avsola 5.6% (금액 기준) *Institutional 기준으로 retail은 제외한 수치 ▶ Rituximab 점유율: Rituxan 23.0%, Truxima 31.6%, Ruxience 38.5%, Riabni 7.0% (수량 기준) ▶ Rituxan 26.7%, Truxima 33.1%, Ruxience 34.1%, Riabni 6.2% (금액 기준) ▶ Trastuzumab 점유율: Herceptin 11.1%, Kanjinti 29.4% Ogivri 24.4%, Trazimera 29.7%, Herzuma 2.3%, Ontruzant 3.1% (수량 기준) ▶ Herceptin 14.7%, Kanjinti 34.2%, Ogivri 19.5% Trazimera 25.9%, Herzuma 2.2%, Ontruzant 3.4% (금액 기준) ▶ Bevacizumab 점유율: Avastin 11.3%, Mvasi 53.9%, Zirabev 25.4%, Vegzelma 9.4% (수량 기준) ▶ Avastin 10.8%, Mvasi 55.8%, Zirabev 23.9%, Vegzelma 9.6% (금액기준) ▶ Adalimumab 점유율: Humira 9.5%, Humira CF 57.7%, Hadlima 11.4% Hyrimoz 9.3%, Amjevita 3.8%, Clytezo 4.3%",
               "post_url": "https://t.me/daolresearch/13259",
@@ -29600,7 +29600,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/15QBqsu",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /15QBqsu (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae1f703e0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[SK바이오팜(326030)/BUY(유지)/TP 15만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 4Q25 Preview: 잠깐 숨 고르기, 성장 스토리는 유지",
               "summary": "[SK바이오팜(326030)/BUY(유지)/TP 15만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 4Q25 Preview: 잠깐 숨 고르기, 성장 스토리는 유지 ▶ 4Q25 연결 매출액 1,766억원(+8.3% YoY, -7.9% QoQ), 영업이익 492억원(+21.1% YoY, -29.8% QoQ; OPM 27.9%)으로 추정 ▶ 예상 대비 적은 비용 집행에도 불구하고 GTN rate 상승 및 도매상 재고 조정 영향으로 시장 기대치 하회할 전망. 다만 이는 연초 약가 인상 전 과도한 도매상 재고를 정상화하는 과정에서 발생한 일시적 매출 감소로 판단 ▶ 2026년에는 엑스코프리 처방 확대를 중심으로 second product 도입, 세노바메이트 적응증 확장(PGTC, 소아 대상), 방사성 치료제 임상 진전에 따른 신약 가치 반영 기대 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/15QBqsu >",
               "post_url": "https://t.me/daolresearch/13243",
@@ -29639,7 +29639,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/D3fhpXl",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /D3fhpXl (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae241e750>, 'Connection to buly.kr timed out. (connect ",
               "title": "[삼성바이오로직스(207940)/BUY(유지)/TP230만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 안정적인 실적, 성장 스토리는 진행형",
               "summary": "[삼성바이오로직스(207940)/BUY(유지)/TP230만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 안정적인 실적, 성장 스토리는 진행형 ▶ 4Q25 별도 매출액 1조 2,584억원(+32.4% YoY, +0.1% QoQ), 영업이익 5,576억원(+77.2% YoY, -11.9% QoQ; OPM 44.3%)으로 추정 ▶ 1~4공장 풀가동 및 환율 영향으로 시장 기대치 부합할 전망. 다만 연말로 갈수록 환율이 상승했으나, 매출 인식 시점이 분기 초~중반에 집중되며 12월 고환율 구간이 적용되는 매출 비중은 제한적일 전망 ▶ 5공장 매출은 2Q26부터 반영 예상. GSK 미국 공장 인수로 추가적인 CMO 매출 발생 기대. 다만 매출 및 수익성, 증설 계획에 대한 세부 내용은 인수 종료 이후 제시될 예정으로, 관련 실적은 추후 반영 예정. 1Q26내 6공장 착공 가능성 유효. JPM 헬스케어 컨퍼런스에서 6공장 증설 계획 공개 예상. 투자의견 BUY 및 적정주가 230만원 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/D3fhpXl >",
               "post_url": "https://t.me/daolresearch/13225",
@@ -29690,7 +29690,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/DaPy2xm",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /DaPy2xm (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3a116a0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[셀트리온(068270)/BUY(유지)/TP24만원(상향)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 4Q25 Preview: 신제품 효과 위에 CMO 모멘텀",
               "summary": "[셀트리온(068270)/BUY(유지)/TP24만원(상향)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 4Q25 Preview: 신제품 효과 위에 CMO 모멘텀 ▶ 4Q25 연결 매출액 1조 2,841억원(+20.7% YoY, +24.8% QoQ), 영업이익 4,722억원(+140.4% YoY, +56.7% QoQ; OPM 36.8%)으로 추정. 이는 12/31 전망 공시 수치와 유사한 수준 ▶ 테바 CMO 매출 부재에도 불구하고 고마진 신제품 매출 성장과 고원가 재고 소진 효과로 시장 기대치 상회 기대 ▶ 2026년에도 신제품(아이덴젤트, 옴리클로 미국 등) 출시 효과 지속 예상. 테바 및 일라이 릴리 CMO 매출 발생으로 탑라인 성장 이어질 전망. 연간 추정치 조정으로 적정주가 24만원으로 상향. 투자의견 BUY 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/DaPy2xm >",
               "post_url": "https://t.me/daolresearch/13207",
@@ -30006,7 +30006,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/H6jADME",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /H6jADME (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3f93920>, 'Connection to buly.kr timed out. (connect ",
               "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 12월 음반원 업데이트 1) 음반 판매량 업데이트",
               "summary": "[엔터(Overweight) | 다올 엔터 임도영] ★ 12월 음반원 업데이트 1) 음반 판매량 업데이트 ▶ 12월 총 225만장(YoY-55.7%; 이하 YoY), 4사 합산 132만장(-67.2%). 하이브 53.4만장(+81%), 에스엠 45.4만장(+1%), JYP Ent. 25.4만장(-92%), 와이지엔터테인먼트 7.8만장(+16%). 주요 IP들의 컴백 부재 및 전년 동월 기저가 높아(스키즈, 트와이스 컴백) 전년 대비 부진한 판매량 기록. ▶ [HYBE] 12월 컴백 IP 부재. 코르티스의 경우 데뷔 앨범 발매 4개월차임에도 12월 18.7만장을 추가 판매하며 데뷔 앨범 연간 누적 판매량 138만장 돌파, 지속적인 팬덤 유입 확인. ▶ [SM] WayV는 21만장 판매로 겨울 스페셜 앨범임을 감안 시 양호한 판매량 기록. 그 외 도영(NCT 127) 5만장, 태연(소녀시대) 10만장, 민호(샤이니) 3만장 등 솔로 위주의 활동 영향. ▶ [JYP] 12월 컴백 IP 부재. 11월 컴백했던 스키즈가 신보 [DO IT] 16.5만장을 추가 판매, 구보 7만장을 판매하며 전체 음반 판매 견인. 월드투어 [dominATE] 종료 이후 월평균 6~7만장의 구보 판매가 지속되며 팬덤 유입 지속 중. ▶ [YG] 12월 컴백 IP 부재. 트레저가 구보 4.2만장을 판매, 해당 기간 아시아 투어의 일본 공연 외 유의미한 활동이 없었던 점을 감안 시 일본 중심의 견고한 팬덤 기반이 지속 확대 판단. 베이비몬스터는 10월 컴백 앨범 3개월 총판매량 69만장 달성. 직전 앨범 대비 약 21% 감소한 점은 아쉬우나 공연 모객 수 및 데뷔 앨범부터의 판매량 추이를 감안 시 성장세는 유지 중으로 판단, 다음 앨범에서 70만장 이상으로 판매량 반등 여부가 중요. 2) 음원 업데이트 ▶ 12월 엔터",
               "post_url": "https://t.me/daolresearch/13276",
@@ -30105,7 +30105,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/CqMPgW",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /CqMPgW (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2007a40>, 'Connection to buly.kr timed out. (connect t",
               "title": "[ESG | 다올투자증권 투자전략 조병현 ☎ 2184-2351] ★ ESG stories VOL. 10 유럽의 ESG 정책 동향 점검",
               "summary": "[ESG | 다올투자증권 투자전략 조병현 ☎ 2184-2351] ★ ESG stories VOL. 10 유럽의 ESG 정책 동향 점검 ▶ 글로벌 ESG 정책의 후퇴기조 가시화 ▶ 유럽지역의 ESG 정책 동향 점검 ▶ 계획대로 되진 않았지만, 진로는 모색하고 있다 ♣ 보고서 원문 및 Compliance Notice : < https://buly.kr/CqMPgW >",
               "post_url": "https://t.me/daolresearch/13192",
@@ -30121,9 +30121,19 @@
           "opinion": "비중확대",
           "opinion_history": [
             {
+              "value": "중립",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13205"
+            },
+            {
               "value": "비중확대",
               "date": "2026-01-04",
               "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "value": "중립",
+              "date": "2026-01-11",
+              "source": "https://t.me/daolresearch/13257"
             },
             {
               "value": "중립",
@@ -30138,7 +30148,27 @@
           ],
           "top_picks": [
             {
-              "text": "선호주: HD현대중공업, 한화엔진 2) 적정주가 상향: 멀티플 적정PER 20배 유지 2) Valuation 지점인 백로그너머를 2028년으로 반년 이동 4) 실적 조정: 2025년에 당사 기대보다 수주 미달 → 2027~2029 매출 낮춤",
+              "text": "선호주: 중국의 엔진, 미국의 MASGA",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "text": "44 HD현대중공업 (329180) _ Top Picks",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "text": "이번 자료에서 선호주는 상승여력에 따라 HD현대중공업, 한화엔진을 추천하지만, 조선업종 전체에",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "text": "선호주 종가(원) 504,000 2025E 21,937.6 2,801.3 12.8% 1,950.5 18,583 119,934 23.0 3.6 21%",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "text": "선호주 종가(원) 42,050 2025E 1,318.7 124.5 9.4% 106.2 1,273 5,935 10.7 7.2 30%",
               "date": "2026-01-04",
               "source": "https://t.me/daolresearch/13210"
             }
@@ -30146,15 +30176,73 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
-              "company": "삼성중공업",
+              "company": "조선",
+              "direction": "상향",
+              "old": 780000,
+              "new": 860000,
+              "display": "780,000원 → 860,000원",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가의 PER 105",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "67",
+              "direction": "상향",
+              "old": null,
+              "new": 780000,
+              "display": "780,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": ") 사업의 리드 야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "73",
+              "direction": "상향",
+              "old": null,
+              "new": 159000,
+              "display": "159,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "십억달러, 방산 1.5십억달러로 12.3십억달러 수주 예상치 제시. 올해 추정 달성한 9.6십억달러에서 증가로 LNG선 수주가 전년 13척에서 20척으로 늘기 때문 • 적정주가: 백로그너머를 2028년으로 옮기고, 적정PER 20 배를 유지해, 동사의 적정주가를 159,000원으로 +10% 상향 DAOL Investment & Securities | 50 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 73: 적정주가 159,000원으로 +10% 상향: 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 107 107 306 306 306 306 306 306 한화의 3자배정 유증 ↑ EPS_2차 증자 후 -15,843 -16,262 522 1,724 3,145 5,909 7,038 7,950 PER(고) -2.5 -1.8 95.6 23.8 48.2 19.5 PER(저)",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "79",
               "direction": "상향",
               "old": null,
               "new": 37000,
               "display": "37,000원 (상향)",
               "reasons": [
-                "어닝/실적 추정 상향"
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
               ],
-              "evidence": "HII가 따낸 FF(X)에서 어떤 협력이 펼쳐질지 지켜보자 ▶ 한화오션: Austal 지분 없지만, 방법이 생길거야 적정주가 14.5 → 15.9만원 +10%↑ - 영업이익 2025→2026 1.4→2.6조원 - 수주 96억달러 → 123억달러: LNG선 - 특수선 2030년 5조원 목표에, 당사 2029년 1.6조원 예상 - MASGA 협력과 CANADA 잠수함 등 필요 - 한화필리와 한화AUSTAL 관계 없지만, HD현대처럼 블록/선체 공급 허용 필요 ▶ 삼성중공업: 2025 FLNG 공백은, 2026에는 모멘텀 적정주가 3.7만원 유지 - 영업이익 2025→2026 0.9→1.6조원 - 수주 79억달러 → 111억달러: FLNG 2기, LNG선 - MASGA: GD-NASSCO와 NGLS에 참여 ▶ 한국카본: LNG 사이클에 머스트-해브 아이템 적정주가 4.1 → 4.7만원 상향 +15%↑ - 2025년 보냉재 수주(전자공시) 0.59조원 - 동사 주가 트리거는 1) 실적, 2) 조선사의 LNG선 수주 - 202",
+              "evidence": "공격적으로 제시. LNG선 수주가 7척에서 20척으로 늘고, FLNG 2기가 4십억달러에 달할 수 있지만 보수적으로 제시 • 나도 MASGA: 비록 전투함 포트폴리오는 없지만, GD의 NASSCO와 파트너십 계약을 체결해, NGLS(미 해군 차세대군수지원함) 사업을 수행하며 동사도 일정부분 수혜 기대 DAOL Investment & Securities | 55 In-Depthㅣ 조선 1. Valuation Fig. 79: 삼성중공업 적정주가 37,000원 유지: 실적 낮추지만 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 732 1,546 1,535 1,835 PER(고) -4.9 -9.2 -56.2 169.3 44.4 15.7 PER(저) -3.1 -7.1 -28.4 96.2 15.3 15.3 적정PER 12 15 20 적정 20 적정주가의 PER 509.7 ",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "85",
+              "direction": "상향",
+              "old": null,
+              "new": 47000,
+              "display": "47,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "적정PER 20배(유지)에서 47,000원으로 15% 상향 • 산업자료에서 최대 투자포인트인 2029년 LNG선 수요 강세, 슬롯 쇼티지가 시작되고, 사상최대 FID가 진행 중이어서 이번 LNG선 사이클은 3~4년은 지속되는 강도. LNG 신조시장 호황기에 보냉재, 그리고 동사는 필수 보유 종목임을 강조 DAOL Investment & Securities | 60 In-Depthㅣ 조선 1. Valuation Fig. 85: 한국카본 적정주가 47,000원으로 +15% 상향 (원, 배수) PER VALUATION 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 44 44 52 52 52 52 52 52 신소재 합병 위한 신주발행↑ ↑CB 200억원 잠재 주식 전환 포함 EPS 326 461 -245 391 1,689 2,107 2,637 2,341 YoY -75% 41% -153% -260% 332% 25% 25% -11% PER(고) 44.0 34.8 -61.4 ",
               "date": "2026-01-04",
               "source": "https://t.me/daolresearch/13210"
             },
@@ -30174,15 +30262,73 @@
           ],
           "tp_raises": [
             {
-              "company": "삼성중공업",
+              "company": "조선",
+              "direction": "상향",
+              "old": 780000,
+              "new": 860000,
+              "display": "780,000원 → 860,000원",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가의 PER 105",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "67",
+              "direction": "상향",
+              "old": null,
+              "new": 780000,
+              "display": "780,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": ") 사업의 리드 야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "73",
+              "direction": "상향",
+              "old": null,
+              "new": 159000,
+              "display": "159,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "십억달러, 방산 1.5십억달러로 12.3십억달러 수주 예상치 제시. 올해 추정 달성한 9.6십억달러에서 증가로 LNG선 수주가 전년 13척에서 20척으로 늘기 때문 • 적정주가: 백로그너머를 2028년으로 옮기고, 적정PER 20 배를 유지해, 동사의 적정주가를 159,000원으로 +10% 상향 DAOL Investment & Securities | 50 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 73: 적정주가 159,000원으로 +10% 상향: 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 107 107 306 306 306 306 306 306 한화의 3자배정 유증 ↑ EPS_2차 증자 후 -15,843 -16,262 522 1,724 3,145 5,909 7,038 7,950 PER(고) -2.5 -1.8 95.6 23.8 48.2 19.5 PER(저)",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "79",
               "direction": "상향",
               "old": null,
               "new": 37000,
               "display": "37,000원 (상향)",
               "reasons": [
-                "어닝/실적 추정 상향"
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
               ],
-              "evidence": "HII가 따낸 FF(X)에서 어떤 협력이 펼쳐질지 지켜보자 ▶ 한화오션: Austal 지분 없지만, 방법이 생길거야 적정주가 14.5 → 15.9만원 +10%↑ - 영업이익 2025→2026 1.4→2.6조원 - 수주 96억달러 → 123억달러: LNG선 - 특수선 2030년 5조원 목표에, 당사 2029년 1.6조원 예상 - MASGA 협력과 CANADA 잠수함 등 필요 - 한화필리와 한화AUSTAL 관계 없지만, HD현대처럼 블록/선체 공급 허용 필요 ▶ 삼성중공업: 2025 FLNG 공백은, 2026에는 모멘텀 적정주가 3.7만원 유지 - 영업이익 2025→2026 0.9→1.6조원 - 수주 79억달러 → 111억달러: FLNG 2기, LNG선 - MASGA: GD-NASSCO와 NGLS에 참여 ▶ 한국카본: LNG 사이클에 머스트-해브 아이템 적정주가 4.1 → 4.7만원 상향 +15%↑ - 2025년 보냉재 수주(전자공시) 0.59조원 - 동사 주가 트리거는 1) 실적, 2) 조선사의 LNG선 수주 - 202",
+              "evidence": "공격적으로 제시. LNG선 수주가 7척에서 20척으로 늘고, FLNG 2기가 4십억달러에 달할 수 있지만 보수적으로 제시 • 나도 MASGA: 비록 전투함 포트폴리오는 없지만, GD의 NASSCO와 파트너십 계약을 체결해, NGLS(미 해군 차세대군수지원함) 사업을 수행하며 동사도 일정부분 수혜 기대 DAOL Investment & Securities | 55 In-Depthㅣ 조선 1. Valuation Fig. 79: 삼성중공업 적정주가 37,000원 유지: 실적 낮추지만 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 732 1,546 1,535 1,835 PER(고) -4.9 -9.2 -56.2 169.3 44.4 15.7 PER(저) -3.1 -7.1 -28.4 96.2 15.3 15.3 적정PER 12 15 20 적정 20 적정주가의 PER 509.7 ",
+              "date": "2026-01-04",
+              "source": "https://t.me/daolresearch/13210"
+            },
+            {
+              "company": "85",
+              "direction": "상향",
+              "old": null,
+              "new": 47000,
+              "display": "47,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "적정PER 20배(유지)에서 47,000원으로 15% 상향 • 산업자료에서 최대 투자포인트인 2029년 LNG선 수요 강세, 슬롯 쇼티지가 시작되고, 사상최대 FID가 진행 중이어서 이번 LNG선 사이클은 3~4년은 지속되는 강도. LNG 신조시장 호황기에 보냉재, 그리고 동사는 필수 보유 종목임을 강조 DAOL Investment & Securities | 60 In-Depthㅣ 조선 1. Valuation Fig. 85: 한국카본 적정주가 47,000원으로 +15% 상향 (원, 배수) PER VALUATION 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 44 44 52 52 52 52 52 52 신소재 합병 위한 신주발행↑ ↑CB 200억원 잠재 주식 전환 포함 EPS 326 461 -245 391 1,689 2,107 2,637 2,341 YoY -75% 41% -153% -260% 332% 25% 25% -11% PER(고) 44.0 34.8 -61.4 ",
               "date": "2026-01-04",
               "source": "https://t.me/daolresearch/13210"
             },
@@ -30390,14 +30536,24 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "> 놀라운 수익성에서도 2026년에 더 성장 > 그리고 올해 수주에 따라 2028년에도 또 성장할 것으로 전망. 이는 1) 단납기 슬롯의 협상력, 2) 탱커와 8,000-TEU급에서 강력한 신조 수요 때문 > 한국에 이런 강력한 경쟁력의 중소형 조선사가 존재하는 것은 대단히 긍정적 - 응원의 중장기 투자가 필요",
+              "pitch": "ISSUE & PITCH ㅣ 대한조선 근거를 아래의 투자포인트에서 살펴보자. 1) 투자포인트 III-1이었던 단납기 슬롯, 2) 블록 내재화로 블록 제작업체의 높은 단가 상승을",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://bit.ly/DH0112",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "report_conclusion": "2028년에도 또 성장할 것으로 전망. • 즉, 동사의 실적은 2028년에 2026년보다 더 좋을 전망. 신조시장의 교체 발주에서 비롯되는 슈퍼 사이클을 전망하기 때문 중장기 전망은 더 밝음 탱커 신조시장은 2026년뿐 아니라, 수년 내에 엄청난 슈퍼사이클을 맞이할 수도 있다. 2030년 전후를 그 시점으로 전망한다.",
+              "valuation": [
+                "2028년 EPS에, 적정PER 15배로 적정주가 95,000원으로 커버리지 개시.",
+                "Valuation wide 2024 2025E 2026E",
+                "PER(배) 0.0 10.9 11.5",
+                "PBR(배) 0.0 2.4 2.1",
+                "EV/EBITDA(배) 0.5 7.5 6.6",
+                "Performance 1M 6M 12M YTD"
+              ],
+              "earnings_changes": [
+                "동사의 실적 예상치를 선표 모델에 따라 다음과 같이 제시한다.",
+                "4: 대한조선 실적 예상 (십억원, %)"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/136653/1/20260112_439260_gs.choie_494.pdf",
+              "pdf_error": "",
               "title": "[대한조선(439260)/BUY(신규)/TP 95,000원(신규)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 4Q25 Preview : 귀하다, 미들급 K-조선 챔피언」",
               "summary": "[대한조선(439260)/BUY(신규)/TP 95,000원(신규)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 4Q25 Preview : 귀하다, 미들급 K-조선 챔피언」 ▶ Issue: 커버리지 개시. 적정주가 95,000원 제시 ▶ Pitch: > 놀라운 수익성에서도 2026년에 더 성장 > 그리고 올해 수주에 따라 2028년에도 또 성장할 것으로 전망. 이는 1) 단납기 슬롯의 협상력, 2) 탱커와 8,000-TEU급에서 강력한 신조 수요 때문 > 한국에 이런 강력한 경쟁력의 중소형 조선사가 존재하는 것은 대단히 긍정적 - 응원의 중장기 투자가 필요 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/DH0112 > * 텔레그램 공개 채널 https://t.me/HI_GS",
               "post_url": "https://t.me/daolresearch/13273",
@@ -30412,19 +30568,25 @@
               "company": "다올",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "LNG선 신조선가의 갭상승을 여전히 예상및 기대합니다. 그린십 △ Kawasaki Heavy Industries, 세계 최대 40,000-cbm급 액화수소 운반선 수주 △ 2026년 풍력 추진 선박 100척 돌파 전망 및 기술 동향 HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원)",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "그린십 △ Kawasaki Heavy Industries, 세계 최대 40,000-cbm급 액화수소 운반선 수주 △ 2026년 풍력 추진 선박 100척 돌파 전망 및 기술 동향 선박은 현재 가와사키시 오기시마(Ogishima)에 건설 중인 Kawasaki LH2 Terminal에 수소를 공급하는 역할을 맡게 되며, 일본 산업계의 탈탄소화를 가속화할 전망 전체 잔고 기준 D/F 추진 채택 비중은 47%로 안정적이며, 2030년까지 전 세계 선복량의 20% 이상이 D/F 추진이 될 것으로 전망됨 전문가들은 올해 컨테이너선이나 탱커 발주가 다소 둔화되더라도, 글로벌 에너지 전환에 따른 LNG선 수요와 노후선 교체 주기가 겹치면서 한국 조선사들이 견조한 실적을 이어갈 것으로 전망 Cheniere Energy는 2026년부터 LNG 생산량을 처음으로 50MTPA 이상으로 늘릴 것으로 전망",
+              "valuation": [
+                "한화오션, HD현대중공업과 동일한MSAGA의 적정 PER 20배로 상향한바 있습니다.",
+                "2025 EPS(원) Change(%) VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 25.12.13 25.12.20 25.12.27 26.01.03 26.01.09 2달전 대비 4주전 대비 2025 PER 종가",
+                "2025 BPS(원) ROE VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 25.12.13 25.12.20 25.12.27 26.01.03 26.01.09 2025 2026 2025 PBR"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://bit.ly/DOS804",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/136628/1/20260111_B2040_gs.choie_493.pdf",
+              "pdf_error": "",
               "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: HD현대의 공격적 목표, 한화의 미국 투자 확대, 삼성의 MRSA ⚓ 주시 뉴스",
               "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: HD현대의 공격적 목표, 한화의 미국 투자 확대, 삼성의 MRSA ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 ▷ 신조선가지수 소수점 하락, 중고선가지수 2p나 상승 ▶ 그린쉽 △ Kawasaki Heavy Industries, 세계 최대 40,000-cbm급 액화수소 운반선 수주 ▶ LNG ▲ NYK와 Ocean Yield는 HD현대중공업에 LNG선 4척 발주 △ Asyad Shipping Co, 스팀터빈 LNG선 5척 중 4척 매물로 내놓음 ▶ 가스선/암모니아운반선 ▲ 일본 MOL- 인도 ONGC, VLEC 운영을 위한 합작 법인 설립. 삼성중공업 VLEC 2척 수주설 ▽ Eastern Pacific Shipping (EPS)는 Jiangnan Shipyard에 VLAC 2척 추가 발주 ▶ 컨테이너 △ MSC 세계 최대 컨테이너 선사 지위 공고화 ▶ 탱커 △ Sinokor Maritime, 전례 없는 'VLCC 싹쓸이' 매입 ▶ 해양/디펜스/바람 ▲ 삼성중공업 MRSA 취득 추진. 미 사선 및 특수선 분야 진출 예정 ▲ 한화그룹, 미국 조선소 추가 인수 및 인프라 확장 검토 < ☞ https://bit.ly/DOS804 > * 텔레그램 공개 채널 https://t.me/HI_GS",
               "post_url": "https://t.me/daolresearch/13257",
@@ -30441,48 +30603,167 @@
               "report_type": "산업자료",
               "opinion": "비중확대",
               "top_picks": [
-                "선호주: HD현대중공업, 한화엔진 2) 적정주가 상향: 멀티플 적정PER 20배 유지 2) Valuation 지점인 백로그너머를 2028년으로 반년 이동 4) 실적 조정: 2025년에 당사 기대보다 수주 미달 → 2027~2029 매출 낮춤"
+                "선호주: 중국의 엔진, 미국의 MASGA",
+                "44 HD현대중공업 (329180) _ Top Picks",
+                "이번 자료에서 선호주는 상승여력에 따라 HD현대중공업, 한화엔진을 추천하지만, 조선업종 전체에",
+                "선호주 종가(원) 504,000 2025E 21,937.6 2,801.3 12.8% 1,950.5 18,583 119,934 23.0 3.6 21%",
+                "선호주 종가(원) 42,050 2025E 1,318.7 124.5 9.4% 106.2 1,273 5,935 10.7 7.2 30%"
               ],
               "preferred_stocks": [
-                "선호주: HD현대중공업, 한화엔진 2) 적정주가 상향: 멀티플 적정PER 20배 유지 2) Valuation 지점인 백로그너머를 2028년으로 반년 이동 4) 실적 조정: 2025년에 당사 기대보다 수주 미달 → 2027~2029 매출 낮춤"
+                "선호주: 중국의 엔진, 미국의 MASGA",
+                "44 HD현대중공업 (329180) _ Top Picks",
+                "이번 자료에서 선호주는 상승여력에 따라 HD현대중공업, 한화엔진을 추천하지만, 조선업종 전체에",
+                "선호주 종가(원) 504,000 2025E 21,937.6 2,801.3 12.8% 1,950.5 18,583 119,934 23.0 3.6 21%",
+                "선호주 종가(원) 42,050 2025E 1,318.7 124.5 9.4% 106.2 1,273 5,935 10.7 7.2 30%"
               ],
               "tp_changes": [
                 {
-                  "company": "삼성중공업",
+                  "company": "조선",
+                  "direction": "상향",
+                  "old": 780000,
+                  "new": 860000,
+                  "display": "780,000원 → 860,000원",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가의 PER 105"
+                },
+                {
+                  "company": "67",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 780000,
+                  "display": "780,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": ") 사업의 리드 야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가"
+                },
+                {
+                  "company": "73",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 159000,
+                  "display": "159,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "십억달러, 방산 1.5십억달러로 12.3십억달러 수주 예상치 제시. 올해 추정 달성한 9.6십억달러에서 증가로 LNG선 수주가 전년 13척에서 20척으로 늘기 때문 • 적정주가: 백로그너머를 2028년으로 옮기고, 적정PER 20 배를 유지해, 동사의 적정주가를 159,000원으로 +10% 상향 DAOL Investment & Securities | 50 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 73: 적정주가 159,000원으로 +10% 상향: 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 107 107 306 306 306 306 306 306 한화의 3자배정 유증 ↑ EPS_2차 증자 후 -15,843 -16,262 522 1,724 3,145 5,909 7,038 7,950 PER(고) -2.5 -1.8 95.6 23.8 48.2 19.5 PER(저)"
+                },
+                {
+                  "company": "79",
                   "direction": "상향",
                   "old": null,
                   "new": 37000,
                   "display": "37,000원 (상향)",
                   "reasons": [
-                    "어닝/실적 추정 상향"
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
                   ],
-                  "evidence": "HII가 따낸 FF(X)에서 어떤 협력이 펼쳐질지 지켜보자 ▶ 한화오션: Austal 지분 없지만, 방법이 생길거야 적정주가 14.5 → 15.9만원 +10%↑ - 영업이익 2025→2026 1.4→2.6조원 - 수주 96억달러 → 123억달러: LNG선 - 특수선 2030년 5조원 목표에, 당사 2029년 1.6조원 예상 - MASGA 협력과 CANADA 잠수함 등 필요 - 한화필리와 한화AUSTAL 관계 없지만, HD현대처럼 블록/선체 공급 허용 필요 ▶ 삼성중공업: 2025 FLNG 공백은, 2026에는 모멘텀 적정주가 3.7만원 유지 - 영업이익 2025→2026 0.9→1.6조원 - 수주 79억달러 → 111억달러: FLNG 2기, LNG선 - MASGA: GD-NASSCO와 NGLS에 참여 ▶ 한국카본: LNG 사이클에 머스트-해브 아이템 적정주가 4.1 → 4.7만원 상향 +15%↑ - 2025년 보냉재 수주(전자공시) 0.59조원 - 동사 주가 트리거는 1) 실적, 2) 조선사의 LNG선 수주 - 202"
+                  "evidence": "공격적으로 제시. LNG선 수주가 7척에서 20척으로 늘고, FLNG 2기가 4십억달러에 달할 수 있지만 보수적으로 제시 • 나도 MASGA: 비록 전투함 포트폴리오는 없지만, GD의 NASSCO와 파트너십 계약을 체결해, NGLS(미 해군 차세대군수지원함) 사업을 수행하며 동사도 일정부분 수혜 기대 DAOL Investment & Securities | 55 In-Depthㅣ 조선 1. Valuation Fig. 79: 삼성중공업 적정주가 37,000원 유지: 실적 낮추지만 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 732 1,546 1,535 1,835 PER(고) -4.9 -9.2 -56.2 169.3 44.4 15.7 PER(저) -3.1 -7.1 -28.4 96.2 15.3 15.3 적정PER 12 15 20 적정 20 적정주가의 PER 509.7 "
+                },
+                {
+                  "company": "85",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 47000,
+                  "display": "47,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "적정PER 20배(유지)에서 47,000원으로 15% 상향 • 산업자료에서 최대 투자포인트인 2029년 LNG선 수요 강세, 슬롯 쇼티지가 시작되고, 사상최대 FID가 진행 중이어서 이번 LNG선 사이클은 3~4년은 지속되는 강도. LNG 신조시장 호황기에 보냉재, 그리고 동사는 필수 보유 종목임을 강조 DAOL Investment & Securities | 60 In-Depthㅣ 조선 1. Valuation Fig. 85: 한국카본 적정주가 47,000원으로 +15% 상향 (원, 배수) PER VALUATION 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 44 44 52 52 52 52 52 52 신소재 합병 위한 신주발행↑ ↑CB 200억원 잠재 주식 전환 포함 EPS 326 461 -245 391 1,689 2,107 2,637 2,341 YoY -75% 41% -153% -260% 332% 25% 25% -11% PER(고) 44.0 34.8 -61.4 "
                 }
               ],
               "tp_raises": [
                 {
-                  "company": "삼성중공업",
+                  "company": "조선",
+                  "direction": "상향",
+                  "old": 780000,
+                  "new": 860000,
+                  "display": "780,000원 → 860,000원",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가의 PER 105"
+                },
+                {
+                  "company": "67",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 780000,
+                  "display": "780,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": ") 사업의 리드 야드로 선정되어 기존 NSC(레전드급) 설계를 업그레이드하고 초도함 건조를 담당(2028년 납기). 향후 멀티야드로 담당 조선사가 늘어도 매년 1~2척의 호위함 건조 전망. 어떤 방식으로 사업 협력할지 관심 • 적정주가: 백로그너머를 2028년으로 옮겨 적정주가를 86만원으로 상향 DAOL Investment & Securities | 45 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 67: 적정주가 78만원에서 86만원으로 +10% 상향 (원, 배수) PER Valuation 2022 2023 2024 2025 2026 2027 2028 EPS -4,468 -1,332 8,190 18,583 30,769 37,377 42,872 PER(고) (36.1) (112.4) 36.5 34.4 16.8 PER (27.1) (88.2) 19.8 23.0 16.4 PER(저) (20.7) (68.7) 13.2 14.6 16.2 적정PER 15.0 17.5 20.0 적정 20.0 적정주가"
+                },
+                {
+                  "company": "73",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 159000,
+                  "display": "159,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "십억달러, 방산 1.5십억달러로 12.3십억달러 수주 예상치 제시. 올해 추정 달성한 9.6십억달러에서 증가로 LNG선 수주가 전년 13척에서 20척으로 늘기 때문 • 적정주가: 백로그너머를 2028년으로 옮기고, 적정PER 20 배를 유지해, 동사의 적정주가를 159,000원으로 +10% 상향 DAOL Investment & Securities | 50 In-Depthㅣ 조선 1. Valuation. 적정주가 상향 Fig. 73: 적정주가 159,000원으로 +10% 상향: 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 107 107 306 306 306 306 306 306 한화의 3자배정 유증 ↑ EPS_2차 증자 후 -15,843 -16,262 522 1,724 3,145 5,909 7,038 7,950 PER(고) -2.5 -1.8 95.6 23.8 48.2 19.5 PER(저)"
+                },
+                {
+                  "company": "79",
                   "direction": "상향",
                   "old": null,
                   "new": 37000,
                   "display": "37,000원 (상향)",
                   "reasons": [
-                    "어닝/실적 추정 상향"
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
                   ],
-                  "evidence": "HII가 따낸 FF(X)에서 어떤 협력이 펼쳐질지 지켜보자 ▶ 한화오션: Austal 지분 없지만, 방법이 생길거야 적정주가 14.5 → 15.9만원 +10%↑ - 영업이익 2025→2026 1.4→2.6조원 - 수주 96억달러 → 123억달러: LNG선 - 특수선 2030년 5조원 목표에, 당사 2029년 1.6조원 예상 - MASGA 협력과 CANADA 잠수함 등 필요 - 한화필리와 한화AUSTAL 관계 없지만, HD현대처럼 블록/선체 공급 허용 필요 ▶ 삼성중공업: 2025 FLNG 공백은, 2026에는 모멘텀 적정주가 3.7만원 유지 - 영업이익 2025→2026 0.9→1.6조원 - 수주 79억달러 → 111억달러: FLNG 2기, LNG선 - MASGA: GD-NASSCO와 NGLS에 참여 ▶ 한국카본: LNG 사이클에 머스트-해브 아이템 적정주가 4.1 → 4.7만원 상향 +15%↑ - 2025년 보냉재 수주(전자공시) 0.59조원 - 동사 주가 트리거는 1) 실적, 2) 조선사의 LNG선 수주 - 202"
+                  "evidence": "공격적으로 제시. LNG선 수주가 7척에서 20척으로 늘고, FLNG 2기가 4십억달러에 달할 수 있지만 보수적으로 제시 • 나도 MASGA: 비록 전투함 포트폴리오는 없지만, GD의 NASSCO와 파트너십 계약을 체결해, NGLS(미 해군 차세대군수지원함) 사업을 수행하며 동사도 일정부분 수혜 기대 DAOL Investment & Securities | 55 In-Depthㅣ 조선 1. Valuation Fig. 79: 삼성중공업 적정주가 37,000원 유지: 실적 낮추지만 백로그너머를 2028년으로 반년 이동 (원, 배수) PER Valuation 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 732 1,546 1,535 1,835 PER(고) -4.9 -9.2 -56.2 169.3 44.4 15.7 PER(저) -3.1 -7.1 -28.4 96.2 15.3 15.3 적정PER 12 15 20 적정 20 적정주가의 PER 509.7 "
+                },
+                {
+                  "company": "85",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 47000,
+                  "display": "47,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "적정PER 20배(유지)에서 47,000원으로 15% 상향 • 산업자료에서 최대 투자포인트인 2029년 LNG선 수요 강세, 슬롯 쇼티지가 시작되고, 사상최대 FID가 진행 중이어서 이번 LNG선 사이클은 3~4년은 지속되는 강도. LNG 신조시장 호황기에 보냉재, 그리고 동사는 필수 보유 종목임을 강조 DAOL Investment & Securities | 60 In-Depthㅣ 조선 1. Valuation Fig. 85: 한국카본 적정주가 47,000원으로 +15% 상향 (원, 배수) PER VALUATION 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 주식수(백만주) 44 44 52 52 52 52 52 52 신소재 합병 위한 신주발행↑ ↑CB 200억원 잠재 주식 전환 포함 EPS 326 461 -245 391 1,689 2,107 2,637 2,341 YoY -75% 41% -153% -260% 332% 25% 25% -11% PER(고) 44.0 34.8 -61.4 "
                 }
               ],
-              "pitch": "",
-              "industry_conclusion": "▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/INDEPTH260105 > * 텔레그램 공개 채널 https://t.me/HI_GS",
-              "report_conclusion": "▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/INDEPTH260105 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "pitch": "따라서 탱커 신조시장에 대한 오래된 투자포인트는 1) 이중선체 사이클, 2) 낮은 잔고, 3) 노후선 및 영업이익 턴어라운드의 투자포인트는 변함없다. 오르고 있다, 3) 조선보다 더 높은 수익성을 시현하고 있다는 점이 투자포인트이다. 2026년 투자포인트 점검, 적정주가 상향",
+              "industry_conclusion": "Focus Chart 1 한국 조선4사의 수주 전망: 46십억달러로, 2028년의 매출 61조원보다 많음 2009년부터 제시해 온 신조 발주전망의 핵심논리인 수요-공급이 2021년부터 잘 맞지 않다. 신조시장은 82십억달러로 +17% 성장한다는 전망치를 제시한다. 1: 신조발주 전망: 2026년에 전방(벌크선 제외) 발주금액 +17% 증가. 6: 한국 조선4사의 수주 전망: 46십억달러로, 2028년의 매출 61조원보다 많음 (십억달러)",
+              "report_conclusion": "Focus Chart 1 한국 조선4사의 수주 전망: 46십억달러로, 2028년의 매출 61조원보다 많음 2009년부터 제시해 온 신조 발주전망의 핵심논리인 수요-공급이 2021년부터 잘 맞지 않다. 신조시장은 82십억달러로 +17% 성장한다는 전망치를 제시한다. 1: 신조발주 전망: 2026년에 전방(벌크선 제외) 발주금액 +17% 증가. 6: 한국 조선4사의 수주 전망: 46십억달러로, 2028년의 매출 61조원보다 많음 (십억달러)",
               "valuation": [
-                "선호주: HD현대중공업, 한화엔진 2) 적정주가 상향: 멀티플 적정PER 20배 유지 2) Valuation 지점인 백로그너머를 2028년으로 반년 이동 4) 실적 조정: 2025년에 당사 기대보다 수주 미달 → 2027~2029 매출 낮춤",
-                "▶ 주요 꼭지 - 수주전망 - 실적 - MASGA - 투자전략 및 Valuation"
+                "내년 가을까지만 법안 통과 등이 결정되면 조선업종 Valuation에 큰 영향이",
+                "해병대의 EABO(Expeditionary Advanced Base Operations) 및",
+                "해군의 DMO(Distributed Maritime Operations)을 지원하는 소형·다목적 군수지원함 확보",
+                "조선업종 VALUATION을 2020년부터 백로그너머 EPS x 적정PER(15 – 20배)로 제안하고 있다.",
+                "평균에서 2028년으로 옮겨서 조선3사의 적정주가를 조정한다(적정PER 20배 유지).",
+                "66: 조선4사, 엔진2사의 실적 및 Valuation (십억원, 원, 배수)"
               ],
-              "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://bit.ly/INDEPTH260105",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "earnings_changes": [
+                "이는 2028년의 매출 예상 61조원(44십억달러)를 넘기는 수준이다.",
+                "41: 조선4사의 2027~2028년 실적 상향: OPM 3%p 안팎 (십억원)",
+                "• 엔진의 성장: 엔진의 실적 예상치를 상향.",
+                "당사는 특수선 부문 실적 예상 로직을 보강해서 제시.",
+                "68: HD현대중공업 2026~2028년 조선 수익성 및 이익 상향 조정 (십억원, %)",
+                "71: HD현대중공업 실적 예상 (십억원)"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/136408/1/20260105_B2040_gs.choie_486.pdf",
+              "pdf_error": "",
               "title": "[조선(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight) – 깡통아 태평양을 건너라",
               "summary": "[조선(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight) – 깡통아 태평양을 건너라 ▶ Issue: 조선 비중확대 견지 ▶ Pitch 1) 조선 비중확대 견지. 선호주: HD현대중공업, 한화엔진 2) 적정주가 상향: 멀티플 적정PER 20배 유지 2) Valuation 지점인 백로그너머를 2028년으로 반년 이동 4) 실적 조정: 2025년에 당사 기대보다 수주 미달 → 2027~2029 매출 낮춤 ▶ 주요 꼭지 - 수주전망 - 실적 - MASGA - 투자전략 및 Valuation ▶ HD현대중공업: HHI와 HII의 환상의 콜라보 쌉가능 적정주가 78 → 86만원 상향 +10%↑ - 영업이익 2025→2026 2.8→4.1조원 - 엔진의 강력한 성장: 4.2조원 → 5.2조원(2028년) - 수주 105억달러 → 130억달러: LNG선 캐리 - MASGA: 파트너십의 HII가 따낸 FF(X)에서 어떤 협력이 펼쳐질지 지켜보자 ▶ 한화오션: Austal 지분 없지만, 방법이 생길거야 적정주가 14.5 → 15.9만원 +10%↑ - 영업이익 2025→2026 1.4→2.6조원 - 수주 96억달러 → 123억달러: LNG선 - 특수선 2030년 5조원 목표에, 당사 2029년 1.6조원 예상 - MASGA 협력과 CANADA 잠수함 등 필요 - 한화필리와 한화AUSTAL 관계 없지만, HD현대처럼 블록/선체 공급 허용 필요 ▶ 삼성중공업: 2025 FLNG 공백은, 2026에는 모멘텀 적정주가 3.7만원 유지 - 영업이익 2025→2026 0.9→1.6조원 - 수주 79억달러 → 111억달러: FLNG 2기, LNG선 - MASGA: GD-NASSCO와 NGLS에 참여 ▶ 한국카본: LNG 사이클에 머스트-해브 아이템 적정주가",
               "post_url": "https://t.me/daolresearch/13210",
@@ -30497,19 +30778,24 @@
               "company": "다올",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "그린십 △ 2026년 풍력 추진 선박 100척 돌파 전망 및 기술 동향 △ Azane Infrastructure, 노르웨이 암모니아 벙커링 터미널 건설 및 자금 확보 HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원) HD현대중공업 (1년 누적 매수)",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "그린십 △ 2026년 풍력 추진 선박 100척 돌파 전망 및 기술 동향 △ Azane Infrastructure, 노르웨이 암모니아 벙커링 터미널 건설 및 자금 확보 △ 2 026년 풍력 추진 선박 100척 돌파 전망 및 기술 동향 026년 초, 풍력 보조 추진 시스템을 장착한 선박이 전 세계적으로 100척을 넘어설 전망 EU가 러시아산 LNG 수입을 미국 및 카타르산으로 대체하려는 지정학적 흐름에 따라 LNG선 수요가 급증할 것으로 전망 미국발 수요 Golden Pass, Plaquemines LNG 등 미국의 대형 프로젝트들이 순차적으로 가동되면서 장거리 항로(Tonne-mile) 수요를 견인할 전망",
+              "valuation": [
+                "2025 EPS(원) Change(%) VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 25.12.06 25.12.13 25.12.20 25.12.27 26.01.02 2달전 대비 4주전 대비 2025 PER 종가",
+                "2025 BPS(원) ROE VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 25.12.06 25.12.13 25.12.20 25.12.27 26.01.02 2025 2026 2025 PBR"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://bit.ly/DOS803",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/136387/1/20260104_B2040_gs.choie_485.pdf",
+              "pdf_error": "",
               "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 연말 LNG성 수주 몰이. 신조선가 상승 확인은 아직 ⚓ 주시 뉴스",
               "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 연말 LNG성 수주 몰이. 신조선가 상승 확인은 아직 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 ▲ 신조선가지수 2주 연속 소수점 상승. 이번주 186p로 1p 상승 ▶ 그린쉽 △ 2026년 풍력 추진 선박 100척 돌파 전망 및 기술 동향 ▶ LNG ▲ Commonwealth LNG, 핵심 설비 주문 완료 및 2026년 1분기 FID 추진 △ 삼성중공업, Purus로부터 LNG선 2척 수주 △ Seapeak, 삼성중공업에 LNG선 2척 발주 및 미국 수출 프로젝트 연계 ▲ Capital Clean Energy Carriers(CCEC), HD현대삼호에 LNG선 3척 추가 발주 △ Woodside Energy, 터키 Botas와 0.5MTPA LNG 장기 공급 계약 체결 ▶ 가스선/암모니아운반선 △ MOL-JERA, 일본 최초 대규모 저탄소 암모니아 운송 프로젝트 착수 ▶ 컨테이너 ▽ Shanghai Jinjiang Shipping, Bangkokmax 컨테이너선 최대 8척 발주 계획 수립 ▶ 탱커 ▽ Hengli Heavy Industry, Capital Maritime과 VLCC 2척, 벌크선 4척 연말 계약 ▶ 해양/디펜스/바람 △ 아프리카 LNG 시장에서 육상 프로젝트의 정체와 FLNG의 부상 ▶ 기타 ▽ Eastern Pacific Shipping(EPS), 중국 Henlig에 벌크선 4척 신규 발주 < ☞ https://bit.ly/DOS803 > * 텔레그램 공개 채널 https://t.me/HI_GS",
               "post_url": "https://t.me/daolresearch/13205",
@@ -30617,7 +30903,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/GvoO8fN",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /GvoO8fN (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae241cad0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (1월 2주차)]",
               "summary": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (1월 2주차)] ▶️ 금주 증시 동향 (01/05~01/08) - KOSPI(+5.6%) 상승, KOSDAQ(-0.2%) 하락. KOSPI는 상사,자본재(+10.5%), 조선(+9.8%), 반도체(+9.5%) 업종이 상승한 가운데, 비철,목재등(-4.3%), 화장품,의류,완구(-4.1%), 호텔,레저서비스(-3.4%) 업종 하락. 주초 AI 데이터센터 투자 확대 기대감에 반도체 업종이 지수 상승을 견인. CES 2026에서의 젠슨 황 CEO 메모리 업황 낙관론 및 현대차-엔비디아 회동 등의 호재가 더해지며 4,600선을 상회. 주중 지정학적 리스크 등 이슈로 방산 업종도 강세 연출. 이후 삼성전자의 4분기 호실적에도 불구하고, 지수 고점 부담에 차익실현 매물이 출회되며 4,550pt에서 마감 - DOW(+1.8%), NASDAQ(+1.1%), S&P500(+0.9%) 상승. 베네수엘라 산업 재건 기대에 에너지와 금융 등 전통 산업주 위주로 상승 출발. CES 2026에서 젠슨 황의 메모리 중요성 강조로 기술주 랠리가 이어졌으나, 주 중반 트럼프의 부동산 규제 등 발언과 경제지표 혼조에 고점 부담이 부각. 이후 고용 지표 호조에도 고용보고서 발표 경계감에 기술주 차익실현 매물이 출회되며 혼조세로 마감 ▶️ 차주 증시 전망 (01/12~01/16) - 이익 전망치의 상향조정을 수반한 강한 상승 국면이 재개되고 있음. 일반적으로 기대가 낮은 4분기 실적이지만, 전일 삼성전자가 컨센서스 상단 수준의 결과를 발표하면서 26년 이익 전망치 역시 자극될 조짐을 보이고 있음. 이익 전망치의 가파른 상향조정 속에 밸류에이션 부담이 상쇄되는 흐름이 연장될 가능성이 높다고 판단. 특히 26년 1분기는 지난해 낮은 수출 기저 영향",
               "post_url": "https://t.me/daolresearch/13245",
@@ -30724,7 +31010,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/CqFswB",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /CqFswB (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3b0b830>, 'Connection to buly.kr timed out. (connect t",
               "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (10월) 은행 여수신 동향: 자금 수요 이동",
               "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (10월) 은행 여수신 동향: 자금 수요 이동 ▶ 여신: 전 차주 대출잔액 증가폭 전월대비 확대. 가계 기타대출 증가 전환 및 기업대출 확대 ▶ 수신: 수시입출식 예금 감소 전환과 정기예금 큰 폭 증가 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/C0B1baL > ★ (11월) 은행 여수신 동향: 차주별 차별화 ▶ 여신: 관리 기조 속 차주별 차별화된 양상. 주담대 제한적 증가. 우량 기업 중심 영업 강화 ▶ 수신: 수시입출식 예금 회복이나, 시장성 수신의 상대적 증가 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/CqFswB >",
               "post_url": "https://t.me/daolresearch/13111",
@@ -30796,7 +31082,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/1n57d8i",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1n57d8i (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2012f30>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올 시황 김지현] ★ 연말 연초 전략: 반도체, 배당주, 과도하게 하락한 주도주 ➡️ 1월 중 지표 확인, 유동성에 기인한 안도랠리 환경 조성 가능하나 월말 셧다운 이슈 부각에 유의 - BOJ 금리인상은 이미 선반영됐다는 인식. 2024년 8월 시장 급락을 초래했던 엔 캐리 트레이드 청산 우려 부각됐던 시기, 엔화는 7월 초 161엔 대비 9월말 142엔으로 11%급락. 당시와는 대조적으로 오히려 엔 순매수 포지션은 축소,",
               "summary": "[다올 시황 김지현] ★ 연말 연초 전략: 반도체, 배당주, 과도하게 하락한 주도주 ➡️ 1월 중 지표 확인, 유동성에 기인한 안도랠리 환경 조성 가능하나 월말 셧다운 이슈 부각에 유의 - BOJ 금리인상은 이미 선반영됐다는 인식. 2024년 8월 시장 급락을 초래했던 엔 캐리 트레이드 청산 우려 부각됐던 시기, 엔화는 7월 초 161엔 대비 9월말 142엔으로 11%급락. 당시와는 대조적으로 오히려 엔 순매수 포지션은 축소, BOJ 이벤트를 차익실현 기회로 활용하며 엔화는 오히려 소폭 상승. 일본 기준금리 0.75% 도달했으나 CPI YOY 2.9% 수준으로 여전히 실질 금리는 -2%대로 엔화 강세 전환은 어려울 것. - 미국 11월 CPI 증가율 둔화 확인. 헤드라인 YOY 2.7%(예상 3.1%, 9월 3.0%), 코어 2.6%(예상 3.0%, 9월 3.0%)로 예상치 하회. 집계 문제로 일부 항목이 누락되며 논란은 존재. 주거비는 연초 YOY 4%대 기록한 이후 3%대에서 제한적으로 움직이고, 4개분기 선행하는 신규렌트 지수는 급락. 자동차 보험료는 신차, 중고차 가격에 후행, 해당 물가 역시 하향 안정 진행 중. 가장 큰 비중을 차지하는 유가는 56달러 수준으로 물가 안정에 기여 중. 1월 중에도 지표 확인을 통해 금리 추가 인하 경로 컨센서스 형성이 가능하다는 전망 유효. 그 증거로 오라클 CDS 프리미엄은 고점 156bp 대비 소폭 하락한 145bp 기록. - 유동성 여건 1월까지 긍정적. 과거 추이 봤을때 미국 재무부 TGA 잔액 증가(유동성 흡수) 시 지수 단기 조정 요인으로 작용. 12월 들어 TGA 현금 계정 감소세, 셧다운으로 묶여있던 유동성 공급 중. 12월 연준 QT 종료 이후 한달간 130억 달러 규모 국채 매입, QT 시작 후 최대 규모. 트럼프는 지지율을",
               "post_url": "https://t.me/daolresearch/13170",
@@ -30850,7 +31136,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://t.me/daolresearch/13142",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "PdfStreamError: Stream has ended unexpectedly",
               "title": "[GS피앤엘(499790)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 호텔업의 진가를 보여주는 중 ★ Not Rated",
               "summary": "[GS피앤엘(499790)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 호텔업의 진가를 보여주는 중 ★ Not Rated ▶ 입국객 성장에 더해지는 한일령 - 2025년 3~10월까지의 월평균 입국객은 170만 명으로 역대 최대 방문을 기록했던 2016년 3~10월 월평균 155만 명보다 9% 성장. 한국에 대한 외국인들의 지속적인 관심과 함께 입국객은 증가 추세 - 추가적으로 한일령으로 인한 중국인의 일본 여행 수요가 감소한다면 일부 여행 수요가 한국으로 이동할 가능성 有 - 특히 2026년 6월 30일까지 중국인 단체 관광객 무비자가 시행 중이기 때문에 기반은 닦여있다고 판단 - 다만 11월부터 2월까지 계절적 비수기이기 때문에 즉각적으로 가시적인 효과를 보기에는 힘들 수 있음 ▶ 한정된 호텔 공급 - 서울의 5성급은 호텔은 현재 27개이며 이 중 500객실 이상의 호텔은 7개뿐. 동사의 그랜드 인터컨티넨탈 서울 파르나스와 웨스틴 서울 파르나스는 각각 550실, 564실로 구성되어 있으므로 규모의 경제가 가능 - 게다가 3~4성급 호텔인 나인트리 호텔도 6개(용산점은 위탁 운영) 운영 중이기 때문에 호텔 수요 증가의 직접적인 수혜를 받을 수 있다고 판단 - 수천억원의 투자가 필요한 대형 호텔업 특성상 향후 1~2년 안에 공급이 늘어나기는 쉽지 않기 때문에 점진적인 ADR(Average Daily Rate)의 성장으로 이어질 수 있을 전망 ▶ 웨스틴 호텔을 통한 실적 성장 - 동사는 2024년 7월부터 코엑스 호텔을 리모델링하여 2025년 9월 15일 ‘웨스틴 서울 파르나스’로 재개장 - 3Q25에는 매출 반영 일수가 16일이었기 때문에 매출액은 102억원, 영업손실은 247억원 기록하였으나 4Q25부터 온기로 실적이 반영될 예정이기 때문에 큰 폭의 영업이익 증가 기대 ",
               "post_url": "https://t.me/daolresearch/13142",
@@ -30989,7 +31275,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/FsJhC9j",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FsJhC9j (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae27d8530>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올 의료기기/화장품 박종현] ★ 의료 관광 성장세 회복, 12월은 수출 차례 - 2025.11월 확정 수출 데이터",
               "summary": "[다올 의료기기/화장품 박종현] ★ 의료 관광 성장세 회복, 12월은 수출 차례 - 2025.11월 확정 수출 데이터 ▶ 추석 연휴로 인해 19영업일에 불과했던 2025.10월에 비해 2025.11월 영업일수는 10월 대비 3영업일 증가한 22영업일. 이와 더불어 전반적인 품목의 MoM 수출 금액은 증가 추이를 기록 ▶ 미용 의료기기 2025.11월 클래시스(강남구) 13.9백만달러로 YoY +16%, MoM +30%를 기록. 브라질 파트너 인수가 진행되며, 브라질 영업이 정상화되고 있음. 다만, 2026E 클래시스 컨센서스에 해당 부분이 과소 반영되어, 가이던스 발표하는 4Q25E 리뷰와 함께 컨센서스 EPS 상향 조정 기대. 해당 시점에 EPS 반영과 함께 주가 상승 기대되기에 선호 의견 유지(BUY, TP 8.4만원). 클래시스는 2026년 쿼드세이 미국 파트너십 체결을 예정하고 있으며, 동시에 중국에서 슈링크/볼뉴머에 대한 품목 허가 목표 ▶ 톡신 2025.11월 대웅제약 5.6백만달러로 YoY -62.8%, MoM -73.7% 기록하였으나, 이는 Evolus가 2025.10월 일시적으로 대량으로 재고 선적한 영향으로 감소세를 기록. 4Q25 QTD 26.8백만달러로 3Q25 대비 76% 수준 ▶ 필러 파마리서치 필러 수출액 6.4백만달러(YoY +39%, MoM -18%) 감소하며, 12/1일 주가 하락. 12/2일 자료와 같이 1) 12월 영국 선적 및 2) 성수기 효과를 통한 선적 증가(12/1 ~ 12/20일)로 3Q25 대비 증가한 분기 최대 매출 기대 ▶ Implication 2025.11월 의료관광 소비금액 2,209억원을 기록하며 YoY +62% 증가하여 역대 최고 금액 경신. 피부과와 성형외과, 약국은 각각 YoY +76%, +32%, +181%로 여전히 피부과",
               "post_url": "https://t.me/daolresearch/13115",
@@ -31137,7 +31423,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/FhOykxE",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FhOykxE (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2006f30>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 운송 오정하, 철강 이정우] 운송/철강: 2026년에도 Capesize 시장에 주목 - 2026년에도 공급 증가율이 수요 증가율을 상회하나, Capesize 선형 불균형이 단기 반등 야기할 수 있음 - 1) Capesize 선대대비 수주잔고 비율이 낮고, 2) 철광석 교역 패턴 변화가 예상됨 - 철강 감산 관련 우려가 있으나 40% 이상의 EBITDA 마진율이 유지되며 2026년 주요 4사 생산량은 +3% 예상 ",
               "summary": "[다올투자증권 운송 오정하, 철강 이정우] 운송/철강: 2026년에도 Capesize 시장에 주목 - 2026년에도 공급 증가율이 수요 증가율을 상회하나, Capesize 선형 불균형이 단기 반등 야기할 수 있음 - 1) Capesize 선대대비 수주잔고 비율이 낮고, 2) 철광석 교역 패턴 변화가 예상됨 - 철강 감산 관련 우려가 있으나 40% 이상의 EBITDA 마진율이 유지되며 2026년 주요 4사 생산량은 +3% 예상 - 2026년 전반적으로 2025년과 유사한 흐름 예상. 1분기 중국 춘절 계절성 유효하다고 판단 *보고서 원문 및 Compliance Notice: https://buly.kr/FhOykxE",
               "post_url": "https://t.me/daolresearch/13163",
@@ -31277,7 +31563,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/3YEg8Ge",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YEg8Ge (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2483cb0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: CO2 규제완화, 그러나 VW는 파티에 불참",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: CO2 규제완화, 그러나 VW는 파티에 불참 ▶ EU는 2035년 CO₂ 규제안을 대폭 완화할 계획. 2025~2030년 EU는 기존 5년치였던 118g/km에서 93g/km로 대폭 강화된 상태로, 2035년 이후부터는 0g/km로 내려오는 수순 ▶ 기아 멕시코 공장에서 하이브리드 차량 생산 계획 발표. 현지 동반진출 되어 있는 현대위아의 1.6감마 하이브리드 엔진생산 계획도 공개. 현대위아는 이를 통해 이후 연간 40만대 엔진 생산체제로 전환 ▶ 포드가 전기차 생산 계획 축소방안을 발표. 2030년 기준으로 EREV/HEV/BEV 합산 믹스를 현재 17%에서 50%로 늘릴 계획 ▶ LG에너지솔루션은 지난해 10월 포드와 맺은 75GWh 규모의 전기차용 배터리 공급계약 해지 ▶ Cox Automotive는 12월 미국 자동차 도매판매 수치를 145.5만대로 전망. 이는 YoY -3.5%이지만, MoM 기준으로는 +12.7%에 해당 ▶ 폭스바겐은 3Q25에 영업적자로 전환했고, 전기차 개발 및 판매지연에 따른 대규모 충당금을 반영하기 시작. 4Q25에도 마찬가지로 독일업체의 부진, 현대기아/토요타/미국 업체의 선전 기대 ★보고서 및 컴플라이언스 노티스 ☞ < https://buly.kr/3YEg8Ge >",
               "post_url": "https://t.me/daolresearch/13155",
@@ -31310,7 +31596,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/FAeg85X",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FAeg85X (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae27d9430>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 4Q25 Preview: 비중확대 시점",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 4Q25 Preview: 비중확대 시점 ▶ 4Q25 실적시즌 주요 관전 포인트는 1)완성차의 손익 반등 2)부품업체 미국발 손익 개선 근거 3)타이어 업종의 스프레드 개선. Top Picks는 현대차, HL만도, 금호타이어 ▶ 현대차/기아 각각 4Q25 영업이익은 2.9조원/1.8조원으로 시장 기대치 부합 예상 ▶ 미국 보조금 종료와 함께 완성차의 미국 믹스 개선 시작. 현대기아 합산 M/S가 4Q25 들어 12%에 안착 ▶ 4Q25에 현대기아 HEV 판매증가로 Non-HEV진영과의 격차 확대 예상 ▶ Boston Dynamics의 양산 발표로 자동차 부품업체들의 생태계 진화 가속화 예상 ▶ 투자의견 및 적정주가 요약(전종목 상향) - 현대차: TP 47만원(BUY)_Top Pick - 기아: TP 18.5만원(BUY) - 현대모비스: TP 47만원(BUY) - 현대위아: TP 8.5만원(BUY) - HL만도: TP 7.3만원(BUY)_Top Pick - 에스엘: TP 6만원(BUY) - SNT모티브: TP 5.5만원(BUY) - 롯데렌탈: TP 5만원(BUY) - 한국타이어: TP 5.5만원(HOLD) - 넥센타이어: TP 1만원(BUY) - 금호타이어: TP 9천원(BUY)_Top Pick ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/FAeg85X >",
               "post_url": "https://t.me/daolresearch/13125",
@@ -31337,7 +31623,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/AF1QrZd",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /AF1QrZd (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3a37fe0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 몰려오는 ESS 수주",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 몰려오는 ESS 수주 ▶ GM은 최근 기술주 대비 높은 수익률을 기록 중. 실버라도와 트래버스 및 GMC 브랜드가 모두 2019년 이후 사상최대 볼륨을 기록. 3Q25기준 재고는 사상최저 수준 ▶ Rivian은 AI Investor Day를 통해, Nvidia에서 벗어나 자체 AI칩인 Rivian Autonomy Processor 개발 계획을 발표 ▶ InfoLink에 의하면 2025년 3Q까지 누적 ESS 공급량은 286GWh. Top3 업체는 Tesla, Sungrow, BYD ▶ LG에너지솔루션이 벤츠에 2조원 규모 배터리 공급 계약 체결. 삼성SDI는 미국에서 2조원대 ESS용 LFP 배터리 공급 계약. ▶ 금호타이어가 함평 신공장 건설에 대한 투자 협약을 지난주에 체결. 이를 통해 금호타이어는 추가적으로 560만본의 생산능력을 확보 ▶ 셀토스 연간 판매목표를 43만대로 제시. 최근 2년간 셀토스의 글로벌 판매볼륨은 평균 28만대 수준으로, 약 15만대 이상의 증가분을 시사 ★보고서 및 컴플라이언스 노티스 ☞ < https://buly.kr/AF1QrZd >",
               "post_url": "https://t.me/daolresearch/13108",
@@ -31556,7 +31842,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/GktUp4u",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /GktUp4u (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2483a10>, 'Connection to buly.kr timed out. (connect ",
               "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강·비철금속 이정우] ★ 약속대로 연내에 발표된 전기로 지분율",
               "summary": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강·비철금속 이정우] ★ 약속대로 연내에 발표된 전기로 지분율 ▶ 현대제철 지분율 50% 확정 미국에 건설 예정인 현대제철의 전기로 지분율 발표. 미국 전기로 제철소는 직접환원철을 원재료로 사용하는 DRP 기반의 전기로이며, 연간 270만톤 생산능력(자동차용 냉연 70%, 일반용 열연 및 냉연 30%) 보유. 현대제철의 지분 50%를 포함해 현대차그룹은 총 80%의 지분 투자 예정이며, 포스코가 잔여 20%를 투자하는 방안으로 확정. 투자규모는 기 발표했던 58억 달러에서 변동 없으며, 자기자본 50%를 제외한 50%는 차입금으로 사업이 진행 예정. 1Q29E 상업생산 개시 목표 금번 타법인 주식 및 출자증권 취득결정 공시에서는 현대제철을 비롯한 지분참여자는 Hyundai Steel Louisiana에 2027.12.31까지 분할 출자하여 집행한다는 점 기재. 자본 납입 이전까지는 Hyundai Steel Louisiana가 차입을 통해 제철소 공사 진행 추정. 3Q25 연결과 별도기준 현금성자산은 각각 2.1조원과 1.8조원(3Q25 실적발표 자료 기준)으로 당사가 납입해야 할 $14.6억달러(한화 약 2.2조원)은 대규모 차입 없이 부담 가능 판단. 또한, 동사는 부채비율은 지속 감소 중. 3Q25 연결재무제표 기준 부채비율은 71.1%로 2024년 대비 8.6%p 하락. ▶ 관세장벽의 미국. 가격 조정은 일부 있었지만 수요는 견조 미국이 철강 50%를 부과한 이후인 2Q25의 톤당 열연코일과 냉연코일 가격 $922, $1,137로 상승. 이후 가격 조정이 이루어지면서 각각 톤당 $858, $1,050으로 하락했지만 여전히 2024년 평균가격인 $775와 $1,085 대비 견조한 가격 수준 유지 중. 미국은",
               "post_url": "https://t.me/daolresearch/13132",
@@ -31583,7 +31869,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/7bI5oep",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /7bI5oep (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2006240>, 'Connection to buly.kr timed out. (connect ",
               "title": "[비철금속(Overweight) 다올 철강·비철금속 이정우] ★ 미국의 투자는 계속된다",
               "summary": "[비철금속(Overweight) 다올 철강·비철금속 이정우] ★ 미국의 투자는 계속된다 ▶ 작은 온산 제련소 미국 상륙 고려아연, 미국 테네시주에 제련소 투자 발표. 기존 Nyrstar 제련소가 사용하던 부지, 광산을 인수 및 온산 제련소 생산능력의 약 절반을 보유한 제련소를 미국에 설립. 투자 규모는 약 74달러(한화 약 10.9조원)이며, 자본 약 25억달러와 차입금 47억달러, CHIPS 보조금 2.1억달러로 구성. 주체별 자본 투자금액은 고려아연 6.8억달러, 전쟁부 14억달러, 미국 SI 4.5억달러로 구성. 고려아연 출자액 중 0.9억달러는 전쟁부와 SI와 함께 JV(Crucible JV LLC)에 투자한 이후 고려아연에 제 3자 유상증자 배정에 참여. 해당 자금과 함께 고려아연이 추가로 5.9억달러를 사업회사인 Crucible Metals LLC에 납입하는 구조. 생산 예정 광물은 아연 30만톤, 연 20만톤, 구리 3.5만톤, 은 1,000톤, 금 5.8톤과 안티모니 2,559톤을 비롯한 희소금속 8종 등. 해당 광물들의 미국 수입의존도는 대부분 높은 편으로 미국 내에서 수요가들에게 판매는 원활할 전망. 또한, 해당 광물들은 데이터센터, AI, 방위산업 등에 필요한 원재료들로 전략광물의 밸류체인 다변화를 추진하는 미국의 니즈와 합치. 원재료인 연과 아연 원광은 Nyrstar의 광산 활용 및 미국/멕시코 등 북중미 신규 광산에서 조달 예정 ▶ 미국 핵심광물 밸류체인 다변화 update 미국 정부는 2025.07월 MP Materials를 시작으로 희토류 밸류체인에 투자 시작. MP Materials에게서 NdPr 산화물을 매입 시 kg당 110달러의 가격 하한선을 보장해주는 내용의 협약 맺음. 이후에도 Lithium Americas, Critical Metals, USA ",
               "post_url": "https://t.me/daolresearch/13131",
@@ -31688,7 +31974,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/Chq3Wq0",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /Chq3Wq0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2483200>, 'Connection to buly.kr timed out. (connect ",
               "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 11월 미국 처방 실적",
               "summary": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 11월 미국 처방 실적 ▶ Infliximab 점유율(IV시장 기준): Remicade 49.3%, Inflectra 30.0%, Renflexis 10.4%, Avsola 10.3% (수량 기준) ▶ Remicade 55.2%, Inflectra 30.7%, Renflexis 8.5%, Avsola 5.6% (금액 기준) *Institutional 기준으로 retail은 제외한 수치 ▶ Rituximab 점유율: Rituxan 23.0%, Truxima 32.1%, Ruxience 37.6%, Riabni 7.2% (수량 기준) ▶ Rituxan 26.7%, Truxima 33.6%, Ruxience 33.3%, Riabni 6.4% (금액 기준) ▶ Trastuzumab 점유율: Herceptin 10.7%, Kanjinti 30.5% Ogivri 24.1%, Trazimera 29.8%, Herzuma 2.0%, Ontruzant 3.0% (수량 기준) ▶ Herceptin 14.1%, Kanjinti 35.3%, Ogivri 19.2% Trazimera 26.1%, Herzuma 1.9%, Ontruzant 3.4% (금액 기준) ▶ Bevacizumab 점유율: Avastin 12.3%, Mvasi 53.1%, Zirabev 25.4%, Vegzelma 9.1% (수량 기준) ▶ Avastin 11.3%, Mvasi 55.5%, Zirabev 23.9%, Vegzelma 9.3% (금액기준) ▶ Adalimumab 점유율: Humira 9.5%, Humira CF 60.0%, Hadlima 10.9% Hyrimoz 8.4%, Amjevita 3.7%, Clytezo 3.9%",
               "post_url": "https://t.me/daolresearch/13112",
@@ -31819,7 +32105,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/74Xn47O",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /74Xn47O (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae3a36840>, 'Connection to buly.kr timed out. (connect ",
               "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 11월 음반원 업데이트 1) 음반 판매량 업데이트",
               "summary": "[엔터(Overweight) | 다올 엔터 임도영] ★ 11월 음반원 업데이트 1) 음반 판매량 업데이트 ▶ 11월 총 982만장(YoY-17.5%), 4사 합산 644만장(YoY-25.9%). 하이브 163만장, 에스엠 180.6만장, JYP Ent. 293.8만장, 와이지엔터테인먼트 6.2만장 판매. ▶ 25년 연간 음반판매량은 엔터 4사 기준 YoY-10% 내외의 역성장 전망. 다만 23년 하반기부터 이어진 음반 판매량 감소세는 둔화되며 마무리되는 모습. BTS 및 블랙핑크의 컴백을 필두로 26년 4사 합산 음반 판매량 성장 전환 예상. ▶ [HYBE] 주요 IP들의 컴백이 10월에 집중되며 11월에는 연준(투바투), 아일릿 외 컴백 부재 영향. [JYP] 스키즈가 241만장을 판매하며 견조한 판매량을 재차 입증. ITZY는 41만장으로 전작대비 감소하며 하락세 지속 중. [YG] 강승윤(위너) 외 컴백이 없었던 영향. ▶ [SM] 드림은 102만장으로 판매량 유지. 라이즈가 싱글 2집 64만장을 판매하며 전작 대비 크게 감소, 싱글 앨범이었던 점을 감안하더라도 다소 아쉬운 판매량 기록. 다만 아직까지 특별한 팬덤 이탈 징후는 관찰되고 있지 않는 만큼 다음 앨범에서 판매량이 정상 범위로 회복되는 지 여부가 중요. 현재 수준이 지속될 경우 라이즈 IP 성장성에 대한 우려가 부각되며 신인 보이그룹 데뷔(SMTR25, 3Q26 추정) 모멘텀이 희석될 수 있다고 판단 2) 음원 업데이트 ▶ 11월 엔터 4사 합산 월간 리스너 수는 2.7억명(YoY+22%, MoM+0.9%)으로 역대 최고치 기록. 하이브 1.3억명(MoM+2.1%; 이하 MoM), 에스엠 4,139만명(-0.2%), JYP Ent. 5,222만명(+3.9%), 와이지엔터테인먼트 4,254만명(-5.1%). ▶ [HYBE",
               "post_url": "https://t.me/daolresearch/13102",
@@ -31832,8 +32118,19 @@
           "sectors": [
             "조선/기계/방산"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2025-12-14",
+              "source": "https://t.me/daolresearch/13109"
+            },
+            {
+              "value": "비중확대",
+              "date": "2025-12-21",
+              "source": "https://t.me/daolresearch/13156"
+            }
+          ],
           "top_picks": [
             {
               "text": "최선호주 의견 유지",
@@ -31948,7 +32245,7 @@
               "company": "다올",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
@@ -31956,11 +32253,14 @@
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
-              "valuation": [],
+              "valuation": [
+                "Change(%) VALUATION",
+                "25.11.22 25.11.29 25.12.06 25.12.13 25.12.19 2025 2026 2025 PBR"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://bit.ly/DOS802",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/136067/1/20251221_B2040_gs.choie_484.pdf",
+              "pdf_error": "",
               "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG 15척 수주!, HII-HHI의 미국 호위함 협업? ⚓️ 주시 뉴스",
               "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG 15척 수주!, HII-HHI의 미국 호위함 협업? ⚓️ 주시 뉴스 ▶️ 선가, 실적, 캐파 △ 신조선가지수 184.57p로 0.03p 하락. 중고선가지수 상승 ▲ 그리스 Benelux Overseas는 HD현대중공업에 VLAC 2척 발주에서 신조선가 상승 ▼ Hengli Group의 조선업 재건 및 위상 강화 ▶️ 그린쉽 △ Azane Infrastructure, 노르웨이 암모니아 벙커링 터미널 건설 및 자금 확보 △ 삼성중공업, 부유식 SMR(FSMR) 플랫폼 디자인 인증 확보 ▶️ LNG ▲ Knutsen, 한화오션과 7척의 LNG선 건조 계약 체결 ▲ NYK와 Ocean Yield, LNG선 최대 8척 공동 발주 및 지분 투자 △ 말련 MISC는 스팀터빈 LNG선 3척 매각 추진. 선대 현대화 ▲ 미국 DOE는 Louisiana LNG 수출 시작 기한 44개월 연장 승인 ▽ Energy Transfer, Lake Charles LNG 수출 프로젝트 개발 중단 발표. 파이프라인 프로젝트로 투자 ▶️ 가스선/암모니아운반선 ▲ 그리스 Benelux Overseas는 HD현대중공업에 VLAC 2척 발주 ▶️ 컨테이너 △ 싱가포르 PIL, LNG D/F 13,000-TEU 컨테이너선 4~8척 발주 추진 ▽ Wan Hai Lines 6,000-TEU LNG D/F 컨테이너선 6척, 중국에 발주 ▽ MPC 중국조선소에 3,700-TEU 6척 발주 ▽ Maersk Sebarok호, 바브엘만데브 해협 통과 및 홍해 진입 ▶️ 탱커 ▽ Scorpio Tankers, 긴 공백 깨고, LR2 2척 중국에 발주 ▶️ 해양/디펜스/바람 ▲ 미국 신형 호위함 건조 업체로 '헌팅턴 잉걸스(HII)' 선정",
               "post_url": "https://t.me/daolresearch/13156",
@@ -32126,19 +32426,23 @@
               "company": "다올",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "경로가 순탄치 않아, LNG 가격이 하락할 것으로 예상합니다. 그린십 △ 선주 Exmar는 2026년 2분기에 첫 암모니아 D/F 가스 운반선을 인도받을 계획 △ 원자력 추진 상선, 2026년부터 ‘주류 산업’로 진입 전망. ▼ Poten & Partners 중국 LNG 수요 감소 전망 ❔ ▲ L ouisiana 주정부, Commonwealth LNG 허가 재발급. HD한국조선해양 (1년 누적 매수, 억원)",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "그린십 △ 선주 Exmar는 2026년 2분기에 첫 암모니아 D/F 가스 운반선을 인도받을 계획 △ 원자력 추진 상선, 2026년부터 ‘주류 산업’로 진입 전망. ▼ Poten & Partners 중국 LNG 수요 감소 전망 ❔ ▲ L ouisiana 주정부, Commonwealth LNG 허가 재발급. Cheniere Energy는 2026년부터 LNG 생산량을 처음으로 50MTPA 이상으로 늘릴 것으로 전망 여전히 많은 노후선이 있으며, 향후 대규모 교체 수요가 필연적이라고 전망 ▼ P oten & Partners 중국 LNG 수요 감소 전망",
+              "valuation": [
+                "그룹 종목 다섯달전 네달전 세달전 두달전 25.11.15 25.11.22 25.11.29 25.12.06 25.12.12 2달전 대비 4주전 대비 2025 PER 종가",
+                "2025 BPS(원) ROE VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 25.11.15 25.11.22 25.11.29 25.12.06 25.12.12 2025 2026 2025 PBR"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://bit.ly/DOS801",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135867/1/20251214_B2040_gs.choie_479.pdf",
+              "pdf_error": "",
               "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG 재개 분위기, 한화의 Austal USA 활용 ⚓ 주시 뉴스",
               "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG 재개 분위기, 한화의 Austal USA 활용 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 △ 신조선가지수 184.60p로 0.18p 상승. 탱커 또 상승 △ HD현대, 인도에 조선소 건설 계획 ▶ 그린쉽 △ 선주 Exmar는 2026년 2분기에 첫 암모니아 D/F 가스 운반선을 인도받을 계획 ▶ LNG ▲ NYK Group의 HD현대중공업에 LNG선 4+4척 발주 ▲ Equinor의 용선발주에 Knutsen OAS Shipping 우선협상 대상자 선정. 한화오션 4척 수주 임박 ▲ Clarksons Research 스티브 고든 “VLCC 겨울 강세… LNG 시장은 곧 폭발적 성장” ▼ Poten & Partners 중국 LNG 수요 감소 전망 ▶ 가스선/암모니아운반선 ▲ HD현대중공업 VLGC 2척 수주. 클락슨 입력 ▶ 컨테이너 ▽ Hapag-Lloyd는 메탄올 D/F 4,500-TEU, 중국에 발주 ▶ 탱커 ▲ Clarksons 의견: 탱커 시장, 투자자들이 지나치게 조심스러움 ▽ 그리스 선주 Vyron Vasileiadis는 중국에 컨테이너선과 LR2 발주 ▶ 해양/디펜스/바람 ▲ 한화그룹. 호주 오스탈 조선 인수 승인 득 ▶ 기타 △ 그리스 및 노르웨이 선주로부터 계약 추가한 Hengli의 잔고 200척. 2029년까지 채워짐 < ☞ https://bit.ly/DOS801 > * 텔레그램 공개 채널 https://t.me/HI_GS",
               "post_url": "https://t.me/daolresearch/13109",
@@ -32285,7 +32589,7 @@
               ],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/8phPPVl",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /8phPPVl (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f1ae2483d10>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (12월 3주차)]",
               "summary": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (12월 3주차)] ▶️ 금주 증시 동향 (12/15~12/18) - KOSPI(-4.1%), KOSDAQ(-3.8%) 하락. KOSPI는 에너지(+4.9%), 화학(+7.5%), 비철,목재등(+11%) 업종이 상승한 가운데 통신서비스(-0.5%), 디스플레이(-5.2%), IT가전(-10.6%) 업종 하락. 브로드컴과 오라클의 실적 발표 후, AI 수익성 우려가 부각되며 4,000선을 하회. 마이크론 실적 기대감에 반도체 업종이 반등하며 4,000선을 일시 회복했으나, 오라클 데이터센터 프로젝트 핵심 투자자(블루아울캐피털) 이탈로 AI 과잉투자 우려가 심화되고, LG에너지솔루션의 공급계약 해지 소식에 2차전지 업종이 급락하며 3,994pt에서 마감 - DOW(-1.0%), NASDAQ(-0.8%), S&P500(-0.8%) 하락. 브로드컴·오라클발 AI 수익성 우려와 경기 둔화 지표에 하락 출발한 증시는, 블루아울캐피털의 오라클 프로젝트 이탈로 AI 과잉 투자 공포가 심화되며 기술주 약세 및 전통주로의 순환매가 지속. 이후 마이크론의 어닝 서프라이즈와 예상치를 밑돈 11월 CPI 발표에 인플레이션 안도감이 형성되자, 기술주 저가 매수세가 유입되며 반등 마감 ▶️ 차주 증시 전망 (12/22~12/26) - 12월 FOMC에서 금리 인하와 단기물 중심 자산매입이 발표됐지만, 시중금리는 유의미한 하락이 나타나지 않고 있음. 오라클, 브로드컴 등의 영향으로 AI 산업에 대한 불안도 잔존하고, 1,480원 부근의 고환율 경계심도 높아 지는 등 다양한 부담 요인들이 공존. 인플레 상승이 제한되고 연준 정책이 금리 상단을 제어할 수 있다는 확신이 형성될 때 분위기 반전이 시도될 것. 1월 FOMC와 다음 연준 의장 확정",
               "post_url": "https://t.me/daolresearch/13153",
