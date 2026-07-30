@@ -1,0 +1,9 @@
+{
+ "ran_at": "2026-07-30T02:45:07.337747+00:00",
+ "provider": "gemini",
+ "analyzed": 2,
+ "errors": 0,
+ "cached_total": 2,
+ "pending_left": 1169,
+ "last_error": "Gemini daily quota exhausted: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a"
+}

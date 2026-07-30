@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T02:24:51.725540+00:00",
+ "generated_at": "2026-07-30T02:45:08.671492+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1171,
  "hits": [
@@ -14005,11 +14005,11 @@
    "sector": "조선/기계/방산",
    "company": "다올",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 3,
    "evidences": [
-    "한국의 수주 개시 ⚓ 주시 뉴스 ▷ 신조선가지수 소수점 하락, 중고선가지수 2주 연속 상승 ▲ 5년 중고 VLCC, 신조선가 수준으로 매각 예정",
-    "LNG ▼ EPS는 중국 장난 조선에 LNG선 2척, 첫 발주 △ 2025년 EU는 기록적 수입량을 기록."
+    "2026년에도 LNG 수요 강세 전망 △ Asyad Shipping Co, 스팀터빈 LNG선 5척 중 4척 매물로 내놓음 Howe Robinson 분석은 2026년 초반까지 스팟 운임은 약세를 보일 것이나, 2월 말 Venture Global의 수출 확대 및 신규 프로젝트 가동으로 완만한 지지선이 형성될 전망 현재 미계약 상태인 신조 물량은 40척 수준인데, 2027년에 정점을 찍은 후 감소할 전망 2026년에도 LNG 수요 ",
+    "2026년에도 LNG 수요 강세 전망 △ Asyad Shipping Co, 스팀터빈 LNG선 5척 중 4척 매물로 내놓음 당사 예상 대비 발주와 발주 LIST 클락슨 신조 발주: 한/중/일"
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 폭발적인 탱커 시장. 한국의 수주 개시 ⚓ 주시 뉴스 ▷ 신조선가지수 소수점 하락, 중고선가지수 2주 연속 상승 ▲ 5년 중고 VLCC, 신조선가 수준으로",
    "post_url": "https://t.me/daolresearch/13323",
@@ -14272,6 +14272,23 @@
    "score": 2,
    "evidences": [
     "중국 유통채널 동향 및 기업별 전략 - 중국 소비 경기의 유의미한 반등은 묘연하나, 국내 음식료 기업들의 ‘26년 중국 성장률은 시장 성장률을 상회할 전망 - 할인점 업태의 부진, 슈퍼마켓 점포수 감소라는 부정적 매크로 환경은 상존하나, 간식점/창고형할인매장/온라인/편의점 채널 성장세는 지속되고 있기 때문"
+   ],
+   "title": "[음식료(Overweight) | 다올 이다연] ★ 음식료 Indepth: 나는 건물 사이에 피어난 장미",
+   "post_url": "https://t.me/daolresearch/13354",
+   "source_url": "https://bit.ly/3NGqyYx"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-01-20",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "음식료",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "• [투자의견 및 Valuation] 세제개편안, 상법개정안 논의가 더 구체화 및 본격화"
    ],
    "title": "[음식료(Overweight) | 다올 이다연] ★ 음식료 Indepth: 나는 건물 사이에 피어난 장미",
    "post_url": "https://t.me/daolresearch/13354",
@@ -14591,6 +14608,40 @@
    "source_url": "https://buly.kr/8IxLJsF"
   },
   {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-01-25",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "2026년에도 LNG 수요 강세 전망 △ Braemar, 2026-2027년 VLCC 및 Suezmax 시황 낙관 전망 △ 이란 내 반정부 시위 격화."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 호황, 그러나 LNG 신조시장에서 중국의 공격 행보 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/13383",
+   "source_url": "https://bit.ly/DOS806"
+  },
+  {
+   "theme": "해운 운임",
+   "category": "원자재",
+   "date": "2026-01-25",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "④ 런던 Braemar 중개인은 향후2년 동안 탱커 시황 호황 전망을 제시합니다."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 호황, 그러나 LNG 신조시장에서 중국의 공격 행보 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/13383",
+   "source_url": "https://bit.ly/DOS806"
+  },
+  {
    "theme": "방산 수출",
    "category": "산업테마",
    "date": "2026-01-25",
@@ -14615,11 +14666,11 @@
    "sector": "조선/기계/방산",
    "company": "다올",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
-    "선가, 실적, 캐파 ▲ 신조선가지수 소수점 상승.",
-    "LNG △ Alpha Gas, 한화오션에 LNG선 2척 발주 확정."
+    "2026년 상반기에 가장 중요한 모멘텀은 대규모LNG선 발주와, 거기에서 신조선가 확인입니다 .",
+    "선가, 실적, 캐파 ▲ 신조선가지수 소수점 상승."
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 호황, 그러나 LNG 신조시장에서 중국의 공격 행보 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/13383",
@@ -27319,13 +27370,6 @@
    "recent": 10,
    "total": 20,
    "sectors": 10,
-   "burst": 3.5
-  },
-  {
-   "term": "동안",
-   "recent": 9,
-   "total": 18,
-   "sectors": 5,
    "burst": 3.5
   },
   {
