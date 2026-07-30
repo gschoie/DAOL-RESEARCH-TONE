@@ -132,6 +132,15 @@ class EstCompare(unittest.TestCase):
         c = v2.est_compare(est, self.CONS)
         self.assertNotIn('quarter', c or {})
 
+    def test_billion_won_scale_autocorrect(self):
+        # 232.4(십억원 미환산) vs 컨센 2,706억 → 2,324억으로 보정되어 -14.1%
+        est = {'quarter_label': '2Q26', 'quarter_op': 232.4, 'quarter_eps': None,
+               'year_op': None, 'year_eps': None}
+        cons = {'quarter': {'label': '2Q26', 'op': 2706.0, 'eps': None}, 'annual': None}
+        c = v2.est_compare(est, cons)
+        self.assertEqual(c['quarter']['op']['our'], 2324.0)
+        self.assertAlmostEqual(c['quarter']['op']['diff_pct'], -14.1)
+
     def test_none_when_no_data(self):
         self.assertIsNone(v2.est_compare(None, self.CONS))
         self.assertIsNone(v2.est_compare({'quarter_label': '', 'quarter_op': None, 'quarter_eps': None,

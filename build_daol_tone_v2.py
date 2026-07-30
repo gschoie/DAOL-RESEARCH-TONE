@@ -71,9 +71,16 @@ def fmt_won(v):
     return f'{int(v):,}원' if v else None
 
 
-def _pair(our, cons):
+def _pair(our, cons, fix_scale=False):
     # 비교의 주체는 애널 본인 추정 — 추정이 없으면 컨센만 보여줄 이유가 없다.
     if our is None: return None
+    # 영업이익 단위 보정: 십억원 표를 억원으로 환산 못 한 LLM 출력(정확히 ~10배 차이)을 잡는다.
+    # 진짜 추정이 컨센의 1/10 수준일 가능성은 사실상 없으므로 10배 창에서만 교정한다.
+    if fix_scale and our and cons:
+        for factor in (10, 0.1):
+            if 0.55 <= (our * factor) / cons <= 1.8 and not 0.4 <= our / cons <= 2.5:
+                our = round(our * factor, 1)
+                break
     diff = round((our / cons - 1) * 100, 1) if our and cons else None
     return {'our': our, 'cons': cons, 'diff_pct': diff}
 
@@ -84,10 +91,10 @@ def est_compare(estimates, consensus):
     out = {}
     q_cons = consensus.get('quarter') or {}
     if estimates.get('quarter_label') and estimates['quarter_label'] == q_cons.get('label'):
-        op, eps = _pair(estimates.get('quarter_op'), q_cons.get('op')), _pair(estimates.get('quarter_eps'), q_cons.get('eps'))
+        op, eps = _pair(estimates.get('quarter_op'), q_cons.get('op'), fix_scale=True), _pair(estimates.get('quarter_eps'), q_cons.get('eps'))
         if op or eps: out['quarter'] = {'label': estimates['quarter_label'], 'op': op, 'eps': eps}
     a_cons = consensus.get('annual') or {}
-    op, eps = _pair(estimates.get('year_op'), a_cons.get('op')), _pair(estimates.get('year_eps'), a_cons.get('eps'))
+    op, eps = _pair(estimates.get('year_op'), a_cons.get('op'), fix_scale=True), _pair(estimates.get('year_eps'), a_cons.get('eps'))
     if (op or eps) and a_cons:
         out['annual'] = {'label': a_cons.get('label') or '당해E', 'op': op, 'eps': eps}
     return out or None
