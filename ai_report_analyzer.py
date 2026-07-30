@@ -109,8 +109,17 @@ def _post_json(url, body, headers, timeout=90):
         return json.loads(response.read().decode('utf-8'))
 
 
-def gemini_analyze(user_text):
-    model = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
+GEMINI_CANDIDATES = ['gemini-flash-lite-latest', 'gemini-3.6-flash', 'gemini-3.5-flash',
+                     'gemini-2.5-flash', 'gemini-2.0-flash']
+
+
+def gemini_model_queue():
+    env = os.getenv('GEMINI_MODEL', '').strip()
+    return ([env] if env else []) + [m for m in GEMINI_CANDIDATES if m != env]
+
+
+def gemini_analyze(user_text, model=None):
+    model = model or gemini_model_queue()[0]
     url = GEMINI_API_TEMPLATE.format(model=model) + f"?key={os.environ['GEMINI_API_KEY'].strip()}"
     body = {'systemInstruction': {'parts': [{'text': SYSTEM_PROMPT}]},
             'contents': [{'role': 'user', 'parts': [{'text': user_text}]}],
@@ -132,7 +141,7 @@ def gemini_analyze(user_text):
     raise RuntimeError('Gemini retry loop exited unexpectedly')
 
 
-def openai_analyze(user_text):
+def openai_analyze(user_text, model=None):
     model = os.getenv('OPENAI_MODEL', 'gpt-5-mini')
     body = {'model': model, 'instructions': SYSTEM_PROMPT, 'input': user_text,
             'text': {'format': {'type': 'json_schema', 'name': 'report_tone',
@@ -233,18 +242,32 @@ def run(max_reports=100, since='', budget_seconds=1500):
     analyze = gemini_analyze if provider == 'gemini' else openai_analyze
     # 무료 티어 분당 한도를 지키는 호출 간격(Gemini flash 10 RPM)
     delay = float(os.getenv('AI_CALL_DELAY', '6.5' if provider == 'gemini' else '0.5'))
+    model_queue = gemini_model_queue() if provider == 'gemini' else [None]
+    model_idx = 0
     done, errors, started = 0, 0, time.monotonic()
     last_error = ''
+
+    def next_gemini_model():
+        # 아직 한 건도 성공 못 했을 때만 후보 모델을 순차 시도한다(무료 쿼터가 세대별로 다름).
+        nonlocal model_idx
+        if analyze is gemini_analyze and done == 0 and model_idx + 1 < len(model_queue):
+            model_idx += 1
+            print(f'::warning::모델 전환 시도 → {model_queue[model_idx]}')
+            return True
+        return False
+
     try:
         for report in pending[:max_reports]:
             if time.monotonic() - started > budget_seconds: break
             try:
-                raw, model = analyze(build_input_text(report, messages_by_id, pdf_cache))
+                raw, model = analyze(build_input_text(report, messages_by_id, pdf_cache),
+                                     model_queue[model_idx])
                 cache[str(report['id'])] = {'analyzed_at': datetime.now(timezone.utc).isoformat(),
                                             'model': model, 'result': normalize_result(raw)}
                 done += 1
             except QuotaExhaustedError as exc:
                 last_error = str(exc)[:1400]
+                if next_gemini_model(): continue
                 # Gemini 일일 한도 소진 시 OpenAI 키가 있으면 남은 물량을 폴백으로 계속 처리한다.
                 if analyze is gemini_analyze and os.getenv('OPENAI_API_KEY', '').strip():
                     print('::warning::Gemini 한도 소진 — OpenAI 폴백으로 전환')
@@ -252,6 +275,7 @@ def run(max_reports=100, since='', budget_seconds=1500):
                     continue
                 print(f'::warning::{exc}'); break
             except Exception as exc:  # 개별 실패는 건너뛰고 다음 런에서 재시도
+                if '404' in str(exc) and next_gemini_model(): continue
                 errors += 1
                 last_error = str(exc)[:300]
                 print(f"::warning::report {report['id']} 분석 실패: {str(exc)[:200]}")
@@ -262,7 +286,7 @@ def run(max_reports=100, since='', budget_seconds=1500):
             AI_CACHE.write_text(json.dumps(cache, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
         status = {'ran_at': datetime.now(timezone.utc).isoformat(), 'provider': provider,
                   'analyzed': done, 'errors': errors, 'cached_total': len(cache),
-                  'pending_left': len(pending) - done, 'last_error': last_error}
+                  'pending_left': len(pending) - done, 'model_tried': model_queue[model_idx] if provider != 'openai' else 'openai', 'last_error': last_error}
         (DATA_DIR / 'ai_run_status.json').write_text(
             json.dumps(status, ensure_ascii=False, indent=1), encoding='utf-8')
     print(json.dumps({'provider': provider, 'analyzed': done, 'errors': errors,
