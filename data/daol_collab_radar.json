@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-30T10:28:18.952803+00:00",
+ "generated_at": "2026-07-30T15:10:43.266043+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1172,
+ "report_count": 1173,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -26736,6 +26736,75 @@
    "title": "[Microsoft(MSFT US)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ FY26 4Q Review: 조용하게 강하다 ★ Not Rated",
    "post_url": "https://t.me/daolresearch/14713",
    "source_url": "https://buly.kr/9XNkJqt"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-07-30",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "주주환원 확대와 CAPEX 고민"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 저평가? 주주환원 확대와 CAPEX 고민",
+   "post_url": "https://t.me/daolresearch/14714",
+   "source_url": "https://bit.ly/DH2Q26RE"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-07-30",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "주주환원 확대와 CAPEX 고민"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 저평가? 주주환원 확대와 CAPEX 고민",
+   "post_url": "https://t.me/daolresearch/14714",
+   "source_url": "https://bit.ly/DH2Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-07-30",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 저평가? 주주환원 확대와 CAPEX 고민",
+   "post_url": "https://t.me/daolresearch/14714",
+   "source_url": "https://bit.ly/DH2Q26RE"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-07-30",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "2028년까지 빈티지 효과를 계속 보일 전망 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 6: 대한조선 실적 예상: 2026년의 신조선가 상승 → 2028~2029년 수익성 더 개선 (십억원) 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을",
+    "6: 대한조선 실적 예상: 2026년의 신조선가 상승 → 2028~2029년 수익성 더 개선 (십억원)"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 저평가? 주주환원 확대와 CAPEX 고민",
+   "post_url": "https://t.me/daolresearch/14714",
+   "source_url": "https://bit.ly/DH2Q26RE"
   }
  ],
  "cross_mentions": [
@@ -27569,13 +27638,6 @@
    "burst": 3.9
   },
   {
-   "term": "높아",
-   "recent": 11,
-   "total": 22,
-   "sectors": 7,
-   "burst": 3.6
-  },
-  {
    "term": "점진적",
    "recent": 10,
    "total": 20,
@@ -27587,6 +27649,13 @@
    "recent": 9,
    "total": 18,
    "sectors": 3,
+   "burst": 3.5
+  },
+  {
+   "term": "높아",
+   "recent": 11,
+   "total": 22,
+   "sectors": 7,
    "burst": 3.5
   },
   {

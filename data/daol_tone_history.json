@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T10:17:03.981894+00:00",
+  "generated_at": "2026-07-30T15:07:58.383686+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1172,
+  "report_count": 1173,
   "months": [
     {
       "month": "2026-07",
@@ -3698,8 +3698,45 @@
               "source": "https://t.me/daolresearch/14694"
             }
           ],
-          "report_count": 15,
+          "report_count": 16,
           "reports": [
+            {
+              "id": 14714,
+              "date": "2026-07-30",
+              "month": "2026-07",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "대한조선",
+              "code": "439260",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "2028년까지 빈티지 효과를 계속 보일 전망 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 6: 대한조선 실적 예상: 2026년의 신조선가 상승 → 2028~2029년 수익성 더 개선 (십억원) 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을",
+              "industry_conclusion": "",
+              "report_conclusion": "2028년까지 빈티지 효과를 계속 보일 전망 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음 투자의견 변경 BUY BUY BUY BUY",
+              "valuation": [
+                "2026→2027년 감익과 2028년 탑라인 정체로 멀티플(현재 적정PER",
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 10.4 6.0 7.1",
+                "PBR(배) 2.4 1.4 1.2",
+                "EV/EBITDA(배) 7.8 3.8 3.7",
+                "Performance 1M 6M 12M YTD"
+              ],
+              "earnings_changes": [
+                "1: 대한조선 실적 조정: 2026년 선가 상승 수주를 반영해서, 2028~2029년 이익 상향 (십억원)",
+                "6: 대한조선 실적 예상: 2026년의 신조선가 상승 → 2028~2029년 수익성 더 개선 (십억원)"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142932/1/20260730_439260_gs.choie_570.pdf",
+              "pdf_error": "",
+              "title": "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 저평가? 주주환원 확대와 CAPEX 고민",
+              "summary": "[대한조선(439260)/BUY(유지)/TP 121,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 저평가? 주주환원 확대와 CAPEX 고민 ▶ Issue: 2Q26 리뷰. 저평가 배경과 이를 타개하려는 사측의 노력 가이던스 ▶ Pitch: - 2028 PER 5배로 저평가. 이제 26%대 OPM 실적은 당연해짐. 탑라인이 막혀있다는 점이 그 원인 - 이에 동사는 VLGC 병렬 건조, 생산설비(도크) 투자 등을 고민 중 - 확정하고, 공표하고, 실행할 때 저평가를 해소할 수 있을 것으로 판단. 또는 TRS(2025년 20%) 확대도 필요 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/DH2Q26RE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/14714",
+              "source_url": "https://bit.ly/DH2Q26RE"
+            },
             {
               "id": 14701,
               "date": "2026-07-29",
@@ -4341,7 +4378,7 @@
           ]
         }
       ],
-      "report_count": 92
+      "report_count": 93
     },
     {
       "month": "2026-06",
