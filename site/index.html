@@ -44,6 +44,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-event em.up{color:#2e7d4f}.tone-event em.down{color:var(--red)}.tone-event em.mid{color:#8a661c}
 .tone-table-wrap{background:#fff;border:1px solid var(--line);overflow-x:auto}
 .tone-table{width:100%;border-collapse:collapse;font-size:12px;min-width:940px}
+.th-sort{cursor:pointer;user-select:none}.th-sort:hover{text-decoration:underline}.th-sort em{font-style:normal;color:#386453;font-size:10px}
 .tone-table th{position:sticky;top:0;background:#f6f8f5;text-align:left;padding:11px 12px;font-size:11px;color:#5b665f;letter-spacing:.03em;border-bottom:2px solid #263d35;white-space:nowrap}
 .tone-table td{padding:10px 12px;border-bottom:1px solid #eef1ec;vertical-align:top}
 .tone-sector-group{border-top:2px solid #263d35}
@@ -144,7 +145,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const state={tone2:null,toneQ:'',toneSector:'',toneAnalyst:''};
+const state={tone2:null,toneQ:'',toneSector:'',toneAnalyst:'',sectorSort:'recent'};
 const convDots=v=>v==null?'':`<span class="conv-dots" title="확신도 ${v}/5">${'●'.repeat(v)}${'○'.repeat(5-v)}</span>`;
 const toneLabelClass=l=>({'강한 확신':'t-strong','긍정':'t-pos','중립·건조':'t-dry','신중':'t-cau','부정적':'t-neg'})[l]||'t-dry';
 const opinionClass=o=>/확대|매수|Overweight/i.test(o)?'op-up':/축소|매도|Underweight/i.test(o)?'op-down':/중립|Neutral/i.test(o)?'op-mid':'op-none';
@@ -177,14 +178,21 @@ function analystRow(a,secCell=''){const tone=a.latest_tone?`<div class="tone-cel
  const comps=(a.companies||[]).slice(0,6).map(c=>`<button type="button" class="company-mini tone-ck" data-ck="${esc(c.key)}" title="${esc(c.name)} 히스토리 열기 · ${c.count}건">${esc(c.name)}<i>${c.count}</i></button>`).join('')||'<span class="tone-empty">—</span>';
  const last=a.last_report?.date?`<small>${mmdd(a.last_report.date)}</small> <a href="${esc(a.last_report.post_url)}" target="_blank" rel="noopener">${esc((a.last_report.title||'').slice(0,52))}</a>`:'—';
  return `<tr>${secCell}<td class="ta-name"><button type="button" class="tone-ck analyst-link" data-ck="${esc(a.industry_key)}" title="${esc(a.sector)} 산업자료 톤 히스토리">${esc(a.analyst)}</button><small>${a.report_count}건</small></td><td><span class="op-badge ${opinionClass(a.opinion)}">${esc(a.opinion)}</span>${a.opinion_date?`<small class="op-date">${mmdd(a.opinion_date)}</small>`:''}</td><td>${tone}</td><td>${sparkline(a.conviction_series)}</td><td class="ta-tp">${tps}</td><td class="ta-comps">${comps}</td><td class="ta-last">${last}</td></tr>`}
+const PINNED_SECTORS=['전략·시황','기타','미분류'];
+function sectorLatest(g){let m='';for(const a of g.analysts||[]){const d=a.last_report?.date||'';if(d>m)m=d}return m}
+function sortedSectors(list){const pin=g=>PINNED_SECTORS.includes(g.sector)?1:0,arr=[...list];
+ if(state.sectorSort==='recent')arr.sort((a,b)=>pin(a)-pin(b)||sectorLatest(b).localeCompare(sectorLatest(a)));
+ else if(state.sectorSort==='asc')arr.sort((a,b)=>pin(a)-pin(b)||a.sector.localeCompare(b.sector,'ko'));
+ else arr.sort((a,b)=>pin(a)-pin(b)||b.sector.localeCompare(a.sector,'ko'));
+ return arr}
 function renderTone(){const data=state.tone2||{sectors:[]},q=state.toneQ.toLocaleLowerCase();let html='';
- for(const group of data.sectors||[]){if(state.toneSector&&group.sector!==state.toneSector)continue;
+ for(const group of sortedSectors(data.sectors||[])){if(state.toneSector&&group.sector!==state.toneSector)continue;
   const rows=(group.analysts||[]).filter(a=>(!state.toneAnalyst||a.analyst===state.toneAnalyst)&&(!q||JSON.stringify(a).toLocaleLowerCase().includes(q)));
   if(!rows.length)continue;
   const total=rows.reduce((s,a)=>s+a.report_count,0);
   const secCell=`<td class="sec-cell" rowspan="${rows.length}"><button type="button" class="tone-ck sec-name" data-ck="IND:${esc(group.sector)}" title="${esc(group.sector)} 산업자료 톤·의견 히스토리">${esc(group.sector)}</button><small>${total}건</small><button type="button" class="tone-ck sector-ind" data-ck="IND:${esc(group.sector)}">산업 톤 →</button></td>`;
   html+=`<tbody class="tone-sector-group">${rows.map((a,i)=>analystRow(a,i===0?secCell:'')).join('')}</tbody>`}
- $('#tone-content').innerHTML=html?`<div class="tone-table-wrap"><table class="tone-table"><thead><tr><th>섹터</th><th>애널리스트</th><th>산업의견</th><th>최근 톤(AI)</th><th>확신도 추이</th><th>최근 TP 변경</th><th>커버 기업</th><th>최근 자료</th></tr></thead>${html}</table></div>`:'<div class="tone-loading">조건에 맞는 자료가 없습니다.</div>';
+ $('#tone-content').innerHTML=html?`<div class="tone-table-wrap"><table class="tone-table"><thead><tr><th id="th-sector" class="th-sort" title="클릭: 최신순 → ㄱㄴㄷ → ㄱㄴㄷ 역순">섹터 <em>${({recent:'최신순',asc:'ㄱㄴㄷ',desc:'ㄷㄴㄱ'})[state.sectorSort]}</em></th><th>애널리스트</th><th>산업의견</th><th>최근 톤(AI)</th><th>확신도 추이</th><th>최근 TP 변경</th><th>커버 기업</th><th>최근 자료</th></tr></thead>${html}</table></div>`:'<div class="tone-loading">조건에 맞는 자료가 없습니다.</div>';
  renderToneEvents()}
 function fillToneFilters(){const sectors=(state.tone2?.sectors||[]).map(x=>x.sector),analysts=[...new Set((state.tone2?.sectors||[]).flatMap(g=>g.analysts.map(a=>a.analyst)))].sort((a,b)=>a.localeCompare(b,'ko'));$('#tone-sector').innerHTML='<option value="">전체 섹터</option>'+sectors.map(x=>`<option ${state.toneSector===x?'selected':''}>${esc(x)}</option>`).join('');$('#tone-analyst').innerHTML='<option value="">전체 애널리스트</option>'+analysts.map(x=>`<option ${state.toneAnalyst===x?'selected':''}>${esc(x)}</option>`).join('')}
 function lineChart(points,{w=560,h=150,color='#8a5a2b',fmt=v=>Number(v).toLocaleString()}={}){const pts=points.filter(p=>p.v!=null);if(pts.length<2)return '<div class="tone-empty">표시할 데이터가 2건 미만입니다.</div>';const vs=pts.map(p=>p.v),min=Math.min(...vs),max=Math.max(...vs),pad=(max-min)*0.12||max*0.05||1;const lo=min-pad,hi=max+pad;const xs=i=>44+i*(w-58)/(pts.length-1),ys=v=>h-22-(v-lo)*(h-34)/(hi-lo);const line=pts.map((p,i)=>`${xs(i).toFixed(1)},${ys(p.v).toFixed(1)}`).join(' ');const dots=pts.map((p,i)=>`<circle cx="${xs(i).toFixed(1)}" cy="${ys(p.v).toFixed(1)}" r="${p.c?3.5:3}" fill="${p.c||color}"><title>${mmdd(p.date)} · ${fmt(p.v)}${p.note?` · ${esc(p.note)}`:''}</title></circle>`).join('');return `<svg class="tone-chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet"><text x="4" y="${ys(max)+4}" class="ax">${fmt(max)}</text><text x="4" y="${ys(min)+4}" class="ax">${fmt(min)}</text><text x="44" y="${h-6}" class="ax">${mmdd(pts[0].date)}</text><text x="${w-14}" y="${h-6}" class="ax" text-anchor="end">${mmdd(pts[pts.length-1].date)}</text><polyline points="${line}" fill="none" stroke="${color}" stroke-width="2"/>${dots}</svg>`}
@@ -223,7 +231,8 @@ $('#tone-refresh').onclick=loadTone;
 $('#tone-modal-close').addEventListener('click',closeToneModal);
 $('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#tone-modal').hidden)closeToneModal()});
-document.addEventListener('click',e=>{const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck)openToneCompany(t.dataset.ck)});
+document.addEventListener('click',e=>{const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck){openToneCompany(t.dataset.ck);return}
+ if(e.target.closest('#th-sector')){state.sectorSort={recent:'asc',asc:'desc',desc:'recent'}[state.sectorSort];renderTone()}});
 loadTone();
 </script>
 </body>
