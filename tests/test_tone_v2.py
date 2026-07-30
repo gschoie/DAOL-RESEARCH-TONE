@@ -94,6 +94,21 @@ class TimelineEvents(unittest.TestCase):
         self.assertIn('실적추정 하향', types)
         self.assertIn('톤 급변↓', types)
 
+    def test_equivalent_opinions_do_not_emit_change(self):
+        # 비중확대(산업 표기)와 매수(종목 표기)는 같은 방향 — 의견 변경 아님
+        timeline = [
+            v2.merge_report(make_report('1', '2026-06-01'), make_ai(opinion='비중확대')),
+            v2.merge_report(make_report('2', '2026-07-01'), make_ai(opinion='매수')),
+        ]
+        v2.attach_point_diffs(timeline)
+        events = v2.timeline_events('k', 'n', timeline)
+        self.assertNotIn('의견 변경', {e['type'] for e in events})
+
+    def test_hold_tp_display_is_single_value(self):
+        merged = v2.merge_report(make_report('3', '2026-07-02'), make_ai(
+            tp={'direction': '유지', 'value': 6000.0, 'prior': 6000.0, 'reasons': [], 'evidence': ''}))
+        self.assertEqual(merged['tp_event']['display'], '6,000원')
+
     def test_no_events_without_change(self):
         timeline = [v2.merge_report(make_report('1', '2026-06-01'), None)]
         v2.attach_point_diffs(timeline)

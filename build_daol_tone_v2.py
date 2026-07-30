@@ -53,6 +53,20 @@ def classify_regex_reasons(reasons):
     return sorted({REASON_MAP.get(r, '기타') for r in (reasons or [])}) or ['기타']
 
 
+OPINION_POSITIVE = re.compile(r'매수|비중\s*확대|Overweight|BUY', re.I)
+OPINION_NEGATIVE = re.compile(r'매도|비중\s*축소|Underweight|SELL|Reduce', re.I)
+OPINION_NEUTRAL = re.compile(r'중립|Neutral|Hold', re.I)
+
+
+def opinion_class(op):
+    """'비중확대'와 '매수'처럼 표기만 다른 같은 방향 의견을 한 클래스로 묶는다."""
+    if not op: return ''
+    if OPINION_POSITIVE.search(op): return '긍정'
+    if OPINION_NEGATIVE.search(op): return '부정'
+    if OPINION_NEUTRAL.search(op): return '중립'
+    return ''
+
+
 def fmt_won(v):
     return f'{int(v):,}원' if v else None
 
@@ -96,7 +110,9 @@ def merge_report(report, ai_entry):
             'earnings_direction': ai['earnings']['direction'], 'earnings_evidence': ai['earnings']['evidence'],
             'tp_event': None if tp['direction'] in ('없음', '유지') and not tp['value'] else {
                 'direction': tp['direction'], 'value': tp['value'], 'prior': tp['prior'],
-                'display': ' → '.join(x for x in (fmt_won(tp['prior']), fmt_won(tp['value'])) if x)
+                # 유지·동일값은 '6,000원 → 6,000원' 대신 단일 표기
+                'display': (fmt_won(tp['value']) if tp['direction'] == '유지' or tp['prior'] == tp['value']
+                            else ' → '.join(x for x in (fmt_won(tp['prior']), fmt_won(tp['value'])) if x))
                            or f"{tp['direction']}",
                 'reasons': tp['reasons'] or (['기타'] if tp['direction'] in ('상향', '하향') else []),
                 'evidence': tp['evidence']},
@@ -153,7 +169,9 @@ def timeline_events(key, name, timeline):
             events.append({**base, 'type': f"TP {tp['direction']}",
                            'detail': f"{tp['display']} ← {reasons}" if reasons else tp['display'],
                            'evidence': tp['evidence']})
-        if record['opinion'] and prev.get('opinion') and record['opinion'] != prev['opinion']:
+        # 방향 클래스(긍정/중립/부정)가 실제로 바뀔 때만 의견 변경 — '비중확대→매수'는 변경 아님.
+        cur_class = opinion_class(record['opinion'])
+        if cur_class and prev.get('opinion_class') and cur_class != prev['opinion_class']:
             events.append({**base, 'type': '의견 변경',
                            'detail': f"{prev['opinion']} → {record['opinion']}", 'evidence': ''})
         if record['ai'] and record['earnings_direction'] in ('상향', '하향'):
@@ -170,7 +188,8 @@ def timeline_events(key, name, timeline):
             if added or dropped:
                 bits = ([f"신규: {', '.join(added)}"] if added else []) + ([f"소멸: {', '.join(dropped)}"] if dropped else [])
                 events.append({**base, 'type': '투자포인트 변화', 'detail': ' · '.join(bits), 'evidence': ''})
-        if record['opinion']: prev['opinion'] = record['opinion']
+        if opinion_class(record['opinion']):
+            prev['opinion'] = record['opinion']; prev['opinion_class'] = opinion_class(record['opinion'])
         if record['conviction'] is not None: prev['conviction'] = record['conviction']
     return events
 
@@ -201,7 +220,13 @@ SECTOR_KEYWORDS = [
 ]
 
 
+# 키워드가 엉뚱하게 매기는 기업의 수동 교정(기업명 기준). 예: 리브스메드는 수술기구 = 의료기기.
+COMPANY_SECTOR_OVERRIDES = {'리브스메드': '의료기기'}
+
+
 def resolve_sector(record, sector_map):
+    if record['company'] in COMPANY_SECTOR_OVERRIDES:
+        return COMPANY_SECTOR_OVERRIDES[record['company']]
     if record['code'] and record['code'] in sector_map:
         return sector_map[record['code']]
     # 1순위: 제목(그 리포트가 실제 다루는 주제). 2순위: 애널 헤더의 원시 섹터 문자열 —
