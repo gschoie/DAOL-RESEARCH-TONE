@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T03:40:32.992135+00:00",
+ "generated_at": "2026-07-30T04:13:24.380421+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1171,
  "hits": [
@@ -10695,10 +10695,10 @@
    "company": "농심",
    "code": "004370",
    "direction": "수혜",
-   "score": 4,
+   "score": 1,
    "evidences": [
-    "[투자의견] 1) 케데헌 콜라보, 글로벌 신라면 홍보대사 기용 등으로 4Q25 미국 판매량 YoY (+) 전환 전망, 2) 유럽법인 거래선 정비 작업 마무리 (3Q25 기준 80-90% 완료)에 따른 외형 Upside, 3) 국내(3월), 미국(7월) 가격인상 효과에 따른 YoY 증익폭 확대를 감안해 '26년 실적 추정치와 적정배수를 상향(16→17배) 조정, 적정주가를 55만원으로 상향 *보고서 원문 및 Compliance ",
-    "특히 미국 내 10월 신라면 브랜드 매출액은 YoY +30%, MoM +29% 증가하며 케데헌 등 마케팅 효과가 드러나는 중."
+    "특히 미국 내 10월 신라면 브랜드 매출액은 YoY +30%, MoM +29% 증가하며 케데헌 등 마케팅 효과가 드러나는 중.",
+    "[투자의견] 1) 케데헌 콜라보, 글로벌 신라면 홍보대사 기용 등으로 4Q25 미국 판매량 YoY (+) 전환 전망, 2) 유럽"
    ],
    "title": "[농심 (004370) | BUY(유지) | TP 55만원(상향) | 다올 음식료 이다연] ★ 3Q25 Review: 3분기는 별도가, 4분기는 미국도",
    "post_url": "https://t.me/daolresearch/12911",
@@ -10799,7 +10799,7 @@
    "company": "에스앤디",
    "code": "",
    "direction": "수혜",
-   "score": 4,
+   "score": 2,
    "evidences": [
     "실적 전망 동사의 일반기능식품소재 매출액 YoY 증가율은 삼양식품의 달러 매출액 YoY 증가율 (매출액에 분기평균 원달러 환율을 적용해 임의 달러 변환)을 상회 중(Fig4)."
    ],
@@ -11189,6 +11189,23 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 로봇 밸류체인, ESS가 현재의 키워드",
    "post_url": "https://t.me/daolresearch/12963",
    "source_url": "https://buly.kr/AaqpCZW"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-11-23",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "▲ 중국 리스(Leasing) 부문, USTR 압박 지속 전망 먼저, Woodside Energy의 Louisiana LNG(16.5MTPA)에 지분투자와 2MTPA의 장기공급계약 체결 전망 그러나, 2026년 시장 전망은 부정적 중장기 글로벌 LNG 공급은 2045년까지 꾸준히 증가 전망."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 신조선가 올려 수주, 돌아오는 모잠비크 LNG도 선가 압력 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/12964",
+   "source_url": "https://bit.ly/DOS798"
   },
   {
    "theme": "방산 수출",
@@ -11919,6 +11936,23 @@
    "source_url": "https://buly.kr/4QoNxGw"
   },
   {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-12-07",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "2029년 슬롯 내년 매진 전망 ✅ ▲ BW LNG, HD현대그룹에 LNG선 2척 신규 발주 시장 조정(Downturn) 발생 시 CAPA 급증은 자금흐름 악화·신조 감소로 이어질 것을 우려하지만 고부가·친환경 선박 중심 시장 구조가 완충 역할을 할 것으로 전망 미국의 관세 가능성에 대해서는, 미국이 중국산 선박에 추가 관세 부과하더라도, 단기 영향뿐이며, 중국 조선 수출의 본질은 흔들리지 않을 것이라고 전망 추진 상선, 20"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 돌아오는 Mozambique와 Commonwealth LNG ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/13056",
+   "source_url": "https://bit.ly/DOS800"
+  },
+  {
    "theme": "원전/우라늄",
    "category": "원자재",
    "date": "2025-12-07",
@@ -11929,7 +11963,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "그린쉽 △ 원자력 추진 상선, 2026년부터 ‘주류 산업’로 진입 전망."
+    "그린쉽 △ 원자력 추진 상선, 2026년부터 ‘주류 산업’로 진입 전망.",
+    "그린십 △ 원자력 추진 상선, 2026년부터 ‘주류 산업’로 진입 전망."
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 돌아오는 Mozambique와 Commonwealth LNG ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/13056",
@@ -11960,11 +11995,11 @@
    "sector": "조선/기계/방산",
    "company": "다올",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "피해",
+   "score": -2,
    "evidences": [
-    "선가, 실적, 캐파 △ 신조선가지수 184.42p로 0.08p 상승.",
-    "2029년 슬롯 내년 매진 전망 ▲ HD현대삼호, 아시아 선주 LNG선 1척 수주 ▲ Mozambique LNG 프로젝트에 TotalEnergies 영•네덜란드 금융 철회분 ‘자체 자본투입’ 결정 ▲ Louisiana 주정부, Commonwealth LNG 허가 재발급."
+    "2029년 슬롯 내년 매진 전망 ✅ ▲ BW LNG, HD현대그룹에 LNG선 2척 신규 발주 시장 조정(Downturn) 발생 시 CAPA 급증은 자금흐름 악화·신조 감소로 이어질 것을 우려하지만 고부가·친환경 선박 중심 시장 구조가 완충 역할을 할 것으로 전망 미국의 관세 가능성에 대해서는, 미국이 중국산 선박에 추가 관세 부과하더라도, 단기 영향뿐이며, 중국 조선 수출의 본질은 흔들리지 않을 것이라고 전망 추진 상선, 20",
+    "선가, 실적, 캐파 △ 신조선가지수 184.42p로 0.08p 상승."
    ],
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 돌아오는 Mozambique와 Commonwealth LNG ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/13056",
@@ -11979,7 +12014,7 @@
    "company": "삼성중공업",
    "code": "010140",
    "direction": "수혜",
-   "score": 4,
+   "score": 2,
    "evidences": [
     "Issue: 미국 General Dynamic 휘하 NASSCO, Conrad와 파트너십 체결 피어그룹과 동일한 MASGA 멀티플인 적정PER 20배(기존 15배)로, 적정주가 37,000원으로 상향",
     "Pitch: > 피어그룹과 달리 특수선 사업을 영위하지 않아서 BIG3 중 MASGA에서 수혜가 가장 약해 보였지만, - 이번 사업협력 2개 추가 및 누적 3개의 미국 조선사들과의 파트너십 체결으로 큰 차이 없다고 판단 - 특히 General Dynamic은 미국 군함 건조를 양분하는 큰 손 - Delfin FLNG 수주 임박."
@@ -27403,13 +27438,6 @@
    "total": 14,
    "sectors": 6,
    "burst": 3.4
-  },
-  {
-   "term": "Fig",
-   "recent": 7,
-   "total": 15,
-   "sectors": 3,
-   "burst": 3.0
   },
   {
    "term": "Peer",
