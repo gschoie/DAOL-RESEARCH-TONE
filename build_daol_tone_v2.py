@@ -163,6 +163,10 @@ def merge_report(report, ai_entry):
                 'display': first.get('display') or '', 'reasons': classify_regex_reasons(first.get('reasons')),
                 'evidence': first.get('evidence') or ''},
         })
+    # 산업자료(대상 종목 미상)의 TP는 어느 종목 것인지 알 수 없어 노이즈 — 이벤트에서 뺀다.
+    # (예: 위클리 본문의 신조선가·타 종목 숫자가 '조선 ▼ 112,000→91,000원'처럼 잡히던 문제)
+    if record['report_type'] == '산업자료' or record['company'] in ('', '산업/기타'):
+        record['tp_event'] = None
     return record
 
 
