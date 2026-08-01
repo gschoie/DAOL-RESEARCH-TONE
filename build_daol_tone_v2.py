@@ -105,8 +105,10 @@ def merge_report(report, ai_entry):
     ai = (ai_entry or {}).get('result')
     company, code, scope = report.get('company') or '', report.get('code') or '', report.get('report_type')
     if ai:
-        # 정규식이 기업을 못 잡은 경우(산업/기타) AI 귀속으로 보정한다.
-        if ai['report_scope'] == '기업' and ai['company'] and company in ('', '산업/기타'):
+        # 정규식이 기업을 못 잡았거나(산업/기타), 코드 없이 산업자료로 오인한 경우
+        # (제목 조각 '조선' 따위가 company로 들어옴) AI 귀속으로 보정한다.
+        if ai['report_scope'] == '기업' and ai['company'] and (
+                company in ('', '산업/기타') or (scope == '산업자료' and not code)):
             company, code = ai['company'], ai['code'] or code
             scope = '기업자료'
         elif ai['report_scope'] == '산업' and not report.get('code'):
@@ -232,7 +234,7 @@ SECTOR_MAP_FILE = DATA_DIR / 'krx_sectors.json'
 # 종목코드가 없거나 매핑에 없는 리포트(산업자료 등)는 제목·헤더 키워드로 분류한다. 순서 = 우선순위.
 SECTOR_KEYWORDS = [
     (r'로봇', '로봇'), (r'2차전지|이차전지', '2차전지'),
-    (r'조선|선박|해운|신조|탱커|컨테이너선|LNG선', '조선'),
+    (r'조선|선박|신조|탱커|컨테이너선|LNG선', '조선'),
     (r'방산|防産|항공우주|무기|국방', '방산·항공우주'),
     (r'건설기계|굴착기|공작기계|기계', '기계'),
     (r'건설|부동산|주택|분양', '건설'),
@@ -240,7 +242,7 @@ SECTOR_KEYWORDS = [
     (r'소부장', '반도체소부장'), (r'반도체|HBM|파운드리', '반도체'),
     (r'전기전자|전자부품|디스플레이|MLCC', '전기전자'),
     (r'자동차|타이어|모빌리티', '자동차'),
-    (r'운송|물류|항공|해상운임|택배', '운송·물류'),
+    (r'운송|물류|항공|해상운임|해운|벌크선|택배', '운송·물류'),
     (r'의료기기', '의료기기'), (r'화장품|뷰티', '화장품'), (r'제약|바이오|신약', '제약·바이오'),
     (r'음식료|식품|라면|음료', '음식료'), (r'통신', '통신'),
     (r'게임', '게임'), (r'인터넷|플랫폼|\bAI\b', '인터넷/AI'), (r'레저|카지노|면세|여행', '레저/카지노/면세'),
