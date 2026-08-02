@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-02T22:30:31.383845+00:00",
+ "generated_at": "2026-08-02T22:37:30.715497+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1189,
+ "report_count": 1190,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27084,6 +27084,24 @@
    "title": "[종근당 (185750)/BUY(유지)/TP11만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 견조한 본업, 더해진 신약가치",
    "post_url": "https://t.me/daolresearch/14741",
    "source_url": "https://buly.kr/9tDHa7L"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-08-02",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "한화에어로스페이스",
+   "code": "012450",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "[한화에어로스페이스(012450)/BUY(유지)/TP 2,140,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]",
+    "한화에어로스페이스(012450) : 종속사가 이끈 호조, 하반기는 지상방산이"
+   ],
+   "title": "[한화에어로스페이스(012450)/BUY(유지)/TP 2,140,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화에어로스페이스(012450) : 종속사가 이끈 호조, 하반기는 지상방산이",
+   "post_url": "https://t.me/daolresearch/14744",
+   "source_url": "https://bit.ly/HA2Q26RE"
   }
  ],
  "cross_mentions": [

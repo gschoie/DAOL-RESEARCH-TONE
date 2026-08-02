@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T22:29:55.311292+00:00",
+  "generated_at": "2026-08-02T22:37:15.463932+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1189,
+  "report_count": 1190,
   "months": [
     {
       "month": "2026-08",
@@ -221,8 +221,46 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 14744,
+              "date": "2026-08-02",
+              "month": "2026-08",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "한화에어로스페이스",
+              "code": "012450",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "• 2027년 EPS 예상치를 +6% 상향하며, 동사의 적정주가도 214만원으로 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 6: 한화에어로스페이스 실적 예상: ⓐ하반기 폴란드 K9 2 차 본격화, ⓑ 2027년은 폴란드 천무 2차 증가 예상, ⓒⓓ 호주와 이집트도 폴란드의 1-2차 사이 공백을 메우는 중",
+              "industry_conclusion": "",
+              "report_conclusion": "아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음 투자의견 HOLD HOLD BUY BUY BUY BUY 투자의견 HOLD BUY HOLD BUY HOLD HOLD",
+              "valuation": [
+                "Valuation wide 2024 2025E 2026E",
+                "PER(배) 34.5 19.5 14.9",
+                "PBR(배) 5.0 3.9 3.2",
+                "EV/EBITDA(배) 13.4 8.3 6.2",
+                "Performance 1M 6M 12M YTD",
+                "PER VALUATION 2022년 2023년 2024년 2025년 2026년 2027년 2028년 2029년"
+              ],
+              "earnings_changes": [
+                "• 2027년 EPS 예상치를 +6% 상향하며, 동사의 적정주가도 214만원으로",
+                "상반기 수주를 반영해서 2027년 실적 상향 (원, 배수)",
+                "6: 한화에어로스페이스 실적 예상: ⓐ하반기 폴란드 K9 2 차 본격화, ⓑ 2027년은 폴란드 천무 2차 증가"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143030/1/20260803_012450_gs.choie_572.pdf",
+              "pdf_error": "",
+              "title": "[한화에어로스페이스(012450)/BUY(유지)/TP 2,140,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화에어로스페이스(012450) : 종속사가 이끈 호조, 하반기는 지상방산이",
+              "summary": "[한화에어로스페이스(012450)/BUY(유지)/TP 2,140,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화에어로스페이스(012450) : 종속사가 이끈 호조, 하반기는 지상방산이 ▶ Issue: 2Q26 리뷰. 대규모 체계 납품 없이도 견조한 실적 확인 ▶ Pitch: > 2Q에 지상방산은 YoY flat이었지만, 한화오션 등 종속사가 서프라이즈를 견인. 체계보다는 부속품과 탄 납품이 QoQ 성장을 견인 > 하반기에는 체계 납품 증가로 계절성을 이어갈 것. 너무 많은 파이프라인은 여전히 대기 중. K9, 천무뿐 아니라 중동 장갑차, L-SAM 등의 새로움을 기다림 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/HA2Q26RE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/14744",
+              "source_url": "https://bit.ly/HA2Q26RE"
+            },
             {
               "id": 14738,
               "date": "2026-08-02",
@@ -260,7 +298,7 @@
           ]
         }
       ],
-      "report_count": 4
+      "report_count": 5
     },
     {
       "month": "2026-07",
