@@ -89,6 +89,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-modal[hidden]{display:none}
 .tone-modal-box{position:relative;background:#fff;border:1px solid var(--line);width:min(860px,100%);max-height:92vh;overflow-y:auto;padding:22px 26px;box-shadow:0 18px 50px rgba(10,20,15,.35)}
 .tone-modal-close{position:sticky;top:0;float:right;border:0;background:#12261f;color:#fff;width:30px;height:30px;border-radius:50%;font-size:17px;cursor:pointer;z-index:2}
+.modal-back{border:1px solid var(--line);background:#f2f6f2;color:#2c463d;border-radius:14px;padding:5px 12px;font-family:inherit;font-size:12px;cursor:pointer;margin-bottom:10px}.modal-back:hover{background:#e0ebe2}
 .drill-header h3{margin:0;font-family:Georgia;font-weight:500;font-size:24px}
 .drill-header h3 small{color:var(--muted);font-size:13px}
 .drill-meta{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0 4px}
@@ -216,7 +217,11 @@ function drillReport(r){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.d
  const points=(r.points||[]).map(p=>{const added=(r.points_added||[]).includes(p);return `<span class="pt-chip${added?' new':''}">${added?'＋':''}${esc(p)}</span>`}).join('')+(r.points_dropped||[]).map(p=>`<span class="pt-chip dropped">－${esc(p)}</span>`).join('');
  const phrases=r.ai&&(r.strong_phrases?.length||r.hedge_phrases?.length||r.negative_phrases?.length)?`<details class="phrase-details"><summary>근거 문구 보기</summary>${phraseBlock('강한 문구',r.strong_phrases,'ph-strong')}${phraseBlock('헤징 문구',r.hedge_phrases,'ph-hedge')}${phraseBlock('부정 문구',r.negative_phrases,'ph-neg')}</details>`:'';
  return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}${phrases}<div class="drill-links"><a href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
-function openToneCompany(key){const entry=state.tone2?.companies?.[key];if(!entry)return;const timeline=[...entry.timeline];
+let modalStack=[],currentModalKey=null;
+function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?.[key];if(!entry)return;
+ if(!fromBack&&currentModalKey&&currentModalKey!==key)modalStack.push(currentModalKey);
+ currentModalKey=key;
+ const timeline=[...entry.timeline];
  const tpPoints=[];
  for(const r of timeline){const t=r.tp_event;if(!t||!t.value)continue;
   // 상향/하향은 직전값을 같은 날짜에 먼저 찍어 실제 꺾임이 보이게 한다
@@ -232,9 +237,9 @@ function openToneCompany(key){const entry=state.tone2?.companies?.[key];if(!entr
   leftPanel=`<div><h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)">최근 변동순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
  }
  const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#3c6b58',fmt:v=>v})}</div></div>`;
- $('#tone-modal-body').innerHTML=`<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}<div class="drill-list">${timeline.slice().reverse().map(drillReport).join('')}</div>`;
+ $('#tone-modal-body').innerHTML=`${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}<div class="drill-list">${timeline.slice().reverse().map(drillReport).join('')}</div>`;
  $('#tone-modal').hidden=false;document.body.style.overflow='hidden'}
-function closeToneModal(){$('#tone-modal').hidden=true;document.body.style.overflow=''}
+function closeToneModal(){$('#tone-modal').hidden=true;document.body.style.overflow='';modalStack=[];currentModalKey=null}
 async function loadTone(){$('#tone-status').textContent='불러오는 중…';
  try{const r=await fetch(`daol_tone_v2.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(r.status);state.tone2=await r.json()}
  catch(e){$('#tone-content').innerHTML=`<div class="tone-loading">데이터를 불러오지 못했습니다 (${esc(e.message)}). 잠시 후 새로고침해 주세요.</div>`;$('#tone-status').textContent='로드 실패';return}
@@ -248,7 +253,8 @@ $('#tone-refresh').onclick=loadTone;
 $('#tone-modal-close').addEventListener('click',closeToneModal);
 $('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#tone-modal').hidden)closeToneModal()});
-document.addEventListener('click',e=>{const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck){openToneCompany(t.dataset.ck);return}
+document.addEventListener('click',e=>{if(e.target.closest('#tone-modal-back')){const k=modalStack.pop();if(k)openToneCompany(k,true);return}
+ const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck){openToneCompany(t.dataset.ck);return}
  if(e.target.closest('#th-sector')){state.sectorSort={recent:'asc',asc:'desc',desc:'recent'}[state.sectorSort];renderTone()}});
 loadTone();
 </script>
