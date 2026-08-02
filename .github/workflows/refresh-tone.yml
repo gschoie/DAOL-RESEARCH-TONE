@@ -35,7 +35,7 @@ jobs:
           python-version: "3.12"
 
       - name: Python 패키지 준비
-        run: python -m pip install requests beautifulsoup4 lxml pypdf
+        run: python -m pip install requests beautifulsoup4 lxml pypdf pypdfium2
 
       - name: 텔레그램 수집 + 정규식 1차 추출
         run: python build_daol_tone_dashboard.py --refresh

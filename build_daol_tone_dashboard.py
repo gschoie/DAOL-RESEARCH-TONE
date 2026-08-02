@@ -29,6 +29,15 @@ def pdf_text(source_url, cache):
             r.raise_for_status()
             if len(r.content)>20_000_000:raise ValueError('PDF exceeds 20MB')
             text='\n'.join(page.extract_text() or '' for page in PdfReader(BytesIO(r.content)).pages)
+            # 일부 인뎁스 PDF는 본문 폰트가 pypdf로 안 읽힌다(ToUnicode 누락) — 핵심 마커가 없으면
+            # pypdfium2로 재추출해 더 나은 쪽을 쓴다(GS건설 인뎁스 TP 누락 사고 재발 방지).
+            if '적정주가' not in text:
+                try:
+                    import pypdfium2 as _pdfium
+                    _doc=_pdfium.PdfDocument(r.content)
+                    alt='\n'.join(_doc[i].get_textpage().get_text_range() for i in range(len(_doc)))
+                    if '적정주가' in alt or len(alt)>len(text):text=alt
+                except Exception:pass
             text=re.sub(r'[ \t]+',' ',text);text=re.sub(r'\n{3,}','\n\n',text).strip()
             if len(text)<300:raise ValueError('PDF text is empty or scanned')
             result={'status':'pdf','final_url':r.url,'text':text,'error':''};break

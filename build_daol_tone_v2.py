@@ -21,6 +21,7 @@ HISTORY = DATA_DIR / 'daol_tone_history.json'
 AI_CACHE = DATA_DIR / 'daol_ai_analysis.json'
 OUT = DATA_DIR / 'daol_tone_v2.json'
 PRICE_CACHE = DATA_DIR / 'price_close_cache.json'
+PDF_TEXT_CACHE = DATA_DIR / 'daol_pdf_text_cache.json'
 
 # v1 정규식 배경 문구 → v2 4분류(실적추정/멀티플/방법론/시점롤포워드/기타)
 REASON_MAP = {'어닝/실적 추정 상향': '실적추정', '적용 멀티플 조정': '멀티플',
@@ -70,6 +71,69 @@ def opinion_class(op):
 
 def fmt_won(v):
     return f'{int(v):,}원' if v else None
+
+
+# 인뎁스 종목 페이지의 TP 박스: "적정주가  43,000  24,000  상향" (현재/직전/변동)
+BUNDLED_TP_RE = re.compile(r'적정주가\s*([\d,]{3,9})\s+([\d,]{3,9})\s+(상향|하향|유지)')
+CODE_RE = re.compile(r'\((\d{6})\)')
+
+
+def extract_bundled_tp(text):
+    """산업 인뎁스 PDF 텍스트에서 종목별 TP 박스를 뽑는다. [{code, company, value, prior, direction}]"""
+    out, seen = [], set()
+    for m in CODE_RE.finditer(text):
+        code = m.group(1)
+        if code in seen: continue
+        segment = text[m.end():m.end() + 900]
+        tp = BUNDLED_TP_RE.search(segment)
+        if not tp: continue
+        value, prior = float(tp.group(1).replace(',', '')), float(tp.group(2).replace(',', ''))
+        direction = tp.group(3)
+        # 방향-값 정합성: 어긋나면 표 오독으로 보고 버린다
+        if direction == '상향' and not value > prior: continue
+        if direction == '하향' and not value < prior: continue
+        if direction == '유지' and value != prior: continue
+        name = re.search(r'([가-힣A-Za-z0-9&\-]+(?: [가-힣A-Za-z0-9&\-]+)?)\s*$', text[max(0, m.start() - 30):m.start()])
+        seen.add(code)
+        out.append({'code': code, 'company': (name.group(1).strip() if name else ''),
+                    'value': value, 'prior': prior, 'direction': direction})
+    return out
+
+
+def build_bundled_records(records, pdf_cache, sector_map):
+    """산업자료(인뎁스)의 종목 페이지 TP를 합성 레코드로 만들어 종목 타임라인에 주입한다."""
+    synth = []
+    for r in records:
+        if r['report_type'] != '산업자료' or not r.get('source_url'): continue
+        entry = pdf_cache.get(r['source_url']) or {}
+        text = entry.get('text', '') if entry.get('status') == 'pdf' else ''
+        if '적정주가' not in text:
+            # 인뎁스로 보이는데 TP 박스가 전혀 안 읽히면 조용히 넘기지 말고 경고를 남긴다
+            if re.search(r'In-?Depth|인뎁스', r['title'], re.I) and len(text) > 30000:
+                print(f"::warning::인뎁스 의심 자료에서 종목 TP 미검출: {r['date']} {r['title'][:50]}")
+            continue
+        for item in extract_bundled_tp(text):
+            display = (fmt_won(item['value']) if item['direction'] == '유지'
+                       else f"{fmt_won(item['prior'])} → {fmt_won(item['value'])}")
+            synth.append({
+                'id': f"{r['id']}-b{item['code']}", 'date': r['date'], 'month': r['month'],
+                'analyst': r['analyst'], 'sector': sector_map.get(item['code'], r['sector']),
+                'company': item['company'], 'code': item['code'], 'report_type': '기업자료',
+                'title': r['title'], 'post_url': r['post_url'], 'source_url': r['source_url'],
+                'pdf_url': r['pdf_url'], 'opinion': '', 'ai': False, 'bundled': True,
+                'conviction': None, 'tone_label': '', 'one_line': '',
+                'strong_phrases': [], 'hedge_phrases': [], 'negative_phrases': [],
+                'points': [], 'points_detail': [], 'earnings_direction': '', 'earnings_evidence': '',
+                'estimates': None, 'est_compare': None,
+                'tp_event': {'direction': item['direction'], 'value': item['value'],
+                             'prior': None if item['direction'] == '유지' else item['prior'],
+                             'display': display, 'reasons': [],
+                             'evidence': f"산업 인뎁스 종목 페이지에서 추출 ({r['title'][:60]})"},
+            })
+    # 같은 날짜·같은 종목·같은 값의 정식 기업자료가 이미 있으면 합성본은 뺀다(중복 방지)
+    existing = {(x['code'], x['date'], (x.get('tp_event') or {}).get('value'))
+                for x in records if x.get('code') and x.get('tp_event')}
+    return [x for x in synth if (x['code'], x['date'], x['tp_event']['value']) not in existing]
 
 
 def make_return_fn(price_cache):
@@ -143,6 +207,7 @@ def merge_report(report, ai_entry):
         'analyst': report['analyst'], 'sector': report['sector'],
         'company': company, 'code': code, 'report_type': scope,
         'title': title, 'post_url': report.get('post_url') or '',
+        'source_url': report.get('source_url') or '',
         'pdf_url': report.get('pdf_url') or report.get('source_url') or '',
         'opinion': (ai and ai['opinion'] not in ('', '없음') and ai['opinion']) or report.get('opinion') or '',
         'ai': bool(ai),
@@ -326,6 +391,8 @@ def build():
     records = [merge_report(r, ai_cache.get(str(r['id']))) for r in flat_reports(history)]
     records = [r for r in records if r['analyst'] not in EXCLUDED_ANALYSTS]
     for r in records: r['sector'] = resolve_sector(r, sector_map)
+    # 인뎁스(묶음 산업자료) 종목 페이지의 TP를 종목 타임라인에 주입
+    records.extend(build_bundled_records(records, load_json(PDF_TEXT_CACHE, {}), sector_map))
 
     # 애널리스트 확신도 베이스라인(개인 평균±표준편차) — '평소 대비'가 진짜 신호다.
     from statistics import mean, pstdev
@@ -359,7 +426,9 @@ def build():
 
     # 섹터 → 애널리스트 표
     by_analyst = defaultdict(list)
-    for record in records: by_analyst[(record['sector'], record['analyst'])].append(record)
+    for record in records:
+        if record.get('bundled'): continue  # 합성 레코드는 표 집계에서 제외
+        by_analyst[(record['sector'], record['analyst'])].append(record)
     sectors_map = defaultdict(list)
     for (sector, analyst), items in by_analyst.items():
         items.sort(key=lambda x: (x['date'], x['id']))
@@ -421,6 +490,7 @@ def build():
     steady = []
     for r in records:
         tp = r.get('tp_event')
+        if r.get('bundled'): continue  # 인뎁스 합성 유지 건으로 피드가 넘치지 않게
         if not tp or tp['direction'] not in ('유지', '신규') or r['date'] < recent_cut: continue
         display = tp['display'] or (f"{int(tp['value']):,}원" if tp['value'] else '')
         if display and tp['direction'] not in display: display += f" ({tp['direction']})"

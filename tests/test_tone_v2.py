@@ -174,6 +174,26 @@ class EstCompare(unittest.TestCase):
                                           'year_op': None, 'year_eps': None}, self.CONS))
 
 
+class BundledTp(unittest.TestCase):
+    TEXT = (
+        "... GS건설 (006360) 주택 사이클 재개의 직접적 수혜 현재 직전 변동 "
+        "투자의견 BUY BUY 유지 적정주가 43,000 24,000 상향 Earnings ... "
+        "아이에스동서 (010780) 현재 직전 변동 투자의견 BUY BUY 유지 적정주가 31,000 29,000 상향 "
+        "... 잘못된예 (111111) 적정주가 20,000 30,000 상향 "
+    )
+
+    def test_extracts_company_tp_boxes(self):
+        out = v2.extract_bundled_tp(self.TEXT)
+        self.assertEqual([(x['code'], x['value'], x['prior'], x['direction']) for x in out],
+                         [('006360', 43000.0, 24000.0, '상향'), ('010780', 31000.0, 29000.0, '상향')])
+        self.assertEqual(out[0]['company'], 'GS건설')
+
+    def test_direction_mismatch_rejected(self):
+        # 상향인데 값이 더 낮은 오독은 버림 (111111 케이스)
+        out = v2.extract_bundled_tp(self.TEXT)
+        self.assertNotIn('111111', [x['code'] for x in out])
+
+
 class ForwardReturns(unittest.TestCase):
     CACHE = {'005930': {'closes': [['2026-07-01', 100.0], ['2026-07-02', 102.0], ['2026-07-03', 104.0],
                                    ['2026-07-06', 106.0], ['2026-07-07', 108.0], ['2026-07-08', 110.0]]}}
