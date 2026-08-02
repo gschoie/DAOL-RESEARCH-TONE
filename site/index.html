@@ -133,7 +133,10 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .ph-strong{background:#eaf5ee}.ph-strong b{color:#1f6b43}
 .ph-hedge{background:#fbf5e3}.ph-hedge b{color:#8a661c}
 .ph-neg{background:#f9ecea}.ph-neg b{color:#a43c31}
-.drill-links{margin-top:6px}.drill-links a{color:#386453;font-size:12px}
+.drill-foot{display:flex;gap:16px;align-items:flex-start;margin-top:4px}
+.drill-foot .phrase-details{margin:3px 0;flex:1;min-width:0}
+.drill-report-link{color:#386453;font-size:11px;font-weight:700;white-space:nowrap;text-decoration:none;padding-top:3px}
+.drill-report-link:hover{text-decoration:underline}
 @media(max-width:950px){.tone-toolbar{grid-template-columns:1fr 1fr}.tone-toolbar input{grid-column:1/3}.drill-charts{grid-template-columns:1fr}.tone-event-cols{grid-template-columns:1fr}.tone-event-col+.tone-event-col{border-left:0;border-top:1px solid var(--line)}}
 @media(max-width:620px){.tone-toolbar{grid-template-columns:1fr}.tone-toolbar input{grid-column:auto}.tone-modal{padding:8px}.tone-modal-box{padding:16px}}
 </style>
@@ -222,7 +225,7 @@ function drillReport(r){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.d
  const earnings=['상향','하향'].includes(r.earnings_direction)?`<span class="mini-badge ${r.earnings_direction==='상향'?'up':'down'}" title="${esc(r.earnings_evidence||'')}">실적추정 ${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'';
  const points=(r.points||[]).map(p=>{const added=(r.points_added||[]).includes(p);return `<span class="pt-chip${added?' new':''}">${added?'＋':''}${esc(p)}</span>`}).join('')+(r.points_dropped||[]).map(p=>`<span class="pt-chip dropped">－${esc(p)}</span>`).join('');
  const phrases=r.ai&&(r.strong_phrases?.length||r.hedge_phrases?.length||r.negative_phrases?.length)?`<details class="phrase-details"><summary>근거 문구 보기</summary>${phraseBlock('강한 문구',r.strong_phrases,'ph-strong')}${phraseBlock('헤징 문구',r.hedge_phrases,'ph-hedge')}${phraseBlock('부정 문구',r.negative_phrases,'ph-neg')}</details>`:'';
- return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}${phrases}<div class="drill-links"><a href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
+ return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}<div class="drill-foot">${phrases||'<span></span>'}<a class="drill-report-link" href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
 let modalStack=[],currentModalKey=null;
 function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?.[key];if(!entry)return;
  if(!fromBack&&currentModalKey&&currentModalKey!==key)modalStack.push(currentModalKey);
