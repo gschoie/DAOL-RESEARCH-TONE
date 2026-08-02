@@ -1,11 +1,209 @@
 {
-  "generated_at": "2026-08-02T21:23:21.727579+00:00",
+  "generated_at": "2026-08-02T22:29:55.311292+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1186,
+  "report_count": 1189,
   "months": [
     {
       "month": "2026-08",
       "analysts": [
+        {
+          "analyst": "박영도",
+          "sectors": [
+            "건설/부동산"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "전월 대비 유지",
+          "tp_changes": [
+            {
+              "company": "현대건설",
+              "direction": "유지",
+              "old": null,
+              "new": 155000,
+              "display": "155,000원 (유지)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 양호한 수주 성과 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합. 영업이익 당사추정치와 컨센서스 상회 - 주택 매출이익률 개선 확인, 토목, 플랜트 비용 반영으로 총 이익 개선 제한. 계절적으로 낮은 판매관리비 효과로 영업이익 기대치 초과 달성 - 수주 성과 특히 양호, 상반기 22.8조원으로 연간목표 68% 달성하며 향후 매출 반등 기반 마련. 적정주가 155,000원 유지하고 투자의견 Buy 유지. 최근 지속된 가격 하락으로 밸류에이션 여유 발생 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6BzMypI",
+              "date": "2026-08-02",
+              "source": "https://t.me/daolresearch/14740"
+            }
+          ],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14740,
+              "date": "2026-08-02",
+              "month": "2026-08",
+              "analyst": "박영도",
+              "sector": "건설/부동산",
+              "company": "현대건설",
+              "code": "000720",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "현대건설",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 155000,
+                  "display": "155,000원 (유지)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 양호한 수주 성과 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합. 영업이익 당사추정치와 컨센서스 상회 - 주택 매출이익률 개선 확인, 토목, 플랜트 비용 반영으로 총 이익 개선 제한. 계절적으로 낮은 판매관리비 효과로 영업이익 기대치 초과 달성 - 수주 성과 특히 양호, 상반기 22.8조원으로 연간목표 68% 달성하며 향후 매출 반등 기반 마련. 적정주가 155,000원 유지하고 투자의견 Buy 유지. 최근 지속된 가격 하락으로 밸류에이션 여유 발생 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6BzMypI"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "- 매출액 당사추정치와 컨센서스 부합. 영업이익 당사추정치와 컨센서스 상회 - 주택 매출이익률 개선 확인, 토목, 플랜트 비용 반영으로 총 이익 개선 제한. 계절적으로 낮은 판매관리비 효과로 영업이익 기대치 초과 달성 - 수주 성과 특히 양호, 상반기 22.8조원으로 연간목표 68% 달성하며 향후 매출 반등 기반 마련. 적정주가 155,000원 유지하고 투자의견 Buy 유지. 최근 지속된 가격 하락으로 밸류에이션 여유 발생",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [
+                "최근 지속된 가격 하락으로 밸류에이션 여유 발생 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6BzMypI"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/6BzMypI",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /6BzMypI (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f9f0abaecf0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 양호한 수주 성과",
+              "summary": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 양호한 수주 성과 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합. 영업이익 당사추정치와 컨센서스 상회 - 주택 매출이익률 개선 확인, 토목, 플랜트 비용 반영으로 총 이익 개선 제한. 계절적으로 낮은 판매관리비 효과로 영업이익 기대치 초과 달성 - 수주 성과 특히 양호, 상반기 22.8조원으로 연간목표 68% 달성하며 향후 매출 반등 기반 마련. 적정주가 155,000원 유지하고 투자의견 Buy 유지. 최근 지속된 가격 하락으로 밸류에이션 여유 발생 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6BzMypI",
+              "post_url": "https://t.me/daolresearch/14740",
+              "source_url": "https://buly.kr/6BzMypI"
+            }
+          ]
+        },
+        {
+          "analyst": "이지수",
+          "sectors": [
+            "제약/바이오"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-08-02",
+              "source": "https://t.me/daolresearch/14741"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [
+            {
+              "company": "종근당",
+              "direction": "유지",
+              "old": null,
+              "new": 110000,
+              "display": "110,000원 (유지)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "[종근당 (185750)/BUY(유지)/TP11만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 견조한 본업, 더해진 신약가치 ▶ 2Q26 매출액 4,754억원(+10.7% YoY, +6.2% QoQ), 영업이익 199억원 (-10.2% YoY, +13.4% QoQ; OPM 4.2%) 기록 ▶ 기존 품목과 위고비·이베니티 등 신규 도입 품목 확대로 성장했으나, 원가율과 판관비 상승으로 영업이익은 전년 대비 감소. 위고비·아일리아 중심의 신규 품목 도입으로 외형 성장은 이어질 전망이나, 저마진 상품 비중 확대로 단기 수익성 개선은 제한적. ▶ 2H27 임상 2상 종료가 가시화된 CKD-510의 신약가치를 신규 반영해 적정주가 11만원과 투자의견 BUY를 유지, 향후 임상 성과에 따른 파이프라인 재평가 기대 ★ 보고서원문 및 컴플라이언스 → < https://bu",
+              "date": "2026-08-02",
+              "source": "https://t.me/daolresearch/14741"
+            },
+            {
+              "company": "녹십자",
+              "direction": "하향",
+              "old": null,
+              "new": 200000,
+              "display": "200,000원 (하향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "연결 매출액 4,212억원(-15.8% YoY, -3.3% QoQ), 영업이익 17억원(-93.8% YoY, -85.5% QoQ; OPM 0.4%) 기록 ▶ 1) 독감백신 원액 매출 이연, 2) 헌터라제 등 고마진 품목 공급 지연, 3) 녹십자웰빙 연결 제외 영향으로 시장 기대치 하회했으나, 미국 알리글로 매출 성장은 견조 ▶ 이연된 독감백신과 알리글로 공급 확대, 헌터라제·베리셀라 매출 집중으로 하반기 실적 및 수익성 회복 전망. 단기 이익 추정치 하향으로 적정주가는 20만원으로 하향, 알리글로 침투 확대와 SCIG 신사업의 중장기 성장성을 반영해 BUY 유지. ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/883hlxH >",
+              "date": "2026-08-02",
+              "source": "https://t.me/daolresearch/14742"
+            }
+          ],
+          "tp_raises": [],
+          "report_count": 2,
+          "reports": [
+            {
+              "id": 14742,
+              "date": "2026-08-02",
+              "month": "2026-08",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "녹십자",
+              "code": "006280",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "녹십자",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 200000,
+                  "display": "200,000원 (하향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "연결 매출액 4,212억원(-15.8% YoY, -3.3% QoQ), 영업이익 17억원(-93.8% YoY, -85.5% QoQ; OPM 0.4%) 기록 ▶ 1) 독감백신 원액 매출 이연, 2) 헌터라제 등 고마진 품목 공급 지연, 3) 녹십자웰빙 연결 제외 영향으로 시장 기대치 하회했으나, 미국 알리글로 매출 성장은 견조 ▶ 이연된 독감백신과 알리글로 공급 확대, 헌터라제·베리셀라 매출 집중으로 하반기 실적 및 수익성 회복 전망. 단기 이익 추정치 하향으로 적정주가는 20만원으로 하향, 알리글로 침투 확대와 SCIG 신사업의 중장기 성장성을 반영해 BUY 유지. ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/883hlxH >"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [
+                "단기 이익 추정치 하향으로 적정주가는 20만원으로 하향, 알리글로 침투 확대와 SCIG 신사업의 중장기 성장성을 반영해 BUY 유지."
+              ],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/883hlxH",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /883hlxH (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f9f0abad940>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[녹십자 (006280)/BUY(유지)/TP20만원(하향)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 하반기로 갈수록 좋아진다",
+              "summary": "[녹십자 (006280)/BUY(유지)/TP20만원(하향)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 하반기로 갈수록 좋아진다 ▶ 2Q26 연결 매출액 4,212억원(-15.8% YoY, -3.3% QoQ), 영업이익 17억원(-93.8% YoY, -85.5% QoQ; OPM 0.4%) 기록 ▶ 1) 독감백신 원액 매출 이연, 2) 헌터라제 등 고마진 품목 공급 지연, 3) 녹십자웰빙 연결 제외 영향으로 시장 기대치 하회했으나, 미국 알리글로 매출 성장은 견조 ▶ 이연된 독감백신과 알리글로 공급 확대, 헌터라제·베리셀라 매출 집중으로 하반기 실적 및 수익성 회복 전망. 단기 이익 추정치 하향으로 적정주가는 20만원으로 하향, 알리글로 침투 확대와 SCIG 신사업의 중장기 성장성을 반영해 BUY 유지. ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/883hlxH >",
+              "post_url": "https://t.me/daolresearch/14742",
+              "source_url": "https://buly.kr/883hlxH"
+            },
+            {
+              "id": 14741,
+              "date": "2026-08-02",
+              "month": "2026-08",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "종근당",
+              "code": "185750",
+              "report_type": "기업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "종근당",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 110000,
+                  "display": "110,000원 (유지)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "[종근당 (185750)/BUY(유지)/TP11만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 견조한 본업, 더해진 신약가치 ▶ 2Q26 매출액 4,754억원(+10.7% YoY, +6.2% QoQ), 영업이익 199억원 (-10.2% YoY, +13.4% QoQ; OPM 4.2%) 기록 ▶ 기존 품목과 위고비·이베니티 등 신규 도입 품목 확대로 성장했으나, 원가율과 판관비 상승으로 영업이익은 전년 대비 감소. 위고비·아일리아 중심의 신규 품목 도입으로 외형 성장은 이어질 전망이나, 저마진 상품 비중 확대로 단기 수익성 개선은 제한적. ▶ 2H27 임상 2상 종료가 가시화된 CKD-510의 신약가치를 신규 반영해 적정주가 11만원과 투자의견 BUY를 유지, 향후 임상 성과에 따른 파이프라인 재평가 기대 ★ 보고서원문 및 컴플라이언스 → < https://bu"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/9tDHa7L",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /9tDHa7L (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f9f0abacc80>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[종근당 (185750)/BUY(유지)/TP11만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 견조한 본업, 더해진 신약가치",
+              "summary": "[종근당 (185750)/BUY(유지)/TP11만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 견조한 본업, 더해진 신약가치 ▶ 2Q26 매출액 4,754억원(+10.7% YoY, +6.2% QoQ), 영업이익 199억원 (-10.2% YoY, +13.4% QoQ; OPM 4.2%) 기록 ▶ 기존 품목과 위고비·이베니티 등 신규 도입 품목 확대로 성장했으나, 원가율과 판관비 상승으로 영업이익은 전년 대비 감소. 위고비·아일리아 중심의 신규 품목 도입으로 외형 성장은 이어질 전망이나, 저마진 상품 비중 확대로 단기 수익성 개선은 제한적. ▶ 2H27 임상 2상 종료가 가시화된 CKD-510의 신약가치를 신규 반영해 적정주가 11만원과 투자의견 BUY를 유지, 향후 임상 성과에 따른 파이프라인 재평가 기대 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/9tDHa7L >",
+              "post_url": "https://t.me/daolresearch/14741",
+              "source_url": "https://buly.kr/9tDHa7L"
+            }
+          ]
+        },
         {
           "analyst": "최광식",
           "sectors": [
@@ -62,7 +260,7 @@
           ]
         }
       ],
-      "report_count": 1
+      "report_count": 4
     },
     {
       "month": "2026-07",
