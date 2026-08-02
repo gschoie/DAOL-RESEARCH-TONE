@@ -104,6 +104,14 @@ class TimelineEvents(unittest.TestCase):
         events = v2.timeline_events('k', 'n', timeline)
         self.assertNotIn('의견 변경', {e['type'] for e in events})
 
+    def test_backcalculated_prior_is_dropped(self):
+        # '10% 하향' 역산 흔적(222,222원)은 직전값에서 제거 — 새값·방향만 표시
+        merged = v2.merge_report(make_report('9', '2026-06-22'), make_ai(
+            tp={'direction': '하향', 'value': 200000.0, 'prior': 222222.0,
+                'reasons': ['실적추정'], 'evidence': 'e'}))
+        self.assertIsNone(merged['tp_event']['prior'])
+        self.assertEqual(merged['tp_event']['display'], '200,000원')
+
     def test_hold_tp_display_is_single_value(self):
         merged = v2.merge_report(make_report('3', '2026-07-02'), make_ai(
             tp={'direction': '유지', 'value': 6000.0, 'prior': 6000.0, 'reasons': [], 'evidence': ''}))

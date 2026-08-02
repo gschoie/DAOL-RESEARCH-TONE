@@ -149,6 +149,10 @@ def merge_report(report, ai_entry):
     }
     if ai:
         tp = ai['tp']
+        # 역산된 직전값 방어: 실제 TP는 100원 단위 라운드 숫자다. 222,222원 같은 비라운드
+        # prior는 '10% 하향'을 역산한 흔적이므로 버린다(방향·새값만 표시).
+        if tp.get('prior') and tp['prior'] % 100:
+            tp = {**tp, 'prior': None}
         record.update({
             'conviction': ai['conviction'], 'tone_label': ai['tone_label'], 'one_line': ai['one_line'],
             'strong_phrases': ai['strong_phrases'], 'hedge_phrases': ai['hedge_phrases'],
