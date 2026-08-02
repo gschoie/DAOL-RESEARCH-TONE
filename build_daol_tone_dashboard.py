@@ -168,6 +168,13 @@ def analyst_sector(t):
     company_roster={'오리온':('이다연','음식료'),'오리온홀딩스':('이다연','음식료'),'농심':('이다연','음식료'),'삼양식품':('이다연','음식료')}
     for company,(name,sector) in company_roster.items():
         if company in head:return name,sector
+    # 이름 태그 없는 산업자료 폴백: 서두 '[담배/음식료(Overweight)' 식 섹터 선언을 로스터 담당 섹터와
+    # 대조해 유일 매칭일 때만 귀속. '반도체'처럼 복수 담당 섹터는 그대로 미분류(오귀속 방지).
+    m=re.search(r'\[\s*([가-힣A-Za-z·/&, ]{2,30}?)\s*\((?:Overweight|Neutral|Underweight)',head,re.I)
+    if m:
+        segs={s.strip() for s in re.split(r'[/·,]',m.group(1)) if s.strip()}
+        hits={name for name,rsec in roster.items() if segs & {x.strip() for x in re.split(r'[/·]',rsec)}}
+        if len(hits)==1:return hits.pop(),m.group(1)
     return '미분류','미분류'
 
 def company_name(t):
