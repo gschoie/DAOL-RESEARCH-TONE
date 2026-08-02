@@ -112,6 +112,25 @@ class TimelineEvents(unittest.TestCase):
         self.assertIsNone(merged['tp_event']['prior'])
         self.assertEqual(merged['tp_event']['display'], '200,000원')
 
+    def test_missing_prior_filled_from_timeline(self):
+        # 본문에 직전값이 없어도 같은 종목의 과거 TP(220,000)로 '이전 → 현재' 통일
+        a = v2.merge_report(make_report('1', '2026-05-01'), make_ai(
+            tp={'direction': '유지', 'value': 220000.0, 'prior': None, 'reasons': [], 'evidence': ''}))
+        b = v2.merge_report(make_report('2', '2026-06-22'), make_ai(
+            tp={'direction': '하향', 'value': 200000.0, 'prior': None, 'reasons': ['실적추정'], 'evidence': ''}))
+        v2.fill_tp_priors([a, b])
+        self.assertEqual(b['tp_event']['prior'], 220000.0)
+        self.assertEqual(b['tp_event']['display'], '220,000원 → 200,000원')
+
+    def test_inconsistent_direction_not_filled(self):
+        # '하향'인데 직전값이 더 낮으면 노이즈 — 채우지 않음
+        a = v2.merge_report(make_report('1', '2026-05-01'), make_ai(
+            tp={'direction': '유지', 'value': 180000.0, 'prior': None, 'reasons': [], 'evidence': ''}))
+        b = v2.merge_report(make_report('2', '2026-06-22'), make_ai(
+            tp={'direction': '하향', 'value': 200000.0, 'prior': None, 'reasons': [], 'evidence': ''}))
+        v2.fill_tp_priors([a, b])
+        self.assertIsNone(b['tp_event']['prior'])
+
     def test_hold_tp_display_is_single_value(self):
         merged = v2.merge_report(make_report('3', '2026-07-02'), make_ai(
             tp={'direction': '유지', 'value': 6000.0, 'prior': 6000.0, 'reasons': [], 'evidence': ''}))

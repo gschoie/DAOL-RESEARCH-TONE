@@ -198,6 +198,22 @@ def company_key(record):
     return key, record['company'], record['code']
 
 
+def fill_tp_priors(timeline):
+    """본문에 직전 TP가 없던 변경(상향/하향)은 같은 종목 타임라인의 직전 TP로 채운다.
+    방향과 모순되면(하향인데 직전값이 더 낮음 등) 데이터 노이즈로 보고 채우지 않는다."""
+    last_tp = None
+    for record in timeline:
+        tp = record.get('tp_event')
+        if not tp or not tp.get('value'):
+            continue
+        if tp.get('prior') is None and tp['direction'] in ('상향', '하향') and last_tp and last_tp != tp['value']:
+            consistent = (tp['direction'] == '상향' and last_tp < tp['value']) or                          (tp['direction'] == '하향' and last_tp > tp['value'])
+            if consistent:
+                tp['prior'] = last_tp
+                tp['display'] = f"{fmt_won(last_tp)} → {fmt_won(tp['value'])}"
+        last_tp = tp['value']
+
+
 def attach_point_diffs(timeline):
     """같은 기업 타임라인에서 직전 AI 리포트 대비 투자포인트 추가/소멸을 계산한다."""
     prev_points = None
@@ -335,6 +351,7 @@ def build():
     all_events = []
     for key, entry in companies.items():
         entry['timeline'].sort(key=lambda x: (x['date'], x['id']))
+        fill_tp_priors(entry['timeline'])
         attach_point_diffs(entry['timeline'])
         all_events.extend(timeline_events(key, entry['name'], entry['timeline']))
         entry['report_count'] = len(entry['timeline'])
