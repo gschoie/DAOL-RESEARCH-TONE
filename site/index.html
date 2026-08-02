@@ -201,8 +201,9 @@ function groupEvents(events){const seen=new Map(),out=[];
   if(seen.has(k))seen.get(k).items.push(e);else{const g={items:[e]};seen.set(k,g);out.push(g)}}
  return out}
 function renderToneEvents(){const box=$('#tone-events');if(!box)return;
- // 상단 섹터/애널 필터를 이벤트 피드에도 적용
- const flt=x=>(!state.toneSector||x.sector===state.toneSector)&&(!state.toneAnalyst||x.analyst===state.toneAnalyst);
+ // 상단 섹터/애널 필터 + 검색어를 이벤트 피드에도 적용 (검색어는 기업명·애널·섹터 기준)
+ const q=state.toneQ.toLocaleLowerCase();
+ const flt=x=>(!state.toneSector||x.sector===state.toneSector)&&(!state.toneAnalyst||x.analyst===state.toneAnalyst)&&(!q||`${x.company||''} ${x.company_key||''} ${x.analyst||''} ${x.sector||''}`.toLocaleLowerCase().includes(q));
  const events=(state.tone2?.events||[]).filter(flt),steady=(state.tone2?.steady||[]).filter(flt);
  if(!events.length&&!steady.length){box.innerHTML='';return}
  const grouped=groupEvents(events);
