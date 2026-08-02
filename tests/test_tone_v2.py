@@ -174,6 +174,27 @@ class EstCompare(unittest.TestCase):
                                           'year_op': None, 'year_eps': None}, self.CONS))
 
 
+class KedStreetParse(unittest.TestCase):
+    SAMPLE = ("[ ✨ 리서치 요약] 팬오션 목표주가 상향 리포트 요약 " + chr(10) +
+              "목표주가 상향 | 팬오션 | " + chr(34) + "VLCC 투자는 장기 이익 기반" + chr(34) + " " + chr(10) +
+              "목표주가 5,300원 >> 5,900원 | 투자의견 중립-유지 | KB증권 " + chr(10) +
+              "- 2Q26 영업이익 1,937억 원 기록" + chr(10) +
+              "- DCF valuation 적용, WACC 5.6% 사용" + chr(10))
+
+    def test_parse_structured_post(self):
+        import ked_street_collector as kc
+        out = kc.parse_post(35371, '2026-08-02T05:29:09+00:00', self.SAMPLE, 'https://t.me/ked_epic_ai/35371')
+        self.assertEqual(out['company'], '팬오션')
+        self.assertEqual((out['tp_old'], out['tp_new']), (5300.0, 5900.0))
+        self.assertEqual(out['direction'], '상향')
+        self.assertEqual(out['brokerage'], 'KB증권')
+        self.assertTrue(out['val_methods'])
+
+    def test_non_research_post_skipped(self):
+        import ked_street_collector as kc
+        self.assertIsNone(kc.parse_post(1, '2026-08-02', '오늘의 시황 브리핑입니다', 'u'))
+
+
 class BundledTp(unittest.TestCase):
     TEXT = (
         "... GS건설 (006360) 주택 사이클 재개의 직접적 수혜 현재 직전 변동 "

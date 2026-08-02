@@ -22,6 +22,7 @@ AI_CACHE = DATA_DIR / 'daol_ai_analysis.json'
 OUT = DATA_DIR / 'daol_tone_v2.json'
 PRICE_CACHE = DATA_DIR / 'price_close_cache.json'
 PDF_TEXT_CACHE = DATA_DIR / 'daol_pdf_text_cache.json'
+KED_STREET = DATA_DIR / 'ked_street.json'
 
 # v1 정규식 배경 문구 → v2 4분류(실적추정/멀티플/방법론/시점롤포워드/기타)
 REASON_MAP = {'어닝/실적 추정 상향': '실적추정', '적용 멀티플 조정': '멀티플',
@@ -134,6 +135,30 @@ def build_bundled_records(records, pdf_cache, sector_map):
     existing = {(x['code'], x['date'], (x.get('tp_event') or {}).get('value'))
                 for x in records if x.get('code') and x.get('tp_event')}
     return [x for x in synth if (x['code'], x['date'], x['tp_event']['value']) not in existing]
+
+
+def attach_street(companies, street_raw):
+    """한경 에이셀에서 모은 타사 리서치를 다올 커버 종목에 붙인다(최근 60일, 다올 자체 리포트 제외)."""
+    from collections import defaultdict as _dd
+    by_name = _dd(list)
+    for e in street_raw:
+        by_name[norm_label(e['company'])].append(e)
+    cutoff = (datetime.now(timezone.utc) + timedelta(hours=9) - timedelta(days=60)).date().isoformat()
+    for key, entry in companies.items():
+        if key.startswith('IND:'): continue
+        matches = [e for e in by_name.get(norm_label(entry['name']), [])
+                   if e['date'] >= cutoff and '다올' not in e.get('brokerage', '')]
+        if not matches: continue
+        matches = sorted(matches, key=lambda x: x['date'], reverse=True)[:12]
+        tps = sorted(e['tp_new'] for e in matches if e.get('tp_new'))
+        stats = None
+        if tps:
+            daol_tp = next((r['tp_event']['value'] for r in reversed(entry['timeline'])
+                            if r.get('tp_event') and r['tp_event'].get('value')), None)
+            pct = round(100 * sum(1 for t in tps if t <= daol_tp) / len(tps)) if daol_tp else None
+            stats = {'n': len(matches), 'low': tps[0], 'high': tps[-1],
+                     'median': tps[len(tps) // 2], 'daol': daol_tp, 'daol_pct': pct}
+        entry['street'] = {'stats': stats, 'items': matches}
 
 
 def make_return_fn(price_cache):
@@ -423,6 +448,9 @@ def build():
         all_events.extend(timeline_events(key, entry['name'], entry['timeline']))
         entry['report_count'] = len(entry['timeline'])
         entry['last_date'] = entry['timeline'][-1]['date']
+
+    # 타사 리서치(한경 에이셀) 부착
+    attach_street(companies, load_json(KED_STREET, []))
 
     # 섹터 → 애널리스트 표
     by_analyst = defaultdict(list)

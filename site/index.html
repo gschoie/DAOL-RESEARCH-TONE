@@ -105,6 +105,21 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .drill-charts h4{margin:0 0 8px;font-size:11px;color:#5b665f;letter-spacing:.05em}
 .tone-chart{width:100%;height:auto}
 .tone-chart .ax{font-size:15px;fill:#5b665f;font-weight:600}
+.street{margin:14px 0;border:1px solid var(--line);padding:12px 14px;background:#fbfcfa}
+.street h4{margin:0 0 7px;font-size:11px;color:#5b665f;letter-spacing:.05em}
+.street h4 small{font-weight:400;color:var(--muted)}
+.street-stat{font-size:12px;margin-bottom:8px}
+.street-stat u{text-decoration:none;font-weight:700;padding:1px 7px;border-radius:9px;font-size:11px}
+.street-stat u.up{color:#1f6b43;background:#eaf5ee}.street-stat u.down{color:#a43c31;background:#f9ecea}
+.street-list{max-height:170px;overflow-y:auto;border-top:1px solid #eef1ec}
+.street-row{display:flex;gap:9px;align-items:baseline;padding:6px 4px;border-bottom:1px solid #f0f3ee;font-size:12px;text-decoration:none;color:inherit}
+.street-row:hover{background:#f2f6f2}
+.street-row small{color:var(--muted);white-space:nowrap}
+.street-row b{white-space:nowrap;min-width:64px}
+.street-row .st-tp{font-weight:700;white-space:nowrap}
+.street-row .st-tp.up{color:#2e7d4f}.street-row .st-tp.down{color:var(--red)}
+.street-row i{font-style:normal;color:#5b665f;white-space:nowrap;font-size:11px}
+.street-row em{font-style:italic;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;font-size:11px}
 .drill-list{margin-top:6px}
 .drill-report{border-top:1px solid #e8ece6;padding:13px 2px}
 .drill-head{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:5px}
@@ -222,12 +237,22 @@ function estPair(name,p,unit){if(!p)return '';const d=p.diff_pct;return `<span c
 function estCompBlock(r){const c=r.est_compare;if(!c)return '';
  const line=(g)=>g?`<div class="est-line"><em>${esc(g.label)}</em>${estPair('영업이익',g.op,'억')}${estPair('EPS',g.eps,'원')}</div>`:'';
  return `<div class="est-comp"><b>애널 추정 vs 시장 컨센</b>${line(c.quarter)}${line(c.annual)}<small>컨센: 네이버(리포트 수집 시점)</small></div>`}
+function streetRow(e){const tp=e.tp_old?`${fmtNum(e.tp_old)} » ${fmtNum(e.tp_new)}원`:e.tp_new?`${fmtNum(e.tp_new)}원`:'—';const cls=e.direction==='상향'?'up':e.direction==='하향'?'down':'';return `<a class="street-row" href="${esc(e.post_url)}" target="_blank" rel="noopener" title="${esc(e.quote||'')}${(e.val_methods||[]).length?`
+밸류: ${esc(e.val_methods.join(' / '))}`:''}"><small>${mmdd(e.date)}</small><b>${esc(e.brokerage)}</b><span class="st-tp ${cls}">${e.direction==='상향'?'▲':e.direction==='하향'?'▼':'●'} ${tp}</span><i>${esc(e.opinion)}</i><em>${esc(e.quote||'')}</em></a>`}
+function streetPanel(entry){const st=entry.street;if(!st||!st.items?.length)return '';
+ const s=st.stats;const stat=s?`<div class="street-stat">타사 TP <b>${fmtNum(s.low)}~${fmtNum(s.high)}원</b> · 중앙 ${fmtNum(s.median)}원${s.daol?` · 다올 <b>${fmtNum(s.daol)}원</b>${s.daol_pct!=null?` <u class="${s.daol_pct>=50?'up':'down'}">타사 대비 상위 ${100-s.daol_pct}%</u>`:''}`:''} <small>(n=${s.n})</small></div>`:'';
+ return `<div class="street"><h4>타사 리서치 비교 <small>한경 에이셀 · 최근 60일 · ${st.items.length}건</small></h4>${stat}<div class="street-list">${st.items.map(streetRow).join('')}</div></div>`}
+function streetConflicts(r,street){if(!r.tp_event||!['상향','하향'].includes(r.tp_event.direction)||!street?.items)return '';
+ const near=street.items.filter(e=>Math.abs(new Date(e.date)-new Date(r.date))<=7*864e5&&['상향','하향'].includes(e.direction));
+ const opp=near.filter(e=>e.direction!==r.tp_event.direction);
+ if(!opp.length)return '';
+ return `<span class="mini-badge down" title="±7일 내 타사 반대방향: ${opp.map(e=>`${esc(e.brokerage)} ${e.direction}`).join(', ')}">타사 엇갈림 ${opp.length}</span>`}
 function phraseBlock(title,items,cls){return items?.length?`<div class="phrase ${cls}"><b>${title}</b>${items.map(x=>`<q>${esc(x)}</q>`).join('')}</div>`:''}
-function drillReport(r){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.direction==='상향'?'up':r.tp_event.direction==='하향'?'down':''}">TP ${esc(r.tp_event.direction)} ${esc(r.tp_event.display||'')} ${(r.tp_event.reasons||[]).map(x=>`<i class="tp-reason">${esc(x)}</i>`).join('')}${r.tp_event.evidence?`<small>${esc(r.tp_event.evidence)}</small>`:''}</div>`:'';
+function drillReport(r,street){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.direction==='상향'?'up':r.tp_event.direction==='하향'?'down':''}">TP ${esc(r.tp_event.direction)} ${esc(r.tp_event.display||'')} ${(r.tp_event.reasons||[]).map(x=>`<i class="tp-reason">${esc(x)}</i>`).join('')}${r.tp_event.evidence?`<small>${esc(r.tp_event.evidence)}</small>`:''}</div>`:'';
  const earnings=['상향','하향'].includes(r.earnings_direction)?`<span class="mini-badge ${r.earnings_direction==='상향'?'up':'down'}" title="${esc(r.earnings_evidence||'')}">실적추정 ${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'';
  const points=(r.points||[]).map(p=>{const added=(r.points_added||[]).includes(p);return `<span class="pt-chip${added?' new':''}">${added?'＋':''}${esc(p)}</span>`}).join('')+(r.points_dropped||[]).map(p=>`<span class="pt-chip dropped">－${esc(p)}</span>`).join('');
  const phrases=r.ai&&(r.strong_phrases?.length||r.hedge_phrases?.length||r.negative_phrases?.length)?`<details class="phrase-details"><summary>근거 문구 보기</summary>${phraseBlock('강한 문구',r.strong_phrases,'ph-strong')}${phraseBlock('헤징 문구',r.hedge_phrases,'ph-hedge')}${phraseBlock('부정 문구',r.negative_phrases,'ph-neg')}</details>`:'';
- return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:r.bundled?'<span class="mini-badge" title="산업 인뎁스 자료의 종목 페이지에서 추출한 TP">인뎁스 수록</span>':'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}<div class="drill-foot">${phrases||'<span></span>'}<a class="drill-report-link" href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
+ return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:r.bundled?'<span class="mini-badge" title="산업 인뎁스 자료의 종목 페이지에서 추출한 TP">인뎁스 수록</span>':'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}${streetConflicts(r,street)}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}<div class="drill-foot">${phrases||'<span></span>'}<a class="drill-report-link" href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
 let modalStack=[],currentModalKey=null;
 function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?.[key];if(!entry)return;
  if(!fromBack&&currentModalKey&&currentModalKey!==key)modalStack.push(currentModalKey);
@@ -249,7 +274,7 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
  }
  const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#3c6b58',fmt:v=>v})}</div></div>`;
  const indBtn=(!key.startsWith('IND:')&&entry.sector&&state.tone2?.companies?.['IND:'+entry.sector])?`<button type="button" class="tone-ck modal-ind" data-ck="IND:${esc(entry.sector)}" title="${esc(entry.sector)} 산업자료 톤·의견 보기">${esc(entry.sector)} 산업 뷰 →</button>`:'';
- $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}<div class="drill-list">${timeline.slice().reverse().map(drillReport).join('')}</div>`;
+ $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}${key.startsWith('IND:')?'':streetPanel(entry)}<div class="drill-list">${timeline.slice().reverse().map(r=>drillReport(r,entry.street)).join('')}</div>`;
  $('#tone-modal').hidden=false;document.body.style.overflow='hidden'}
 function closeToneModal(){$('#tone-modal').hidden=true;document.body.style.overflow='';modalStack=[];currentModalKey=null}
 async function loadTone(){$('#tone-status').textContent='불러오는 중…';
