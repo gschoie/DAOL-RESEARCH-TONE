@@ -177,6 +177,18 @@ def analyst_sector(t):
         if len(hits)==1:return hits.pop(),m.group(1)
     return '미분류','미분류'
 
+def report_title(t):
+    base=clean(t.split('▶')[0])
+    # 표준 서식('[헤드라인] ★ …')이 아닌 인사말형 포스트: 인사말 제거 후 첫 문장만 제목으로.
+    if not base.startswith('['):
+        base=re.sub(r'^안녕(?:하세요|하십니까)[,.!?]?\s*[^.!?]{0,60}?입니다[.!?]?\s*','',base)
+        parts=re.split(r'(?<=[.!?])\s+',base,maxsplit=1)
+        if parts and len(parts[0])>=10:base=parts[0]
+    # ▶ 없이 ☑️/➡️/✅/💡 불릿이나 구분선으로 본문을 잇는 포스트: 첫 불릿부터는 제목이 아님
+    cut=re.split(r'\s*(?:[☑✅➡💡]|-{4,})',base,maxsplit=1)[0]
+    if len(cut)>=6:base=cut
+    return base[:240]
+
 def company_name(t):
     m=re.search(r'(?:\[|\]\s*|★\s*|#\s*|^)([가-힣A-Za-z0-9&. ]{1,40})\(([0-9]{6})\)',t)
     if m:return clean(m.group(1)),m.group(2)
@@ -288,7 +300,7 @@ def analyze(messages, pdf_since='2025-05'):
         elif month>=pdf_since:
             pdf_error='PDF 처리 시간 한도 초과 — 텔레그램 요약 사용'
         changes=tp_changes(analysis_text,company)
-        reports.append({'id':m['id'],'date':dt.date().isoformat(),'month':month,'analyst':analyst,'sector':sector,'company':company,'code':code,'report_type':'산업자료' if is_industry else '기업자료','opinion':opinion(analysis_text) or opinion(t),'top_picks':details['preferred_stocks'],'preferred_stocks':details['preferred_stocks'],'tp_changes':changes,'tp_raises':[x for x in changes if x['direction']=='상향'],'pitch':details['pitch'],'industry_conclusion':details['conclusion'] if is_industry else '','report_conclusion':details['conclusion'],'valuation':details['valuation'],'earnings_changes':details['earnings_changes'],'analysis_source':analysis_source,'pdf_url':final_url,'pdf_error':pdf_error,'title':clean(t.split('▶')[0])[:240],'summary':clean(t)[:900],'post_url':m['post_url'],'source_url':source})
+        reports.append({'id':m['id'],'date':dt.date().isoformat(),'month':month,'analyst':analyst,'sector':sector,'company':company,'code':code,'report_type':'산업자료' if is_industry else '기업자료','opinion':opinion(analysis_text) or opinion(t),'top_picks':details['preferred_stocks'],'preferred_stocks':details['preferred_stocks'],'tp_changes':changes,'tp_raises':[x for x in changes if x['direction']=='상향'],'pitch':details['pitch'],'industry_conclusion':details['conclusion'] if is_industry else '','report_conclusion':details['conclusion'],'valuation':details['valuation'],'earnings_changes':details['earnings_changes'],'analysis_source':analysis_source,'pdf_url':final_url,'pdf_error':pdf_error,'title':report_title(t),'summary':clean(t)[:900],'post_url':m['post_url'],'source_url':source})
     if cache_changed:
         PDF_CACHE.write_text(json.dumps(cache,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     return sorted(reports,key=lambda x:(x['date'],x['id']))
