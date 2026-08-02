@@ -20,7 +20,6 @@ DATA_DIR = ROOT / 'data'
 HISTORY = DATA_DIR / 'daol_tone_history.json'
 AI_CACHE = DATA_DIR / 'daol_ai_analysis.json'
 OUT = DATA_DIR / 'daol_tone_v2.json'
-PRICE_CACHE = DATA_DIR / 'price_close_cache.json'
 
 # v1 정규식 배경 문구 → v2 4분류(실적추정/멀티플/방법론/시점롤포워드/기타)
 REASON_MAP = {'어닝/실적 추정 상향': '실적추정', '적용 멀티플 조정': '멀티플',
@@ -70,22 +69,6 @@ def opinion_class(op):
 
 def fmt_won(v):
     return f'{int(v):,}원' if v else None
-
-
-def make_return_fn(price_cache):
-    """(code, date, horizon영업일) → 수익률%. 이벤트일(비거래일이면 다음 거래일) 종가 대비."""
-    series = {code: e.get('closes', []) for code, e in price_cache.items()}
-
-    def fwd(code, day, horizon):
-        rows = series.get(code)
-        if not rows: return None
-        idx = next((i for i, (d, _) in enumerate(rows) if d >= day), None)
-        if idx is None: return None
-        j = idx + horizon
-        if j >= len(rows): return None  # 미래 미도래
-        base, fut = rows[idx][1], rows[j][1]
-        return round((fut / base - 1) * 100, 1) if base else None
-    return fwd
 
 
 def _pair(our, cons, fix_scale=False):
@@ -307,19 +290,6 @@ def build():
     records = [r for r in records if r['analyst'] not in EXCLUDED_ANALYSTS]
     for r in records: r['sector'] = resolve_sector(r, sector_map)
 
-    # 애널리스트 확신도 베이스라인(개인 평균±표준편차) — '평소 대비'가 진짜 신호다.
-    from statistics import mean, pstdev
-    conv_by_analyst = defaultdict(list)
-    for r in records:
-        if r['conviction'] is not None:
-            conv_by_analyst[r['analyst']].append(r['conviction'])
-    baselines = {a: {'mean': round(mean(v), 2), 'std': round(pstdev(v), 2), 'n': len(v)}
-                 for a, v in conv_by_analyst.items()}
-    for r in records:
-        b = baselines.get(r['analyst'])
-        r['conv_base'] = b['mean'] if (b and r['conviction'] is not None) else None
-
-
     companies = {}
     for record in records:
         key, name, code = company_key(record)
@@ -361,8 +331,7 @@ def build():
             'conviction_series': [{'date': x['date'], 'v': x['conviction'], 'company': x['company'] or sector}
                                   for x in ai_items[-16:]],
             'latest_tone': ({'label': ai_items[-1]['tone_label'], 'conviction': ai_items[-1]['conviction'],
-                             'one_line': ai_items[-1]['one_line'], 'date': ai_items[-1]['date'],
-                             'base': ai_items[-1].get('conv_base')} if ai_items else None),
+                             'one_line': ai_items[-1]['one_line'], 'date': ai_items[-1]['date']} if ai_items else None),
             'tp_events': tp_events[-6:][::-1],
             'companies': sorted(covered.values(), key=lambda x: (-x['count'], x['name'])),
             'report_count': len(items), 'last_report': {'date': latest['date'], 'title': latest['title'][:120],
@@ -372,19 +341,6 @@ def build():
     sectors = [{'sector': sector, 'analysts': sorted(rows, key=lambda x: x['analyst'])}
                for sector, rows in sorted(sectors_map.items(),
                                           key=lambda x: (x[0] in ('전략·시황', '기타', '미분류'), x[0]))]
-
-    # 개인 평소 대비 ±1.5σ 이상 벗어난 톤은 '톤 이례' 이벤트(표본 10건·표준편차 0.4 이상일 때만)
-    for r in records:
-        b = baselines.get(r['analyst'])
-        if r['conviction'] is None or not b or b['n'] < 10 or b['std'] < 0.4: continue
-        dev = (r['conviction'] - b['mean']) / b['std']
-        if abs(dev) >= 1.5:
-            key, name, _ = company_key(r)
-            all_events.append({'date': r['date'], 'company_key': key, 'company': name,
-                               'analyst': r['analyst'], 'sector': r['sector'], 'report_id': r['id'],
-                               'source': r['post_url'], 'type': '톤 이례' + ('↑' if dev > 0 else '↓'),
-                               'detail': f"확신도 {r['conviction']} — 평소 {b['mean']}±{b['std']}",
-                               'evidence': r['one_line']})
 
     recent_cut = (datetime.now(timezone.utc) + timedelta(hours=9) - timedelta(days=120)).date().isoformat()
     events = sorted([e for e in all_events if e['date'] >= recent_cut],
@@ -403,14 +359,6 @@ def build():
                        'type': 'TP 유지' if tp['direction'] == '유지' else '신규 커버',
                        'detail': display or 'TP 표기 없음', 'evidence': tp['evidence']})
     steady = sorted(steady, key=lambda x: x['date'], reverse=True)[:200]
-
-    # 이벤트 사후 주가 검증: +5/+20영업일 수익률(종가 캐시 기반, 네트워크 없음)
-    fwd = make_return_fn(load_json(PRICE_CACHE, {}))
-    for e in events + steady:
-        code = e.get('company_key') or ''
-        if re.fullmatch(r'[0-9]{6}', code):
-            e['ret5'] = fwd(code, e['date'], 5)
-            e['ret20'] = fwd(code, e['date'], 20)
 
     data = {'generated_at': datetime.now(timezone.utc).isoformat(),
             'report_count': len(records), 'ai_analyzed': sum(1 for r in records if r['ai']),

@@ -147,6 +147,25 @@ class EstCompare(unittest.TestCase):
                                           'year_op': None, 'year_eps': None}, self.CONS))
 
 
+class ForwardReturns(unittest.TestCase):
+    CACHE = {'005930': {'closes': [['2026-07-01', 100.0], ['2026-07-02', 102.0], ['2026-07-03', 104.0],
+                                   ['2026-07-06', 106.0], ['2026-07-07', 108.0], ['2026-07-08', 110.0]]}}
+
+    def test_five_day_return_from_event_date(self):
+        fwd = v2.make_return_fn(self.CACHE)
+        self.assertEqual(fwd('005930', '2026-07-01', 5), 10.0)
+
+    def test_weekend_event_uses_next_trading_day(self):
+        fwd = v2.make_return_fn(self.CACHE)
+        # 7/4(토) 이벤트 → 기준일 7/6 종가 106
+        self.assertEqual(fwd('005930', '2026-07-04', 2), round((110/106-1)*100, 1))
+
+    def test_insufficient_future_returns_none(self):
+        fwd = v2.make_return_fn(self.CACHE)
+        self.assertIsNone(fwd('005930', '2026-07-08', 5))
+        self.assertIsNone(fwd('999999', '2026-07-01', 5))
+
+
 class NormalizeResult(unittest.TestCase):
     def test_out_of_range_values_are_clamped(self):
         raw = make_ai()['result']
