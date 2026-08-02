@@ -237,7 +237,7 @@ function estPair(name,p,unit){if(!p)return '';const d=p.diff_pct;return `<span c
 function estCompBlock(r){const c=r.est_compare;if(!c)return '';
  const line=(g)=>g?`<div class="est-line"><em>${esc(g.label)}</em>${estPair('영업이익',g.op,'억')}${estPair('EPS',g.eps,'원')}</div>`:'';
  return `<div class="est-comp"><b>애널 추정 vs 시장 컨센</b>${line(c.quarter)}${line(c.annual)}<small>컨센: 네이버(리포트 수집 시점)</small></div>`}
-function streetRow(e){const tp=e.tp_old?`${fmtNum(e.tp_old)} » ${fmtNum(e.tp_new)}원`:e.tp_new?`${fmtNum(e.tp_new)}원`:'—';const cls=e.direction==='상향'?'up':e.direction==='하향'?'down':'';return `<a class="street-row" href="${esc(e.post_url)}" target="_blank" rel="noopener" title="${esc(e.quote||'')}${(e.val_methods||[]).length?`
+function streetRow(e){const tp=e.tp_old?`${fmtNum(e.tp_old)} → ${fmtNum(e.tp_new)}원`:e.tp_new?`${fmtNum(e.tp_new)}원`:'—';const cls=e.direction==='상향'?'up':e.direction==='하향'?'down':'';return `<a class="street-row" href="${esc(e.post_url)}" target="_blank" rel="noopener" title="${esc(e.quote||'')}${(e.val_methods||[]).length?`
 밸류: ${esc(e.val_methods.join(' / '))}`:''}"><small>${mmdd(e.date)}</small><b>${esc(e.brokerage)}</b><span class="st-tp ${cls}">${e.direction==='상향'?'▲':e.direction==='하향'?'▼':'●'} ${tp}</span><i>${esc(e.opinion)}</i><em>${esc(e.quote||'')}</em></a>`}
 function streetPanel(entry){const st=entry.street;if(!st||!st.items?.length)return '';
  const s=st.stats;const stat=s?`<div class="street-stat">타사 TP <b>${fmtNum(s.low)}~${fmtNum(s.high)}원</b> · 중앙 ${fmtNum(s.median)}원${s.daol?` · 다올 <b>${fmtNum(s.daol)}원</b>${s.daol_pct!=null?` <u class="${s.daol_pct>=50?'up':'down'}">타사 대비 상위 ${100-s.daol_pct}%</u>`:''}`:''} <small>(n=${s.n})</small></div>`:'';
