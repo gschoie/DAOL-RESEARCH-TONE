@@ -49,15 +49,17 @@ def parse_post(mid, date, text, post_url):
     old, new = _num(tp.group(1)), _num(tp.group(2))
     if new is None:  # '>>'가 없으면 단일 TP 표기(유지·신규 등)
         old, new = None, old
-    # 불릿 중 밸류에이션 방법 언급 라인(최대 2개)
-    bullets = [b.strip('- ').strip() for b in text.split('\n') if b.strip().startswith('-')]
+    # 요약부(🟥 리스크 요인 이전) 불릿만 사용 — 상위 3개는 투자포인트 표시용
+    summary_part = re.split(r'🟥|리스크\s*요인', text)[0]
+    bullets = [b.strip('- ').strip() for b in summary_part.split('\n') if b.strip().startswith('-')]
     vals = [b[:90] for b in bullets if VAL_RE.search(b)][:2]
+    points = [b[:70] for b in bullets[:3]]
     quote = QUOTE_RE.search(flat)
     return {
         'id': mid, 'date': date[:10], 'company': head.group(2).strip()[:30],
         'direction': head.group(1), 'tp_old': old, 'tp_new': new,
         'opinion': tp.group(3).strip()[:20], 'brokerage': tp.group(4).strip()[:20],
-        'quote': quote.group(1).strip() if quote else '', 'val_methods': vals,
+        'quote': quote.group(1).strip() if quote else '', 'val_methods': vals, 'points': points,
         'post_url': post_url,
     }
 

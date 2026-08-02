@@ -70,6 +70,18 @@ def opinion_class(op):
     return ''
 
 
+OPINION_LABELS = {'산업': {'긍정': '비중확대', '중립': '중립', '부정': '비중축소'},
+                  '기업': {'긍정': 'BUY', '중립': 'HOLD', '부정': 'REDUCE'}}
+
+
+def normalize_opinion(op, report_type):
+    """표기 난립(매수/BUY/Overweight/비중확대…)을 스코프별 3단계로 통일한다."""
+    cls = opinion_class(op)
+    if not cls: return ''
+    scope = '산업' if report_type == '산업자료' else '기업'
+    return OPINION_LABELS[scope][cls]
+
+
 def fmt_won(v):
     return f'{int(v):,}원' if v else None
 
@@ -277,6 +289,7 @@ def merge_report(report, ai_entry):
                 'display': first.get('display') or '', 'reasons': classify_regex_reasons(first.get('reasons')),
                 'evidence': first.get('evidence') or ''},
         })
+    record['opinion'] = normalize_opinion(record['opinion'], record['report_type'])
     # 산업자료(대상 종목 미상)의 TP는 어느 종목 것인지 알 수 없어 노이즈 — 이벤트에서 뺀다.
     # (예: 위클리 본문의 신조선가·타 종목 숫자가 '조선 ▼ 112,000→91,000원'처럼 잡히던 문제)
     if record['report_type'] == '산업자료' or record['company'] in ('', '산업/기타'):
@@ -464,7 +477,8 @@ def build():
     for (sector, analyst), items in by_analyst.items():
         items.sort(key=lambda x: (x['date'], x['id']))
         latest = items[-1]
-        opinions = [x for x in items if x['opinion']]
+        # '산업의견' 칼럼이므로 산업자료에서 명시된 의견만 쓴다(기업 BUY가 섞이지 않게)
+        opinions = [x for x in items if x['opinion'] and x['report_type'] == '산업자료']
         ai_items = [x for x in items if x['ai']]
         covered = {}
         for record in items:
