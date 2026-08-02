@@ -44,6 +44,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-event em.up{color:#2e7d4f}.tone-event em.down{color:var(--red)}.tone-event em.mid{color:#8a661c}
 .tone-event u{text-decoration:none;font-size:10px;font-weight:700;white-space:nowrap;padding:1px 5px;border-radius:8px;background:#f0f3ee}
 .tone-event u.up{color:#2e7d4f}.tone-event u.down{color:var(--red)}
+.tone-event q.evq{quotes:none;font-size:10.5px;max-width:34%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:1px 6px;border-radius:8px}
+.tone-event q.evq.up{color:#1f6b43;background:#eaf5ee}.tone-event q.evq.down{color:#a43c31;background:#f9ecea}
 .cov-tp{max-height:150px;overflow-y:auto;border:1px solid #eef1ec}
 .cov-row{display:grid;grid-template-columns:1fr auto;gap:2px 10px;width:100%;border:0;border-bottom:1px solid #f0f3ee;background:#fff;text-align:left;padding:6px 9px;cursor:pointer;font-family:inherit;font-size:12px;align-items:center}
 .cov-row:hover{background:#f4f7f4}
@@ -70,6 +72,10 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .op-date{display:block;color:var(--muted);margin-top:3px;font-size:10px}
 .conv-dots{color:#173f35;letter-spacing:1.5px;font-size:11px}
 .tone-cell small{display:block;color:var(--muted);margin-top:2px;font-size:10px}
+.tone-cell{max-width:250px}
+.cell-phrases{margin-top:5px}
+.cell-phrases q{quotes:none;display:block;font-size:10.5px;line-height:1.45;padding:2px 7px;border-radius:7px;margin:2px 0;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}
+.cell-phrases q.up{color:#1f6b43;background:#eaf5ee}.cell-phrases q.down{color:#a43c31;background:#f9ecea}
 .tone-cell.t-strong .conv-dots{color:#1f6b43}.tone-cell.t-pos .conv-dots{color:#3c6b58}.tone-cell.t-cau .conv-dots{color:#a1742a}.tone-cell.t-neg .conv-dots{color:var(--red)}
 .conv-spark{display:block}
 .tp-chip{display:block;border:1px solid #e3ddd0;background:#faf8f2;font-family:inherit;font-size:11px;text-align:left;padding:5px 8px;margin:0 0 5px;cursor:pointer;border-left:3px solid #8a5a2b;max-width:250px}
@@ -169,7 +175,7 @@ function toneEventRow(g){const items=g.items,e=items[0];
  const badges=items.map(i=>`<em class="${g._hold?'':evCls(i.type)}">${esc(evShort(i.type))}</em>`).join('');
  const detail=items.map(i=>i.detail).filter(Boolean).join('  ·  ');
  const tip=items.map(i=>`[${i.type}] ${i.evidence||i.detail}`).join('  |  ');
- return `<button type="button" class="tone-event ${cls} tone-ck" data-ck="${esc(e.company_key)}" title="${esc(tip)}"><small>${mmdd(e.date)}</small>${badges}<b>${esc(e.company)}</b><span>${esc(detail)}</span>${e.ret5!=null?`<u class="ret ${e.ret5>=0?'up':'down'}" title="이벤트 후 5영업일 수익률">5d ${e.ret5>0?'+':''}${e.ret5}%</u>`:''}${e.ret20!=null?`<u class="ret ${e.ret20>=0?'up':'down'}" title="이벤트 후 20영업일 수익률">20d ${e.ret20>0?'+':''}${e.ret20}%</u>`:''}<i>${esc(e.analyst)}</i></button>`}
+ return `<button type="button" class="tone-event ${cls} tone-ck" data-ck="${esc(e.company_key)}" title="${esc(tip)}"><small>${mmdd(e.date)}</small>${badges}<b>${esc(e.company)}</b><span>${esc(detail)}</span>${g._hold&&e.phrase?`<q class="evq ${e.phrase_kind==='부정'?'down':'up'}" title="${e.phrase_kind==='부정'?'부정 문구':'강한 문구'}: ${esc(e.phrase)}">${esc(e.phrase)}</q>`:''}${e.ret5!=null?`<u class="ret ${e.ret5>=0?'up':'down'}" title="이벤트 후 5영업일 수익률">5d ${e.ret5>0?'+':''}${e.ret5}%</u>`:''}${e.ret20!=null?`<u class="ret ${e.ret20>=0?'up':'down'}" title="이벤트 후 20영업일 수익률">20d ${e.ret20>0?'+':''}${e.ret20}%</u>`:''}<i>${esc(e.analyst)}</i></button>`}
 function groupEvents(events){const seen=new Map(),out=[];
  for(const e of events){const k=e.report_id||`${e.company_key}|${e.date}`;
   if(seen.has(k))seen.get(k).items.push(e);else{const g={items:[e]};seen.set(k,g);out.push(g)}}
@@ -183,7 +189,7 @@ function renderToneEvents(){const box=$('#tone-events');if(!box)return;
  const left=grouped.slice(0,40).map(toneEventRow).join('')||'<div class="tone-empty" style="padding:8px 16px">변화 이벤트 없음</div>';
  const right=steady.slice(0,40).map(e=>toneEventRow({items:[e],_hold:true})).join('')||'<div class="tone-empty" style="padding:8px 16px">TP 유지 보고서 없음</div>';
  box.innerHTML=`<details class="tone-event-wrap" open><summary>⚡ 최근 변화 이벤트 <em>변화 ${grouped.length}건 · 유지 ${steady.length}건 · 120일</em></summary><div class="tone-event-cols"><div class="tone-event-col"><h5>TP 조정 · 의견/톤/실적 변화</h5><div class="tone-event-list">${left}</div></div><div class="tone-event-col"><h5>TP 유지 · 신규 커버</h5><div class="tone-event-list">${right}</div></div></div></details>`}
-function analystRow(a,secCell=''){const tone=a.latest_tone?`<div class="tone-cell ${toneLabelClass(a.latest_tone.label)}" title="${esc(a.latest_tone.one_line||'')}">${convDots(a.latest_tone.conviction)}<small>${esc(a.latest_tone.label)} · ${mmdd(a.latest_tone.date)}${a.latest_tone.base?` · 평소 ${a.latest_tone.base}`:''}</small></div>`:'<span class="tone-empty" title="AI 분석 데이터가 아직 없습니다">AI 대기</span>';
+function analystRow(a,secCell=''){const tone=a.latest_tone?`<div class="tone-cell ${toneLabelClass(a.latest_tone.label)}" title="${esc(a.latest_tone.one_line||'')}">${convDots(a.latest_tone.conviction)}<small>${esc(a.latest_tone.label)} · ${mmdd(a.latest_tone.date)}${a.latest_tone.base?` · 평소 ${a.latest_tone.base}`:''}</small>${a.ind_phrases&&(a.ind_phrases.strong||a.ind_phrases.negative)?`<div class="cell-phrases" title="최근 산업자료(${mmdd(a.ind_phrases.date)}) 문구">${a.ind_phrases.strong?`<q class="up">${esc(a.ind_phrases.strong)}</q>`:''}${a.ind_phrases.negative?`<q class="down">${esc(a.ind_phrases.negative)}</q>`:''}</div>`:''}</div>`:'<span class="tone-empty" title="AI 분석 데이터가 아직 없습니다">AI 대기</span>';
  const tps=(a.tp_events||[]).slice(0,2).map(x=>tpChip(x)).join('')||'<span class="tone-empty">최근 없음</span>';
  const comps=(a.companies||[]).slice(0,6).map(c=>`<button type="button" class="company-mini tone-ck" data-ck="${esc(c.key)}" title="${esc(c.name)} 히스토리 열기 · ${c.count}건">${esc(c.name)}<i>${c.count}</i></button>`).join('')||'<span class="tone-empty">—</span>';
  const last=a.last_report?.date?`<small>${mmdd(a.last_report.date)}</small> <a href="${esc(a.last_report.post_url)}" target="_blank" rel="noopener">${esc((a.last_report.title||'').slice(0,52))}</a>`:'—';

@@ -384,6 +384,12 @@ def build():
             'latest_tone': ({'label': ai_items[-1]['tone_label'], 'conviction': ai_items[-1]['conviction'],
                              'one_line': ai_items[-1]['one_line'], 'date': ai_items[-1]['date'],
                              'base': ai_items[-1].get('conv_base')} if ai_items else None),
+            # 이 섹터의 가장 최근 산업자료에서 뽑은 강한/부정 문구(행에 바로 노출)
+            'ind_phrases': (lambda ind: {'date': ind['date'],
+                                         'strong': (ind.get('strong_phrases') or [''])[0][:80],
+                                         'negative': (ind.get('negative_phrases') or [''])[0][:80]}
+                            if ind else None)(next((x for x in reversed(ai_items)
+                                                    if x['report_type'] == '산업자료'), None)),
             'tp_events': tp_events[-6:][::-1],
             'companies': sorted(covered.values(), key=lambda x: (-x['count'], x['name'])),
             'report_count': len(items), 'last_report': {'date': latest['date'], 'title': latest['title'][:120],
@@ -418,11 +424,18 @@ def build():
         if not tp or tp['direction'] not in ('유지', '신규') or r['date'] < recent_cut: continue
         display = tp['display'] or (f"{int(tp['value']):,}원" if tp['value'] else '')
         if display and tp['direction'] not in display: display += f" ({tp['direction']})"
+        # TP는 유지라도 톤의 온도가 보이게 — 부정 문구(경계 신호) 우선, 없으면 강한 문구.
+        phrase, phrase_kind = '', ''
+        if r.get('negative_phrases'):
+            phrase, phrase_kind = r['negative_phrases'][0][:70], '부정'
+        elif r.get('strong_phrases'):
+            phrase, phrase_kind = r['strong_phrases'][0][:70], '강'
         steady.append({'date': r['date'], 'company_key': company_key(r)[0],
                        'company': r['company'] or f"{r['sector']} 산업", 'analyst': r['analyst'],
                        'sector': r['sector'], 'report_id': r['id'], 'source': r['post_url'],
                        'type': 'TP 유지' if tp['direction'] == '유지' else '신규 커버',
-                       'detail': display or 'TP 표기 없음', 'evidence': tp['evidence']})
+                       'detail': display or 'TP 표기 없음', 'evidence': tp['evidence'],
+                       'phrase': phrase, 'phrase_kind': phrase_kind})
     steady = sorted(steady, key=lambda x: x['date'], reverse=True)[:200]
 
     # 이벤트 사후 주가 검증: +5/+20영업일 수익률(종가 캐시 기반, 네트워크 없음)
