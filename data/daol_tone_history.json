@@ -1,8 +1,69 @@
 {
-  "generated_at": "2026-08-02T04:04:03.049638+00:00",
+  "generated_at": "2026-08-02T09:29:48.617529+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1185,
+  "report_count": 1186,
   "months": [
+    {
+      "month": "2026-08",
+      "analysts": [
+        {
+          "analyst": "최광식",
+          "sectors": [
+            "조선/기계/방산"
+          ],
+          "opinion": "중립",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2026-08-02",
+              "source": "https://t.me/daolresearch/14738"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14738,
+              "date": "2026-08-02",
+              "month": "2026-08",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "다올",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "▶ GTT LNG선 수요 전망 상향 그리고 노후선 교체발주에서 150~200척으로 최소 550척의 LNG선 신조 수요가 있다고 전망(기존 LNG ❔ ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 ▷ Fayard, 러시아 LNG선 작업 중단 요구 거부하며 기존 방침 유지 HD한국조선해양 (1년 누적 매수, 억원)",
+              "industry_conclusion": "",
+              "report_conclusion": "▶ GTT LNG선 수요 전망 상향 그리고 노후선 교체발주에서 150~200척으로 최소 550척의 LNG선 신조 수요가 있다고 전망(기존 LNG ❔ ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 ▷ Fayard, 러시아 LNG선 작업 중단 요구 거부하며 기존 방침 유지 ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 MidOcean Energy는 Gorgon·Pluto·Peru LNG 등 글로벌 포트폴리오를 보유해 향후 LNG선 선복 필요 전망",
+              "valuation": [
+                "베네수엘라 Perla에 FLNG(3.5MTPA), 아르헨티나 가스전 프로젝트들이 들어갑니다.",
+                "▶ 한국 조선5사 Perf orm ance",
+                "Wenzhou Yuandong SB 26.05.01 아시아 Wonderful Perfection PTK 50k DWT 2028~2030 10",
+                "대상 선박은 2010년 건조 170k-CBM급 TFDE LNG선 Methane Mickie Harper로 FSRU/FSU 개조 후보",
+                "Sinokor Maritime, MSC와 협력해 VLCC Stephanie(2012년 건조) 인수 및 Algeria Prosperity로 개명",
+                "베네수엘라 육상 자산 신규 계약 협상 및 Perla 가스전 3.5MTPA FLNG 투입 합의 타결로 5.5십억배럴 이상 잠재력 확보"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143007/1/20260802_B2040_gs.choie_571.pdf",
+              "pdf_error": "",
+              "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG선 수요 550척으로 상향, KDDX 출발 ⚓ 주시 뉴스",
+              "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG선 수요 550척으로 상향, KDDX 출발 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 △ 신조선가지수 소수점 상승. 탱커 중고선가 VLCC 급등, 수에즈와 MR 하락 ▲ Adnoc L&S VLCC, 원유 수출 지원 위해 VLCC 6척 긴급 매입 ▶ 그린쉽: N/A ▶ LNG ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 △ Cheniere의 Corpus Christ T7 FERC 승인 △ Venture Global LNG, CP2 액화설비 공급계약 발주 △ QatarEnergy, Q-Flex 손상 사건 3주 만에 호르무즈 해협 LNG선 운항 재개 ▶ 가스선: N/A ▶ 컨테이너 ▽ 노르웨이 선주, 중국 신생 조선사에 1,300-TEU 6척 발주 ▶ 탱커 ▲ HD현대중공업, 그리스 Stealth Maritime로부터 MR 2척 수주 ▲ 대한조선, 튀르키예 Ditas Shipping으로부터 수에즈막스 탱커 2척 수주 ▽ 팬오션, 중국에 VLCC 2척 추가 발주 ▶ 해양/디펜스/바람 ▲ 한화오션 KDDX 상세설계 및 선도 함 건조 8,379억원 수주. 2032년 선도함 전력화 ▲ Eni, 2030년까지 CAGR +4% 생산 성장률 달성을 위해 54개 프로젝트 추진 ▽ 미국-중국 조선업 견제 실패 중 < ☞ https://bit.ly/DOS833 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/14738",
+              "source_url": "https://bit.ly/DOS833"
+            }
+          ]
+        }
+      ],
+      "report_count": 1
+    },
     {
       "month": "2026-07",
       "analysts": [

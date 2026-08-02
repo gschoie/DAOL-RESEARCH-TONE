@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-02T04:09:53.536017+00:00",
+ "generated_at": "2026-08-02T09:57:10.062617+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1185,
+ "report_count": 1186,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27117,6 +27117,58 @@
    "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 철강도 비철강도 개선",
    "post_url": "https://t.me/daolresearch/14732",
    "source_url": "https://buly.kr/Csm9BCN"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-02",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "LNG ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 △ Cheniere의 Corpus Christ T7 FERC 승인 △ Venture Global LNG, CP2 액화설비 공급계약 발주 △ QatarEnergy, Q-Flex 손상 사건 3주 만에 호르무즈 해협 LNG선 운항 재개"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG선 수요 550척으로 상향, KDDX 출발 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14738",
+   "source_url": "https://bit.ly/DOS833"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-08-02",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG선 수요 550척으로 상향, KDDX 출발 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14738",
+   "source_url": "https://bit.ly/DOS833"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-08-02",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 8,
+   "evidences": [
+    "GTT LNG선 수요 전망 상향 그리고 노후선 교체발주에서 150~200척으로 최소 550척의 LNG선 신조 수요가 있다고 전망(기존 LNG ❔ ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 ▷ Fayard, 러시아 LNG선 작업 중단 요구 거부하며 기존 방침 유지 ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 MidOcean Energy는 Gorgon·Pluto·Peru ",
+    "GTT LNG선 수요 전망 상향 그리고 노후선 교체발주에서 150~200척으로 최소 550척의 LNG선 신조 수요가 있다고 전망(기존 LNG ❔ ▲ GTT는 LNG선 신조 수요 전망 기존 450척에서 550척으로 상향 ▷ Fayard, 러시아 LNG선 작업 중단 요구 거부하며 기존 방침 유지 HD한국조선해양 (1년 누적 매수, 억원)"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG선 수요 550척으로 상향, KDDX 출발 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14738",
+   "source_url": "https://bit.ly/DOS833"
   }
  ],
  "cross_mentions": [
@@ -27911,92 +27963,83 @@
    "evidence": "2: HD현대건설기계 PER: 실적 올려 10배에 불과 Fig.",
    "title": "[HD건설기계(267270)/BUY(유지)/TP 270,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD건설기계(267270) : 자원국 폭증도, 엔진도 모두 AI 사이클",
    "post_url": "https://t.me/daolresearch/14694"
+  },
+  {
+   "company": "팬오션",
+   "code": "028670",
+   "owner_analyst": "오정하",
+   "owner_sector": "운송/로봇",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "date": "2026-08-02",
+   "evidence": "탱커 ▲ HD현대중공업, 그리스 Stealth Maritime로부터 MR 2척 수주 ▲ 대한조선, 튀르키예 Ditas Shipping으로부터 수에즈막스 탱커 2척 수주 ▽ 팬오션, 중국에 VLCC 2척 추가 발주",
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG선 수요 550척으로 상향, KDDX 출발 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14738"
   }
  ],
  "candidates": [
-  {
-   "term": "CPU",
-   "recent": 6,
-   "total": 8,
-   "sectors": 3,
-   "burst": 7.4
-  },
   {
    "term": "UAE",
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 6.6
-  },
-  {
-   "term": "단일",
-   "recent": 7,
-   "total": 11,
-   "sectors": 5,
-   "burst": 5.2
+   "burst": 7.1
   },
   {
    "term": "수익성이",
    "recent": 8,
    "total": 14,
    "sectors": 8,
-   "burst": 4.2
+   "burst": 4.5
   },
   {
    "term": "남미",
    "recent": 7,
    "total": 13,
    "sectors": 3,
-   "burst": 3.7
+   "burst": 3.9
+  },
+  {
+   "term": "해협",
+   "recent": 10,
+   "total": 19,
+   "sectors": 3,
+   "burst": 3.9
   },
   {
    "term": "수율",
    "recent": 7,
    "total": 13,
    "sectors": 4,
-   "burst": 3.7
+   "burst": 3.9
   },
   {
    "term": "결과가",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.7
+   "burst": 3.9
   },
   {
-   "term": "높아",
-   "recent": 11,
-   "total": 22,
-   "sectors": 7,
-   "burst": 3.4
+   "term": "단일",
+   "recent": 6,
+   "total": 11,
+   "sectors": 5,
+   "burst": 3.9
   },
   {
    "term": "점진적",
    "recent": 10,
    "total": 20,
    "sectors": 10,
-   "burst": 3.3
-  },
-  {
-   "term": "해협",
-   "recent": 9,
-   "total": 18,
-   "sectors": 3,
-   "burst": 3.3
+   "burst": 3.6
   },
   {
    "term": "더해",
    "recent": 7,
    "total": 14,
    "sectors": 6,
-   "burst": 3.2
-  },
-  {
-   "term": "증익",
-   "recent": 10,
-   "total": 21,
-   "sectors": 7,
-   "burst": 3.1
+   "burst": 3.4
   }
  ]
 }
