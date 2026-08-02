@@ -234,7 +234,10 @@ def merge_report(report, ai_entry):
         'title': title, 'post_url': report.get('post_url') or '',
         'source_url': report.get('source_url') or '',
         'pdf_url': report.get('pdf_url') or report.get('source_url') or '',
-        'opinion': (ai and ai['opinion'] not in ('', '없음') and ai['opinion']) or report.get('opinion') or '',
+        # 위클리/주간 모니터링 포맷은 산업의견을 적지 않는다 — AI 추측('중립')도, 본문 잡단어를 잡은
+        # 정규식 값도 쓰지 않고 항상 비운다. 표의 산업의견은 최근 '의견 명시' 산업자료 것이 유지된다.
+        'opinion': '' if re.search(r'Weekly|위클리|주간\s*(모니터링|동향)', report.get('title') or '', re.I)
+                   else ((ai and ai['opinion'] not in ('', '없음') and ai['opinion']) or report.get('opinion') or ''),
         'ai': bool(ai),
     }
     if ai:

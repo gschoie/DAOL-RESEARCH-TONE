@@ -56,6 +56,20 @@ class MergeReport(unittest.TestCase):
         self.assertEqual(merged['tp_event']['reasons'], ['멀티플'])
 
 
+class WeeklyOpinion(unittest.TestCase):
+    def test_weekly_ignores_ai_guessed_opinion(self):
+        # 위클리는 의견 미기재 포맷 — AI가 '중립'으로 추측해도 버린다
+        merged = v2.merge_report(make_report('1', '2026-08-02', title='[조선 Weekly] 주간 모니터링'),
+                                 make_ai(opinion='중립'))
+        self.assertEqual(merged['opinion'], '')
+
+    def test_weekly_drops_regex_false_positive_too(self):
+        # v1 정규식이 본문 잡단어('중립')를 잡아도 위클리에선 의견을 비운다
+        merged = v2.merge_report(make_report('2', '2026-08-02', title='[조선 Weekly]', opinion='중립'),
+                                 make_ai(opinion='중립'))
+        self.assertEqual(merged['opinion'], '')
+
+
 class PointDiffs(unittest.TestCase):
     def test_added_and_dropped_points(self):
         timeline = [
