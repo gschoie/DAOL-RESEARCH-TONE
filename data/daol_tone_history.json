@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T15:41:07.876555+00:00",
+  "generated_at": "2026-08-03T23:49:15.851367+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1191,
+  "report_count": 1197,
   "months": [
     {
       "month": "2026-08",
@@ -146,6 +146,295 @@
               "summary": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 양호한 수주 성과 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합. 영업이익 당사추정치와 컨센서스 상회 - 주택 매출이익률 개선 확인, 토목, 플랜트 비용 반영으로 총 이익 개선 제한. 계절적으로 낮은 판매관리비 효과로 영업이익 기대치 초과 달성 - 수주 성과 특히 양호, 상반기 22.8조원으로 연간목표 68% 달성하며 향후 매출 반등 기반 마련. 적정주가 155,000원 유지하고 투자의견 Buy 유지. 최근 지속된 가격 하락으로 밸류에이션 여유 발생 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6BzMypI",
               "post_url": "https://t.me/daolresearch/14740",
               "source_url": "https://buly.kr/6BzMypI"
+            }
+          ]
+        },
+        {
+          "analyst": "박종현",
+          "sectors": [
+            "화장품"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "전월 대비 유지",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14755,
+              "date": "2026-08-03",
+              "month": "2026-08",
+              "analyst": "박종현",
+              "sector": "화장품",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ Implication 고무적인 7월 수출 데이터(기초 YoY +27%, 기타 YoY +69%)와 함께 메디큐브 미국 순위 재반등 확인.",
+              "report_conclusion": "▶ Implication 고무적인 7월 수출 데이터(기초 YoY +27%, 기타 YoY +69%)와 함께 메디큐브 미국 순위 재반등 확인.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/A482vLw",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /A482vLw (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f89ff904500>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~8/3)",
+              "summary": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~8/3) ▶ Implication 고무적인 7월 수출 데이터(기초 YoY +27%, 기타 YoY +69%)와 함께 메디큐브 미국 순위 재반등 확인. 에이피알은 7월 이후로 미국 MS 소폭 감소 추세를 보였으나, 8월 들어 재상승, ASP 감소 확인되지 않음(US MS 17.4%, +1.9%p). 해당 데이터 통해 QoQ 실적 하락 우려 불식 기대. 아모레퍼시픽: 레딧 최다(447건 net +0.33)·COSRX 기반 견조하나, 아마존 미국 top100 순위권 부재로 모멘텀 제한. 에이블씨앤씨: 미샤 틱톡 +17.3% 반등이나 유기적 구매 1%에 불과, 인플루언서 의존 구조. 달바글로벌: 아마존 유럽 MS 소폭 감소(스페인 -2.8%p, 독일 방향 pos→neg). CJ: 바이오힐보 소액이나 유기적 구매 비중 30%이며, 할인율 14%에 불과 * 보고서 원문 및 컴플라이언스 < https://buly.kr/A482vLw > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/14755",
+              "source_url": "https://buly.kr/A482vLw"
+            }
+          ]
+        },
+        {
+          "analyst": "유지웅",
+          "sectors": [
+            "자동차/이차전지"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-08-03",
+              "source": "https://t.me/daolresearch/14760"
+            }
+          ],
+          "top_picks": [
+            {
+              "text": "▶ 현시점 자동차 밸류에이션 메리트는 기아가 가장 높으며, 최선호주로 추천.",
+              "date": "2026-08-03",
+              "source": "https://t.me/daolresearch/14760"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 2,
+          "reports": [
+            {
+              "id": 14760,
+              "date": "2026-08-03",
+              "month": "2026-08",
+              "analyst": "유지웅",
+              "sector": "자동차/이차전지",
+              "company": "자동차",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [
+                "▶ 현시점 자동차 밸류에이션 메리트는 기아가 가장 높으며, 최선호주로 추천."
+              ],
+              "preferred_stocks": [
+                "▶ 현시점 자동차 밸류에이션 메리트는 기아가 가장 높으며, 최선호주로 추천."
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 7월 한국의 대미 자동차 수출액은 27억달러(YoY +18%)를 기록해 4개월 연속 YoY 증가세를 시현 중",
+              "report_conclusion": "▶ 7월 한국의 대미 자동차 수출액은 27억달러(YoY +18%)를 기록해 4개월 연속 YoY 증가세를 시현 중",
+              "valuation": [
+                "▶ 현시점 자동차 밸류에이션 메리트는 기아가 가장 높으며, 최선호주로 추천."
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/1cBfqac",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1cBfqac (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f89ff9015e0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 7월 판매: 기아 3Q26 시작이 좋다",
+              "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 7월 판매: 기아 3Q26 시작이 좋다 ▶ 현시점 자동차 밸류에이션 메리트는 기아가 가장 높으며, 최선호주로 추천. P/E 6배, 순현금 22조원 (vs 시총 50조원)에 달해 강력한 안전마진 보유 ▶ 현대차와 기아의 7월 글로벌 도매판매량은 각각 31.8만대(YoY -5.1%), 29.8만대(YoY +13.4%) 기록 ▶ 내수의 경우 현대차 4.8만대(YoY -14.4%), 기아 5.5만대(YoY +21.3%)를 기록해, 지난 4월 이후 현대 대비 내수 판매량이 증가 ▶ 7월을 시작으로 HMGMA(미국 신공장)에서 스포티지 NQ5의 HEV트림 생산이 시작 ▶ 7월 한국의 대미 자동차 수출액은 27억달러(YoY +18%)를 기록해 4개월 연속 YoY 증가세를 시현 중 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/1cBfqac >",
+              "post_url": "https://t.me/daolresearch/14760",
+              "source_url": "https://buly.kr/1cBfqac"
+            },
+            {
+              "id": 14759,
+              "date": "2026-08-03",
+              "month": "2026-08",
+              "analyst": "유지웅",
+              "sector": "자동차/이차전지",
+              "company": "현대위아",
+              "code": "011210",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/HHf799n",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /HHf799n (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f89ff9034a0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대위아(011210) - 하반기 회복을 논하기 좋은 위치",
+              "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대위아(011210) - 하반기 회복을 논하기 좋은 위치 ▶ 완성차의 3Q26 HMGMA 증산효과가 확인되며 주가 재평가 구간이 나타날 것으로 기대. 투자의견 BUY 및 적정주가 9.3만원 유지 ▶ 2Q26 매출액 및 영업이익은 각각 2.4조원(YoY +8.0%), 504억원(YoY -10.5%) 기록 ▶ HMGMA의 스포티지 HEV 양산계획은 경우 2H26약 3만대 → 2027년 7만대 예정 ▶ 장기적으로 멕시코 공장의 HEV감마엔진 생산을 시작으로, 동사의 HEV전용 엔진 수주가 국내외 타 공장으로 확대될 가능성에 무게 ▶ 방산사업 매각으로 로보틱스/모빌리티 투자 가속화가 가능해질 수 있어, 그룹사의 로보틱스 사업 확대에 따른 수혜를 기대 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/HHf799n >",
+              "post_url": "https://t.me/daolresearch/14759",
+              "source_url": "https://buly.kr/HHf799n"
+            }
+          ]
+        },
+        {
+          "analyst": "이다연",
+          "sectors": [
+            "음식료/통신"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-08-03",
+              "source": "https://t.me/daolresearch/14757"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-08-03",
+              "source": "https://t.me/daolresearch/14758"
+            }
+          ],
+          "top_picks": [
+            {
+              "text": "높은 해외 비중을 바탕으로 판매량 성장을 지속 중인 삼양식품, KT&G에 대한 Top Picks 의견과 오리온에 대한 선호 의견 지속 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/9BYG1RZ",
+              "date": "2026-08-03",
+              "source": "https://t.me/daolresearch/14758"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 2,
+          "reports": [
+            {
+              "id": 14758,
+              "date": "2026-08-03",
+              "month": "2026-08",
+              "analyst": "이다연",
+              "sector": "음식료/통신",
+              "company": "가격",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [
+                "높은 해외 비중을 바탕으로 판매량 성장을 지속 중인 삼양식품, KT&G에 대한 Top Picks 의견과 오리온에 대한 선호 의견 지속 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/9BYG1RZ"
+              ],
+              "preferred_stocks": [
+                "높은 해외 비중을 바탕으로 판매량 성장을 지속 중인 삼양식품, KT&G에 대한 Top Picks 의견과 오리온에 대한 선호 의견 지속 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/9BYG1RZ"
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ Rationale - 음식료는 대표적인 수요 비탄력적 필수재로 가계 실질소득이 감소하는 국면에서도 안정적인 판매량 흐름을 나타내는 품목.",
+              "report_conclusion": "▶ Rationale - 음식료는 대표적인 수요 비탄력적 필수재로 가계 실질소득이 감소하는 국면에서도 안정적인 판매량 흐름을 나타내는 품목.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/9BYG1RZ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /9BYG1RZ (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f89ff904860>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ 가격 인상 국면 속 업종 대응 전략",
+              "summary": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ 가격 인상 국면 속 업종 대응 전략 ▶ Pitch - 물가 상승 환경 속 가격 인상 시행으로 음식료 투자매력도 상승. 업종 내에서도 지속적인 판매량 증가를 바탕으로 P-C Spread 확대 효과를 온전히 누릴 수 있는 기업에 주목 ▶ Rationale - 음식료는 대표적인 수요 비탄력적 필수재로 가계 실질소득이 감소하는 국면에서도 안정적인 판매량 흐름을 나타내는 품목. 6월, 7월 PPI가 각각 8%를 돌파하는 환경 속에서 최근 업종 투자 매력도가 높아지는 이유도 이와 일맥상통함 - 이와 더불어 주요 가공식품 기업들의 가격 인상 단행 중. 롯데칠성 6월 말 평균 +5.3%, 농심 8/1일부터 평균 +5.8%, CJ제일제당 8/1일부터 평균 +8% 인상 진행 - 안정적인 현금 창출력, 해외 진출 확대로 업종 전반 주주환원 확대 중. 주주환원 측면에서는 KT&G, 오리온의 투자 매력도가 높음. 연간 주당배당금 8,000원(KT&G), 4,500원(오리온) 가정 시 현재주가 기준 배당수익률 각각 4.5%, 3.4% - 업종 전통 투자포인트인 P-C Spread 개선은 판매량 증가가 뒷받침될 때 비로소 실질적인 수익성 개선으로 이어질 수 있음. 따라서 업종 가격 인상 흐름 속에서도 종목별 선별 접근이 필요하다고 판단. 높은 해외 비중을 바탕으로 판매량 성장을 지속 중인 삼양식품, KT&G에 대한 Top Picks 의견과 오리온에 대한 선호 의견 지속 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/9BYG1RZ",
+              "post_url": "https://t.me/daolresearch/14758",
+              "source_url": "https://buly.kr/9BYG1RZ"
+            },
+            {
+              "id": 14757,
+              "date": "2026-08-03",
+              "month": "2026-08",
+              "analyst": "이다연",
+              "sector": "음식료/통신",
+              "company": "미국의",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 국내 기업의 실질적 수혜 강도는?",
+              "report_conclusion": "▶ 국내 기업의 실질적 수혜 강도는?",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/9iIWxrl",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /9iIWxrl (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f89ff902900>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ 미국의 중국산 라이신 대상 확정관세 판결 영향 전망",
+              "summary": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ 미국의 중국산 라이신 대상 확정관세 판결 영향 전망 ▶ 잠정관세보다 높게 설정된 확정관세 - 지난 7월 21일 미국의 중국산 라이신에 대한 확정관세 최종판결이 진행됨. 이에 중국산 라이신에 대해 부과되는 관세는 상계관세 제외 73.37-139.65% 수준. 지난 3월 부과된 잠정관세(41.22-72.18%)보다 높아진 Range에서 결정됨 ▶ ‘25년 EU의 대중국 관세 사례 분석 - ‘25년 1월 EU의 중국산 라이신 반덤핑 잠정관세(58.3-84.8%) 발표 직후 유럽 내 라이신 가격 급등. 관세 부과를 앞두고 중국산 라이신 가격 급등이 예상되자 재고 확보 경쟁이 심화됐기 때문. 반면 같은 기간 중국 라이신 가격은 27% 하락했는데, 기존 유럽으로 수출하던 물량이 중국 내수에 풀리며 공급 과잉이 심화됐기 때문 - 이러한 상황은 ‘25년 7월 확정관세(47.7-58.2%) 시행과 함께 반전. 1월 잠정관세 부과 후 중국 내수 치킨 게임이 심화되며 중국 라이신 가격이 급락한 가운데, 낮아진 관세율 하에서 중국 업체들은 관세를 감안해도 유럽에 파는 것이 유리해졌기 때문. 이에 7월 확정관세 시행 직후 중국산 저가 물량이 다시 유럽으로 유입됐고, 유럽 라이신 가격은 점차 하락 ▶ ’26년 미국이 부과한 관세의 실질적 효과를 파악하는 방법 - 대중국 관세의 실질적 효과는 아래 세 가지 지표를 통해 확인 가능. 1) 미국의 중국산 라이신 수입 감소 여부, 2) 미국 라이신 가격 상승 여부, 3) 중국 라이신 가격 하락 여부 - 잠정관세 부과를 기점으로 미국의 중국산 라이신 수입은 감소 (1-2월 2,600-2,800MT, 5월 518MT) 미국 라이신 가격은 실시간 확인이 어렵고, 중국 라이신 가격은 중동 사태 여파로 3-4월 ",
+              "post_url": "https://t.me/daolresearch/14757",
+              "source_url": "https://buly.kr/9iIWxrl"
+            }
+          ]
+        },
+        {
+          "analyst": "이정우",
+          "sectors": [
+            "철강"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [
+            {
+              "company": "현대제철",
+              "direction": "유지",
+              "old": null,
+              "new": 46000,
+              "display": "46,000원 (유지)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 회복의 하반기 ▶ 2Q26P 연결 매출액과 영업이익 각각 6.1조원(YoY +2.7%, QoQ +6.4%), 577억원(YoY -43.3%, QoQ +267.8%). 원재료비 부담이 2Q26까지 높은 수준으로 작용하면서 기대치 하회 ▶ 당 분기 별도 기준 영업이익은 111억원으로 QoQ 흑자전환에 성공. 연초 이후로 주요 철강재 가격 인상으로 판재류와 봉형강류 판매가격 각각 QoQ +3.7%, +5.9% 상승한 영향. 다만, 원재료비 부담으로 판재류 스프레드 5천원 수준 하락했으며 OPM은 0.2%로 아직까지는 낮은 수준 ▶ 3Q26E부터 실적 개선 전망. 매출액 영업이익 각각 5.9조원(YoY +3.3%, QoQ -3.0%), 1,296억원(YoY +39.0%, QoQ +124.6%) 추정. 자동차 강판과 조선용",
+              "date": "2026-08-03",
+              "source": "https://t.me/daolresearch/14761"
+            }
+          ],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14761,
+              "date": "2026-08-03",
+              "month": "2026-08",
+              "analyst": "이정우",
+              "sector": "철강",
+              "company": "현대제철",
+              "code": "004020",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "현대제철",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 46000,
+                  "display": "46,000원 (유지)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 회복의 하반기 ▶ 2Q26P 연결 매출액과 영업이익 각각 6.1조원(YoY +2.7%, QoQ +6.4%), 577억원(YoY -43.3%, QoQ +267.8%). 원재료비 부담이 2Q26까지 높은 수준으로 작용하면서 기대치 하회 ▶ 당 분기 별도 기준 영업이익은 111억원으로 QoQ 흑자전환에 성공. 연초 이후로 주요 철강재 가격 인상으로 판재류와 봉형강류 판매가격 각각 QoQ +3.7%, +5.9% 상승한 영향. 다만, 원재료비 부담으로 판재류 스프레드 5천원 수준 하락했으며 OPM은 0.2%로 아직까지는 낮은 수준 ▶ 3Q26E부터 실적 개선 전망. 매출액 영업이익 각각 5.9조원(YoY +3.3%, QoQ -3.0%), 1,296억원(YoY +39.0%, QoQ +124.6%) 추정. 자동차 강판과 조선용"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [
+                "현재 동사의 2026E PBR은 0.19배로 밴드 하단에 근접해 밸류에이션 부담은 제한적 * 보고서 원문 및 컴플라이언스 < https://buly.kr/FhQIJuT >"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/FhQIJuT",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FhQIJuT (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f89ff902150>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 회복의 하반기",
+              "summary": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 회복의 하반기 ▶ 2Q26P 연결 매출액과 영업이익 각각 6.1조원(YoY +2.7%, QoQ +6.4%), 577억원(YoY -43.3%, QoQ +267.8%). 원재료비 부담이 2Q26까지 높은 수준으로 작용하면서 기대치 하회 ▶ 당 분기 별도 기준 영업이익은 111억원으로 QoQ 흑자전환에 성공. 연초 이후로 주요 철강재 가격 인상으로 판재류와 봉형강류 판매가격 각각 QoQ +3.7%, +5.9% 상승한 영향. 다만, 원재료비 부담으로 판재류 스프레드 5천원 수준 하락했으며 OPM은 0.2%로 아직까지는 낮은 수준 ▶ 3Q26E부터 실적 개선 전망. 매출액 영업이익 각각 5.9조원(YoY +3.3%, QoQ -3.0%), 1,296억원(YoY +39.0%, QoQ +124.6%) 추정. 자동차 강판과 조선용 후판 가격 협상이 진행될 예정인데 원가 인상분을 아직 판가에 반영하지 못했던 점을 고려한다면 판가 인상 가능 판단. 철근은 유통가격 상승에도 불구하고 철 스크랩 가격 상승과 기존 저가의 장기계약 물량 영향으로 영업적자를 기록 중이나 개선 전망. 철 스크랩 수급 개선으로 가격은 점차 하락 중에 있으며 저가 계약 물량이 하반기부터 점진적으로 소진되며 봉형강류 판가 인상 효과도 추가적으로 반영 가능 판단 ▶ 투자의견 BUY, 적정주가 4.6만원 유지. 판가 인상과 더불어 데이터센터, 반도체 공장 증설 등 국내 판매물량 효과도 더해질 수 있는 여건이 마련. 현재 동사의 2026E PBR은 0.19배로 밴드 하단에 근접해 밸류에이션 부담은 제한적 * 보고서 원문 및 컴플라이언스 < https://buly.kr/FhQIJuT >",
+              "post_url": "https://t.me/daolresearch/14761",
+              "source_url": "https://buly.kr/FhQIJuT"
             }
           ]
         },
@@ -371,7 +660,7 @@
           ]
         }
       ],
-      "report_count": 6
+      "report_count": 12
     },
     {
       "month": "2026-07",

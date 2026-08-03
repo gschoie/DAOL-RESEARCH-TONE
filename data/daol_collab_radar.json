@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-03T15:41:11.509768+00:00",
+ "generated_at": "2026-08-03T23:50:12.870665+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1191,
+ "report_count": 1197,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27102,6 +27102,93 @@
    "title": "[한화에어로스페이스(012450)/BUY(유지)/TP 2,140,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화에어로스페이스(012450) : 종속사가 이끈 호조, 하반기는 지상방산이",
    "post_url": "https://t.me/daolresearch/14744",
    "source_url": "https://bit.ly/HA2Q26RE"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-08-03",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "미국의",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "1) 미국의 중국산 라이신 수입 감소 여부, 2) 미국 라이신 가격 상승 여부, 3) 중국 라이신 가격 하락 여부 - 잠정관세 부과를 기점으로 미국의 중국산 라이신 수입은 감소 (1-2월 2,600-2,800MT, 5월 518MT) 미국 라이신 가격은 실시간 확인이 어렵고, 중국 라이신 가격은 중동 사태 여파로 3-4월",
+    "미국의 중국산 라이신 대상 확정관세 판결 영향 전망"
+   ],
+   "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ 미국의 중국산 라이신 대상 확정관세 판결 영향 전망",
+   "post_url": "https://t.me/daolresearch/14757",
+   "source_url": "https://buly.kr/9iIWxrl"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-08-03",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "가격",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "롯데칠성 6월 말 평균 +5.3%, 농심 8/1일부터 평균 +5.8%, CJ제일제당 8/1일부터 평균 +8% 인상 진행 - 안정적인 현금 창출력, 해외 진출 확대로 업종 전반 주주환원 확대 중.",
+    "주주환원 측면에서는 KT&G, 오리온의 투자 매력도가 높음."
+   ],
+   "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ 가격 인상 국면 속 업종 대응 전략",
+   "post_url": "https://t.me/daolresearch/14758",
+   "source_url": "https://buly.kr/9BYG1RZ"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-08-03",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "현대위아",
+   "code": "011210",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "방산사업 매각으로 로보틱스/모빌리티 투자 가속화가 가능해질 수 있어, 그룹사의 로보틱스 사업 확대에 따른 수혜를 기대"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대위아(011210) - 하반기 회복을 논하기 좋은 위치",
+   "post_url": "https://t.me/daolresearch/14759",
+   "source_url": "https://buly.kr/HHf799n"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-08-03",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "판가 인상과 더불어 데이터센터, 반도체 공장 증설 등 국내 판매물량 효과도 더해질 수 있는 여건이 마련."
+   ],
+   "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 회복의 하반기",
+   "post_url": "https://t.me/daolresearch/14761",
+   "source_url": "https://buly.kr/FhQIJuT"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-08-03",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "자동차 강판과 조선용 후판 가격 협상이 진행될 예정인데 원가 인상분을 아직 판가에 반영하지 못했던 점을 고려한다면 판가 인상 가능 판단."
+   ],
+   "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 회복의 하반기",
+   "post_url": "https://t.me/daolresearch/14761",
+   "source_url": "https://buly.kr/FhQIJuT"
   }
  ],
  "cross_mentions": [
@@ -27904,63 +27991,77 @@
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 7.0
+   "burst": 6.8
   },
   {
    "term": "수익성이",
    "recent": 8,
    "total": 14,
    "sectors": 8,
-   "burst": 4.4
+   "burst": 4.3
   },
   {
    "term": "남미",
    "recent": 7,
    "total": 13,
    "sectors": 3,
-   "burst": 3.9
+   "burst": 3.8
   },
   {
    "term": "해협",
    "recent": 10,
    "total": 19,
    "sectors": 3,
-   "burst": 3.9
+   "burst": 3.8
   },
   {
    "term": "수율",
    "recent": 7,
    "total": 13,
    "sectors": 4,
-   "burst": 3.9
+   "burst": 3.8
   },
   {
    "term": "결과가",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.9
+   "burst": 3.8
   },
   {
    "term": "단일",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.9
+   "burst": 3.8
   },
   {
    "term": "점진적",
    "recent": 10,
    "total": 20,
    "sectors": 10,
-   "burst": 3.5
+   "burst": 3.4
   },
   {
    "term": "더해",
    "recent": 7,
    "total": 14,
    "sectors": 6,
-   "burst": 3.4
+   "burst": 3.3
+  },
+  {
+   "term": "멕시코",
+   "recent": 6,
+   "total": 12,
+   "sectors": 6,
+   "burst": 3.2
+  },
+  {
+   "term": "점차",
+   "recent": 8,
+   "total": 17,
+   "sectors": 7,
+   "burst": 3.0
   }
  ]
 }
