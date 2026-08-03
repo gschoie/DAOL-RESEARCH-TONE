@@ -335,7 +335,11 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
  }
  const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#3c6b58',fmt:v=>v})}</div></div>`;
  const indBtn=(!key.startsWith('IND:')&&entry.sector&&state.tone2?.companies?.['IND:'+entry.sector])?`<button type="button" class="tone-ck modal-ind" data-ck="IND:${esc(entry.sector)}" title="${esc(entry.sector)} 산업자료 톤·의견 보기">${esc(entry.sector)} 산업 뷰 →</button>`:'';
- $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}${key.startsWith('IND:')?'':streetPanel(entry)}<div class="drill-list">${timeline.slice().reverse().map(r=>drillReport(r,entry.street)).join('')}</div>`;
+ $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}${(()=>{const rev=timeline.slice().reverse();
+  const first=rev.length?`<div class="drill-list">${drillReport(rev[0],entry.street)}</div>`:'';
+  const street=key.startsWith('IND:')?'':streetPanel(entry);
+  const rest=rev.length>1?`<div class="drill-list">${rev.slice(1).map(r=>drillReport(r,entry.street)).join('')}</div>`:'';
+  return first+street+rest})()}`;
  $('#tone-modal').hidden=false;document.body.style.overflow='hidden'}
 function closeToneModal(){$('#tone-modal').hidden=true;document.body.style.overflow='';modalStack=[];currentModalKey=null}
 async function loadTone(){$('#tone-status').textContent='불러오는 중…';
