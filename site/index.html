@@ -53,6 +53,10 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-event u.up{color:#2e7d4f}.tone-event u.down{color:var(--red)}
 .tone-event q.evq{quotes:none;font-size:10.5px;max-width:34%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:1px 6px;border-radius:8px}
 .tone-event q.evq.up{color:#1f6b43;background:#eaf5ee}.tone-event q.evq.down{color:#a43c31;background:#f9ecea}
+.top-picks{border-left:4px solid #b8862d;background:#fdf7ea;padding:9px 12px;margin-bottom:10px}
+.top-picks b{display:block;font-size:11px;color:#7a5a15;letter-spacing:.05em;margin-bottom:4px}
+.top-picks b small{font-weight:400;color:#a08b56;font-size:10px}
+.top-picks p{margin:3px 0;font-size:12px;line-height:1.55}
 .cov-tp{max-height:150px;overflow-y:auto;border:1px solid #eef1ec}
 .cov-row{display:grid;grid-template-columns:1fr auto;gap:2px 10px;width:100%;border:0;border-bottom:1px solid #f0f3ee;background:#fff;text-align:left;padding:6px 9px;cursor:pointer;font-family:inherit;font-size:12px;align-items:center}
 .cov-row:hover{background:#f4f7f4}
@@ -132,6 +136,18 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .street-row em{font-style:italic;color:#3a5346;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;font-size:11px;font-weight:600}
 .street-row .st-points{flex-basis:100%;color:var(--muted);font-size:10.5px;line-height:1.5;padding-left:52px;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}
 .drill-list{margin-top:6px}
+.wk-bar{text-align:right;margin:6px 0 2px}
+.wk-bar button{border:1px solid var(--line);background:#f2f5f1;color:#45534c;border-radius:12px;padding:4px 11px;font-size:11px;cursor:pointer;font-family:inherit}
+.wk-bar button:hover{background:#e6ece6}
+.drill-weekly{border-top:1px solid #e8ece6}
+.drill-weekly>summary{cursor:pointer;list-style:none;display:flex;gap:9px;align-items:baseline;padding:9px 2px;font-size:12px}
+.drill-weekly>summary::-webkit-details-marker{display:none}
+.drill-weekly>summary::before{content:'▸';color:#8a938d;font-size:11px}
+.drill-weekly[open]>summary::before{content:'▾'}
+.drill-weekly>summary small{color:var(--muted);font-weight:700;white-space:nowrap}
+.drill-weekly>summary em{font-style:normal;font-size:10px;font-weight:700;color:#5b665f;background:#eef1ec;border-radius:9px;padding:1px 7px;white-space:nowrap}
+.drill-weekly>summary span{color:#45534c;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.drill-weekly .drill-report{border-top:0;padding-top:2px}
 .drill-report{border-top:1px solid #e8ece6;padding:13px 2px}
 .drill-head{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:5px}
 .drill-head small{color:var(--muted);font-weight:700}
@@ -328,19 +344,30 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
  const convPoints=timeline.filter(r=>r.conviction!=null).map(r=>({date:r.date,v:r.conviction,note:r.tone_label}));
  let leftPanel=`<div><h4>적정주가(TP) 추이</h4>${lineChart(tpPoints)}</div>`;
  if(key.startsWith('IND:')){
-  // 산업 모달: 산업자료엔 TP가 없으니 커버 종목들의 현재 TP·최근 변동을 보여준다.
+  // 산업 모달: 최선호주(가장 최근 명시) → 커버 종목 TP 현황 순으로 보여준다.
+  const pickRec=[...timeline].reverse().find(r=>(r.top_picks||[]).length);
+  const picks=pickRec?`<div class="top-picks"><b>최선호주 / TOP PICK <small>${mmdd(pickRec.date)} 자료 기준</small></b>${pickRec.top_picks.map(t=>`<p>${esc(t)}</p>`).join('')}</div>`:'';
   const comps=Object.values(state.tone2?.companies||{}).filter(c=>!c.key.startsWith('IND:')&&c.sector===entry.sector);
   const rows=comps.map(c=>{const t=[...c.timeline].reverse().find(r=>r.tp_event&&r.tp_event.value);return t?{c,r:t,tp:t.tp_event}:null}).filter(Boolean)
    .sort((a,b)=>b.r.date.localeCompare(a.r.date));
-  leftPanel=`<div><h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)">최근 변동순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
+  leftPanel=`<div>${picks}<h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)">최근 변동순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
  }
  const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#3c6b58',fmt:v=>v})}</div></div>`;
  const indBtn=(!key.startsWith('IND:')&&entry.sector&&state.tone2?.companies?.['IND:'+entry.sector])?`<button type="button" class="tone-ck modal-ind" data-ck="IND:${esc(entry.sector)}" title="${esc(entry.sector)} 산업자료 톤·의견 보기">${esc(entry.sector)} 산업 뷰 →</button>`:'';
  $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}${(()=>{const rev=timeline.slice().reverse();
-  const first=rev.length?`<div class="drill-list">${drillReport(rev[0],entry.street)}</div>`:'';
+  // 산업 모달(전략·시황 제외)의 위클리는 접이식 — 최신 1건만 펼침
+  const collapsible=key.startsWith('IND:')&&entry.sector!=='전략·시황';
+  const isWk=r=>/Weekly|위클리|주간\s*(모니터링|동향)/i.test(r.title||'');
+  const renderRec=r=>{
+   if(collapsible&&isWk(r)){
+    // 산업 모달의 기본은 인뎁스·산업분석 중심 — 위클리는 전부 접힌 상태로 시작
+    return `<details class="drill-weekly"><summary><small>${mmdd(r.date)}</small><em>위클리</em>${r.conviction!=null?convDots(r.conviction):''}<span>${esc((r.one_line||r.title||'').slice(0,64))}</span></summary>${drillReport(r,entry.street)}</details>`}
+   return drillReport(r,entry.street)};
+  const wkBar=collapsible&&rev.some(isWk)?`<div class="wk-bar"><button type="button" id="wk-toggle">위클리 모두 접기 / 펼치기</button></div>`:'';
+  const first=rev.length?`<div class="drill-list">${renderRec(rev[0])}</div>`:'';
   const street=key.startsWith('IND:')?'':streetPanel(entry);
-  const rest=rev.length>1?`<div class="drill-list">${rev.slice(1).map(r=>drillReport(r,entry.street)).join('')}</div>`:'';
-  return first+street+rest})()}`;
+  const rest=rev.length>1?`<div class="drill-list">${rev.slice(1).map(renderRec).join('')}</div>`:'';
+  return wkBar+first+street+rest})()}`;
  $('#tone-modal').hidden=false;document.body.style.overflow='hidden'}
 function closeToneModal(){$('#tone-modal').hidden=true;document.body.style.overflow='';modalStack=[];currentModalKey=null}
 async function loadTone(){$('#tone-status').textContent='불러오는 중…';
@@ -357,7 +384,9 @@ $('#street-lookup-btn').onclick=openStreetLookup;
 $('#tone-modal-close').addEventListener('click',closeToneModal);
 $('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#tone-modal').hidden)closeToneModal()});
-document.addEventListener('click',e=>{if(e.target.closest('#tone-modal-back')){const k=modalStack.pop();if(k)openToneCompany(k,true);return}
+document.addEventListener('click',e=>{
+ if(e.target.closest('#wk-toggle')){const ds=[...document.querySelectorAll('#tone-modal-body details.drill-weekly')];const anyOpen=ds.some(d=>d.open);ds.forEach(d=>d.open=!anyOpen);return}
+ if(e.target.closest('#tone-modal-back')){const k=modalStack.pop();if(k)openToneCompany(k,true);return}
  const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck){openToneCompany(t.dataset.ck);return}
  if(e.target.closest('#th-sector')){if(state.rowSort){state.rowSort=null}else{state.sectorSort={recent:'asc',asc:'desc',desc:'recent'}[state.sectorSort]}renderTone();return}
  const th=e.target.closest('#th-analyst,#th-opinion,#th-tone');

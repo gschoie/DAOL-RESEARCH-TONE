@@ -218,6 +218,18 @@ def est_compare(estimates, consensus):
     return out or None
 
 
+PICK_TAIL_RE = re.compile(r'\s*(?:[*※].*|보고서\s*원문.*|Compliance.*)$', re.I)
+
+
+def clean_top_pick(x):
+    """최선호주 문장 정리 — 컴플라이언스 꼬리·선두 페이지번호 제거, 표 행 쓰레기는 버림."""
+    x = PICK_TAIL_RE.sub('', str(x))
+    x = re.sub(r'^\d{1,3}\s+', '', x).strip()
+    if not x: return None
+    if len(re.findall(r'\d[\d,.]{2,}', x)) >= 4: return None  # 숫자 나열 = PDF 표 행
+    return x[:160]
+
+
 def merge_report(report, ai_entry):
     """v1 정규식 리포트 + AI 분석을 화면용 단일 레코드로 합친다."""
     ai = (ai_entry or {}).get('result')
@@ -235,7 +247,7 @@ def merge_report(report, ai_entry):
     #  ① 꼬리 "…]/다올 건설·부동산 박영도"  ② 대괄호 안 "｜다올 금융 김지원 ☎…"
     #  ③ 선두 "[다올투자증권 반도체 고영민]" (단, ｜로 주제가 이어지는 콜라보 헤더는 유지)
     title = report.get('title') or ''
-    title = re.sub(r'\s*/\s*다올.*$', '', title)
+    title = re.sub(r'\s*/\s*다올[^\]★]*', '', title)
     title = re.sub(r'\s*[｜|]\s*다올[^\]｜|]*', '', title)
     title = re.sub(r'^\[다올(?:투자증권)?[^\]｜|]*\]\s*', '', title)
     title = re.sub(r'\s+', ' ', title).strip()
@@ -248,6 +260,7 @@ def merge_report(report, ai_entry):
         'pdf_url': report.get('pdf_url') or report.get('source_url') or '',
         # 위클리/주간 모니터링 포맷은 산업의견을 적지 않는다 — AI 추측('중립')도, 본문 잡단어를 잡은
         # 정규식 값도 쓰지 않고 항상 비운다. 표의 산업의견은 최근 '의견 명시' 산업자료 것이 유지된다.
+        'top_picks': [c for c in (clean_top_pick(x) for x in (report.get('preferred_stocks') or report.get('top_picks') or [])) if c][:4],
         'opinion': '' if re.search(r'Weekly|위클리|주간\s*(모니터링|동향)', report.get('title') or '', re.I)
                    else ((ai and ai['opinion'] not in ('', '없음') and ai['opinion']) or report.get('opinion') or ''),
         'ai': bool(ai),
