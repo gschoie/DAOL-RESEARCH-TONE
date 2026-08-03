@@ -361,7 +361,7 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
   const renderRec=r=>{
    if(collapsible&&isWk(r)){
     // 산업 모달의 기본은 인뎁스·산업분석 중심 — 위클리는 전부 접힌 상태로 시작
-    return `<details class="drill-weekly"><summary><small>${mmdd(r.date)}</small><em>위클리</em>${r.conviction!=null?convDots(r.conviction):''}<span>${esc((r.one_line||r.title||'').slice(0,64))}</span></summary>${drillReport(r,entry.street)}</details>`}
+    return `<details class="drill-weekly"><summary><small>${mmdd(r.date)}</small><em>위클리</em>${r.conviction!=null?convDots(r.conviction):''}<span>${esc((((r.title||'').replace(/^\[[^\]]*\]\s*/,''))||r.one_line||'').slice(0,64))}</span></summary>${drillReport(r,entry.street)}</details>`}
    return drillReport(r,entry.street)};
   const wkBar=collapsible&&rev.some(isWk)?`<div class="wk-bar"><button type="button" id="wk-toggle">위클리 모두 접기 / 펼치기</button></div>`:'';
   const first=rev.length?`<div class="drill-list">${renderRec(rev[0])}</div>`:'';
