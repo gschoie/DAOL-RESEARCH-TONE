@@ -113,15 +113,15 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .drill-charts h4{margin:0 0 8px;font-size:11px;color:#5b665f;letter-spacing:.05em}
 .tone-chart{width:100%;height:auto}
 .tone-chart .ax{font-size:15px;fill:#5b665f;font-weight:600}
-.street{margin:14px 0;border:1px solid var(--line);padding:12px 14px;background:#fbfcfa}
-.street h4{margin:0 0 7px;font-size:11px;color:#5b665f;letter-spacing:.05em}
-.street h4 small{font-weight:400;color:var(--muted)}
+.street{margin:14px 0;border:1px solid #b9cde0;border-left:4px solid #3d6c9e;padding:12px 14px;background:#f3f7fc}
+.street h4{margin:0 0 7px;font-size:12.5px;color:#2d5480;letter-spacing:.04em;font-weight:700}
+.street h4 small{font-weight:400;color:#7a8ba0;font-size:10.5px}
 .street-stat{font-size:12px;margin-bottom:8px}
 .street-stat u{text-decoration:none;font-weight:700;padding:1px 7px;border-radius:9px;font-size:11px}
 .street-stat u.up{color:#1f6b43;background:#eaf5ee}.street-stat u.down{color:#a43c31;background:#f9ecea}
-.street-list{max-height:170px;overflow-y:auto;border-top:1px solid #eef1ec}
-.street-row{display:flex;gap:9px;align-items:baseline;padding:6px 4px;border-bottom:1px solid #f0f3ee;font-size:12px;text-decoration:none;color:inherit}
-.street-row:hover{background:#f2f6f2}
+.street-list{max-height:190px;overflow-y:auto;border-top:1px solid #d9e4f0}
+.street-row{display:flex;gap:9px;align-items:baseline;padding:6px 4px;border-bottom:1px solid #e4edf6;font-size:12px;text-decoration:none;color:inherit}
+.street-row:hover{background:#e9f1f9}
 .street-row small{color:var(--muted);white-space:nowrap}
 .street-row b{white-space:nowrap;min-width:64px}
 .street-row .st-tp{font-weight:700;white-space:nowrap}
@@ -268,7 +268,7 @@ function streetRow(e){const tp=e.tp_old?`${fmtNum(e.tp_old)} → ${fmtNum(e.tp_n
 밸류: ${esc(e.val_methods.join(' / '))}`:''}"><small>${mmdd(e.date)}</small><b>${esc(e.brokerage)}</b><span class="st-tp ${cls}">${e.direction==='상향'?'▲':e.direction==='하향'?'▼':'●'} ${tp}</span><i>${esc(e.opinion)}</i><em>${esc(e.quote||'')}</em>${(e.points||[]).length?`<span class="st-points">${e.points.map(esc).join('  ·  ')}</span>`:''}</a>`}
 function streetPanel(entry){const st=entry.street;if(!st||!st.items?.length)return '';
  const s=st.stats;const stat=s?`<div class="street-stat">타사 TP <b>${fmtNum(s.low)}~${fmtNum(s.high)}원</b> · 중앙 ${fmtNum(s.median)}원${s.daol?` · 다올 <b>${fmtNum(s.daol)}원</b>${s.daol_pct!=null?` <u class="${s.daol_pct>=50?'up':'down'}">타사 대비 상위 ${100-s.daol_pct}%</u>`:''}`:''} <small>(n=${s.n})</small></div>`:'';
- return `<div class="street"><h4>타사 리서치 비교 <small>한경 에이셀 · 최근 60일 · ${st.items.length}건</small></h4>${stat}<div class="street-list">${st.items.map(streetRow).join('')}</div></div>`}
+ return `<div class="street"><h4>타사 리서치 비교 <small>최근 60일 · ${st.items.length}건</small></h4>${stat}<div class="street-list">${st.items.map(streetRow).join('')}</div></div>`}
 function streetConflicts(r,street){if(!r.tp_event||!['상향','하향'].includes(r.tp_event.direction)||!street?.items)return '';
  const near=street.items.filter(e=>Math.abs(new Date(e.date)-new Date(r.date))<=7*864e5&&['상향','하향'].includes(e.direction));
  const opp=near.filter(e=>e.direction!==r.tp_event.direction);
