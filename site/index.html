@@ -19,6 +19,13 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-toolbar input,.tone-toolbar select{width:100%;border:1px solid #cfd6d0;border-radius:6px;background:#fff;padding:9px 11px;color:var(--ink);font-size:13px}
 .tone-toolbar button{border:0;border-radius:6px;background:var(--green);color:#fff;padding:10px 16px;cursor:pointer}
 .tone-toolbar span{font-size:11px;color:var(--muted);white-space:nowrap}
+#street-lookup-btn{background:#3d6c9e}
+.lookup-input{width:100%;border:1px solid #cfd6d0;border-radius:8px;padding:12px 14px;font-size:15px;margin:12px 0;font-family:inherit}
+.lookup-input:focus{outline:0;border-color:#3d6c9e}
+.lookup-company{border:1px solid var(--line);margin-bottom:12px;background:#fff}
+.lookup-head{display:flex;gap:10px;align-items:center;padding:9px 12px;background:#f2f5f8;border-bottom:1px solid var(--line)}
+.lookup-head b{font-size:14px}
+.lookup-head small{color:var(--muted);flex:1}
 .tone-empty{color:var(--muted);font-size:12px}
 .tone-loading{background:#fff;border:1px solid var(--line);padding:40px;text-align:center;color:var(--muted)}
 .tone-event-wrap{background:#fff;border:1px solid var(--line);margin-bottom:14px}
@@ -175,6 +182,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
     <select id="tone-sector"><option value="">전체 섹터</option></select>
     <select id="tone-analyst"><option value="">전체 애널리스트</option></select>
     <button id="tone-refresh" type="button">새로고침</button>
+    <button id="street-lookup-btn" type="button" title="다올 커버 여부와 무관하게, 한경 에이셀에 취합된 전시장 리포트를 종목명으로 조회">🔍 전시장 조회</button>
     <span id="tone-status">불러오는 중…</span>
   </div>
   <div id="tone-events"></div>
@@ -272,6 +280,40 @@ function drillReport(r,street){const tp=r.tp_event?`<div class="drill-tp ${r.tp_
  const points=(r.points||[]).map(p=>{const added=(r.points_added||[]).includes(p);return `<span class="pt-chip${added?' new':''}">${added?'＋':''}${esc(p)}</span>`}).join('')+(r.points_dropped||[]).map(p=>`<span class="pt-chip dropped">－${esc(p)}</span>`).join('');
  const phrases=r.ai&&(r.strong_phrases?.length||r.hedge_phrases?.length||r.negative_phrases?.length)?`<details class="phrase-details"><summary>근거 문구 보기</summary>${phraseBlock('강한 문구',r.strong_phrases,'ph-strong')}${phraseBlock('헤징 문구',r.hedge_phrases,'ph-hedge')}${phraseBlock('부정 문구',r.negative_phrases,'ph-neg')}</details>`:'';
  return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:r.bundled?'<span class="mini-badge" title="산업 인뎁스 자료의 종목 페이지에서 추출한 TP">인뎁스 수록</span>':'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}${streetConflicts(r,street)}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}<div class="drill-foot">${phrases||'<span></span>'}<a class="drill-report-link" href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
+let kedAll=null;
+async function loadKedAll(){if(kedAll)return kedAll;
+ try{const r=await fetch(`ked_street.json?t=${Date.now()}`,{cache:'no-store'});if(r.ok)kedAll=await r.json()}catch{}
+ return kedAll||[]}
+function kedStats(items){const tps=items.map(e=>e.tp_new).filter(Boolean).sort((a,b)=>a-b);
+ if(!tps.length)return '';
+ return `타사 TP ${fmtNum(tps[0])}~${fmtNum(tps[tps.length-1])}원 · 중앙 ${fmtNum(tps[Math.floor(tps.length/2)])}원 (n=${items.length})`}
+function renderStreetLookup(q){const box=$('#street-lookup-results');if(!box)return;
+ const query=(q||'').trim().toLocaleLowerCase().replace(/\s+/g,'');
+ if(query.length<1){box.innerHTML='<div class="tone-empty" style="padding:14px">종목명을 입력하세요 — 다올 커버 여부와 무관하게 최근 120일 전시장 리포트를 조회합니다.</div>';return}
+ const byCompany=new Map();
+ for(const e of (kedAll||[])){const k=e.company.toLocaleLowerCase().replace(/\s+/g,'');
+  if(!k.includes(query))continue;
+  if(!byCompany.has(e.company))byCompany.set(e.company,[]);
+  byCompany.get(e.company).push(e)}
+ if(!byCompany.size){box.innerHTML='<div class="tone-empty" style="padding:14px">에이셀 수집분(120일)에 해당 종목 리포트가 없습니다.</div>';return}
+ let html='';let shown=0;
+ for(const [name,items] of [...byCompany.entries()].sort((a,b)=>b[1].length-a[1].length)){
+  if(++shown>20)break;
+  items.sort((a,b)=>b.date.localeCompare(a.date));
+  // 다올 커버 종목이면 드릴다운으로 연결
+  const daol=Object.values(state.tone2?.companies||{}).find(c=>!c.key.startsWith('IND:')&&c.name===name);
+  html+=`<div class="lookup-company"><div class="lookup-head"><b>${esc(name)}</b><small>${kedStats(items)}</small>${daol?`<button type="button" class="tone-ck company-mini" data-ck="${esc(daol.key)}">다올 뷰 →</button>`:''}</div>${items.slice(0,6).map(streetRow).join('')}</div>`}
+ box.innerHTML=html}
+async function openStreetLookup(){
+ $('#tone-modal-body').innerHTML=`<header class="drill-header"><h3>전시장 종목 조회 <small>한경 에이셀 · 최근 120일</small></h3></header>
+  <input id="street-lookup-input" class="lookup-input" placeholder="종목명 입력 (예: 대덕전자, 한온시스템…)" autocomplete="off">
+  <div id="street-lookup-results"><div class="tone-empty" style="padding:14px">데이터 로딩 중…</div></div>`;
+ $('#tone-modal').hidden=false;document.body.style.overflow='hidden';
+ modalStack=[];currentModalKey='__lookup__';
+ await loadKedAll();
+ renderStreetLookup($('#street-lookup-input').value);
+ const inp=$('#street-lookup-input');inp.focus();
+ inp.oninput=e=>renderStreetLookup(e.target.value)}
 let modalStack=[],currentModalKey=null;
 function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?.[key];if(!entry)return;
  if(!fromBack&&currentModalKey&&currentModalKey!==key)modalStack.push(currentModalKey);
@@ -306,6 +348,7 @@ $('#tone-search').oninput=e=>{state.toneQ=e.target.value;renderTone()};
 $('#tone-sector').onchange=e=>{state.toneSector=e.target.value;renderTone()};
 $('#tone-analyst').onchange=e=>{state.toneAnalyst=e.target.value;renderTone()};
 $('#tone-refresh').onclick=loadTone;
+$('#street-lookup-btn').onclick=openStreetLookup;
 $('#tone-modal-close').addEventListener('click',closeToneModal);
 $('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#tone-modal').hidden)closeToneModal()});
