@@ -39,6 +39,15 @@ def pdf_text(source_url, cache):
                     if '적정주가' in alt or len(alt)>len(text):text=alt
                 except Exception:pass
             text=re.sub(r'[ \t]+',' ',text);text=re.sub(r'\n{3,}','\n\n',text).strip()
+            # 완전 이미지형 PDF는 표지 1페이지만 OCR해 TP 박스라도 확보한다(tesseract-kor 있을 때만).
+            if len(text)<300:
+                try:
+                    import pypdfium2 as _pdfium2;import pytesseract as _tess
+                    _pg=_pdfium2.PdfDocument(r.content)[0]
+                    _ocr=_tess.image_to_string(_pg.render(scale=300/72).to_pil(),lang='kor+eng')
+                    _ocr=re.sub(r'[ \t]+',' ',_ocr).strip()
+                    if len(_ocr)>=120:text=_ocr+'\n[OCR표지]'
+                except Exception:pass
             if len(text)<300:raise ValueError('PDF text is empty or scanned')
             result={'status':'pdf','final_url':r.url,'text':text,'error':''};break
         except ValueError as e:

@@ -35,7 +35,10 @@ jobs:
           python-version: "3.12"
 
       - name: Python 패키지 준비
-        run: python -m pip install requests beautifulsoup4 lxml pypdf pypdfium2
+        run: |
+          python -m pip install requests beautifulsoup4 lxml pypdf pypdfium2 pytesseract
+          # 이미지형 PDF 표지의 적정주가 박스를 읽기 위한 OCR
+          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
 
       - name: 텔레그램 수집 + 정규식 1차 추출
         run: python build_daol_tone_dashboard.py --refresh
