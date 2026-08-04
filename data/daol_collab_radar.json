@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-04T22:37:04.010552+00:00",
+ "generated_at": "2026-08-04T23:06:05.478851+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1200,
+ "report_count": 1204,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27207,6 +27207,58 @@
    "title": "[의료기기(Overweight)/ 다올 박종현] ★ SPOT: VBP is back",
    "post_url": "https://t.me/daolresearch/14769",
    "source_url": "https://buly.kr/1y1CAE8"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-04",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "디어유",
+   "code": "376300",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "글로벌 버블 구독자 수 감소에도 불구 환율 효과로 매출 감소폭 상쇄."
+   ],
+   "title": "[디어유(376300) | 다올 엔터 임도영] ★ 단기는 북미 사업 규모, 장기는 중국 구독자 수 증가 속도가 관건",
+   "post_url": "https://t.me/daolresearch/14776",
+   "source_url": "https://buly.kr/4Fv2vYX"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-08-04",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "디어유",
+   "code": "376300",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "QQ뮤직 입점 IP는 총 480명(K-POP 351, C-POP 중국 90, 홍콩 39)으로 중국 중심의 입점 IP 수 확대, 구독자 수 증가도 지속"
+   ],
+   "title": "[디어유(376300) | 다올 엔터 임도영] ★ 단기는 북미 사업 규모, 장기는 중국 구독자 수 증가 속도가 관건",
+   "post_url": "https://t.me/daolresearch/14776",
+   "source_url": "https://buly.kr/4Fv2vYX"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-08-04",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "이비덴",
+   "code": "",
+   "direction": "수혜",
+   "score": 11,
+   "evidences": [
+    "가이던스 대폭 상향의 배경과 함의 - FY26 Electronics 매출액 가이던스는 3,300억엔에서 3,750억엔으로 14% 상향 / 영업이익은 750억엔에서 1,100억엔으로 47% 상향 → 추가 매출 450억엔 중 350억엔이 영업이익으로 연결 - 상향 배경은 ① AI 서버 및 범용 서버용 제품 수요 지속, ② Switch IC용 제품 수요 확대, ③ 고부가 제품의 높은 판가 유지, ④ 높은 가동률 지속 - 이익 상향폭",
+    "FY1Q26, Electronics OPM 27.6% 기록 - 전사 매출액 1,232억엔(+26% YoY), 영업이익 269억엔(+52%), OPM 21.8%로 OP 컨센서스 상회 - Electronics(기판) 매출액 775억엔(+38%), 영업이익 214억엔(+52%), OPM 27.6% 기록 - AI 서버용 고부가 제품 수요가 견조한 가운데 범용 서버 수요도 당초 예상을 상회 - Ono 공장 생산 안정화와 기존 CAPA의"
+   ],
+   "title": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ 이비덴 FY1Q26 실적 Comment",
+   "post_url": "https://t.me/daolresearch/14779",
+   "source_url": "https://buly.kr/EdvknlQ"
   }
  ],
  "cross_mentions": [
@@ -28009,49 +28061,63 @@
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 6.8
+   "burst": 6.7
+  },
+  {
+   "term": "CPU",
+   "recent": 6,
+   "total": 9,
+   "sectors": 3,
+   "burst": 5.6
   },
   {
    "term": "수익성이",
-   "recent": 8,
-   "total": 14,
+   "recent": 9,
+   "total": 15,
    "sectors": 8,
-   "burst": 4.3
+   "burst": 4.8
+  },
+  {
+   "term": "테이블",
+   "recent": 6,
+   "total": 10,
+   "sectors": 3,
+   "burst": 4.5
   },
   {
    "term": "남미",
    "recent": 7,
    "total": 13,
    "sectors": 3,
-   "burst": 3.8
+   "burst": 3.7
   },
   {
    "term": "해협",
    "recent": 10,
    "total": 19,
    "sectors": 3,
-   "burst": 3.8
+   "burst": 3.7
   },
   {
    "term": "수율",
    "recent": 7,
    "total": 13,
    "sectors": 4,
-   "burst": 3.8
+   "burst": 3.7
   },
   {
    "term": "결과가",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.8
+   "burst": 3.7
   },
   {
    "term": "단일",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.8
+   "burst": 3.7
   },
   {
    "term": "점진적",
@@ -28068,18 +28134,18 @@
    "burst": 3.3
   },
   {
+   "term": "고부가",
+   "recent": 6,
+   "total": 12,
+   "sectors": 3,
+   "burst": 3.2
+  },
+  {
    "term": "멕시코",
    "recent": 6,
    "total": 12,
    "sectors": 6,
    "burst": 3.2
-  },
-  {
-   "term": "점차",
-   "recent": 8,
-   "total": 17,
-   "sectors": 7,
-   "burst": 3.0
   }
  ]
 }

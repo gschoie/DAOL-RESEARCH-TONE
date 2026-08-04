@@ -1,20 +1,80 @@
 {
-  "generated_at": "2026-08-04T22:35:04.523519+00:00",
+  "generated_at": "2026-08-04T23:03:48.418984+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1200,
+  "report_count": 1204,
   "months": [
     {
       "month": "2026-08",
       "analysts": [
         {
+          "analyst": "고영민",
+          "sectors": [
+            "반도체/소부장"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14778"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14778,
+              "date": "2026-08-04",
+              "month": "2026-08",
+              "analyst": "고영민",
+              "sector": "반도체/소부장",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "하반기 업종 주가는 박스권 트레이딩이 필요하다 판단 됩니다. 다만, 박스권 전망의 배경에 업황에 대한 불확실성, 의구심 등은 전혀 없다는 점을 강조 합니다. 박스권 하던(저점)을 확인한 가운데, 8월 전반부는 박스권 상단 레벨을 테스트하는 반등 랠리가 나타날 것 으로 예상합니다. 현 가격에서는 걱정 없는 비중확대 전략이 유효한 구간입니다.",
+              "industry_conclusion": "하반기 업종 주가는 박스권 트레이딩이 필요하다 판단 됩니다. 다만, 박스권 전망의 배경에 업황에 대한 불확실성, 의구심 등은 전혀 없다는 점을 강조 합니다. 박스권 하던(저점)을 확인한 가운데, 8월 전반부는 박스권 상단 레벨을 테스트하는 반등 랠리가 나타날 것 으로 예상합니다. 현 가격에서는 걱정 없는 비중확대 전략이 유효한 구간입니다.",
+              "report_conclusion": "하반기 업종 주가는 박스권 트레이딩이 필요하다 판단 됩니다. 다만, 박스권 전망의 배경에 업황에 대한 불확실성, 의구심 등은 전혀 없다는 점을 강조 합니다. 박스권 하던(저점)을 확인한 가운데, 8월 전반부는 박스권 상단 레벨을 테스트하는 반등 랠리가 나타날 것 으로 예상합니다. 현 가격에서는 걱정 없는 비중확대 전략이 유효한 구간입니다.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/7x8xWnP",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /7x8xWnP (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f2b59cf1fa0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[다올투자증권 반도체/소부장 고영민] 반도체(8월 전략) - 박스권 상단 레벨 테스트",
+              "summary": "[다올투자증권 반도체/소부장 고영민] 반도체(8월 전략) - 박스권 상단 레벨 테스트 ☑️ 8월 전반부 매크로 Free, 바텀업 환기 구간 ☑️ 박스권 상단 산출 → 삼성전자 26.9~28.5만원, SK하이닉스 172~212만원 ☑️ 하단에서는 걱정 없는 비중확대 💡 핵심 주제 & 아이디어 요약 \" 하반기 업종 주가는 박스권 트레이딩이 필요하다 판단 됩니다. 다만, 박스권 전망의 배경에 업황에 대한 불확실성, 의구심 등은 전혀 없다는 점을 강조 합니다. 박스권 하던(저점)을 확인한 가운데, 8월 전반부는 박스권 상단 레벨을 테스트하는 반등 랠리가 나타날 것 으로 예상합니다. 현 가격에서는 걱정 없는 비중확대 전략이 유효한 구간입니다.\" ▶️ 2H24 vs 2H26, 단순 비교지만 최소 30% 반등은 충분히 - 금번 AI Cycle 중 현재와 같이 '업황 펀더멘털 훼손 없이 업황 외 복합적 요인으로 급격한 주가 변동성을 야기' 한 가장 유사한 지점은 24년 하반기 - 24년 하반기 3차례 하락 구간 형성 ① 1차 구간: 7/11~8/5, 25일간 고점 대비 35% 낙폭 기록 후 11일간 28% 반등 ② 2차 구간: 8/20~9/19, 34일간 고점대비 23% 낙폭 기록 후 8일간 20% 반등 ③ 3차 구간: 11/8~12/7, 24일간 고점대비 21% 낙폭 기록 후 15일간 16% 반등 - 24년 1차/2차/3차 구간의 공통점은 단기 반등 과정에서 저점-고점 중간값 소폭 상회 수준으로 되돌림 - 26년 현재, 6/22~7/30, 38일간 약 50% 수준 낙폭 기록(24년 1차 구간 대비 기간은 3주 가량 빨라졌고 낙폭은 더 크게 발생) - 24년 1차 구간과 현재 구간을 비교했을 때, 대형주 반등 시나리오는 저점대비 최소 30%, 최대 중간값 수준으로 반등 가능 → 삼성전자: 26.9~",
+              "post_url": "https://t.me/daolresearch/14778",
+              "source_url": "https://buly.kr/7x8xWnP"
+            }
+          ]
+        },
+        {
           "analyst": "김연미",
           "sectors": [
             "전기전자"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14779"
+            }
+          ],
+          "top_picks": [
+            {
+              "text": "▶ 투자전략 - 이비덴의 가이던스 상향은 고사양 FC-BGA 수요가 AI 가속기뿐 아니라 범용 서버 CPU와 Switch IC까지 확산되고 있음을 재확인 - 국내 업체 역시 고사양 제품 비중 확대와 가동률 상승에 따른 수익성 개선이 본격화될 전망 - 삼성전기 최선호주 / 대덕전자, LG이노텍 차선호주 의견 유지 *보고서 원문 및 컴플라이언스: https://buly.kr/EdvknlQ",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14779"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
               "company": "대덕전자",
@@ -31,8 +91,41 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 14779,
+              "date": "2026-08-04",
+              "month": "2026-08",
+              "analyst": "김연미",
+              "sector": "전기전자",
+              "company": "이비덴",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [
+                "▶ 투자전략 - 이비덴의 가이던스 상향은 고사양 FC-BGA 수요가 AI 가속기뿐 아니라 범용 서버 CPU와 Switch IC까지 확산되고 있음을 재확인 - 국내 업체 역시 고사양 제품 비중 확대와 가동률 상승에 따른 수익성 개선이 본격화될 전망 - 삼성전기 최선호주 / 대덕전자, LG이노텍 차선호주 의견 유지 *보고서 원문 및 컴플라이언스: https://buly.kr/EdvknlQ"
+              ],
+              "preferred_stocks": [
+                "▶ 투자전략 - 이비덴의 가이던스 상향은 고사양 FC-BGA 수요가 AI 가속기뿐 아니라 범용 서버 CPU와 Switch IC까지 확산되고 있음을 재확인 - 국내 업체 역시 고사양 제품 비중 확대와 가동률 상승에 따른 수익성 개선이 본격화될 전망 - 삼성전기 최선호주 / 대덕전자, LG이노텍 차선호주 의견 유지 *보고서 원문 및 컴플라이언스: https://buly.kr/EdvknlQ"
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 투자전략 - 이비덴의 가이던스 상향은 고사양 FC-BGA 수요가 AI 가속기뿐 아니라 범용 서버 CPU와 Switch IC까지 확산되고 있음을 재확인 - 국내 업체 역시 고사양 제품 비중 확대와 가동률 상승에 따른 수익성 개선이 본격화될 전망 - 삼성전기 최선호주 / 대덕전자, LG이노텍 차선호주 의견 유지 *보고서 원문 및 컴플라이언스: https://buly.kr/EdvknlQ",
+              "report_conclusion": "▶ 투자전략 - 이비덴의 가이던스 상향은 고사양 FC-BGA 수요가 AI 가속기뿐 아니라 범용 서버 CPU와 Switch IC까지 확산되고 있음을 재확인 - 국내 업체 역시 고사양 제품 비중 확대와 가동률 상승에 따른 수익성 개선이 본격화될 전망 - 삼성전기 최선호주 / 대덕전자, LG이노텍 차선호주 의견 유지 *보고서 원문 및 컴플라이언스: https://buly.kr/EdvknlQ",
+              "valuation": [],
+              "earnings_changes": [
+                "▶ 가이던스 대폭 상향의 배경과 함의 - FY26 Electronics 매출액 가이던스는 3,300억엔에서 3,750억엔으로 14% 상향 / 영업이익은 750억엔에서 1,100억엔으로 47% 상향 → 추가 매출 450억엔 중 350억엔이 영업이익으로 연결 - 상향 배경은 ① AI 서버 및 범용 서버용 제품 수요 지속, ② Switch IC용 제품 수요 확대, ③ 고부가 제품의 높은 판가 유지, ④ 높은 가동률 지속 - 이익 상향폭이 압도적으로 크다는 점에서 FC-BGA 공급사의 가격 결정력이 손익에 본격 반영되기 시작한 것으로 판단"
+              ],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/EdvknlQ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /EdvknlQ (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f2b59cf2bd0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ 이비덴 FY1Q26 실적 Comment",
+              "summary": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ 이비덴 FY1Q26 실적 Comment ▶ FY1Q26, Electronics OPM 27.6% 기록 - 전사 매출액 1,232억엔(+26% YoY), 영업이익 269억엔(+52%), OPM 21.8%로 OP 컨센서스 상회 - Electronics(기판) 매출액 775억엔(+38%), 영업이익 214억엔(+52%), OPM 27.6% 기록 - AI 서버용 고부가 제품 수요가 견조한 가운데 범용 서버 수요도 당초 예상을 상회 - Ono 공장 생산 안정화와 기존 CAPA의 효율적 활용으로 출하량이 계획을 웃돌았으며, 고부가 제품 중심의 높은 판가와 엔화 약세도 실적에 기여 ▶ 가이던스 대폭 상향의 배경과 함의 - FY26 Electronics 매출액 가이던스는 3,300억엔에서 3,750억엔으로 14% 상향 / 영업이익은 750억엔에서 1,100억엔으로 47% 상향 → 추가 매출 450억엔 중 350억엔이 영업이익으로 연결 - 상향 배경은 ① AI 서버 및 범용 서버용 제품 수요 지속, ② Switch IC용 제품 수요 확대, ③ 고부가 제품의 높은 판가 유지, ④ 높은 가동률 지속 - 이익 상향폭이 압도적으로 크다는 점에서 FC-BGA 공급사의 가격 결정력이 손익에 본격 반영되기 시작한 것으로 판단 ▶ 내년 OPM 목표, 1분기 만에 올해로 앞당겨져 - FY26 Electronics OPM 가이던스는 29.3%로, 지난 5월 제시했던 FY27 OPM 목표 28.9%를 1년 앞당겨 상회 - FY1Q26 OPM은 27.6%로, 연간 가이던스 달성을 위해서는 남은 3개 분기 평균 약 29.8%의 OPM이 필요 → 1분기 호실적에 그치지 않고 연중 30%에 가까운 수익성이 지속될 전망 - 중장기 목표인 FY30 OPM 35%",
+              "post_url": "https://t.me/daolresearch/14779",
+              "source_url": "https://buly.kr/EdvknlQ"
+            },
             {
               "id": 14745,
               "date": "2026-08-02",
@@ -118,6 +211,56 @@
               "summary": "[삼성증권(016360)/BUY/TP 170,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 그래도 방어력이 있는 종목 ▶ 2Q26 Review. 연결 순이익 4,882억원(YoY+108.1%)으로, 컨센서스와 당사 추정치 소폭 하회 ▶ 괴리 이유는 성과급 추정되는 인건비 큰 폭 증가. 7월 일평균 거래대금까지 반영해 연간 전망치 하향 ▶ 그러나 경쟁사 대비 방어력 있다고 평가. 동사 핵심 고객층 기반 Brokerage 및 IB 연계 가능성 잠재 ▶ 배당 측면에서도 방어력 있음. 최근 주가 조정 시 업종 내 비교적 높은 배당수익률 부각 구간 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/FAg1jWl > ▶ 개별 채널 https://t.me/jiwonkimfin",
               "post_url": "https://t.me/daolresearch/14770",
               "source_url": "https://buly.kr/FAg1jWl"
+            }
+          ]
+        },
+        {
+          "analyst": "김혜영",
+          "sectors": [
+            "인터넷·게임·레저"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14774"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14774,
+              "date": "2026-08-04",
+              "month": "2026-08",
+              "analyst": "김혜영",
+              "sector": "인터넷·게임·레저",
+              "company": "7월",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 양호한 실적과 불확실성이 공존하는 구간 - 월드컵 기간임에도 불구하고 외국인 3사 모두 순매출이 전년/전월 대비 상승.",
+              "report_conclusion": "▶ 양호한 실적과 불확실성이 공존하는 구간 - 월드컵 기간임에도 불구하고 외국인 3사 모두 순매출이 전년/전월 대비 상승.",
+              "valuation": [],
+              "earnings_changes": [
+                "8월에는 여름 휴가 효과로 개선된 실적 전망 - 현재 관광기금 상향 및 5년 단위 갱신허가제가 논의 중이기 때문에 불확실성이 병존하는 구간."
+              ],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/15RPGe2",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /15RPGe2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f2b59b2d340>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 7월 카지노 실적과 관광기금 상향 불확실성",
+              "summary": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 7월 카지노 실적과 관광기금 상향 불확실성 ▶ 롯데관광개발 - 7월 드랍액 2,635억원(-3.9% YoY, -1.0% MoM), 순매출 516억원(+18.8% YoY, +5.8% MoM), 홀드율은 19.6% - 월드컵 영향으로 드랍액은 전년 대비 감소하였으나 2025년 7월 홀드율이 15.8%로 낮았기 때문에 순매출액은 전년 대비 성장 - 방문자 수는 62,706명(+10.6% YoY, +2.6% MoM)으로 견조한 성장세 지속 ▶ 파라다이스 -7월 드랍액 6,716억원(+15.0% YoY, +4.8% MoM), 순매출 779억원(+3.6% YoY, +25.8% MoM), 홀드율은 11.6% - 기타 VIP의 드랍액은 1,717억원(+70.6% YoY, +21.4% MoM)으로 전년 대비 큰 폭으로 증가. 영업을 통해 큰손들의 방문이 지속되는 추세 - 덕분에 계절성에도 불구하고 드랍액과 순매출이 전년/전월 대비 상승 ▶ GKL - 7월 드랍액 3,252억원(-4.1% YoY, -0.8% MoM), 순매출 417억원(+6.9% YoY, +12.0% MoM), 홀드율은 12.8% - 서울 강남점의 테이블 드랍액은 1,797억원(-9.5% YoY, +1.2% MoM)으로 2025년 7월에 VIP 모객 호조 기저 효과로 전년 대비 하락 ▶ 양호한 실적과 불확실성이 공존하는 구간 - 월드컵 기간임에도 불구하고 외국인 3사 모두 순매출이 전년/전월 대비 상승. 8월에는 여름 휴가 효과로 개선된 실적 전망 - 현재 관광기금 상향 및 5년 단위 갱신허가제가 논의 중이기 때문에 불확실성이 병존하는 구간. 그럼에도 불구하고 문화체육관광부의 설명 자료에 따르면 신설되는 고매출 구간에 대해서만 인상된 부담률이 적용될 ",
+              "post_url": "https://t.me/daolresearch/14774",
+              "source_url": "https://buly.kr/15RPGe2"
             }
           ]
         },
@@ -695,6 +838,78 @@
           ]
         },
         {
+          "analyst": "임도영",
+          "sectors": [
+            "엔터"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [
+            {
+              "company": "디어유",
+              "direction": "하향",
+              "old": null,
+              "new": 33000,
+              "display": "33,000원 (하향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "6300) | 다올 엔터 임도영] ★ 단기는 북미 사업 규모, 장기는 중국 구독자 수 증가 속도가 관건 ▶ 현재 북미 신사업 관련 비용은 선반영 중이나 계획 구체화 전으로 매출은 추정치에 미반영. 오프라인 커머스 진출로 기존 사업 대비 수익성 훼손은 불가피하나 글로벌 버블의 경우 수익성 개선 외에는 성장 한계가 존재하는 만큼 신사업을 통한 추가적인 이익 규모가 중요하다 판단 ▶ 수익성 개선 속도와 비용 선반영 구간을 감안, 실적 추정치와 멀티플을 하향 조정하며 적정주가는 3.3만원으로 하향하나 방향성은 유효하다는 점에서 투자의견 BUY 유지 ▶ 2Q 매출 234억원(QoQ-0.2%), 영업이익 94억원(QoQ-3.0%; OPM 40.3%)으로 컨센 하회. 글로벌 버블 구독자 수 감소에도 불구 환율 효과로 매출 감소폭 상쇄. 순이익은 아티스트 MG 선급비용 손상 반영 영향 ▶ 글로벌 버블 구독자는 197만명(QoQ-2%)로 앤더블 입점에도 불구 일부 IP 이탈로 감소. 앤더블은 5월말 입점으로 온기 반영 전. 다만 메이",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14776"
+            }
+          ],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14776,
+              "date": "2026-08-04",
+              "month": "2026-08",
+              "analyst": "임도영",
+              "sector": "엔터",
+              "company": "디어유",
+              "code": "376300",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "디어유",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 33000,
+                  "display": "33,000원 (하향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "6300) | 다올 엔터 임도영] ★ 단기는 북미 사업 규모, 장기는 중국 구독자 수 증가 속도가 관건 ▶ 현재 북미 신사업 관련 비용은 선반영 중이나 계획 구체화 전으로 매출은 추정치에 미반영. 오프라인 커머스 진출로 기존 사업 대비 수익성 훼손은 불가피하나 글로벌 버블의 경우 수익성 개선 외에는 성장 한계가 존재하는 만큼 신사업을 통한 추가적인 이익 규모가 중요하다 판단 ▶ 수익성 개선 속도와 비용 선반영 구간을 감안, 실적 추정치와 멀티플을 하향 조정하며 적정주가는 3.3만원으로 하향하나 방향성은 유효하다는 점에서 투자의견 BUY 유지 ▶ 2Q 매출 234억원(QoQ-0.2%), 영업이익 94억원(QoQ-3.0%; OPM 40.3%)으로 컨센 하회. 글로벌 버블 구독자 수 감소에도 불구 환율 효과로 매출 감소폭 상쇄. 순이익은 아티스트 MG 선급비용 손상 반영 영향 ▶ 글로벌 버블 구독자는 197만명(QoQ-2%)로 앤더블 입점에도 불구 일부 IP 이탈로 감소. 앤더블은 5월말 입점으로 온기 반영 전. 다만 메이"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [
+                "▶ 수익성 개선 속도와 비용 선반영 구간을 감안, 실적 추정치와 멀티플을 하향 조정하며 적정주가는 3.3만원으로 하향하나 방향성은 유효하다는 점에서 투자의견 BUY 유지"
+              ],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/4Fv2vYX",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /4Fv2vYX (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f2b59cf3fe0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[디어유(376300) | 다올 엔터 임도영] ★ 단기는 북미 사업 규모, 장기는 중국 구독자 수 증가 속도가 관건",
+              "summary": "[디어유(376300) | 다올 엔터 임도영] ★ 단기는 북미 사업 규모, 장기는 중국 구독자 수 증가 속도가 관건 ▶ 현재 북미 신사업 관련 비용은 선반영 중이나 계획 구체화 전으로 매출은 추정치에 미반영. 오프라인 커머스 진출로 기존 사업 대비 수익성 훼손은 불가피하나 글로벌 버블의 경우 수익성 개선 외에는 성장 한계가 존재하는 만큼 신사업을 통한 추가적인 이익 규모가 중요하다 판단 ▶ 수익성 개선 속도와 비용 선반영 구간을 감안, 실적 추정치와 멀티플을 하향 조정하며 적정주가는 3.3만원으로 하향하나 방향성은 유효하다는 점에서 투자의견 BUY 유지 ▶ 2Q 매출 234억원(QoQ-0.2%), 영업이익 94억원(QoQ-3.0%; OPM 40.3%)으로 컨센 하회. 글로벌 버블 구독자 수 감소에도 불구 환율 효과로 매출 감소폭 상쇄. 순이익은 아티스트 MG 선급비용 손상 반영 영향 ▶ 글로벌 버블 구독자는 197만명(QoQ-2%)로 앤더블 입점에도 불구 일부 IP 이탈로 감소. 앤더블은 5월말 입점으로 온기 반영 전. 다만 메이저 IP 입점 초기 3개월간은 계약 갱신 시점에 일부 라이트 유저들의 이탈로 변동성 확대 가능성. 그 외 현재까지 예정된 메이저 IP 입점 부재로 3Q까지는 200만명 내외의 구독자 수 유지 전망에 따라 기존 대비 하향 조정. SM 및 JYP의 신인 IP 입점 시 유의미한 기여 기대 ▶ 중국 로열티는 QoQ 증가 추정. QQ뮤직 버블은 3월 로열티 초과분 추가 인식, 1~2Q JOOX 버블 로열티는 미반영. 3Q에는 구독자 수 증가와 JOOX 버블 로열티가 이연 반영되며 QoQ 증가폭 확대 예상. QQ뮤직 입점 IP는 총 480명(K-POP 351, C-POP 중국 90, 홍콩 39)으로 중국 중심의 입점 IP 수 확대, 구독자 수 증가도 지속 ▶ PG 결제 ",
+              "post_url": "https://t.me/daolresearch/14776",
+              "source_url": "https://buly.kr/4Fv2vYX"
+            }
+          ]
+        },
+        {
           "analyst": "최광식",
           "sectors": [
             "조선/기계/방산"
@@ -788,7 +1003,7 @@
           ]
         }
       ],
-      "report_count": 15
+      "report_count": 19
     },
     {
       "month": "2026-07",
