@@ -211,10 +211,11 @@ class KedStreetParse(unittest.TestCase):
 
 class BundledTp(unittest.TestCase):
     TEXT = (
-        "... GS건설 (006360) 주택 사이클 재개의 직접적 수혜 현재 직전 변동 "
-        "투자의견 BUY BUY 유지 적정주가 43,000 24,000 상향 Earnings ... "
-        "아이에스동서 (010780) 현재 직전 변동 투자의견 BUY BUY 유지 적정주가 31,000 29,000 상향 "
-        "... 잘못된예 (111111) 적정주가 20,000 30,000 상향 "
+        "... 현재 직전 변동 투자의견 BUY BUY 유지 적정주가 43,000 24,000 상향 Earnings "
+        "Stock Information ... GS건설 (006360) 주택 사이클 재개의 직접적 수혜 ... "
+        "현재 직전 변동 투자의견 BUY BUY 유지 적정주가 31,000 29,000 상향 Earnings "
+        "... 아이에스동서 (010780) ... "
+        "적정주가 20,000 30,000 상향 ... 잘못된예 (111111) "
     )
 
     def test_extracts_company_tp_boxes(self):

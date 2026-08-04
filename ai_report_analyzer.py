@@ -54,7 +54,8 @@ SYSTEM_PROMPT = '''당신은 한국 셀사이드(다올투자증권) 리서치 �
 - estimates: 애널리스트 "본인"의 실적 추정치(시장 컨센서스 아님). quarter_label은 이 보고서가 다루는
   당분기(실적 발표를 앞둔/리뷰하는 분기)를 '2Q26' 형식으로. quarter_op/year_op는 그 분기/당해 연도의
   영업이익 추정치(단위: 억원 — 표가 십억원 단위면 10을 곱해 억원으로 환산. 예: '232.4(십억원)' → 2324), quarter_eps/year_eps는
-  EPS 추정치(원). 본문·표에서 확인 안 되면 null. 산업자료는 전부 null.
+  EPS 추정치(원). 실적 리뷰 리포트라도 본문·실적표(Earnings/Valuation 표)의 연간 추정(E) 값이 있으면
+  year_op/year_eps를 채운다. 본문·표 어디에도 없을 때만 null. 산업자료는 전부 null.
 모든 텍스트는 한국어.'''
 
 # ── JSON 스키마 (Gemini responseSchema 형식) ────────────────────────────────

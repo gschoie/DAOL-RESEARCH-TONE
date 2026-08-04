@@ -93,20 +93,20 @@ CODE_RE = re.compile(r'\((\d{6})\)')
 
 def extract_bundled_tp(text):
     """산업 인뎁스 PDF 텍스트에서 종목별 TP 박스를 뽑는다. [{code, company, value, prior, direction}]"""
+    # 페이지 레이아웃: 좌측 TP 박스 텍스트가 먼저, 그 종목의 헤더 '회사명 (코드)'가 수백 자 뒤에 온다.
+    # → 각 박스의 주인은 '박스 뒤 최근접 코드'(+1200자 이내). 피어 표 코드 오귀속 방지.
     out, seen = [], set()
-    for m in CODE_RE.finditer(text):
-        code = m.group(1)
-        if code in seen: continue
-        segment = text[m.end():m.end() + 900]
-        tp = BUNDLED_TP_RE.search(segment)
-        if not tp: continue
-        value, prior = float(tp.group(1).replace(',', '')), float(tp.group(2).replace(',', ''))
-        direction = tp.group(3)
-        # 방향-값 정합성: 어긋나면 표 오독으로 보고 버린다
+    codes = [(m.start(), m.group(1)) for m in CODE_RE.finditer(text)]
+    for bm in BUNDLED_TP_RE.finditer(text):
+        value, prior = float(bm.group(1).replace(',', '')), float(bm.group(2).replace(',', ''))
+        direction = bm.group(3)
         if direction == '상향' and not value > prior: continue
         if direction == '하향' and not value < prior: continue
         if direction == '유지' and value != prior: continue
-        name = re.search(r'([가-힣A-Za-z0-9&\-]+(?: [가-힣A-Za-z0-9&\-]+)?)\s*$', text[max(0, m.start() - 30):m.start()])
+        owner = next(((pos, c) for pos, c in codes if 0 < pos - bm.start() <= 1200), None)
+        if not owner or owner[1] in seen: continue
+        pos, code = owner
+        name = re.search(r'([가-힣A-Za-z0-9&\-]+(?: [가-힣A-Za-z0-9&\-]+)?)\s*$', text[max(0, pos - 30):pos])
         seen.add(code)
         out.append({'code': code, 'company': (name.group(1).strip() if name else ''),
                     'value': value, 'prior': prior, 'direction': direction})
@@ -147,6 +147,28 @@ def build_bundled_records(records, pdf_cache, sector_map):
     existing = {(x['code'], x['date'], (x.get('tp_event') or {}).get('value'))
                 for x in records if x.get('code') and x.get('tp_event')}
     return [x for x in synth if (x['code'], x['date'], x['tp_event']['value']) not in existing]
+
+
+def enrich_from_cover(records, pdf_cache):
+    """기업 리포트 표지의 '현재/직전/변동' 박스를 읽어 TP를 보강한다(직전값 포함, 최우선 소스)."""
+    for r in records:
+        if r.get('bundled') or r['report_type'] == '산업자료' or not r.get('source_url'): continue
+        entry = pdf_cache.get(r['source_url']) or {}
+        if entry.get('status') != 'pdf': continue
+        m = BUNDLED_TP_RE.search(entry.get('text', '')[:5000])
+        if not m: continue
+        value, prior = float(m.group(1).replace(',', '')), float(m.group(2).replace(',', ''))
+        direction = m.group(3)
+        if direction == '상향' and not value > prior: continue
+        if direction == '하향' and not value < prior: continue
+        if direction == '유지' and value != prior: continue
+        tp = r.get('tp_event') or {}
+        evidence = tp.get('evidence') or '표지 적정주가 박스'
+        reasons = tp.get('reasons') or []
+        display = fmt_won(value) if direction == '유지' else f"{fmt_won(prior)} → {fmt_won(value)}"
+        r['tp_event'] = {'direction': direction, 'value': value,
+                         'prior': None if direction == '유지' else prior,
+                         'display': display, 'reasons': reasons, 'evidence': evidence}
 
 
 def attach_street(companies, street_raw):
@@ -452,6 +474,9 @@ def build():
     records = [merge_report(r, ai_cache.get(str(r['id']))) for r in flat_reports(history)]
     records = [r for r in records if r['analyst'] not in EXCLUDED_ANALYSTS]
     for r in records: r['sector'] = resolve_sector(r, sector_map)
+    # 기업 리포트 표지 박스로 TP 보강(직전값 확보 — '기존 →' 플레이스홀더 최소화)
+    enrich_from_cover(records, load_json(PDF_TEXT_CACHE, {}))
+
     # 인뎁스(묶음 산업자료) 종목 페이지의 TP를 종목 타임라인에 주입
     records.extend(build_bundled_records(records, load_json(PDF_TEXT_CACHE, {}), sector_map))
 

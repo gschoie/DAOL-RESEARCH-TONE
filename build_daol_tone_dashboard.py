@@ -293,6 +293,10 @@ def analyze(messages, pdf_since='2025-05'):
                  'earnings_changes':detail_lines(t,r'(?:실적|이익|매출|영업이익|EPS)\s*(?:추정|전망|상향|하향)|추정치\s*(?:상향|하향)',4),
                  'preferred_stocks':top_pick_lines(t)}
         if month>=pdf_since and (source in cache or time.monotonic()-pdf_started<pdf_budget_seconds):
+            # 다운로드 실패로 캐시된 항목은 최근 30일 리포트에 한해 재시도한다(일시 장애 복구)
+            retry_cut=(datetime.now(timezone.utc)-timedelta(days=30)).date().isoformat()
+            if source in cache and cache[source].get('status')!='pdf' and m['date'][:10]>=retry_cut:
+                del cache[source]
             was_cached=source in cache;p=pdf_text(source,cache);cache_changed=cache_changed or not was_cached
             final_url=p['final_url'];pdf_error=p['error']
             if p['status']=='pdf':
