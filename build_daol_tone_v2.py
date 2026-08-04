@@ -489,8 +489,7 @@ def build():
     start_total = now_kst.year * 12 + (now_kst.month - 1) - 5
     win_y, win_m0 = divmod(start_total, 12)
     window_month = f"{win_y:04d}-{win_m0 + 1:02d}"
-    window_label = (f"{win_m0 + 1}~{now_kst.month}월" if win_y == now_kst.year
-                    else f"'{win_y % 100}.{win_m0 + 1}~'{now_kst.year % 100}.{now_kst.month}")
+    window_label = f"'{win_y % 100}.{win_m0 + 1}~'{now_kst.year % 100}.{now_kst.month}"
 
     # 섹터 → 애널리스트 표
     by_analyst = defaultdict(list)
