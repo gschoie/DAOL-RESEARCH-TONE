@@ -305,6 +305,10 @@ def merge_report(report, ai_entry):
                 'display': first.get('display') or '', 'reasons': classify_regex_reasons(first.get('reasons')),
                 'evidence': first.get('evidence') or ''},
         })
+    # 직전값 미상인 상향/하향은 '기존 → 새값'으로 표기 통일(타임라인에서 찾으면 실제 값으로 대체됨)
+    tp_ev = record.get('tp_event')
+    if tp_ev and tp_ev.get('value') and tp_ev.get('prior') is None and tp_ev['direction'] in ('상향', '하향'):
+        tp_ev['display'] = f"기존 → {fmt_won(tp_ev['value'])}"
     record['opinion'] = normalize_opinion(record['opinion'], record['report_type'])
     # 산업자료(대상 종목 미상)의 TP는 어느 종목 것인지 알 수 없어 노이즈 — 이벤트에서 뺀다.
     # (예: 위클리 본문의 신조선가·타 종목 숫자가 '조선 ▼ 112,000→91,000원'처럼 잡히던 문제)

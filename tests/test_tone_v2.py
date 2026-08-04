@@ -124,7 +124,7 @@ class TimelineEvents(unittest.TestCase):
             tp={'direction': '하향', 'value': 200000.0, 'prior': 222222.0,
                 'reasons': ['실적추정'], 'evidence': 'e'}))
         self.assertIsNone(merged['tp_event']['prior'])
-        self.assertEqual(merged['tp_event']['display'], '200,000원')
+        self.assertEqual(merged['tp_event']['display'], '기존 → 200,000원')
 
     def test_missing_prior_filled_from_timeline(self):
         # 본문에 직전값이 없어도 같은 종목의 과거 TP(220,000)로 '이전 → 현재' 통일
