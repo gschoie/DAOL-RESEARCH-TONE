@@ -394,6 +394,8 @@ document.addEventListener('click',e=>{
   const rs=state.rowSort;
   state.rowSort=(!rs||rs.key!==key)?{key,dir:key==='analyst'?1:-1}:(rs.dir===(key==='analyst'?1:-1)?{key,dir:-rs.dir}:null);
   renderTone()}});
+// 대시보드 iframe 안에서는 제목 블록을 숨긴다(대시보드 상단 타이틀과 중복) — 링크만 우측에 유지
+if(window.self!==window.top){const hero=document.querySelector('.hero');if(hero){hero.querySelector('div:first-child').style.display='none';hero.style.cssText+='border-bottom:0;padding-bottom:2px;margin-bottom:6px;justify-content:flex-end'}}
 loadTone();
 </script>
 </body>
