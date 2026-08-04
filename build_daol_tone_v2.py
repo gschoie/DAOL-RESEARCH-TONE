@@ -302,6 +302,10 @@ def merge_report(report, ai_entry):
                 'display': first.get('display') or '', 'reasons': classify_regex_reasons(first.get('reasons')),
                 'evidence': first.get('evidence') or ''},
         })
+    # '2Q25' 같은 분기 라벨이 기업명으로 추출되는 경우(리뷰 제목 오인) → 산업 귀속으로 처리
+    if re.fullmatch(r'[1-4]Q\d{2}[EP]?', record['company'] or ''):
+        record['company'], record['code'], record['report_type'] = '', '', '산업자료'
+        record['tp_event'] = None
     record['opinion'] = normalize_opinion(record['opinion'], record['report_type'])
     # 산업자료(대상 종목 미상)의 TP는 어느 종목 것인지 알 수 없어 노이즈 — 이벤트에서 뺀다.
     # (예: 위클리 본문의 신조선가·타 종목 숫자가 '조선 ▼ 112,000→91,000원'처럼 잡히던 문제)
@@ -398,7 +402,7 @@ SECTOR_KEYWORDS = [
     (r'방산|防産|항공우주|무기|국방', '방산·항공우주'),
     (r'건설기계|굴착기|공작기계|기계', '기계'),
     (r'건설|부동산|주택|분양', '건설'),
-    (r'은행|은행지주', '금융-은행지주'), (r'(?<!투자)증권', '금융-증권'), (r'보험', '금융-보험'), (r'카드|캐피탈', '금융-카드기타'),
+    (r'(?<![가-힣])은행|은행지주', '금융-은행지주'), (r'(?<!투자)증권', '금융-증권'), (r'보험', '금융-보험'), (r'카드|캐피탈', '금융-카드기타'),
     (r'소부장', '반도체소부장'), (r'반도체|HBM|파운드리', '반도체'),
     (r'전기전자|전자부품|디스플레이|MLCC', '전기전자'),
     (r'자동차|타이어|모빌리티', '자동차'),
@@ -481,6 +485,14 @@ def build():
     # 타사 리서치(한경 에이셀) 부착
     attach_street(companies, load_json(KED_STREET, []))
 
+    # 표의 '자료 갯수'는 최근 6개월(달 기준) 창으로 센다 — 조회(타임라인·차트)는 전 기간 유지.
+    now_kst = datetime.now(timezone.utc) + timedelta(hours=9)
+    start_total = now_kst.year * 12 + (now_kst.month - 1) - 5
+    win_y, win_m0 = divmod(start_total, 12)
+    window_month = f"{win_y:04d}-{win_m0 + 1:02d}"
+    window_label = (f"{win_m0 + 1}~{now_kst.month}월" if win_y == now_kst.year
+                    else f"'{win_y % 100}.{win_m0 + 1}~'{now_kst.year % 100}.{now_kst.month}")
+
     # 섹터 → 애널리스트 표
     by_analyst = defaultdict(list)
     for record in records:
@@ -493,8 +505,9 @@ def build():
         # '산업의견' 칼럼이므로 산업자료에서 명시된 의견만 쓴다(기업 BUY가 섞이지 않게)
         opinions = [x for x in items if x['opinion'] and x['report_type'] == '산업자료']
         ai_items = [x for x in items if x['ai']]
+        recent_items = [x for x in items if x['month'] >= window_month]
         covered = {}
-        for record in items:
+        for record in recent_items:
             key, name, _ = company_key(record)
             if key.startswith('IND:'): continue
             covered[key] = {'key': key, 'name': name, 'count': covered.get(key, {}).get('count', 0) + 1,
@@ -519,7 +532,7 @@ def build():
                                                     if x['report_type'] == '산업자료'), None)),
             'tp_events': tp_events[-6:][::-1],
             'companies': sorted(covered.values(), key=lambda x: (-x['count'], x['name'])),
-            'report_count': len(items), 'last_report': {'date': latest['date'], 'title': latest['title'][:120],
+            'report_count': len(recent_items), 'last_report': {'date': latest['date'], 'title': latest['title'][:120],
                                                         'company_key': company_key(latest)[0],
                                                         'post_url': latest['post_url']},
         })
@@ -576,6 +589,7 @@ def build():
 
     data = {'generated_at': datetime.now(timezone.utc).isoformat(),
             'report_count': len(records), 'ai_analyzed': sum(1 for r in records if r['ai']),
+            'count_window': {'from': window_month, 'label': window_label},
             'sectors': sectors, 'companies': companies, 'events': events, 'steady': steady}
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     # 대시보드 overview 패널용 경량 요약(수십 KB) — 전체 v2(1MB+)를 끌어오지 않게 별도 파일로.
