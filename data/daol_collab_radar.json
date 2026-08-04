@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T23:17:58.218075+00:00",
+ "generated_at": "2026-08-04T23:44:37.790764+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1204,
  "hits": [
@@ -25971,10 +25971,10 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 3,
+   "score": 1,
    "evidences": [
     "주 후반 알파벳의 클라우드 매출 성장 및 CAPEX 가이던스 상향 발표로 AI 투자 지속 기대가 확산되며 반등 마감 - DOW(-0.8%), S&P500(-0.7%), NASDAQ(-1.5%) 하락.",
-    "️ Key Chart & 핵심지표 - 서프라이즈를 연출한 2분기 GDP, GDI-GDP 스프레드도 추가 개선 - 하이퍼스케일러들의 CDS프리미엄 상승, 채권 발행 증가와 금리 영향이 모두 작용 중 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/5q9nPD4"
+    "AI 투자 사이클 및 반도체 업황에 대한 의구심이 형성된데다, 전쟁 상황의 심화 그리고 금리에 대한 불확실성 확산까지 결합되며 뚜렷한 트리거 이벤트 없는 급락장을 경험."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (7월 4주차)]",
    "post_url": "https://t.me/daolresearch/14644",
@@ -26234,7 +26234,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "️ Monthly Events Schedule -8월 주요 이벤트 일정 경제지표: 1일 한국 수출, 12일 미국 소비자물가지수 등 주목 이벤트: 26일 엔비디아 실적, 27일 한국 금통위, 27~29일 연준 잭슨홀 미팅 등 주목"
+    "️ Monthly Events Schedule -8월 주요 이벤트 일정 경제지표: 1일 한국 수출, 12일 미국 소비자물가지수 등 주목 이벤트: 26일 엔비디아 실적, 27일 한국 금통위, 27~29일 연준 잭슨홀 미팅 등 주목",
+    "미_ 8월 필라델피아 연준 기업 전망지수 인상될 전망(256GB 기준 폴드8 울트라 약 257만원, 폴드8 227만원, 플립8 168만원 수준) 관련 별도 세션이 편성되어 있어, AI 반도체 밸류체인(HBM/패키징) 관련 국내 기업들의 기술 포지셔닝을 확인할 수 있을 전망"
    ],
    "title": "[Monthly Idea & Strategy / 다올투자증권 투자전략 조병현] 8월 Monthly check ME up: 사필귀정(事必歸正)",
    "post_url": "https://t.me/daolresearch/14654",
@@ -26270,6 +26271,23 @@
    "score": 1,
    "evidences": [
     "유가 정점 통과로 금리 -20bp 수준의 하락 여력 확보 시 KOSPI는 8,100pt선까지 1차 반등 가능하다고 판단 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/2UlPqWm"
+   ],
+   "title": "[Monthly Idea & Strategy / 다올투자증권 투자전략 조병현] 8월 Monthly check ME up: 사필귀정(事必歸正)",
+   "post_url": "https://t.me/daolresearch/14654",
+   "source_url": "https://buly.kr/2UlPqWm"
+  },
+  {
+   "theme": "HBM/AI반도체",
+   "category": "산업테마",
+   "date": "2026-07-26",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "미_ 8월 필라델피아 연준 기업 전망지수 인상될 전망(256GB 기준 폴드8 울트라 약 257만원, 폴드8 227만원, 플립8 168만원 수준) 관련 별도 세션이 편성되어 있어, AI 반도체 밸류체인(HBM/패키징) 관련 국내 기업들의 기술 포지셔닝을 확인할 수 있을 전망"
    ],
    "title": "[Monthly Idea & Strategy / 다올투자증권 투자전략 조병현] 8월 Monthly check ME up: 사필귀정(事必歸正)",
    "post_url": "https://t.me/daolresearch/14654",
@@ -26342,23 +26360,6 @@
    "title": "[iM금융지주(139130)/BUY/TP 24,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 일견 아쉽지만, 장점은 있다",
    "post_url": "https://t.me/daolresearch/14668",
    "source_url": "https://buly.kr/FAfypTt"
-  },
-  {
-   "theme": "금리 사이클",
-   "category": "매크로",
-   "date": "2026-07-27",
-   "analyst": "박종현",
-   "sector": "의료기기/화장품",
-   "company": "아이센스",
-   "code": "099190",
-   "direction": "수혜",
-   "score": 3,
-   "evidences": [
-    "이익률 상향 조정에 따라 2026E 추정치 상향하나, 금리 인상에 따른 WACC 상향으로(기존 9.1% > 10.3%) DCF를 통한 적정주가, 투자의견 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/4xa1wNr > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-   ],
-   "title": "[아이센스(099190)/ BUY(유지)/ TP 3.2만원(유지)/ 다올 의료기기 박종현] ★ CGM 매출 증가 따른 GPM의 고무적 개선",
-   "post_url": "https://t.me/daolresearch/14670",
-   "source_url": "https://buly.kr/4xa1wNr"
   },
   {
    "theme": "중동/호르무즈 리스크",
@@ -26784,7 +26785,7 @@
    "company": "DL이앤씨",
    "code": "375500",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
     "수주 성과도 전년대비 개선세 유지 - 555억원 규모 자사주 매입 소각 발표."
    ],
@@ -26902,8 +26903,8 @@
    "sector": "전략/시황",
    "company": "산업/기타",
    "code": "",
-   "direction": "피해",
-   "score": -2,
+   "direction": "중립",
+   "score": 0,
    "evidences": [
     "주 후반 FOMC 이후 금리 부담이 확대되며 하락했으나, MS 호실적과 반도체 업종 강한 반등에 힘입어 상승 마감",
     "주 후반 반등 시도에도 빅테크 가이던스·FOMC·중동 상황 등 다수 불확실성을 경계하며 상승분 반납 - DOW(+0.5%), S&P500(+0.4%), NASDAQ(+0.6%) 상승."
@@ -27006,10 +27007,10 @@
    "company": "POSCO홀딩스",
    "code": "005490",
    "direction": "수혜",
-   "score": 2,
+   "score": 3,
    "evidences": [
     "자회사 포스코인터내셔널의 호조도 있었지만 철강 부문과 리튬 사업의 적자폭 개선도 주효하게 작용",
-    "CATL 젠샤워 광산이나 호주 광산 재가동으로 탄산리튬 가격 하락했지만 추가 하락은 제한적 판단해 염호 사업 견조한 실적 유지 가능."
+    "정비로 인해 이익률 소폭 하락 예상하지만 풀 가동 예정인 4Q26E에는 아직 높은 수준을 유지하고 있어 하반기 적자폭 확대 예상 재가동으로 탄산리튬 가격 하락했지만 추가 하락은 제한적 판단해 염호 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기"
    ],
    "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 철강도 비철강도 개선",
    "post_url": "https://t.me/daolresearch/14732",
