@@ -234,6 +234,9 @@ def merge_report(report, ai_entry):
     """v1 정규식 리포트 + AI 분석을 화면용 단일 레코드로 합친다."""
     ai = (ai_entry or {}).get('result')
     company, code, scope = report.get('company') or '', report.get('code') or '', report.get('report_type')
+    # '1Q26' 같은 분기 라벨은 기업명이 아니다 — 비워서 AI 귀속 보정이 진짜 기업명을 채우게 한다
+    if re.fullmatch(r'[1-4]Q\d{2}[EP]?', company):
+        company, code = '', ''
     if ai:
         # 정규식이 기업을 못 잡았거나(산업/기타), 코드 없이 산업자료로 오인한 경우
         # (제목 조각 '조선' 따위가 company로 들어옴) AI 귀속으로 보정한다.
@@ -302,10 +305,6 @@ def merge_report(report, ai_entry):
                 'display': first.get('display') or '', 'reasons': classify_regex_reasons(first.get('reasons')),
                 'evidence': first.get('evidence') or ''},
         })
-    # '2Q25' 같은 분기 라벨이 기업명으로 추출되는 경우(리뷰 제목 오인) → 산업 귀속으로 처리
-    if re.fullmatch(r'[1-4]Q\d{2}[EP]?', record['company'] or ''):
-        record['company'], record['code'], record['report_type'] = '', '', '산업자료'
-        record['tp_event'] = None
     record['opinion'] = normalize_opinion(record['opinion'], record['report_type'])
     # 산업자료(대상 종목 미상)의 TP는 어느 종목 것인지 알 수 없어 노이즈 — 이벤트에서 뺀다.
     # (예: 위클리 본문의 신조선가·타 종목 숫자가 '조선 ▼ 112,000→91,000원'처럼 잡히던 문제)
