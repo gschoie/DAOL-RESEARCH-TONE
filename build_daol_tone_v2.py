@@ -421,7 +421,7 @@ SECTOR_KEYWORDS = [
 EXCLUDED_ANALYSTS = {'김지현'}
 
 # 키워드가 엉뚱하게 매기는 기업의 수동 교정(기업명 기준). 예: 리브스메드는 수술기구 = 의료기기.
-COMPANY_SECTOR_OVERRIDES = {'리브스메드': '의료기기', '실리콘투': '화장품'}
+COMPANY_SECTOR_OVERRIDES = {'리브스메드': '의료기기', '실리콘투': '화장품', 'HL홀딩스': '자동차'}
 
 
 def resolve_sector(record, sector_map):
