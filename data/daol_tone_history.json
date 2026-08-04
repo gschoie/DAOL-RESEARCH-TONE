@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T15:22:16.166297+00:00",
+  "generated_at": "2026-08-04T22:35:04.523519+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1197,
+  "report_count": 1200,
   "months": [
     {
       "month": "2026-08",
@@ -80,6 +80,48 @@
           ]
         },
         {
+          "analyst": "김지원",
+          "sectors": [
+            "금융"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 14770,
+              "date": "2026-08-04",
+              "month": "2026-08",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "삼성증권",
+              "code": "016360",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/FAg1jWl",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FAg1jWl (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f53242bad50>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[삼성증권(016360)/BUY/TP 170,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 그래도 방어력이 있는 종목",
+              "summary": "[삼성증권(016360)/BUY/TP 170,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 그래도 방어력이 있는 종목 ▶ 2Q26 Review. 연결 순이익 4,882억원(YoY+108.1%)으로, 컨센서스와 당사 추정치 소폭 하회 ▶ 괴리 이유는 성과급 추정되는 인건비 큰 폭 증가. 7월 일평균 거래대금까지 반영해 연간 전망치 하향 ▶ 그러나 경쟁사 대비 방어력 있다고 평가. 동사 핵심 고객층 기반 Brokerage 및 IB 연계 가능성 잠재 ▶ 배당 측면에서도 방어력 있음. 최근 주가 조정 시 업종 내 비교적 높은 배당수익률 부각 구간 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/FAg1jWl > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/14770",
+              "source_url": "https://buly.kr/FAg1jWl"
+            }
+          ]
+        },
+        {
           "analyst": "박영도",
           "sectors": [
             "건설/부동산"
@@ -101,11 +143,63 @@
               "evidence": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 양호한 수주 성과 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합. 영업이익 당사추정치와 컨센서스 상회 - 주택 매출이익률 개선 확인, 토목, 플랜트 비용 반영으로 총 이익 개선 제한. 계절적으로 낮은 판매관리비 효과로 영업이익 기대치 초과 달성 - 수주 성과 특히 양호, 상반기 22.8조원으로 연간목표 68% 달성하며 향후 매출 반등 기반 마련. 적정주가 155,000원 유지하고 투자의견 Buy 유지. 최근 지속된 가격 하락으로 밸류에이션 여유 발생 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6BzMypI",
               "date": "2026-08-02",
               "source": "https://t.me/daolresearch/14740"
+            },
+            {
+              "company": "대우건설",
+              "direction": "유지",
+              "old": null,
+              "new": 24000,
+              "display": "24,000원 (유지)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 실적 서프라이즈와 놀라운 수주 가이던스 상향 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 대폭 상회 - 주택 매출이익률 개선 확인. 토목, 플랜트의 일부 비용조차 상쇄시키는 주택 이익. 특별한 대손 이벤트 발생하지 않으면서 지난분기에 이어 큰 폭의 영업이익 개선 지속 - 수주 가이던스 대폭 상향 (18조원 -> 27조원). 달성시 역대최대 수준의 실적. 적정주가 24,000원 유지하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/HSZsTpd",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14767"
             }
           ],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 14767,
+              "date": "2026-08-04",
+              "month": "2026-08",
+              "analyst": "박영도",
+              "sector": "건설/부동산",
+              "company": "대우건설",
+              "code": "047040",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "대우건설",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 24000,
+                  "display": "24,000원 (유지)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 실적 서프라이즈와 놀라운 수주 가이던스 상향 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 대폭 상회 - 주택 매출이익률 개선 확인. 토목, 플랜트의 일부 비용조차 상쇄시키는 주택 이익. 특별한 대손 이벤트 발생하지 않으면서 지난분기에 이어 큰 폭의 영업이익 개선 지속 - 수주 가이던스 대폭 상향 (18조원 -> 27조원). 달성시 역대최대 수준의 실적. 적정주가 24,000원 유지하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/HSZsTpd"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "- 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 대폭 상회 - 주택 매출이익률 개선 확인. 토목, 플랜트의 일부 비용조차 상쇄시키는 주택 이익. 특별한 대손 이벤트 발생하지 않으면서 지난분기에 이어 큰 폭의 영업이익 개선 지속 - 수주 가이던스 대폭 상향 (18조원 -> 27조원). 달성시 역대최대 수준의 실적. 적정주가 24,000원 유지하고 투자의견 Buy 유지",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/HSZsTpd",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /HSZsTpd (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f5324300170>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 실적 서프라이즈와 놀라운 수주 가이던스 상향",
+              "summary": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q26 Review: 실적 서프라이즈와 놀라운 수주 가이던스 상향 ▶ Issue: - 2Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 대폭 상회 - 주택 매출이익률 개선 확인. 토목, 플랜트의 일부 비용조차 상쇄시키는 주택 이익. 특별한 대손 이벤트 발생하지 않으면서 지난분기에 이어 큰 폭의 영업이익 개선 지속 - 수주 가이던스 대폭 상향 (18조원 -> 27조원). 달성시 역대최대 수준의 실적. 적정주가 24,000원 유지하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/HSZsTpd",
+              "post_url": "https://t.me/daolresearch/14767",
+              "source_url": "https://buly.kr/HSZsTpd"
+            },
             {
               "id": 14740,
               "date": "2026-08-02",
@@ -152,16 +246,50 @@
         {
           "analyst": "박종현",
           "sectors": [
+            "의료기기/화장품",
             "화장품"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14769"
+            }
+          ],
           "top_picks": [],
-          "top_pick_change": "전월 대비 유지",
+          "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 14769,
+              "date": "2026-08-04",
+              "month": "2026-08",
+              "analyst": "박종현",
+              "sector": "의료기기/화장품",
+              "company": "SPOT",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 체크포인트 및 Implication 1차 VBP 시행을 거치면서 글로벌 Big 4 업체는 현지 생산 구축을 통해 VBP에 대응하였으며, 로컬 기업들은 해외 매출 비중을 높여가며 실적과 기업가치 우상향을 기록.",
+              "report_conclusion": "▶ 체크포인트 및 Implication 1차 VBP 시행을 거치면서 글로벌 Big 4 업체는 현지 생산 구축을 통해 VBP에 대응하였으며, 로컬 기업들은 해외 매출 비중을 높여가며 실적과 기업가치 우상향을 기록.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/1y1CAE8",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1y1CAE8 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f53242ba0c0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[의료기기(Overweight)/ 다올 박종현] ★ SPOT: VBP is back",
+              "summary": "[의료기기(Overweight)/ 다올 박종현] ★ SPOT: VBP is back ▶ Issue: 임플란트·교정 2차 집중구매(VBP 2.0) 개시 예정 중국이 임플란트·교정 2차 VBP 시행을 위한 절차를 시작. 임플란트는 쓰촨성 주도로 제품 신고가 7/27일 종료됐고, 교정은 산시성 주도로 의견수렴 단계. 1차 대비 제품 범위가 넓어졌으나, 낙찰 규칙과 대상 성(省) 범위는 아직 공개되지 않음 ▶ 시가총액 괴리는 VBP 외 성장이 판가름 VBP 품목 의존도가 높고 중국 매출 의존도 높은 사업구조가 디레이팅의 실질 기준선으로 작동. 2차 VBP는 가격 충격을 다시 주기보다 이 구분선을 더 선명하게 드러내는 이벤트로 판단. 중국 로컬 상장사 2개사는 2025년 이후 기업 가치 상승한 반면, 글로벌/국내 PEER는 하락 ▶ 체크포인트 및 Implication 1차 VBP 시행을 거치면서 글로벌 Big 4 업체는 현지 생산 구축을 통해 VBP에 대응하였으며, 로컬 기업들은 해외 매출 비중을 높여가며 실적과 기업가치 우상향을 기록. 국내 기업 또한 중국 현지 생산 구축 및 매출 다변화가 필수 불가결 ① 임플란트 2.0 낙찰 규칙과 실제 인하율, ② 앤젤얼라인 1H26 해외 매출 비중 50% 돌파 여부, ③ 엔비스타 2Q26 실적 발표에서 VBP 관련 코멘트 확인 필요 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1y1CAE8 > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/14769",
+              "source_url": "https://buly.kr/1y1CAE8"
+            },
             {
               "id": 14755,
               "date": "2026-08-03",
@@ -660,7 +788,7 @@
           ]
         }
       ],
-      "report_count": 12
+      "report_count": 15
     },
     {
       "month": "2026-07",

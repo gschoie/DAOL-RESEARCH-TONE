@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-04T15:22:20.545526+00:00",
+ "generated_at": "2026-08-04T22:37:04.010552+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1197,
+ "report_count": 1200,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27189,6 +27189,24 @@
    "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강 이정우] ★ 회복의 하반기",
    "post_url": "https://t.me/daolresearch/14761",
    "source_url": "https://buly.kr/FhQIJuT"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-08-04",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "SPOT",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "체크포인트 및 Implication 1차 VBP 시행을 거치면서 글로벌 Big 4 업체는 현지 생산 구축을 통해 VBP에 대응하였으며, 로컬 기업들은 해외 매출 비중을 높여가며 실적과 기업가치 우상향을 기록.",
+    "국내 기업 또한 중국 현지 생산 구축 및 매출 다변화가 필수 불가결 ① 임플란트 2.0 낙찰 규칙과 실제 인하율, ② 앤젤얼라인 1H26 해외 매출 비중 50% 돌파 여부, ③ 엔비스타 2Q26 실적 발표에서 VBP 관련 코멘트 확인 필요 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1y1CAE8 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
+   ],
+   "title": "[의료기기(Overweight)/ 다올 박종현] ★ SPOT: VBP is back",
+   "post_url": "https://t.me/daolresearch/14769",
+   "source_url": "https://buly.kr/1y1CAE8"
   }
  ],
  "cross_mentions": [
