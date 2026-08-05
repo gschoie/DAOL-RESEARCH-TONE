@@ -33,6 +33,23 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-event-wrap>summary::-webkit-details-marker{display:none}
 .tone-event-wrap[open]>summary{border-bottom-color:var(--line)}
 .tone-event-wrap>summary em{font-style:normal;color:var(--muted);font-weight:500;font-size:11px;margin-left:7px}
+.pub-wrap{max-height:360px;overflow:auto}
+.pub-table{width:100%;border-collapse:collapse;font-size:11.5px;min-width:1080px}
+.pub-table th{position:sticky;top:0;background:#f6f8f5;text-align:left;padding:8px 9px;font-size:10.5px;color:#5b665f;border-bottom:2px solid #263d35;white-space:nowrap;z-index:1}
+.pub-table td{padding:6px 9px;border-bottom:1px solid #eef1ec;vertical-align:top}
+.pub-table tbody tr:hover{background:#f7faf7}
+.pub-date{color:var(--muted);white-space:nowrap;font-weight:700}
+.pub-co{border:0;background:transparent;padding:0;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;color:#173f35;text-align:left}
+.pub-co:hover{text-decoration:underline}
+.pub-tpc{white-space:nowrap}.pub-tp{font-weight:700}.pub-tp.up{color:#2e7d4f}.pub-tp.down{color:var(--red)}
+.pub-rsn{max-width:130px}
+.pub-earn{text-align:center}.pub-up{color:#2e7d4f;font-weight:700}.pub-down{color:var(--red);font-weight:700}
+.pub-pts{max-width:200px}.pub-pts .pt-chip{margin:1px 2px 1px 0}
+.pub-pts-dim{color:#96a09a;font-size:10.5px}
+.pub-title{max-width:250px}.pub-title a{color:var(--ink);text-decoration:none;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pub-title a:hover{color:#386453;text-decoration:underline}
+.pub-desc{max-width:230px;color:#55645c;font-size:11px;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}
+.pub-an{white-space:nowrap;color:#45534c}
 .tone-event-cols{display:grid;grid-template-columns:1fr 1fr}
 .tone-event-col{min-width:0}
 .tone-event-col+.tone-event-col{border-left:1px solid var(--line)}
@@ -214,7 +231,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const state={tone2:null,toneQ:'',toneSector:'',toneAnalyst:'',sectorSort:'recent',rowSort:null};
+const state={tone2:null,toneQ:'',toneSector:'',toneAnalyst:'',sectorSort:'recent',rowSort:null,repSort:null};
 const convDots=v=>v==null?'':`<span class="conv-dots" title="확신도 ${v}/5">${'●'.repeat(v)}${'○'.repeat(5-v)}</span>`;
 const toneLabelClass=l=>({'강한 확신':'t-strong','긍정':'t-pos','중립·건조':'t-dry','신중':'t-cau','부정적':'t-neg'})[l]||'t-dry';
 const opinionClass=o=>/확대|매수|BUY|Overweight/i.test(o)?'op-up':/축소|매도|REDUCE|SELL|Underweight/i.test(o)?'op-down':/중립|HOLD|Neutral/i.test(o)?'op-mid':'op-none';
@@ -233,16 +250,32 @@ function groupEvents(events){const seen=new Map(),out=[];
  for(const e of events){const k=e.report_id||`${e.company_key}|${e.date}`;
   if(seen.has(k))seen.get(k).items.push(e);else{const g={items:[e]};seen.set(k,g);out.push(g)}}
  return out}
-function renderToneEvents(){const box=$('#tone-events');if(!box)return;
- // 상단 섹터/애널 필터 + 검색어를 이벤트 피드에도 적용 (검색어는 기업명·애널·섹터 기준)
- const q=state.toneQ.toLocaleLowerCase();
- const flt=x=>(!state.toneSector||x.sector===state.toneSector)&&(!state.toneAnalyst||x.analyst===state.toneAnalyst)&&(!q||`${x.company||''} ${x.company_key||''} ${x.analyst||''} ${x.sector||''}`.toLocaleLowerCase().includes(q));
- const events=(state.tone2?.events||[]).filter(flt),steady=(state.tone2?.steady||[]).filter(flt);
- if(!events.length&&!steady.length){box.innerHTML='';return}
- const grouped=groupEvents(events);
- const left=grouped.slice(0,40).map(toneEventRow).join('')||'<div class="tone-empty" style="padding:8px 16px">변화 이벤트 없음</div>';
- const right=steady.slice(0,40).map(e=>toneEventRow({items:[e],_hold:true})).join('')||'<div class="tone-empty" style="padding:8px 16px">TP 유지 보고서 없음</div>';
- box.innerHTML=`<details class="tone-event-wrap" open><summary>⚡ 최근 변화 이벤트 <em>변화 ${grouped.length}건 · 유지 ${steady.length}건 · 120일</em></summary><div class="tone-event-cols"><div class="tone-event-col"><h5>TP 조정 · 의견/톤/실적 변화</h5><div class="tone-event-list">${left}</div></div><div class="tone-event-col"><h5>TP 유지 · 신규 커버</h5><div class="tone-event-list">${right}</div></div></div></details>`}
+function pubRank(x,key){const t=x.r.tp_event;
+ if(key==='tp')return t&&['상향','하향'].includes(t.direction)?2:(t&&t.direction==='유지'?1:0);
+ if(key==='earn')return ['상향','하향'].includes(x.r.earnings_direction)?1:0;
+ if(key==='pts')return (x.r.points_added||[]).length>0||(x.r.points_dropped||[]).length>0?1:0;
+ return 0}
+function renderRecentReports(){const box=$('#tone-events');if(!box)return;
+ const cutoff=(d=>{d.setDate(d.getDate()-60);return d.toISOString().slice(0,10)})(new Date());
+ const rows=[];const seen=new Set();
+ for(const c of Object.values(state.tone2?.companies||{})){
+  for(const r of c.timeline){
+   if(r.bundled||r.date<cutoff||seen.has(r.id))continue;
+   if(state.toneSector&&r.sector!==state.toneSector)continue;
+   if(state.toneAnalyst&&r.analyst!==state.toneAnalyst)continue;
+   seen.add(r.id);rows.push({key:c.key,name:c.name,r})}}
+ rows.sort((a,b)=>b.r.date.localeCompare(a.r.date));
+ if(state.repSort)rows.sort((a,b)=>pubRank(b,state.repSort)-pubRank(a,state.repSort)||b.r.date.localeCompare(a.r.date));
+ const ind=k=>state.repSort===k?' ▼':'';
+ const body=rows.slice(0,250).map(({key,name,r})=>{
+  const t=r.tp_event;
+  const tp=t&&t.direction!=='없음'?`<span class="pub-tp ${t.direction==='상향'?'up':t.direction==='하향'?'down':''}">${t.direction==='상향'?'▲':t.direction==='하향'?'▼':'●'} ${esc(t.display||t.direction)}</span>`:'—';
+  const reasons=t&&(t.reasons||[]).length?t.reasons.map(x=>`<i class="tp-reason">${esc(x)}</i>`).join(''):'—';
+  const earn=['상향','하향'].includes(r.earnings_direction)?`<span class="${r.earnings_direction==='상향'?'pub-up':'pub-down'}" title="${esc(r.earnings_evidence||'')}">${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'—';
+  const pts=(r.points_added||[]).length?r.points_added.slice(0,3).map(x=>`<span class="pt-chip new">＋${esc(x)}</span>`).join(''):((r.points||[]).length?`<span class="pub-pts-dim">${esc(r.points.slice(0,2).join(' · '))}</span>`:'—');
+  return `<tr><td class="pub-date">${mmdd(r.date)}</td><td><button type="button" class="tone-ck pub-co" data-ck="${esc(key)}">${esc(key.startsWith('IND:')?name:(r.company||name))}</button></td><td class="pub-tpc">${tp}</td><td class="pub-rsn">${reasons}</td><td class="pub-earn">${earn}</td><td class="pub-pts">${pts}</td><td class="pub-title"><a href="${esc(r.pdf_url||r.post_url)}" target="_blank" rel="noopener">${esc(r.title.slice(0,70))}</a></td><td class="pub-desc">${esc(r.one_line||'')}</td><td class="pub-an">${esc(r.analyst)}</td></tr>`}).join('');
+ box.innerHTML=`<details class="tone-event-wrap" open><summary>📰 최근 발간 보고서 <em>${rows.length}건 · 60일${state.repSort?' · 정렬됨':''}</em></summary><div class="pub-wrap"><table class="pub-table"><thead><tr><th id="th-r-date" class="th-sort" title="날짜순(기본)">날짜</th><th>기업명</th><th id="th-r-tp" class="th-sort" title="TP 변경 우선 정렬">TP▲▼${ind('tp')}</th><th>TP 조정 사유</th><th id="th-r-earn" class="th-sort" title="실적추정 변경 우선">실적▲▼${ind('earn')}</th><th id="th-r-pts" class="th-sort" title="포인트 변화 우선">포인트${ind('pts')}</th><th>리포트 제목</th><th>리포트 설명</th><th>애널리스트</th></tr></thead><tbody>${body}</tbody></table></div></details>`}
+const renderToneEvents=renderRecentReports;
 function analystRow(a,secCell=''){const tone=a.latest_tone?`<div class="tone-cell ${toneLabelClass(a.latest_tone.label)}" title="${esc(a.latest_tone.one_line||'')}">${convDots(a.latest_tone.conviction)}<small>${esc(a.latest_tone.label)} · ${mmdd(a.latest_tone.date)}${a.latest_tone.base?` · 평소 ${a.latest_tone.base}`:''}</small>${a.ind_phrases&&(a.ind_phrases.strong||a.ind_phrases.negative)?`<div class="cell-phrases" title="최근 산업자료(${mmdd(a.ind_phrases.date)}) 문구">${a.ind_phrases.strong?`<q class="up">${esc(a.ind_phrases.strong)}</q>`:''}${a.ind_phrases.negative?`<q class="down">${esc(a.ind_phrases.negative)}</q>`:''}</div>`:''}</div>`:'<span class="tone-empty" title="AI 분석 데이터가 아직 없습니다">AI 대기</span>';
  const tps=(a.tp_events||[]).slice(0,2).map(x=>tpChip(x)).join('')||'<span class="tone-empty">최근 없음</span>';
  const comps=(a.companies||[]).slice(0,6).map(c=>`<button type="button" class="company-mini tone-ck" data-ck="${esc(c.key)}" title="${esc(c.name)} 히스토리 열기 · ${c.count}건">${esc(c.name)}<i>${c.count}</i></button>`).join('')||'<span class="tone-empty">—</span>';
@@ -415,6 +448,9 @@ document.addEventListener('click',e=>{
  if(e.target.closest('#wk-toggle')){const ds=[...document.querySelectorAll('#tone-modal-body details.drill-weekly')];const anyOpen=ds.some(d=>d.open);ds.forEach(d=>d.open=!anyOpen);return}
  if(e.target.closest('#tone-modal-back')){const k=modalStack.pop();if(k)openToneCompany(k,true);return}
  const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck){openToneCompany(t.dataset.ck);return}
+ const rth=e.target.closest('#th-r-tp,#th-r-earn,#th-r-pts,#th-r-date');
+ if(rth){const k={'th-r-tp':'tp','th-r-earn':'earn','th-r-pts':'pts','th-r-date':null}[rth.id];
+  state.repSort=(k&&state.repSort!==k)?k:null;renderRecentReports();return}
  if(e.target.closest('#th-sector')){if(state.rowSort){state.rowSort=null}else{state.sectorSort={recent:'asc',asc:'desc',desc:'recent'}[state.sectorSort]}renderTone();return}
  const th=e.target.closest('#th-analyst,#th-opinion,#th-tone');
  if(th){const key={'th-analyst':'analyst','th-opinion':'opinion','th-tone':'tone'}[th.id];
