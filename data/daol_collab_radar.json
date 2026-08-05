@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-05T15:11:37.703411+00:00",
+ "generated_at": "2026-08-05T23:35:11.638461+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1204,
+ "report_count": 1212,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27214,6 +27214,111 @@
    "title": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ 이비덴 FY1Q26 실적 Comment",
    "post_url": "https://t.me/daolresearch/14779",
    "source_url": "https://buly.kr/EdvknlQ"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-08-05",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "에이피알",
+   "code": "278470",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "브랜드 입지 및 타겟의 뷰티 카테고리 확장 의지가 매출 확장에 기여 판단 북미 오프라인 비중 1Q26 18% → 2Q26P 23% 확대에도 온오프라인 간 잠식 미관찰.",
+    "2025년 미국 뷰티 시장 규모 1,250억 달러 추산, MS 2·3위는 월마트(17%)·타겟(10%)."
+   ],
+   "title": "[에이피알(278470)/ BUY(유지)/ TP 56만원(상향)/ 다올 화장품 박종현] ★ 아직도 이렇게 기회가 많다니!",
+   "post_url": "https://t.me/daolresearch/14786",
+   "source_url": "https://buly.kr/NmNhOQ"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-05",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데칠성",
+   "code": "005300",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "2) 원달러 환율도 1,400원 초중반으로 안정화되고 있어 하반기 원부재료 조달비용 부담폭은 우려 대비 크게 확대되지 않을 것.",
+    "동사는 중동 전쟁 여파로 인한 원부재료비 상승, 2분기 환율 상승에도 불구 연초 제시한 가이던스를 유지."
+   ],
+   "title": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성",
+   "post_url": "https://t.me/daolresearch/14792",
+   "source_url": "https://buly.kr/AF2odED"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-05",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데칠성",
+   "code": "005300",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "동사는 중동 전쟁 여파로 인한 원부재료비 상승, 2분기 환율 상승에도 불구 연초 제시한 가이던스를 유지."
+   ],
+   "title": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성",
+   "post_url": "https://t.me/daolresearch/14792",
+   "source_url": "https://buly.kr/AF2odED"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-08-05",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데칠성",
+   "code": "005300",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "3) 해외법인(필리핀/미얀마/파키스탄)의 경우 중동 사태 여파로 2Q26 원부재료비/유가 상승 타격이 컸으나, 유가 하락 고려 시 하반기 원가 부담폭 역시 상반기 대비 완화될 것."
+   ],
+   "title": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성",
+   "post_url": "https://t.me/daolresearch/14792",
+   "source_url": "https://buly.kr/AF2odED"
+  },
+  {
+   "theme": "구리/비철금속",
+   "category": "원자재",
+   "date": "2026-08-05",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데칠성",
+   "code": "005300",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "4) 알루미늄/PET 원가는 하반기까지도 YoY 부담이 상존하나, 포트폴리오 조정을 바탕으로 한 원가 Mix 개선, 내부 비용 절감 활동, 가격인상이 이를 상쇄할 수 있을 것"
+   ],
+   "title": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성",
+   "post_url": "https://t.me/daolresearch/14792",
+   "source_url": "https://buly.kr/AF2odED"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-08-05",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "에스엠",
+   "code": "041510",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "3Q는 컴백 IP 수와 공연 모객 수 감소로 MD 매출 QoQ 감소 예상.",
+    "3Q에는 일부 IP들의 투어 개시 속 주요 IP들의 글로벌 대신 일본 컴백이 집중됨에 따라 음반원 매출은 QoQ 감소가 불가피할 전망"
+   ],
+   "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
+   "post_url": "https://t.me/daolresearch/14798",
+   "source_url": "https://buly.kr/EdvlA3E"
   }
  ],
  "cross_mentions": [
@@ -28060,11 +28165,25 @@
  ],
  "candidates": [
   {
+   "term": "일평균거래대금",
+   "recent": 6,
+   "total": 7,
+   "sectors": 5,
+   "burst": 11.1
+  },
+  {
    "term": "UAE",
    "recent": 9,
    "total": 13,
    "sectors": 3,
    "burst": 6.7
+  },
+  {
+   "term": "배당수익률",
+   "recent": 6,
+   "total": 9,
+   "sectors": 5,
+   "burst": 5.5
   },
   {
    "term": "수익성이",
@@ -28074,11 +28193,11 @@
    "burst": 4.8
   },
   {
-   "term": "테이블",
-   "recent": 6,
-   "total": 10,
-   "sectors": 3,
-   "burst": 4.5
+   "term": "일시",
+   "recent": 8,
+   "total": 15,
+   "sectors": 7,
+   "burst": 3.7
   },
   {
    "term": "남미",
@@ -28102,25 +28221,11 @@
    "burst": 3.7
   },
   {
-   "term": "점진적",
-   "recent": 10,
-   "total": 20,
-   "sectors": 10,
-   "burst": 3.4
-  },
-  {
    "term": "점차",
-   "recent": 10,
-   "total": 20,
+   "recent": 11,
+   "total": 21,
    "sectors": 7,
-   "burst": 3.4
-  },
-  {
-   "term": "더해",
-   "recent": 7,
-   "total": 14,
-   "sectors": 6,
-   "burst": 3.3
+   "burst": 3.7
   },
   {
    "term": "단일",
@@ -28130,10 +28235,10 @@
    "burst": 3.2
   },
   {
-   "term": "결과가",
+   "term": "기저가",
    "recent": 6,
    "total": 12,
-   "sectors": 5,
+   "sectors": 4,
    "burst": 3.2
   },
   {
@@ -28141,6 +28246,13 @@
    "recent": 6,
    "total": 12,
    "sectors": 3,
+   "burst": 3.2
+  },
+  {
+   "term": "Mix",
+   "recent": 7,
+   "total": 14,
+   "sectors": 4,
    "burst": 3.2
   },
   {
