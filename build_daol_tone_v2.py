@@ -89,6 +89,37 @@ def fmt_won(v):
 # 인뎁스 종목 페이지의 TP 박스: "적정주가  43,000  24,000  상향" (현재/직전/변동)
 BUNDLED_TP_RE = re.compile(r'적정주가\s*([\d,]{3,9})\s+([\d,]{3,9})\s+(상향|하향|유지)')
 CODE_RE = re.compile(r'\((\d{6})\)')
+# 종목 섹션의 애널 헤더 줄("이다연 음식료 | dayeonlee@daolfn.com") — 섹션 제목이 바로 다음 줄에 온다
+ANALYST_HDR_RE = re.compile(r'[가-힣]{2,4}\s+[^\n]{0,40}@daolfn\.com[^\n]*\n')
+PITCH_RE = re.compile(r'Pitch\s*\n(.*?)(?:\nRationale|\Z)', re.S)
+_SKIP_TITLE = re.compile(r'^(Issue|Pitch|Rationale|BUY|HOLD|REDUCE|EARNINGS|In-?Depth|DAOL)', re.I)
+
+
+def _bundled_section_meta(text, box_start, owner_pos, owner_is_before):
+    """인뎁스 종목 섹션의 자체 제목과 Pitch(설명)를 뽑는다. 레이아웃별 위치:
+    A형(코드가 박스 뒤): 코드 다음 줄 = 제목, 이어서 Issue/Pitch — 코드 뒤쪽에서 찾는다.
+    B형(코드가 박스 앞): 섹션 본문(애널헤더→제목→Pitch)이 박스 앞에 통째로 온다 — 박스 앞 창에서 찾는다."""
+    title, summary = '', ''
+    if owner_is_before:
+        win = text[max(0, box_start - 3500):box_start]
+        heads = list(ANALYST_HDR_RE.finditer(win))
+        if heads:
+            for ln in win[heads[-1].end():].split('\n'):
+                ln = ln.strip()
+                if ln and not _SKIP_TITLE.match(ln):
+                    title = ln; break
+        pitches = PITCH_RE.findall(win)
+        if pitches: summary = re.sub(r'\s+', ' ', pitches[-1]).strip()
+    else:
+        win = text[owner_pos:owner_pos + 2200]
+        body = win.split('\n', 1)[1] if '\n' in win else ''
+        for ln in body.split('\n'):
+            ln = ln.strip()
+            if ln and not _SKIP_TITLE.match(ln):
+                title = ln; break
+        m = PITCH_RE.search(win)
+        if m: summary = re.sub(r'\s+', ' ', m.group(1)).strip()
+    return title[:90].strip(), summary[:220].strip()
 
 
 def extract_bundled_tp(text):
@@ -112,9 +143,11 @@ def extract_bundled_tp(text):
         if not owner or owner[1] in seen: continue
         pos, code = owner
         name = re.search(r'([가-힣A-Za-z0-9&\-]+(?: [가-힣A-Za-z0-9&\-]+)?)\s*$', text[max(0, pos - 30):pos])
+        sec_title, sec_summary = _bundled_section_meta(text, bm.start(), pos, owner is before)
         seen.add(code)
         out.append({'code': code, 'company': (name.group(1).strip() if name else ''),
-                    'value': value, 'prior': prior, 'direction': direction})
+                    'value': value, 'prior': prior, 'direction': direction,
+                    'title': sec_title, 'summary': sec_summary})
     return out
 
 
@@ -137,9 +170,10 @@ def build_bundled_records(records, pdf_cache, sector_map):
                 'id': f"{r['id']}-b{item['code']}", 'date': r['date'], 'month': r['month'],
                 'analyst': r['analyst'], 'sector': sector_map.get(item['code'], r['sector']),
                 'company': item['company'], 'code': item['code'], 'report_type': '기업자료',
-                'title': r['title'], 'post_url': r['post_url'], 'source_url': r['source_url'],
+                # 인뎁스 안 종목 섹션의 자체 제목·Pitch가 있으면 그걸 쓴다(없으면 모(母)자료 제목)
+                'title': item.get('title') or r['title'], 'post_url': r['post_url'], 'source_url': r['source_url'],
                 'pdf_url': r['pdf_url'], 'opinion': '', 'ai': False, 'bundled': True,
-                'conviction': None, 'tone_label': '', 'one_line': '',
+                'conviction': None, 'tone_label': '', 'one_line': item.get('summary') or '',
                 'strong_phrases': [], 'hedge_phrases': [], 'negative_phrases': [],
                 'points': [], 'points_detail': [], 'earnings_direction': '', 'earnings_evidence': '',
                 'estimates': None, 'est_compare': None,
