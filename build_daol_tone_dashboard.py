@@ -17,15 +17,20 @@ UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 C
 
 def clean(s): return re.sub(r'\s+',' ',s or '').strip()
 
-def pdf_text(source_url, cache):
+def pdf_text(source_url, cache, retry_hints=None):
     import requests
     from pypdf import PdfReader
     cached=cache.get(source_url)
     if cached:return cached
     result={'status':'failed','final_url':source_url,'text':'','error':''}
-    for attempt in range(2):
+    # buly.kr 등 단축링크 호스트가 GitHub 러너에서 차단되는 경우가 있다 — 이전 런(로컬 포함)이
+    # 해석해둔 직링크(final_url)가 있으면 단축링크 실패 시 그쪽으로 재시도한다.
+    hint=(retry_hints or {}).get(source_url)
+    urls=[source_url]+([hint] if hint and hint!=source_url else [])
+    for attempt,url in enumerate(urls*2 if len(urls)==1 else urls):
         try:
-            r=requests.get(source_url,headers=UA,timeout=(8,20),allow_redirects=True)
+            r=requests.get(url,headers=UA,timeout=(8,20),allow_redirects=True)
+            result['final_url']=r.url
             r.raise_for_status()
             if len(r.content)>20_000_000:raise ValueError('PDF exceeds 20MB')
             text='\n'.join(page.extract_text() or '' for page in PdfReader(BytesIO(r.content)).pages)
@@ -304,9 +309,11 @@ def analyze(messages, pdf_since='2025-05'):
         if month>=pdf_since and (source in cache or time.monotonic()-pdf_started<pdf_budget_seconds):
             # 다운로드 실패로 캐시된 항목은 최근 30일 리포트에 한해 재시도한다(일시 장애 복구)
             retry_cut=(datetime.now(timezone.utc)-timedelta(days=30)).date().isoformat()
+            retry_hints={}
             if source in cache and cache[source].get('status')!='pdf' and m['date'][:10]>=retry_cut:
-                del cache[source]
-            was_cached=source in cache;p=pdf_text(source,cache);cache_changed=cache_changed or not was_cached
+                prev=cache.pop(source)
+                if prev.get('final_url') and prev['final_url']!=source:retry_hints[source]=prev['final_url']
+            was_cached=source in cache;p=pdf_text(source,cache,retry_hints);cache_changed=cache_changed or not was_cached
             final_url=p['final_url'];pdf_error=p['error']
             if p['status']=='pdf':
                 analysis_text=p['text'];analysis_source='PDF 원문 분석';details=pdf_details(analysis_text,is_industry)
