@@ -409,7 +409,7 @@ def timeline_events(key, name, timeline):
         if record.get('points_added') or record.get('points_dropped'):
             added, dropped = record.get('points_added') or [], record.get('points_dropped') or []
             if added or dropped:
-                bits = ([f"신규: {', '.join(added)}"] if added else []) + ([f"소멸: {', '.join(dropped)}"] if dropped else [])
+                bits = ([f"신규: {', '.join(added)}"] if added else []) + ([f"제외: {', '.join(dropped)}"] if dropped else [])
                 events.append({**base, 'type': '투자포인트 변화', 'detail': ' · '.join(bits), 'evidence': ''})
         if opinion_class(record['opinion']):
             prev['opinion'] = record['opinion']; prev['opinion_class'] = opinion_class(record['opinion'])
