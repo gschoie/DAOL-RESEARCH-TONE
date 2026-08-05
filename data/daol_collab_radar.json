@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T07:28:44.157521+00:00",
+ "generated_at": "2026-08-05T07:52:13.163938+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1204,
  "hits": [
@@ -3176,8 +3176,8 @@
    "date": "2025-07-24",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "2Q25",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "수혜",
    "score": 1,
    "evidences": [
@@ -3193,8 +3193,8 @@
    "date": "2025-07-24",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "2Q25",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "중립",
    "score": 0,
    "evidences": [
@@ -9225,8 +9225,8 @@
    "date": "2025-10-30",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "3Q25",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "수혜",
    "score": 1,
    "evidences": [
@@ -9242,8 +9242,8 @@
    "date": "2025-10-30",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "3Q25",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "수혜",
    "score": 1,
    "evidences": [
@@ -9259,8 +9259,8 @@
    "date": "2025-10-30",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "3Q25",
-   "code": "",
+   "company": "Meta Platforms",
+   "code": "META US",
    "direction": "중립",
    "score": 0,
    "evidences": [
@@ -15301,8 +15301,8 @@
    "date": "2026-01-29",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "4Q25",
-   "code": "",
+   "company": "Meta Platforms",
+   "code": "META US",
    "direction": "수혜",
    "score": 1,
    "evidences": [
@@ -15853,8 +15853,8 @@
    "date": "2026-02-05",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "4Q25",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "중립",
    "score": 0,
    "evidences": [
@@ -21683,8 +21683,8 @@
    "date": "2026-05-03",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "1Q26",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "수혜",
    "score": 3,
    "evidences": [
@@ -21701,8 +21701,8 @@
    "date": "2026-05-03",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "1Q26",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "수혜",
    "score": 2,
    "evidences": [
@@ -25781,8 +25781,8 @@
    "date": "2026-07-22",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "2Q26",
-   "code": "",
+   "company": "Alphabet",
+   "code": "GOOGL US",
    "direction": "수혜",
    "score": 2,
    "evidences": [
@@ -26614,8 +26614,8 @@
    "date": "2026-07-30",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "FY26",
-   "code": "",
+   "company": "Microsoft",
+   "code": "MSFT US",
    "direction": "피해",
    "score": -1,
    "evidences": [
@@ -26632,8 +26632,8 @@
    "date": "2026-07-30",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "FY26",
-   "code": "",
+   "company": "Microsoft",
+   "code": "MSFT US",
    "direction": "수혜",
    "score": 1,
    "evidences": [
@@ -27914,6 +27914,18 @@
    "post_url": "https://t.me/daolresearch/13988"
   },
   {
+   "company": "Alphabet",
+   "code": "GOOGL US",
+   "owner_analyst": "김혜영",
+   "owner_sector": "인터넷/게임/레저",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "date": "2026-05-05",
+   "evidence": "Tesla의 옵티머스 양산시작 임박, 메가트렌드를 알리다 - 자동차에서 로봇으로: 무한한 시장으로의 확장 - 온디바이스 – 중앙 AI – 거대 학습인프라로 이어지는 빅픽쳐의 시작 - Alphabet을 중심으로 World Model 상업화 자극: 현대차그룹 전면 수혜",
+   "title": "[다올투자증권 자동차 유지웅, 로봇 오정하] ★ 자동차&로봇(Overweight) - 메가트렌드의 시작",
+   "post_url": "https://t.me/daolresearch/14141"
+  },
+  {
    "company": "하이브",
    "code": "352820",
    "owner_analyst": "임도영",
@@ -27924,6 +27936,18 @@
    "evidence": "지배주주당기순이익은 2,097억원(+177.5% YoY, 흑전 QoQ)으로 지난 2월 하이브 주식 88만 주(3,208억원)에 대해 체결한 주가수익스왑 계약금액이 반영되어 컨센서스에 크게 상회",
    "title": "[넷마블(251270)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 1Q26 Review: 구조적 개선은 지속 ★ 70,000원(하향), BUY(유지)",
    "post_url": "https://t.me/daolresearch/14162"
+  },
+  {
+   "company": "Alphabet",
+   "code": "GOOGL US",
+   "owner_analyst": "김혜영",
+   "owner_sector": "인터넷/게임/레저",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "date": "2026-05-10",
+   "evidence": "공동 파트너 영입이 필요한 점에서 현재 파운데이션 모델을 공급해 주기로 한 Nvidia 또는 Alphabet 등의 참여 가능성도 높은 것으로 추정",
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 다가오는 6월, 결단의 시기",
+   "post_url": "https://t.me/daolresearch/14184"
   },
   {
    "company": "팬오션",
