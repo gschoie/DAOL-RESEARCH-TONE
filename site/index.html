@@ -117,6 +117,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .drill-charts h4{margin:0 0 8px;font-size:11px;color:#5b665f;letter-spacing:.05em}
 .tone-chart{width:100%;height:auto}
 .tone-chart .ax{font-size:15px;fill:#5b665f;font-weight:600}
+.conv-notes{margin-top:6px;border-top:1px dashed #e0e6e0;padding-top:5px}
+.conv-note{display:flex;gap:7px;align-items:baseline;font-size:10.5px;color:#5b665f;line-height:1.5;margin:2px 0}
+.conv-note small{color:var(--muted);white-space:nowrap}
+.conv-note b{color:#3c6b58;font-size:9px;letter-spacing:1px;white-space:nowrap}
+.conv-note span{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1}
 .street{margin:14px 0;border:1px solid #b9cde0;border-left:4px solid #3d6c9e;padding:12px 14px;background:#f3f7fc}
 .street-head{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin-bottom:7px}
 .street h4{margin:0;font-size:12.5px;color:#2d5480;letter-spacing:.04em;font-weight:700;white-space:nowrap}
@@ -352,7 +357,10 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
    .sort((a,b)=>b.r.date.localeCompare(a.r.date));
   leftPanel=`<div>${picks}<h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)">최근 변동순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
  }
- const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#3c6b58',fmt:v=>v})}</div></div>`;
+ // 확신도 점수의 '이유' — 최근 3건의 AI 한줄 요약을 차트 밑에 살짝
+ const convNotes=timeline.filter(r=>r.conviction!=null&&r.one_line).slice(-3).reverse()
+  .map(r=>`<div class="conv-note"><small>${mmdd(r.date)}</small><b>${'●'.repeat(r.conviction)}</b><span>${esc(r.one_line)}</span></div>`).join('');
+ const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#3c6b58',fmt:v=>v})}${convNotes?`<div class="conv-notes">${convNotes}</div>`:''}</div></div>`;
  const indBtn=(!key.startsWith('IND:')&&entry.sector&&state.tone2?.companies?.['IND:'+entry.sector])?`<button type="button" class="tone-ck modal-ind" data-ck="IND:${esc(entry.sector)}" title="${esc(entry.sector)} 산업자료 톤·의견 보기">${esc(entry.sector)} 산업 뷰 →</button>`:'';
  $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}${(()=>{const rev=timeline.slice().reverse();
   // 산업 모달(전략·시황 제외)의 위클리는 접이식 — 최신 1건만 펼침
