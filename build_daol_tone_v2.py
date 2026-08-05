@@ -364,7 +364,7 @@ def fill_tp_priors(timeline):
 
 def attach_point_diffs(timeline):
     """같은 기업 타임라인에서 직전 AI 리포트 대비 투자포인트 추가/소멸을 계산한다."""
-    prev_points = None
+    prev_points, prev_date = None, None
     for record in timeline:
         if not record['ai']:
             record['points_added'], record['points_dropped'] = [], []
@@ -375,7 +375,8 @@ def attach_point_diffs(timeline):
         else:
             record['points_added'] = [p for p in current if not any(same_point(p, q) for q in prev_points)]
             record['points_dropped'] = [q for q in prev_points if not any(same_point(q, p) for p in current)]
-        prev_points = current
+            record['points_prev_date'] = prev_date  # 직전 키워드의 출처 날짜(표시용)
+        prev_points, prev_date = current, record['date']
 
 
 def timeline_events(key, name, timeline):
@@ -409,7 +410,8 @@ def timeline_events(key, name, timeline):
         if record.get('points_added') or record.get('points_dropped'):
             added, dropped = record.get('points_added') or [], record.get('points_dropped') or []
             if added or dropped:
-                bits = ([f"신규: {', '.join(added)}"] if added else []) + ([f"제외: {', '.join(dropped)}"] if dropped else [])
+                prev_lbl = (record.get('points_prev_date') or '')[5:].replace('-', '.')
+                bits = ([f"신규: {', '.join(added)}"] if added else []) +                        ([f"{prev_lbl + ' 포인트' if prev_lbl else '직전'}: {', '.join(dropped)}"] if dropped else [])
                 events.append({**base, 'type': '투자포인트 변화', 'detail': ' · '.join(bits), 'evidence': ''})
         if opinion_class(record['opinion']):
             prev['opinion'] = record['opinion']; prev['opinion_class'] = opinion_class(record['opinion'])
