@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T03:37:06.711482+00:00",
+ "generated_at": "2026-08-05T07:28:44.157521+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1204,
  "hits": [
@@ -86,23 +86,6 @@
    "evidences": [
     "상정하고 있던 부담의 강도가 완화되고 있는 만큼 단기적으로 지수는 오버슈팅 영역에 진입할 가능성이 높아졌다고 판단 - 오버슈팅이라고 평가하는 이유는, 향후 한국 수출의 역성장 국면이 재개될 가능성이 높고(매크로 부진), 관세 관련 불확실성 재부각 여지 잔존(리스크 상존).",
     "엔비디아 호실적과 상호관세 무효화 판결에 상승 폭 확대한 미국증시는 이후 판결 효력 중단에 상승 제한."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (5월 5주차)]",
-   "post_url": "https://t.me/daolresearch/11682",
-   "source_url": "https://buly.kr/GP2nzcm"
-  },
-  {
-   "theme": "중국 경기/부양",
-   "category": "매크로",
-   "date": "2025-05-29",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "수혜",
-   "score": 1,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 미국보다 중국 경기 모멘텀이 강화되는 구간, 한국 소비 심리지표와도 상관성이 존재 - 소비자심리지수, 헤드라인은 급등했지만, 눈에 거슬리는 구직 난이도 지표의 상승 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/GP2nzcm"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (5월 5주차)]",
    "post_url": "https://t.me/daolresearch/11682",
@@ -579,23 +562,6 @@
    "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체/소부장 - 클라우드 캐파의 강한 숏티지 재확인",
    "post_url": "https://t.me/daolresearch/11746",
    "source_url": "https://buly.kr/1uPUL1"
-  },
-  {
-   "theme": "금리 사이클",
-   "category": "매크로",
-   "date": "2025-06-12",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 트레일링 PBR 기준 1배를 회복한 KOSPI, 멀티플 추가 확장 전에 이익에 대해서도 고민해 볼 필요 - FOMC와 BOJ를 앞두고 있지만, 각 통화 관련 투기적 포지션은 안정적인 흐름을 유지 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/44xqPGU"
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (6월 2주차)]",
-   "post_url": "https://t.me/daolresearch/11751",
-   "source_url": "https://buly.kr/44xqPGU"
   },
   {
    "theme": "환율/원화",
@@ -1388,9 +1354,10 @@
    "company": "에이피알",
    "code": "278470",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
-    "실적 추정치 상향 및 글로벌 화장품 PEER 주가 상승으로 적정주가 19만원 상향."
+    "• 실적 추정치 상향 및 글로벌 화장품 PEER 주가 상승으로 적정주가",
+    "Note: 글로벌 화장품 평균 PER 적용"
    ],
    "title": "[에이피알(278470)/ BUY(유지)/ TP 19만원(상향)/ 다올 화장품 박종현] ★ 2Q25E Preview: 빠졌어? 매수 기회잖아~",
    "post_url": "https://t.me/daolresearch/11866",
@@ -1405,10 +1372,10 @@
    "company": "POSCO홀딩스",
    "code": "005490",
    "direction": "피해",
-   "score": -3,
+   "score": -5,
    "evidences": [
     "당사 2026E 환율 전망치 하향조정으로 원가부담 완화 예상해 POSCO홀딩스 철강사업부문 가치 상향, 철강 글로벌 피어그룹 EV/EBITDA 상승 반영.",
-    "철광석과 강점탄 가격 낮은 수준 유지되고 있으며, 2분기 평균 원/달러 환율은 1,401원으로 1분기 대비 약 4% 하락해 원가 부담이 완화되었기 때문."
+    "• 당사 2026E 환율 전망치 하향조정으로 원가부담 완화 예상해 투자의견 BUY 유지, 적정주가 42만원으로 상향 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을"
    ],
    "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 42만원(상향)/ 다올 철강 이정우] ★ 원가완화에 반덤핑이 더해진다면",
    "post_url": "https://t.me/daolresearch/11867",
@@ -1984,23 +1951,6 @@
    "score": 0,
    "evidences": [
     "FOMC 의사록이 공개된 가운데 연준 위원들은 두 번의 금리인하에 동의하나 인하 시점에 있어 엇갈린 양상을 보임."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (7월 2주차)]",
-   "post_url": "https://t.me/daolresearch/11926",
-   "source_url": "https://buly.kr/A45luHP"
-  },
-  {
-   "theme": "환율/원화",
-   "category": "매크로",
-   "date": "2025-07-10",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 환율과도 밀접한 연관성을 가지는 국내 자금의 해외투자, 미국 증시 회복과 함께 재차 증가 - 1분기 실적시즌 이후 추가 하락이 방어되던 KOSPI 이익 전망치, 2분기 실적시즌 시작과 함께 하향 조정이 재개 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/A45luHP"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (7월 2주차)]",
    "post_url": "https://t.me/daolresearch/11926",
@@ -2654,7 +2604,7 @@
    "company": "현대건설",
    "code": "000720",
    "direction": "수혜",
-   "score": 6,
+   "score": 2,
    "evidences": [
     "2분기 실적 개선수준을 하반기 추정치에 반영하고, 원전에 대한 시장 관심을 반영하여 밸류에이션을 과거 정점 수준인 12개월 선행 PER 14배로 상향."
    ],
@@ -4031,7 +3981,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
     "달러 인덱스는 미국 경제성장률 예상치 상회 및 매파적인 연준 스탠스에 강세 보이며 주 후반 100포인트 돌파",
     "️ 차주 증시 전망(8/4~8/8) - 최근 증시는 펀더멘털보다 멀티플 요소를 중심으로 움직였고, 그 근간은 정책과 유동성, 전일 FOMC에서 연준의 완화적 통화정책에 대한 기대가 약화됐고 당분간 내부 정책 모멘텀도 소진된 상황이어서 지수의 탄력은 둔화될 여지."
@@ -4721,23 +4671,6 @@
    "source_url": "https://buly.kr/4xXxbtv"
   },
   {
-   "theme": "원전/우라늄",
-   "category": "원자재",
-   "date": "2025-08-07",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "수혜",
-   "score": 2,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 중국 상반기 성장을 견인했던 정부의 지원 효과 둔화 조짐, 하반기에도 정책 모멘텀에 주목 - 글로벌 Climate Tech 부문 VC 투자 동향: 원자력과 그리드/스토리지 부문의 투자 비중 증가세 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/4xXxbtv"
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 2주차)]",
-   "post_url": "https://t.me/daolresearch/12173",
-   "source_url": "https://buly.kr/4xXxbtv"
-  },
-  {
    "theme": "방산 수출",
    "category": "산업테마",
    "date": "2025-08-07",
@@ -4965,6 +4898,41 @@
    "source_url": "https://bit.ly/4fwrIzU"
   },
   {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2025-08-11",
+   "analyst": "오정하",
+   "sector": "운송/로봇",
+   "company": "운송",
+   "code": "",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "1) 여객 수요의 견조한 흐름이 이어지는 가운데, 2) 원화 강세 및 유 가 하락 등 항공사의 비용구조가 개선되며 펀더멘털 개선 여지가 있다.",
+    "인바운드: 방한 중국인에 주목 II-3: 아시아 장기휴일 II-4: FSC와 LCC 양극화 II-5: 항공기 공급 개선 중 II-6: 항공화물: 관세 영향 불가피 II-7 유가 빠지고 환율 빠지면 항공!"
+   ],
+   "title": "[운송(Overweight): 성장의 실마리| 다올 운송 오정하] ★ 운송 업종 커버리지 개시",
+   "post_url": "https://t.me/daolresearch/12211",
+   "source_url": "https://buly.kr/6ihYsCE"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-08-11",
+   "analyst": "오정하",
+   "sector": "운송/로봇",
+   "company": "운송",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "인바운드: 방한 중국인에 주목 II-3: 아시아 장기휴일 II-4: FSC와 LCC 양극화 II-5: 항공기 공급 개선 중 II-6: 항공화물: 관세 영향 불가피 II-7 유가 빠지고 환율 빠지면 항공!"
+   ],
+   "title": "[운송(Overweight): 성장의 실마리| 다올 운송 오정하] ★ 운송 업종 커버리지 개시",
+   "post_url": "https://t.me/daolresearch/12211",
+   "source_url": "https://buly.kr/6ihYsCE"
+  },
+  {
    "theme": "중국 경기/부양",
    "category": "매크로",
    "date": "2025-08-11",
@@ -4982,6 +4950,23 @@
    "source_url": "https://buly.kr/6ihYsCE"
   },
   {
+   "theme": "국내 정책/재정",
+   "category": "매크로",
+   "date": "2025-08-11",
+   "analyst": "오정하",
+   "sector": "운송/로봇",
+   "company": "운송",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "육상운송은 새 정부가 출범하며 소비심리 개선되어 물동량이 증가할 예정이다."
+   ],
+   "title": "[운송(Overweight): 성장의 실마리| 다올 운송 오정하] ★ 운송 업종 커버리지 개시",
+   "post_url": "https://t.me/daolresearch/12211",
+   "source_url": "https://buly.kr/6ihYsCE"
+  },
+  {
    "theme": "밸류업/주주환원",
    "category": "매크로",
    "date": "2025-08-11",
@@ -4989,10 +4974,28 @@
    "sector": "운송/로봇",
    "company": "운송",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
+    "최근 운송 업종에서는 1) 중국과 2) 주주환원 정책에 모멘텀이 있다고 판단한다.",
     "1) 중국, 2) 주주환원에 주목할 필요가 있음"
+   ],
+   "title": "[운송(Overweight): 성장의 실마리| 다올 운송 오정하] ★ 운송 업종 커버리지 개시",
+   "post_url": "https://t.me/daolresearch/12211",
+   "source_url": "https://buly.kr/6ihYsCE"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2025-08-11",
+   "analyst": "오정하",
+   "sector": "운송/로봇",
+   "company": "운송",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "인바운드: 방한 중국인에 주목 II-3: 아시아 장기휴일 II-4: FSC와 LCC 양극화 II-5: 항공기 공급 개선 중 II-6: 항공화물: 관세 영향 불가피 II-7 유가 빠지고 환율 빠지면 항공!"
    ],
    "title": "[운송(Overweight): 성장의 실마리| 다올 운송 오정하] ★ 운송 업종 커버리지 개시",
    "post_url": "https://t.me/daolresearch/12211",
@@ -5915,7 +5918,7 @@
    "score": -2,
    "evidences": [
     "트럼프 대통령이 사기 혐의로 리사 쿡 연준이사를 이사직에서 해임시키려 했으나, 쿡 이사가 소송을 진행하며 연준 독립성 우려 축소.",
-    "️ Key Chart & 핵심지표 - 6월 FOMC에 비해 연준 내 비둘기파 성향이 강화됐을 것으로 예상 - 중국 8월 중 확인된 경제지표 부진 심화에도 금리 상승 및 위안화 강세 시현 중 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/1n4RZQw"
+    "전주 금요일 파월 의장의 금리인하 시사에 상승 출발."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 5주차)]",
    "post_url": "https://t.me/daolresearch/12332",
@@ -6532,40 +6535,6 @@
    "source_url": "https://buly.kr/GP3Q3kT"
   },
   {
-   "theme": "미국 현지생산/리쇼어링",
-   "category": "미국공략",
-   "date": "2025-09-11",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 한국 ICT 수출의 선행지표 역할을 하는 미국 투자 이행률이 바닥을 형성 중 - 다시 10,000$ 문턱에 도달한 구리 가격."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 2주차)]",
-   "post_url": "https://t.me/daolresearch/12417",
-   "source_url": "https://buly.kr/GP3Q3kT"
-  },
-  {
-   "theme": "구리/비철금속",
-   "category": "원자재",
-   "date": "2025-09-11",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 한국 ICT 수출의 선행지표 역할을 하는 미국 투자 이행률이 바닥을 형성 중 - 다시 10,000$ 문턱에 도달한 구리 가격."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 2주차)]",
-   "post_url": "https://t.me/daolresearch/12417",
-   "source_url": "https://buly.kr/GP3Q3kT"
-  },
-  {
    "theme": "관세/무역분쟁",
    "category": "매크로",
    "date": "2025-09-12",
@@ -6768,23 +6737,6 @@
    "evidences": [
     "구윤철 부총리의 양도소득세 기준 현행 유지 발언과 연준 금리인하 기대감에 코스피 5거래일 연속 신고가 경신, 이후 차익실현 매물에 상승 폭 축소.",
     "FOMC 금리인하 이후 기술주 중심 강세 - DOW(+0.7%), S&P500(+0.7%), NASDAQ(+1.5%) 상승."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 3주차)]",
-   "post_url": "https://t.me/daolresearch/12455",
-   "source_url": "https://buly.kr/9iGfJjk"
-  },
-  {
-   "theme": "AI/데이터센터 투자",
-   "category": "미국공략",
-   "date": "2025-09-18",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 미국의 고용지표, 잘 버티고 있지만 불안한 상황인 것도 사실 - 여전히 상승세가 이어지고 있는 글로벌 반도체 세일즈, 아직 CAPEX의 집행도 남아 있는 상황 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/9iGfJjk"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 3주차)]",
    "post_url": "https://t.me/daolresearch/12455",
@@ -7736,10 +7688,27 @@
    "company": "Hype을",
    "code": "",
    "direction": "수혜",
-   "score": 2,
+   "score": 3,
    "evidences": [
     "투자전략 - 금리 인하 기조 속, 모멘텀 보유 - 금",
     "투자전략 - 금리 인하 기조 속, 모멘텀 보유 - 금리가 인하되면, 기업 가치는 얼마나?"
+   ],
+   "title": "[다올 의료기기 박종현] ★ Hype을 지나 II. 미용 의료와 치과만 성장했던 이유 - 건보 재정 압박 속, 수가 인상은 쉽지 않다 - 비급여의 성장이 빨랐던 이유 III. 가트너 Hype 커브 속 NGS와 의료 AI - 그래도 산업은 성장합니다 -",
+   "post_url": "https://t.me/daolresearch/12584",
+   "source_url": "https://buly.kr/GvnsbVI"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2025-10-13",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Hype을",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "환자나 의료 서비스 공급자가 해당 제품을 써야 할 이유가 있어야 한다."
    ],
    "title": "[다올 의료기기 박종현] ★ Hype을 지나 II. 미용 의료와 치과만 성장했던 이유 - 건보 재정 압박 속, 수가 인상은 쉽지 않다 - 비급여의 성장이 빨랐던 이유 III. 가트너 Hype 커브 속 NGS와 의료 AI - 그래도 산업은 성장합니다 -",
    "post_url": "https://t.me/daolresearch/12584",
@@ -7962,7 +7931,7 @@
    "company": "주간",
    "code": "",
    "direction": "수혜",
-   "score": 4,
+   "score": 3,
    "evidences": [
     "3Q25실적 이후에도 ESS기반 실적이 호조세를 보이는 근거 확산",
     "2차전지 주가랠리는 차후에도 ESS 수주 모멘텀과 동반될 수 있음."
@@ -8421,23 +8390,6 @@
    "evidences": [
     "높아진 지수대에서 사전 전망이 쉽지 않은 변수들이 존재하는 만큼 단기적으로는 관망 혹은 이벤트 결과에 따른 변동성 확대 우려가 존재 - 최근 민간 고용 지표들의 부진이 지속되고 있고, 기대 인플레이션 지표들이 안정되는 모습을 보이고 있다는 점에서 연준의 금리 인하 결정",
     "미국의 GDP 성장률과 PCE 물가 발표가 예정되어 있고, 미 연준의 FOMC와 기타 주요 경제권의 통화정책 회의가 예정되어 있음."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
-   "post_url": "https://t.me/daolresearch/12679",
-   "source_url": "https://buly.kr/4mdeYZX"
-  },
-  {
-   "theme": "환율/원화",
-   "category": "매크로",
-   "date": "2025-10-23",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 글로벌 증시 대비 한국 증시의 PBR 및 ROE 상대 강도 추이 - 투자활동에 따른 외화자금 유출입이라는 관점에서 접근해 본 원/달러 환율 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/4mdeYZX"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
    "post_url": "https://t.me/daolresearch/12679",
@@ -8922,10 +8874,28 @@
    "sector": "금융",
    "company": "우리금융지주",
    "code": "316140",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "• 그 외 영업외이익 단에서 동양생명·ABL생명 일회성 염가매수차익 예상보다 적은 -5bp였고, 분기 중 환율상승에 RWA 부담에도 순이익 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 2: (우리금융지주) 분기 실적 전망 (십억원)",
+    "보험이익 반영에도 전분기 외환평가이익 기저 영향"
+   ],
+   "title": "[우리금융지주(316140)/BUY(유지)/TP 33,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ 완성된 포트폴리오",
+   "post_url": "https://t.me/daolresearch/12729",
+   "source_url": "https://buly.kr/4QoAkan"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2025-10-29",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "우리금융지주",
+   "code": "316140",
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "보험이익 반영에도 전분기 외환평가이익 기저 영향"
+    "투자의견 BUY, 적정주가 33,000원 유지 2: (우리금융지주) 분기 실적 전망 (십억원) 8: (우리금융지주) 총주주환원율 전망 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에"
    ],
    "title": "[우리금융지주(316140)/BUY(유지)/TP 33,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ 완성된 포트폴리오",
    "post_url": "https://t.me/daolresearch/12729",
@@ -9084,7 +9054,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "이변없는 업종 최고 수준 총주주환원율 전망"
+    "이변없는 업종 최고 수준 총주주환원율 전망",
+    "업권 최고수준 전망 유지하고, 이변 없는 한 2026E 값도 최소 그 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 2: (KB금융) 분기 실적 전망 (십억원) 8: (KB금융) 총주주환원율 전망"
    ],
    "title": "[KB금융(105560)/BUY(유지)/TP 140,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ 이견없을 선두",
    "post_url": "https://t.me/daolresearch/12748",
@@ -9153,7 +9124,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "추가 주주환원 정책 필요 판단."
+    "추가 주주환원 정책 필요 판단.",
+    "회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 2: (iM금융지주) 분기 실적 전망 (십억원) 8: (iM금융지주) 총주주환원율 전망"
    ],
    "title": "[iM금융(139130)/BUY(유지)/TP 17,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ 성장과 건전성 관리의 적정선은",
    "post_url": "https://t.me/daolresearch/12753",
@@ -9167,11 +9139,11 @@
    "sector": "금융",
    "company": "NH투자증권",
    "code": "005940",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
-    "높은 주주환원 매력 지속.",
-    "총주주환원율과 연결 배당성향 업종 최고수준 전망 유지"
+    "투자의견 BUY, 적정주가 24,000원으로 상향 2025E 총주주환원율 53.0% 전망.",
+    "높은 주주환원 매력 지속."
    ],
    "title": "[NH투자증권(005940)/BUY(유지)/TP 24,000원(상향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 리테일 경쟁력 상승",
    "post_url": "https://t.me/daolresearch/12754",
@@ -9352,23 +9324,6 @@
    "source_url": "https://buly.kr/6Bxkw77"
   },
   {
-   "theme": "전력기기/전력망",
-   "category": "미국공략",
-   "date": "2025-10-30",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "수혜",
-   "score": 1,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 국내 증시와 직접 관련된 유동성 지표들의 증가세가 지속되고 있는 흐름 - 단기에 자금 유입이 이례적으로 강하게 유입된 전력망 ETF와 신고가 영역에 진입한 구리 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/6Bxkw77"
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
-   "post_url": "https://t.me/daolresearch/12763",
-   "source_url": "https://buly.kr/6Bxkw77"
-  },
-  {
    "theme": "구리/비철금속",
    "category": "원자재",
    "date": "2025-10-30",
@@ -9376,10 +9331,9 @@
    "sector": "전략/시황",
    "company": "산업/기타",
    "code": "",
-   "direction": "수혜",
-   "score": 1,
+   "direction": "중립",
+   "score": 0,
    "evidences": [
-    "️ Key Chart & 핵심지표 - 국내 증시와 직접 관련된 유동성 지표들의 증가세가 지속되고 있는 흐름 - 단기에 자금 유입이 이례적으로 강하게 유입된 전력망 ETF와 신고가 영역에 진입한 구리 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/6Bxkw77",
     "KOSPI는 디스플레이(+8.2%), 반도체(+5.5%), IT가전(+1.6%) 업종이 상승한 가운데 증권(-5.4%), 운송(-4.6%), 비철,목재등(-4.2%) 업종 하락."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
@@ -9672,7 +9626,7 @@
    "company": "현대건설",
    "code": "000720",
    "direction": "피해",
-   "score": -3,
+   "score": -1,
    "evidences": [
     "잠재 부실 현장으로 인해 실적 방향성 가늠하기 어려운 시점 - 원전 시장 확대에 대한 긍정적 분위기 반영하여 밸류에이션 멀티플은 과거 상단 14배로 유지하지만 실적 추정치 하향으로 적정주가를 77,000원으로 하향하고 투자의견 Hold로 하향."
    ],
@@ -10270,6 +10224,23 @@
    "source_url": "https://bit.ly/49cpW5W"
   },
   {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-11-09",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "리허설",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "2025년 엔터 4사 합산 시가총액은 과거 음반 판매 피크아웃에서 벗어나 공연·MD 중심의 신규 성장 동력 확인, 낮은 관세 영향, 메가 IP 컴백 및 한한령 해제 기대감이 맞물리며 YTD+43%의 성장을 시현했다."
+   ],
+   "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 리허설 끝, 본무대 시작: 엔터 업종 커버리지 개시",
+   "post_url": "https://t.me/daolresearch/12851",
+   "source_url": "https://buly.kr/2qZPvHU"
+  },
+  {
    "theme": "K콘텐츠",
    "category": "산업테마",
    "date": "2025-11-09",
@@ -10278,7 +10249,7 @@
    "company": "리허설",
    "code": "",
    "direction": "수혜",
-   "score": 9,
+   "score": 17,
    "evidences": [
     "숏폼과 스트리밍 기반 글로벌 팬덤의 조기 구축을 통해 저연차 IP들의 수익화 기간 단축 - 메가 IP 활동 재개와 고연차·저연차 IP들의 투어 확대·개시 사이클이 맞물리며 멀티팬덤 성향과 라이브 공연 문화에 친숙한 해외 팬덤 특성상 낙수효과 기대 - IP간 팬덤 지역별 분포 유사성 분석을 통한 메가 IP 낙수효과 수혜 가능성 비교.",
     "떠오르는 성장 동력, MD - 과거 음반 중심에서 음원·공연·공연 MD로 성장 축 이동."
@@ -10389,6 +10360,23 @@
    "title": "[조선(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ ESG 및 조선산업: CCUS, LCO2, 그리고 HD현대중공업 합병 시너지",
    "post_url": "https://t.me/daolresearch/12877",
    "source_url": "https://bit.ly/ESGMIPO"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-11-11",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "2026",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Summary & Focus Chart 2025년 이후 글로벌 제약사는 MFN 모델 확대, 미국 관세 리스크, 공급망 재편 등 규제/정책 변수에 직면하면서 투자 전략이 더욱 선택적이고 보수적으로 변화 하고 있다."
+   ],
+   "title": "[제약/바이오(Overweight) 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 2026 연간 전망: 새롭거나 확실하거나",
+   "post_url": "https://t.me/daolresearch/12878",
+   "source_url": "https://buly.kr/9MRSwO5"
   },
   {
    "theme": "비만/GLP-1",
@@ -10613,7 +10601,6 @@
    "direction": "피해",
    "score": -1,
    "evidences": [
-    "️ Key Chart & 핵심지표 - 대외자산의 빠른 증가와 낮은 단기외채 비중은 환율 부담을 완화시켜주는 요인 - 2026년 이익 전망, 여전히 반도체의 상대 강도가 우위 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/9tBkdF5",
     "원/달러 환율 급등 부담에 상승폭이 제한되는 모습을 보이기도 했으나, 재차 4,100pt대에 안착 중."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
@@ -11164,8 +11151,8 @@
    "sector": "전략/시황",
    "company": "산업/기타",
    "code": "",
-   "direction": "피해",
-   "score": -1,
+   "direction": "중립",
+   "score": 0,
    "evidences": [
     "이후 엔비디아 호실적에 우려가 다소 해소되자 반도체 랠리 재개, 조선·화장품 등 개별 호재 업종이 동반 강세를 보이며 4,000선까지 회복 마감 - DOW(-1.4%), S&P500(-1.4%), NASDAQ(-2.0%) 하락.",
     "KOSPI는 호텔,레저서비스(+10.9%), IT하드웨어(+6.1%), 화장품,의류,완구(+3.9%) 업종이 상승한 가운데 증권(-5.3%), 보험(-5.2%), 디스플레이(-4.3%) 업종 하락.버크셔의 알파벳 매수 소식에 상승 출발했으나, 피터 틸의 엔비디아 매도 등 AI 버블 우려속 외국인 매물이 출회되며 4,000선 붕괴."
@@ -11740,27 +11727,11 @@
    "sector": "의료기기/화장품",
    "company": "Peak",
    "code": "",
-   "direction": "피해",
-   "score": -1,
-   "evidences": [
-    "동남아 침투 일부 확인되나, 미국 관세 장벽이 C뷰티 글로벌화를 막는 주요 원인 C뷰티 내에서도 세대 교체 중으로 1세대 프로야는 마오 거핑에 시가총액 추월 중기: 실리콘투의 유동성/ 에이피알의 단일 브랜드 실리콘투 재고자산 회전율이 최대 리스크 지표."
-   ],
-   "title": "[의료기기/화장품(Overweight) / 다올 박종현] ★ Peak out 세상에는 3가지 금기어가 있다. 야구의 “입스”, 해리포터의 “볼드모트”, 주식 시장의 “피크아웃”. 피크아웃이라는 표현이 쓰이는 순간, 그 업종은 피크아웃 우려에서 벗어나기",
-   "post_url": "https://t.me/daolresearch/13017",
-   "source_url": "https://buly.kr/FLZLBMO"
-  },
-  {
-   "theme": "중국 경기/부양",
-   "category": "매크로",
-   "date": "2025-11-30",
-   "analyst": "박종현",
-   "sector": "의료기기/화장품",
-   "company": "Peak",
-   "code": "",
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "미용 의료기기 미국 + 중국 시장 진출 앞두고 있음 미국은 최대 시장."
+    "동남아 침투 일부 확인되나, 미국 관세 장벽이 C뷰티 글로벌화를 막는 주요 원인 C뷰티 내에서도 세대 교체 중으로 1세대 프로야는 마오 거핑에 시가총액 추월 중기: 실리콘투의 유동성/ 에이피알의 단일 브랜드 실리콘투 재고자산 회전율이 최대 리스크 지표.",
+    "다만, 미국에서 현재 트럼프 정권 관세 정책 하 중국 화장품 은 추가 관세가 부여되고 있어 K뷰티 대비 침투율 확대를 보이고 있지 못하다."
    ],
    "title": "[의료기기/화장품(Overweight) / 다올 박종현] ★ Peak out 세상에는 3가지 금기어가 있다. 야구의 “입스”, 해리포터의 “볼드모트”, 주식 시장의 “피크아웃”. 피크아웃이라는 표현이 쓰이는 순간, 그 업종은 피크아웃 우려에서 벗어나기",
    "post_url": "https://t.me/daolresearch/13017",
@@ -11774,10 +11745,11 @@
    "sector": "의료기기/화장품",
    "company": "Peak",
    "code": "",
-   "direction": "피해",
-   "score": -1,
+   "direction": "중립",
+   "score": 0,
    "evidences": [
-    "동남아 침투 일부 확인되나, 미국 관세 장벽이 C뷰티 글로벌화를 막는 주요 원인 C뷰티 내에서도 세대 교체 중으로 1세대 프로야는 마오 거핑에 시가총액 추월 중기: 실리콘투의 유동성/ 에이피알의 단일 브랜드 실리콘투 재고자산 회전율이 최대 리스크 지표."
+    "동남아 침투 일부 확인되나, 미국 관세 장벽이 C뷰티 글로벌화를 막는 주요 원인 C뷰티 내에서도 세대 교체 중으로 1세대 프로야는 마오 거핑에 시가총액 추월 중기: 실리콘투의 유동성/ 에이피알의 단일 브랜드 실리콘투 재고자산 회전율이 최대 리스크 지표.",
+    "다만, 미국에서 현재 트럼프 정권 관세 정책 하 중국 화장품 은 추가 관세가 부여되고 있어 K뷰티 대비 침투율 확대를 보이고 있지 못하다."
    ],
    "title": "[의료기기/화장품(Overweight) / 다올 박종현] ★ Peak out 세상에는 3가지 금기어가 있다. 야구의 “입스”, 해리포터의 “볼드모트”, 주식 시장의 “피크아웃”. 피크아웃이라는 표현이 쓰이는 순간, 그 업종은 피크아웃 우려에서 벗어나기",
    "post_url": "https://t.me/daolresearch/13017",
@@ -11895,7 +11867,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "피해",
-   "score": -6,
+   "score": -3,
    "evidences": [
     "블랙프라이데이 소비 기대에도 BOJ 긴축 우려와 비트코인 급락에 하락 출발했으나, ADP 민간 고용 부진에 따른 12월 금리인하 기대감 고조로 반등.",
     "이후 마이크로소프트의 AI 목표 하향이 기술주 투심을 제한하고, 고용 지표 혼조 속 FOMC 경계감이 짙어지며 혼조세로 마감"
@@ -12175,10 +12147,10 @@
    "company": "모든",
    "code": "",
    "direction": "수혜",
-   "score": 1,
+   "score": 3,
    "evidences": [
     "12월 중에는 이전에 수입되었던 수입산 재고의 소진을 예상해 2026E부터 반덤핑 관세 부과에 따른 판매량 증가를 전망",
-    "낮은 열연 수입 기조 유지 열연 반덤핑관세 부과가 시작된 이후 낮은 열연 수입 기조는 지속 중."
+    "감산이 지속되면서 순수출량은 정점 통과 판단 재고의 소진을 예상해 2026E부터 반덤핑 관세 부과에 따른 판매량 증가를 전망  철광석 가격 톤당 $100 하회 전망 유지."
    ],
    "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 모든 것은 예정대로",
    "post_url": "https://t.me/daolresearch/13080",
@@ -12210,10 +12182,10 @@
    "company": "모든",
    "code": "",
    "direction": "수혜",
-   "score": 1,
+   "score": 3,
    "evidences": [
     "중국의 감산이 이어지는 도중의 철광석 생산량의 증가는 철광석 공급과잉의 심화로 귀결.",
-    "낮은 열연 수입 기조 유지 열연 반덤핑관세 부과가 시작된 이후 낮은 열연 수입 기조는 지속 중."
+    "감산이 지속되면서 순수출량은 정점 통과 판단 재고의 소진을 예상해 2026E부터 반덤핑 관세 부과에 따른 판매량 증가를 전망  철광석 가격 톤당 $100 하회 전망 유지."
    ],
    "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 모든 것은 예정대로",
    "post_url": "https://t.me/daolresearch/13080",
@@ -12297,7 +12269,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "피해",
-   "score": -1,
+   "score": -2,
    "evidences": [
     "12월 FOMC 경계감 속에서도 LG에너지솔루션 수주 호재와 SK하이닉스 미국 상장 기대감 등에 힘입어 4,150pt선을 상회.",
     "ECB의 매파적 발언과 12월 FOMC에 대한 경계감에 하락 출발했으나, 연준의 25bp 인하 등 비둘기파적 행보에 상승 전환."
@@ -12314,11 +12286,10 @@
    "sector": "전략/시황",
    "company": "산업/기타",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "피해",
+   "score": -1,
    "evidences": [
-    "그러나 금융시장의 리스크에 대한 연준의 적극적인 대응 의지 및 수단이 남아 있음을 시사한 것으로 볼 수도 있어 불안감이 형성된다 해도 단기에 그칠 것으로 판단 - 금리 정책과 AI 투자의 지속성에 대한 불안감이 여전히 시장에 잔존",
-    "️ Key Chart & 핵심지표 - AI 투자 집행 기업들의 회사채 발행이 빠르게 증가하는 중 - 유동성 환경이 너무 박해지는 것을 방어하고 싶은 의지를 피력한 연준 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/2JpKZtz"
+    "그러나 금융시장의 리스크에 대한 연준의 적극적인 대응 의지 및 수단이 남아 있음을 시사한 것으로 볼 수도 있어 불안감이 형성된다 해도 단기에 그칠 것으로 판단 - 금리 정책과 AI 투자의 지속성에 대한 불안감이 여전히 시장에 잔존"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (12월 2주차)]",
    "post_url": "https://t.me/daolresearch/13099",
@@ -13765,7 +13736,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "자동차: 자동차에서 로봇 생태계로 진화 (1) AI 로보틱스 생태계로 진입하는 자동차 산업 (2) 보스턴다이나믹스, 기업가치 100조 원의 조건 (3) 로봇은 현대차그룹의 지배구조 재편의 새로운 동력 (4) Nvidia의 Alpamayo vs Tesla의 FSD"
+    "자동차: 자동차에서 로봇 생태계로 진화 (1) AI 로보틱스 생태계로 진입하는 자동차 산업 (2) 보스턴다이나믹스, 기업가치 100조 원의 조건 (3) 로봇은 현대차그룹의 지배구조 재편의 새로운 동력 (4) Nvidia의 Alpamayo vs Tesla의 FSD",
+    "Nvidia의 Alpamayo vs Tesla의 FSD 23 Ⅲ."
    ],
    "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
    "post_url": "https://t.me/daolresearch/13272",
@@ -13784,6 +13756,24 @@
    "evidences": [
     "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하]",
     "자동차: 자동차에서 로봇 생태계로 진화 (1) AI 로보틱스 생태계로 진입하는 자동차 산업 (2) 보스턴다이나믹스, 기업가치 100조 원의 조건 (3) 로봇은 현대차그룹의 지배구조 재편의 새로운 동력 (4) Nvidia의 Alpamayo vs Tesla의 FSD"
+   ],
+   "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
+   "post_url": "https://t.me/daolresearch/13272",
+   "source_url": "https://buly.kr/CB5wkEB"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-01-11",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "company": "CES",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "지배구조 개편의 강력한 단서도 확인 | 관심종목: 현대차, 현대모비스, 현대글로비스, 에스엘 등 - 자동차 산업 이후 최초의 대량생산 제조 혁명 시작: Boston Dynamics의 대량양산 Timeline 공개 시작.",
+    "2030년 3만 대, 미국 중심 제조 생태계 형성 임박 - Boston Dynamics의 Atlas Spec 공개로, 기존 휴머노이드와의 경쟁우위 확인."
    ],
    "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
    "post_url": "https://t.me/daolresearch/13272",
@@ -14567,9 +14557,8 @@
    "company": "산업/기타",
    "code": "",
    "direction": "피해",
-   "score": -3,
+   "score": -1,
    "evidences": [
-    "그러나 이익 전망치의 상향조정이 지수의 상승을 뒷받침해주는 국면인 만큼 부담해소 국면이 나타난다 해도 깊은 가격조정 우려는 제한적 - 다음주 미 연준 FOMC는 금리 동결 가능성이 높게 전망되나, 아직 인하 경로에 위치하고 있다는 점과 시장의 전망이 이미 일시 동결을 인지하고 있다는 점에서 1월 동결 자체가 큰 부담 요인은 아닌 것으로 판단.",
     "그러나 이익 전망치의 상향조정이 지수의 상승을 뒷받침해주는 국면인 만큼 부담해소 국면이 나타난다 해도 깊은 가격조정 우려는 제한적 - 다음주 미 연준 FOMC는 금리 동결 가능성이"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (1월 4주차)]",
@@ -14603,9 +14592,8 @@
    "company": "산업/기타",
    "code": "",
    "direction": "피해",
-   "score": -3,
+   "score": -1,
    "evidences": [
-    "그러나 이익 전망치의 상향조정이 지수의 상승을 뒷받침해주는 국면인 만큼 부담해소 국면이 나타난다 해도 깊은 가격조정 우려는 제한적 - 다음주 미 연준 FOMC는 금리 동결 가능성이 높게 전망되나, 아직 인하 경로에 위치하고 있다는 점과 시장의 전망이 이미 일시 동결을 인지하고 있다는 점에서 1월 동결 자체가 큰 부담 요인은 아닌 것으로 판단.",
     "그러나 이익 전망치의 상향조정이 지수의 상승을 뒷받침해주는 국면인 만큼 부담해소 국면이 나타난다 해도 깊은 가격조정 우려는 제한적 - 다음주 미 연준 FOMC는 금리 동결 가능성이"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (1월 4주차)]",
@@ -14794,7 +14782,7 @@
    "company": "삼성E&A",
    "code": "028050",
    "direction": "피해",
-   "score": -2,
+   "score": -1,
    "evidences": [
     "수주는 우려대로 부진했으나, 사우디 파딜리 프로젝트 매출 본격화와 관계사 공사 효과의 단기 매출인식 효과로 매출 방어 - 당초 주주환원 가이던스를 상회하는 배당(주당 790원, 시가배당률 3.2%) 결정.",
     "이익 방어가 되는 상황에서 주주환원 수준 상향."
@@ -15798,10 +15786,9 @@
    "company": "현대건설",
    "code": "000720",
    "direction": "수혜",
-   "score": 3,
+   "score": 1,
    "evidences": [
-    "원전 수주 시점 근접, 선행하는 주가와 실적간 시차 발생 - 실적 추정은 당초 전망 수준 유지하나, 시장 상승 반영 및 원전 수주 시점 근접을 고려, 2027E EPS에 과거 최상단 12M Fwd PER 23배 적용, 적정주가는 121,000원으로 상향하지만 업사이드 제한되어 투자의견 Hold 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/1n5NZtc",
-    "원전 수주 시점 근접, 선행하는 주가와 실적간 시차 발생 - 실적 추정은 당초 전망 수준 유지하나, 시장 상승 반영 및 원전 수주 시점 근접을 고려, 2027E EPS에 과거 최상단 12M Fwd PER 23배 적용, 적정주가는 121,000원으로 상향하지만 업사이드 제한되어 투자의견 Hold 유지"
+    "원전 수주 시점 근접, 선행하는 주가와 실적간 시차 발생 - 실적 추정은 당초 전망 수준 유지하나, 시장 상승 반영 및 원전 수주 시점 근접을 고려, 2027E EPS에 과거 최상단 12M Fwd PER 23배 적용, 적정주가는 121,000원으로 상향하지만 업사이드 제한되어 투자의견 Hold 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/1n5NZtc"
    ],
    "title": "[현대건설(000720)/HOLD(유지)/TP 121,000원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 실적과 전망의 시차",
    "post_url": "https://t.me/daolresearch/13505",
@@ -15923,23 +15910,6 @@
    "score": 0,
    "evidences": [
     "KOSPI는 은행(+7.6%), 소매(유통)(+7.1%), 호텔,레저서비스(+5.9%) 업종이 상승한 가운데 비철,목재등(-8.6%), 소프트웨어(-5.2%), 반도체(-3.5%) 업종 하락."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (2월 1주차)]",
-   "post_url": "https://t.me/daolresearch/13518",
-   "source_url": "https://buly.kr/8phhAsF"
-  },
-  {
-   "theme": "금/귀금속",
-   "category": "원자재",
-   "date": "2026-02-05",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "피해",
-   "score": -2,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 가끔씩 볼만한 금/은가격 스프레드와 러셀/S&P 주가 스프레드 - 8일 실시되는 일본 총선, 과도한 감세에 대한 우려는 엔화 약세를 심화시킬 수 있다는 점에서 유의 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/8phhAsF"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (2월 1주차)]",
    "post_url": "https://t.me/daolresearch/13518",
@@ -16112,10 +16082,9 @@
    "company": "DL이앤씨",
    "code": "375500",
    "direction": "수혜",
-   "score": 4,
+   "score": 2,
    "evidences": [
-    "안정적 재무구조로 수주 확대 기초체력은 충분, 실제 성과로 의지 확인 필요 - SMR에 대한 기대감을 고려, 적정주가 산정 기준시점을 Fwd24OP로 적용, 적정주가를 49,000원으로 상향하나 업사이드 제한되어 투자의견 Hold 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/DaQAkLi",
-    "안정적 재무구조로 수주 확대 기초체력은 충분, 실제 성과로 의지 확인 필요 - SMR에 대한 기대감을 고려, 적정주가 산정 기준시점을 Fwd24OP로 적용, 적정주가를 49,000원으로 상향하나 업사이드 제한되어 투자의견 Hold 유지"
+    "안정적 재무구조로 수주 확대 기초체력은 충분, 실제 성과로 의지 확인 필요 - SMR에 대한 기대감을 고려, 적정주가 산정 기준시점을 Fwd24OP로 적용, 적정주가를 49,000원으로 상향하나 업사이드 제한되어 투자의견 Hold 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/DaQAkLi"
    ],
    "title": "[DL이앤씨(375500)/HOLD(유지)/TP 49,000원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 4Q25 Review: 의지만 확인된다면",
    "post_url": "https://t.me/daolresearch/13539",
@@ -16236,7 +16205,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 4,
+   "score": 2,
    "evidences": [
     "️ 대형주 추정치 상향 이벤트② Equinix 실적발표(2/12) - 데이터센터 부지 관리 업체(Colocation)인 Equinix → 향후 데이터센터 캐파 숏티지 강도의 선행지표 - 임대부지 매입 확대(공급) < 글로벌 서버 투자 계획(수요)"
    ],
@@ -16253,10 +16222,9 @@
    "company": "대우건설",
    "code": "047040",
    "direction": "수혜",
-   "score": 3,
+   "score": 1,
    "evidences": [
-    "비용 반영으로 2026 정상수준 이익 회귀 가능성 높아짐 - 팀코리아 원전 기대감으로 인한 오버슈팅 가능성 반영하여, 적정주가 산정기준을 Fwd24 EPS에 과거 기간 (2002~2025) 평균 PER 8.5배를 적용, 적정주가를 6,600원으로 상향하나, 업사이드 제한되어 투자의견 Hold 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/EI5D2Ct",
-    "비용 반영으로 2026 정상수준 이익 회귀 가능성 높아짐 - 팀코리아 원전 기대감으로 인한 오버슈팅 가능성 반영하여, 적정주가 산정기준을 Fwd24 EPS에 과거 기간 (2002~2025) 평균 PER 8.5배를 적용, 적정주가를 6,600원으로 상향하나, 업사이드 제한되어 투자의견 Hold 유지"
+    "비용 반영으로 2026 정상수준 이익 회귀 가능성 높아짐 - 팀코리아 원전 기대감으로 인한 오버슈팅 가능성 반영하여, 적정주가 산정기준을 Fwd24 EPS에 과거 기간 (2002~2025) 평균 PER 8.5배를 적용, 적정주가를 6,600원으로 상향하나, 업사이드 제한되어 투자의견 Hold 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/EI5D2Ct"
    ],
    "title": "[대우건설(047040)/HOLD(유지)/TP 6,600원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 대규모 손실 반영",
    "post_url": "https://t.me/daolresearch/13556",
@@ -16279,23 +16247,6 @@
    "title": "[다올투자증권 운송 오정하] 제주항공(089590): 일본 호황 속 구조적 수혜 국면 - 4Q25 연결 186억원(흑자전환), 컨센서스 -234억원을 상회함. 일본노선 확대(매출 비중 42%) 주효 - 국제선 운임이 85원(+23%)를 기록했는데, 공",
    "post_url": "https://t.me/daolresearch/13557",
    "source_url": "https://buly.kr/CqaYt1"
-  },
-  {
-   "theme": "K뷰티 수출",
-   "category": "미국공략",
-   "date": "2026-02-11",
-   "analyst": "박종현",
-   "sector": "의료기기/화장품",
-   "company": "휴젤",
-   "code": "145020",
-   "direction": "수혜",
-   "score": 2,
-   "evidences": [
-    "글로벌 화장품 평균 PER 30배 적용하여 적정 PER 상향 조정하며, 적정주가 41만원 상향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/3u4VsHz > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-   ],
-   "title": "[휴젤(145020)/ BUY(유지)/ TP 41만원(상향)/ 다올 의료기기 박종현] ★ 4Q25P Review: 미국 직판으로 돈벌기. 가능하겠는데?",
-   "post_url": "https://t.me/daolresearch/13578",
-   "source_url": "https://buly.kr/3u4VsHz"
   },
   {
    "theme": "밸류업/주주환원",
@@ -16483,23 +16434,6 @@
    "score": -1,
    "evidences": [
     "이후 AI가 소프트웨어 업종을 대체할 것이란 우려가 재차 부각되며 하락 전환"
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (2월 2주차)]",
-   "post_url": "https://t.me/daolresearch/13596",
-   "source_url": "https://buly.kr/5JOa5sc"
-  },
-  {
-   "theme": "AI/데이터센터 투자",
-   "category": "미국공략",
-   "date": "2026-02-12",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 최근 10여년간 구정 연휴 증시 퍼포먼스 및 당시 주요 이벤트 정리 - 활발하게 이루어지고 있는 AI 투자 관련 기업들의 자금 조달."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (2월 2주차)]",
    "post_url": "https://t.me/daolresearch/13596",
@@ -17334,8 +17268,7 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "3차 상법 개정안 본회의 통과에 따라 자사주 611만주(11.7%) 소각됨에 따라 주가 상승 기대할 수 있으나, 당사 밸류에이션은 자사주 제외한 유통주식수로 적정주가 산정했기에",
-    "3차 상법 개정안 본회의 통과에 따라 자사주 611만주(11.7%) 소각됨에 따라 주가 상승 기대할 수 있으나, 당사 밸류에이션은 자사주 제외한 유통주식수로 적정주가 산정했기에 당사 적정주가에 기반영 * 보고서 원문 및 컴플라이언스 < https://buly.kr/3YF5M18 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
+    "3차 상법 개정안 본회의 통과에 따라 자사주 611만주(11.7%) 소각됨에 따라 주가 상승 기대할 수 있으나, 당사 밸류에이션은 자사주 제외한 유통주식수로 적정주가 산정했기에"
    ],
    "title": "[씨젠(096530)/ BUY(유지)/ TP 3.5만원(하향)/ 다올 의료기기 박종현] ★ 4Q25P Review: 2보 전진 위한 1보 후퇴",
    "post_url": "https://t.me/daolresearch/13678",
@@ -17532,6 +17465,23 @@
    "source_url": "https://buly.kr/5UJRaik"
   },
   {
+   "theme": "비만/GLP-1",
+   "category": "산업테마",
+   "date": "2026-03-02",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "Who",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "기존 GLP-1의 근 육 손실을 해결할 병용 파트너, 연 1~2회 투여만으로 질환의 근본 원인을 차단할 RNA 기술 등 확실한 효능을 담보할 전략적 자산 확보에 집중하고 있다."
+   ],
+   "title": "[제약/바이오(Overweight) 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ Who’s Next?: 특허 절벽 이후 빅파마의 선택",
+   "post_url": "https://t.me/daolresearch/13689",
+   "source_url": "https://buly.kr/5UJRaik"
+  },
+  {
    "theme": "로봇/자동화",
    "category": "산업테마",
    "date": "2026-03-02",
@@ -17593,7 +17543,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "피해",
-   "score": -4,
+   "score": -2,
    "evidences": [
     "현황점검 및 투자전략 아이디어 - 상반월은 리스크 관리에 초점 - 2월 수출 서프라이즈, 다만 실적 전망치 상향조정 속도 둔화 - 2월 금통위: 비둘기파적 동결 - 미국·이란 지정학적 리스크 - 사모대출 현황과 관세 위법판결 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/1cAm1YO"
    ],
@@ -17610,7 +17560,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "피해",
-   "score": -4,
+   "score": -2,
    "evidences": [
     "현황점검 및 투자전략 아이디어 - 상반월은 리스크 관리에 초점 - 2월 수출 서프라이즈, 다만 실적 전망치 상향조정 속도 둔화 - 2월 금통위: 비둘기파적 동결 - 미국·이란 지정학적 리스크 - 사모대출 현황과 관세 위법판결 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/1cAm1YO"
    ],
@@ -17733,7 +17683,7 @@
    "company": "삼성전기",
    "code": "009150",
    "direction": "수혜",
-   "score": 10,
+   "score": 6,
    "evidences": [
     "적정주가 47만원으로 상향 - 사업부별 성장성•수익성 편차가 커짐에 따라, 개별적인 가치 산정 진행 - 컴포넌트 사업부의 EV/EBITDA 멀티플은 Murata•Yageo•Walsin의 17~18년 호황기 고점 평균 대비 20% 할증 → 할증 근거: ① 현재 가격 인상 초입 단계, ② AI 서버/전장/산업용 중심 수요 주도 → 이익 퀄리티 개선, 과거 대비 길어질 사이클 - 패키지솔루션과 광학솔루션은 각각 글로벌 피어 평균 배",
     "이번 MLCC 가격 사이클은 공급 충격이 아닌 수요 확대에서 출발 - 과거 17~18년 호황기는 Tier1의 범용 제품 단종이 초래한 공급 충격이 주도 → 재고 축적과 double ordering이 꺾이며 18년 하순부터 불황으로 반전 - 반면 이번 MLCC 호황은 AI 서버용 수요의 구조적 확대가 출발점, 과거와 달리 실수요가 견인하는 구조 → 가격 인상 사이클의 지속성은 과거 대비 길어질 가능성이 높음"
@@ -18129,23 +18079,6 @@
    "source_url": "https://buly.kr/BTRGZoQ"
   },
   {
-   "theme": "방산 수출",
-   "category": "산업테마",
-   "date": "2026-03-12",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "반등국면은 결국 이익 전망치의 가시성이 높고 가격 부담이 완화된 반도체와 증권업종 등이 주도할 가능성이 높으나, 변동성 국면에서는 대외 변수들에 대한 저항력이 높은 업종(조선, 방산, 은행, 보험, 통신 등)이 유용해 보임."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (3월 2주차)]",
-   "post_url": "https://t.me/daolresearch/13769",
-   "source_url": "https://buly.kr/BTRGZoQ"
-  },
-  {
    "theme": "K콘텐츠",
    "category": "산업테마",
    "date": "2026-03-12",
@@ -18154,10 +18087,10 @@
    "company": "2월",
    "code": "",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
     "그 외 투어스가 구보 4만장을 판매하며 전월(1.8만장) 대비 2배 이상 증가, 챌린지 화제 이후 팬덤 유입이 지속되는 모습.",
-    "[YG] 블랙핑크는 2/27 컴백 이후 음반 판매량은 호조를 기록했으나 작년 7월 발매된 디싱 대비 글로벌 음원 부문에서는 아쉬운 초기 성과 기록 중."
+    "2월 음반원 업데이트 1) 음반 판매량 업데이트"
    ],
    "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 2월 음반원 업데이트 1) 음반 판매량 업데이트",
    "post_url": "https://t.me/daolresearch/13771",
@@ -18305,6 +18238,23 @@
    "source_url": "https://buly.kr/7QNr6Q3"
   },
   {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-03-16",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "글로벌",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "금리 인하기, 바이오텍 대비 퍼포먼스는 아쉽다 III-3."
+   ],
+   "title": "[의료기기(Overweight) / 다올투자증권 박종현] ★ 글로벌 시장을 향한 두 갈래 길",
+   "post_url": "https://t.me/daolresearch/13785",
+   "source_url": "https://buly.kr/DwFtkbh"
+  },
+  {
    "theme": "로봇/자동화",
    "category": "산업테마",
    "date": "2026-03-16",
@@ -18333,7 +18283,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "후발주자인 Medtronic과 Boston Scientific이 경쟁위해 M&A 중"
+    "후발주자인 Medtronic과 Boston Scientific이 경쟁위해 M&A 중",
+    "Summary & Focus Chart 글로벌 의료기기 산업: 플랫폼 기업의 구조적 우위 글로벌 의료기기 산업은 Johnson & Johnson, Medtronic, Stryker, Boston Scientific 등 대형 기업들이 주도한다."
    ],
    "title": "[의료기기(Overweight) / 다올투자증권 박종현] ★ 글로벌 시장을 향한 두 갈래 길",
    "post_url": "https://t.me/daolresearch/13785",
@@ -18442,6 +18393,23 @@
    "title": "[음식료(Overweight) | 다올 이다연] ★ 이슈 점검: 물가 안정, 설탕세, 저PBR, 관세 환급",
    "post_url": "https://t.me/daolresearch/13795",
    "source_url": "https://buly.kr/9tCTYi4"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-03-18",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "company": "Micron",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "technologies, and future financial and operating performance, including financial projections of the company and the industry."
+   ],
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] #Micron FY2Q26(12~2월) 실적 발표 (현지기준 3/18)",
+   "post_url": "https://t.me/daolresearch/13798",
+   "source_url": "https://buly.kr/7FT7AgA"
   },
   {
    "theme": "AI/데이터센터 투자",
@@ -25103,7 +25071,8 @@
    "direction": "수혜",
    "score": 5,
    "evidences": [
-    "️ AI 데이터센터 냉각 사업 가시성 확대 - 냉각 사업은 수주 후 매출 전환까지 통상 7~9개월 소요 → 올해 하반기 예상되는 빅테크향 하이퍼스케일러 수주는 2H27 매출 인식으로 연결 가능 - 아시아 데이터센터 시장 확대 속 대만·한국 업체들의 점유율 확대 기회 부각 - LG전자는 산업 확장기 수혜 포지셔닝"
+    "️ AI 데이터센터 냉각 사업 가시성 확대 - 냉각 사업은 수주 후 매출 전환까지 통상 7~9개월 소요 → 올해 하반기 예상되는 빅테크향 하이퍼스케일러 수주는 2H27 매출 인식으로 연결 가능 - 아시아 데이터센터 시장 확대 속 대만·한국 업체들의 점유율 확대 기회 부각 - LG전자는 산업 확장기 수혜 포지셔닝",
+    "감안하면, 올해 하반7| 중으로 예상되는 빅테크미| 하이퍼스케일러 회사 잠정 당사 예상 시장 컨센서스 전년 동기"
    ],
    "title": "[LG전자(066570) | BUY(유지) | TP 24만원(상향) | 다올투자증권 전기전자 김연미] ★ LG전자 2Q26 잠정실적 Review - 서프라이즈보다 중요한 구조적 변화들",
    "post_url": "https://t.me/daolresearch/14522",
@@ -25224,7 +25193,7 @@
    "company": "하이브",
    "code": "352820",
    "direction": "수혜",
-   "score": 1,
+   "score": 2,
    "evidences": [
     "8월 캣츠아이 컴백은 연간 100만장 판매가 기대되며 6월 중순 BTS 추가 디싱과 캣츠아이X르세라핌X아일릿 콜라보 디싱 호실적 지속되며 3Q 음반원 QoQ 감소폭은 일부 상쇄 예상",
     "최근 IP 전반 MD 버전 음반 출시 확대 중으로 소장 수요가 높고 단가도 높아 음반 매출의 추가 업사이드 요인"
@@ -25381,9 +25350,10 @@
    "company": "산업/기타",
    "code": "",
    "direction": "피해",
-   "score": -2,
+   "score": -1,
    "evidences": [
-    "투자전략 - 1) 차별적인 브랜드력과 제품·유통 전략을 바탕으로 해외 판매량 성장을 지속하는 기업, 2) 원화 약세 수혜를 누릴 수 있는 기업, 3) 지정학적 리스크에 따른 원가 부담에서 자유로운 기업 선호."
+    "투자전략 - 1) 차별적인 브랜드력과 제품·유통 전략을 바탕으로 해외 판매량 성장을 지속하는 기업, 2) 원화 약세 수혜를 누릴 수 있는 기업, 3) 지정학적 리스크에 따른 원가 부담에서 자유로운 기업 선호.",
+    "1) 높은 해외 비중 바탕 원화 약세 수혜"
    ],
    "title": "음식료(Overweight) | 다올 음식료•통신 이다연 ★ [In-Depth] 같은 얼굴, 새로운 맛",
    "post_url": "https://t.me/daolresearch/14559",
@@ -25407,6 +25377,23 @@
    "source_url": "https://buly.kr/6XolKl3"
   },
   {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-07-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "‘두쫀쿠’, ‘황치즈’ 등 소비 트렌드에 부합하는 SKU(Stock Keeping Unit) 확대는 수 요 촉진뿐만 아니라 브랜드 수명 연장에도 기여하고 있다."
+   ],
+   "title": "음식료(Overweight) | 다올 음식료•통신 이다연 ★ [In-Depth] 같은 얼굴, 새로운 맛",
+   "post_url": "https://t.me/daolresearch/14559",
+   "source_url": "https://buly.kr/6XolKl3"
+  },
+  {
    "theme": "K콘텐츠",
    "category": "산업테마",
    "date": "2026-07-13",
@@ -25414,11 +25401,11 @@
    "sector": "엔터",
    "company": "JYP Ent.",
    "code": "035900",
-   "direction": "중립",
-   "score": 0,
+   "direction": "피해",
+   "score": -2,
    "evidences": [
-    "음반원 매출 564억원 전망.",
-    "공연 매출 511억원 전망."
+    "업종 멀티플 하락을 반영해 적정주가는 8만원으로 하향하나 스키즈 월드 투어 재개와 적극적인 MD 전략으로 27년까지의 성장 가능성은 높다고 현재 직전 변동 판단, 투자의견 BUY 유지 투자의견 BUY BUY 유지 Rationale MAA 하향 ~ 적정주가 80,000 87.000 하향 ㆍ 2026 매출액 2.010억원(<60-6.9%, 000+8.1%), 영업이익 409억원(6 Earnings -22.7%, QOQ+22.5%;",
+    "음반원 매출 564억원 전망."
    ],
    "title": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 2Q26 Preview: 스키즈 활동 없는 마지막 분기",
    "post_url": "https://t.me/daolresearch/14570",
@@ -25598,23 +25585,6 @@
    "source_url": "https://bit.ly/DOS831"
   },
   {
-   "theme": "K뷰티 수출",
-   "category": "미국공략",
-   "date": "2026-07-19",
-   "analyst": "박종현",
-   "sector": "의료기기/화장품",
-   "company": "클래시스",
-   "code": "214150",
-   "direction": "피해",
-   "score": -2,
-   "evidences": [
-    "추정치 하향 조정에 따라 글로벌 화장품 업종 평균 PER(27배) 적용한 적정주가 7.0만원 하향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/FsKxrLb > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-   ],
-   "title": "[클래시스(214150)/ BUY(유지)/ TP 7만원(하향)/ 다올 의료기기 박종현] ★ 반등의 실마리",
-   "post_url": "https://t.me/daolresearch/14596",
-   "source_url": "https://buly.kr/FsKxrLb"
-  },
-  {
    "theme": "환율/원화",
    "category": "매크로",
    "date": "2026-07-19",
@@ -25674,11 +25644,11 @@
    "sector": "엔터",
    "company": "와이지엔터테인먼트",
    "code": "122870",
-   "direction": "피해",
-   "score": -1,
+   "direction": "중립",
+   "score": 0,
    "evidences": [
     "하반기 YG 전체 모객 수는 전년 동기와 유사하나 로열티로 반영되는 일본 지역의 비중이 높고 블랙핑크와의 개런티 차이로 인한 하반기 공연 매출 YoY 감소는 불가피할 전망.",
-    "음반 208억원, 음원 200억원 전망."
+    "투자의견 BUY BUY 유지 x = os 트 이 추가 상향 여지도 유효, 투자의견 BUY 유지 -3.3%,0000-58.4%; OPM 7.4%)으로 컨센서스 하회 전망 현재가 (7/20) 38,4002 ㆍ[음반원] 음반 2084e, 음원 200억원 전망."
    ],
    "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Preview: 안 좋을 걸 알았던 2Q26, 하반기에 집중",
    "post_url": "https://t.me/daolresearch/14605",
@@ -25796,7 +25766,7 @@
    "company": "기가비스",
    "code": "420770",
    "direction": "수혜",
-   "score": 5,
+   "score": 3,
    "evidences": [
     "️ 수주 가시성 확대 & 커지는 이익 레버리지 - 3월 이후 연이은 수주 확인으로 향후 매출 공백에 대한 우려는 크게 완화 - 분기별 변동성은 존재하나 QoQ 계단식 성장 방향성은 명확 - 주요 FC-BGA 업체들의 CapEx 상승세가 지속되고 있으며, 28년까지 중장기 증설 로드맵도 구체화되는 단계 - 전력·공간·인력만 확보되면 Capa를 유연하게 확장할 수 있는 사업 구조 특성상 고객사 투자가 집중되는 구간에서 탄력적인 이",
     "️ 실적 전망 및 Valuation - 27년 매출액 2,262억원, 영업이익 1,018억원(OPM 45%)으로 직전 추정치 대비 각각 +26%, +31% 상향 → 주요 FC-BGA 업체들의 CapEx 상승분과 중장기 증설 로드맵을 추가 반영 - 적정주가 23만원으로 상향 ."
@@ -26379,23 +26349,6 @@
    "source_url": "https://buly.kr/4xa1wNr"
   },
   {
-   "theme": "AI/데이터센터 투자",
-   "category": "미국공략",
-   "date": "2026-07-27",
-   "analyst": "김연미",
-   "sector": "전기전자",
-   "company": "LG이노텍",
-   "code": "011070",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ 실적 전망 및 Valuation - 연간 영업이익은 26년 1조 3,356억원, 27년 1조 6,104억원으로 각각 +10%, +5% 상향 - 투자의견 BUY 유지, 적정주가 110만원으로 하향 (27년 기준 P/E 21배, P/B 3.3배를 부여한 수준) - 6월 이후 글로벌 FC-BGA 밸류체인의 전반적인 멀티플 축소를 반영해 패키지솔루션 적정 P/E를 기존 50배 → 40배로 낮춘 영향 - 향후 주가 반등의 핵심은 I"
-   ],
-   "title": "[LG이노텍(011070) | BUY(유지) | TP 110만원(하향) | 다올투자증권 전기전자 김연미] ★ LG이노텍 2Q26 Review - 비수기 서프라이즈. 하반기도 강하다",
-   "post_url": "https://t.me/daolresearch/14673",
-   "source_url": "https://buly.kr/6XoqmAn"
-  },
-  {
    "theme": "밸류업/주주환원",
    "category": "매크로",
    "date": "2026-07-28",
@@ -26628,10 +26581,10 @@
    "company": "넥센타이어",
    "code": "002350",
    "direction": "피해",
-   "score": -2,
+   "score": -3,
    "evidences": [
     "투자의견 BUY 유지, 적정주가는 미국 반덤핑 관세와 원재료비 부담을 감안해 9,000원으로 하향.",
-    "EU 중국산 타이어 반덤핑 관세율은 24.4%으로 확정."
+    "투자의견 BUYS 유지하며, 적정주가는 미국 반덤핑 관세와 원재료비 투자의견 BUY BUY 유지 하향, 적정 멀티플은 P/E TH 유지."
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 넥센타이어(002350) - 2Q26 Review: 아쉬운 일회성 비용",
    "post_url": "https://t.me/daolresearch/14703",
@@ -26870,7 +26823,7 @@
    "company": "LG전자",
    "code": "066570",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
     "️ AI 데이터센터 냉각: 기대에서 실적으로 - 그동안 수주 기대감에 머물렀던 AI DC 냉각이 이제 실적 추정이 가능한 영역으로 진입 - 상반기 약 6,000억원 수주에 이어 하반기 수조원대 신규 수주 확보 가시화 → 26년 확보한 수주 물량 대부분이 27년부터 매출로 전환되며 수조원대 매출 구간 진입 가능 - 기존 ES가 계절성이 강한 HVAC 사업부였다면, 향후 수주잔고를 기반으로 성장하는 AI 인프라 사업부로 체질 변화"
    ],
@@ -26887,7 +26840,7 @@
    "company": "LG전자",
    "code": "066570",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
     "️ AI 데이터센터 냉각: 기대에서 실적으로 - 그동안 수주 기대감에 머물렀던 AI DC 냉각이 이제 실적 추정이 가능한 영역으로 진입 - 상반기 약 6,000억원 수주에 이어 하반기 수조원대 신규 수주 확보 가시화 → 26년 확보한 수주 물량 대부분이 27년부터 매출로 전환되며 수조원대 매출 구간 진입 가능 - 기존 ES가 계절성이 강한 HVAC 사업부였다면, 향후 수주잔고를 기반으로 성장하는 AI 인프라 사업부로 체질 변화"
    ],
@@ -27200,7 +27153,7 @@
    "company": "SPOT",
    "code": "",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
     "체크포인트 및 Implication 1차 VBP 시행을 거치면서 글로벌 Big 4 업체는 현지 생산 구축을 통해 VBP에 대응하였으며, 로컬 기업들은 해외 매출 비중을 높여가며 실적과 기업가치 우상향을 기록.",
     "국내 기업 또한 중국 현지 생산 구축 및 매출 다변화가 필수 불가결 ① 임플란트 2.0 낙찰 규칙과 실제 인하율, ② 앤젤얼라인 1H26 해외 매출 비중 50% 돌파 여부, ③ 엔비스타 2Q26 실적 발표에서 VBP 관련 코멘트 확인 필요 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1y1CAE8 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
@@ -27220,7 +27173,8 @@
    "direction": "피해",
    "score": -2,
    "evidences": [
-    "글로벌 버블 구독자 수 감소에도 불구 환율 효과로 매출 감소폭 상쇄."
+    "글로벌 버블 구독자 수 감소에도 불구 환율 효과로 매출 감소폭 상쇄.",
+    "PG 결제 전환율은 2Q26 17%로 26년말 기준 20% 달성 전망."
    ],
    "title": "[디어유(376300) | 다올 엔터 임도영] ★ 단기는 북미 사업 규모, 장기는 중국 구독자 수 증가 속도가 관건",
    "post_url": "https://t.me/daolresearch/14776",
@@ -27252,7 +27206,7 @@
    "company": "이비덴",
    "code": "",
    "direction": "수혜",
-   "score": 11,
+   "score": 5,
    "evidences": [
     "가이던스 대폭 상향의 배경과 함의 - FY26 Electronics 매출액 가이던스는 3,300억엔에서 3,750억엔으로 14% 상향 / 영업이익은 750억엔에서 1,100억엔으로 47% 상향 → 추가 매출 450억엔 중 350억엔이 영업이익으로 연결 - 상향 배경은 ① AI 서버 및 범용 서버용 제품 수요 지속, ② Switch IC용 제품 수요 확대, ③ 고부가 제품의 높은 판가 유지, ④ 높은 가동률 지속 - 이익 상향폭",
     "FY1Q26, Electronics OPM 27.6% 기록 - 전사 매출액 1,232억엔(+26% YoY), 영업이익 269억엔(+52%), OPM 21.8%로 OP 컨센서스 상회 - Electronics(기판) 매출액 775억엔(+38%), 영업이익 214억엔(+52%), OPM 27.6% 기록 - AI 서버용 고부가 제품 수요가 견조한 가운데 범용 서버 수요도 당초 예상을 상회 - Ono 공장 생산 안정화와 기존 CAPA의"
@@ -27816,6 +27770,18 @@
    "post_url": "https://t.me/daolresearch/13245"
   },
   {
+   "company": "현대글로비스",
+   "code": "086280",
+   "owner_analyst": "오정하",
+   "owner_sector": "운송/로봇",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-01-11",
+   "evidence": "지배구조 개편의 강력한 단서도 확인 | 관심종목: 현대차, 현대모비스, 현대글로비스, 에스엘 등 - 자동차 산업 이후 최초의 대량생산 제조 혁명 시작: Boston Dynamics의 대량양산 Timeline 공개 시작.",
+   "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
+   "post_url": "https://t.me/daolresearch/13272"
+  },
+  {
    "company": "현대차",
    "code": "005380",
    "owner_analyst": "유지웅",
@@ -27824,6 +27790,18 @@
    "sector": "반도체/소부장",
    "date": "2026-01-11",
    "evidence": "자동차: 자동차에서 로봇 생태계로 진화 (1) AI 로보틱스 생태계로 진입하는 자동차 산업 (2) 보스턴다이나믹스, 기업가치 100조 원의 조건 (3) 로봇은 현대차그룹의 지배구조 재편의 새로운 동력 (4) Nvidia의 Alpamayo vs Tesla의 FSD",
+   "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
+   "post_url": "https://t.me/daolresearch/13272"
+  },
+  {
+   "company": "에스엘",
+   "code": "005850",
+   "owner_analyst": "유지웅",
+   "owner_sector": "자동차/이차전지",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-01-11",
+   "evidence": "지배구조 개편의 강력한 단서도 확인 | 관심종목: 현대차, 현대모비스, 현대글로비스, 에스엘 등 - 자동차 산업 이후 최초의 대량생산 제조 혁명 시작: Boston Dynamics의 대량양산 Timeline 공개 시작.",
    "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
    "post_url": "https://t.me/daolresearch/13272"
   },
@@ -28065,13 +28043,6 @@
    "burst": 6.7
   },
   {
-   "term": "CPU",
-   "recent": 6,
-   "total": 9,
-   "sectors": 3,
-   "burst": 5.6
-  },
-  {
    "term": "수익성이",
    "recent": 9,
    "total": 15,
@@ -28107,24 +28078,17 @@
    "burst": 3.7
   },
   {
-   "term": "결과가",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
-   "burst": 3.7
-  },
-  {
-   "term": "단일",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
-   "burst": 3.7
-  },
-  {
    "term": "점진적",
    "recent": 10,
    "total": 20,
    "sectors": 10,
+   "burst": 3.4
+  },
+  {
+   "term": "점차",
+   "recent": 10,
+   "total": 20,
+   "sectors": 7,
    "burst": 3.4
   },
   {
@@ -28133,6 +28097,20 @@
    "total": 14,
    "sectors": 6,
    "burst": 3.3
+  },
+  {
+   "term": "단일",
+   "recent": 6,
+   "total": 12,
+   "sectors": 5,
+   "burst": 3.2
+  },
+  {
+   "term": "결과가",
+   "recent": 6,
+   "total": 12,
+   "sectors": 5,
+   "burst": 3.2
   },
   {
    "term": "고부가",
