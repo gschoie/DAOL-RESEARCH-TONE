@@ -93,8 +93,11 @@ CODE_RE = re.compile(r'\((\d{6})\)')
 
 def extract_bundled_tp(text):
     """산업 인뎁스 PDF 텍스트에서 종목별 TP 박스를 뽑는다. [{code, company, value, prior, direction}]"""
-    # 페이지 레이아웃: 좌측 TP 박스 텍스트가 먼저, 그 종목의 헤더 '회사명 (코드)'가 수백 자 뒤에 온다.
-    # → 각 박스의 주인은 '박스 뒤 최근접 코드'(+1200자 이내). 피어 표 코드 오귀속 방지.
+    # 페이지 레이아웃이 두 갈래다:
+    #  A) 좌측 TP 박스 텍스트가 먼저, 그 종목의 헤더 '회사명 (코드)'가 수백 자 뒤 (GS건설 인뎁스형)
+    #  B) '회사명 (코드) BUY 투자의견… 적정주가 …'처럼 코드가 박스 바로 앞 ~60자 (음식료 인뎁스형)
+    # → 앞(-120자)·뒤(+1200자) 최근접 코드 중 더 가까운 쪽. 앞 창을 120자로 좁게 잡는 이유:
+    #   A형은 박스 앞 ~200자에 전 종목 코드 요약표가 오는 경우가 있어(건설 인뎁스) 그걸 배제해야 한다.
     out, seen = [], set()
     codes = [(m.start(), m.group(1)) for m in CODE_RE.finditer(text)]
     for bm in BUNDLED_TP_RE.finditer(text):
@@ -103,7 +106,9 @@ def extract_bundled_tp(text):
         if direction == '상향' and not value > prior: continue
         if direction == '하향' and not value < prior: continue
         if direction == '유지' and value != prior: continue
-        owner = next(((pos, c) for pos, c in codes if 0 < pos - bm.start() <= 1200), None)
+        after = next(((pos, c) for pos, c in codes if 0 < pos - bm.start() <= 1200), None)
+        before = next(((pos, c) for pos, c in reversed(codes) if 0 < bm.start() - pos <= 120), None)
+        owner = min((o for o in (after, before) if o), key=lambda o: abs(o[0] - bm.start()), default=None)
         if not owner or owner[1] in seen: continue
         pos, code = owner
         name = re.search(r'([가-힣A-Za-z0-9&\-]+(?: [가-힣A-Za-z0-9&\-]+)?)\s*$', text[max(0, pos - 30):pos])

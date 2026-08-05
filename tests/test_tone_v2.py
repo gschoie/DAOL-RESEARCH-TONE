@@ -229,6 +229,25 @@ class BundledTp(unittest.TestCase):
         out = v2.extract_bundled_tp(self.TEXT)
         self.assertNotIn('111111', [x['code'] for x in out])
 
+    def test_code_before_box_layout(self):
+        # 음식료 인뎁스형: '회사명 (코드) BUY … 적정주가 …' — 코드가 박스 바로 앞에 온다
+        text = ("업종 Top Picks로 제시 \nKT&G \n(033780) \nBUY \n 현재 직전 변동 \n"
+                "투자의견 BUY BUY 유지 \n적정주가 220,000 220,000 유지 \nEarnings \nStock Information ... \n"
+                "삼양식품 \n(003230) \nBUY \n 현재 직전 변동 \n"
+                "투자의견 BUY BUY 유지 \n적정주가 1,900,000 2,000,000 하향 \nEarnings ...")
+        out = v2.extract_bundled_tp(text)
+        self.assertEqual([(x['code'], x['company'], x['direction']) for x in out],
+                         [('033780', 'KT&G', '유지'), ('003230', '삼양식품', '하향')])
+
+    def test_summary_table_before_box_not_stolen(self):
+        # 건설 인뎁스형: 첫 박스 앞 ~200자에 전 종목 코드 요약표 — 앞 창(120자) 밖이라 무시되고
+        # 주인은 뒤쪽 헤더 코드여야 한다
+        filler = '요약표 대우건설 (047040) ' + '실적 프리뷰 코멘트 ' * 20
+        text = (filler + "현재 직전 변동 투자의견 BUY BUY 유지 적정주가 43,000 24,000 상향 "
+                "Earnings Stock Information ... GS건설 (006360) 주택 사이클 재개")
+        out = v2.extract_bundled_tp(text)
+        self.assertEqual([(x['code'], x['value']) for x in out], [('006360', 43000.0)])
+
 
 class ForwardReturns(unittest.TestCase):
     CACHE = {'005930': {'closes': [['2026-07-01', 100.0], ['2026-07-02', 102.0], ['2026-07-03', 104.0],
