@@ -48,6 +48,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .pub-type.ind{background:#e8eef9;color:#2c4a80;border-color:#cfdcf2}
 .pub-type.strat{background:#f3eadf;color:#7a5426;border-color:#e7d7bf}
 .pub-type.co{background:#e9f2ec;color:#2f5c46;border-color:#d5e5da}
+.pub-type.ind-sub{background:#f4f7fb;color:#4a6285;border:1px dashed #b9c9e2;font-weight:600}
 .pub-subs{font-size:10px;color:#7c857e;margin-top:3px;max-width:140px;line-height:1.5}
 .pub-range{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#fbfcfa;border-bottom:1px solid var(--line);font-size:12px;flex-wrap:wrap}
 .pub-range input[type=date]{border:1px solid var(--line);padding:3px 6px;font-size:11.5px;font-family:inherit;color:#3c463f}
@@ -277,14 +278,16 @@ function renderRecentReports(){const box=$('#tone-events');if(!box)return;
  const rows=[];const seen=new Set();
  for(const c of Object.values(state.tone2?.companies||{})){
   for(const r of c.timeline){
-   if(r.bundled||r.date<from||r.date>to||seen.has(r.id))continue;
+   if(r.date<from||r.date>to||seen.has(r.id))continue;
    if(state.toneSector&&r.sector!==state.toneSector)continue;
    if(state.toneAnalyst&&r.analyst!==state.toneAnalyst)continue;
    seen.add(r.id);rows.push({key:c.key,name:c.name,r})}}
- rows.sort((a,b)=>b.r.date.localeCompare(a.r.date));
+ // 같은 날짜 안에서는 id순 — 인뎁스 부모("14559") 바로 뒤에 그 종목 행("14559-b…")들이 붙는다
+ rows.sort((a,b)=>b.r.date.localeCompare(a.r.date)||String(a.r.id).localeCompare(String(b.r.id)));
  if(state.repSort)rows.sort((a,b)=>pubRank(b,state.repSort)-pubRank(a,state.repSort)||b.r.date.localeCompare(a.r.date));
  const ind=k=>state.repSort===k?' ▼':'';
  const typeCell=r=>{
+  if(r.bundled)return '<span class="pub-type ind-sub">↳ 인뎁스 기업</span>';
   if(r.sector==='전략·시황')return '<span class="pub-type strat">전략</span>';
   if(r.sector==='콜라보')return '<span class="pub-type strat">콜라보</span>';
   if(r.report_type==='산업자료'){
