@@ -269,9 +269,11 @@ function pubRank(x,key){const t=x.r.tp_event;
  if(key==='pts')return (x.r.points_added||[]).length>0||(x.r.points_dropped||[]).length>0?1:0;
  return 0}
 function renderRecentReports(){const box=$('#tone-events');if(!box)return;
- const today=new Date().toISOString().slice(0,10);
+ // toISOString은 UTC라 한국시간 자정~아침 9시엔 '어제'가 된다 — 로컬(KST) 날짜로 계산
+ const ymd=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+ const today=ymd(new Date());
  let from=state.repFrom,to=state.repTo||today;
- if(!from){const d=new Date();d.setDate(d.getDate()-(state.repDays||60));from=d.toISOString().slice(0,10)}
+ if(!from){const d=new Date();d.setDate(d.getDate()-(state.repDays||60));from=ymd(d)}
  const bundledBy={};// 산업자료 id → 그 안에 포함된 기업분석 종목명 (합성 레코드 id = "부모id-b코드")
  for(const c of Object.values(state.tone2?.companies||{}))for(const r of c.timeline)
   if(r.bundled){const pid=String(r.id).split('-b')[0];(bundledBy[pid]=bundledBy[pid]||[]).push(r.company||c.name)}
