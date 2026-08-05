@@ -200,7 +200,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
     </div>
   </header>
   <div class="tone-toolbar">
-    <input id="tone-search" placeholder="애널리스트·섹터·종목 검색">
+    <input id="tone-search" placeholder="키워드 검색 — 제목·투자포인트·문구·기업·애널 (예: KDDX, HBM, 유리기판)">
     <select id="tone-sector"><option value="">전체 섹터</option></select>
     <select id="tone-analyst"><option value="">전체 애널리스트</option></select>
     <button id="tone-refresh" type="button">새로고침</button>
@@ -257,7 +257,24 @@ function sortedSectors(list){const pin=g=>PINNED_SECTORS.includes(g.sector)?1:0,
  return arr}
 const OPINION_RANK={'비중확대':3,'중립':2,'비중축소':1};
 function rowSortIndicator(key){const rs=state.rowSort;return rs&&rs.key===key?(rs.dir<0?' ▼':' ▲'):''}
-function renderTone(){const data=state.tone2||{sectors:[]},q=state.toneQ.toLocaleLowerCase();let html='';
+function searchReports(q){const out=[];
+ for(const c of Object.values(state.tone2?.companies||{})){
+  for(const r of c.timeline){
+   if(state.toneSector&&r.sector!==state.toneSector)continue;
+   if(state.toneAnalyst&&r.analyst!==state.toneAnalyst)continue;
+   const hay=`${r.title} ${r.one_line||''} ${(r.points||[]).join(' ')} ${(r.strong_phrases||[]).join(' ')} ${(r.hedge_phrases||[]).join(' ')} ${(r.negative_phrases||[]).join(' ')} ${r.company||''} ${r.analyst} ${r.sector}`.toLocaleLowerCase();
+   if(hay.includes(q))out.push({key:c.key,name:c.name,r})}}
+ out.sort((a,b)=>b.r.date.localeCompare(a.r.date));
+ return out}
+function renderKeywordResults(q){const hits=searchReports(q);
+ if(!hits.length){$('#tone-content').innerHTML=`<div class="tone-loading">'${esc(q)}' 키워드가 담긴 리포트가 없습니다.</div>`;return}
+ const rows=hits.slice(0,60).map(({key,name,r})=>{
+  const t=r.tp_event;const tp=t&&t.direction!=='없음'?`<u class="ret ${t.direction==='상향'?'up':t.direction==='하향'?'down':''}">${esc(t.direction)} ${esc(t.display||'')}</u>`:'';
+  return `<button type="button" class="tone-event ${t&&t.direction==='하향'?'down':t&&t.direction==='상향'?'up':'mid'} tone-ck" data-ck="${esc(key)}"><small>${esc(r.date)}</small><b>${esc(key.startsWith('IND:')?name:(r.company||name))}</b><em>${esc(r.analyst)}</em>${r.conviction!=null?`<b class="conv-dots">${'●'.repeat(r.conviction)}</b>`:''}<span>${esc(r.title.slice(0,80))}${r.one_line?` — ${esc(r.one_line.slice(0,60))}`:''}</span>${tp}</button>`}).join('');
+ $('#tone-content').innerHTML=`<div class="tone-event-wrap" style="margin-top:0"><div class="tone-event-col"><h5>키워드 '${esc(q)}' — ${hits.length}건${hits.length>60?' (최신 60건 표시)':''} · 클릭 시 해당 기업/산업 히스토리</h5><div class="tone-event-list" style="max-height:560px">${rows}</div></div></div>`}
+function renderTone(){const data=state.tone2||{sectors:[]},q=state.toneQ.trim().toLocaleLowerCase();
+ if(q.length>=2){renderKeywordResults(q);renderToneEvents();return}
+ let html='';
  const visible=[];
  for(const group of sortedSectors(data.sectors||[])){if(state.toneSector&&group.sector!==state.toneSector)continue;
   const rows=(group.analysts||[]).filter(a=>(!state.toneAnalyst||a.analyst===state.toneAnalyst)&&(!q||JSON.stringify(a).toLocaleLowerCase().includes(q)));
