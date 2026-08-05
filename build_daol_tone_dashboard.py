@@ -206,6 +206,9 @@ def report_title(t):
 def company_name(t):
     m=re.search(r'(?:\[|\]\s*|★\s*|#\s*|^)([가-힣A-Za-z0-9&. ]{1,40})\(([0-9]{6})\)',t)
     if m:return clean(m.group(1)),m.group(2)
+    # 해외 기업: [Meta Platforms(META US)] 같은 블룸버그식 '티커 국가' 표기
+    m=re.search(r'(?:\[|\]\s*|★\s*|#\s*|^)([A-Za-z][A-Za-z0-9&.\- ]{1,40})\(([A-Z0-9.\-]{1,8}\s+(?:US|JP|HK|CN|TW|SG|DE|FR|GB|IT|IN))\)',t)
+    if m:return clean(m.group(1)),m.group(2)
     m=re.search(r'[★#]\s*([가-힣A-Za-z0-9&.]{2,30})',t)
     return (m.group(1),'') if m else ('산업/기타','')
 

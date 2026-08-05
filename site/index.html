@@ -41,8 +41,19 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .pub-date{color:var(--muted);white-space:nowrap;font-weight:700}
 .pub-co{border:0;background:transparent;padding:0;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;color:#173f35;text-align:left}
 .pub-co:hover{text-decoration:underline}
-.pub-tpc{white-space:nowrap}.pub-tp{font-weight:700}.pub-tp.up{color:#2e7d4f}.pub-tp.down{color:var(--red)}
+.pub-tpc{white-space:nowrap}.pub-tp{font-weight:700;line-height:1.45}.pub-tp.up{color:#2e7d4f}.pub-tp.down{color:var(--red)}
 .pub-rsn{max-width:130px}
+.pub-rsn .tp-reason{display:block;margin:1px 0;width:fit-content}
+.pub-type{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:3px;white-space:nowrap;background:#eef1ec;color:#4c574f;border:1px solid #dfe5dd}
+.pub-type.ind{background:#e8eef9;color:#2c4a80;border-color:#cfdcf2}
+.pub-type.strat{background:#f3eadf;color:#7a5426;border-color:#e7d7bf}
+.pub-type.co{background:#e9f2ec;color:#2f5c46;border-color:#d5e5da}
+.pub-subs{font-size:10px;color:#7c857e;margin-top:3px;max-width:140px;line-height:1.5}
+.pub-range{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#fbfcfa;border-bottom:1px solid var(--line);font-size:12px;flex-wrap:wrap}
+.pub-range input[type=date]{border:1px solid var(--line);padding:3px 6px;font-size:11.5px;font-family:inherit;color:#3c463f}
+.pub-range .pub-preset{border:1px solid var(--line);background:#f6f8f5;padding:4px 11px;font-size:11.5px;cursor:pointer;font-family:inherit}
+.pub-range .pub-preset:hover{background:#eef1ec}
+.pub-range .pub-preset.on{background:#263d35;color:#fff;border-color:#263d35}
 .pub-earn{text-align:center}.pub-up{color:#2e7d4f;font-weight:700}.pub-down{color:var(--red);font-weight:700}
 .pub-pts{max-width:200px}.pub-pts .pt-chip{margin:1px 2px 1px 0}
 .pub-pts-dim{color:#96a09a;font-size:10.5px}
@@ -82,6 +93,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .cov-row .cov-val.up{color:#2e7d4f}.cov-row .cov-val.down{color:var(--red)}
 .cov-row small{grid-column:1/3;color:var(--muted);font-size:10px}
 .tone-table-wrap{background:#fff;border:1px solid var(--line);overflow-x:auto}
+.tone-event-wrap .tone-table-wrap{border:0}
 .tone-table{width:100%;border-collapse:collapse;font-size:12px;min-width:940px}
 .th-sort{cursor:pointer;user-select:none}.th-sort:hover{text-decoration:underline}.th-sort em{font-style:normal;color:#386453;font-size:10px}
 .tone-table th{position:sticky;top:0;background:#f6f8f5;text-align:left;padding:11px 12px;font-size:11px;color:#5b665f;letter-spacing:.03em;border-bottom:2px solid #263d35;white-space:nowrap}
@@ -231,7 +243,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const state={tone2:null,toneQ:'',toneSector:'',toneAnalyst:'',sectorSort:'recent',rowSort:null,repSort:null};
+const state={tone2:null,toneQ:'',toneSector:'',toneAnalyst:'',sectorSort:'recent',rowSort:null,repSort:null,repFrom:'',repTo:'',repDays:60};
 const convDots=v=>v==null?'':`<span class="conv-dots" title="확신도 ${v}/5">${'●'.repeat(v)}${'○'.repeat(5-v)}</span>`;
 const toneLabelClass=l=>({'강한 확신':'t-strong','긍정':'t-pos','중립·건조':'t-dry','신중':'t-cau','부정적':'t-neg'})[l]||'t-dry';
 const opinionClass=o=>/확대|매수|BUY|Overweight/i.test(o)?'op-up':/축소|매도|REDUCE|SELL|Underweight/i.test(o)?'op-down':/중립|HOLD|Neutral/i.test(o)?'op-mid':'op-none';
@@ -256,32 +268,54 @@ function pubRank(x,key){const t=x.r.tp_event;
  if(key==='pts')return (x.r.points_added||[]).length>0||(x.r.points_dropped||[]).length>0?1:0;
  return 0}
 function renderRecentReports(){const box=$('#tone-events');if(!box)return;
- const cutoff=(d=>{d.setDate(d.getDate()-60);return d.toISOString().slice(0,10)})(new Date());
+ const today=new Date().toISOString().slice(0,10);
+ let from=state.repFrom,to=state.repTo||today;
+ if(!from){const d=new Date();d.setDate(d.getDate()-(state.repDays||60));from=d.toISOString().slice(0,10)}
+ const bundledBy={};// 산업자료 id → 그 안에 포함된 기업분석 종목명 (합성 레코드 id = "부모id-b코드")
+ for(const c of Object.values(state.tone2?.companies||{}))for(const r of c.timeline)
+  if(r.bundled){const pid=String(r.id).split('-b')[0];(bundledBy[pid]=bundledBy[pid]||[]).push(r.company||c.name)}
  const rows=[];const seen=new Set();
  for(const c of Object.values(state.tone2?.companies||{})){
   for(const r of c.timeline){
-   if(r.bundled||r.date<cutoff||seen.has(r.id))continue;
+   if(r.bundled||r.date<from||r.date>to||seen.has(r.id))continue;
    if(state.toneSector&&r.sector!==state.toneSector)continue;
    if(state.toneAnalyst&&r.analyst!==state.toneAnalyst)continue;
    seen.add(r.id);rows.push({key:c.key,name:c.name,r})}}
  rows.sort((a,b)=>b.r.date.localeCompare(a.r.date));
  if(state.repSort)rows.sort((a,b)=>pubRank(b,state.repSort)-pubRank(a,state.repSort)||b.r.date.localeCompare(a.r.date));
  const ind=k=>state.repSort===k?' ▼':'';
- const body=rows.slice(0,250).map(({key,name,r})=>{
+ const typeCell=r=>{
+  if(r.sector==='전략·시황')return '<span class="pub-type strat">전략</span>';
+  if(r.sector==='콜라보')return '<span class="pub-type strat">콜라보</span>';
+  if(r.report_type==='산업자료'){
+   const lbl=`${r.sector} ${/weekly|위클리/i.test(r.title)?'Weekly':'산업'}`;
+   const subs=[...new Set(bundledBy[String(r.id)]||[])];
+   return `<span class="pub-type ind">${esc(lbl)}</span>${subs.length?`<div class="pub-subs" title="이 산업자료에 포함된 기업분석: ${esc(subs.join(', '))}">${subs.slice(0,5).map(esc).join(' · ')}${subs.length>5?' 외':''}</div>`:''}`}
+  return '<span class="pub-type co">기업</span>'};
+ const body=rows.slice(0,600).map(({key,name,r})=>{
   const t=r.tp_event;
-  const tp=t&&t.direction!=='없음'?`<span class="pub-tp ${t.direction==='상향'?'up':t.direction==='하향'?'down':''}">${t.direction==='상향'?'▲':t.direction==='하향'?'▼':'●'} ${esc(t.display||t.direction)}</span>`:'—';
+  let tp='—';
+  if(t&&t.direction!=='없음'){const disp=esc(t.display||t.direction);
+   tp=`<span class="pub-tp ${t.direction==='상향'?'up':t.direction==='하향'?'down':''}">${t.direction==='상향'?'▲':t.direction==='하향'?'▼':'●'} ${disp.replace(' → ','<br>→ ')}</span>`}
   const reasons=t&&(t.reasons||[]).length?t.reasons.map(x=>`<i class="tp-reason">${esc(x)}</i>`).join(''):'—';
   const earn=['상향','하향'].includes(r.earnings_direction)?`<span class="${r.earnings_direction==='상향'?'pub-up':'pub-down'}" title="${esc(r.earnings_evidence||'')}">${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'—';
   const pts=(r.points_added||[]).length?r.points_added.slice(0,3).map(x=>`<span class="pt-chip new">＋${esc(x)}</span>`).join(''):((r.points||[]).length?`<span class="pub-pts-dim">${esc(r.points.slice(0,2).join(' · '))}</span>`:'—');
-  return `<tr><td class="pub-date">${mmdd(r.date)}</td><td><button type="button" class="tone-ck pub-co" data-ck="${esc(key)}">${esc(key.startsWith('IND:')?name:(r.company||name))}</button></td><td class="pub-tpc">${tp}</td><td class="pub-rsn">${reasons}</td><td class="pub-earn">${earn}</td><td class="pub-pts">${pts}</td><td class="pub-title"><a href="${esc(r.pdf_url||r.post_url)}" target="_blank" rel="noopener">${esc(r.title.slice(0,70))}</a></td><td class="pub-desc">${esc(r.one_line||'')}</td><td class="pub-an">${esc(r.analyst)}</td></tr>`}).join('');
- box.innerHTML=`<details class="tone-event-wrap" open><summary>📰 최근 발간 보고서 <em>${rows.length}건 · 60일${state.repSort?' · 정렬됨':''}</em></summary><div class="pub-wrap"><table class="pub-table"><thead><tr><th id="th-r-date" class="th-sort" title="날짜순(기본)">날짜</th><th>기업명</th><th id="th-r-tp" class="th-sort" title="TP 변경 우선 정렬">TP▲▼${ind('tp')}</th><th>TP 조정 사유</th><th id="th-r-earn" class="th-sort" title="실적추정 변경 우선">실적▲▼${ind('earn')}</th><th id="th-r-pts" class="th-sort" title="포인트 변화 우선">포인트${ind('pts')}</th><th>리포트 제목</th><th>리포트 설명</th><th>애널리스트</th></tr></thead><tbody>${body}</tbody></table></div></details>`}
+  return `<tr><td class="pub-type-c">${typeCell(r)}</td><td class="pub-date">${mmdd(r.date)}</td><td><button type="button" class="tone-ck pub-co" data-ck="${esc(key)}">${esc(key.startsWith('IND:')?name:(r.company||name))}</button></td><td class="pub-tpc">${tp}</td><td class="pub-rsn">${reasons}</td><td class="pub-earn">${earn}</td><td class="pub-pts">${pts}</td><td class="pub-title"><a href="${esc(r.pdf_url||r.post_url)}" target="_blank" rel="noopener">${esc(r.title.slice(0,70))}</a></td><td class="pub-desc">${esc(r.one_line||'')}</td><td class="pub-an">${esc(r.analyst)}</td></tr>`}).join('');
+ const presets=[[7,'주간'],[30,'월간'],[90,'분기'],[180,'반기']];
+ const rangeBar=`<div class="pub-range"><input type="date" id="rep-from" value="${from}" max="${today}"><span>~</span><input type="date" id="rep-to" value="${to}" max="${today}">${presets.map(([d,l])=>`<button type="button" class="pub-preset${!state.repFrom&&state.repDays===d?' on':''}" data-days="${d}">${l}</button>`).join('')}</div>`;
+ const label=state.repFrom?`${mmdd(from)}~${mmdd(to)}`:`${state.repDays||60}일`;
+ box.innerHTML=`<details class="tone-event-wrap" open><summary>📰 최근 발간 보고서 <em>${rows.length}건 · ${label}${rows.length>600?' · 최신 600건 표시':''}${state.repSort?' · 정렬됨':''}</em></summary>${rangeBar}<div class="pub-wrap"><table class="pub-table"><thead><tr><th title="산업 · 기업 · 전략 자료 구분">구분</th><th id="th-r-date" class="th-sort" title="날짜순(기본)">날짜</th><th>기업명</th><th id="th-r-tp" class="th-sort" title="적정주가 변경 우선 정렬">적정주가${ind('tp')}</th><th>적정주가 조정 논리</th><th id="th-r-earn" class="th-sort" title="실적추정 변경 우선">실적 조정${ind('earn')}</th><th id="th-r-pts" class="th-sort" title="투자포인트 변화 우선">투자포인트${ind('pts')}</th><th>리포트 제목</th><th>리포트 설명</th><th>애널리스트</th></tr></thead><tbody>${body}</tbody></table></div></details>`;
+ const rf=$('#rep-from'),rt=$('#rep-to');
+ const applyRange=()=>{state.repFrom=rf.value;state.repTo=rt.value;renderRecentReports()};
+ rf.onchange=applyRange;rt.onchange=applyRange;
+ box.querySelectorAll('.pub-preset').forEach(b=>b.onclick=()=>{state.repFrom='';state.repTo='';state.repDays=+b.dataset.days;renderRecentReports()})}
 const renderToneEvents=renderRecentReports;
 function analystRow(a,secCell=''){const tone=a.latest_tone?`<div class="tone-cell ${toneLabelClass(a.latest_tone.label)}" title="${esc(a.latest_tone.one_line||'')}">${convDots(a.latest_tone.conviction)}<small>${esc(a.latest_tone.label)} · ${mmdd(a.latest_tone.date)}${a.latest_tone.base?` · 평소 ${a.latest_tone.base}`:''}</small>${a.ind_phrases&&(a.ind_phrases.strong||a.ind_phrases.negative)?`<div class="cell-phrases" title="최근 산업자료(${mmdd(a.ind_phrases.date)}) 문구">${a.ind_phrases.strong?`<q class="up">${esc(a.ind_phrases.strong)}</q>`:''}${a.ind_phrases.negative?`<q class="down">${esc(a.ind_phrases.negative)}</q>`:''}</div>`:''}</div>`:'<span class="tone-empty" title="AI 분석 데이터가 아직 없습니다">AI 대기</span>';
  const tps=(a.tp_events||[]).slice(0,2).map(x=>tpChip(x)).join('')||'<span class="tone-empty">최근 없음</span>';
  const comps=(a.companies||[]).slice(0,6).map(c=>`<button type="button" class="company-mini tone-ck" data-ck="${esc(c.key)}" title="${esc(c.name)} 히스토리 열기 · ${c.count}건">${esc(c.name)}<i>${c.count}</i></button>`).join('')||'<span class="tone-empty">—</span>';
  const last=a.last_report?.date?`<small>${mmdd(a.last_report.date)}</small> <a href="${esc(a.last_report.post_url)}" target="_blank" rel="noopener">${esc((a.last_report.title||'').slice(0,52))}</a>`:'—';
  return `<tr>${secCell}<td class="ta-name"><button type="button" class="tone-ck analyst-link" data-ck="${esc(a.industry_key)}" title="${esc(a.sector)} 산업자료 톤 히스토리">${esc(a.analyst)}</button><small title="최근 6개월 발간">${a.report_count}건</small></td><td><span class="op-badge ${opinionClass(a.opinion)}">${esc(a.opinion)}</span>${a.opinion_date?`<small class="op-date">${mmdd(a.opinion_date)}</small>`:''}</td><td>${tone}</td><td>${sparkline(a.conviction_series)}</td><td class="ta-tp">${tps}</td><td class="ta-comps">${comps}</td><td class="ta-last">${last}</td></tr>`}
-const PINNED_SECTORS=['전략·시황','기타','미분류'];
+const PINNED_SECTORS=['전략·시황','콜라보','기타','미분류'];
 function sectorLatest(g){let m='';for(const a of g.analysts||[]){const d=a.last_report?.date||'';if(d>m)m=d}return m}
 function sortedSectors(list){const pin=g=>PINNED_SECTORS.includes(g.sector)?1:0,arr=[...list];
  if(state.sectorSort==='recent')arr.sort((a,b)=>pin(a)-pin(b)||sectorLatest(b).localeCompare(sectorLatest(a)));
@@ -327,7 +361,7 @@ function renderTone(){const data=state.tone2||{sectors:[]},q=state.toneQ.trim().
    const total=g.rows.reduce((s,a)=>s+a.report_count,0);
    const secCell=`<td class="sec-cell" rowspan="${g.rows.length}"><button type="button" class="tone-ck sec-name" data-ck="IND:${esc(g.sector)}" title="${esc(g.sector)} 산업자료 톤·의견 히스토리">${esc(g.sector)}</button><small>${total}건</small><button type="button" class="tone-ck sector-ind" data-ck="IND:${esc(g.sector)}">산업 톤 →</button></td>`;
    html+=`<tbody class="tone-sector-group">${g.rows.map((a,i)=>analystRow(a,i===0?secCell:'')).join('')}</tbody>`}}
- $('#tone-content').innerHTML=html?`<div class="tone-table-wrap"><table class="tone-table"><thead><tr><th id="th-sector" class="th-sort" title="클릭: 최신순 → ㄱㄴㄷ → ㄱㄴㄷ 역순 (열 정렬 해제)">섹터 <em>${state.rowSort?'':({recent:'최신순',asc:'ㄱㄴㄷ',desc:'ㄷㄴㄱ'})[state.sectorSort]}</em></th><th id="th-analyst" class="th-sort" title="애널리스트 이름순 정렬">애널리스트${rowSortIndicator('analyst')}</th><th id="th-opinion" class="th-sort" title="산업의견 정렬 (확대→축소)">산업의견${rowSortIndicator('opinion')}</th><th id="th-tone" class="th-sort" title="AI 확신도 강→약 정렬">최근 톤(AI)${rowSortIndicator('tone')}</th><th>확신도 추이</th><th>최근 TP 변경</th><th title="최근 6개월 발간 자료 기준">발간 기업(${esc(state.tone2?.count_window?.label||'6개월')})</th><th>최근 자료</th></tr></thead>${html}</table></div>`:'<div class="tone-loading">조건에 맞는 자료가 없습니다.</div>';
+ $('#tone-content').innerHTML=html?`<details class="tone-event-wrap" open><summary>🧭 섹터 × 애널리스트 톤 보드 <em>${(state.tone2?.sectors||[]).length}개 섹터 · ${visible.reduce((s,g)=>s+g.rows.length,0)}명</em></summary><div class="tone-table-wrap"><table class="tone-table"><thead><tr><th id="th-sector" class="th-sort" title="클릭: 최신순 → ㄱㄴㄷ → ㄱㄴㄷ 역순 (열 정렬 해제)">섹터 <em>${state.rowSort?'':({recent:'최신순',asc:'ㄱㄴㄷ',desc:'ㄷㄴㄱ'})[state.sectorSort]}</em></th><th id="th-analyst" class="th-sort" title="애널리스트 이름순 정렬">애널리스트${rowSortIndicator('analyst')}</th><th id="th-opinion" class="th-sort" title="산업의견 정렬 (확대→축소)">산업의견${rowSortIndicator('opinion')}</th><th id="th-tone" class="th-sort" title="AI 확신도 강→약 정렬">최근 톤(AI)${rowSortIndicator('tone')}</th><th>확신도 추이</th><th>최근 TP 변경</th><th title="최근 6개월 발간 자료 기준">발간 기업(${esc(state.tone2?.count_window?.label||'6개월')})</th><th>최근 자료</th></tr></thead>${html}</table></div></details>`:'<div class="tone-loading">조건에 맞는 자료가 없습니다.</div>';
  renderToneEvents()}
 function fillToneFilters(){const sectors=(state.tone2?.sectors||[]).map(x=>x.sector),analysts=[...new Set((state.tone2?.sectors||[]).flatMap(g=>g.analysts.map(a=>a.analyst)))].sort((a,b)=>a.localeCompare(b,'ko'));$('#tone-sector').innerHTML='<option value="">전체 섹터</option>'+sectors.map(x=>`<option ${state.toneSector===x?'selected':''}>${esc(x)}</option>`).join('');$('#tone-analyst').innerHTML='<option value="">전체 애널리스트</option>'+analysts.map(x=>`<option ${state.toneAnalyst===x?'selected':''}>${esc(x)}</option>`).join('')}
 function lineChart(points,{w=560,h=150,color='#8a5a2b',fmt=v=>Number(v).toLocaleString()}={}){const pts=points.filter(p=>p.v!=null);if(pts.length<2)return '<div class="tone-empty">표시할 데이터가 2건 미만입니다.</div>';const vs=pts.map(p=>p.v),min=Math.min(...vs),max=Math.max(...vs),pad=(max-min)*0.12||max*0.05||1;const lo=min-pad,hi=max+pad;const xs=i=>64+i*(w-78)/(pts.length-1),ys=v=>h-24-(v-lo)*(h-38)/(hi-lo);const line=pts.map((p,i)=>`${xs(i).toFixed(1)},${ys(p.v).toFixed(1)}`).join(' ');const dots=pts.map((p,i)=>`<circle cx="${xs(i).toFixed(1)}" cy="${ys(p.v).toFixed(1)}" r="${p.c?3.5:3}" fill="${p.c||color}"><title>${mmdd(p.date)} · ${fmt(p.v)}${p.note?` · ${esc(p.note)}`:''}</title></circle>`).join('');return `<svg class="tone-chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet"><text x="4" y="${ys(max)+4}" class="ax">${fmt(max)}</text><text x="4" y="${ys(min)+4}" class="ax">${fmt(min)}</text><text x="64" y="${h-6}" class="ax">${mmdd(pts[0].date)}</text><text x="${w-14}" y="${h-6}" class="ax" text-anchor="end">${mmdd(pts[pts.length-1].date)}</text><polyline points="${line}" fill="none" stroke="${color}" stroke-width="2"/>${dots}</svg>`}

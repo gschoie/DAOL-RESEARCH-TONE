@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 _site/
 daol_research_tone.html
+_local_preview/
