@@ -15,6 +15,17 @@ HISTORY=ROOT/'data'/'daol_tone_history.json'
 OUT=ROOT/'daol_research_tone.html'
 UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36'}
 
+KST=timezone(timedelta(hours=9))
+
+def kst_dt(value):
+    """텔레그램 게시시각(UTC)을 KST로 변환한다.
+    아침 발간(KST 07~09시)은 UTC로는 전날이라, 그냥 .date()를 쓰면 발간일이 하루 밀린다."""
+    dt=datetime.fromisoformat(value)
+    if dt.tzinfo is None:dt=dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(KST)
+
+def kst_today(): return datetime.now(KST).date()
+
 def clean(s): return re.sub(r'\s+',' ',s or '').strip()
 
 def pdf_text(source_url, cache, retry_hints=None):
@@ -302,7 +313,8 @@ def analyze(messages, pdf_since='2025-05'):
     reports=[]
     pdf_started=time.monotonic();pdf_budget_seconds=900
     for m in sorted((x for x in messages if is_report(x)),key=lambda x:x['date'],reverse=True):
-        t=m['text']; analyst,sector=analyst_sector(t); company,code=company_name(t); dt=datetime.fromisoformat(m['date'])
+        t=m['text']; analyst,sector=analyst_sector(t); company,code=company_name(t); dt=kst_dt(m['date'])
+        day=dt.date().isoformat()
         month=dt.strftime('%Y-%m');is_industry=company in ('산업/기타',sector) or bool(re.search(r'\((?:Overweight|Neutral|Underweight)\)',t[:300],re.I))
         source=source_link(m);analysis_text=t;analysis_source='텔레그램 요약';final_url=source;pdf_error=''
         details={'pitch':report_pitch(t),'conclusion':industry_conclusion(t) if is_industry else '',
@@ -311,9 +323,9 @@ def analyze(messages, pdf_since='2025-05'):
                  'preferred_stocks':top_pick_lines(t)}
         if month>=pdf_since and (source in cache or time.monotonic()-pdf_started<pdf_budget_seconds):
             # 다운로드 실패로 캐시된 항목은 최근 30일 리포트에 한해 재시도한다(일시 장애 복구)
-            retry_cut=(datetime.now(timezone.utc)-timedelta(days=30)).date().isoformat()
+            retry_cut=(kst_today()-timedelta(days=30)).isoformat()
             retry_hints={}
-            if source in cache and cache[source].get('status')!='pdf' and m['date'][:10]>=retry_cut:
+            if source in cache and cache[source].get('status')!='pdf' and day>=retry_cut:
                 prev=cache.pop(source)
                 if prev.get('final_url') and prev['final_url']!=source:retry_hints[source]=prev['final_url']
             was_cached=source in cache;p=pdf_text(source,cache,retry_hints);cache_changed=cache_changed or not was_cached
@@ -323,7 +335,7 @@ def analyze(messages, pdf_since='2025-05'):
         elif month>=pdf_since:
             pdf_error='PDF 처리 시간 한도 초과 — 텔레그램 요약 사용'
         changes=tp_changes(analysis_text,company)
-        reports.append({'id':m['id'],'date':dt.date().isoformat(),'month':month,'analyst':analyst,'sector':sector,'company':company,'code':code,'report_type':'산업자료' if is_industry else '기업자료','opinion':opinion(analysis_text) or opinion(t),'top_picks':details['preferred_stocks'],'preferred_stocks':details['preferred_stocks'],'tp_changes':changes,'tp_raises':[x for x in changes if x['direction']=='상향'],'pitch':details['pitch'],'industry_conclusion':details['conclusion'] if is_industry else '','report_conclusion':details['conclusion'],'valuation':details['valuation'],'earnings_changes':details['earnings_changes'],'analysis_source':analysis_source,'pdf_url':final_url,'pdf_error':pdf_error,'title':report_title(t),'summary':clean(t)[:900],'post_url':m['post_url'],'source_url':source})
+        reports.append({'id':m['id'],'date':day,'month':month,'analyst':analyst,'sector':sector,'company':company,'code':code,'report_type':'산업자료' if is_industry else '기업자료','opinion':opinion(analysis_text) or opinion(t),'top_picks':details['preferred_stocks'],'preferred_stocks':details['preferred_stocks'],'tp_changes':changes,'tp_raises':[x for x in changes if x['direction']=='상향'],'pitch':details['pitch'],'industry_conclusion':details['conclusion'] if is_industry else '','report_conclusion':details['conclusion'],'valuation':details['valuation'],'earnings_changes':details['earnings_changes'],'analysis_source':analysis_source,'pdf_url':final_url,'pdf_error':pdf_error,'title':report_title(t),'summary':clean(t)[:900],'post_url':m['post_url'],'source_url':source})
     if cache_changed:
         PDF_CACHE.write_text(json.dumps(cache,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     return sorted(reports,key=lambda x:(x['date'],x['id']))
