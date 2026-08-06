@@ -55,7 +55,7 @@ def fetch_closes(code, start, end, session):
 
 
 def refresh(max_codes=200):
-    today = datetime.now(timezone.utc).date() + timedelta(hours=9 // 24)  # UTC 기준으로 충분
+    today = datetime.now(timezone(timedelta(hours=9))).date()  # 국내 증시 기준 KST
     cutoff = (today - timedelta(days=LOOKBACK_DAYS)).isoformat()
     history = load_json(HISTORY, {'months': []})
     cache = load_json(CACHE, {})

@@ -5,7 +5,7 @@ is_report 는 표준 라이브러리만으로 임포트되어 여기서 바로 �
 """
 import unittest
 
-from build_daol_tone_dashboard import is_report
+from build_daol_tone_dashboard import is_report, kst_dt
 
 
 def msg(text, links=None):
@@ -42,6 +42,27 @@ class IsReportTest(unittest.TestCase):
     def test_plain_news_roundup_is_excluded(self):
         text = "[다올 인터넷·게임·레저 김혜영] 7/2(목) 뉴스 🟡 인터넷 [네이버] AI 에이전트 출시"
         self.assertFalse(is_report(msg(text, ["https://tinyurl.com/x"])))
+
+
+class KstDateTest(unittest.TestCase):
+    """발간일은 UTC가 아니라 KST 기준이어야 한다(아침 발간이 전날로 밀리는 문제)."""
+
+    def test_morning_publication_keeps_same_kst_day(self):
+        # KST 8/6 07:30 발간 = UTC 8/5 22:30 → 날짜는 8/6이어야 한다.
+        dt = kst_dt("2026-08-05T22:30:00+00:00")
+        self.assertEqual(dt.date().isoformat(), "2026-08-06")
+        self.assertEqual(dt.strftime("%Y-%m"), "2026-08")
+
+    def test_month_rolls_over_with_kst(self):
+        # UTC 5/31 23:00 = KST 6/1 08:00 → 월 버킷도 6월이어야 한다.
+        self.assertEqual(kst_dt("2025-05-31T23:00:00+00:00").strftime("%Y-%m"), "2025-06")
+
+    def test_naive_timestamp_treated_as_utc(self):
+        self.assertEqual(kst_dt("2026-08-05T22:30:00").date().isoformat(), "2026-08-06")
+
+    def test_afternoon_publication_unchanged(self):
+        # KST 8/6 16:00 = UTC 8/6 07:00 → 그대로 8/6.
+        self.assertEqual(kst_dt("2026-08-06T07:00:00+00:00").date().isoformat(), "2026-08-06")
 
 
 if __name__ == "__main__":
