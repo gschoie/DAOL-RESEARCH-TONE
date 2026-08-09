@@ -23,20 +23,28 @@ def _num(x):
     except ValueError: return None
 
 
-def _first_estimate(payload):
-    """financeInfo에서 가장 가까운 추정(E) 기간의 (period, 영업이익, EPS)를 뽑는다."""
+def _estimates(payload):
+    """financeInfo에서 추정(E) 기간 전부의 (period, 영업이익, EPS)를 가까운 순으로 뽑는다.
+    실적 시즌 전환기(예: 8월 중순)에 리포트가 다음 분기(3Q)를 말해도 매칭되도록 복수 분기를 담는다."""
     fi = (payload or {}).get('financeInfo') or {}
     titles = fi.get('trTitleList') or []
     rows = fi.get('rowList') or []
-    target = next((t for t in titles if t.get('isConsensus') == 'Y'), None)
-    if not target: return None
-    key, period = target['key'], target['title'].rstrip('.')
+    out = []
+    for target in (t for t in titles if t.get('isConsensus') == 'Y'):
+        key, period = target['key'], target['title'].rstrip('.')
 
-    def val(name):
-        row = next((r for r in rows if r.get('title', '').strip() == name), None)
-        return _num(row['columns'].get(key, {}).get('value')) if row else None
+        def val(name):
+            row = next((r for r in rows if r.get('title', '').strip() == name), None)
+            return _num(row['columns'].get(key, {}).get('value')) if row else None
 
-    return {'period': period, 'op': val('영업이익'), 'eps': val('EPS')}
+        out.append({'period': period, 'op': val('영업이익'), 'eps': val('EPS')})
+    return out
+
+
+def _first_estimate(payload):
+    """가장 가까운 추정(E) 기간 하나 — 기존 호환용."""
+    xs = _estimates(payload)
+    return xs[0] if xs else None
 
 
 def quarter_label(period):
@@ -55,10 +63,16 @@ def fetch_consensus(code, session=None):
     for kind, slot in (('quarter', 'quarter'), ('annual', 'annual')):
         try:
             payload = s.get(API.format(code=code, kind=kind), headers=UA, timeout=10).json()
-            out[slot] = _first_estimate(payload)
+            if slot == 'quarter':
+                xs = _estimates(payload)
+                for x in xs: x['label'] = quarter_label(x['period'])
+                out['quarters'] = xs           # 추정(E) 분기 전부 — 전환기 매칭용
+                out[slot] = xs[0] if xs else None
+            else:
+                out[slot] = _first_estimate(payload)
         except Exception:
             out[slot] = None
-    if out['quarter']:
+    if out['quarter'] and 'label' not in out['quarter']:
         out['quarter']['label'] = quarter_label(out['quarter']['period'])
     if out['annual']:
         out['annual']['label'] = out['annual']['period'].split('.')[0] + 'E'

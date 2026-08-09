@@ -268,14 +268,23 @@ def est_compare(estimates, consensus):
     """애널 추정 vs 네이버 컨센(인제스트 시점 스냅샷). 표시할 게 없으면 None."""
     if not estimates or not consensus: return None
     out = {}
-    q_cons = consensus.get('quarter') or {}
-    if estimates.get('quarter_label') and estimates['quarter_label'] == q_cons.get('label'):
+    # 리포트가 말하는 분기를 스냅샷의 추정(E) 분기들 중에서 찾는다 — 실적 시즌 전환기에
+    # 리포트(3Q 프리뷰)와 네이버 최근접 E 분기(2Q)가 어긋나도 복수 분기 목록이 있으면 매칭된다.
+    candidates = consensus.get('quarters') or ([consensus['quarter']] if consensus.get('quarter') else [])
+    q_cons = next((q for q in candidates if q and q.get('label') == estimates.get('quarter_label')), None)
+    if estimates.get('quarter_label') and q_cons:
         op, eps = _pair(estimates.get('quarter_op'), q_cons.get('op'), fix_scale=True), _pair(estimates.get('quarter_eps'), q_cons.get('eps'))
         if op or eps: out['quarter'] = {'label': estimates['quarter_label'], 'op': op, 'eps': eps}
     a_cons = consensus.get('annual') or {}
     op, eps = _pair(estimates.get('year_op'), a_cons.get('op'), fix_scale=True), _pair(estimates.get('year_eps'), a_cons.get('eps'))
     if (op or eps) and a_cons:
         out['annual'] = {'label': a_cons.get('label') or '당해E', 'op': op, 'eps': eps}
+    if out and consensus.get('fetched_at'):
+        # 컨센 스냅샷 수집 시각(UTC) → KST 날짜 — 화면 각주 "네이버 M.D 수집"용
+        try:
+            dt = datetime.fromisoformat(consensus['fetched_at'])
+            out['as_of'] = (dt + timedelta(hours=9)).date().isoformat()
+        except ValueError: pass
     return out or None
 
 
