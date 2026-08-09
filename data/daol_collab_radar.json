@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-09T13:50:31.395455+00:00",
+ "generated_at": "2026-08-09T23:18:39.595722+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1221,
+ "report_count": 1230,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27615,6 +27615,180 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 1주차)]",
    "post_url": "https://t.me/daolresearch/14811",
    "source_url": "https://buly.kr/2qazo11"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-08-10",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "파마리서치",
+   "code": "214450",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "화장품 수출 436억원(YoY +124%)이 의료기기 수출 322억원(YoY +33%)을 처음으로 추월."
+   ],
+   "title": "[파마리서치(214450)/ BUY(유지)/ TP 55만원(상향)/ 다올 의료기기 박종현] ★ 돌고 돌아 리쥬란",
+   "post_url": "https://t.me/daolresearch/14816",
+   "source_url": "https://buly.kr/90dXDMc"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-08-10",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "씨젠",
+   "code": "096530",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "연내 자사주 소각 동반 예정."
+   ],
+   "title": "[씨젠(096530)/ BUY(유지)/ TP 4.7만원(상향)/ 다올 의료기기 박종현] ★ 코스닥에서 이 정도의 체급을",
+   "post_url": "https://t.me/daolresearch/14817",
+   "source_url": "https://buly.kr/CM1vqsq"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-10",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "SPOT",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "Downside risk는 급격한 환율 안정이나, Q 중심의 성장으로 해당 성장폭 유지 전망."
+   ],
+   "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ SPOT: 순수 내수보단 인바운드와 수출주",
+   "post_url": "https://t.me/daolresearch/14819",
+   "source_url": "https://buly.kr/DwGkgFQ"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-08-10",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "SPOT",
+   "code": "",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "특히나, 파마리서치와 에이피알은 당초 투자 포인트였던 유럽 수출과 미국 오프라인 확장이 실적으로 반영되기 시작하였으며, 씨젠은 HPV 스크리닝 시장에서의 MS 확대를 확인했으며, 휴젤은 중국에서의 구조적인 성장 지속되는 과정에서 미국 직판 진입 기대감이 과소 반영 구간 의료기기 및 화장품 업종에 대한 선호도 및 투자 비중 확대 권고."
+   ],
+   "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ SPOT: 순수 내수보단 인바운드와 수출주",
+   "post_url": "https://t.me/daolresearch/14819",
+   "source_url": "https://buly.kr/DwGkgFQ"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-08-10",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "바이오시밀러",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Bevacizumab 점유율: Avastin 12%, Mvasi 55%, Zirabev 26.2%, Vegzelma 6.9% (수량 기준)",
+    "Avastin 11.5%, Mvasi 56.6%, Zirabev 24.7%, Vegzelma 7.1% (금액 기준)"
+   ],
+   "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 7월 미국 처방 실적",
+   "post_url": "https://t.me/daolresearch/14821",
+   "source_url": "https://buly.kr/28vyxci"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-10",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "CY2Q26",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "FY1Q27(CY2Q26) 매출액은 1,947억엔(YoY+4.7%, 고정환율 기준), 영업이익은 197억엔(YoY+8.0%)으로, 영업이익 기준 컨센서스 상회"
+   ],
+   "title": "[Nissin Food Holdings(2897 JT Equity) | 다올 음식료·통신 이다연] ★ CY2Q26 Review: 가격 인상 vs. 원가 부담 확대",
+   "post_url": "https://t.me/daolresearch/14822",
+   "source_url": "https://buly.kr/7FTxPFb"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-10",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "CY2Q26",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "중동전쟁발 원가 부담 확대, 대규모 CapEx 집행 및 신규 공장 가동으로 감가상각비 부담 확대 중.",
+    "그러나 중동 분쟁 영향에 따른 원재료비·물류비 부담과 더불어, 미국 시장 내 진열 경쟁에 따른 판촉비 부담 확대 예상."
+   ],
+   "title": "[Nissin Food Holdings(2897 JT Equity) | 다올 음식료·통신 이다연] ★ CY2Q26 Review: 가격 인상 vs. 원가 부담 확대",
+   "post_url": "https://t.me/daolresearch/14822",
+   "source_url": "https://buly.kr/7FTxPFb"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-08-10",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "CY2Q26",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "중동전쟁발 원가 부담 확대, 대규모 CapEx 집행 및 신규 공장 가동으로 감가상각비 부담 확대 중."
+   ],
+   "title": "[Nissin Food Holdings(2897 JT Equity) | 다올 음식료·통신 이다연] ★ CY2Q26 Review: 가격 인상 vs. 원가 부담 확대",
+   "post_url": "https://t.me/daolresearch/14822",
+   "source_url": "https://buly.kr/7FTxPFb"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-10",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데웰푸드",
+   "code": "280360",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "이는 같은 기간 원부재료비·환율 상승에 따른 원가 부담액 500억원을 상쇄하는 수치",
+    "1) 영업· 생산·구매에 걸친 효율화 효과 가시화, 2) 인도 빙과 신공장 안정화 및 우호적인 기상 여건, 3) 해외 가격인상, 4) 환율 하락과 하반기 코코아 투입원가 YoY 하락에 따라 가이던스 달성 가시성 확대."
+   ],
+   "title": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review : 가파른 체질 개선 효과 확인",
+   "post_url": "https://t.me/daolresearch/14823",
+   "source_url": "https://buly.kr/uWg5s2"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-08-10",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "와이지엔터테인먼트",
+   "code": "122870",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "하반기부터 빅뱅 20주년 투어 반영, 로열티로 반영되는 일본 지역 비중과 개런티 차이를 감안, 하반기 공연 매출은 YoY 감소, 로열티 매출은 YoY 성장 전망",
+    "베이비몬스터는 공연 및 MD 중심의 성장 지속 중."
+   ],
+   "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다",
+   "post_url": "https://t.me/daolresearch/14824",
+   "source_url": "https://buly.kr/4Fv4jZG"
   }
  ],
  "cross_mentions": [
@@ -28461,102 +28635,109 @@
  ],
  "candidates": [
   {
+   "term": "월드컵",
+   "recent": 7,
+   "total": 8,
+   "sectors": 4,
+   "burst": 13.4
+  },
+  {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.1
-  },
-  {
-   "term": "UAE",
-   "recent": 9,
-   "total": 13,
-   "sectors": 3,
-   "burst": 6.7
+   "burst": 11.5
   },
   {
    "term": "배당수익률",
    "recent": 6,
    "total": 9,
    "sectors": 5,
-   "burst": 5.5
+   "burst": 5.7
   },
   {
-   "term": "수익성이",
-   "recent": 9,
-   "total": 15,
-   "sectors": 8,
-   "burst": 4.8
-  },
-  {
-   "term": "해협",
-   "recent": 11,
-   "total": 20,
-   "sectors": 3,
-   "burst": 4.1
-  },
-  {
-   "term": "남미",
-   "recent": 7,
+   "term": "UAE",
+   "recent": 8,
    "total": 13,
    "sectors": 3,
-   "burst": 3.7
+   "burst": 5.1
   },
   {
    "term": "수율",
    "recent": 7,
    "total": 13,
    "sectors": 4,
-   "burst": 3.7
+   "burst": 3.8
+  },
+  {
+   "term": "기저가",
+   "recent": 7,
+   "total": 13,
+   "sectors": 5,
+   "burst": 3.8
   },
   {
    "term": "점차",
    "recent": 11,
    "total": 21,
    "sectors": 7,
-   "burst": 3.7
+   "burst": 3.8
+  },
+  {
+   "term": "수익성이",
+   "recent": 8,
+   "total": 15,
+   "sectors": 8,
+   "burst": 3.8
+  },
+  {
+   "term": "해협",
+   "recent": 10,
+   "total": 20,
+   "sectors": 3,
+   "burst": 3.5
   },
   {
    "term": "더해",
    "recent": 8,
    "total": 16,
    "sectors": 6,
-   "burst": 3.3
+   "burst": 3.4
   },
   {
    "term": "단일",
    "recent": 6,
    "total": 12,
    "sectors": 5,
-   "burst": 3.2
+   "burst": 3.3
   },
   {
    "term": "마련",
    "recent": 6,
    "total": 12,
    "sectors": 7,
-   "burst": 3.2
-  },
-  {
-   "term": "기저가",
-   "recent": 6,
-   "total": 12,
-   "sectors": 4,
-   "burst": 3.2
+   "burst": 3.3
   },
   {
    "term": "고부가",
    "recent": 6,
    "total": 12,
    "sectors": 3,
-   "burst": 3.2
+   "burst": 3.3
+  },
+  {
+   "term": "피지컬",
+   "recent": 6,
+   "total": 12,
+   "sectors": 3,
+   "burst": 3.3
   },
   {
    "term": "멕시코",
    "recent": 6,
    "total": 12,
    "sectors": 6,
-   "burst": 3.2
+   "burst": 3.3
   }
  ]
 }
