@@ -1,4 +1,4 @@
-import argparse, html, json, re, time
+import argparse, html, json, os, re, time
 from io import BytesIO
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
@@ -311,7 +311,8 @@ def analyze(messages, pdf_since='2025-05'):
     cache=json.loads(PDF_CACHE.read_text(encoding='utf-8')) if PDF_CACHE.exists() else {}
     cache_changed=False
     reports=[]
-    pdf_started=time.monotonic();pdf_budget_seconds=900
+    # 아침 런은 CI가 360초로 줄여서 넘긴다(빨리 끝내기) — 과거 실패분 재시도는 저녁 런(900초) 몫
+    pdf_started=time.monotonic();pdf_budget_seconds=int(os.getenv('PDF_BUDGET_SECONDS','900'))
     for m in sorted((x for x in messages if is_report(x)),key=lambda x:x['date'],reverse=True):
         t=m['text']; analyst,sector=analyst_sector(t); company,code=company_name(t); dt=kst_dt(m['date'])
         day=dt.date().isoformat()
