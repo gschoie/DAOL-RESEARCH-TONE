@@ -150,6 +150,11 @@ def gemini_analyze(user_text, model=None):
             if exc.code == 429 and attempt < 2:
                 time.sleep(30); continue
             raise RuntimeError(f'Gemini API error {exc.code}: {detail[:300]}') from exc
+        except (TimeoutError, urllib.error.URLError) as exc:
+            # 읽기 타임아웃·일시 네트워크 오류는 재시도(안 하면 그 리포트가 'AI 대기'로 남는다)
+            if attempt < 2:
+                time.sleep(10); continue
+            raise RuntimeError(f'Gemini network error: {exc}') from exc
     raise RuntimeError('Gemini retry loop exited unexpectedly')
 
 
@@ -173,6 +178,10 @@ def openai_analyze(user_text, model=None):
             if exc.code == 429 and attempt < 2:
                 time.sleep(20); continue
             raise RuntimeError(f'OpenAI API error {exc.code}: {detail[:300]}') from exc
+        except (TimeoutError, urllib.error.URLError) as exc:
+            if attempt < 2:
+                time.sleep(10); continue
+            raise RuntimeError(f'OpenAI network error: {exc}') from exc
     raise RuntimeError('OpenAI retry loop exited unexpectedly')
 
 
