@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T00:00:13.112892+00:00",
+  "generated_at": "2026-08-10T04:07:45.440244+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1230,
   "months": [
@@ -184,9 +184,9 @@
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/7mEDG90",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /7mEDG90 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91234080>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143187/1/20260807_071050_jiwonkim_244.pdf",
+              "pdf_error": "",
               "title": "[한국금융지주(071050)/BUY/TP 370,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 일단 업종 최고 ROE 재차 확인",
               "summary": "[한국금융지주(071050)/BUY/TP 370,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 일단 업종 최고 ROE 재차 확인 ▶ 2Q26 Review. 연결 순이익 9,959억원(YoY+84.8%)으로, 기대를 크게 상회하는 어닝 서프라이즈 ▶ 리테일 Fee 수익과 연결 자회사 운용이익 큰 폭 증가가 기여 ▶ (1) 업종 최고 수준 ROE 재차 확인과 26E DPS 큰 폭 상승 기대, (2) 충당금 부담 완화 확인 긍정적 ▶ 그러나 하반기 시장동향은 확인 필요. 7월 일평균 거래대금 반영 후 연간 전망치 조정 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/7mEDG90 > ▶ 개별 채널 https://t.me/jiwonkimfin",
               "post_url": "https://t.me/daolresearch/14804",
@@ -212,8 +212,8 @@
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/EoqW8IF",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /EoqW8IF (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91200320>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143148/1/20260806_B4030_jiwonkim_243.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
               "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (6월) 자본시장: 동향 추가 확인 필요",
               "summary": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (6월) 자본시장: 동향 추가 확인 필요 ▶ Brokerage 모멘텀 확인 필요한 구간. 개인 중심 자금이탈과 매수 여력 축소 주시 중 ▶ 증권사별 Fee 수익 방어력 차별화 주목 ▶ 국내주식 일평균거래대금: (6월) 99.4조원, (7월) 69.4조원 ▶ 국내 ETF 일평균거래대금: (6월) 37.4조원, (7월) 34.2조원 ▶ 주식 발행실적: 3,155억원(YoY-19.6%, MoM-76.8%) ▶ 회사채 발행실적: 26.5조원(YoY+12.6%, MoM+41.2%) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/EoqW8IF > ▶ 개별 채널 https://t.me/jiwonkimfin",
               "post_url": "https://t.me/daolresearch/14787",
@@ -261,14 +261,8 @@
               "source": "https://t.me/daolresearch/14774"
             }
           ],
-          "top_picks": [
-            {
-              "text": "사업 경쟁력을 확보하기 위한 목적이고, AI DC 매출 인식 시점(2Q27)이 머지 않았기 때문에 인터넷 산업 Top-Pick 유지 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/FsL5TEq >",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14820"
-            }
-          ],
-          "top_pick_change": "전월과 문구/구성 변경",
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
           "report_count": 4,
@@ -283,12 +277,8 @@
               "code": "035420",
               "report_type": "기업자료",
               "opinion": "",
-              "top_picks": [
-                "사업 경쟁력을 확보하기 위한 목적이고, AI DC 매출 인식 시점(2Q27)이 머지 않았기 때문에 인터넷 산업 Top-Pick 유지 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/FsL5TEq >"
-              ],
-              "preferred_stocks": [
-                "사업 경쟁력을 확보하기 위한 목적이고, AI DC 매출 인식 시점(2Q27)이 머지 않았기 때문에 인터넷 산업 Top-Pick 유지 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/FsL5TEq >"
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
@@ -296,9 +286,9 @@
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/FsL5TEq",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FsL5TEq (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fce90>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143233/1/20260810_035420_hyyy_207.pdf",
+              "pdf_error": "",
               "title": "[NAVER(035420)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: 강해지기 위해 필요한 시기 ★ 400,000원(유지), BUY(유지)",
               "summary": "[NAVER(035420)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: 강해지기 위해 필요한 시기 ★ 400,000원(유지), BUY(유지) ▶ 2Q26P 연결 매출액은 3조 3,888억원(+16.2% YoY, +4.6% QoQ), 영업이익은 5,203억원(-0.2% YoY, -4.0% QoQ; OPM 15.4%) 시현. 매출액은 컨센서스에 부합하고 영업이익은 Npay 커넥트 단말기 및 커머스 프로모션 비용 증가로 컨센서스에 하회 ▶ 지배주주당기순이익은 6,986억원(+42.9% YoY, +144.8% QoQ)으로 관계기업 투자이익(A Holdings 등) 증가로 컨센서스에 상회 ▶ [네이버 플랫폼 서비스] 4,550억원(+31.3% YoY, +2.2% QoQ). 스마트 스토어의 거래액이 2Q25 대비 15.5% 성장함과 동시에 쇼핑수수료 인상이 반영. 3Q26부터는 인상 효과가 사라질 예정 ▶ [C2C] 3,979억원(+74.9% YoY, +13.3% QoQ). 포시마크의 매출액은 AI 기반 검색 추천 품질 개선으로 전년 동기 대비 40% 성장. 소다는 트레이딩 카드 거래 허용으로 거래액과 매출액이 2배 이상 증가 ▶ [영업비용] 2조 8,684억원(+19.8% YoY, +6.3% QoQ) 기록. 파트너비는 1조 2,568억원(+22.0% YoY, +5.8% QoQ)으로 Npay 커넥트 단말기 보급과 월드컵 중계권 취득 비용이 반영되며 전년 동기 대비 상승. 마케팅비는 6,049억원(+25.4% YoY, +18.2% QoQ)으로 커머스 부문의 전략적 집행과 커머스 프로모션 비용이 증가하며 큰 폭으로 증가 ▶ GPU의 연한을 5년에서 6년으로 연장하였으며 연간 회계상 감가상각비 절감 효과는 1,000억원 수준. 현재 광고, 커머스, AI DC 등 매",
               "post_url": "https://t.me/daolresearch/14820",
@@ -323,9 +313,9 @@
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/FAg2SuU",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FAg2SuU (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fce90>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143193/1/20260807_035720_hyyy_206.pdf",
+              "pdf_error": "",
               "title": "[카카오(035720)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: AI 수익화 기반 마련 중 ★ 60,000원(유지), BUY(유지)",
               "summary": "[카카오(035720)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: AI 수익화 기반 마련 중 ★ 60,000원(유지), BUY(유지) ▶ 2Q26P 연결 매출액은 2조 985억원(+3.5% YoY, +8.1% QoQ), 영업이익은 2,770억원(+49.0% YoY, +31.0% QoQ; OPM 13.2%) 시현. 매출액은 컨센서스에 부합하고 영업이익은 자회사(페이) 실적 호조와 AXZ 연결 제외로 컨센서스에 상회 ▶ 지배주주당기순이익은 163억원(-89.9% YoY, -90.5% QoQ)으로 컨센서스에 크게 하회. AXZ 연결 제외와 지분 매각에 따른 중단영업손실 1,808억원과 법인세 비용이 1,651억원 인식되었기 때문 ▶ [톡비즈] 6,432억원(+16.6% YoY, +2.1% QoQ). 톡비즈의 구성 항목 중 광고형 매출은 4,000억원(+13.6% YoY, +11.1% QoQ)으로 비즈니스 메시지가 전년 대비 20% 증가하며 성장 견인. 톡 DA는 피드형 광고 효과로 28% 상승 ▶ [플랫폼 기타] 5,870억원(+21.7% YoY, +12.2% QoQ). 카카오페이 영업수익은 3,351억원(+40.6% YoY, +11.6% QoQ)으로 국내 및 해외 주식 거래 대금 급증과 보험 DB가 확대되며 높은 성장 시현. 영업이익은 586억원(+528.2% YoY, +81.7% QoQ; OPM 17.5%) 기록 ▶ 동사는 쿠팡이츠와의 파트너십을 발표. 카나나가 대화의 맥락을 읽고 인증부터 결제까지 관여할 예정. 파트너사의 신규 고객 유입과 거래액 상승이 확인된다면 레퍼런스가 되어 다른 파트너사의 참여를 이끌 수 있다고 판단 ▶ 배달뿐만 아니라 커머스, 예약, 여행, 결제 등 버티컬 서비스로 확장할 계획이며 2027년부터 본격적으로 수익화를 시작하여",
               "post_url": "https://t.me/daolresearch/14810",
@@ -351,8 +341,8 @@
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/FhQJ2kH",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FhQJ2kH (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc912347d0>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143153/1/20260806_251270_hyyy_205.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
               "title": "[넷마블(251270)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: 전략 점검의 시기 ★ 55,000원(유지), BUY(유지)",
               "summary": "[넷마블(251270)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: 전략 점검의 시기 ★ 55,000원(유지), BUY(유지) ▶ 2Q26P 연결 매출액은 7,492억원(+4.4% YoY, +15.0% QoQ), 영업이익은 801억원(-20.8% YoY, +51.0% QoQ). 매출액은 컨센서스에 부합하고 영업이익은 컨센서스에 소폭 하회 ▶ 지배주주당기순이익은 1,976억원(+23.2% YoY, -5.8% QoQ)으로 구로 지타워 매각 금액(6,977억원)이 반영되며 컨센서스에 상회 ▶ 6/18에 출시한 <SOL: enchant>는 225억원의 매출 기록. 2Q26 평균 일매출은 17억원. 출시부터 8월 초인 현재까지 Google Play에서 1위 유지 중. 매출이 온기로 반영되는 3Q26에는 유의미하게 기여할 전망 ▶ [지급수수료] 매출액의 31.4%인 2,356억원(-28% YoY, +17.3% QoQ) 기록. 외부 IP 비중이 상승하며 전분기 대비 상승 ▶ [마케팅비] 매출액의 24.5%인 1,835억원(+35.5% YoY, +9.1% QoQ) 기록. <몬길: STAR DIVE>. <왕좌의 게임: 킹스로드>, <SOL: enchant> 출시로 인해 전년 동기 대비 큰 폭으로 상승. 특히 MMORPG 장르인 <SOL: enchant>의 지출이 높았다고 판단. 2H26 예정 신작은 3개로 많지 않기 때문에 연간 마케팅비 가이던스 연간 20% 수준은 유지할 전망 ▶ 2H26 예정 신작은 <나 혼자만 레벨업: KARMA>, <샹그릴라 프론티어: 일곱 최강종>, <프로젝트 이지스>이며 <프로젝트 옥토퍼스>와 <이블베인>은 2027년으로 연기. 신작 개수를 조정한 이유는 라이브 게임의 PLC 확장과 리소스를 효율화 측면에 집중하기 위함 ▶ 기존 게임의 수",
               "post_url": "https://t.me/daolresearch/14795",
@@ -494,114 +484,8 @@
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
-          "tp_changes": [
-            {
-              "company": "에이피알",
-              "direction": "상향",
-              "old": null,
-              "new": 560000,
-              "display": "560,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": ". 대체데이터상 아마존 US 점유율 17.4%(WoW +1.9%p), 틱톡샵 GMV 우상향으로 온라인 재가속 확인. 물류비 정상화 및 현지 재고 안정화에 따라 OPM 개선 여지. 2026E 25.2% → 2027E 26.1% 전망 ▶ 투자의견 전 채널 매출 호조가 추정치 상향 견인. 금번 실적으로 1) 매출 성장 우려를 북미 오프라인·유럽 온라인 성과로 해소, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화로 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/NmNhOQ > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-08-06",
-              "source": "https://t.me/daolresearch/14786"
-            },
-            {
-              "company": "휴젤",
-              "direction": "상향",
-              "old": null,
-              "new": 430000,
-              "display": "430,000원 (상향)",
-              "reasons": [
-                "본문상 명시 배경 추가 확인 필요"
-              ],
-              "evidence": "Mid-single % 로열티 계약으로 인한 마진 훼손에 따라 상대적으로 높은 단가와 제한적 마케팅으로 점유율 확대가 주춤, 2032년까지 동사의 기회 요인으로 판단. SNS를 통해 확인되는 북미 법인 인력은 2026년 2월 이후 34명으로 월별 채용 인력 확대 중. 다만 사모펀드 지휘 체제 하에서 EBITDA Margin의 큰 훼손 없는 인력 채용을 전망 ▶ 투자의견 중국의 구조적 성장에 미국 직판이라는 장기 옵션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원으로 상향. 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1ws6Q4 > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-08-07",
-              "source": "https://t.me/daolresearch/14805"
-            },
-            {
-              "company": "파마리서치",
-              "direction": "상향",
-              "old": null,
-              "new": 550000,
-              "display": "550,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "심포지엄 진행하며, 유럽 수출 매출액 중심 성장 기대. 2026E 매출액 7,046억원(YoY +31%), 영업이익 2,720억원(YoY +27%)으로 연간 가이던스 +25%를 상회하는 국면 ▶ 투자의견 8/7일 실적 발표 직후, 높은 시장 기대치 대비 하회한 실적으로 주가 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/90dXDMc > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14816"
-            },
-            {
-              "company": "씨젠",
-              "direction": "상향",
-              "old": null,
-              "new": 47000,
-              "display": "47,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[씨젠(096530)/ BUY(유지)/ TP 4.7만원(상향)/ 다올 의료기기 박종현] ★ 코스닥에서 이 정도의 체급을 ▶ Review 2Q26P 영업이익 컨센서스 18% 상회. 국가 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 2Q26P 매출액 1,359억(YoY +19.1%, QoQ +5.2%), 영업이익 216억(YoY +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 143억(YoY +40%, QoQ +20%)이 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번 실적 성장을 견인. 콜롬비아·브라질 국가 스크리닝 편입 물량이라 2~3년 주기 재검진 수요가 반복되는 구조로 견조한 실적 성장 기대. 두개 분기 연속 QoQ 증가. HPV 스크리닝 최대 사업자 로슈와 경쟁하나 태국 스크리닝 시장을 양분. [장비] 327억원으로 YoY +23% 성장. 전략적 재고 확",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14817"
-            }
-          ],
-          "tp_raises": [
-            {
-              "company": "에이피알",
-              "direction": "상향",
-              "old": null,
-              "new": 560000,
-              "display": "560,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": ". 대체데이터상 아마존 US 점유율 17.4%(WoW +1.9%p), 틱톡샵 GMV 우상향으로 온라인 재가속 확인. 물류비 정상화 및 현지 재고 안정화에 따라 OPM 개선 여지. 2026E 25.2% → 2027E 26.1% 전망 ▶ 투자의견 전 채널 매출 호조가 추정치 상향 견인. 금번 실적으로 1) 매출 성장 우려를 북미 오프라인·유럽 온라인 성과로 해소, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화로 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/NmNhOQ > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-08-06",
-              "source": "https://t.me/daolresearch/14786"
-            },
-            {
-              "company": "휴젤",
-              "direction": "상향",
-              "old": null,
-              "new": 430000,
-              "display": "430,000원 (상향)",
-              "reasons": [
-                "본문상 명시 배경 추가 확인 필요"
-              ],
-              "evidence": "Mid-single % 로열티 계약으로 인한 마진 훼손에 따라 상대적으로 높은 단가와 제한적 마케팅으로 점유율 확대가 주춤, 2032년까지 동사의 기회 요인으로 판단. SNS를 통해 확인되는 북미 법인 인력은 2026년 2월 이후 34명으로 월별 채용 인력 확대 중. 다만 사모펀드 지휘 체제 하에서 EBITDA Margin의 큰 훼손 없는 인력 채용을 전망 ▶ 투자의견 중국의 구조적 성장에 미국 직판이라는 장기 옵션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원으로 상향. 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1ws6Q4 > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-08-07",
-              "source": "https://t.me/daolresearch/14805"
-            },
-            {
-              "company": "파마리서치",
-              "direction": "상향",
-              "old": null,
-              "new": 550000,
-              "display": "550,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "심포지엄 진행하며, 유럽 수출 매출액 중심 성장 기대. 2026E 매출액 7,046억원(YoY +31%), 영업이익 2,720억원(YoY +27%)으로 연간 가이던스 +25%를 상회하는 국면 ▶ 투자의견 8/7일 실적 발표 직후, 높은 시장 기대치 대비 하회한 실적으로 주가 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/90dXDMc > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14816"
-            },
-            {
-              "company": "씨젠",
-              "direction": "상향",
-              "old": null,
-              "new": 47000,
-              "display": "47,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[씨젠(096530)/ BUY(유지)/ TP 4.7만원(상향)/ 다올 의료기기 박종현] ★ 코스닥에서 이 정도의 체급을 ▶ Review 2Q26P 영업이익 컨센서스 18% 상회. 국가 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 2Q26P 매출액 1,359억(YoY +19.1%, QoQ +5.2%), 영업이익 216억(YoY +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 143억(YoY +40%, QoQ +20%)이 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번 실적 성장을 견인. 콜롬비아·브라질 국가 스크리닝 편입 물량이라 2~3년 주기 재검진 수요가 반복되는 구조로 견조한 실적 성장 기대. 두개 분기 연속 QoQ 증가. HPV 스크리닝 최대 사업자 로슈와 경쟁하나 태국 스크리닝 시장을 양분. [장비] 327억원으로 YoY +23% 성장. 전략적 재고 확",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14817"
-            }
-          ],
+          "tp_changes": [],
+          "tp_raises": [],
           "report_count": 9,
           "reports": [
             {
@@ -632,8 +516,8 @@
                 "순환매 지속 전망 시, 상대적으로 실적 추정치 우상향 가능성 있는 미용 의료기기 및 화장품 업종에 대한 관심 지속 기대."
               ],
               "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/DwGkgFQ",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /DwGkgFQ (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913ffe60>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143230/1/20260810_B3510_alex.park_585.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
               "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ SPOT: 순수 내수보단 인바운드와 수출주",
               "summary": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ SPOT: 순수 내수보단 인바운드와 수출주 ▶ 희비가 갈린 실적 시장 기대치가 높았던 파마리서치/에이피알을 제외하고, 휴젤/아모레퍼시픽/대웅제약/인바디/씨젠 등 수출 매출 비중이 50%가 넘거나, 인바운드 노출도 높은 기업들의 실적 서프라이즈 지속. 특히나, 파마리서치와 에이피알은 당초 투자 포인트였던 유럽 수출과 미국 오프라인 확장이 실적으로 반영되기 시작하였으며, 씨젠은 HPV 스크리닝 시장에서의 MS 확대를 확인했으며, 휴젤은 중국에서의 구조적인 성장 지속되는 과정에서 미국 직판 진입 기대감이 과소 반영 구간 의료기기 및 화장품 업종에 대한 선호도 및 투자 비중 확대 권고. Downside risk는 급격한 환율 안정이나, Q 중심의 성장으로 해당 성장폭 유지 전망. 아직 달바글로벌/한국콜마/실리콘투/코스메카코리아 등 주요 기업 실적 발표 남아있으며, 해당 기업들 또한 양호한 실적 발표 전망 ▶ 8/11일 수출과 의료관광 데이터가 관건이다 톡신/필러/화장품 모두 6월 대비 7월 성장(MoM +6%, +9%, +2%)하며, QoQ 성장에 대한 기대감 유지. 특히나, 8/11일에 발표될 10일 잠정 수출 데이터 및 의료 관광 데이터에서의 성장률이 3Q26E에도 성장세를 보여줄 수 있을지 판가름하는 분기점이 될 전망 ▶ 중소형주에도 여력이 있다면? 단기 저점을 기록했던 7/29일 이후 코스피와 코스닥의 상승률은 각각 +11%, +21%로 상대적으로 코스닥의 강세가 확인. 상기한 모멘텀을 흡수할 수 있는 기업으로는 커버리지외 중소형주는 글로벌텍스프리와 메쎄이상. 글로벌텍스프리는 8/6일 MIRI Capital 5.83% 지분 공시(투자 목적: 일반 투자). 글로벌텍스프리는 1Q26로 결손금이 이익잉여금으로 전환되었으며, 현금성자",
               "post_url": "https://t.me/daolresearch/14819",
@@ -656,13 +540,11 @@
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
-              "valuation": [
-                "▶ 투자의견 2026E PER 6.5배 진입하며, 유동성 및 사업 계획 지연 우려 반영."
-              ],
+              "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/9tDK7TU",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /9tDK7TU (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913ffb60>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143229/1/20260810_119610_alex.park_586.pdf",
+              "pdf_error": "",
               "title": "[인터로조(119610)/ Not Rated/ 다올 의료기기 박종현] ★ 우려감의 끝, 확인은 3Q26E",
               "summary": "[인터로조(119610)/ Not Rated/ 다올 의료기기 박종현] ★ 우려감의 끝, 확인은 3Q26E ▶ Review 2Q26P 매출액 컨센서스 8% 하회. 일본향 축고정 렌즈 40억원 3Q26 이월이 원인, 원가율 53.8%로 OPM 20.3% 방어 2Q26P 매출액 294억원(YoY -6.0%, QoQ -4.1%), 영업이익 60억원(YoY -5.7%, QoQ -3.9%)으로 컨센서스 소폭 하회. 외형 역성장은 일본향 축 고정 렌즈 40억원 오더 중 10%만 2Q26에 인식. 종합수율 개선으로 원가율 53.8%(YoY -12.2%p), GPM 46.2%로 2024년 이후 최고치. [판관비] 76억원(YoY +77%)은 대손상각비 환입 축소와 광고선전비 증가 영향이나 GPM 개선으로 OPM 20.3%(YoY +0.1%p) 방어 지역별로는 [일본] 84억원(YoY -25%)이 축 고정 렌즈 이연을 그대로 반영. [유럽/CIS] 79억원(YoY +13%)은 1Q26 선오더 기저로 QoQ 감소, [중동] 28억원(QoQ -25%)은 전쟁 영향권 확대로 보수적 접근이 필요. [중국] 20억원(YoY +59%)은 기저가 낮으나 증가율 유지. [국내] 60억원(YoY +2%)은 도매 재고 정책이 6개월분에서 3개월분으로 축소되며 발생한 일시적 셀인 공백. 재고자산 553억원(전년말 대비 +27%)은 3Q26 오더 대응분 선제 생산분 ▶ 전망 3Q26E 매출액 393억원(YoY +21%, QoQ +33%), 영업이익 94억원(YoY +99%, QoQ +57%)를 전망. 이연분 선적과 신규 축 고정 렌즈 오더 10억원이 더해져 일본 매출액은 2Q26P 대비 2배 수준으로 회복될 전망이며, 재고 소진에 따른 운전자본 개선도 동반될 국면. 2026E 매출액 1,391억원(YoY +18%), 영업이",
               "post_url": "https://t.me/daolresearch/14818",
@@ -680,42 +562,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "씨젠",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 47000,
-                  "display": "47,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[씨젠(096530)/ BUY(유지)/ TP 4.7만원(상향)/ 다올 의료기기 박종현] ★ 코스닥에서 이 정도의 체급을 ▶ Review 2Q26P 영업이익 컨센서스 18% 상회. 국가 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 2Q26P 매출액 1,359억(YoY +19.1%, QoQ +5.2%), 영업이익 216억(YoY +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 143억(YoY +40%, QoQ +20%)이 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번 실적 성장을 견인. 콜롬비아·브라질 국가 스크리닝 편입 물량이라 2~3년 주기 재검진 수요가 반복되는 구조로 견조한 실적 성장 기대. 두개 분기 연속 QoQ 증가. HPV 스크리닝 최대 사업자 로슈와 경쟁하나 태국 스크리닝 시장을 양분. [장비] 327억원으로 YoY +23% 성장. 전략적 재고 확"
-                }
-              ],
-              "tp_raises": [
-                {
-                  "company": "씨젠",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 47000,
-                  "display": "47,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[씨젠(096530)/ BUY(유지)/ TP 4.7만원(상향)/ 다올 의료기기 박종현] ★ 코스닥에서 이 정도의 체급을 ▶ Review 2Q26P 영업이익 컨센서스 18% 상회. 국가 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 2Q26P 매출액 1,359억(YoY +19.1%, QoQ +5.2%), 영업이익 216억(YoY +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 143억(YoY +40%, QoQ +20%)이 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번 실적 성장을 견인. 콜롬비아·브라질 국가 스크리닝 편입 물량이라 2~3년 주기 재검진 수요가 반복되는 구조로 견조한 실적 성장 기대. 두개 분기 연속 QoQ 증가. HPV 스크리닝 최대 사업자 로슈와 경쟁하나 태국 스크리닝 시장을 양분. [장비] 327억원으로 YoY +23% 성장. 전략적 재고 확"
-                }
-              ],
+              "tp_changes": [],
+              "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
-              "earnings_changes": [
-                "추정치 상향과 함께 HPV 스크리닝 시장의 구조적 성장의 수혜주인 동사의 적정주가 4.7만원 제시 * 보고서 원문 및 컴플라이언스 < https://buly.kr/CM1vqsq > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-              ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/CM1vqsq",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /CM1vqsq (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fd610>, 'Connection to buly.kr timed out. (connect ",
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143228/1/20260810_096530_alex.park_584.pdf",
+              "pdf_error": "",
               "title": "[씨젠(096530)/ BUY(유지)/ TP 4.7만원(상향)/ 다올 의료기기 박종현] ★ 코스닥에서 이 정도의 체급을",
               "summary": "[씨젠(096530)/ BUY(유지)/ TP 4.7만원(상향)/ 다올 의료기기 박종현] ★ 코스닥에서 이 정도의 체급을 ▶ Review 2Q26P 영업이익 컨센서스 18% 상회. 국가 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 2Q26P 매출액 1,359억(YoY +19.1%, QoQ +5.2%), 영업이익 216억(YoY +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 143억(YoY +40%, QoQ +20%)이 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번 실적 성장을 견인. 콜롬비아·브라질 국가 스크리닝 편입 물량이라 2~3년 주기 재검진 수요가 반복되는 구조로 견조한 실적 성장 기대. 두개 분기 연속 QoQ 증가. HPV 스크리닝 최대 사업자 로슈와 경쟁하나 태국 스크리닝 시장을 양분. [장비] 327억원으로 YoY +23% 성장. 전략적 재고 확보했던 CFX96의 판매 호조가 일부 실적 성장에 기여했으나, 해당 재고분은 2026E로 소진. 2027E부터는 차세대 장비로 전환으로 장비 매출 성장 둔화 가능. 비호흡기 비중 상승에도 가동률 개선 및 재고로 비축했던 장비의 매출 전환으로 매출원가율 30.3%로 개선(YoY -9.0%p) ▶ 전망 북반구 계절성 및 HPV 스크리닝 매출 지속과 함께 동사는 상저하고의 실적 방향성 제시. 3Q26E 매출액 1,331억(YoY +17%, QoQ -2%), 영업이익 184억(YoY +92%, QoQ -15%)을 전망. 북반구 계절성이 4Q에 몰려있다는 점을 감안하면, 3Q보다는 4Q 유의미한 QoQ 실적 성장 기대. 동사의 CURECA와 STAgora 등 차세대 장비 개발을 위",
               "post_url": "https://t.me/daolresearch/14817",
@@ -733,42 +589,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "파마리서치",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 550000,
-                  "display": "550,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "심포지엄 진행하며, 유럽 수출 매출액 중심 성장 기대. 2026E 매출액 7,046억원(YoY +31%), 영업이익 2,720억원(YoY +27%)으로 연간 가이던스 +25%를 상회하는 국면 ▶ 투자의견 8/7일 실적 발표 직후, 높은 시장 기대치 대비 하회한 실적으로 주가 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/90dXDMc > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-                }
-              ],
-              "tp_raises": [
-                {
-                  "company": "파마리서치",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 550000,
-                  "display": "550,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "심포지엄 진행하며, 유럽 수출 매출액 중심 성장 기대. 2026E 매출액 7,046억원(YoY +31%), 영업이익 2,720억원(YoY +27%)으로 연간 가이던스 +25%를 상회하는 국면 ▶ 투자의견 8/7일 실적 발표 직후, 높은 시장 기대치 대비 하회한 실적으로 주가 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/90dXDMc > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-                }
-              ],
+              "tp_changes": [],
+              "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
-              "earnings_changes": [
-                "수출 추정치 상향과 함께 적정주가 55만원 상향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/90dXDMc > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-              ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/90dXDMc",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /90dXDMc (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc912000b0>, 'Connection to buly.kr timed out. (connect ",
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143227/1/20260810_214450_alex.park_583.pdf",
+              "pdf_error": "",
               "title": "[파마리서치(214450)/ BUY(유지)/ TP 55만원(상향)/ 다올 의료기기 박종현] ★ 돌고 돌아 리쥬란",
               "summary": "[파마리서치(214450)/ BUY(유지)/ TP 55만원(상향)/ 다올 의료기기 박종현] ★ 돌고 돌아 리쥬란 ▶ Review 2Q26P 매출액 1,787억원(YoY +27.1%, QoQ +22.3%), 영업이익 665억원(YoY +19.0%, QoQ +16.0%)으로 컨센서스 부합. 매출액 5% 상회, 영업이익 2% 하회. [화장품] 602억원(YoY +96%)이 전사의 34%를 차지하며 외형 견인, [의료기기] 967억원(YoY +14%)도 방한 외국인 회복으로 성수기 효과. OPM 37.2%(YoY -2.5%p, QoQ -2.0%p)로 2개 분기 연속 하락. 지상파 광고에 따른 광고선전비 212억원(QoQ +70억원)과 일회성 상여금 30억원 영향. 해당분 일회성 제외 시, 영업이익 695억원 수출 840억원(YoY +62%)으로 전사 비중 47%까지 확대. 화장품 수출 436억원(YoY +124%)이 의료기기 수출 322억원(YoY +33%)을 처음으로 추월. 우크라이나 허가 제도 신설에 따른 선취 물량 40억원 제외 시에도 YoY +103%로, 미국 아마존 프라임데이와 세포라 입점 첫 온기 효과가 동반. 의료기기 수출은 유럽 비바시향 물량 1Q26 20억원에서 50억원으로 확대되며 역대 최대 분기 달성. 의약품(YoY -10%)은 톡신 믹스 악화 ▶ 전망 3Q26E 매출액 1,825억원(YoY +35%, QoQ +2%), 영업이익 712억원(YoY +15%, QoQ +7%)을 전망. TV 광고 종료와 상여금 소멸로 판관비는 QoQ 감소 전망. 2H26E 유럽 중심 심포지엄 진행하며, 유럽 수출 매출액 중심 성장 기대. 2026E 매출액 7,046억원(YoY +31%), 영업이익 2,720억원(YoY +27%)으로 연간 가이던스 +25%를 상회하는 국면 ▶ 투자의견 8/7일 ",
               "post_url": "https://t.me/daolresearch/14816",
@@ -791,15 +621,11 @@
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
-              "valuation": [
-                "전일 실적 발표 후 주가 상승으로 2026E PER 17.6배 도달했으나, 영업이익률 20%를 상회했던 구간 대비 여전히 저평가 구간이며 해외 진출 기대감이 컸던 2018-2019년 Historical PER 밴드는 30배 수준 * 보고서 원문 및 컴플라이언스 < https://buly.kr/jbu1ge > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-              ],
-              "earnings_changes": [
-                "▶ 전망 3Q26E 매출액 710억원(YoY +19%, QoQ -3%), 영업이익 149억원(YoY +52%, QoQ -16%), 2026E 매출액 2,848억원(YoY +22%), 영업이익 601억원(YoY +63%, OPM 21%)으로 추정치 상향"
-              ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/jbu1ge",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /jbu1ge (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fde50>, 'Connection to buly.kr timed out. (connect t",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143190/1/20260807_041830_alex.park_582.pdf",
+              "pdf_error": "",
               "title": "[인바디(041830)/ Not Rated/ 다올 의료기기 박종현] ★ 영업 레버리지를 재확인",
               "summary": "[인바디(041830)/ Not Rated/ 다올 의료기기 박종현] ★ 영업 레버리지를 재확인 ▶ Review 2Q26P 매출액 732억원(YoY +30%, QoQ +7%), 영업이익 177억원(YoY +71%, QoQ +36%)으로 영업이익 컨센서스 +37% 상회. OPM 24.2%로 전년비 +6%p 개선. 미국 관세 환급 29억원 일회성을 제외해도 영업이익 148억원(OPM 20%)으로 추정치 상회. 매출 증가율(+30%)이 판관비 증가(+19%)를 크게 웃돌며 영업 레버리지가 마진 개선 견인 지역별로는 미국 267억원(YoY +49%, QoQ +9%)이 성장 주도. GLP-1 수혜가 전방위 확산되며 메이요 클리닉 등 대형 병원 계약, 비만치료 클리닉, 웰니스 채널 매출 확대에 더해 가정용 H40 출시 효과 확인. 해외 가정용 InBody Dial은 매출액 76억원(YoY +99%). 유럽 112억원(YoY +56%)은 분기 기준 처음으로 한국 매출 추월, 폴란드·스위스 거점 확대와 우호적인 원/유로 환율 환경이 작용 ▶ 전망 3Q26E 매출액 710억원(YoY +19%, QoQ -3%), 영업이익 149억원(YoY +52%, QoQ -16%), 2026E 매출액 2,848억원(YoY +22%), 영업이익 601억원(YoY +63%, OPM 21%)으로 추정치 상향 ▶ 투자의견 원화 강세를 제외하면 여전히 우호적인 영업 환경. 미국 병원 침투와 유럽 직판 전환에 따른 구조적 성장 저변 확대가 실적 가시성 제고. 의료기기 업종 내 GLP-1 확산 수혜 종목으로서 관심 종목(Not Rated) 유지. 전일 실적 발표 후 주가 상승으로 2026E PER 17.6배 도달했으나, 영업이익률 20%를 상회했던 구간 대비 여전히 저평가 구간이며 해외 진출 기대감이 컸던 2018-2019년 Hi",
               "post_url": "https://t.me/daolresearch/14806",
@@ -817,40 +643,16 @@
               "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "휴젤",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 430000,
-                  "display": "430,000원 (상향)",
-                  "reasons": [
-                    "본문상 명시 배경 추가 확인 필요"
-                  ],
-                  "evidence": "Mid-single % 로열티 계약으로 인한 마진 훼손에 따라 상대적으로 높은 단가와 제한적 마케팅으로 점유율 확대가 주춤, 2032년까지 동사의 기회 요인으로 판단. SNS를 통해 확인되는 북미 법인 인력은 2026년 2월 이후 34명으로 월별 채용 인력 확대 중. 다만 사모펀드 지휘 체제 하에서 EBITDA Margin의 큰 훼손 없는 인력 채용을 전망 ▶ 투자의견 중국의 구조적 성장에 미국 직판이라는 장기 옵션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원으로 상향. 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1ws6Q4 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-                }
-              ],
-              "tp_raises": [
-                {
-                  "company": "휴젤",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 430000,
-                  "display": "430,000원 (상향)",
-                  "reasons": [
-                    "본문상 명시 배경 추가 확인 필요"
-                  ],
-                  "evidence": "Mid-single % 로열티 계약으로 인한 마진 훼손에 따라 상대적으로 높은 단가와 제한적 마케팅으로 점유율 확대가 주춤, 2032년까지 동사의 기회 요인으로 판단. SNS를 통해 확인되는 북미 법인 인력은 2026년 2월 이후 34명으로 월별 채용 인력 확대 중. 다만 사모펀드 지휘 체제 하에서 EBITDA Margin의 큰 훼손 없는 인력 채용을 전망 ▶ 투자의견 중국의 구조적 성장에 미국 직판이라는 장기 옵션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원으로 상향. 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1ws6Q4 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-                }
-              ],
+              "tp_changes": [],
+              "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/1ws6Q4",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1ws6Q4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91200440>, 'Connection to buly.kr timed out. (connect t",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143191/1/20260807_145020_alex.park_581.pdf",
+              "pdf_error": "",
               "title": "[휴젤(145020)/ BUY(유지)/ TP 43만원(상향)/ 다올 의료기기 박종현] ★ 중국의 구조적 성장과 미국 직판",
               "summary": "[휴젤(145020)/ BUY(유지)/ TP 43만원(상향)/ 다올 의료기기 박종현] ★ 중국의 구조적 성장과 미국 직판 ▶ Review 2Q26P 매출액 1,379억원(YoY +25.1%, QoQ +18.2%), 영업이익 560억원(YoY -1.2%, QoQ +17.6%)으로 컨센서스 상회. 다만 OPM은 40.6%로 판관비 497억원(YoY +66%) 급증에 따라 YoY -10.8%p 하락. 미국 직판 체계 구축과 글로벌 메디컬 마케팅 선투자가 주 요인 톡신 840억원(YoY +37%)이 성장을 견인, 특히 톡신 수출 635억원(YoY +51%)에서 중국 중심 APAC 383억원(YoY +45%)이 폭발적 성장. 중국 매출 비중 65%를 상회하며, 1인1병 정책과 같이 불법 시술 규제가 강화됨에 따라 동사의 포지셔닝은 한층 견고해지는 중. 화장품 198억원(YoY +46%)은 올리브영 매출 호조 및 해외 비중 확대(25%)가 성장 견인. GPM 76.7%(YoY -1.9%p) 하락은 제3공장 비상업적 배치 생산과 화장품 믹스 영향이나, 해당 배치 비용은 2Q로 종료 ▶ 전망 2026E 매출액 5,250억원(YoY +24%), 영업이익 2,167억원(YoY +8%) 전망. 2H26E는 북미 투자가 확대되는 과정에서 OPM 하락이 불가피하나, 3공장 일회성 비용 소멸로 GPM은 개선 방향. 미국 직판(3Q 본격 개시, 주문 인프라 구축 완료)과 중국 2H26E 선적 지속이 탑라인을 뒷받침 북미 경쟁사 E사는 M사와의 Mid-single % 로열티 계약으로 인한 마진 훼손에 따라 상대적으로 높은 단가와 제한적 마케팅으로 점유율 확대가 주춤, 2032년까지 동사의 기회 요인으로 판단. SNS를 통해 확인되는 북미 법인 인력은 2026년 2월 이후 34명으로 월별 채용 인력 확대 중. 다만",
               "post_url": "https://t.me/daolresearch/14805",
@@ -868,43 +670,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "에이피알",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 560000,
-                  "display": "560,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": ". 대체데이터상 아마존 US 점유율 17.4%(WoW +1.9%p), 틱톡샵 GMV 우상향으로 온라인 재가속 확인. 물류비 정상화 및 현지 재고 안정화에 따라 OPM 개선 여지. 2026E 25.2% → 2027E 26.1% 전망 ▶ 투자의견 전 채널 매출 호조가 추정치 상향 견인. 금번 실적으로 1) 매출 성장 우려를 북미 오프라인·유럽 온라인 성과로 해소, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화로 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/NmNhOQ > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-                }
-              ],
-              "tp_raises": [
-                {
-                  "company": "에이피알",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 560000,
-                  "display": "560,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": ". 대체데이터상 아마존 US 점유율 17.4%(WoW +1.9%p), 틱톡샵 GMV 우상향으로 온라인 재가속 확인. 물류비 정상화 및 현지 재고 안정화에 따라 OPM 개선 여지. 2026E 25.2% → 2027E 26.1% 전망 ▶ 투자의견 전 채널 매출 호조가 추정치 상향 견인. 금번 실적으로 1) 매출 성장 우려를 북미 오프라인·유럽 온라인 성과로 해소, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화로 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/NmNhOQ > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-                }
-              ],
+              "tp_changes": [],
+              "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
-              "earnings_changes": [
-                "▶ 투자의견 전 채널 매출 호조가 추정치 상향 견인.",
-                "추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/NmNhOQ > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-              ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/NmNhOQ",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /NmNhOQ (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fd880>, 'Connection to buly.kr timed out. (connect t",
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143147/1/20260806_278470_alex.park_580.pdf",
+              "pdf_error": "",
               "title": "[에이피알(278470)/ BUY(유지)/ TP 56만원(상향)/ 다올 화장품 박종현] ★ 아직도 이렇게 기회가 많다니!",
               "summary": "[에이피알(278470)/ BUY(유지)/ TP 56만원(상향)/ 다올 화장품 박종현] ★ 아직도 이렇게 기회가 많다니! ▶ Review 2Q26P 매출액 7,675억원(YoY +134%, QoQ +29%), IFRS 18 적용 전 영업이익 1,855억원(YoY +119%, QoQ +27%)으로 컨센서스 상회. 항공 물류비 약 300억원(YoY 약 10배)·광고선전비(매출액 대비 22%) 일시 비용 발생으로 영업이익률 24.2%(YoY -1.6%p). 북미 3,763억원(YoY +265%)·유럽 1,451억원(YoY +380%)이 견인 ▶ 전망 3Q26E 매출액 8,057억원(YoY +109%, QoQ +5%), 영업이익 2,095억원(YoY +118%, QoQ +13%), 북미·유럽 YoY +118%, +777.7% 전망. 아마존(MS 22%)·얼타(9%) 외에도 북미 내 70% 시장 잠재력 보유. 2025년 미국 뷰티 시장 규모 1,250억 달러 추산, MS 2·3위는 월마트(17%)·타겟(10%). 동사는 타겟 내 뷰티 카테고리 4위 달성, 월마트는 최근 입점으로 3Q26E 중 가시적 성과 기대. 브랜드 입지 및 타겟의 뷰티 카테고리 확장 의지가 매출 확장에 기여 판단 북미 오프라인 비중 1Q26 18% → 2Q26P 23% 확대에도 온오프라인 간 잠식 미관찰. 대체데이터상 아마존 US 점유율 17.4%(WoW +1.9%p), 틱톡샵 GMV 우상향으로 온라인 재가속 확인. 물류비 정상화 및 현지 재고 안정화에 따라 OPM 개선 여지. 2026E 25.2% → 2027E 26.1% 전망 ▶ 투자의견 전 채널 매출 호조가 추정치 상향 견인. 금번 실적으로 1) 매출 성장 우려를 북미 오프라인·유럽 온라인 성과로 해소, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화로 ",
               "post_url": "https://t.me/daolresearch/14786",
@@ -1013,8 +788,8 @@
               ],
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/3YG1MZf",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YG1MZf (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fc440>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143154/1/20260806_089860_jwyoo_657.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 롯데렌탈(089860) - 2Q26 Review: 오토렌탈 이익 호조",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 롯데렌탈(089860) - 2Q26 Review: 오토렌탈 이익 호조 ▶ 투자의견 BUY 및 적정주가 53,000원 유지. 적정주가는 2026년 수정 EPS에 적정 P/E 13.5배를 적용 ▶ 본업 수익성 기여도 증가세 지속. 중고차 매각 → 장기렌탈 전환 성공이 지속적으로 입증되고 있어, IPO 이후 지연되어 왔던 수익성 개선과 밸류에이션의 확장이 임박 ▶ 2Q26 매출액 및 영업이익은 각각 7,658억원(YoY +2.3%), 846억원(YoY +9.6%) 기록 ▶ 2024년까지 동사 이익의 절반 이상을 담당해온 중고차 매각 부분은 장기렌탈사업으로 전환하는데 성공 ▶ 2Q26 T-Car 부분 매출액은 309억원(YoY +108%)를 기록. 오는 8월 부산거점 추가를 통해 외형확대가 3Q26에도 가속화 예상 ▶ 3Q26 실적은 매출액 8천억원(YoY +5.5%), 영업이익 883억원(YoY -0.8%)을 추정 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/3YG1MZf >",
               "post_url": "https://t.me/daolresearch/14797",
@@ -1111,135 +886,11 @@
               "text": "Top Picks 의견과 오리온에 대한 선호 의견 지속 유지",
               "date": "2026-08-04",
               "source": "https://t.me/daolresearch/14758"
-            },
-            {
-              "text": "통신서비스 업종 Top Pick 의견과 적정주가 13만원 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/6Mu93Jb",
-              "date": "2026-08-06",
-              "source": "https://t.me/daolresearch/14793"
             }
           ],
           "top_pick_change": "해당 기간 최초 명시",
-          "tp_changes": [
-            {
-              "company": "롯데칠성",
-              "direction": "유지",
-              "old": null,
-              "new": 140000,
-              "display": "140,000원 (유지)",
-              "reasons": [
-                "본문상 명시 배경 추가 확인 필요"
-              ],
-              "evidence": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성 ▶ 2Q26P 연결 매출액 1조 1,129억원(YoY +2.4%), 영업이익 558억원(OPM 5%, YoY -10.4%)으로 영업이익 기준 당사 추정치 및 시장 기대치를 소폭 하회 ▶ 동사는 중동 전쟁 여파로 인한 원부재료비 상승, 2분기 환율 상승에도 불구 연초 제시한 가이던스를 유지. 1) 우선 지난 6월 말 실시한 국내 가격인상 (음료 44개 품목에 대해 평균 +5.3%) 효과로 ‘25년 하반기+’26년 상반기 합산 470억원 규모 매출액 기여가 예상됨. 2) 원달러 환율도 1,400원 초중반으로 안정화되고 있어 하반기 원부재료 조달비용 부담폭은 우려 대비 크게 확대되지 않을 것. 3) 해외법인(필리핀/미얀마/파키스탄)의 경우 중동 사태 여파로 2Q26 원",
-              "date": "2026-08-06",
-              "source": "https://t.me/daolresearch/14792"
-            },
-            {
-              "company": "SK텔레콤",
-              "direction": "유지",
-              "old": null,
-              "new": 130000,
-              "display": "130,000원 (유지)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[SK텔레콤(017670) | BUY(유지) | TP 13만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: GW급 AI DC 구축 방안 구체화 중 ▶ 2Q26P 연결 매출액 4조 3,591억원(YoY +0.5%), 영업이익 5,660억원(YoY +67.3%, OPM +13%)으로 영업이익 기준 시장 기대치와 당사 추정치를 소폭 상회하는 실적 기록 ▶ [SKT 별도] 매출액 YoY -0.6%, QoQ +0.4% 기록. 핸드셋 가입자 수와 무선 ARPU 모두 전 분기와 큰 변동 없이 안정적인 흐름. 영업이익은 비용 효율화 기조에 따라 당사 추정치를 상회. [SKB 별도] 전년 판교 DC 인수 효과 및 가동률 상승에 따라 AI DC 매출액이 YoY +92.5% 증가하며 SKB 성장을 이끎 (SKB 별도 매출액 YoY +3.6%) ▶ 동사는 지난 7월 AI DC 용량 증설 계획, AI DC 사업",
-              "date": "2026-08-06",
-              "source": "https://t.me/daolresearch/14793"
-            },
-            {
-              "company": "KT&G",
-              "direction": "상향",
-              "old": null,
-              "new": 250000,
-              "display": "250,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[KT&G(033780) | BUY(유지) | TP 25만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가이던스 상향, 예상보다 강할 주주환원 ▶ 2Q26P 연결 매출액 1조 7,016억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간",
-              "date": "2026-08-07",
-              "source": "https://t.me/daolresearch/14807"
-            },
-            {
-              "company": "KT&G",
-              "direction": "상향",
-              "old": 220000,
-              "new": 250000,
-              "display": "220,000원 → 250,000원",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간배당에서 중간배당이 차지하는 비중도 소폭 확대할 계획이라 밝힘. 2) 연초 약속한 자사주 매입·소각은 하반기 중 예정돼 있으며, 3) ‘24-‘25년 비핵심자산 유동화를 통해 마련한 +@ 재원 역시 하반기 주주환원에 집행될 가능성 있음. 4) 배당 강화를 골자로 하는 신규 주주환원 정책은 4Q26 발표 예정. 주가 하",
-              "date": "2026-08-07",
-              "source": "https://t.me/daolresearch/14807"
-            },
-            {
-              "company": "LG유플러스",
-              "direction": "유지",
-              "old": null,
-              "new": 20000,
-              "display": "20,000원 (유지)",
-              "reasons": [
-                "본문상 명시 배경 추가 확인 필요"
-              ],
-              "evidence": "[LG유플러스(032640) | BUY(유지) | TP 2만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 한층 높아진 이익 체력 ▶ 2Q26P 연결 매출액 3조 6,949억원(YoY -3.9%), 영업이익 3,445억원(OPM 9.3%, YoY +13.1%)으로 영업이익 기준 시장 기대치 상회 ▶ 모바일 YoY +0.4%(이하 YoY), 스마트홈 +4.3%, 기업인프라 +8.6%으로 고른 성장 이어감. 부문별 견조한 성장에도 불구 연결 매출액 역성장 사유는 2분기 단말기 제조사 프로모션으로 단말수익이 YoY -25.3% 감소했기 때문 ▶ 매출액 컨센서스 하회에도 불구 영업이익은 시장 기대치를 상회했는데, 이는 비용 효율화 효과 가시화 및 일회성 수익(약 200억원) 효과에 의한 것. 일회성 요인을 감안하더라도 별도 마케팅비는 QoQ -6.9%, 인건비 등 주요 비용 역시 YoY 하락하며",
-              "date": "2026-08-07",
-              "source": "https://t.me/daolresearch/14808"
-            },
-            {
-              "company": "롯데웰푸드",
-              "direction": "상향",
-              "old": null,
-              "new": 150000,
-              "display": "150,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review : 가파른 체질 개선 효과 확인 ▶ 2Q26P 연결 매출액 1조 1,557억원(YoY +8.6%), 영업이익 647억원(YoY +88.7%, OPM +5.6%)으로 영업이익 컨센서스를 약 35% 상회하는 실적 기록. 당사 추정치(504억원) 대비 국내 약 100억원, 해외 약 50억원 가량 이익 개선이 있었음 ▶ 국내 수익성 개선 사유는 영업·생산·구매 등 다방면에서의 효율화 때문임. 동사는 영업 개선 활동 효과로 ‘26년 상반기 누적 약 700억원 비용 절감 효과가 있었다고 밝힘. 이는 같은 기간 원부재료비·환율 상승에 따른 원가 부담액 500억원을 상쇄하는 수치 ▶ 별도 제과 매출액도 YoY +5.5%로 호조(이하 YoY). 건·빙과 모두 KBO·월드컵 프로모션 및 핵심 브랜드 위주",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14823"
-            }
-          ],
-          "tp_raises": [
-            {
-              "company": "KT&G",
-              "direction": "상향",
-              "old": null,
-              "new": 250000,
-              "display": "250,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[KT&G(033780) | BUY(유지) | TP 25만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가이던스 상향, 예상보다 강할 주주환원 ▶ 2Q26P 연결 매출액 1조 7,016억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간",
-              "date": "2026-08-07",
-              "source": "https://t.me/daolresearch/14807"
-            },
-            {
-              "company": "KT&G",
-              "direction": "상향",
-              "old": 220000,
-              "new": 250000,
-              "display": "220,000원 → 250,000원",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간배당에서 중간배당이 차지하는 비중도 소폭 확대할 계획이라 밝힘. 2) 연초 약속한 자사주 매입·소각은 하반기 중 예정돼 있으며, 3) ‘24-‘25년 비핵심자산 유동화를 통해 마련한 +@ 재원 역시 하반기 주주환원에 집행될 가능성 있음. 4) 배당 강화를 골자로 하는 신규 주주환원 정책은 4Q26 발표 예정. 주가 하",
-              "date": "2026-08-07",
-              "source": "https://t.me/daolresearch/14807"
-            },
-            {
-              "company": "롯데웰푸드",
-              "direction": "상향",
-              "old": null,
-              "new": 150000,
-              "display": "150,000원 (상향)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review : 가파른 체질 개선 효과 확인 ▶ 2Q26P 연결 매출액 1조 1,557억원(YoY +8.6%), 영업이익 647억원(YoY +88.7%, OPM +5.6%)으로 영업이익 컨센서스를 약 35% 상회하는 실적 기록. 당사 추정치(504억원) 대비 국내 약 100억원, 해외 약 50억원 가량 이익 개선이 있었음 ▶ 국내 수익성 개선 사유는 영업·생산·구매 등 다방면에서의 효율화 때문임. 동사는 영업 개선 활동 효과로 ‘26년 상반기 누적 약 700억원 비용 절감 효과가 있었다고 밝힘. 이는 같은 기간 원부재료비·환율 상승에 따른 원가 부담액 500억원을 상쇄하는 수치 ▶ 별도 제과 매출액도 YoY +5.5%로 호조(이하 YoY). 건·빙과 모두 KBO·월드컵 프로모션 및 핵심 브랜드 위주",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14823"
-            }
-          ],
+          "tp_changes": [],
+          "tp_raises": [],
           "report_count": 8,
           "reports": [
             {
@@ -1254,42 +905,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "롯데웰푸드",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 150000,
-                  "display": "150,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review : 가파른 체질 개선 효과 확인 ▶ 2Q26P 연결 매출액 1조 1,557억원(YoY +8.6%), 영업이익 647억원(YoY +88.7%, OPM +5.6%)으로 영업이익 컨센서스를 약 35% 상회하는 실적 기록. 당사 추정치(504억원) 대비 국내 약 100억원, 해외 약 50억원 가량 이익 개선이 있었음 ▶ 국내 수익성 개선 사유는 영업·생산·구매 등 다방면에서의 효율화 때문임. 동사는 영업 개선 활동 효과로 ‘26년 상반기 누적 약 700억원 비용 절감 효과가 있었다고 밝힘. 이는 같은 기간 원부재료비·환율 상승에 따른 원가 부담액 500억원을 상쇄하는 수치 ▶ 별도 제과 매출액도 YoY +5.5%로 호조(이하 YoY). 건·빙과 모두 KBO·월드컵 프로모션 및 핵심 브랜드 위주"
-                }
-              ],
-              "tp_raises": [
-                {
-                  "company": "롯데웰푸드",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 150000,
-                  "display": "150,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review : 가파른 체질 개선 효과 확인 ▶ 2Q26P 연결 매출액 1조 1,557억원(YoY +8.6%), 영업이익 647억원(YoY +88.7%, OPM +5.6%)으로 영업이익 컨센서스를 약 35% 상회하는 실적 기록. 당사 추정치(504억원) 대비 국내 약 100억원, 해외 약 50억원 가량 이익 개선이 있었음 ▶ 국내 수익성 개선 사유는 영업·생산·구매 등 다방면에서의 효율화 때문임. 동사는 영업 개선 활동 효과로 ‘26년 상반기 누적 약 700억원 비용 절감 효과가 있었다고 밝힘. 이는 같은 기간 원부재료비·환율 상승에 따른 원가 부담액 500억원을 상쇄하는 수치 ▶ 별도 제과 매출액도 YoY +5.5%로 호조(이하 YoY). 건·빙과 모두 KBO·월드컵 프로모션 및 핵심 브랜드 위주"
-                }
-              ],
+              "tp_changes": [],
+              "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
-              "earnings_changes": [
-                "▶ 실적 추정치 상향 조정으로 적정주가를 14→15만원으로 상향."
-              ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/uWg5s2",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /uWg5s2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fd820>, 'Connection to buly.kr timed out. (connect t",
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143231/1/20260810_280360_lizzy_88.pdf",
+              "pdf_error": "",
               "title": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review : 가파른 체질 개선 효과 확인",
               "summary": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review : 가파른 체질 개선 효과 확인 ▶ 2Q26P 연결 매출액 1조 1,557억원(YoY +8.6%), 영업이익 647억원(YoY +88.7%, OPM +5.6%)으로 영업이익 컨센서스를 약 35% 상회하는 실적 기록. 당사 추정치(504억원) 대비 국내 약 100억원, 해외 약 50억원 가량 이익 개선이 있었음 ▶ 국내 수익성 개선 사유는 영업·생산·구매 등 다방면에서의 효율화 때문임. 동사는 영업 개선 활동 효과로 ‘26년 상반기 누적 약 700억원 비용 절감 효과가 있었다고 밝힘. 이는 같은 기간 원부재료비·환율 상승에 따른 원가 부담액 500억원을 상쇄하는 수치 ▶ 별도 제과 매출액도 YoY +5.5%로 호조(이하 YoY). 건·빙과 모두 KBO·월드컵 프로모션 및 핵심 브랜드 위주 신제품 출시 효과가 주효했음. 하반기도 사계절용 빙과 신제품 출시, 빼빼로데이 마케팅, 고성장 채널 입점 확대에 따른 매출 호조세 지속 기대 ▶ 인도 빙과, 건과 매출액이 각각 YoY +27.9% 성장한 점 역시 고무적임. 신공장 가동률 상승, 영업망 확대와 함께 인도 빙과 영업이익률 역시 2Q25 미드-하이싱글에서 2Q26 미드-하이틴까지 상승함. 인도 건과는 ‘26년 6월 초코파이 4번째 라인 가동 및 TT채널 분포 확대와 함께 고성장 이어갈 전망 ▶ 실적 추정치 상향 조정으로 적정주가를 14→15만원으로 상향. 1) 영업· 생산·구매에 걸친 효율화 효과 가시화, 2) 인도 빙과 신공장 안정화 및 우호적인 기상 여건, 3) 해외 가격인상, 4) 환율 하락과 하반기 코코아 투입원가 YoY 하락에 따라 가이던스 달성 가시성 확대. 체질 개선에 따른 중장기적 수익성 레벨의 상향 안",
               "post_url": "https://t.me/daolresearch/14823",
@@ -1301,8 +926,8 @@
               "month": "2026-08",
               "analyst": "이다연",
               "sector": "음식료·통신",
-              "company": "CY2Q26",
-              "code": "",
+              "company": "Nissin Food Holdings",
+              "code": "2897 JT Equity",
               "report_type": "기업자료",
               "opinion": "",
               "top_picks": [],
@@ -1314,9 +939,9 @@
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/7FTxPFb",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /7FTxPFb (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fe9c0>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143232/1/20260810_B_lizzy_89.pdf",
+              "pdf_error": "",
               "title": "[Nissin Food Holdings(2897 JT Equity) | 다올 음식료·통신 이다연] ★ CY2Q26 Review: 가격 인상 vs. 원가 부담 확대",
               "summary": "[Nissin Food Holdings(2897 JT Equity) | 다올 음식료·통신 이다연] ★ CY2Q26 Review: 가격 인상 vs. 원가 부담 확대 ▶ FY1Q27(CY2Q26) 매출액은 1,947억엔(YoY+4.7%, 고정환율 기준), 영업이익은 197억엔(YoY+8.0%)으로, 영업이익 기준 컨센서스 상회 ▶ 하반기 실적 성장은 일본 내 추가적인 가격인상 및 신제품 바탕 미국 판매량 증가가 견인할 전망. 그러나 중동 분쟁 영향에 따른 원재료비·물류비 부담과 더불어, 미국 시장 내 진열 경쟁에 따른 판촉비 부담 확대 예상. 이에 가격인상에도 불구 단기적인 이익률 하락은 불가피할 전망 ▶ 중동전쟁발 원가 부담 확대, 대규모 CapEx 집행 및 신규 공장 가동으로 감가상각비 부담 확대 중. 판매량 증가와 공장 가동률 상승을 바탕으로 한 영업 레버리지 효과가 작동하는 시점에 탄력적인 주가 움직임 예상 *보고서 원문 및 Compliance Notice: https://buly.kr/7FTxPFb",
               "post_url": "https://t.me/daolresearch/14822",
@@ -1334,28 +959,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "LG유플러스",
-                  "direction": "유지",
-                  "old": null,
-                  "new": 20000,
-                  "display": "20,000원 (유지)",
-                  "reasons": [
-                    "본문상 명시 배경 추가 확인 필요"
-                  ],
-                  "evidence": "[LG유플러스(032640) | BUY(유지) | TP 2만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 한층 높아진 이익 체력 ▶ 2Q26P 연결 매출액 3조 6,949억원(YoY -3.9%), 영업이익 3,445억원(OPM 9.3%, YoY +13.1%)으로 영업이익 기준 시장 기대치 상회 ▶ 모바일 YoY +0.4%(이하 YoY), 스마트홈 +4.3%, 기업인프라 +8.6%으로 고른 성장 이어감. 부문별 견조한 성장에도 불구 연결 매출액 역성장 사유는 2분기 단말기 제조사 프로모션으로 단말수익이 YoY -25.3% 감소했기 때문 ▶ 매출액 컨센서스 하회에도 불구 영업이익은 시장 기대치를 상회했는데, 이는 비용 효율화 효과 가시화 및 일회성 수익(약 200억원) 효과에 의한 것. 일회성 요인을 감안하더라도 별도 마케팅비는 QoQ -6.9%, 인건비 등 주요 비용 역시 YoY 하락하며"
-                }
-              ],
+              "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/DaRDdDI",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /DaRDdDI (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91200f50>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143189/1/20260807_032640_lizzy_87.pdf",
+              "pdf_error": "",
               "title": "[LG유플러스(032640) | BUY(유지) | TP 2만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 한층 높아진 이익 체력",
               "summary": "[LG유플러스(032640) | BUY(유지) | TP 2만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 한층 높아진 이익 체력 ▶ 2Q26P 연결 매출액 3조 6,949억원(YoY -3.9%), 영업이익 3,445억원(OPM 9.3%, YoY +13.1%)으로 영업이익 기준 시장 기대치 상회 ▶ 모바일 YoY +0.4%(이하 YoY), 스마트홈 +4.3%, 기업인프라 +8.6%으로 고른 성장 이어감. 부문별 견조한 성장에도 불구 연결 매출액 역성장 사유는 2분기 단말기 제조사 프로모션으로 단말수익이 YoY -25.3% 감소했기 때문 ▶ 매출액 컨센서스 하회에도 불구 영업이익은 시장 기대치를 상회했는데, 이는 비용 효율화 효과 가시화 및 일회성 수익(약 200억원) 효과에 의한 것. 일회성 요인을 감안하더라도 별도 마케팅비는 QoQ -6.9%, 인건비 등 주요 비용 역시 YoY 하락하며 비용 감소 효과가 영업이익 개선으로 나타남 ▶ 최근 동사는 파주 AI DC 2단계 구축 계획을 공시. 2단계 확장에 힘입어 파주 AI DC는 ‘27년 상반기부터 ‘28년까지 4개 동을 순차적으로 오픈할 예정. 2단계 확장까지 포함할 시 파주 AI DC의 수전용량은 기존 50MW 규모에서 200MW까지 확대 ▶ 투자의견 BUY, 적정주가 2만원 유지. 이익 체력이 상향되며 ‘26년 배당 증가 여력도 3사 중 가장 높음. ‘26년 중간배당은 270원이며, 당사는 연간배당으로 최소 700원 예상(‘25년 660원). 배당수익률도 4.7%로 3사 중 가장 매력적임. 8월 중순부터 시행될 900억원 규모의 자사주 매입까지 포함할 시 총주주환원수익률은 6.1% *보고서 원문 및 Compliance Notice: https://buly.kr/DaRDdDI",
               "post_url": "https://t.me/daolresearch/14808",
@@ -1373,64 +986,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "KT&G",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 250000,
-                  "display": "250,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[KT&G(033780) | BUY(유지) | TP 25만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가이던스 상향, 예상보다 강할 주주환원 ▶ 2Q26P 연결 매출액 1조 7,016억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간"
-                },
-                {
-                  "company": "KT&G",
-                  "direction": "상향",
-                  "old": 220000,
-                  "new": 250000,
-                  "display": "220,000원 → 250,000원",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간배당에서 중간배당이 차지하는 비중도 소폭 확대할 계획이라 밝힘. 2) 연초 약속한 자사주 매입·소각은 하반기 중 예정돼 있으며, 3) ‘24-‘25년 비핵심자산 유동화를 통해 마련한 +@ 재원 역시 하반기 주주환원에 집행될 가능성 있음. 4) 배당 강화를 골자로 하는 신규 주주환원 정책은 4Q26 발표 예정. 주가 하"
-                }
-              ],
-              "tp_raises": [
-                {
-                  "company": "KT&G",
-                  "direction": "상향",
-                  "old": null,
-                  "new": 250000,
-                  "display": "250,000원 (상향)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[KT&G(033780) | BUY(유지) | TP 25만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가이던스 상향, 예상보다 강할 주주환원 ▶ 2Q26P 연결 매출액 1조 7,016억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간"
-                },
-                {
-                  "company": "KT&G",
-                  "direction": "상향",
-                  "old": 220000,
-                  "new": 250000,
-                  "display": "220,000원 → 250,000원",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간배당에서 중간배당이 차지하는 비중도 소폭 확대할 계획이라 밝힘. 2) 연초 약속한 자사주 매입·소각은 하반기 중 예정돼 있으며, 3) ‘24-‘25년 비핵심자산 유동화를 통해 마련한 +@ 재원 역시 하반기 주주환원에 집행될 가능성 있음. 4) 배당 강화를 골자로 하는 신규 주주환원 정책은 4Q26 발표 예정. 주가 하"
-                }
-              ],
+              "tp_changes": [],
+              "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
-              "earnings_changes": [
-                "이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정"
-              ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/HSZtD8t",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /HSZtD8t (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91201eb0>, 'Connection to buly.kr timed out. (connect ",
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143188/1/20260807_033780_lizzy_86.pdf",
+              "pdf_error": "",
               "title": "[KT&G(033780) | BUY(유지) | TP 25만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가이던스 상향, 예상보다 강할 주주환원",
               "summary": "[KT&G(033780) | BUY(유지) | TP 25만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가이던스 상향, 예상보다 강할 주주환원 ▶ 2Q26P 연결 매출액 1조 7,016억원(YoY +9.9%), 영업이익 4,145억원(YoY +18.5%, OPM +24.4%)으로 시장 기대치를 상회하는 호실적 기록 ▶ 이번 실적 발표에서 ‘26년 연간 가이던스를 매출액 3-5%에서 5-7%로, 영업이익 6-8%에서 10-13%로 상향함. 이는 해외 궐련 고성장에 기인한 가이던스 상향으로, 해외 생산 체계 안정화 효과까지 더해지며 ‘26년 연간 담배 부문 영업이익은 YoY +17.2%에 달할 전망. 이를 반영해 실적 추정치를 상향, 적정주가를 22만원→25만원으로 상향 조정 ▶ 하반기 주주환원 모멘텀도 풍부. 1) 동사는 전일 중간배당금으로 주당 2,000원을 발표했으며, 이와 함께 연간배당에서 중간배당이 차지하는 비중도 소폭 확대할 계획이라 밝힘. 2) 연초 약속한 자사주 매입·소각은 하반기 중 예정돼 있으며, 3) ‘24-‘25년 비핵심자산 유동화를 통해 마련한 +@ 재원 역시 하반기 주주환원에 집행될 가능성 있음. 4) 배당 강화를 골자로 하는 신규 주주환원 정책은 4Q26 발표 예정. 주가 하방이 견고한 가운데 주주환원 기대감에 따른 주가 우상향 추이 이어질 것 *보고서 원문 및 Compliance Notice: https://buly.kr/HSZtD8t",
               "post_url": "https://t.me/daolresearch/14807",
@@ -1446,34 +1011,18 @@
               "code": "017670",
               "report_type": "기업자료",
               "opinion": "",
-              "top_picks": [
-                "통신서비스 업종 Top Pick 의견과 적정주가 13만원 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/6Mu93Jb"
-              ],
-              "preferred_stocks": [
-                "통신서비스 업종 Top Pick 의견과 적정주가 13만원 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/6Mu93Jb"
-              ],
-              "tp_changes": [
-                {
-                  "company": "SK텔레콤",
-                  "direction": "유지",
-                  "old": null,
-                  "new": 130000,
-                  "display": "130,000원 (유지)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[SK텔레콤(017670) | BUY(유지) | TP 13만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: GW급 AI DC 구축 방안 구체화 중 ▶ 2Q26P 연결 매출액 4조 3,591억원(YoY +0.5%), 영업이익 5,660억원(YoY +67.3%, OPM +13%)으로 영업이익 기준 시장 기대치와 당사 추정치를 소폭 상회하는 실적 기록 ▶ [SKT 별도] 매출액 YoY -0.6%, QoQ +0.4% 기록. 핸드셋 가입자 수와 무선 ARPU 모두 전 분기와 큰 변동 없이 안정적인 흐름. 영업이익은 비용 효율화 기조에 따라 당사 추정치를 상회. [SKB 별도] 전년 판교 DC 인수 효과 및 가동률 상승에 따라 AI DC 매출액이 YoY +92.5% 증가하며 SKB 성장을 이끎 (SKB 별도 매출액 YoY +3.6%) ▶ 동사는 지난 7월 AI DC 용량 증설 계획, AI DC 사업"
-                }
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/6Mu93Jb",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /6Mu93Jb (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fd430>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143151/1/20260806_017670_lizzy_85.pdf",
+              "pdf_error": "",
               "title": "[SK텔레콤(017670) | BUY(유지) | TP 13만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: GW급 AI DC 구축 방안 구체화 중",
               "summary": "[SK텔레콤(017670) | BUY(유지) | TP 13만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: GW급 AI DC 구축 방안 구체화 중 ▶ 2Q26P 연결 매출액 4조 3,591억원(YoY +0.5%), 영업이익 5,660억원(YoY +67.3%, OPM +13%)으로 영업이익 기준 시장 기대치와 당사 추정치를 소폭 상회하는 실적 기록 ▶ [SKT 별도] 매출액 YoY -0.6%, QoQ +0.4% 기록. 핸드셋 가입자 수와 무선 ARPU 모두 전 분기와 큰 변동 없이 안정적인 흐름. 영업이익은 비용 효율화 기조에 따라 당사 추정치를 상회. [SKB 별도] 전년 판교 DC 인수 효과 및 가동률 상승에 따라 AI DC 매출액이 YoY +92.5% 증가하며 SKB 성장을 이끎 (SKB 별도 매출액 YoY +3.6%) ▶ 동사는 지난 7월 AI DC 용량 증설 계획, AI DC 사업 개발 전담회사 ‘SK하이퍼’ 설립 계획을 밝힘. SK하이퍼는 AI DC의 핵심 자산인 부지/전력을 선제적으로 확보하고, 글로벌 고객을 유지해 DC 사업 개발을 주도하는 역할을 수행할 예정. SKT는 SK하이퍼에 7,500억원 규모 자금 출자를 약정했으며, 해당 자금은 사업 부지 확보, 변전 설비 구축 등 초기 사업개발 자금에 사용될 예정. 중장기적 목표로 발표한 15GW 용량의 DC 구축에는 천문학적인 자금이 소요되는 만큼, 동사는 SK하이퍼(SKT 100% 자회사)를 통해 사업 주도권은 자사가 갖고, 실제 AI DC 구축/운영 재원은 FI 등 외부 자금을 최대한 활용해 조달할 계획을 갖고 있음. 또한 동사는 고객 확보 후 재원 마련 및 DC 건립을 최우선 원칙으로 하고 있어 수요에 기반한 DC 사업 확장 방향성을 밝힘 ▶ 1) 현재주가 기준 배당수익률 3.6%(‘26년 연간 DP",
               "post_url": "https://t.me/daolresearch/14793",
@@ -1491,28 +1040,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "롯데칠성",
-                  "direction": "유지",
-                  "old": null,
-                  "new": 140000,
-                  "display": "140,000원 (유지)",
-                  "reasons": [
-                    "본문상 명시 배경 추가 확인 필요"
-                  ],
-                  "evidence": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성 ▶ 2Q26P 연결 매출액 1조 1,129억원(YoY +2.4%), 영업이익 558억원(OPM 5%, YoY -10.4%)으로 영업이익 기준 당사 추정치 및 시장 기대치를 소폭 하회 ▶ 동사는 중동 전쟁 여파로 인한 원부재료비 상승, 2분기 환율 상승에도 불구 연초 제시한 가이던스를 유지. 1) 우선 지난 6월 말 실시한 국내 가격인상 (음료 44개 품목에 대해 평균 +5.3%) 효과로 ‘25년 하반기+’26년 상반기 합산 470억원 규모 매출액 기여가 예상됨. 2) 원달러 환율도 1,400원 초중반으로 안정화되고 있어 하반기 원부재료 조달비용 부담폭은 우려 대비 크게 확대되지 않을 것. 3) 해외법인(필리핀/미얀마/파키스탄)의 경우 중동 사태 여파로 2Q26 원"
-                }
-              ],
+              "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/AF2odED",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /AF2odED (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91203440>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143150/1/20260806_005300_lizzy_84.pdf",
+              "pdf_error": "",
               "title": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성",
               "summary": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 점차 걷히는 불확실성 ▶ 2Q26P 연결 매출액 1조 1,129억원(YoY +2.4%), 영업이익 558억원(OPM 5%, YoY -10.4%)으로 영업이익 기준 당사 추정치 및 시장 기대치를 소폭 하회 ▶ 동사는 중동 전쟁 여파로 인한 원부재료비 상승, 2분기 환율 상승에도 불구 연초 제시한 가이던스를 유지. 1) 우선 지난 6월 말 실시한 국내 가격인상 (음료 44개 품목에 대해 평균 +5.3%) 효과로 ‘25년 하반기+’26년 상반기 합산 470억원 규모 매출액 기여가 예상됨. 2) 원달러 환율도 1,400원 초중반으로 안정화되고 있어 하반기 원부재료 조달비용 부담폭은 우려 대비 크게 확대되지 않을 것. 3) 해외법인(필리핀/미얀마/파키스탄)의 경우 중동 사태 여파로 2Q26 원부재료비/유가 상승 타격이 컸으나, 유가 하락 고려 시 하반기 원가 부담폭 역시 상반기 대비 완화될 것. 4) 알루미늄/PET 원가는 하반기까지도 YoY 부담이 상존하나, 포트폴리오 조정을 바탕으로 한 원가 Mix 개선, 내부 비용 절감 활동, 가격인상이 이를 상쇄할 수 있을 것 ▶ 음료는 제로탄산, 주류는 RTD와 ‘새로’의 높은 성장세 지속 중. 또한 별도 주류는 케그(생맥주) 단종 및 포트폴리오 정비 효과 바탕 YoY 수익성 개선 흐름이 이어질 전망이며, 하반기 별도 음료 가격 인상 효과 역시 반영될 것. 투자의견 BUY와 적정주가 14만원 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/AF2odED",
               "post_url": "https://t.me/daolresearch/14792",
@@ -1655,21 +1192,7 @@
           ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
-          "tp_changes": [
-            {
-              "company": "SK바이오팜",
-              "direction": "유지",
-              "old": null,
-              "new": 150000,
-              "display": "150,000원 (유지)",
-              "reasons": [
-                "어닝/실적 추정 상향"
-              ],
-              "evidence": "[SK바이오팜(326030)/BUY(유지)/TP 15만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 엑스코프리, 성장의 폭을 넓히다 ▶ 2Q26 연결 매출액 2,474억원(+40.3% YoY, +8.5% QoQ), 영업이익 971억원(+56.9% YoY, +8.1% QoQ; OPM 39.2%)으로 시장 기대치 상회 ▶ 1분기 영업일수 감소로 일시 정체됐던 미국 엑스코프리 처방량(TRx)이 14.3만건으로 회복되면서, 매출액 2,244억원(+45.6% YoY)을 기록해 실적 성장을 견인 ▶ 경쟁약의 제네릭 진입과 DTC 광고 및 의료진·환자 대상 마케팅 강화로 엑스코프리의 처방 확대가 지속될 전망. 다만, 마케팅비 증가로 하반기 수익성 개선폭은 제한적일 전망. 연내 일본 허가에 따른 추가 마일스톤도 기대. 투자의견 BUY 및 적정주가 15만원 유지. ★ 보고서원문",
-              "date": "2026-08-06",
-              "source": "https://t.me/daolresearch/14789"
-            }
-          ],
+          "tp_changes": [],
           "tp_raises": [],
           "report_count": 4,
           "reports": [
@@ -1688,13 +1211,13 @@
               "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
-              "industry_conclusion": "▶ Ustekinumab 점유율: Stelara SC 79.1% Stelara IV 1.1%, Wezlana 1.5%, Steqeyma 5.3%, Pyzchiva 2.4%, Selarsdi 1.9%, Yesintek 8.1%, Imuldosa 0.1%, Otulfi 0.5% (수량 기준)",
-              "report_conclusion": "▶ Ustekinumab 점유율: Stelara SC 79.1% Stelara IV 1.1%, Wezlana 1.5%, Steqeyma 5.3%, Pyzchiva 2.4%, Selarsdi 1.9%, Yesintek 8.1%, Imuldosa 0.1%, Otulfi 0.5% (수량 기준)",
+              "industry_conclusion": "",
+              "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/28vyxci",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /28vyxci (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fe720>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143234/1/20260810_B3510_jislee_454.pdf",
+              "pdf_error": "",
               "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 7월 미국 처방 실적",
               "summary": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 7월 미국 처방 실적 ▶ Infliximab 점유율(IV시장 기준): Remicade 47.5%, Inflectra 30.7%, Renflexis 10.5%, Avsola 11.3% (수량 기준) ▶ Remicade 53.1%, Inflectra 31.9%, Renflexis 8.7%, Avsola 6.2% (금액 기준) *Institutional 기준으로 retail은 제외한 수치 ▶ Rituximab 점유율: Rituxan 23.6%, Truxima 38.6%, Ruxience 32.4%, Riabni 5.5% (수량 기준) ▶ Rituxan 27%, Truxima 39.9%, Ruxience 28.3%, Riabni 5% (금액 기준) ▶ Trastuzumab 점유율: Herceptin 10%, Kanjinti 34% Ogivri 23.5%, Trazimera 26.2%, Herzuma 2.5%, Ontruzant 3.8% (수량 기준) ▶ Herceptin 13.4%, Kanjinti 39.9%, Ogivri 19.1% Trazimera 20.9%, Herzuma 2.3%, Ontruzant 4.3% (금액 기준) ▶ Bevacizumab 점유율: Avastin 12%, Mvasi 55%, Zirabev 26.2%, Vegzelma 6.9% (수량 기준) ▶ Avastin 11.5%, Mvasi 56.6%, Zirabev 24.7%, Vegzelma 7.1% (금액 기준) ▶ Adalimumab 점유율: Humira 6.3%, Humira CF 37.7%, Hadlima 17% Hyrimoz 14.3%, Amjevita 4%, Clytezo 10%, Yuflyma 9.4%, ",
               "post_url": "https://t.me/daolresearch/14821",
@@ -1712,28 +1235,16 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "SK바이오팜",
-                  "direction": "유지",
-                  "old": null,
-                  "new": 150000,
-                  "display": "150,000원 (유지)",
-                  "reasons": [
-                    "어닝/실적 추정 상향"
-                  ],
-                  "evidence": "[SK바이오팜(326030)/BUY(유지)/TP 15만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 엑스코프리, 성장의 폭을 넓히다 ▶ 2Q26 연결 매출액 2,474억원(+40.3% YoY, +8.5% QoQ), 영업이익 971억원(+56.9% YoY, +8.1% QoQ; OPM 39.2%)으로 시장 기대치 상회 ▶ 1분기 영업일수 감소로 일시 정체됐던 미국 엑스코프리 처방량(TRx)이 14.3만건으로 회복되면서, 매출액 2,244억원(+45.6% YoY)을 기록해 실적 성장을 견인 ▶ 경쟁약의 제네릭 진입과 DTC 광고 및 의료진·환자 대상 마케팅 강화로 엑스코프리의 처방 확대가 지속될 전망. 다만, 마케팅비 증가로 하반기 수익성 개선폭은 제한적일 전망. 연내 일본 허가에 따른 추가 마일스톤도 기대. 투자의견 BUY 및 적정주가 15만원 유지. ★ 보고서원문"
-                }
-              ],
+              "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/FLan4qx",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /FLan4qx (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91234d40>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143149/1/20260806_326030_jislee_453.pdf",
+              "pdf_error": "",
               "title": "[SK바이오팜(326030)/BUY(유지)/TP 15만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 엑스코프리, 성장의 폭을 넓히다",
               "summary": "[SK바이오팜(326030)/BUY(유지)/TP 15만원(유지)/ 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 2Q26 Review: 엑스코프리, 성장의 폭을 넓히다 ▶ 2Q26 연결 매출액 2,474억원(+40.3% YoY, +8.5% QoQ), 영업이익 971억원(+56.9% YoY, +8.1% QoQ; OPM 39.2%)으로 시장 기대치 상회 ▶ 1분기 영업일수 감소로 일시 정체됐던 미국 엑스코프리 처방량(TRx)이 14.3만건으로 회복되면서, 매출액 2,244억원(+45.6% YoY)을 기록해 실적 성장을 견인 ▶ 경쟁약의 제네릭 진입과 DTC 광고 및 의료진·환자 대상 마케팅 강화로 엑스코프리의 처방 확대가 지속될 전망. 다만, 마케팅비 증가로 하반기 수익성 개선폭은 제한적일 전망. 연내 일본 허가에 따른 추가 마일스톤도 기대. 투자의견 BUY 및 적정주가 15만원 유지. ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/FLan4qx >",
               "post_url": "https://t.me/daolresearch/14789",
@@ -1845,8 +1356,8 @@
                 "그 외 베몬 월드투어와 트레저 팬콘 투어, 빅뱅 투어가 반영되며 하반기 견조한 MD 매출 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/4Fv4jZG > * 텔레그램 채널 < https://t.me/entdy >"
               ],
               "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/4Fv4jZG",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /4Fv4jZG (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc913fc740>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143235/1/20260810_122870_dy.lim_42.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
               "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다",
               "summary": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다 ▶ 베이비몬스터는 공연 및 MD 중심의 성장 지속 중. 상저하고 실적 및 베몬 서구권 투어 및 빅뱅 추가 일정에 따라 27년 실적 추가 상향 여지 유효, 투자의견 BUY 및 적정주가 유지 ▶ 2Q26 매출액 1,278억원(YoY+27.2%, QoQ-13.2%), 영업이익 110억원(YoY +31.2%, QoQ-43.5%; OPM 8.6%)으로 컨센 상회. MD 매출이 기대치를 크게 상회하며 마진에 유리한 음반원/MD 매출 비중(55%)가 예상치(46%)를 상회한 점이 주효. 순이익은 TME 관련 주식평가손실 반영 ▶ 음반 193억, 음원 233억원. 트레저와 베몬 컴백으로 총 191만장 반영. IP 전체 라인업의 피지컬 앨범 발매가 4Q 집중 예상됨에 따라 3Q는 음반원 QoQ 감소 예상 ▶ 공연 매출 94억원. 트레저 투어 아시아 잔여 회차(7회) 및 트레저 팬콘, 베이비몬스터 투어 서울 공연만 반영. 하반기부터 빅뱅 20주년 투어 반영, 로열티로 반영되는 일본 지역 비중과 개런티 차이를 감안, 하반기 공연 매출은 YoY 감소, 로열티 매출은 YoY 성장 전망 ▶ MD 매출 282억원으로 예상치 크게 상회, 컨센 상회의 주요인. 전체 MD 매출 중 베이비몬스터은 80% 수준. 공연은 투어 개시 3회에 불과했던 점을 감안 시 컴백 관련 및 상설매장 MD 매출 영향이 컸을 것으로 판단 ▶ 블랙핑크 공백기 베몬 기여도가 두드러졌던 4Q24~2Q25 평균 MD 매출 227억원을 상회, 블랙핑크/베몬 월드투어가 함께 반영된 3Q25 281억원과 유사. MD 판매 체력은 점진적 성장 수준으로 판단, 해당 체력이 유지된다면 4Q 예정된 정규 앨범 발매에서 관련 MD 매출 호조 기대해볼",
               "post_url": "https://t.me/daolresearch/14824",
@@ -1874,8 +1385,8 @@
               ],
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/EdvlA3E",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /EdvlA3E (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91200a10>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143155/1/20260806_041510_dy.lim_41.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
               "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
               "summary": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조 ▶ 저연차부터 고연차까지 IP 전반에 걸친 활동으로 매분기 안정적인 실적. 현재 12MF P/E 12배로 최근 11배~14배 수준에서 등락 중. 모멘텀 확인 시(에스파 서구권 성과 확인 혹은 기대치를 상회하는 신인 성과) 밸류에이션 상향 가능 ▶ 2Q26 매출액 3,496억원(YoY+15.4%), 영업이익 529억원(YoY +11.0%; OPM 15.1%)으로 컨센 부합. 순이익은 투자주식 평가손실 및 디어유 아티스트 MG 선급 비용 손상 반영 영향 ▶ 음반원 매출 909억원. 음반은 주요 IP 컴백 집중 영향. 음원은 247억원으로 분기당 250억원 내외의 안정적인 매출 기반을 유지하고 있다는 점은 긍정적이나 다수 IP 컴백에도 불구 직전 두개 분기 연속 기록한 300억원 수준을 하회한 점은 아쉬운 부분. 3Q에는 일부 IP들의 투어 개시 속 주요 IP들의 글로벌 대신 일본 컴백이 집중됨에 따라 음반원 매출은 QoQ 감소가 불가피할 전망 ▶ 공연 매출 416억원으로 약 78만명 반영. 아시아 중심의 투어 진행에 따라 자회사 드림메이커가 호실적 기록 ▶ MD/라이선싱 매출 779억원으로 예상치(613억원) 상회. 공연 MD에 더해 컴백 팝업 수 QoQ 증가, NCT WISH의 캐릭터 팝업 온라인 매출 반영 영향. 전년 동기(WISH 및 라이즈 캐릭터 팝업) 기저가 높았음에도 불구 YoY 성장, 역대 두 번째로 높은 분기 실적 시현. 3Q는 컴백 IP 수와 공연 모객 수 감소로 MD 매출 QoQ 감소 예상. 에스파XPUBG 모바일 콜라보 IP 라이선싱 매출 외 현재까지 확정된 유의미한 이벤트 부재로 동사의 MD 사업의 기초체력을 확인할 수 있을 전망 * 보고서 원문 및 컴플라이언스 ",
               "post_url": "https://t.me/daolresearch/14798",
@@ -2120,19 +1631,13 @@
               "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
-              "industry_conclusion": "▶️ Key Chart & 핵심지표 - 엇갈린 물가지표, 백투백 금리 인상 가능성에 대한 영향은 제한적으로 판단 - 7월, 금리 추가 상승을 버텨낸 금 가격의 상승세가 진행 중 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/2qazo11",
-              "report_conclusion": "▶️ Key Chart & 핵심지표 - 엇갈린 물가지표, 백투백 금리 인상 가능성에 대한 영향은 제한적으로 판단 - 7월, 금리 추가 상승을 버텨낸 금 가격의 상승세가 진행 중 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/2qazo11",
-              "valuation": [
-                "기존 하락 유발 소재들이 전반적으로 완화되는 만큼 적어도 극단적 저평가 수준에서 정상 밸류에이션 수준까지는 회복 시도가 가능할 것으로 판단.",
-                "비 반도체 업종의 PER은 다시 12배 대 진입(당사 추정) 이익과 멀티플 정상 구간 회귀 관점이라면 반도체 비중 유지 필요."
-              ],
-              "earnings_changes": [
-                "반면 국내 증시 이익 전망치는 8월에도 상향 흐름 지속.",
-                "최근 3주 간 극단적 변동성 상황 속에서 실적 전망치 개선이 진행된 업종은 반도체 외에 조선, 기계, 지주 은행, 보험 등"
-              ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/2qazo11",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /2qazo11 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fbc91d6c530>, 'Connection to buly.kr timed out. (connect ",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143195/1/20260807_B_bhcho_292.pdf",
+              "pdf_error": "",
               "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 1주차)]",
               "summary": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 1주차)] ▶️ 금주 증시 동향 (07/31~08/06) - KOSPI(-4.5%) 하락, KOSDAQ(11.4%) 상승. KOSPI는 비철,목재(+20.5%), 건설,건축관련(+16.9%), 기계(+12.6%) 업종이 상승한 가운데 반도체(-12.2%), 보험(-2%), 증권(-0.1%) 업종 하락. 코스피는 지난주 사상 최대 일간 상승률 기록에 따른 차익실현 매물과 키옥시아 실적 부진이 맞물리며 하락 출발. 이후 빅테크 호실적 발표, 미·이란 협상 가능성 부각, 반도체 낙관 전망 등에 주중 반등 시도했으나, 미국 반도체주 약세에 연동되며 재차 변동성 확대. 금주 반도체 외 업종으로 순환매 유입, 코스닥은 단일종목 레버리지 ETF 규제 강화 이후 5거래일 연속 상승하며 강세 - DOW(+2.7%), S&P500(+2.9%), NASDAQ(+3.8%) 상승. 호르무즈 해협 개방 기대감에 국제유가와 국채금리가 하락한 가운데, 연이은 주요 기업 호실적에 힘입어 기술주 중심으로 상승 출발. 주중 급등에 따른 차익실현에 변동성 확대됐으나, 전통산업주와 경기순환주는 국채금리 안정에 강세를 이어가며 순환매 장세가 전개됨. 주 후반에는 차익실현과 반발매수 혼재하며 업종별 차별화 흐름을 보임. 금주 다우·S&P500 지수는 종가 기준 사상 최고치 경신 ▶️ 차주 증시 전망 (08/10~08/14) - 7월 마지막주 급락 충격에서는 일단 벗어나는 흐름이지만 일간 발생하는 변동성은 여전히 높게 나타나고 있음. 반도체 대표주들 역시 아직은 안정적인 흐름 보다는 매일 급등락을 반복하고 있는 양상. 아직 불안감은 남아 있지만, 확인하고자 했던 소재들은 일단 긍정적인 방향성을 제시해 주고 있음 - 유가는 다시 70$대에 진입했고",
               "post_url": "https://t.me/daolresearch/14811",

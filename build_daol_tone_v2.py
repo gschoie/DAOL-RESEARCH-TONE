@@ -304,8 +304,8 @@ def merge_report(report, ai_entry):
     """v1 정규식 리포트 + AI 분석을 화면용 단일 레코드로 합친다."""
     ai = (ai_entry or {}).get('result')
     company, code, scope = report.get('company') or '', report.get('code') or '', report.get('report_type')
-    # '1Q26' 같은 분기 라벨은 기업명이 아니다 — 비워서 AI 귀속 보정이 진짜 기업명을 채우게 한다
-    if re.fullmatch(r'[1-4]Q\d{2}[EP]?', company):
+    # '1Q26'·'CY2Q26' 같은 분기 라벨은 기업명이 아니다 — 비워서 AI 귀속 보정이 진짜 기업명을 채우게 한다
+    if re.fullmatch(r'(?:CY|FY)?[1-4]Q\d{2}[EP]?', company):
         company, code = '', ''
     if ai:
         # 정규식이 기업을 못 잡았거나(산업/기타), 코드 없이 산업자료로 오인한 경우
@@ -505,6 +505,12 @@ COMPANY_SECTOR_OVERRIDES = {'리브스메드': '의료기기', '실리콘투': '
 def resolve_sector(record, sector_map):
     if record['company'] in COMPANY_SECTOR_OVERRIDES:
         return COMPANY_SECTOR_OVERRIDES[record['company']]
+    # 박종현은 의료기기·화장품 담당 — 커버 종목(대웅제약 등)이 코드 매핑상 제약·바이오라도
+    # 이지수(제약·바이오)와 표에서 합쳐지지 않게 본인 섹터로 귀속한다.
+    if record['analyst'] == '박종현':
+        base = sector_map.get(record['code'] or '', '')
+        if base == '제약·바이오' or re.search(r'제약|바이오|신약', record['title'][:160]):
+            return '화장품' if re.search(r'화장품|뷰티|코스메', record['title'][:160]) else '의료기기'
     if record['code'] and record['code'] in sector_map:
         return sector_map[record['code']]
     # 1순위: 제목(그 리포트가 실제 다루는 주제). 2순위: 애널 헤더의 원시 섹터 문자열 —
