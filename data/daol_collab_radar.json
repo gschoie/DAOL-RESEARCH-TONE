@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T00:00:16.562647+00:00",
+ "generated_at": "2026-08-10T04:12:07.924653+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1230,
  "hits": [
@@ -27311,10 +27311,27 @@
    "company": "에스엠",
    "code": "041510",
    "direction": "피해",
-   "score": -2,
+   "score": -4,
    "evidences": [
     "3Q는 컴백 IP 수와 공연 모객 수 감소로 MD 매출 QoQ 감소 예상.",
     "3Q에는 일부 IP들의 투어 개시 속 주요 IP들의 글로벌 대신 일본 컴백이 집중됨에 따라 음반원 매출은 QoQ 감소가 불가피할 전망"
+   ],
+   "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
+   "post_url": "https://t.me/daolresearch/14798",
+   "source_url": "https://buly.kr/EdvlA3E"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-08-06",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "에스엠",
+   "code": "041510",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "순이익은 투자주식 평가손실 및 디어유 아티스트 MG 선급 비용 손상 Stock Information H}O] 여해 현재가 (8/5) 73,700원 wees 예상 주가상승률 49.3% ㆍ [음반원] 매출 909억원."
    ],
    "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
    "post_url": "https://t.me/daolresearch/14798",
@@ -27478,23 +27495,6 @@
    "source_url": "https://buly.kr/jbu1ge"
   },
   {
-   "theme": "가상자산/스테이블코인",
-   "category": "산업테마",
-   "date": "2026-08-07",
-   "analyst": "박종현",
-   "sector": "의료기기/화장품",
-   "company": "인바디",
-   "code": "041830",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "전일 실적 발표 후 주가 상승으로 2026E PER 17.6배 도달했으나, 영업이익률 20%를 상회했던 구간 대비 여전히 저평가 구간이며 해외 진출 기대감이 컸던 2018-2019년 Historical PER 밴드는 30배 수준 * 보고서 원문 및 컴플라이언스 < https://buly.kr/jbu1ge > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-   ],
-   "title": "[인바디(041830)/ Not Rated/ 다올 의료기기 박종현] ★ 영업 레버리지를 재확인",
-   "post_url": "https://t.me/daolresearch/14806",
-   "source_url": "https://buly.kr/jbu1ge"
-  },
-  {
    "theme": "밸류업/주주환원",
    "category": "매크로",
    "date": "2026-08-07",
@@ -27528,23 +27528,6 @@
    "title": "[LG유플러스(032640) | BUY(유지) | TP 2만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 한층 높아진 이익 체력",
    "post_url": "https://t.me/daolresearch/14808",
    "source_url": "https://buly.kr/DaRDdDI"
-  },
-  {
-   "theme": "금리 사이클",
-   "category": "매크로",
-   "date": "2026-08-07",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 엇갈린 물가지표, 백투백 금리 인상 가능성에 대한 영향은 제한적으로 판단 - 7월, 금리 추가 상승을 버텨낸 금 가격의 상승세가 진행 중 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/2qazo11"
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 1주차)]",
-   "post_url": "https://t.me/daolresearch/14811",
-   "source_url": "https://buly.kr/2qazo11"
   },
   {
    "theme": "중동/호르무즈 리스크",
@@ -27594,23 +27577,6 @@
    "score": 0,
    "evidences": [
     "KOSPI는 비철,목재(+20.5%), 건설,건축관련(+16.9%), 기계(+12.6%) 업종이 상승한 가운데 반도체(-12.2%), 보험(-2%), 증권(-0.1%) 업종 하락."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 1주차)]",
-   "post_url": "https://t.me/daolresearch/14811",
-   "source_url": "https://buly.kr/2qazo11"
-  },
-  {
-   "theme": "금/귀금속",
-   "category": "원자재",
-   "date": "2026-08-07",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 - 엇갈린 물가지표, 백투백 금리 인상 가능성에 대한 영향은 제한적으로 판단 - 7월, 금리 추가 상승을 버텨낸 금 가격의 상승세가 진행 중 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/2qazo11"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 1주차)]",
    "post_url": "https://t.me/daolresearch/14811",
@@ -27708,8 +27674,8 @@
    "date": "2026-08-10",
    "analyst": "이다연",
    "sector": "음식료",
-   "company": "CY2Q26",
-   "code": "",
+   "company": "Nissin Food Holdings",
+   "code": "2897 JT Equity",
    "direction": "중립",
    "score": 0,
    "evidences": [
@@ -27725,8 +27691,8 @@
    "date": "2026-08-10",
    "analyst": "이다연",
    "sector": "음식료",
-   "company": "CY2Q26",
-   "code": "",
+   "company": "Nissin Food Holdings",
+   "code": "2897 JT Equity",
    "direction": "피해",
    "score": -1,
    "evidences": [
@@ -27743,8 +27709,8 @@
    "date": "2026-08-10",
    "analyst": "이다연",
    "sector": "음식료",
-   "company": "CY2Q26",
-   "code": "",
+   "company": "Nissin Food Holdings",
+   "code": "2897 JT Equity",
    "direction": "중립",
    "score": 0,
    "evidences": [
@@ -27784,7 +27750,24 @@
    "score": 0,
    "evidences": [
     "하반기부터 빅뱅 20주년 투어 반영, 로열티로 반영되는 일본 지역 비중과 개런티 차이를 감안, 하반기 공연 매출은 YoY 감소, 로열티 매출은 YoY 성장 전망",
-    "베이비몬스터는 공연 및 MD 중심의 성장 지속 중."
+    "하반기부터 빅뱅 20주년 투어 반영, 주요주주지분율(%) 로열티로 반영되는 일본 지역 비중과 개런티 차이를 감안, 하반7| 공연 양현석 (외 7인) 27.3 매출은 YoY 감소, 로열티 매출은 YoY 성장 전망 네이버 (의 1인) 8.9 ~ 5 ： 이 _ 자사주 (외 1인) 08 ㆍ [MD] 매출 282억원으로 예상치 크게 상회, 영업이익 컨센서스 상회의 주요인."
+   ],
+   "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다",
+   "post_url": "https://t.me/daolresearch/14824",
+   "source_url": "https://buly.kr/4Fv4jZG"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-08-10",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "와이지엔터테인먼트",
+   "code": "122870",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "순이익은 TME 관련 Stock Information 군 주식평가손실 반영 현재가 (8/7) 41.550원 기이 노르 누이 예상 Misses 44.4% ㆍ[음반원] 음반 193억, 음원 233억원."
    ],
    "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다",
    "post_url": "https://t.me/daolresearch/14824",
@@ -28631,6 +28614,18 @@
    "evidence": "탱커 ▲ HD현대중공업, 그리스 Stealth Maritime로부터 MR 2척 수주 ▲ 대한조선, 튀르키예 Ditas Shipping으로부터 수에즈막스 탱커 2척 수주 ▽ 팬오션, 중국에 VLCC 2척 추가 발주",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: LNG선 수요 550척으로 상향, KDDX 출발 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/14738"
+  },
+  {
+   "company": "카카오",
+   "code": "035720",
+   "owner_analyst": "김혜영",
+   "owner_sector": "인터넷/게임/레저",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "date": "2026-08-06",
+   "evidence": "30)에1 aha 일평균거라대금 96억원 일부 1『들의 투어 개시 속 주요 들의 글로벌 대신 일본 컴백이 집중됩어 age 은 22 따라 음반원 매출은 QoQ 감소가 불가피할 전망 주요주주지분율(%) 카카오 (의 10인) 41.8 ㆍ [공연] 매출 416억원.",
+   "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
+   "post_url": "https://t.me/daolresearch/14798"
   }
  ],
  "candidates": [
@@ -28650,10 +28645,10 @@
   },
   {
    "term": "배당수익률",
-   "recent": 6,
-   "total": 9,
-   "sectors": 5,
-   "burst": 5.7
+   "recent": 7,
+   "total": 10,
+   "sectors": 6,
+   "burst": 6.7
   },
   {
    "term": "UAE",

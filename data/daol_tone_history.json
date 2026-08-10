@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:07:45.440244+00:00",
+  "generated_at": "2026-08-10T04:12:03.274064+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1230,
   "months": [
@@ -206,14 +206,14 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
-              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "pitch": "KOSPI 대형주 고섬 우려 속 조정 국면 그리고 개인 중심 매수 여력 축소 영향으로 해석. 전반적인 거래 규모는 축소, 글로벌 Teer 고점 우려 속 조정과 개인 매수 여력 축소로 해석 다만 미국 중심 순매수 전환 및 확대 하이닉스 41#과 기술주 관련 ETF 매수 상위",
+              "industry_conclusion": "KOSPI 대형주 고섬 우려 속 조정 국면 그리고 개인 중심 매수 여력 축소 영향으로 해석. 전반적인 거래 규모는 축소, 글로벌 Teer 고점 우려 속 조정과 개인 매수 여력 축소로 해석 다만 미국 중심 순매수 전환 및 확대 하이닉스 41#과 기술주 관련 ETF 매수 상위",
+              "report_conclusion": "KOSPI 대형주 고섬 우려 속 조정 국면 그리고 개인 중심 매수 여력 축소 영향으로 해석. 전반적인 거래 규모는 축소, 글로벌 Teer 고점 우려 속 조정과 개인 매수 여력 축소로 해석 다만 미국 중심 순매수 전환 및 확대 하이닉스 41#과 기술주 관련 ETF 매수 상위",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143148/1/20260806_B4030_jiwonkim_243.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (6월) 자본시장: 동향 추가 확인 필요",
               "summary": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (6월) 자본시장: 동향 추가 확인 필요 ▶ Brokerage 모멘텀 확인 필요한 구간. 개인 중심 자금이탈과 매수 여력 축소 주시 중 ▶ 증권사별 Fee 수익 방어력 차별화 주목 ▶ 국내주식 일평균거래대금: (6월) 99.4조원, (7월) 69.4조원 ▶ 국내 ETF 일평균거래대금: (6월) 37.4조원, (7월) 34.2조원 ▶ 주식 발행실적: 3,155억원(YoY-19.6%, MoM-76.8%) ▶ 회사채 발행실적: 26.5조원(YoY+12.6%, MoM+41.2%) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/EoqW8IF > ▶ 개별 채널 https://t.me/jiwonkimfin",
               "post_url": "https://t.me/daolresearch/14787",
@@ -335,14 +335,20 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "디기 시론 2769 매출이 온기로 반영되는 3026에는 유의미하께 기여할 전망 EV/EBITDA\\(HH) 99 83 59 enchant>2} 지출이 높았다고 판단. 배당수익률(%) 18 20 28 때문에 연간 마케팅비 가이던스 연간 20% 수준은 유지할 전망 회사 잠정 당사 예상 징 이 wom 스 전년 = 전분",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 BUY, 적정주가 55,000원 유지 디기 시론 2769 매출이 온기로 반영되는 3026에는 유의미하께 기여할 전망 배당수익률(%) 18 20 28 때문에 연간 마케팅비 가이던스 연간 20% 수준은 유지할 전망",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E <4: STAR DIVE>.",
+                "PER(HH) 18.4 6.1 8.9 인해 전년 S7) 대비 큰 폭으로 상승.",
+                "PBR(Hll) 1.6 15 1.2 의 x1Xo) “cori 정 신작은 sme 많지 않",
+                "EV/EBITDA\\(HH) 99 83 59 enchant>2} 지출이 높았다고 판단.",
+                "Performance 1M 6M 12M YTD 최강종>, <프로젝트 이지스>이며 <프로젝트 옥토펴스>와 <이블베인>은"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143153/1/20260806_251270_hyyy_205.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[넷마블(251270)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: 전략 점검의 시기 ★ 55,000원(유지), BUY(유지)",
               "summary": "[넷마블(251270)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 2Q26 Review: 전략 점검의 시기 ★ 55,000원(유지), BUY(유지) ▶ 2Q26P 연결 매출액은 7,492억원(+4.4% YoY, +15.0% QoQ), 영업이익은 801억원(-20.8% YoY, +51.0% QoQ). 매출액은 컨센서스에 부합하고 영업이익은 컨센서스에 소폭 하회 ▶ 지배주주당기순이익은 1,976억원(+23.2% YoY, -5.8% QoQ)으로 구로 지타워 매각 금액(6,977억원)이 반영되며 컨센서스에 상회 ▶ 6/18에 출시한 <SOL: enchant>는 225억원의 매출 기록. 2Q26 평균 일매출은 17억원. 출시부터 8월 초인 현재까지 Google Play에서 1위 유지 중. 매출이 온기로 반영되는 3Q26에는 유의미하게 기여할 전망 ▶ [지급수수료] 매출액의 31.4%인 2,356억원(-28% YoY, +17.3% QoQ) 기록. 외부 IP 비중이 상승하며 전분기 대비 상승 ▶ [마케팅비] 매출액의 24.5%인 1,835억원(+35.5% YoY, +9.1% QoQ) 기록. <몬길: STAR DIVE>. <왕좌의 게임: 킹스로드>, <SOL: enchant> 출시로 인해 전년 동기 대비 큰 폭으로 상승. 특히 MMORPG 장르인 <SOL: enchant>의 지출이 높았다고 판단. 2H26 예정 신작은 3개로 많지 않기 때문에 연간 마케팅비 가이던스 연간 20% 수준은 유지할 전망 ▶ 2H26 예정 신작은 <나 혼자만 레벨업: KARMA>, <샹그릴라 프론티어: 일곱 최강종>, <프로젝트 이지스>이며 <프로젝트 옥토퍼스>와 <이블베인>은 2027년으로 연기. 신작 개수를 조정한 이유는 라이브 게임의 PLC 확장과 리소스를 효율화 측면에 집중하기 위함 ▶ 기존 게임의 수",
               "post_url": "https://t.me/daolresearch/14795",
@@ -471,19 +477,8 @@
               "source": "https://t.me/daolresearch/14819"
             }
           ],
-          "top_picks": [
-            {
-              "text": "▶ 체크포인트 및 Implication 최선호주는 ① 파마리서치(BUY, TP 55만원) ② 휴젤(BUY, TP 43만원) ③ 에이피알(BUY, TP 56만원) ④ 달바글로벌(BUY, TP 34만원) 유지.",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14819"
-            },
-            {
-              "text": "업종 선호 의견 지속 * 보고서 원문 및 컴플라이언스 < https://buly.kr/DwGkgFQ > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-08-10",
-              "source": "https://t.me/daolresearch/14819"
-            }
-          ],
-          "top_pick_change": "전월과 문구/구성 변경",
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
           "report_count": 9,
@@ -498,26 +493,20 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [
-                "▶ 체크포인트 및 Implication 최선호주는 ① 파마리서치(BUY, TP 55만원) ② 휴젤(BUY, TP 43만원) ③ 에이피알(BUY, TP 56만원) ④ 달바글로벌(BUY, TP 34만원) 유지.",
-                "업종 선호 의견 지속 * 보고서 원문 및 컴플라이언스 < https://buly.kr/DwGkgFQ > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-              ],
-              "preferred_stocks": [
-                "▶ 체크포인트 및 Implication 최선호주는 ① 파마리서치(BUY, TP 55만원) ② 휴젤(BUY, TP 43만원) ③ 에이피알(BUY, TP 56만원) ④ 달바글로벌(BUY, TP 34만원) 유지.",
-                "업종 선호 의견 지속 * 보고서 원문 및 컴플라이언스 < https://buly.kr/DwGkgFQ > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶ 체크포인트 및 Implication 최선호주는 ① 파마리서치(BUY, TP 55만원) ② 휴젤(BUY, TP 43만원) ③ 에이피알(BUY, TP 56만원) ④ 달바글로벌(BUY, TP 34만원) 유지.",
-              "report_conclusion": "▶ 체크포인트 및 Implication 최선호주는 ① 파마리서치(BUY, TP 55만원) ② 휴젤(BUY, TP 43만원) ③ 에이피알(BUY, TP 56만원) ④ 달바글로벌(BUY, TP 34만원) 유지.",
+              "pitch": "특히나, 파마리서치와 에이피알은 당초 투자 포인트였던 유럽 수출과 미국",
+              "industry_conclusion": "안정이나, Q SAI 성장으로 해당 성장폭 유지 전망. 성장세를 보여줄 수 있을지 판가름하는 분기점이 될 전망 순환매 지속 전망 시, 상대적으로 실적 추정치",
+              "report_conclusion": "안정이나, Q SAI 성장으로 해당 성장폭 유지 전망. 성장세를 보여줄 수 있을지 판가름하는 분기점이 될 전망 순환매 지속 전망 시, 상대적으로 실적 추정치",
               "valuation": [],
               "earnings_changes": [
-                "순환매 지속 전망 시, 상대적으로 실적 추정치 우상향 가능성 있는 미용 의료기기 및 화장품 업종에 대한 관심 지속 기대."
+                "순환매 지속 전망 시, 상대적으로 실적 추정치"
               ],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143230/1/20260810_B3510_alex.park_585.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ SPOT: 순수 내수보단 인바운드와 수출주",
               "summary": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ SPOT: 순수 내수보단 인바운드와 수출주 ▶ 희비가 갈린 실적 시장 기대치가 높았던 파마리서치/에이피알을 제외하고, 휴젤/아모레퍼시픽/대웅제약/인바디/씨젠 등 수출 매출 비중이 50%가 넘거나, 인바운드 노출도 높은 기업들의 실적 서프라이즈 지속. 특히나, 파마리서치와 에이피알은 당초 투자 포인트였던 유럽 수출과 미국 오프라인 확장이 실적으로 반영되기 시작하였으며, 씨젠은 HPV 스크리닝 시장에서의 MS 확대를 확인했으며, 휴젤은 중국에서의 구조적인 성장 지속되는 과정에서 미국 직판 진입 기대감이 과소 반영 구간 의료기기 및 화장품 업종에 대한 선호도 및 투자 비중 확대 권고. Downside risk는 급격한 환율 안정이나, Q 중심의 성장으로 해당 성장폭 유지 전망. 아직 달바글로벌/한국콜마/실리콘투/코스메카코리아 등 주요 기업 실적 발표 남아있으며, 해당 기업들 또한 양호한 실적 발표 전망 ▶ 8/11일 수출과 의료관광 데이터가 관건이다 톡신/필러/화장품 모두 6월 대비 7월 성장(MoM +6%, +9%, +2%)하며, QoQ 성장에 대한 기대감 유지. 특히나, 8/11일에 발표될 10일 잠정 수출 데이터 및 의료 관광 데이터에서의 성장률이 3Q26E에도 성장세를 보여줄 수 있을지 판가름하는 분기점이 될 전망 ▶ 중소형주에도 여력이 있다면? 단기 저점을 기록했던 7/29일 이후 코스피와 코스닥의 상승률은 각각 +11%, +21%로 상대적으로 코스닥의 강세가 확인. 상기한 모멘텀을 흡수할 수 있는 기업으로는 커버리지외 중소형주는 글로벌텍스프리와 메쎄이상. 글로벌텍스프리는 8/6일 MIRI Capital 5.83% 지분 공시(투자 목적: 일반 투자). 글로벌텍스프리는 1Q26로 결손금이 이익잉여금으로 전환되었으며, 현금성자",
               "post_url": "https://t.me/daolresearch/14819",
@@ -780,16 +769,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "2026 실적 리뷰 및 주요 투자포인트 Wy",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "투자의견 BUY 및 적정주가 53,0008 유지. 최근의 가파른 수익성 개선흐름이 ENP 껏으로 전망함",
               "valuation": [
-                "중고차 매각 → 장기렌탈 전환 성공이 지속적으로 입증되고 있어, IPO 이후 지연되어 왔던 수익성 개선과 밸류에이션의 확장이 임박"
+                "Valuation wide 2025",
+                "IPO 이후 지연되어 왔던 수익성 개선과 밸류에이션의 확장이 임박."
               ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143154/1/20260806_089860_jwyoo_657.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 롯데렌탈(089860) - 2Q26 Review: 오토렌탈 이익 호조",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 롯데렌탈(089860) - 2Q26 Review: 오토렌탈 이익 호조 ▶ 투자의견 BUY 및 적정주가 53,000원 유지. 적정주가는 2026년 수정 EPS에 적정 P/E 13.5배를 적용 ▶ 본업 수익성 기여도 증가세 지속. 중고차 매각 → 장기렌탈 전환 성공이 지속적으로 입증되고 있어, IPO 이후 지연되어 왔던 수익성 개선과 밸류에이션의 확장이 임박 ▶ 2Q26 매출액 및 영업이익은 각각 7,658억원(YoY +2.3%), 846억원(YoY +9.6%) 기록 ▶ 2024년까지 동사 이익의 절반 이상을 담당해온 중고차 매각 부분은 장기렌탈사업으로 전환하는데 성공 ▶ 2Q26 T-Car 부분 매출액은 309억원(YoY +108%)를 기록. 오는 8월 부산거점 추가를 통해 외형확대가 3Q26에도 가속화 예상 ▶ 3Q26 실적은 매출액 8천억원(YoY +5.5%), 영업이익 883억원(YoY -0.8%)을 추정 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/3YG1MZf >",
               "post_url": "https://t.me/daolresearch/14797",
@@ -1348,16 +1338,22 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "베이비몬스터는 공연 및 MD 중심의 성장 지속 중. 상저하고 실적 및 베몬 서구권 투어 및 빅뱅 추가 일정에 따라 27년 실적 추가 상향 여지 유효 현재 직전 변동 투자의견 BUY 및 적정주가 유지 투자의견 BUY BUY 유지 Rationale 적정주가 60.000 60.000 유지 e 2Q26 매출액 1,278억원(<67+27.2%, QoQ-13.2%), 영업ㅇ 익 90009 110억원(6? +31.2%, 000-43.5%; OPM 8.6%)으로 컨센서스 상회. MD 매출이 WAS 크게 상회하며 uo] 유리한 음반원/)4ㅁ 매출 비중(65%)7} 예상치(46%)를 상회한 점이 주효. 순이익은 TME 관련 Stock Information 군 주식평가손실 반영 현재가 (8/7) 41.550원 기이 노르 누이 예상 Misses 44.4% ㆍ[음반원] 음반 193억, 음원 233억원. 트레저와 베이비몬스터가 컴백하며 sano , CE 총 191만장 반영. 1P 전체 라인업의 피지컬 앨범 발매가 40 집중 비중(<050404 0.17% 7 5 발행주식수 18,691전주 예상됨어 따라 3()는 음반원 QoQ 감소 예상 가 이뽀 ㆍ [공연] 매출 94억원. 트레저 투어 아시아 잔여 회차(7회) 및 트레저 WE, 외국인 지분율 11.7% 베이비몬스터 투어 서울 공연만 반영. 하반기부터 빅뱅 20주년 투어 반영, 주요주주지분율(%) 로열티로 반영되는 일본 지역 비중과 개런티 차이를 감안, 하반7| 공연 양현석 (외 7인) 27.3 매출은 YoY 감소, 로열티 매출은 YoY 성장 전망 네이버 (의 1인) 8.9 ~ 5 ： 이 _ 자사주 (외 1인) 08 ㆍ [MD] 매출 282억원으로 예상치 크게 상회, 영업이익 컨센서스 상회의 주요인. 전체 MD 매출 중 베이비몬스터은 80% 수준. 공연은 투어 T",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [
-                "그 외 베몬 월드투어와 트레저 팬콘 투어, 빅뱅 투어가 반영되며 하반기 견조한 MD 매출 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/4Fv4jZG > * 텔레그램 채널 < https://t.me/entdy >"
+              "report_conclusion": "현재 직전 변동 투자의견 BUY 및 적정주가 유지 투자의견 BUY BUY 유지 Rationale 양현석 (외 7인) 27.3 매출은 YoY 감소, 로열티 매출은 YoY 성장 전망 주가상승률 (%) (60) (407) (53.4) (40.1) 견조한 MD 매출 전망.",
+              "valuation": [
+                "Valuationwide 2025 20266 202개 이에 we 고다 바고 on 기 베로 en 도드러졌던",
+                "PER(HH) 35.2 15.0 12.9 he ^ uu: erro om ㆍ L a TDA",
+                "PBR(HH) 27 15 13 4Q24~2Q25 평균 MD 매출 227억원을 상회, 블랙핑크/베몬 월드투어7",
+                "EV/EBITDA(HH) 11.3 54 6.0 함께 반영된 3025 281억원과 유사.",
+                "Performance 1M 6M 12M YTD 트레저 팬콘서트 Fol, 8월부터 시작되는 빅뱅 투어가 반영되며 하반7"
               ],
-              "analysis_source": "텔레그램 요약",
+              "earnings_changes": [
+                "주가상승률 (%) (60) (407) (53.4) (40.1) 견조한 MD 매출 전망."
+              ],
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143235/1/20260810_122870_dy.lim_42.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다",
               "summary": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다 ▶ 베이비몬스터는 공연 및 MD 중심의 성장 지속 중. 상저하고 실적 및 베몬 서구권 투어 및 빅뱅 추가 일정에 따라 27년 실적 추가 상향 여지 유효, 투자의견 BUY 및 적정주가 유지 ▶ 2Q26 매출액 1,278억원(YoY+27.2%, QoQ-13.2%), 영업이익 110억원(YoY +31.2%, QoQ-43.5%; OPM 8.6%)으로 컨센 상회. MD 매출이 기대치를 크게 상회하며 마진에 유리한 음반원/MD 매출 비중(55%)가 예상치(46%)를 상회한 점이 주효. 순이익은 TME 관련 주식평가손실 반영 ▶ 음반 193억, 음원 233억원. 트레저와 베몬 컴백으로 총 191만장 반영. IP 전체 라인업의 피지컬 앨범 발매가 4Q 집중 예상됨에 따라 3Q는 음반원 QoQ 감소 예상 ▶ 공연 매출 94억원. 트레저 투어 아시아 잔여 회차(7회) 및 트레저 팬콘, 베이비몬스터 투어 서울 공연만 반영. 하반기부터 빅뱅 20주년 투어 반영, 로열티로 반영되는 일본 지역 비중과 개런티 차이를 감안, 하반기 공연 매출은 YoY 감소, 로열티 매출은 YoY 성장 전망 ▶ MD 매출 282억원으로 예상치 크게 상회, 컨센 상회의 주요인. 전체 MD 매출 중 베이비몬스터은 80% 수준. 공연은 투어 개시 3회에 불과했던 점을 감안 시 컴백 관련 및 상설매장 MD 매출 영향이 컸을 것으로 판단 ▶ 블랙핑크 공백기 베몬 기여도가 두드러졌던 4Q24~2Q25 평균 MD 매출 227억원을 상회, 블랙핑크/베몬 월드투어가 함께 반영된 3Q25 281억원과 유사. MD 판매 체력은 점진적 성장 수준으로 판단, 해당 체력이 유지된다면 4Q 예정된 정규 앨범 발매에서 관련 MD 매출 호조 기대해볼",
               "post_url": "https://t.me/daolresearch/14824",
@@ -1377,16 +1373,19 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "저연차부터 고연차까지 IP 전반에 BAl 활동으로 매분7| 안정적인 실적 시현. 현재 12MF P/E 12배로 최근 11배~14배 수준에서 등락 SS 현재 직전 변동 확인 시(에스파 서구권 성과 확인 혹은 TWAS 상회하는 신인 성과) w= 션 상향 가능 투자의견 BUY BUY 유지 Woe ㅣ ㅇㅇ ks 적정주가 110,000 110,000 유지 Rationale 0\" ㆍ2026 MEH _3,496억원(<6+15.4%, 000+25.3%), 영업이익 529억원(0 +11.0%, 000+36.9%; OPM 15.1%)으로 컨센서스 부합. 순이익은 투자주식 평가손실 및 디어유 아티스트 MG 선급 비용 손상 Stock Information H}O] 여해 현재가 (8/5) 73,700원 wees 예상 주가상승률 49.3% ㆍ [음반원] 매출 909억원. 음반은 주요 IP 컴백 집중으로 총 574만장 반영, 시가종액 16,873억원 662억원 기록. 음원은 247억원으로 분기당 250억원 내외의 안정적인 매출 soe van 기반을 유지하고 있다는 BS 긍정적이나 다수 『 컴백에도 불구 직전 르 ㅎㅎ ㄱㄱ 1 uT 00 L 52% 최저가 / 최고가 66,500 - 153,000원 두개 427) 연속 기록한 300억원 PES 하회한 BS 아쉬운 부분. 30)에1 aha 일평균거라대금 96억원 일부 1『들의 투어 개시 속 주요 들의 글로벌 대신 일본 컴백이 집중됩어 age 은 22 따라 음반원 매출은 QoQ 감소가 불가피할 전망 주요주주지분율(%) 카카오 (의 10인) 41.8 ㆍ [공연] 매출 416억원. 약 78만명(?6+12%, QoQ-8%) 반영으로 아시아 Tencent Music Entertainment 중심의 투어 진행어 자회사 드린메이커가 SAA 기로 Hong Kong Limited (",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "투자의견 BUY BUY 유지 Woe ㅣ ㅇㅇ ks age 은 22 따라 음반원 매출은 QoQ 감소가 불가피할 전망 Performance iM 6M 124 YTD 확인할 수 있을 전망",
               "valuation": [
-                "모멘텀 확인 시(에스파 서구권 성과 확인 혹은 기대치를 상회하는 신인 성과) 밸류에이션 상향 가능"
+                "Valuation wide 2025 2026E 2027E 반영 영향.",
+                "PER(HH) 8.9 154 11.0 높았음에도 불구하고 YoY AAS 기록하며 역대 두 번째로 높은 분7",
+                "PBR(HH) 7.7 3.5 2.8 ANS 느 a(S Ar 공연 모객 스 감 [소로 ㅁㅠ",
+                "Performance iM 6M 124 YTD 확인할 수 있을 전망"
               ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143155/1/20260806_041510_dy.lim_41.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
               "summary": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조 ▶ 저연차부터 고연차까지 IP 전반에 걸친 활동으로 매분기 안정적인 실적. 현재 12MF P/E 12배로 최근 11배~14배 수준에서 등락 중. 모멘텀 확인 시(에스파 서구권 성과 확인 혹은 기대치를 상회하는 신인 성과) 밸류에이션 상향 가능 ▶ 2Q26 매출액 3,496억원(YoY+15.4%), 영업이익 529억원(YoY +11.0%; OPM 15.1%)으로 컨센 부합. 순이익은 투자주식 평가손실 및 디어유 아티스트 MG 선급 비용 손상 반영 영향 ▶ 음반원 매출 909억원. 음반은 주요 IP 컴백 집중 영향. 음원은 247억원으로 분기당 250억원 내외의 안정적인 매출 기반을 유지하고 있다는 점은 긍정적이나 다수 IP 컴백에도 불구 직전 두개 분기 연속 기록한 300억원 수준을 하회한 점은 아쉬운 부분. 3Q에는 일부 IP들의 투어 개시 속 주요 IP들의 글로벌 대신 일본 컴백이 집중됨에 따라 음반원 매출은 QoQ 감소가 불가피할 전망 ▶ 공연 매출 416억원으로 약 78만명 반영. 아시아 중심의 투어 진행에 따라 자회사 드림메이커가 호실적 기록 ▶ MD/라이선싱 매출 779억원으로 예상치(613억원) 상회. 공연 MD에 더해 컴백 팝업 수 QoQ 증가, NCT WISH의 캐릭터 팝업 온라인 매출 반영 영향. 전년 동기(WISH 및 라이즈 캐릭터 팝업) 기저가 높았음에도 불구 YoY 성장, 역대 두 번째로 높은 분기 실적 시현. 3Q는 컴백 IP 수와 공연 모객 수 감소로 MD 매출 QoQ 감소 예상. 에스파XPUBG 모바일 콜라보 IP 라이선싱 매출 외 현재까지 확정된 유의미한 이벤트 부재로 동사의 MD 사업의 기초체력을 확인할 수 있을 전망 * 보고서 원문 및 컴플라이언스 ",
               "post_url": "https://t.me/daolresearch/14798",
