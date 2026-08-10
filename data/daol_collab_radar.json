@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-10T14:18:41.178881+00:00",
+ "generated_at": "2026-08-10T23:11:51.083809+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1230,
+ "report_count": 1235,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27772,6 +27772,75 @@
    "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 2Q26 Review: YG도 MD를 잘 팔았습니다",
    "post_url": "https://t.me/daolresearch/14824",
    "source_url": "https://buly.kr/4Fv4jZG"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-11",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "오리온",
+   "code": "271560",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "베트남은 중동 분쟁 여파가 상대적으로 크게 작용하는 지역."
+   ],
+   "title": "[오리온(271560) | 다올 음식료/통신 이다연] ★ 7월 잠정 실적 Comment",
+   "post_url": "https://t.me/daolresearch/14835",
+   "source_url": "https://buly.kr/C0CQFaA"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-08-11",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -4,
+   "evidences": [
+    "Implication 지난주 대비 Sell-Through 데이터 소폭 둔화되었으나, 에이피알(BUY, TP 56만원) 위주의 화장품 업종 선호 의견 유지 에이피알은 아마존 미국 방어에도 틱톡 -24.3%·유럽 점유 하락했으나, 유기적 구매 비율 28%는 프로모션 축소 국면의 방어력 근거."
+   ],
+   "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~8/10)",
+   "post_url": "https://t.me/daolresearch/14837",
+   "source_url": "https://buly.kr/6teRoTG"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-08-11",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "7월",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[HYBE] 피지컬 앨범 발매 IP 수는 1팀에 불과했으나 연준(투바투)가 솔로 컴백에도 불구 약 81만장을 판매."
+   ],
+   "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 7월 음반원 업데이트 1) 음반 판매량 업데이트",
+   "post_url": "https://t.me/daolresearch/14839",
+   "source_url": "https://buly.kr/ChrSBTY"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-08-11",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "7월",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "중화권 대비 상대적으로 팬덤 확장세가 더뎠던 일본에서도 최근 신규 팬덤 유입이 가파르게 확대되고 있는 것으로 판단.",
+    "7월 음반원 업데이트 1) 음반 판매량 업데이트"
+   ],
+   "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 7월 음반원 업데이트 1) 음반 판매량 업데이트",
+   "post_url": "https://t.me/daolresearch/14839",
+   "source_url": "https://buly.kr/ChrSBTY"
   }
  ],
  "cross_mentions": [
@@ -28634,14 +28703,21 @@
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.4
+   "burst": 13.3
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.5
+   "burst": 11.4
+  },
+  {
+   "term": "저변",
+   "recent": 6,
+   "total": 8,
+   "sectors": 3,
+   "burst": 7.6
   },
   {
    "term": "배당수익률",
@@ -28662,6 +28738,13 @@
    "recent": 7,
    "total": 13,
    "sectors": 4,
+   "burst": 3.8
+  },
+  {
+   "term": "단일",
+   "recent": 7,
+   "total": 13,
+   "sectors": 5,
    "burst": 3.8
   },
   {
@@ -28700,13 +28783,6 @@
    "burst": 3.4
   },
   {
-   "term": "단일",
-   "recent": 6,
-   "total": 12,
-   "sectors": 5,
-   "burst": 3.3
-  },
-  {
    "term": "마련",
    "recent": 6,
    "total": 12,
@@ -28715,13 +28791,6 @@
   },
   {
    "term": "고부가",
-   "recent": 6,
-   "total": 12,
-   "sectors": 3,
-   "burst": 3.3
-  },
-  {
-   "term": "피지컬",
    "recent": 6,
    "total": 12,
    "sectors": 3,
