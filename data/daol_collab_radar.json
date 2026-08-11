@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-11T14:19:47.665159+00:00",
+ "generated_at": "2026-08-11T23:14:43.428965+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1235,
+ "report_count": 1242,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -27841,6 +27841,160 @@
    "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 7월 음반원 업데이트 1) 음반 판매량 업데이트",
    "post_url": "https://t.me/daolresearch/14839",
    "source_url": "https://buly.kr/ChrSBTY"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-08-12",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "펌텍코리아",
+   "code": "251970",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "특히나, K뷰티 전방 수요가 전 고객군에 고르게 반영되며 관세 밀어내기에 따른 높은 기저 효과에도 두 자릿수 성장을 시현 [펌프] 매출액 881억원(YoY +12%), 영업이익 154억원, OPM 17.5%로 YoY 1.0%p 하락."
+   ],
+   "title": "[펌텍코리아(251970)/ BUY(유지)/ TP 7.6만원(상향)/ 다올 화장품 박종현] ★ 견조 그 자체",
+   "post_url": "https://t.me/daolresearch/14848",
+   "source_url": "https://buly.kr/3NLIY27"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-08-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "CJ제일제당",
+   "code": "097950",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "3Q26 바이오 부문 영업이익은 메치오닌의 실적 기여 축소에 따라 QoQ 소폭 감익을 전망하나, 미국의 중국산 라이신에 대한 반덤핑 관세 부과와 함께 북미 지역 판가 인상 기여가 점차 확대되며 연말로 갈수록 바이오 턴"
+   ],
+   "title": "[CJ제일제당(097950) | BUY(유지) | TP 28만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 하반기 바이오 이익 기여 확대 전망",
+   "post_url": "https://t.me/daolresearch/14851",
+   "source_url": "https://buly.kr/7bJU5fA"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-08-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "CJ제일제당",
+   "code": "097950",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "해외 식품의 경우 비비고 브랜드 광고· 판촉비 증가 및 유가 상승에 따른 물류비 증가 영향이 상존할 전망"
+   ],
+   "title": "[CJ제일제당(097950) | BUY(유지) | TP 28만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 하반기 바이오 이익 기여 확대 전망",
+   "post_url": "https://t.me/daolresearch/14851",
+   "source_url": "https://buly.kr/7bJU5fA"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-12",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "한국타이어앤테크놀로지",
+   "code": "161390",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "YoY 기준 타이어사업 매출액 변동분은 중량(볼륨)이 +2.4%, 판매가격이 +1.9%, 환율효과가 +8.3% 기록"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 한국타이어앤테크놀로지(161390) - 2Q26 Review: 우려가 없는 구간",
+   "post_url": "https://t.me/daolresearch/14855",
+   "source_url": "https://buly.kr/BeMuekL"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "귀금속",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "한편, 터키는 리라 약세로 외환유동성 확보 목적으로, 러시아는 전쟁으로 인한 자금 확보를 위해 금 매도 지속 중."
+   ],
+   "title": "[비철금속(Overweight) 다올 철강/비철금속 이정우] ★ 귀금속 가격 조정 마무리. 반등 시작",
+   "post_url": "https://t.me/daolresearch/14858",
+   "source_url": "https://buly.kr/FhQLDmj"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-08-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "귀금속",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "2026년 은 가격 급등의 원인은 미국의 은 수입 관세 부과 우려로 미국 내 선제적인 은 매입이 확대된"
+   ],
+   "title": "[비철금속(Overweight) 다올 철강/비철금속 이정우] ★ 귀금속 가격 조정 마무리. 반등 시작",
+   "post_url": "https://t.me/daolresearch/14858",
+   "source_url": "https://buly.kr/FhQLDmj"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "귀금속",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "기대인플레이션 안정화 이후 금 가격 반등 시작 미국-이란 전쟁으로 기대인플레이션율이 상승하면서 금 가격 하락시키는 요인으로 작용."
+   ],
+   "title": "[비철금속(Overweight) 다올 철강/비철금속 이정우] ★ 귀금속 가격 조정 마무리. 반등 시작",
+   "post_url": "https://t.me/daolresearch/14858",
+   "source_url": "https://buly.kr/FhQLDmj"
+  },
+  {
+   "theme": "구리/비철금속",
+   "category": "원자재",
+   "date": "2026-08-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "귀금속",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[비철금속(Overweight) 다올 철강/비철금속 이정우]"
+   ],
+   "title": "[비철금속(Overweight) 다올 철강/비철금속 이정우] ★ 귀금속 가격 조정 마무리. 반등 시작",
+   "post_url": "https://t.me/daolresearch/14858",
+   "source_url": "https://buly.kr/FhQLDmj"
+  },
+  {
+   "theme": "금/귀금속",
+   "category": "원자재",
+   "date": "2026-08-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "귀금속",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "2026년 은 가격 급등의 원인은 미국의 은 수입 관세 부과 우려로 미국 내 선제적인 은 매입이 확대된",
+    "기대인플레이션 안정화 이후 금 가격 반등 시작 미국-이란 전쟁으로 기대인플레이션율이 상승하면서 금 가격 하락시키는 요인으로 작용."
+   ],
+   "title": "[비철금속(Overweight) 다올 철강/비철금속 이정우] ★ 귀금속 가격 조정 마무리. 반등 시작",
+   "post_url": "https://t.me/daolresearch/14858",
+   "source_url": "https://buly.kr/FhQLDmj"
   }
  ],
  "cross_mentions": [
@@ -28703,21 +28857,21 @@
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.3
+   "burst": 13.4
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.4
+   "burst": 11.5
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.6
+   "burst": 7.7
   },
   {
    "term": "배당수익률",
@@ -28727,18 +28881,25 @@
    "burst": 6.7
   },
   {
-   "term": "UAE",
-   "recent": 8,
-   "total": 13,
-   "sectors": 3,
-   "burst": 5.1
+   "term": "여력이",
+   "recent": 6,
+   "total": 9,
+   "sectors": 5,
+   "burst": 5.7
   },
   {
    "term": "수율",
-   "recent": 7,
-   "total": 13,
+   "recent": 8,
+   "total": 14,
    "sectors": 4,
-   "burst": 3.8
+   "burst": 4.4
+  },
+  {
+   "term": "점차",
+   "recent": 12,
+   "total": 22,
+   "sectors": 7,
+   "burst": 4.2
   },
   {
    "term": "단일",
@@ -28755,17 +28916,17 @@
    "burst": 3.8
   },
   {
-   "term": "점차",
-   "recent": 11,
-   "total": 21,
-   "sectors": 7,
+   "term": "UAE",
+   "recent": 7,
+   "total": 13,
+   "sectors": 3,
    "burst": 3.8
   },
   {
-   "term": "수익성이",
-   "recent": 8,
-   "total": 15,
-   "sectors": 8,
+   "term": "물류비",
+   "recent": 6,
+   "total": 11,
+   "sectors": 5,
    "burst": 3.8
   },
   {
@@ -28776,6 +28937,13 @@
    "burst": 3.5
   },
   {
+   "term": "일시",
+   "recent": 8,
+   "total": 16,
+   "sectors": 7,
+   "burst": 3.4
+  },
+  {
    "term": "더해",
    "recent": 8,
    "total": 16,
@@ -28783,25 +28951,11 @@
    "burst": 3.4
   },
   {
-   "term": "마련",
-   "recent": 6,
-   "total": 12,
-   "sectors": 7,
-   "burst": 3.3
-  },
-  {
-   "term": "고부가",
-   "recent": 6,
-   "total": 12,
-   "sectors": 3,
-   "burst": 3.3
-  },
-  {
-   "term": "멕시코",
-   "recent": 6,
-   "total": 12,
-   "sectors": 6,
-   "burst": 3.3
+   "term": "남미",
+   "recent": 7,
+   "total": 14,
+   "sectors": 4,
+   "burst": 3.4
   }
  ]
 }
