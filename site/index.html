@@ -277,12 +277,14 @@ function renderRecentReports(){const box=$('#tone-events');if(!box)return;
  const bundledBy={};// 산업자료 id → 그 안에 포함된 기업분석 종목명 (합성 레코드 id = "부모id-b코드")
  for(const c of Object.values(state.tone2?.companies||{}))for(const r of c.timeline)
   if(r.bundled){const pid=String(r.id).split('-b')[0];(bundledBy[pid]=bundledBy[pid]||[]).push(r.company||c.name)}
+ const q=state.toneQ.trim().toLocaleLowerCase();
  const rows=[];const seen=new Set();
  for(const c of Object.values(state.tone2?.companies||{})){
   for(const r of c.timeline){
    if(r.date<from||r.date>to||seen.has(r.id))continue;
    if(state.toneSector&&r.sector!==state.toneSector)continue;
    if(state.toneAnalyst&&r.analyst!==state.toneAnalyst)continue;
+   if(q.length>=2&&!(JSON.stringify(r)+c.name).toLocaleLowerCase().includes(q))continue;
    seen.add(r.id);rows.push({key:c.key,name:c.name,r})}}
  // 같은 날짜 안에서는 id순 — 인뎁스 부모("14559") 바로 뒤에 그 종목 행("14559-b…")들이 붙는다
  rows.sort((a,b)=>b.r.date.localeCompare(a.r.date)||String(a.r.id).localeCompare(String(b.r.id)));
@@ -312,7 +314,7 @@ function renderRecentReports(){const box=$('#tone-events');if(!box)return;
   return `<tr><td class="pub-type-c">${typeCell(r)}</td><td class="pub-date">${mmdd(r.date)}</td><td><button type="button" class="tone-ck pub-co" data-ck="${esc(key)}">${esc(key.startsWith('IND:')?name:(r.company||name))}</button></td><td class="pub-tpc">${tp}</td><td class="pub-rsn">${reasons}</td><td class="pub-earn">${earn}</td><td class="pub-pts">${pts}</td><td class="pub-title"><a href="${esc(r.pdf_url||r.post_url)}" target="_blank" rel="noopener" title="${esc(r.title)}">${esc(pure.slice(0,70))}</a></td><td class="pub-desc">${esc(r.one_line||'')}</td><td class="pub-an">${esc(r.analyst)}</td></tr>`}).join('');
  const presets=[[7,'주간'],[30,'월간'],[90,'분기'],[180,'반기']];
  const rangeBar=`<div class="pub-range"><input type="date" id="rep-from" value="${from}" max="${today}"><span>~</span><input type="date" id="rep-to" value="${to}" max="${today}">${presets.map(([d,l])=>`<button type="button" class="pub-preset${!state.repFrom&&state.repDays===d?' on':''}" data-days="${d}">${l}</button>`).join('')}</div>`;
- const label=state.repFrom?`${mmdd(from)}~${mmdd(to)}`:`${state.repDays||60}일`;
+ const label=(state.repFrom?`${mmdd(from)}~${mmdd(to)}`:`${state.repDays||60}일`)+(q.length>=2?` · '${esc(q)}' 검색`:'');
  box.innerHTML=`<details class="tone-event-wrap" open><summary>📰 최근 발간 보고서 <em>${rows.length}건 · ${label}${rows.length>600?' · 최신 600건 표시':''}${state.repSort?' · 정렬됨':''}</em></summary>${rangeBar}<div class="pub-wrap"><table class="pub-table"><thead><tr><th title="산업 · 기업 · 전략 자료 구분">구분</th><th id="th-r-date" class="th-sort" title="날짜순(기본)">날짜</th><th>기업명</th><th id="th-r-tp" class="th-sort" title="적정주가 변경 우선 정렬">적정주가${ind('tp')}</th><th>적정주가 조정 논리</th><th id="th-r-earn" class="th-sort" title="실적추정 변경 우선">실적 조정${ind('earn')}</th><th id="th-r-pts" class="th-sort" title="투자포인트 변화 우선">투자포인트${ind('pts')}</th><th>리포트 제목</th><th>리포트 설명</th><th>애널리스트</th></tr></thead><tbody>${body}</tbody></table></div></details>`;
  const rf=$('#rep-from'),rt=$('#rep-to');
  const applyRange=()=>{state.repFrom=rf.value;state.repTo=rt.value;renderRecentReports()};
