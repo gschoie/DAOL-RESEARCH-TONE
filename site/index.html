@@ -225,6 +225,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
   <header class="hero">
     <div><h1>애널리스트 톤 보드</h1></div>
     <div class="links">
+      <a id="link-actions" href="https://github.com/gschoie/DAOL-RESEARCH-TONE/actions/workflows/refresh-tone.yml" target="_blank" rel="noopener" hidden>🔄 데이터 갱신 (Actions)</a>
       <a href="https://t.me/s/daolresearch" target="_blank" rel="noopener">✈ 다올리서치 채널</a>
     </div>
   </header>
@@ -500,7 +501,9 @@ document.addEventListener('click',e=>{
   state.rowSort=(!rs||rs.key!==key)?{key,dir:key==='analyst'?1:-1}:(rs.dir===(key==='analyst'?1:-1)?{key,dir:-rs.dir}:null);
   renderTone()}});
 // 대시보드 iframe 안에서는 제목 블록을 숨긴다(대시보드 상단 타이틀과 중복) — 링크만 우측에 유지
-if(window.self!==window.top){const hero=document.querySelector('.hero');if(hero){hero.querySelector('div:first-child').style.display='none';hero.style.cssText+='border-bottom:0;padding-bottom:2px;margin-bottom:6px;justify-content:flex-end'}}
+if(window.self!==window.top){const hero=document.querySelector('.hero');if(hero){hero.querySelector('div:first-child').style.display='none';hero.style.cssText+='border-bottom:0;padding-bottom:2px;margin-bottom:6px;justify-content:flex-end'}
+ // 데이터 갱신 링크는 대시보드(iframe)에서만 노출 — 새창/단독으로 열면 숨김
+ const la=document.getElementById('link-actions');if(la)la.hidden=false}
 loadTone();
 </script>
 </body>
