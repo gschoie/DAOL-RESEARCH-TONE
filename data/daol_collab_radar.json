@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-14T00:00:57.467058+00:00",
+ "generated_at": "2026-08-14T14:15:09.248528+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1253,
+ "report_count": 1255,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28308,6 +28308,75 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 2주차)]",
    "post_url": "https://t.me/daolresearch/14884",
    "source_url": "https://buly.kr/DaRGAqw"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-08-14",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "농심",
+   "code": "004370",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "당 분기 중 환급된 관세(약 80억원 추정) 감안 시 당사 추정치에 부합하는 실적"
+   ],
+   "title": "[농심(004370) | BUY(유지) | 55만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가벼워질 비용, 본격화될 판가 인상 효과",
+   "post_url": "https://t.me/daolresearch/14888",
+   "source_url": "https://buly.kr/CB7CXK4"
+  },
+  {
+   "theme": "K푸드 수출",
+   "category": "미국공략",
+   "date": "2026-08-14",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "농심",
+   "code": "004370",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "[별도] 매출액 YoY +6.4%, 라면 수출 고성장(YoY +28.9%)이 이를 견인."
+   ],
+   "title": "[농심(004370) | BUY(유지) | 55만원(상향) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 가벼워질 비용, 본격화될 판가 인상 효과",
+   "post_url": "https://t.me/daolresearch/14888",
+   "source_url": "https://buly.kr/CB7CXK4"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-14",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "삼양식품",
+   "code": "003230",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "미국·유럽 등 ASP가 높은 지역으로의 출고 확대, 원화 약세 효과가 주효했음."
+   ],
+   "title": "[삼양식품(003230) | BUY(유지) | 190만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 기대치 부합, 다음 주가 동력 확인 필요",
+   "post_url": "https://t.me/daolresearch/14889",
+   "source_url": "https://buly.kr/E7BXKQp"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-08-14",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "삼양식품",
+   "code": "003230",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "[하반기 전망] 7월 관세 인상을 앞두고 미국 내 선제 비축한 재고가 출고되고 있고, 중국 법인 내 부족했던 재고 보충도 이뤄지고 있어 3분기 연결 매출액은 QoQ +6.0%의 안정적 성장 추이 이어갈 전망.",
+    "• [하반기 전망] 7월 관세 인상을 앞두고 미국 내 선제 비축한 재고가 출고되고 QoQ +6.0%의 안정적 성장 추이 이어갈 전망."
+   ],
+   "title": "[삼양식품(003230) | BUY(유지) | 190만원(유지) | 다올 음식료/통신 이다연] ★ 2Q26 Review: 기대치 부합, 다음 주가 동력 확인 필요",
+   "post_url": "https://t.me/daolresearch/14889",
+   "source_url": "https://buly.kr/E7BXKQp"
   }
  ],
  "cross_mentions": [
@@ -29167,31 +29236,31 @@
  "candidates": [
   {
    "term": "통신",
-   "recent": 14,
-   "total": 15,
+   "recent": 16,
+   "total": 17,
    "sectors": 3,
-   "burst": 26.9
+   "burst": 30.5
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.4
+   "burst": 13.3
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.5
+   "burst": 11.4
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.7
+   "burst": 7.6
   },
   {
    "term": "배당수익률",
