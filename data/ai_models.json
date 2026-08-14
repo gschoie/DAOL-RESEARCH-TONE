@@ -25,6 +25,7 @@
  "models/gemini-3.5-flash-lite",
  "models/gemini-3.6-flash",
  "models/gemini-3.7-flash",
+ "models/gemini-3.7-flash-video-understanding-eap",
  "models/gemini-flash-latest",
  "models/gemini-flash-lite-latest",
  "models/gemini-omni-flash-preview",
