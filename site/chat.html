@@ -19,6 +19,18 @@
   #settings button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
   #keyhint { font-size:11px; color:var(--sub); padding:0 20px 6px; }
   #keyhint a { color:var(--accent); }
+  #setup { padding:0 20px 4px; }
+  #setup > summary { cursor:pointer; font-size:12px; color:var(--sub); padding:2px 0 6px; list-style:none; }
+  #setup > summary::before { content:'▸ '; }
+  #setup[open] > summary::before { content:'▾ '; }
+  #setup #settings, #setup #keyhint { padding-left:0; padding-right:0; }
+  #pastlog { margin:2px 0 4px; max-width:100%; }
+  #pastlog > summary { cursor:pointer; font-size:12px; color:var(--sub); padding:4px 0; list-style:none; }
+  #pastlog > summary::before { content:'▸ '; }
+  #pastlog[open] > summary::before { content:'▾ '; }
+  #pastlog-body { display:flex; flex-direction:column; gap:8px; padding:4px 0 6px; opacity:.85; }
+  #pastlog-body .msg { font-size:13px; }
+  #clearlog { align-self:flex-start; background:var(--panel); color:var(--sub); border:1px solid var(--line); font-size:11px; padding:4px 8px; border-radius:8px; cursor:pointer; }
   #chat { flex:1; overflow-y:auto; padding:8px 20px; display:flex; flex-direction:column; gap:10px; }
   .msg { max-width:88%; padding:10px 14px; border-radius:12px; font-size:14px; line-height:1.65; white-space:pre-wrap; word-break:break-word; }
   .msg.user { align-self:flex-end; background:var(--user); color:#fff; border-bottom-right-radius:4px; }
@@ -39,19 +51,22 @@
   <h1>다올 리서치 톤 챗봇</h1>
   <a class="home" href="./index.html">← 톤 보드</a>
 </header>
-<div id="settings">
-  <input id="apikey" type="password" placeholder="API 키 — 이 브라우저에만 저장됩니다" autocomplete="off">
-  <select id="model">
-    <option value="gemini-flash-lite-latest">Gemini Flash-Lite (무료·기본)</option>
-    <option value="gemini-flash-latest">Gemini Flash (무료·품질↑ 한도↓)</option>
-    <option value="claude-opus-5">Claude Opus 5 (유료·최고품질)</option>
-    <option value="claude-sonnet-5">Claude Sonnet 5 (유료·절약)</option>
-    <option value="claude-haiku-4-5">Claude Haiku 4.5 (유료·최저가)</option>
-  </select>
-  <button id="savekey" class="primary" type="button">저장</button>
-  <button id="clearkey" type="button">키 삭제</button>
-</div>
-<div id="keyhint">Gemini 무료 키: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> (카드 불필요) · Claude 키: <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a> · 서버 없이 브라우저에서 직접 호출</div>
+<details id="setup">
+  <summary>⚙️ 설정 — 모델·API 키</summary>
+  <div id="settings">
+    <input id="apikey" type="password" placeholder="API 키 — 이 브라우저에만 저장됩니다" autocomplete="off">
+    <select id="model">
+      <option value="gemini-flash-lite-latest">Gemini Flash-Lite (무료·기본)</option>
+      <option value="gemini-flash-latest">Gemini Flash (무료·품질↑ 한도↓)</option>
+      <option value="claude-opus-5">Claude Opus 5 (유료·최고품질)</option>
+      <option value="claude-sonnet-5">Claude Sonnet 5 (유료·절약)</option>
+      <option value="claude-haiku-4-5">Claude Haiku 4.5 (유료·최저가)</option>
+    </select>
+    <button id="savekey" class="primary" type="button">저장</button>
+    <button id="clearkey" type="button">키 삭제</button>
+  </div>
+  <div id="keyhint">Gemini 무료 키: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> (카드 불필요) · Claude 키: <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a> · 서버 없이 브라우저에서 직접 호출</div>
+</details>
 <div id="chat"></div>
 <div class="hints">
   <button type="button">오늘 뭐 바뀌었어?</button>
@@ -85,9 +100,21 @@ function syncKeyInput() {
 }
 $('model').value = localStorage.getItem(LS_MODEL) || 'gemini-flash-lite-latest';
 syncKeyInput();
-$('savekey').onclick = () => { localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
-$('model').onchange = () => { localStorage.setItem(LS_MODEL, $('model').value); syncKeyInput(); };
+// 키가 이미 저장돼 있으면 설정을 접어둔다 — 필요할 때 ⚙️로 다시 연다.
+$('setup').open = !($('apikey').value || '').trim();
+$('savekey').onclick = () => { localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); $('setup').open = false; bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
+$('model').onchange = () => { localStorage.setItem(LS_MODEL, $('model').value); syncKeyInput(); if (!($('apikey').value || '').trim()) $('setup').open = true; };
 $('clearkey').onclick = () => { localStorage.removeItem(PROVIDERS[currentProvider()].ls); $('apikey').value = ''; bubble('status', '현재 공급자의 키를 삭제했습니다.'); };
+
+/* ============ 대화 로그 (localStorage 보존) ============ */
+const LS_LOG = 'daol_chat_log', MAX_LOG = 200;
+function loadLog() { try { return JSON.parse(localStorage.getItem(LS_LOG)) || []; } catch (e) { return []; } }
+function saveTurn(role, text) {
+  const log = loadLog();
+  log.push({ role, text, ts: Date.now() });
+  while (log.length > MAX_LOG) log.shift();
+  try { localStorage.setItem(LS_LOG, JSON.stringify(log)); } catch (e) { /* 저장공간 초과 시 로그 없이 진행 */ }
+}
 
 /* ============ 데이터 로더 (같은 사이트의 JSON, 메모리 캐시) ============ */
 const dataCache = new Map();
@@ -574,6 +601,8 @@ async function answer(question) {
   try {
     const reply = await (currentProvider() === 'gemini' ? answerGemini() : answerAnthropic());
     textHistory.push({ role: 'assistant', text: reply });
+    saveTurn('user', question);
+    saveTurn('assistant', reply);
     return reply;
   } catch (err) {
     textHistory.pop(); // 실패한 질문은 이력에서 제거
@@ -625,6 +654,34 @@ form.addEventListener('submit', (e) => {
 });
 document.querySelectorAll('.hints button').forEach(b =>
   b.addEventListener('click', () => { if (!send.disabled) ask(b.textContent); }));
+
+/* 지난 대화: 접힌 로그로 보여주고, 이어서 대화할 수 있게 문맥도 복원 */
+(function renderPastLog() {
+  const log = loadLog();
+  if (!log.length) return;
+  textHistory.push(...log.slice(-MAX_HISTORY_TURNS).map(({ role, text }) => ({ role, text })));
+  const det = document.createElement('details');
+  det.id = 'pastlog';
+  const sum = document.createElement('summary');
+  sum.textContent = `지난 대화 ${Math.ceil(log.length / 2)}건 보기 — 이어서 질문할 수 있습니다`;
+  det.appendChild(sum);
+  const body = document.createElement('div');
+  body.id = 'pastlog-body';
+  for (const t of log) {
+    const div = document.createElement('div');
+    div.className = 'msg ' + (t.role === 'user' ? 'user' : 'assistant');
+    div.textContent = t.text;
+    body.appendChild(div);
+  }
+  const clr = document.createElement('button');
+  clr.id = 'clearlog';
+  clr.type = 'button';
+  clr.textContent = '지난 대화 지우기';
+  clr.onclick = () => { localStorage.removeItem(LS_LOG); det.remove(); textHistory.length = 0; };
+  body.appendChild(clr);
+  det.appendChild(body);
+  chat.appendChild(det);
+})();
 
 if (location.protocol === 'file:') bubble('error', '이 페이지는 웹 서버에서 열어야 데이터 JSON을 읽을 수 있습니다. https://gschoie.github.io/DAOL-RESEARCH-TONE/chat.html 로 접속하세요.');
 if (!($('apikey').value || '').trim()) bubble('status', 'API 키를 입력·저장한 뒤 질문하세요. Gemini 키는 aistudio.google.com/apikey에서 카드 등록 없이 무료로 받을 수 있습니다. 키는 이 브라우저에만 저장됩니다.');
