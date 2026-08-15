@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>다올 리서치 톤 챗봇</title>
+<style>
+  :root { --bg:#f6f4ef; --panel:#fff; --ink:#1d1d1f; --sub:#6b6b70; --accent:#0f4c81; --user:#0f4c81; --line:#d8d4cb; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:'Pretendard','Apple SD Gothic Neo','Malgun Gothic',sans-serif; background:var(--bg); color:var(--ink);
+         display:flex; flex-direction:column; height:100vh; height:100dvh; max-width:820px; margin:0 auto; }
+  header { padding:14px 20px 8px; display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap; }
+  header h1 { font-size:17px; }
+  header .home { font-size:12px; color:var(--accent); text-decoration:none; }
+  header .home:hover { text-decoration:underline; }
+  #settings { display:flex; gap:6px; padding:0 20px 8px; align-items:center; flex-wrap:wrap; font-size:12px; }
+  #settings input { flex:1; min-width:180px; padding:8px 10px; border:1px solid var(--line); border-radius:8px; font-size:12px; background:var(--panel); }
+  #settings select, #settings button { padding:8px 10px; border:1px solid var(--line); border-radius:8px; font-size:12px; background:var(--panel); color:var(--ink); cursor:pointer; }
+  #settings button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  #keyhint { font-size:11px; color:var(--sub); padding:0 20px 6px; }
+  #keyhint a { color:var(--accent); }
+  #chat { flex:1; overflow-y:auto; padding:8px 20px; display:flex; flex-direction:column; gap:10px; }
+  .msg { max-width:88%; padding:10px 14px; border-radius:12px; font-size:14px; line-height:1.65; white-space:pre-wrap; word-break:break-word; }
+  .msg.user { align-self:flex-end; background:var(--user); color:#fff; border-bottom-right-radius:4px; }
+  .msg.assistant { align-self:flex-start; background:var(--panel); border:1px solid #e5e2da; border-bottom-left-radius:4px; }
+  .msg.error { align-self:flex-start; background:#fdeaea; border:1px solid #f2c3c3; color:#8a1f1f; }
+  .msg.status { align-self:flex-start; background:transparent; border:0; color:var(--sub); font-size:12px; font-style:italic; padding:0 4px; }
+  .hints { display:flex; flex-wrap:wrap; gap:6px; padding:0 20px 6px; }
+  .hints button { background:var(--panel); color:var(--accent); border:1px solid var(--line); font-size:12px; padding:6px 10px; border-radius:8px; cursor:pointer; }
+  form { display:flex; gap:8px; padding:10px 20px 16px; }
+  #input { flex:1; padding:12px 14px; border:1px solid var(--line); border-radius:10px; font-size:14px; background:var(--panel); }
+  #input:focus { outline:2px solid var(--accent); border-color:transparent; }
+  #send { padding:12px 18px; border:0; border-radius:10px; background:var(--accent); color:#fff; font-size:14px; cursor:pointer; }
+  #send:disabled { opacity:.5; cursor:default; }
+</style>
+</head>
+<body>
+<header>
+  <h1>다올 리서치 톤 챗봇</h1>
+  <a class="home" href="./index.html">← 톤 보드</a>
+</header>
+<div id="settings">
+  <input id="apikey" type="password" placeholder="Anthropic API 키 (sk-ant-…) — 이 브라우저에만 저장됩니다" autocomplete="off">
+  <select id="model">
+    <option value="claude-opus-5">Opus 5 (기본·똑똑)</option>
+    <option value="claude-sonnet-5">Sonnet 5 (절약)</option>
+    <option value="claude-haiku-4-5">Haiku 4.5 (최저가)</option>
+  </select>
+  <button id="savekey" class="primary" type="button">저장</button>
+  <button id="clearkey" type="button">키 삭제</button>
+</div>
+<div id="keyhint">키는 <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>에서 발급 · 서버 없이 브라우저→Anthropic 직접 호출 · 데이터는 이 사이트의 공개 JSON</div>
+<div id="chat"></div>
+<div class="hints">
+  <button type="button">오늘 뭐 바뀌었어?</button>
+  <button type="button">최광식 조선 톤 요즘 어때?</button>
+  <button type="button">삼양식품 다올 뷰?</button>
+  <button type="button">HBM 언급한 리포트 찾아줘</button>
+</div>
+<form id="form">
+  <input id="input" placeholder="질문을 입력하세요" autocomplete="off" autofocus>
+  <button id="send" type="submit">전송</button>
+</form>
+
+<script>
+'use strict';
+/* ============ 설정 (localStorage) ============ */
+const $ = (id) => document.getElementById(id);
+const LS_KEY = 'daol_chat_api_key', LS_MODEL = 'daol_chat_model';
+$('apikey').value = localStorage.getItem(LS_KEY) || '';
+$('model').value = localStorage.getItem(LS_MODEL) || 'claude-opus-5';
+$('savekey').onclick = () => { localStorage.setItem(LS_KEY, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
+$('model').onchange = () => localStorage.setItem(LS_MODEL, $('model').value);
+$('clearkey').onclick = () => { localStorage.removeItem(LS_KEY); $('apikey').value = ''; bubble('status', '키를 삭제했습니다.'); };
+
+/* ============ 데이터 로더 (같은 사이트의 JSON, 메모리 캐시) ============ */
+const dataCache = new Map();
+function loadJson(name, label) {
+  if (!dataCache.has(name)) {
+    dataCache.set(name, (async () => {
+      const note = label ? bubble('status', `${label} 로딩 중…`) : null;
+      try {
+        const res = await fetch('./' + name, { cache: 'no-cache' });
+        if (!res.ok) throw new Error(`${name} HTTP ${res.status}`);
+        return await res.json();
+      } finally { if (note) note.remove(); }
+    })().catch(err => { dataCache.delete(name); throw err; }));
+  }
+  return dataCache.get(name);
+}
+
+/* ============ 조회 로직 (chatbot/tools.py·fulltext.py 포팅) ============ */
+const MAX_TIMELINE = 12, MAX_STREET = 20, MAX_REPORTS = 10, MAX_RESULT_CHARS = 12000;
+const MAX_FT_RESULTS = 8, SNIPPET_RADIUS = 140, MAX_SNIPPETS = 3, MAX_FULLTEXT_CHARS = 9000;
+const CARD_FIELDS = ['id','date','analyst','sector','company','code','report_type','title',
+                     'opinion','conviction','tone_label','one_line','points','post_url','source_url'];
+
+const timelineOf = (e) => Array.isArray(e) ? e : (e && typeof e === 'object'
+  ? (['timeline','reports','items','history'].map(k => e[k]).find(Array.isArray) || []) : []);
+const nameOf = (e) => (e && typeof e === 'object'
+  ? (['name','company','company_name'].map(k => e[k]).find(v => typeof v === 'string') || '') : '');
+
+function resolveCompany(query, tone) {
+  const companies = tone.companies || {};
+  if (companies[query]) return [query, companies[query]];
+  const q = query.trim().toLowerCase();
+  if (!q) return null;
+  for (const [code, entry] of Object.entries(companies)) {
+    if (code.startsWith('IND:')) continue;
+    if (code.toLowerCase().includes(q) || nameOf(entry).toLowerCase().includes(q)
+        || timelineOf(entry).slice(0, 5).some(it => String(it?.title || '').toLowerCase().includes(q)))
+      return [code, entry];
+  }
+  return null;
+}
+
+function companyView(query, tone) {
+  const hit = resolveCompany(query, tone);
+  if (!hit) return { error: `'${query}'에 해당하는 다올 커버 종목을 찾지 못했습니다. 미커버 종목이면 search_street 도구를 사용하세요.` };
+  const [code, entry] = hit;
+  const street = (tone.street && tone.street[code]) ?? (entry && entry.street) ?? null;
+  return { code, name: nameOf(entry) || null,
+           timeline_recent: timelineOf(entry).slice(-MAX_TIMELINE), street_position: street };
+}
+
+function sectorTone(sectorQuery, tone) {
+  const q = sectorQuery.trim().toLowerCase();
+  const result = { sector_rows: [], industry_timeline_recent: [] };
+  const sectors = tone.sectors;
+  const rows = Array.isArray(sectors) ? sectors : (sectors && typeof sectors === 'object' ? Object.values(sectors) : []);
+  for (const row of rows) if (JSON.stringify(row).toLowerCase().includes(q)) result.sector_rows.push(row);
+  const companies = tone.companies || {};
+  for (const [code, entry] of Object.entries(companies)) {
+    if (code.startsWith('IND:') && code.toLowerCase().includes(q)) {
+      result.industry_timeline_recent = timelineOf(entry).slice(-MAX_TIMELINE);
+      result.industry_key = code;
+      break;
+    }
+  }
+  if (!result.sector_rows.length && !result.industry_timeline_recent.length) {
+    result.error = `'${sectorQuery}' 섹터를 찾지 못했습니다.`;
+    result.available_industries = Object.keys(companies).filter(c => c.startsWith('IND:'));
+  }
+  return result;
+}
+
+function* iterAllReports(tone) {
+  const seen = new Set();
+  for (const entry of Object.values(tone.companies || {})) {
+    for (const item of timelineOf(entry)) {
+      if (!item || typeof item !== 'object') continue;
+      const key = item.id || item.post_url;
+      if (key && seen.has(key)) continue;
+      if (key) seen.add(key);
+      yield item;
+    }
+  }
+}
+
+function searchReports(query, tone, { analyst = '', sector = '', date_from = '', date_to = '' } = {}) {
+  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+  const matches = [];
+  for (const item of iterAllReports(tone)) {
+    if (analyst && !String(item.analyst || '').includes(analyst.trim())) continue;
+    if (sector && !String(item.sector || '').includes(sector.trim())) continue;
+    const date = String(item.date || '');
+    if (date_from && date && date < date_from) continue;
+    if (date_to && date && date > date_to) continue;
+    if (terms.length) {
+      const hay = [item.title, item.one_line, (item.points || []).join(' '),
+                   item.company, item.analyst, item.sector].map(v => String(v ?? '')).join(' ').toLowerCase();
+      if (!terms.every(t => hay.includes(t))) continue;
+    }
+    matches.push(item);
+  }
+  if (!matches.length) return { error: `조건(query='${query}', analyst='${analyst}', sector='${sector}')에 맞는 리포트가 없습니다.` };
+  matches.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+  return { total_matches: matches.length,
+           results: matches.slice(0, MAX_REPORTS).map(r => Object.fromEntries(CARD_FIELDS.filter(k => k in r).map(k => [k, r[k]]))) };
+}
+
+function streetSearch(query, ked) {
+  const q = query.trim().toLowerCase();
+  let rows = [];
+  if (Array.isArray(ked)) rows = ked;
+  else if (ked && typeof ked === 'object')
+    for (const v of Object.values(ked)) Array.isArray(v) ? rows.push(...v) : (v && typeof v === 'object' && rows.push(v));
+  const matches = rows.filter(r => r && typeof r === 'object' && JSON.stringify(r).toLowerCase().includes(q));
+  if (!matches.length) return { error: `타사 리포트(120일)에서 '${query}'를 찾지 못했습니다.` };
+  return { matches: matches.slice(0, MAX_STREET), total_matches: matches.length };
+}
+
+/* --- PDF 원문 검색 --- */
+let metaIndexPromise = null;
+function buildMetaIndex(tone, messages) {
+  const index = new Map();
+  for (const entry of Object.values(tone.companies || {})) {
+    for (const item of timelineOf(entry)) {
+      const src = item?.source_url;
+      if (!src || index.has(src)) continue;
+      index.set(src, { id: item.id, date: item.date, title: item.title, analyst: item.analyst,
+                       sector: item.sector, company: item.company, code: item.code, post_url: item.post_url });
+    }
+  }
+  for (const msg of messages || []) {
+    for (const link of msg?.links || []) {
+      if (link && !index.has(link))
+        index.set(link, { id: String(msg.id ?? ''), date: String(msg.date || '').slice(0, 10),
+                          title: String(msg.text || '').slice(0, 90), post_url: msg.post_url });
+    }
+  }
+  return index;
+}
+async function getMetaIndex() {
+  if (!metaIndexPromise) metaIndexPromise = (async () => {
+    const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
+    let messages = [];
+    try { messages = await loadJson('daol_messages.json', '메시지 메타(6MB)'); } catch (e) { /* 폴백 메타 없이 진행 */ }
+    return buildMetaIndex(tone, messages);
+  })().catch(e => { metaIndexPromise = null; throw e; });
+  return metaIndexPromise;
+}
+const entryText = (e) => (e && typeof e === 'object' && typeof e.text === 'string') ? e.text : '';
+
+function snippetsOf(text, terms) {
+  const lower = text.toLowerCase();
+  const spans = [];
+  outer: for (const term of terms) {
+    let start = 0;
+    while (spans.length < MAX_SNIPPETS) {
+      const pos = lower.indexOf(term, start);
+      if (pos < 0) break;
+      const lo = Math.max(0, pos - SNIPPET_RADIUS), hi = Math.min(text.length, pos + term.length + SNIPPET_RADIUS);
+      start = pos + term.length;
+      if (spans.some(([slo, shi]) => lo < shi && hi > slo)) continue;
+      spans.push([lo, hi]);
+    }
+    if (spans.length >= MAX_SNIPPETS) break outer;
+  }
+  spans.sort((a, b) => a[0] - b[0]);
+  return spans.map(([lo, hi]) => '…' + text.slice(lo, hi).split(/\s+/).join(' ') + '…');
+}
+
+async function searchFulltext(query, { analyst = '', sector = '' } = {}) {
+  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return { error: '검색어가 비어 있습니다.' };
+  const [pdf, index] = await Promise.all([loadJson('daol_pdf_text_cache.json', 'PDF 원문(14MB)'), getMetaIndex()]);
+  const scored = [];
+  for (const [src, entry] of Object.entries(pdf)) {
+    const text = entryText(entry);
+    if (!text) continue;
+    const meta = index.get(src) || {};
+    if (analyst && !String(meta.analyst || '').includes(analyst.trim())) continue;
+    if (sector && !String(meta.sector || '').includes(sector.trim())) continue;
+    const lower = text.toLowerCase();
+    let score = 0, miss = false;
+    for (const t of terms) {
+      let c = 0, p = -1;
+      while ((p = lower.indexOf(t, p + 1)) >= 0) c++;
+      if (!c) { miss = true; break; }
+      score += c;
+    }
+    if (miss) continue;
+    scored.push({ score, src, meta, text });
+  }
+  if (!scored.length) return { error: `원문 1,200여 건에서 '${query}'를 찾지 못했습니다. 검색어를 줄이거나 바꿔 보세요.` };
+  scored.sort((a, b) => b.score - a.score || String(b.meta.date || '').localeCompare(String(a.meta.date || '')));
+  return { total_matches: scored.length,
+           results: scored.slice(0, MAX_FT_RESULTS).map(({ score, src, meta, text }) =>
+             ({ ...meta, source_url: src, match_count: score, snippets: snippetsOf(text, terms) })) };
+}
+
+async function getFulltext(ref, around = '') {
+  const [pdf, index] = await Promise.all([loadJson('daol_pdf_text_cache.json', 'PDF 원문(14MB)'), getMetaIndex()]);
+  let src = null, meta = {};
+  if (ref in pdf) { src = ref; meta = index.get(ref) || {}; }
+  else for (const [url, m] of index) if (String(m.id) === String(ref) && url in pdf) { src = url; meta = m; break; }
+  if (!src) return { error: `'${ref}'에 해당하는 원문을 찾지 못했습니다. search_report_fulltext로 먼저 검색하세요.` };
+  const text = entryText(pdf[src]);
+  if (!text) return { error: '이 리포트는 원문 텍스트가 없습니다(수집 실패 또는 이미지 PDF).' };
+  if (around) {
+    const pos = text.toLowerCase().indexOf(around.toLowerCase());
+    if (pos >= 0) {
+      const lo = Math.max(0, pos - Math.floor(MAX_FULLTEXT_CHARS / 2));
+      const excerpt = text.slice(lo, lo + MAX_FULLTEXT_CHARS);
+      return { ...meta, source_url: src, around, text: excerpt, truncated: text.length > excerpt.length };
+    }
+  }
+  return { ...meta, source_url: src, text: text.slice(0, MAX_FULLTEXT_CHARS), truncated: text.length > MAX_FULLTEXT_CHARS };
+}
+
+function serialize(result) {
+  let text = JSON.stringify(result);
+  if (text.length > MAX_RESULT_CHARS) text = text.slice(0, MAX_RESULT_CHARS) + '… (이하 생략: 결과가 잘렸습니다. 더 구체적으로 조회하세요.)';
+  return text;
+}
+
+/* ============ 도구 정의 + 실행 ============ */
+const TOOLS = [
+  { name: 'get_today_briefing',
+    description: '오늘의 브리핑을 가져온다. 최신 다올 리포트 20건, 최근 변화 이벤트 20건(TP/의견/실적/톤이례, 사후수익률 ret5/ret20 포함), 전체 카운트. "오늘 뭐 바뀌었어?" 류 질문에 사용.',
+    input_schema: { type: 'object', properties: {}, additionalProperties: false } },
+  { name: 'get_company_view',
+    description: '다올 커버 종목 하나의 뷰: 리포트 타임라인 최근 카드(의견/확신도/톤/TP 이벤트/투자포인트/컨센 대비 추정치)와 타사 대비 포지션(street). 종목을 찾지 못하면 search_street를 안내한다.',
+    input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명(예: "삼양식품") 또는 6자리 종목코드(예: "003230")' } }, required: ['company'], additionalProperties: false } },
+  { name: 'get_sector_tone',
+    description: '섹터(산업)의 다올 톤: 애널리스트별 최근 톤·평소 베이스라인·6개월 카운트(sectors)와 해당 산업(IND:섹터) 리포트 타임라인 최근 카드. "조선 톤 요즘 어때?" 류 질문에 사용.',
+    input_schema: { type: 'object', properties: { sector: { type: 'string', description: '섹터명(예: "조선", "방산", "음식료")' } }, required: ['sector'], additionalProperties: false } },
+  { name: 'search_reports',
+    description: '다올 리포트 1,200여 건의 메타데이터(제목/한줄요약/투자포인트/기업/애널리스트)를 검색한다. "HBM 언급한 리포트?", "박영도 최근 리포트?" 류 질문에 사용. 결과의 id/source_url은 get_report_fulltext에 넘길 수 있다.',
+    input_schema: { type: 'object', properties: {
+      query: { type: 'string', description: '공백 구분 키워드(AND). 비우면 필터만으로 최신순 목록' },
+      analyst: { type: 'string', description: '애널리스트 이름 필터(예: "최광식")' },
+      sector: { type: 'string', description: '섹터 필터(예: "조선")' },
+      date_from: { type: 'string', description: '시작일 YYYY-MM-DD (포함)' },
+      date_to: { type: 'string', description: '종료일 YYYY-MM-DD (포함)' } }, additionalProperties: false } },
+  { name: 'search_report_fulltext',
+    description: '리포트 PDF 원문 1,200여 건에서 키워드를 검색해 매칭 리포트의 메타와 원문 스니펫(문장 인용)을 돌려준다. 요약 필드에 없는 구체 수치·표현·근거를 원문에서 확인할 때 사용.',
+    input_schema: { type: 'object', properties: {
+      query: { type: 'string', description: '공백 구분 키워드(AND). 예: "수주잔고 슬롯"' },
+      analyst: { type: 'string', description: '애널리스트 이름 필터(선택)' },
+      sector: { type: 'string', description: '섹터 필터(선택)' } }, required: ['query'], additionalProperties: false } },
+  { name: 'get_report_fulltext',
+    description: '리포트 한 건의 PDF 원문을 길게 가져온다(최대 9,000자). ref는 search_reports/search_report_fulltext 결과의 id 또는 source_url. around에 키워드를 주면 그 주변 구간을 돌려준다.',
+    input_schema: { type: 'object', properties: {
+      ref: { type: 'string', description: '리포트 id(예: "14439") 또는 source_url(단축링크)' },
+      around: { type: 'string', description: '이 키워드 주변 구간을 볼 때 지정(선택)' } }, required: ['ref'], additionalProperties: false } },
+  { name: 'search_street',
+    description: '전시장 타사 증권사 리포트(최근 120일, 2,100여 건)에서 종목을 검색한다. 다올이 커버하지 않는 종목 질문에 사용. 증권사/TP 변경/의견/제목/요약 불릿 포함.',
+    input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명(예: "에코프로")' } }, required: ['company'], additionalProperties: false } },
+];
+
+async function runTool(name, input) {
+  switch (name) {
+    case 'get_today_briefing': return serialize(await loadJson('tone_summary.json'));
+    case 'get_company_view': return serialize(companyView(input.company || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)')));
+    case 'get_sector_tone': return serialize(sectorTone(input.sector || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)')));
+    case 'search_reports': return serialize(searchReports(input.query || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
+    case 'search_report_fulltext': return serialize(await searchFulltext(input.query || '', input));
+    case 'get_report_fulltext': return serialize(await getFulltext(input.ref || '', input.around || ''));
+    case 'search_street': return serialize(streetSearch(input.company || '', await loadJson('ked_street.json')));
+    default: return serialize({ error: `알 수 없는 도구: ${name}` });
+  }
+}
+
+/* ============ Anthropic API (브라우저 직접 호출 + 도구 루프) ============ */
+const SYSTEM_PROMPT = `당신은 "다올 리서치 톤" 챗봇입니다. 다올투자증권 리서치(텔레그램 채널, 2025-05-28~)의 리포트 1,200여 건을 구조화한 데이터와 리포트 PDF 원문에 근거해, 애널리스트가 기업/산업을 보는 뷰·톤과 그 변화를 답합니다.
+
+[신뢰 원칙 — 반드시 준수]
+1. 도구로 조회한 데이터에 있는 사실만 말합니다. 데이터에 없는 값은 절대 지어내지 않고 "데이터에 없음"이라고 답합니다.
+2. 근거는 리포트 원문 표현(one_line, 강한/헤징/부정 문구, 투자포인트, PDF 원문 스니펫)을 인용합니다.
+3. 의견 어휘는 통일되어 있습니다 — 기업: BUY/HOLD/REDUCE, 산업: 비중확대/중립/비중축소. 위클리 자료에는 투자의견이 없으므로 의견을 추정하지 않습니다.
+4. 목표주가(TP)는 tp_event의 value/prior/direction/reasons(실적추정·멀티플·방법론·시점롤포워드)를 그대로 사용합니다.
+5. 리포트를 인용할 때는 날짜·애널리스트·제목을 함께 밝힙니다.
+
+[서술 톤 — 다올 리서치 스타일]
+- 두괄식: 결론(뷰/의견/TP)을 첫 문장에 제시합니다.
+- 숫자 중심: TP, 컨센 대비 %(est_compare), 이벤트 사후수익률(ret5/ret20) 등 수치를 명시합니다.
+- "~로 판단", "~를 반영해 TP를 XX원으로 상향" 같은 리서치 관용 표현을 사용합니다.
+- 간결하게, 질문에 필요한 범위만 답합니다.
+
+[도구 선택 가이드]
+- 오늘/최근 변화 → get_today_briefing · 특정 기업 → get_company_view · 섹터/애널 톤 → get_sector_tone
+- 주제/키워드로 리포트 찾기 → search_reports · 원문 표현/수치 확인 → search_report_fulltext, get_report_fulltext
+- 다올 미커버 종목 → search_street
+답하기 전에 반드시 관련 도구를 호출해 데이터를 확인하세요. 구조화 필드(요약)와 원문이 다르면 원문을 우선합니다.`;
+
+const MAX_TOOL_ROUNDS = 8;
+
+async function callApi(messages) {
+  const key = ($('apikey').value || '').trim();
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+      'x-api-key': key,
+      'anthropic-version': '2023-06-01',
+      'anthropic-dangerous-direct-browser-access': 'true',
+    },
+    body: JSON.stringify({
+      model: $('model').value,
+      max_tokens: 16000,
+      system: [{ type: 'text', text: SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }],
+      tools: TOOLS,
+      messages,
+    }),
+  });
+  if (!res.ok) {
+    let detail = '';
+    try { detail = (await res.json()).error?.message || ''; } catch (e) {}
+    if (res.status === 401) throw new Error('API 키가 유효하지 않습니다. 키를 확인해 주세요.');
+    if (res.status === 429) throw new Error('요청 한도(rate limit)에 걸렸습니다. 잠시 후 다시 시도해 주세요.');
+    throw new Error(`API 오류 (HTTP ${res.status}) ${detail}`.trim());
+  }
+  return res.json();
+}
+
+const history = []; // API 형식 그대로 (tool_use/tool_result 블록 포함)
+
+async function answer(question) {
+  history.push({ role: 'user', content: question });
+  for (let round = 0; round <= MAX_TOOL_ROUNDS; round++) {
+    const response = await callApi(history);
+    if (response.stop_reason === 'refusal') {
+      history.pop();
+      return '요청을 처리할 수 없습니다. 질문을 바꿔서 다시 시도해 주세요.';
+    }
+    history.push({ role: 'assistant', content: response.content });
+    const toolUses = response.content.filter(b => b.type === 'tool_use');
+    if (!toolUses.length || round === MAX_TOOL_ROUNDS) {
+      const text = response.content.filter(b => b.type === 'text').map(b => b.text).join('');
+      return text || '답변을 생성하지 못했습니다. 다시 시도해 주세요.';
+    }
+    const results = [];
+    for (const tu of toolUses) {
+      const note = bubble('status', `조회: ${tu.name}(${JSON.stringify(tu.input).slice(0, 80)})`);
+      let content, isError = false;
+      try { content = await runTool(tu.name, tu.input || {}); }
+      catch (err) { content = `도구 실행 오류: ${err.message}`; isError = true; }
+      note.remove();
+      results.push({ type: 'tool_result', tool_use_id: tu.id, content, is_error: isError });
+    }
+    history.push({ role: 'user', content: results });
+  }
+}
+
+/* ============ UI ============ */
+const chat = $('chat'), form = $('form'), input = $('input'), send = $('send');
+function bubble(cls, text) {
+  const div = document.createElement('div');
+  div.className = 'msg ' + cls;
+  div.textContent = text;
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+  return div;
+}
+
+async function ask(question) {
+  if (!($('apikey').value || '').trim()) { bubble('error', '먼저 위에 Anthropic API 키를 입력하고 저장해 주세요.'); return; }
+  localStorage.setItem(LS_KEY, $('apikey').value.trim());
+  bubble('user', question);
+  input.value = '';
+  send.disabled = true;
+  const pending = bubble('assistant status', '생각 중…');
+  try {
+    const reply = await answer(question);
+    pending.remove();
+    bubble('assistant', reply);
+  } catch (err) {
+    pending.remove();
+    bubble('error', err.message || '오류가 발생했습니다.');
+    // 실패한 턴은 이력에서 제거(마지막이 user 질문이면)
+    if (history.length && history[history.length - 1].role === 'user'
+        && typeof history[history.length - 1].content === 'string') history.pop();
+  } finally {
+    send.disabled = false;
+    input.focus();
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const q = input.value.trim();
+  if (q && !send.disabled) ask(q);
+});
+document.querySelectorAll('.hints button').forEach(b =>
+  b.addEventListener('click', () => { if (!send.disabled) ask(b.textContent); }));
+
+if (location.protocol === 'file:') bubble('error', '이 페이지는 웹 서버에서 열어야 데이터 JSON을 읽을 수 있습니다. https://gschoie.github.io/DAOL-RESEARCH-TONE/chat.html 로 접속하세요.');
+if (!($('apikey').value || '').trim()) bubble('status', 'Anthropic API 키를 입력·저장한 뒤 질문하세요. 키는 이 브라우저에만 저장되며 Anthropic 외 어디로도 전송되지 않습니다.');
+</script>
+</body>
+</html>
