@@ -99,8 +99,11 @@ jobs:
         run: |
           mkdir -p _site
           cp site/index.html _site/
+          cp site/chat.html _site/ 2>/dev/null || true
           cp site/daol_collab_radar.html _site/ 2>/dev/null || true
           cp data/daol_tone_v2.json data/tone_summary.json data/daol_tone_history.json data/ked_street.json _site/
+          # 웹 챗봇의 PDF 원문 검색용 (없어도 배포는 계속 — 챗봇의 원문 도구만 비활성)
+          cp data/daol_pdf_text_cache.json data/daol_messages.json _site/ 2>/dev/null || true
 
       # 커밋백이 실패해도 배포는 계속한다(데이터는 다음 성공 런에 다시 담김).
       # 실패 시 진단을 _site/debug_commitback.txt로 배포해 밖에서 원인을 볼 수 있게 한다.
