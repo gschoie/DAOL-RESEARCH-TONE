@@ -24,7 +24,8 @@ build_daol_collab_radar.py               # 섹터 콜라보 레이더 HTML
 ```
 
 산출물은 `data/`에 커밋백되고 `site/` + JSON이 GitHub Pages로 배포된다.
-갱신은 `refresh-tone.yml`이 3시간 간격(하루 7회)으로 자동 실행.
+갱신은 `refresh-tone.yml`이 자동 실행: 아침 3중 크론(KST 06:50/07:05/07:20 — 크론 지연을 먹어도 8시 전 배포)
++ 08:20 2차 스윕 + 저녁 22:00 백필 런.
 
 ## 필요한 시크릿 (Settings → Secrets → Actions)
 

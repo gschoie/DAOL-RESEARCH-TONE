@@ -8,10 +8,12 @@ on:
   push:
     branches: ["main"]
   schedule:
-    # 아침 런(KST 07:30 + 07:45): GitHub 크론이 10분+ 지연되는 일이 잦아 이중으로 잡는다 — 8시 전 배포 목표.
-    # concurrency(cancel-in-progress: false)라 겹치면 뒤 런이 줄 서서 이어 돈다.
-    - cron: "30 22 * * *"
-    - cron: "45 22 * * *"
+    # 아침 런(KST 06:50 + 07:05 + 07:20) 3중 크론: 평일 UTC 22:30/22:45 크론이 40~50분씩 지연돼
+    # 8시를 넘기는 걸 실측(8/13~14, 페이지 반영 08:20~08:24)— 앞당겨 촘촘히 잡아 지연을 먹어도
+    # 8시 전 배포를 노린다. concurrency(cancel-in-progress: false)라 겹치면 뒤 런이 줄 서서 이어 돈다.
+    - cron: "50 21 * * *"
+    - cron: "5 22 * * *"
+    - cron: "20 22 * * *"
     # 아침 2차 스윕(KST 08:20): 크론 지연·07:45 이후 발간분 커버(신규 없으면 수 분 내 종료).
     - cron: "20 23 * * *"
     # 저녁 런(KST 22:00): 과거 리포트 AI 백필 전용(200건) — 백필 완료 후엔 사실상 노옵.
@@ -81,7 +83,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # 아침 런들은 신규만 빠르게(15건, ~2분), 저녁 런·수동 실행은 백필 몫(200건, ~22분).
-          AI_MAX_REPORTS: ${{ (github.event.schedule == '30 22 * * *' || github.event.schedule == '45 22 * * *' || github.event.schedule == '20 23 * * *') && '15' || '200' }}
+          AI_MAX_REPORTS: ${{ (github.event.schedule == '50 21 * * *' || github.event.schedule == '5 22 * * *' || github.event.schedule == '20 22 * * *' || github.event.schedule == '20 23 * * *') && '15' || '200' }}
           # 아침 런·수동 실행은 PDF 재시도 예산을 줄여 빨리 끝낸다(과거 실패분 재시도는 저녁 런 몫)
           PDF_BUDGET_SECONDS: ${{ (github.event.schedule == '0 13 * * *') && '900' || '360' }}
           AI_BUDGET_SECONDS: "1800"
