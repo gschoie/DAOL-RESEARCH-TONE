@@ -42,6 +42,15 @@
   .msg.md code { background:#f0ede6; padding:1px 4px; border-radius:4px; font-size:12.5px; }
   .msg.md hr { border:0; border-top:1px solid #e5e2da; margin:8px 0; }
   .msg.md a { color:var(--accent); }
+  .msg.chart { white-space:normal; width:min(420px, 88%); }
+  .chart-title { font-size:12.5px; font-weight:600; margin-bottom:4px; }
+  .chart-cap { font-size:11px; color:var(--sub); margin-top:2px; }
+  .msg.chart svg { width:100%; height:auto; display:block; }
+  #brief { margin:2px 0 4px; }
+  #brief > summary { cursor:pointer; font-size:12px; color:var(--sub); padding:4px 0; list-style:none; }
+  #brief > summary::before { content:'▸ '; }
+  #brief[open] > summary::before { content:'▾ '; }
+  #brief .msg { max-width:100%; }
   .msg.user { align-self:flex-end; background:var(--user); color:#fff; border-bottom-right-radius:4px; }
   .msg.assistant { align-self:flex-start; background:var(--panel); border:1px solid #e5e2da; border-bottom-left-radius:4px; }
   .msg.error { align-self:flex-start; background:#fdeaea; border:1px solid #f2c3c3; color:#8a1f1f; }
@@ -82,6 +91,7 @@
   <button type="button">최광식 조선 톤 요즘 어때?</button>
   <button type="button">삼양식품 다올 뷰?</button>
   <button type="button">HBM 언급한 리포트 찾아줘</button>
+  <button type="button">다올이 시장보다 강하게 보는 종목은?</button>
 </div>
 <form id="form">
   <input id="input" placeholder="질문을 입력하세요" autocomplete="off" autofocus>
@@ -341,6 +351,30 @@ async function getFulltext(ref, around = '') {
   return { ...meta, source_url: src, text: text.slice(0, MAX_FULLTEXT_CHARS), truncated: text.length > MAX_FULLTEXT_CHARS };
 }
 
+/* --- 다올 vs 타사(스트리트) TP 비교 — street.stats는 파이프라인이 미리 계산 --- */
+function compareStreet(tone, { sector = '', direction = '', limit = 15 } = {}) {
+  const rows = [];
+  for (const [code, entry] of Object.entries(tone.companies || {})) {
+    if (code.startsWith('IND:') || !entry || typeof entry !== 'object') continue;
+    const st = entry.street && entry.street.stats;
+    if (!st || !st.daol || !st.median) continue;
+    if (sector && !String(entry.sector || '').includes(sector.trim())) continue;
+    // 이상치 방어: 타사 표본 1건뿐이거나 괴리가 ±100%를 넘으면 추출 오류 가능성이 높다
+    if ((st.n || 0) < 2 || Math.abs(st.daol / st.median - 1) > 1) continue;
+    rows.push({
+      code, name: entry.name, sector: entry.sector,
+      daol_tp: st.daol, street_median: st.median, street_low: st.low, street_high: st.high,
+      street_n: st.n, gap_pct: Math.round((st.daol / st.median - 1) * 1000) / 10,
+    });
+  }
+  if (!rows.length) return { error: '타사 비교 데이터가 있는 종목이 없습니다.' };
+  rows.sort((a, b) => b.gap_pct - a.gap_pct);
+  const out = direction === 'below' ? rows.slice().reverse() : rows;
+  return { total: rows.length,
+           note: 'gap_pct = 다올 TP ÷ 타사 중앙값 TP - 1 (%). 양수면 다올이 시장보다 강세.',
+           results: out.slice(0, Math.min(Number(limit) || 15, 30)) };
+}
+
 function serialize(result) {
   let text = JSON.stringify(result);
   if (text.length > MAX_RESULT_CHARS) text = text.slice(0, MAX_RESULT_CHARS) + '… (이하 생략: 결과가 잘렸습니다. 더 구체적으로 조회하세요.)';
@@ -380,17 +414,42 @@ const TOOLS = [
   { name: 'search_street',
     description: '전시장 타사 증권사 리포트(최근 120일, 2,100여 건)에서 종목을 검색한다. 다올이 커버하지 않는 종목 질문에 사용. 증권사/TP 변경/의견/제목/요약 불릿 포함.',
     input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명(예: "에코프로")' } }, required: ['company'], additionalProperties: false } },
+  { name: 'compare_daol_vs_street',
+    description: '다올 커버 종목별로 다올 TP와 타사(스트리트, 최근 120일) TP 중앙값의 괴리를 랭킹으로 돌려준다. "다올이 시장보다 강하게(약하게) 보는 종목은?", "시장과 시각차 큰 종목?" 류 질문에 사용. gap_pct 양수 = 다올이 강세.',
+    input_schema: { type: 'object', properties: {
+      direction: { type: 'string', enum: ['above', 'below'], description: 'above=다올이 강세인 순(기본), below=다올이 약세인 순' },
+      sector: { type: 'string', description: '섹터 필터(선택, 예: "조선")' },
+      limit: { type: 'string', description: '반환 개수(기본 15, 최대 30)' } }, additionalProperties: false } },
 ];
+
+// 이번 턴에 조회된 기업 — 답변이 끝나면 미니 차트로 렌더한다
+let turnCharts = [];
+function registerChart(code, tone) {
+  if (turnCharts.some(c => c.code === code)) return;
+  const entry = tone.companies && tone.companies[code];
+  if (!entry) return;
+  const series = timelineOf(entry)
+    .filter(it => it && typeof it === 'object' && it.date)
+    .map(it => ({ date: String(it.date), tp: it.tp_event && it.tp_event.value != null ? it.tp_event.value : null,
+                  conv: it.conviction != null ? it.conviction : null }));
+  if (series.length >= 2) turnCharts.push({ code, name: nameOf(entry) || code, series });
+}
 
 async function runTool(name, input) {
   switch (name) {
     case 'get_today_briefing': return serialize(await loadJson('tone_summary.json'));
-    case 'get_company_view': return serialize(companyView(input.company || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)')));
+    case 'get_company_view': {
+      const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
+      const r = companyView(input.company || '', tone);
+      if (!r.error) registerChart(r.code, tone);
+      return serialize(r);
+    }
     case 'get_sector_tone': return serialize(sectorTone(input.sector || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)')));
     case 'search_reports': return serialize(searchReports(input.query || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     case 'search_report_fulltext': return serialize(await searchFulltext(input.query || '', input));
     case 'get_report_fulltext': return serialize(await getFulltext(input.ref || '', input.around || ''));
     case 'search_street': return serialize(streetSearch(input.company || '', await loadJson('ked_street.json')));
+    case 'compare_daol_vs_street': return serialize(compareStreet(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     default: return serialize({ error: `알 수 없는 도구: ${name}` });
   }
 }
@@ -403,7 +462,7 @@ const SYSTEM_PROMPT = `당신은 "다올 리서치 톤" 챗봇입니다. 다올�
 2. 근거는 리포트 원문 표현(one_line, 강한/헤징/부정 문구, 투자포인트, PDF 원문 스니펫)을 인용합니다.
 3. 의견 어휘는 통일되어 있습니다 — 기업: BUY/HOLD/REDUCE, 산업: 비중확대/중립/비중축소. 위클리 자료에는 투자의견이 없으므로 의견을 추정하지 않습니다.
 4. 목표주가(TP)는 tp_event의 value/prior/direction/reasons(실적추정·멀티플·방법론·시점롤포워드)를 그대로 사용합니다.
-5. 리포트를 인용할 때는 날짜·애널리스트·제목을 함께 밝힙니다.
+5. 리포트를 인용할 때는 날짜·애널리스트·제목을 함께 밝히고, 데이터에 post_url·source가 있으면 반드시 [원문](URL) 마크다운 링크를 붙입니다.
 
 [서술 톤 — 다올 리서치 스타일]
 - 두괄식: 결론(뷰/의견/TP)을 첫 문장에 제시합니다.
@@ -415,6 +474,7 @@ const SYSTEM_PROMPT = `당신은 "다올 리서치 톤" 챗봇입니다. 다올�
 - 오늘/최근 변화 → get_today_briefing · 특정 기업 → get_company_view · 섹터/애널 톤 → get_sector_tone
 - 주제/키워드로 리포트 찾기 → search_reports · 원문 표현/수치 확인 → search_report_fulltext, get_report_fulltext
 - 다올 미커버 종목 → search_street
+- 다올과 시장(타사)의 시각 차이("다올이 시장보다 강하게 보는 종목?") → compare_daol_vs_street
 답하기 전에 반드시 관련 도구를 호출해 데이터를 확인하세요. 구조화 필드(요약)와 원문이 다르면 원문을 우선합니다.`;
 
 const MAX_TOOL_ROUNDS = 8;
@@ -523,7 +583,38 @@ const GEMINI_FALLBACKS = {
 };
 const shortName = (m) => m.replace('gemini-', '').replace('-latest', '(최신)');
 
-async function callGemini(contents) {
+// SSE 스트림을 읽어 텍스트는 onText로 흘리고, 함수 호출·종료 사유를 모아 돌려준다.
+async function readGeminiStream(res, onText) {
+  const reader = res.body.getReader();
+  const dec = new TextDecoder();
+  let buf = '', text = '', finish = '';
+  const calls = [];
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buf += dec.decode(value, { stream: true });
+    let idx;
+    while ((idx = buf.indexOf('\n')) >= 0) {
+      const line = buf.slice(0, idx).trim();
+      buf = buf.slice(idx + 1);
+      if (!line.startsWith('data:')) continue;
+      const payload = line.slice(5).trim();
+      if (!payload || payload === '[DONE]') continue;
+      let j;
+      try { j = JSON.parse(payload); } catch (e) { continue; }
+      const cand = (j.candidates || [])[0];
+      if (!cand) continue;
+      if (cand.finishReason) finish = cand.finishReason;
+      for (const p of (cand.content && cand.content.parts) || []) {
+        if (p.text) { text += p.text; if (onText) onText(text); }
+        if (p.functionCall) calls.push(p);
+      }
+    }
+  }
+  return { text, calls, finish };
+}
+
+async function callGemini(contents, onText) {
   const primary = $('model').value;
   const chain = [primary, ...(GEMINI_FALLBACKS[primary] || ['gemini-2.5-flash-lite'])];
   let lastErr = '';
@@ -541,12 +632,12 @@ async function callGemini(contents) {
       // 2.5 계열은 thinkingBudget:0(사고 끔), 3.x 계열은 thinkingLevel:'low'.
       if (!noThinkCfg) body.generationConfig = { thinkingConfig:
         /^gemini-2\.5/.test(model) ? { thinkingBudget: 0 } : { thinkingLevel: 'low' } };
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse`, {
         method: 'POST',
         headers: { 'content-type': 'application/json', 'x-goog-api-key': ($('apikey').value || '').trim() },
         body: JSON.stringify(body),
       });
-      if (res.ok) return res.json();
+      if (res.ok) return readGeminiStream(res, onText);
       let err = {};
       try { err = (await res.json()).error || {}; } catch (e) {}
       const detail = err.message || '';
@@ -578,23 +669,36 @@ async function callGemini(contents) {
   throw new Error(`Gemini가 계속 응답하지 못합니다(한도 또는 과부하). 잠시 후 다시 시도해 주세요. 마지막 오류: ${lastErr.slice(0, 200)}`);
 }
 
+let hidePending = null; // 스트리밍 첫 글자가 도착하면 '생각 중…'을 치운다 (ask()가 설정)
+
 async function answerGemini() {
   const contents = textHistory.slice(-MAX_HISTORY_TURNS).map(t =>
     ({ role: t.role === 'assistant' ? 'model' : 'user', parts: [{ text: t.text }] }));
+  let live = null; // 스트리밍 중 실시간 갱신되는 답변 말풍선
+  const onText = (t) => {
+    if (hidePending) { hidePending(); hidePending = null; }
+    if (!live) live = bubble('assistant', '');
+    live.innerHTML = mdToHtml(t);
+    chat.scrollTop = chat.scrollHeight;
+  };
   for (let round = 0; round <= MAX_TOOL_ROUNDS; round++) {
-    const response = await callGemini(contents);
-    const cand = (response.candidates || [])[0];
-    if (!cand || cand.finishReason === 'SAFETY' || cand.finishReason === 'PROHIBITED_CONTENT')
-      return '요청을 처리할 수 없습니다. 질문을 바꿔서 다시 시도해 주세요.';
-    const parts = (cand.content && cand.content.parts) || [];
-    const calls = parts.filter(p => p.functionCall);
-    if (!calls.length || round === MAX_TOOL_ROUNDS) {
-      const text = parts.filter(p => p.text).map(p => p.text).join('');
-      return text || '답변을 생성하지 못했습니다. 다시 시도해 주세요.';
+    live = null;
+    const r = await callGemini(contents, onText);
+    if (r.finish === 'SAFETY' || r.finish === 'PROHIBITED_CONTENT') {
+      if (live) live.remove();
+      return { text: '요청을 처리할 수 없습니다. 질문을 바꿔서 다시 시도해 주세요.', rendered: false };
     }
-    contents.push({ role: 'model', parts });
+    if (!r.calls.length || round === MAX_TOOL_ROUNDS) {
+      const text = r.text || '답변을 생성하지 못했습니다. 다시 시도해 주세요.';
+      return { text, rendered: !!(live && r.text) };
+    }
+    // 도구 라운드: 스트리밍된 서두 텍스트는 그대로 두고 함수 호출을 실행한다
+    const modelParts = [];
+    if (r.text) modelParts.push({ text: r.text });
+    modelParts.push(...r.calls);
+    contents.push({ role: 'model', parts: modelParts });
     const frParts = [];
-    for (const p of calls) {
+    for (const p of r.calls) {
       const fc = p.functionCall;
       const { content, isError } = await execTool(fc.name, fc.args || {});
       const fr = { name: fc.name, response: isError ? { error: content } : { result: content } };
@@ -608,11 +712,13 @@ async function answerGemini() {
 async function answer(question) {
   textHistory.push({ role: 'user', text: question });
   try {
-    const reply = await (currentProvider() === 'gemini' ? answerGemini() : answerAnthropic());
-    textHistory.push({ role: 'assistant', text: reply });
+    const r = currentProvider() === 'gemini'
+      ? await answerGemini()
+      : { text: await answerAnthropic(), rendered: false };
+    textHistory.push({ role: 'assistant', text: r.text });
     saveTurn('user', question);
-    saveTurn('assistant', reply);
-    return reply;
+    saveTurn('assistant', r.text);
+    return r;
   } catch (err) {
     textHistory.pop(); // 실패한 질문은 이력에서 제거
     throw err;
@@ -660,26 +766,66 @@ function bubble(cls, text) {
   return div;
 }
 
+/* --- 기업 미니 차트: TP(선) + 확신도(점) 추이 SVG --- */
+function chartBubble(cd) {
+  const s = cd.series;
+  const n = s.length;
+  if (n < 2) return;
+  const W = 340, H = 86, PAD = 8, CONV_H = 16;
+  const x = (i) => PAD + (W - 2 * PAD) * i / (n - 1);
+  const lineArea = H - CONV_H - 10;
+  let svg = '';
+  const tps = s.map(p => p.tp).filter(v => v != null);
+  let tpLabel = '';
+  if (tps.length >= 2) {
+    const lo = Math.min(...tps), hi = Math.max(...tps);
+    const y = (v) => hi === lo ? lineArea / 2 + PAD : PAD + (lineArea - 2 * PAD) * (1 - (v - lo) / (hi - lo));
+    const pts = s.map((p, i) => p.tp != null ? [x(i), y(p.tp)] : null).filter(Boolean);
+    svg += '<polyline fill="none" stroke="#0f4c81" stroke-width="2" points="'
+        + pts.map(p => p.map(v => Math.round(v * 10) / 10).join(',')).join(' ') + '"/>';
+    svg += pts.map(p => `<circle cx="${Math.round(p[0])}" cy="${Math.round(p[1])}" r="2.6" fill="#0f4c81"/>`).join('');
+    const last = tps[tps.length - 1];
+    tpLabel = ` · TP ${lo === hi ? '' : Math.round(lo).toLocaleString() + '~' + Math.round(hi).toLocaleString() + '원, '}최신 ${Math.round(last).toLocaleString()}원`;
+  }
+  const convColor = { 1: '#c0392b', 2: '#e0762f', 3: '#9aa39d', 4: '#5a9b6e', 5: '#1e7a4f' };
+  const cy = H - CONV_H / 2 - 2;
+  svg += s.map((p, i) => p.conv != null
+    ? `<circle cx="${Math.round(x(i))}" cy="${cy}" r="3.6" fill="${convColor[p.conv] || '#9aa39d'}"><title>${p.date} 확신도 ${p.conv}</title></circle>`
+    : '').join('');
+  const div = document.createElement('div');
+  div.className = 'msg assistant chart';
+  div.innerHTML =
+    `<div class="chart-title">📈 ${escapeHtml(cd.name)} — TP(선) · 확신도(점, 빨강1↔초록5)</div>` +
+    `<svg viewBox="0 0 ${W} ${H}" role="img">${svg}</svg>` +
+    `<div class="chart-cap">${s[0].date} ~ ${s[n - 1].date} · 리포트 ${n}건${tpLabel}</div>`;
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+}
+
 async function ask(question) {
   if (!($('apikey').value || '').trim()) { bubble('error', '먼저 위에 API 키를 입력하고 저장해 주세요. Gemini 키는 aistudio.google.com/apikey에서 무료 발급됩니다.'); return; }
   localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim());
   bubble('user', question);
   input.value = '';
   send.disabled = true;
+  turnCharts = [];
   const pending = bubble('assistant status', '생각 중…');
+  hidePending = () => pending.remove();
   const t0 = Date.now();
   const ticker = setInterval(() => {
     const s = Math.round((Date.now() - t0) / 1000);
     if (s >= 5) pending.textContent = `생각 중… (${s}초)`;
   }, 1000);
   try {
-    const reply = await answer(question);
+    const r = await answer(question);
     pending.remove();
-    bubble('assistant', reply);
+    if (!r.rendered) bubble('assistant', r.text);
+    for (const cd of turnCharts.slice(0, 2)) chartBubble(cd);
   } catch (err) {
     pending.remove();
     bubble('error', err.message || '오류가 발생했습니다.');
   } finally {
+    hidePending = null;
     clearInterval(ticker);
     send.disabled = false;
     input.focus();
@@ -693,6 +839,27 @@ form.addEventListener('submit', (e) => {
 });
 document.querySelectorAll('.hints button').forEach(b =>
   b.addEventListener('click', () => { if (!send.disabled) ask(b.textContent); }));
+
+/* 오늘의 브리핑: 파이프라인이 미리 만들어 둔 daily_brief.json을 카드로 (매일 KST 08:30 갱신) */
+(async function renderBrief() {
+  try {
+    const res = await fetch('./daily_brief.json', { cache: 'no-cache' });
+    if (!res.ok) return;
+    const b = await res.json();
+    if (!b || !b.text) return;
+    const det = document.createElement('details');
+    det.id = 'brief';
+    det.open = true;
+    const sum = document.createElement('summary');
+    sum.textContent = `📋 오늘의 브리핑 · ${b.date}${b.ai ? '' : ' (자동 요약)'}`;
+    det.appendChild(sum);
+    const body = document.createElement('div');
+    body.className = 'msg assistant md';
+    body.innerHTML = mdToHtml(b.text);
+    det.appendChild(body);
+    chat.prepend(det);
+  } catch (e) { /* 브리핑 없으면 조용히 생략 */ }
+})();
 
 /* 지난 대화: 접힌 로그로 보여주고, 이어서 대화할 수 있게 문맥도 복원 */
 (function renderPastLog() {
