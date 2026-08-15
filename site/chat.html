@@ -494,15 +494,21 @@ async function callGemini(contents) {
   for (let m = 0; m < chain.length; m++) {
     const model = chain[m];
     const attempts = m === 0 ? 3 : 2; // 폴백 모델은 짧게만 재시도
+    let noThinkCfg = false; // 사고 설정을 모델이 거부하면 빼고 재시도
     for (let attempt = 0; attempt < attempts; attempt++) {
+      const body = {
+        systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
+        contents,
+        tools: [{ functionDeclarations: GEMINI_TOOLS }],
+      };
+      // 근거는 도구(데이터)가 대므로 긴 내부 사고는 지연만 키운다 — 최소로 억제.
+      // 2.5 계열은 thinkingBudget:0(사고 끔), 3.x 계열은 thinkingLevel:'low'.
+      if (!noThinkCfg) body.generationConfig = { thinkingConfig:
+        /^gemini-2\.5/.test(model) ? { thinkingBudget: 0 } : { thinkingLevel: 'low' } };
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
         method: 'POST',
         headers: { 'content-type': 'application/json', 'x-goog-api-key': ($('apikey').value || '').trim() },
-        body: JSON.stringify({
-          systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
-          contents,
-          tools: [{ functionDeclarations: GEMINI_TOOLS }],
-        }),
+        body: JSON.stringify(body),
       });
       if (res.ok) return res.json();
       let err = {};
@@ -510,6 +516,9 @@ async function callGemini(contents) {
       const detail = err.message || '';
       if (res.status === 400 && /api key/i.test(detail))
         throw new Error('Gemini API 키가 유효하지 않습니다. aistudio.google.com/apikey에서 확인해 주세요.');
+      if (res.status === 400 && !noThinkCfg && /thinking|unknown name|invalid json/i.test(detail)) {
+        noThinkCfg = true; attempt--; continue; // 이 모델이 사고 설정을 모르면 빼고 즉시 재시도
+      }
       let delay, why;
       if (res.status === 429) {
         // 무료 한도: 서버가 알려준 대기시간(RetryInfo) 준수
@@ -590,6 +599,11 @@ async function ask(question) {
   input.value = '';
   send.disabled = true;
   const pending = bubble('assistant status', '생각 중…');
+  const t0 = Date.now();
+  const ticker = setInterval(() => {
+    const s = Math.round((Date.now() - t0) / 1000);
+    if (s >= 5) pending.textContent = `생각 중… (${s}초)`;
+  }, 1000);
   try {
     const reply = await answer(question);
     pending.remove();
@@ -598,6 +612,7 @@ async function ask(question) {
     pending.remove();
     bubble('error', err.message || '오류가 발생했습니다.');
   } finally {
+    clearInterval(ticker);
     send.disabled = false;
     input.focus();
   }
