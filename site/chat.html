@@ -42,8 +42,8 @@
 <div id="settings">
   <input id="apikey" type="password" placeholder="API 키 — 이 브라우저에만 저장됩니다" autocomplete="off">
   <select id="model">
-    <option value="gemini-flash-latest">Gemini Flash (무료·기본)</option>
-    <option value="gemini-flash-lite-latest">Gemini Flash-Lite (무료·한도 넉넉)</option>
+    <option value="gemini-flash-lite-latest">Gemini Flash-Lite (무료·기본)</option>
+    <option value="gemini-flash-latest">Gemini Flash (무료·품질↑ 한도↓)</option>
     <option value="claude-opus-5">Claude Opus 5 (유료·최고품질)</option>
     <option value="claude-sonnet-5">Claude Sonnet 5 (유료·절약)</option>
     <option value="claude-haiku-4-5">Claude Haiku 4.5 (유료·최저가)</option>
@@ -83,7 +83,7 @@ function syncKeyInput() {
   $('apikey').placeholder = p.placeholder;
   $('apikey').value = localStorage.getItem(p.ls) || '';
 }
-$('model').value = localStorage.getItem(LS_MODEL) || 'gemini-flash-latest';
+$('model').value = localStorage.getItem(LS_MODEL) || 'gemini-flash-lite-latest';
 syncKeyInput();
 $('savekey').onclick = () => { localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
 $('model').onchange = () => { localStorage.setItem(LS_MODEL, $('model').value); syncKeyInput(); };
@@ -468,25 +468,51 @@ const GEMINI_TOOLS = TOOLS.map(t => {
   return decl; // 빈 파라미터 스키마는 생략(get_today_briefing)
 });
 
-async function callGemini(contents) {
-  const model = $('model').value;
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
-    method: 'POST',
-    headers: { 'content-type': 'application/json', 'x-goog-api-key': ($('apikey').value || '').trim() },
-    body: JSON.stringify({
-      systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
-      contents,
-      tools: [{ functionDeclarations: GEMINI_TOOLS }],
-    }),
-  });
-  if (!res.ok) {
-    let detail = '';
-    try { detail = (await res.json()).error?.message || ''; } catch (e) {}
-    if (res.status === 400 && /api key/i.test(detail)) throw new Error('Gemini API 키가 유효하지 않습니다. aistudio.google.com/apikey에서 확인해 주세요.');
-    if (res.status === 429) throw new Error('Gemini 무료 한도에 걸렸습니다. 1분쯤 뒤 다시 시도하거나 Flash-Lite 모델로 바꿔 보세요.');
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+async function waitWithNote(seconds, why) {
+  const note = bubble('status', '');
+  for (let s = seconds; s > 0; s--) {
+    note.textContent = `${why} — ${s}초 뒤 자동 재시도`;
+    await sleep(1000);
+  }
+  note.remove();
+}
+
+async function callGemini(contents, modelOverride) {
+  const model = modelOverride || $('model').value;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-goog-api-key': ($('apikey').value || '').trim() },
+      body: JSON.stringify({
+        systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
+        contents,
+        tools: [{ functionDeclarations: GEMINI_TOOLS }],
+      }),
+    });
+    if (res.ok) return res.json();
+    let err = {};
+    try { err = (await res.json()).error || {}; } catch (e) {}
+    const detail = err.message || '';
+    if (res.status === 400 && /api key/i.test(detail))
+      throw new Error('Gemini API 키가 유효하지 않습니다. aistudio.google.com/apikey에서 확인해 주세요.');
+    if (res.status === 429) {
+      // 무료 한도: 서버가 알려준 대기시간(RetryInfo)만큼 기다렸다 자동 재시도
+      let delay = 30;
+      const ri = (err.details || []).find(d => String(d['@type'] || '').includes('RetryInfo'));
+      const parsed = ri && parseFloat(ri.retryDelay);
+      if (parsed > 0) delay = Math.min(90, Math.ceil(parsed));
+      if (attempt < 2) { await waitWithNote(delay, `Gemini 무료 한도(${model.replace('gemini-', '').replace('-latest', '')})`); continue; }
+      // 재시도로도 안 풀리면: Flash면 Flash-Lite(한도 넉넉)로 이 요청만 자동 전환
+      if (!modelOverride && model !== 'gemini-flash-lite-latest') {
+        bubble('status', 'Flash 한도가 계속 걸려 이 질문은 Flash-Lite로 처리합니다.');
+        return callGemini(contents, 'gemini-flash-lite-latest');
+      }
+      throw new Error('Gemini 무료 한도가 계속 걸립니다. 몇 분 뒤 다시 시도해 주세요. (일일 한도라면 내일 리셋됩니다)');
+    }
     throw new Error(`Gemini API 오류 (HTTP ${res.status}) ${detail}`.trim().slice(0, 300));
   }
-  return res.json();
 }
 
 async function answerGemini() {
