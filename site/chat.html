@@ -40,16 +40,18 @@
   <a class="home" href="./index.html">← 톤 보드</a>
 </header>
 <div id="settings">
-  <input id="apikey" type="password" placeholder="Anthropic API 키 (sk-ant-…) — 이 브라우저에만 저장됩니다" autocomplete="off">
+  <input id="apikey" type="password" placeholder="API 키 — 이 브라우저에만 저장됩니다" autocomplete="off">
   <select id="model">
-    <option value="claude-opus-5">Opus 5 (기본·똑똑)</option>
-    <option value="claude-sonnet-5">Sonnet 5 (절약)</option>
-    <option value="claude-haiku-4-5">Haiku 4.5 (최저가)</option>
+    <option value="gemini-flash-latest">Gemini Flash (무료·기본)</option>
+    <option value="gemini-flash-lite-latest">Gemini Flash-Lite (무료·한도 넉넉)</option>
+    <option value="claude-opus-5">Claude Opus 5 (유료·최고품질)</option>
+    <option value="claude-sonnet-5">Claude Sonnet 5 (유료·절약)</option>
+    <option value="claude-haiku-4-5">Claude Haiku 4.5 (유료·최저가)</option>
   </select>
   <button id="savekey" class="primary" type="button">저장</button>
   <button id="clearkey" type="button">키 삭제</button>
 </div>
-<div id="keyhint">키는 <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>에서 발급 · 서버 없이 브라우저→Anthropic 직접 호출 · 데이터는 이 사이트의 공개 JSON</div>
+<div id="keyhint">Gemini 무료 키: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> (카드 불필요) · Claude 키: <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a> · 서버 없이 브라우저에서 직접 호출</div>
 <div id="chat"></div>
 <div class="hints">
   <button type="button">오늘 뭐 바뀌었어?</button>
@@ -66,12 +68,26 @@
 'use strict';
 /* ============ 설정 (localStorage) ============ */
 const $ = (id) => document.getElementById(id);
-const LS_KEY = 'daol_chat_api_key', LS_MODEL = 'daol_chat_model';
-$('apikey').value = localStorage.getItem(LS_KEY) || '';
-$('model').value = localStorage.getItem(LS_MODEL) || 'claude-opus-5';
-$('savekey').onclick = () => { localStorage.setItem(LS_KEY, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
-$('model').onchange = () => localStorage.setItem(LS_MODEL, $('model').value);
-$('clearkey').onclick = () => { localStorage.removeItem(LS_KEY); $('apikey').value = ''; bubble('status', '키를 삭제했습니다.'); };
+const LS_MODEL = 'daol_chat_model';
+// 공급자별 키를 따로 저장한다 — Gemini(무료)와 Claude(유료)를 오가며 쓸 수 있게.
+const PROVIDERS = {
+  gemini:    { ls: 'daol_chat_gemini_key',
+               placeholder: 'Gemini API 키 (AIza…) — aistudio.google.com/apikey 무료 발급' },
+  anthropic: { ls: 'daol_chat_api_key',
+               placeholder: 'Anthropic API 키 (sk-ant-…) — console.anthropic.com 발급' },
+};
+const providerOf = (model) => model.startsWith('gemini') ? 'gemini' : 'anthropic';
+const currentProvider = () => providerOf($('model').value);
+function syncKeyInput() {
+  const p = PROVIDERS[currentProvider()];
+  $('apikey').placeholder = p.placeholder;
+  $('apikey').value = localStorage.getItem(p.ls) || '';
+}
+$('model').value = localStorage.getItem(LS_MODEL) || 'gemini-flash-latest';
+syncKeyInput();
+$('savekey').onclick = () => { localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
+$('model').onchange = () => { localStorage.setItem(LS_MODEL, $('model').value); syncKeyInput(); };
+$('clearkey').onclick = () => { localStorage.removeItem(PROVIDERS[currentProvider()].ls); $('apikey').value = ''; bubble('status', '현재 공급자의 키를 삭제했습니다.'); };
 
 /* ============ 데이터 로더 (같은 사이트의 JSON, 메모리 캐시) ============ */
 const dataCache = new Map();
@@ -367,13 +383,27 @@ const SYSTEM_PROMPT = `당신은 "다올 리서치 톤" 챗봇입니다. 다올�
 
 const MAX_TOOL_ROUNDS = 8;
 
-async function callApi(messages) {
-  const key = ($('apikey').value || '').trim();
+// 대화 이력은 공급자 중립 텍스트 턴으로만 보관한다(도구 호출 블록은 요청 안에서만 사용).
+// 덕분에 대화 중간에 Gemini↔Claude를 바꿔도 맥락이 이어진다.
+const textHistory = []; // {role:'user'|'assistant', text}
+const MAX_HISTORY_TURNS = 20;
+
+async function execTool(name, input) {
+  const note = bubble('status', `조회: ${name}(${JSON.stringify(input).slice(0, 80)})`);
+  let content, isError = false;
+  try { content = await runTool(name, input || {}); }
+  catch (err) { content = `도구 실행 오류: ${err.message}`; isError = true; }
+  note.remove();
+  return { content, isError };
+}
+
+/* --- Anthropic (Claude) --- */
+async function callAnthropic(messages) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
-      'x-api-key': key,
+      'x-api-key': ($('apikey').value || '').trim(),
       'anthropic-version': '2023-06-01',
       'anthropic-dangerous-direct-browser-access': 'true',
     },
@@ -388,24 +418,20 @@ async function callApi(messages) {
   if (!res.ok) {
     let detail = '';
     try { detail = (await res.json()).error?.message || ''; } catch (e) {}
-    if (res.status === 401) throw new Error('API 키가 유효하지 않습니다. 키를 확인해 주세요.');
+    if (res.status === 401) throw new Error('Anthropic API 키가 유효하지 않습니다. 키를 확인해 주세요.');
     if (res.status === 429) throw new Error('요청 한도(rate limit)에 걸렸습니다. 잠시 후 다시 시도해 주세요.');
     throw new Error(`API 오류 (HTTP ${res.status}) ${detail}`.trim());
   }
   return res.json();
 }
 
-const history = []; // API 형식 그대로 (tool_use/tool_result 블록 포함)
-
-async function answer(question) {
-  history.push({ role: 'user', content: question });
+async function answerAnthropic() {
+  const messages = textHistory.slice(-MAX_HISTORY_TURNS).map(t => ({ role: t.role, content: t.text }));
   for (let round = 0; round <= MAX_TOOL_ROUNDS; round++) {
-    const response = await callApi(history);
-    if (response.stop_reason === 'refusal') {
-      history.pop();
+    const response = await callAnthropic(messages);
+    if (response.stop_reason === 'refusal')
       return '요청을 처리할 수 없습니다. 질문을 바꿔서 다시 시도해 주세요.';
-    }
-    history.push({ role: 'assistant', content: response.content });
+    messages.push({ role: 'assistant', content: response.content });
     const toolUses = response.content.filter(b => b.type === 'tool_use');
     if (!toolUses.length || round === MAX_TOOL_ROUNDS) {
       const text = response.content.filter(b => b.type === 'text').map(b => b.text).join('');
@@ -413,14 +439,92 @@ async function answer(question) {
     }
     const results = [];
     for (const tu of toolUses) {
-      const note = bubble('status', `조회: ${tu.name}(${JSON.stringify(tu.input).slice(0, 80)})`);
-      let content, isError = false;
-      try { content = await runTool(tu.name, tu.input || {}); }
-      catch (err) { content = `도구 실행 오류: ${err.message}`; isError = true; }
-      note.remove();
+      const { content, isError } = await execTool(tu.name, tu.input);
       results.push({ type: 'tool_result', tool_use_id: tu.id, content, is_error: isError });
     }
-    history.push({ role: 'user', content: results });
+    messages.push({ role: 'user', content: results });
+  }
+}
+
+/* --- Gemini (무료 티어) --- */
+function toGeminiSchema(s) {
+  if (!s || typeof s !== 'object') return s;
+  const out = {};
+  if (s.type) out.type = String(s.type).toUpperCase();
+  if (s.description) out.description = s.description;
+  if (s.enum) out.enum = s.enum;
+  if (s.required && s.required.length) out.required = s.required;
+  if (s.items) out.items = toGeminiSchema(s.items);
+  if (s.properties) {
+    out.properties = {};
+    for (const [k, v] of Object.entries(s.properties)) out.properties[k] = toGeminiSchema(v);
+  }
+  return out; // additionalProperties는 Gemini 미지원 — 제거
+}
+const GEMINI_TOOLS = TOOLS.map(t => {
+  const params = toGeminiSchema(t.input_schema);
+  const decl = { name: t.name, description: t.description };
+  if (params.properties && Object.keys(params.properties).length) decl.parameters = params;
+  return decl; // 빈 파라미터 스키마는 생략(get_today_briefing)
+});
+
+async function callGemini(contents) {
+  const model = $('model').value;
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-goog-api-key': ($('apikey').value || '').trim() },
+    body: JSON.stringify({
+      systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
+      contents,
+      tools: [{ functionDeclarations: GEMINI_TOOLS }],
+    }),
+  });
+  if (!res.ok) {
+    let detail = '';
+    try { detail = (await res.json()).error?.message || ''; } catch (e) {}
+    if (res.status === 400 && /api key/i.test(detail)) throw new Error('Gemini API 키가 유효하지 않습니다. aistudio.google.com/apikey에서 확인해 주세요.');
+    if (res.status === 429) throw new Error('Gemini 무료 한도에 걸렸습니다. 1분쯤 뒤 다시 시도하거나 Flash-Lite 모델로 바꿔 보세요.');
+    throw new Error(`Gemini API 오류 (HTTP ${res.status}) ${detail}`.trim().slice(0, 300));
+  }
+  return res.json();
+}
+
+async function answerGemini() {
+  const contents = textHistory.slice(-MAX_HISTORY_TURNS).map(t =>
+    ({ role: t.role === 'assistant' ? 'model' : 'user', parts: [{ text: t.text }] }));
+  for (let round = 0; round <= MAX_TOOL_ROUNDS; round++) {
+    const response = await callGemini(contents);
+    const cand = (response.candidates || [])[0];
+    if (!cand || cand.finishReason === 'SAFETY' || cand.finishReason === 'PROHIBITED_CONTENT')
+      return '요청을 처리할 수 없습니다. 질문을 바꿔서 다시 시도해 주세요.';
+    const parts = (cand.content && cand.content.parts) || [];
+    const calls = parts.filter(p => p.functionCall);
+    if (!calls.length || round === MAX_TOOL_ROUNDS) {
+      const text = parts.filter(p => p.text).map(p => p.text).join('');
+      return text || '답변을 생성하지 못했습니다. 다시 시도해 주세요.';
+    }
+    contents.push({ role: 'model', parts });
+    const frParts = [];
+    for (const p of calls) {
+      const fc = p.functionCall;
+      const { content, isError } = await execTool(fc.name, fc.args || {});
+      const fr = { name: fc.name, response: isError ? { error: content } : { result: content } };
+      if (fc.id) fr.id = fc.id; // 병렬 호출 매칭용(있을 때만)
+      frParts.push({ functionResponse: fr });
+    }
+    contents.push({ role: 'user', parts: frParts });
+  }
+}
+
+async function answer(question) {
+  textHistory.push({ role: 'user', text: question });
+  try {
+    const reply = await (currentProvider() === 'gemini' ? answerGemini() : answerAnthropic());
+    textHistory.push({ role: 'assistant', text: reply });
+    return reply;
+  } catch (err) {
+    textHistory.pop(); // 실패한 질문은 이력에서 제거
+    throw err;
   }
 }
 
@@ -436,8 +540,8 @@ function bubble(cls, text) {
 }
 
 async function ask(question) {
-  if (!($('apikey').value || '').trim()) { bubble('error', '먼저 위에 Anthropic API 키를 입력하고 저장해 주세요.'); return; }
-  localStorage.setItem(LS_KEY, $('apikey').value.trim());
+  if (!($('apikey').value || '').trim()) { bubble('error', '먼저 위에 API 키를 입력하고 저장해 주세요. Gemini 키는 aistudio.google.com/apikey에서 무료 발급됩니다.'); return; }
+  localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim());
   bubble('user', question);
   input.value = '';
   send.disabled = true;
@@ -449,9 +553,6 @@ async function ask(question) {
   } catch (err) {
     pending.remove();
     bubble('error', err.message || '오류가 발생했습니다.');
-    // 실패한 턴은 이력에서 제거(마지막이 user 질문이면)
-    if (history.length && history[history.length - 1].role === 'user'
-        && typeof history[history.length - 1].content === 'string') history.pop();
   } finally {
     send.disabled = false;
     input.focus();
@@ -467,7 +568,7 @@ document.querySelectorAll('.hints button').forEach(b =>
   b.addEventListener('click', () => { if (!send.disabled) ask(b.textContent); }));
 
 if (location.protocol === 'file:') bubble('error', '이 페이지는 웹 서버에서 열어야 데이터 JSON을 읽을 수 있습니다. https://gschoie.github.io/DAOL-RESEARCH-TONE/chat.html 로 접속하세요.');
-if (!($('apikey').value || '').trim()) bubble('status', 'Anthropic API 키를 입력·저장한 뒤 질문하세요. 키는 이 브라우저에만 저장되며 Anthropic 외 어디로도 전송되지 않습니다.');
+if (!($('apikey').value || '').trim()) bubble('status', 'API 키를 입력·저장한 뒤 질문하세요. Gemini 키는 aistudio.google.com/apikey에서 카드 등록 없이 무료로 받을 수 있습니다. 키는 이 브라우저에만 저장됩니다.');
 </script>
 </body>
 </html>
