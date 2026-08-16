@@ -122,7 +122,7 @@ syncKeyInput();
 // 키가 이미 저장돼 있으면 설정을 접어둔다 — 필요할 때 ⚙️로 다시 연다.
 $('setup').open = !($('apikey').value || '').trim();
 $('savekey').onclick = () => { localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); $('setup').open = false; bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
-$('model').onchange = () => { localStorage.setItem(LS_MODEL, $('model').value); syncKeyInput(); if (!($('apikey').value || '').trim()) $('setup').open = true; };
+$('model').onchange = () => { localStorage.setItem(LS_MODEL, $('model').value); geminiSticky = null; syncKeyInput(); if (!($('apikey').value || '').trim()) $('setup').open = true; };
 $('clearkey').onclick = () => { localStorage.removeItem(PROVIDERS[currentProvider()].ls); $('apikey').value = ''; bubble('status', '현재 공급자의 키를 삭제했습니다.'); };
 
 /* ============ 대화 로그 (localStorage 보존) ============ */
@@ -652,13 +652,19 @@ async function readGeminiStream(res, onText) {
   return { text, calls, finish };
 }
 
+// 한도·과부하로 폴백이 일어나면 당분간(10분) 그 모델에서 바로 시작한다 —
+// 도구 호출 라운드마다 사다리를 처음부터 다시 타면 한 질문에 수백 초가 걸린다.
+let geminiSticky = null; // {model, until}
+
 async function callGemini(contents, onText) {
   const primary = $('model').value;
-  const chain = [primary, ...(GEMINI_FALLBACKS[primary] || ['gemini-2.5-flash-lite'])];
+  let chain = [primary, ...(GEMINI_FALLBACKS[primary] || ['gemini-2.5-flash-lite'])];
+  if (geminiSticky && geminiSticky.until > Date.now() && chain.includes(geminiSticky.model))
+    chain = chain.slice(chain.indexOf(geminiSticky.model));
   let lastErr = '';
   for (let m = 0; m < chain.length; m++) {
     const model = chain[m];
-    const attempts = m === 0 ? 3 : 2; // 폴백 모델은 짧게만 재시도
+    const attempts = 2; // 모델당 재시도는 짧게 — 안 풀리면 빨리 다음 모델로
     let noThinkCfg = false; // 사고 설정을 모델이 거부하면 빼고 재시도
     for (let attempt = 0; attempt < attempts; attempt++) {
       const body = {
@@ -675,7 +681,11 @@ async function callGemini(contents, onText) {
         headers: { 'content-type': 'application/json', 'x-goog-api-key': ($('apikey').value || '').trim() },
         body: JSON.stringify(body),
       });
-      if (res.ok) return readGeminiStream(res, onText);
+      if (res.ok) {
+        geminiSticky = model === primary ? null
+          : { model, until: Date.now() + 10 * 60 * 1000 };
+        return readGeminiStream(res, onText);
+      }
       let err = {};
       try { err = (await res.json()).error || {}; } catch (e) {}
       const detail = err.message || '';
@@ -686,11 +696,12 @@ async function callGemini(contents, onText) {
       }
       let delay, why;
       if (res.status === 429) {
-        // 무료 한도: 서버가 알려준 대기시간(RetryInfo) 준수
-        delay = 30;
+        // 무료 한도: 서버가 알려준 대기시간(RetryInfo)을 따르되 30초 상한 —
+        // 그보다 길게 기다릴 바엔 다음 모델로 넘어가는 편이 빠르다
+        delay = 20;
         const ri = (err.details || []).find(d => String(d['@type'] || '').includes('RetryInfo'));
         const parsed = ri && parseFloat(ri.retryDelay);
-        if (parsed > 0) delay = Math.min(90, Math.ceil(parsed));
+        if (parsed > 0) delay = Math.min(30, Math.ceil(parsed));
         why = `무료 한도(${shortName(model)})`;
       } else if (res.status === 500 || res.status === 503 || res.status === 504) {
         delay = 5 * (attempt + 1); // 과부하는 짧게 쉬면 풀리는 경우가 많다
