@@ -241,12 +241,17 @@ function searchReports(query, tone, { analyst = '', sector = '', date_from = '',
            results: matches.slice(0, MAX_REPORTS).map(r => Object.fromEntries(CARD_FIELDS.filter(k => k in r).map(k => [k, r[k]]))) };
 }
 
+function flattenKed(ked) {
+  if (Array.isArray(ked)) return ked;
+  const rows = [];
+  if (ked && typeof ked === 'object')
+    for (const v of Object.values(ked)) Array.isArray(v) ? rows.push(...v) : (v && typeof v === 'object' && rows.push(v));
+  return rows;
+}
+
 function streetSearch(query, ked) {
   const q = query.trim().toLowerCase();
-  let rows = [];
-  if (Array.isArray(ked)) rows = ked;
-  else if (ked && typeof ked === 'object')
-    for (const v of Object.values(ked)) Array.isArray(v) ? rows.push(...v) : (v && typeof v === 'object' && rows.push(v));
+  const rows = flattenKed(ked);
   const matches = rows.filter(r => r && typeof r === 'object' && JSON.stringify(r).toLowerCase().includes(q));
   if (!matches.length) return { error: `타사 리포트(120일)에서 '${query}'를 찾지 못했습니다.` };
   return { matches: matches.slice(0, MAX_STREET), total_matches: matches.length };
@@ -435,6 +440,29 @@ function registerChart(code, tone) {
   if (series.length >= 2) turnCharts.push({ code, name: nameOf(entry) || code, series });
 }
 
+// 검색 결과가 한 종목에 몰리면(과반) 그 종목 차트를 그린다 — search_reports 경로의 사각지대 보완
+function registerDominantChart(results, tone) {
+  const counts = {};
+  for (const it of results || []) if (it && it.code) counts[it.code] = (counts[it.code] || 0) + 1;
+  const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+  if (top && top[1] >= Math.max(2, (results.length || 0) * 0.5)) registerChart(top[0], tone);
+}
+
+// 다올 미커버 종목: 타사(스트리트) TP 변경 이력을 증권사별 점 차트로
+function registerStreetChart(result, ked) {
+  const counts = {};
+  for (const m of result.matches || []) if (m && m.company) counts[m.company] = (counts[m.company] || 0) + 1;
+  const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+  if (!top || top[1] < Math.max(2, (result.matches.length || 0) * 0.6)) return; // 지배 종목이 없으면 생략
+  const name = top[0];
+  if (turnCharts.some(c => c.name === name)) return;
+  const series = flattenKed(ked)
+    .filter(r => r && r.company === name && r.tp_new != null && r.date)
+    .map(r => ({ date: String(r.date), tp: r.tp_new, broker: String(r.brokerage || '') }))
+    .sort((a, b) => a.date.localeCompare(b.date));
+  if (series.length >= 2) turnCharts.push({ kind: 'street', code: 'ST:' + name, name, series });
+}
+
 async function runTool(name, input) {
   switch (name) {
     case 'get_today_briefing': return serialize(await loadJson('tone_summary.json'));
@@ -445,10 +473,20 @@ async function runTool(name, input) {
       return serialize(r);
     }
     case 'get_sector_tone': return serialize(sectorTone(input.sector || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)')));
-    case 'search_reports': return serialize(searchReports(input.query || '', await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
+    case 'search_reports': {
+      const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
+      const r = searchReports(input.query || '', tone, input);
+      if (!r.error) registerDominantChart(r.results, tone);
+      return serialize(r);
+    }
     case 'search_report_fulltext': return serialize(await searchFulltext(input.query || '', input));
     case 'get_report_fulltext': return serialize(await getFulltext(input.ref || '', input.around || ''));
-    case 'search_street': return serialize(streetSearch(input.company || '', await loadJson('ked_street.json')));
+    case 'search_street': {
+      const ked = await loadJson('ked_street.json');
+      const r = streetSearch(input.company || '', ked);
+      if (!r.error) registerStreetChart(r, ked);
+      return serialize(r);
+    }
     case 'compare_daol_vs_street': return serialize(compareStreet(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     default: return serialize({ error: `알 수 없는 도구: ${name}` });
   }
@@ -767,7 +805,34 @@ function bubble(cls, text) {
 }
 
 /* --- 기업 미니 차트: TP(선) + 확신도(점) 추이 SVG --- */
+const BROKER_COLORS = ['#0f4c81', '#1e7a4f', '#9a6b1f', '#7b4b94', '#b23a48', '#2a7b8c', '#5c5f66'];
+
+function streetChartBubble(cd) {
+  const s = cd.series, n = s.length;
+  const W = 340, H = 86, PAD = 10;
+  const x = (i) => PAD + (W - 2 * PAD) * (n === 1 ? 0.5 : i / (n - 1));
+  const tps = s.map(p => p.tp);
+  const lo = Math.min(...tps), hi = Math.max(...tps);
+  const y = (v) => hi === lo ? H / 2 : PAD + (H - 2 * PAD) * (1 - (v - lo) / (hi - lo));
+  const brokers = [...new Set(s.map(p => p.broker))];
+  const color = (b) => BROKER_COLORS[brokers.indexOf(b) % BROKER_COLORS.length];
+  const svg = s.map((p, i) =>
+    `<circle cx="${Math.round(x(i))}" cy="${Math.round(y(p.tp))}" r="3.4" fill="${color(p.broker)}" fill-opacity=".85">` +
+    `<title>${p.date} ${escapeHtml(p.broker)} ${Math.round(p.tp).toLocaleString()}원</title></circle>`).join('');
+  const last = s[n - 1];
+  const div = document.createElement('div');
+  div.className = 'msg assistant chart';
+  div.innerHTML =
+    `<div class="chart-title">📊 ${escapeHtml(cd.name)} — 타사 TP 추이 (증권사별 색, 다올 미커버)</div>` +
+    `<svg viewBox="0 0 ${W} ${H}" role="img">${svg}</svg>` +
+    `<div class="chart-cap">${s[0].date} ~ ${last.date} · TP 변경 ${n}건 · ${brokers.length}개 증권사 · ` +
+    `범위 ${Math.round(lo).toLocaleString()}~${Math.round(hi).toLocaleString()}원</div>`;
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+}
+
 function chartBubble(cd) {
+  if (cd.kind === 'street') return streetChartBubble(cd);
   const s = cd.series;
   const n = s.length;
   if (n < 2) return;
