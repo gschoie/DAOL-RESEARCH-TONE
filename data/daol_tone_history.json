@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T05:17:17.889168+00:00",
+  "generated_at": "2026-08-16T13:28:05.229764+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1255,
+  "report_count": 1256,
   "months": [
     {
       "month": "2026-08",
@@ -2179,7 +2179,7 @@
           "sectors": [
             "조선/기계/방산"
           ],
-          "opinion": "비중확대",
+          "opinion": "중립",
           "opinion_history": [
             {
               "value": "중립",
@@ -2195,14 +2195,56 @@
               "value": "비중확대",
               "date": "2026-08-13",
               "source": "https://t.me/daolresearch/14869"
+            },
+            {
+              "value": "중립",
+              "date": "2026-08-16",
+              "source": "https://t.me/daolresearch/14890"
             }
           ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 6,
           "reports": [
+            {
+              "id": 14890,
+              "date": "2026-08-16",
+              "month": "2026-08",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "다올",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원) HD현대중공업 (1년 누적 매수) 당사 예상 대비 발주와 발주 LIST 클락슨 신조 발주: 한/중/일",
+              "industry_conclusion": "",
+              "report_conclusion": "개조된 FSRU는 'BW Manzanillo'로 명명되어 도미니카 공화국 Manzanillo Gas & Power 수입 프로젝트에 투입될 전망 2026년 연간 전망치를 7.9십억달러~8.4십억달러로 상향 총 55MTPA 액화 용량 운용 중으로 2026년 연간 생산 전망치를 53~54MTPA로 상향 2분기 127 cargo(Calcasieu Pass 37 cargo, Plaquemines 90 cargo) 수출로 전년비 38 cargo 증가하며 연간 전망치 494~523 cargo로 조정 그러나, 2026년 연간 EBITDA 전망치를 8.7십억~9.1십억달러로 상향 조정",
+              "valuation": [
+                "힘센 발전엔진 1차(4월) Aperion과의 0.68GW(20MW 모델) 계약",
+                "▶ 한국 조선5사 Perf orm ance",
+                "Wenzhou Yuandong SB 26.05.01 아시아 Wonderful Perfection PTK 50k DWT 2028~2030 10",
+                "이는 Gemini Cooperation 파트너사인 AP Moller-Maersk CEO가 운임 개선을 '구조적 변화'로 평가한 것과 대비",
+                "지정학적 리스크 속 CNOOC와 299.9k-DWT 'Angola Prosperity'호의 8월 중순 중동 선적 용선 계약 체결",
+                "이번 2번째 Mark II 설비 가격은 아르헨티나에 투입 예정인 1번째 설비(FLNG Esperanza, 2.2십억달러) 대비 10% 상승"
+              ],
+              "earnings_changes": [
+                "계속되고 잔고가 쌓이면 2028~2030년의 강력한 실적 상향으로 이어질",
+                "△ AP Moller-Maersk 연간 실적 전망 대폭 상향"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143427/1/20260816_B2040_gs.choie_576.pdf",
+              "pdf_error": "",
+              "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 미국 DC향 발전엔진 2번째 수주 확인 ⚓ 주시 뉴스",
+              "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 미국 DC향 발전엔진 2번째 수주 확인 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 △ 컨테이너선 하락에도, 신조선가지수 2주 연속 상승 및 지난주 보합 ▶ 그린쉽 △ BW LNG, 노후 스팀터빈 LNG선 - FSRU 개조 ▶ LNG ▲ ExxonMobil의 모잠비크 Rovuma EPC사 선정 △ 2분기 중동발 LNG선 운항 회복률은 분쟁 이전 대비 10% 미만에 그침 ▲ Venture Global, 신규 프로젝트 가동. 후속 터미널들 FID 2027년 예정 ▶ 가스선 △ 아부다비 Al Seer Marine, 지정학적 리스크 속 선대 우회 운항으로 순손실 축소 ▶ 컨테이너 ▽ 대만 Wan Hai, 중국 외고교에 11,000-TEU 6척 발주 ▶ 탱커 △ 아부다비 Adnoc이 VLCC 중고선가 20년 최고가로 상승 견인 ▽ 중국 MFL, 중국 GSI에 MR PC선 시리즈 5척 발주 △ 장금상선, 높은 운임 수준에 맞춰 중동 스팟 수송 시장 참가 ▶ 해양/디펜스/바람 ▲ Argentina LNG, 대형 투자 인센티브 제도(RIGI) 편입 신청서 제출. 연내 FID 목표 ▲ HD현대중공업, 미국에 0.96조원 힘센엔진 공급계약 체결 ▽ Golar LNG의 FLNG 개조 MK-II CIMC Raffles에 2번째 발주 ▽ Golar LNG가 싱가포르 Seatrium과 3번째 FLNG 개조 발주 ▶ 기타 △ Hahn & Co 선대 구조조정 및 K-LNG 출범 요약 < ☞ https://bit.ly/DOS835 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/14890",
+              "source_url": "https://bit.ly/DOS835"
+            },
             {
               "id": 14869,
               "date": "2026-08-13",
@@ -2443,7 +2485,7 @@
           ]
         }
       ],
-      "report_count": 70
+      "report_count": 71
     },
     {
       "month": "2026-07",
