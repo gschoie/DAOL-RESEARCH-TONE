@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-17T22:47:31.685245+00:00",
+ "generated_at": "2026-08-17T23:41:01.046002+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1262,
+ "report_count": 1263,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28534,6 +28534,41 @@
    "title": "[기가비스(420770) | BUY(유지) | TP 23만원(유지) | 다올투자증권 전기전자 김연미] ★ 기가비스 2Q26 Review - 계단식 성장의 첫 발을 증명",
    "post_url": "https://t.me/daolresearch/14898",
    "source_url": "https://buly.kr/jby0xc"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-18",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "또한, 수출 수익성은 환율 효과와 유정용 강관 판가 상승으로 9% 상회하는 이익률 달성 추정"
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(상향)/ 다올 철강 이정우] ★ 높아진 이익 체력",
+   "post_url": "https://t.me/daolresearch/14899",
+   "source_url": "https://buly.kr/DEblfI2"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-08-18",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "향후 기대 가능한 포인트는 1) 미국 열연•후판 가격 상승에 따른 OCTG 및 라인파이프 가격 강세, 2) 북미 rig count 회복에 따른 OCTG 수요 개선, 3) 미국의 대만•UAE•오스트리아산 유정관 반덤핑 예비판정 이후 해당국 수입이 위축될 경우 한국산 유정관의 반사수혜 가능성, 4) 중동 지역의 원유 수송 경로 다변화 투자가 본격화될 경우 라인파이프 수요 증가에 따른 수혜 가능성 * 보고서 원문 및 컴플라이언스",
+    "다만, 국내 강관 업계가 내수 판가 인상을 지속 시도 중이며, 1H26 큰 폭 인상된 열연 가격이 안정화된 상태."
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(상향)/ 다올 철강 이정우] ★ 높아진 이익 체력",
+   "post_url": "https://t.me/daolresearch/14899",
+   "source_url": "https://buly.kr/DEblfI2"
   }
  ],
  "cross_mentions": [
@@ -29396,7 +29431,7 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.6
+   "burst": 31.5
   },
   {
    "term": "월드컵",
