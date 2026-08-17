@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-17T22:03:31.386762+00:00",
+ "generated_at": "2026-08-17T22:31:59.015458+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1256,
+ "report_count": 1260,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28412,6 +28412,58 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 미국 DC향 발전엔진 2번째 수주 확인 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/14890",
    "source_url": "https://bit.ly/DOS835"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-08-18",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "CSM",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "이에 보험업종 주가는 CSM 이상의 프리미엄 요인들이 부각; (1) 이익성장력, (2) 주주환원 모멘텀"
+   ],
+   "title": "[보험(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ CSM 이상의 가치 인정 지속",
+   "post_url": "https://t.me/daolresearch/14893",
+   "source_url": "https://buly.kr/C0CSn5X"
+  },
+  {
+   "theme": "로봇/자동화",
+   "category": "산업테마",
+   "date": "2026-08-18",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "리브스메드",
+   "code": "491000",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "팬데믹 기간 미국의 로봇화가 국내보다 앞서 진행되며 기구 단품 접근의 한계가 노출된 만큼, 향후 동사의 풀 포트폴리오를 제안하는 방식으로 전환 예정.",
+    "대형 어카운트 병원 중심 제안 방식으로의 전환 트리거는 STARK 출시 SRS 2026에서 30개 이상의 로봇 플랫폼이 등장하며 경쟁이 하드웨어에서 AI, 데이터, 수술실 생태계로 확장되는 가운데, 스타크는 플랫폼 발표와 해외 KOL 노출을 확보하고 2-cart/4-arm, 360도 회전, 재도킹 없는 multi-quadrant 구조를 공개."
+   ],
+   "title": "[리브스메드(491000)/ BUY(유지)/ TP 9만원(하향)/ 다올 의료기기 박종현] ★ STARK가 바꿀 미국의 셈법",
+   "post_url": "https://t.me/daolresearch/14896",
+   "source_url": "https://buly.kr/90da7I3"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-08-18",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "리브스메드",
+   "code": "491000",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "로봇 미반입에도 기구 50종 전시와 단독 심포지엄을 통해 Johns Hopkins, Inova, Houston Methodist 등 주요 의료시스템 관계자 방문을 확인했으나, 상업성 판단에는 인허가와 초기 설치 성과 확인이 필요."
+   ],
+   "title": "[리브스메드(491000)/ BUY(유지)/ TP 9만원(하향)/ 다올 의료기기 박종현] ★ STARK가 바꿀 미국의 셈법",
+   "post_url": "https://t.me/daolresearch/14896",
+   "source_url": "https://buly.kr/90da7I3"
   }
  ],
  "cross_mentions": [
@@ -29274,105 +29326,105 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 30.5
+   "burst": 31.8
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.3
+   "burst": 13.9
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.4
+   "burst": 11.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.6
+   "burst": 8.0
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.7
+   "burst": 7.0
   },
   {
    "term": "분쟁",
    "recent": 6,
    "total": 9,
    "sectors": 5,
-   "burst": 5.7
-  },
-  {
-   "term": "수율",
-   "recent": 8,
-   "total": 14,
-   "sectors": 4,
-   "burst": 4.4
+   "burst": 6.0
   },
   {
    "term": "기저가",
    "recent": 8,
    "total": 14,
    "sectors": 5,
-   "burst": 4.4
+   "burst": 4.5
   },
   {
    "term": "남미",
    "recent": 8,
    "total": 15,
    "sectors": 4,
-   "burst": 3.8
+   "burst": 4.0
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.8
+   "burst": 4.0
   },
   {
    "term": "하고",
    "recent": 6,
    "total": 11,
    "sectors": 7,
-   "burst": 3.8
-  },
-  {
-   "term": "환입",
-   "recent": 7,
-   "total": 13,
-   "sectors": 6,
-   "burst": 3.8
+   "burst": 4.0
   },
   {
    "term": "강조",
    "recent": 6,
    "total": 11,
    "sectors": 6,
-   "burst": 3.8
+   "burst": 4.0
   },
   {
    "term": "실질",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.8
+   "burst": 4.0
   },
   {
    "term": "물류비",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.8
+   "burst": 4.0
+  },
+  {
+   "term": "점차",
+   "recent": 11,
+   "total": 22,
+   "sectors": 7,
+   "burst": 3.6
+  },
+  {
+   "term": "더해",
+   "recent": 8,
+   "total": 16,
+   "sectors": 6,
+   "burst": 3.5
   }
  ]
 }

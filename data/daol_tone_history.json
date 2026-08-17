@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T22:02:37.457839+00:00",
+  "generated_at": "2026-08-17T22:31:13.622421+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1256,
+  "report_count": 1260,
   "months": [
     {
       "month": "2026-08",
@@ -157,14 +157,48 @@
               "value": "비중확대",
               "date": "2026-08-06",
               "source": "https://t.me/daolresearch/14787"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-08-18",
+              "source": "https://t.me/daolresearch/14893"
             }
           ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 4,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 14893,
+              "date": "2026-08-18",
+              "month": "2026-08",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "CSM",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "valuation": [
+                "현실화되면 밸류에이션 리레이팅 근거화 가능"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/C0CSn5X",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /C0CSn5X (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f633b196de0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[보험(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ CSM 이상의 가치 인정 지속",
+              "summary": "[보험(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ CSM 이상의 가치 인정 지속 ▶ 커버리지 보험주 2Q26 Review ▶ 2Q26 실적도 대체로 컨센서스 상회. 계리가정 선진화 가이드라인 작용에 의한 실적 눈높이가 낮아졌던 영향 가능성 ▶ CSM은 성장보다 당분간 방어 여부가 중요해질 전망 ▶ 이에 보험업종 주가는 CSM 이상의 프리미엄 요인들이 부각; (1) 이익성장력, (2) 주주환원 모멘텀 ▶ 대기 중인 재료들 산적. 현실화되면 밸류에이션 리레이팅 근거화 가능 ▶ 보고서 원문 및 Compliance Notice < https://buly.kr/C0CSn5X > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/14893",
+              "source_url": "https://buly.kr/C0CSn5X"
+            },
             {
               "id": 14864,
               "date": "2026-08-13",
@@ -568,12 +602,131 @@
               "source": "https://t.me/daolresearch/14850"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
-          "tp_changes": [],
+          "top_picks": [
+            {
+              "text": "▶ Implication 추적 바스켓 28개 합계 $9.17M(WoW -0.6%)로 보합, 상위 브랜드만 셀스루 확대, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 56만원)은 메디큐브 $4.30M(+7.5%)으로 2위 닥터멜락신 $1.91M과 격차 확대, Amazon 미국도 18.0%(+2.7%p) 회복.",
+              "date": "2026-08-18",
+              "source": "https://t.me/daolresearch/14895"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
+          "tp_changes": [
+            {
+              "company": "리브스메드",
+              "direction": "하향",
+              "old": null,
+              "new": 90000,
+              "display": "90,000원 (하향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "ulti-quadrant 구조를 공개. 로봇 미반입에도 기구 50종 전시와 단독 심포지엄을 통해 Johns Hopkins, Inova, Houston Methodist 등 주요 의료시스템 관계자 방문을 확인했으나, 상업성 판단에는 인허가와 초기 설치 성과 확인이 필요. 국내 인허가 승인 시점은 2026년 12월 말 2026E 매출액 697억원(YoY +36%), 영업적자 331억원 전망. 상장 당시 가이던스 대비 하회하는 추정치 ▶ 투자의견 추정치 하향에 따라 적정주가 9만원으로 하향, BUY 유지. 여전히 당사는 STARK 출시에 따른 경쟁력을 긍정적으로 판단 복강경 수술이 로봇으로 전환되어 가는 과정에서 동사의 가격과 2-cart/4-arm, multi-quadrant 구조에서 오는 자유도가 경쟁력의 근거 * 보고서 원문 및 컴플라이언스 < https://buly.kr/90da7I3 > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "date": "2026-08-18",
+              "source": "https://t.me/daolresearch/14896"
+            }
+          ],
           "tp_raises": [],
-          "report_count": 19,
+          "report_count": 22,
           "reports": [
+            {
+              "id": 14896,
+              "date": "2026-08-18",
+              "month": "2026-08",
+              "analyst": "박종현",
+              "sector": "의료기기",
+              "company": "리브스메드",
+              "code": "491000",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "리브스메드",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 90000,
+                  "display": "90,000원 (하향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "ulti-quadrant 구조를 공개. 로봇 미반입에도 기구 50종 전시와 단독 심포지엄을 통해 Johns Hopkins, Inova, Houston Methodist 등 주요 의료시스템 관계자 방문을 확인했으나, 상업성 판단에는 인허가와 초기 설치 성과 확인이 필요. 국내 인허가 승인 시점은 2026년 12월 말 2026E 매출액 697억원(YoY +36%), 영업적자 331억원 전망. 상장 당시 가이던스 대비 하회하는 추정치 ▶ 투자의견 추정치 하향에 따라 적정주가 9만원으로 하향, BUY 유지. 여전히 당사는 STARK 출시에 따른 경쟁력을 긍정적으로 판단 복강경 수술이 로봇으로 전환되어 가는 과정에서 동사의 가격과 2-cart/4-arm, multi-quadrant 구조에서 오는 자유도가 경쟁력의 근거 * 보고서 원문 및 컴플라이언스 < https://buly.kr/90da7I3 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [
+                "▶ 투자의견 추정치 하향에 따라 적정주가 9만원으로 하향, BUY 유지."
+              ],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/90da7I3",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /90da7I3 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f633b1970b0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[리브스메드(491000)/ BUY(유지)/ TP 9만원(하향)/ 다올 의료기기 박종현] ★ STARK가 바꿀 미국의 셈법",
+              "summary": "[리브스메드(491000)/ BUY(유지)/ TP 9만원(하향)/ 다올 의료기기 박종현] ★ STARK가 바꿀 미국의 셈법 ▶ Review 2Q26 매출액 125억원(YoY +9.6%, QoQ +21.9%), 영업이익 -122억원(YoY 적자 확대, QoQ 적자 확대)으로 컨센서스 하회. 아티실이 2Q26 매출액 1억원으로 사실상 미출시 상태에 머문 가운데, 재고 폐기가 원가에 반영되며 GPM 43%까지 훼손. 판관비 QoQ 47억원 증가로 적자 확대 매출 기여를 기대했던 아티실은 아티센셜 대비 절단/봉합이 포함된 기구로 높은 민감도로 인해 의료진 피드백 반영이 필요. 이에 따라 개선 제품은 4Q26부터 판매 예정 ▶ 전망 미국은 해외 영업 전략을 개별 의사 영업에서 플랫폼 판매로 전환. 팬데믹 기간 미국의 로봇화가 국내보다 앞서 진행되며 기구 단품 접근의 한계가 노출된 만큼, 향후 동사의 풀 포트폴리오를 제안하는 방식으로 전환 예정. 대형 어카운트 병원 중심 제안 방식으로의 전환 트리거는 STARK 출시 SRS 2026에서 30개 이상의 로봇 플랫폼이 등장하며 경쟁이 하드웨어에서 AI, 데이터, 수술실 생태계로 확장되는 가운데, 스타크는 플랫폼 발표와 해외 KOL 노출을 확보하고 2-cart/4-arm, 360도 회전, 재도킹 없는 multi-quadrant 구조를 공개. 로봇 미반입에도 기구 50종 전시와 단독 심포지엄을 통해 Johns Hopkins, Inova, Houston Methodist 등 주요 의료시스템 관계자 방문을 확인했으나, 상업성 판단에는 인허가와 초기 설치 성과 확인이 필요. 국내 인허가 승인 시점은 2026년 12월 말 2026E 매출액 697억원(YoY +36%), 영업적자 331억원 전망. 상장 당시 가이던스 대비 하회하는 추정치 ▶ 투자의견 추정치 하향",
+              "post_url": "https://t.me/daolresearch/14896",
+              "source_url": "https://buly.kr/90da7I3"
+            },
+            {
+              "id": 14895,
+              "date": "2026-08-18",
+              "month": "2026-08",
+              "analyst": "박종현",
+              "sector": "화장품",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [
+                "▶ Implication 추적 바스켓 28개 합계 $9.17M(WoW -0.6%)로 보합, 상위 브랜드만 셀스루 확대, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 56만원)은 메디큐브 $4.30M(+7.5%)으로 2위 닥터멜락신 $1.91M과 격차 확대, Amazon 미국도 18.0%(+2.7%p) 회복."
+              ],
+              "preferred_stocks": [
+                "▶ Implication 추적 바스켓 28개 합계 $9.17M(WoW -0.6%)로 보합, 상위 브랜드만 셀스루 확대, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 56만원)은 메디큐브 $4.30M(+7.5%)으로 2위 닥터멜락신 $1.91M과 격차 확대, Amazon 미국도 18.0%(+2.7%p) 회복."
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ Implication 추적 바스켓 28개 합계 $9.17M(WoW -0.6%)로 보합, 상위 브랜드만 셀스루 확대, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 56만원)은 메디큐브 $4.30M(+7.5%)으로 2위 닥터멜락신 $1.91M과 격차 확대, Amazon 미국도 18.0%(+2.7%p) 회복.",
+              "report_conclusion": "▶ Implication 추적 바스켓 28개 합계 $9.17M(WoW -0.6%)로 보합, 상위 브랜드만 셀스루 확대, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 56만원)은 메디큐브 $4.30M(+7.5%)으로 2위 닥터멜락신 $1.91M과 격차 확대, Amazon 미국도 18.0%(+2.7%p) 회복.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/1y1Gsef",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1y1Gsef (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f633b1dc200>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~8/16)",
+              "summary": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~8/16) ▶ Implication 추적 바스켓 28개 합계 $9.17M(WoW -0.6%)로 보합, 상위 브랜드만 셀스루 확대, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 56만원)은 메디큐브 $4.30M(+7.5%)으로 2위 닥터멜락신 $1.91M과 격차 확대, Amazon 미국도 18.0%(+2.7%p) 회복. 다만 할인율 36%가 유기적 조회 23%와 병존해 마진 레버리지보다 톱라인 지속성 확인 우선 아모레퍼시픽(BUY, TP 18만원)은 COSRX 유기적 조회 26%로 성장의 질은 커버리지 내 상위이나 분기누적 $2.31M으로 절대 규모 제한적. 북미 대체데이터만으로 실적 기여 판단은 이른 단계 달바글로벌(BUY, TP 34만원)은 Amazon 스페인 17.5%(+1.5%p)로 단일국 점유 확대, 미국·영국은 진입 부재. 미국 채널 확산 여부가 관전 포인트 다음 주는 메디큐브와 2위 브랜드 간 GMV 격차 유지 여부 · 미샤 주간 매출 되돌림의 지속 여부 · 달바 미국 Amazon·TikTok Shop 신규 확산 여부 확인 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1y1Gsef > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/14895",
+              "source_url": "https://buly.kr/1y1Gsef"
+            },
+            {
+              "id": 14894,
+              "date": "2026-08-18",
+              "month": "2026-08",
+              "analyst": "박종현",
+              "sector": "의료기기/화장품",
+              "company": "2Q",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/3YG5hze",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YG5hze (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f633b1dd370>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[다올 의료기기/화장품 박종현] ★ 2Q 통관 추정 유효, 3Q 톡신·필러 강세 출발 - 2026.7월 수출 데이터",
+              "summary": "[다올 의료기기/화장품 박종현] ★ 2Q 통관 추정 유효, 3Q 톡신·필러 강세 출발 - 2026.7월 수출 데이터 ▶ 2Q26 실적 Review — 통관 추정치 적중도 대웅 나보타 수출 94.1십억원, 통관 추정 오차 +0.5%로 통관-매출 정합성 지속 휴젤 톡신 통관 과소(-21%)·필러 과대(+26%)로 갈림, 모두 신뢰도 Mid 클래시스 실제 41.6십억원으로 통관 추정 대비 -10%로 과소추정 파마리서치 보정 후에도 오차 재확대(+20%), 레벨보다 방향성 중심 ▶ 3Q26 통관 조기 추적 (7월) 톡신·필러 강세: 대웅 화성시 +92%, 파마 강릉시 +83%, 휴젤 필러 통관 Surprise +47% 미용 의료기기 견조: 클래시스 강남구 +47% 휴젤 톡신은 통관 Surprise -17%로 추정 하회 ▶ Implication 2Q26 확정 실적으로 통관 추정 적중도 재확인. 휴젤 3Q26 추정 재점검 후보 (필러 상향·톡신 하향 여지). 7월 1개월 추정분으로 방향 위주 해석 * 보고서 원문 및 컴플라이언스 < https://buly.kr/3YG5hze > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/14894",
+              "source_url": "https://buly.kr/3YG5hze"
+            },
             {
               "id": 14883,
               "date": "2026-08-14",
@@ -2485,7 +2638,7 @@
           ]
         }
       ],
-      "report_count": 71
+      "report_count": 75
     },
     {
       "month": "2026-07",
