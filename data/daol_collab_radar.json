@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-18T23:21:29.961248+00:00",
+ "generated_at": "2026-08-18T23:29:09.609674+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1267,
+ "report_count": 1268,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28622,6 +28622,23 @@
    "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 미사일 램프업은 예산이 관건",
    "post_url": "https://t.me/daolresearch/14907",
    "source_url": "https://buly.kr/450N17y"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-08-19",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "company": "Baidu",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ 실적 공시 ($bil, $) » 실적 내용 - 매출액: 4.6 - 영업이익 (OPM): 0.45 (9.7%) - EPS: 0.85 → 컨센서스 부합 » 컨센서스 - 매출액: 4.6 - 영업이익 (OPM): 0.5 (11.4%) - EPS: 1.33 » 부문별 매출액 ($bil, QoQ) - AI(코어) 비즈니스 부문 - AI Cloud Infra: 1.1 (-17%) - AI Applications: 0.4 (0%) - A"
+   ],
+   "title": "[다올투자증권 반도체/소부장 고영민] #Baidu CY2Q26 실적 발표(현지기준 8/18)",
+   "post_url": "https://t.me/daolresearch/14911",
+   "source_url": "https://buly.kr/90daU00"
   }
  ],
  "cross_mentions": [
@@ -29484,14 +29501,14 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.3
+   "burst": 31.2
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.7
+   "burst": 13.6
   },
   {
    "term": "일평균거래대금",
@@ -29519,7 +29536,7 @@
    "recent": 6,
    "total": 9,
    "sectors": 5,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "공급계약",

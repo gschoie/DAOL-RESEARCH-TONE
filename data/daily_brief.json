@@ -1,9 +1,9 @@
 {
  "date": "2026-08-19",
- "generated_at": "2026-08-19T08:21:32.193287+09:00",
+ "generated_at": "2026-08-19T08:29:11.229380+09:00",
  "ai": true,
  "model": "gemini-flash-lite-latest",
- "report_count": 12,
+ "report_count": 13,
  "event_count": 20,
- "text": "### 주요 종목 투자의견 및 실적 변경\n- **세아제강(306200)**: TP 190,000원 → 200,000원으로 상향 및 2Q26 영업이익 컨센서스 상회 ([원문](https://t.me/daolresearch/14899))\n- **한화시스템(272210)**: 투자의견 HOLD → BUY로 변경 (커버리지 재개, TP 118,000원) ([원문](https://t.me/daolresearch/14897))\n- **리브스메드(491000)**: TP 140,000원 → 90,000원으로 하향 및 실적추정 하향 ([원문](https://t.me/daolresearch/14896))\n- **이수페타시스(007660)**: 26년/27년 영업이익 추정치 각각 +11%/+12% 상향 ([원문](https://t.me/daolresearch/14905))\n\n### 주요 산업 및 해외 리포트 동향\n- **조선 산업**: 미사일 재고 부족 및 생산능력 확대 등으로 투자포인트 변화 ([원문](https://t.me/daolresearch/14907))\n- **자동차 산업**: 환율환경 변화 및 HMGMA 양산 등 신규 투자포인트 제시 ([원문](https://t.me/daolresearch/14906))\n- **Baidu**: CY2Q26 실적 발표, 확신도 3으로 이례적 톤 하락 ([원문](https://t.me/daolresearch/14909))"
+ "text": "### 주요 투자의견 및 목표주가 변동\n- **한화시스템**: 투자의견 `HOLD`에서 `BUY`로 상향 [원문](https://t.me/daolresearch/14897)\n- **세아제강**: 목표주가 190,000원 → 200,000원 상향 및 실적 컨센서스 상회 [원문](https://t.me/daolresearch/14899)\n- **리브스메드**: 목표주가 140,000원 → 90,000원 하향 및 추정치 하회 [원문](https://t.me/daolresearch/14896)\n\n### 주요 기업 실적 및 톤 변화\n- **이수페타시스**: 26년/27년 영업이익 추정치 각각 +11%/+12% 상향 [원문](https://t.me/daolresearch/14905)\n- **Baidu**: AI Cloud 고성장 등 투자포인트 변화에도 불구, 확신도 3으로 이례적 톤 하주 [원문](https://t.me/daolresearch/14911)"
 }
