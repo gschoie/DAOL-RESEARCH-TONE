@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-18T22:30:52.544040+00:00",
+ "generated_at": "2026-08-18T22:49:16.288457+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1263,
+ "report_count": 1266,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28569,6 +28569,59 @@
    "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(상향)/ 다올 철강 이정우] ★ 높아진 이익 체력",
    "post_url": "https://t.me/daolresearch/14899",
    "source_url": "https://buly.kr/DEblfI2"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-19",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "자동차",
+   "code": "",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "3Q26의경우 원화강세가 심화되며 수출환경은 상반기 대비 부정적으로 전환되었으나, 오히려 환율 포지션 자체는 안정적으로 전환",
+    "1H26 원화 약세 구간에서는 7조원 규모(현대차)의 달러화 판매보증충당부채에서 발생한 평가손이 5천억원 이상 발생."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 2H26 환율환경 변화 가능성 검토",
+   "post_url": "https://t.me/daolresearch/14906",
+   "source_url": "https://buly.kr/CWwk6As"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-19",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Issue: 중동 전쟁으로 바닥난 미사일 재고"
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 미사일 램프업은 예산이 관건",
+   "post_url": "https://t.me/daolresearch/14907",
+   "source_url": "https://buly.kr/450N17y"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-08-19",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]",
+    "방산(Overweight) – 미사일 램프업은 예산이 관건"
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 미사일 램프업은 예산이 관건",
+   "post_url": "https://t.me/daolresearch/14907",
+   "source_url": "https://buly.kr/450N17y"
   }
  ],
  "cross_mentions": [
@@ -29431,14 +29484,14 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.5
+   "burst": 31.4
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.8
+   "burst": 13.7
   },
   {
    "term": "일평균거래대금",
