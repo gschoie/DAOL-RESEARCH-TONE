@@ -683,6 +683,7 @@ def build():
                'ai_analyzed': data['ai_analyzed'],
                'events': events[:20],
                'latest': [{'date': r['date'], 'company': r['company'] or f"{r['sector']} 산업",
+                           'company_key': company_key(r)[0],
                            'analyst': r['analyst'], 'sector': r['sector'], 'title': r['title'][:120],
                            'opinion': r['opinion'], 'conviction': r['conviction'],
                            'tp_dir': (r.get('tp_event') or {}).get('direction', ''),
