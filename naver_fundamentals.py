@@ -79,7 +79,8 @@ def derived_valuation(rec):
     """같은 표의 수치로 파생 지표 계산 — 외부 시총 조회는 단위 사고가 잦아 쓰지 않는다.
     시총(억원) ≈ PER × 순이익, PSR = 시총 ÷ 매출액 = PER × 순이익 ÷ 매출액."""
     per, ni, rev = rec.get('per'), rec.get('ni'), rec.get('revenue')
-    if per and ni and ni > 0 and rev:
+    # PER<0(지배주주 EPS 적자 해)은 시총 파생이 무의미 — 음수 시총 방지
+    if per and per > 0 and ni and ni > 0 and rev:
         rec['psr'] = round(per * ni / rev, 2)
         rec['mcap_implied'] = round(per * ni)
     else:
