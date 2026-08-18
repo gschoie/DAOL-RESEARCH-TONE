@@ -887,7 +887,7 @@ function chartBubble(cd, funda) {
   const s = cd.series;
   const n = s.length;
   if (n < 2) return;
-  const W = 340, H = 86, PAD = 8, CONV_H = 16;
+  const W = 340, H = 96, PAD = 8, CONV_H = 22;
   const x = (i) => PAD + (W - 2 * PAD) * i / (n - 1);
   const lineArea = H - CONV_H - 10;
   let svg = '';
@@ -903,16 +903,29 @@ function chartBubble(cd, funda) {
     const last = tps[tps.length - 1];
     tpLabel = ` · TP ${lo === hi ? '' : Math.round(lo).toLocaleString() + '~' + Math.round(hi).toLocaleString() + '원, '}최신 ${Math.round(last).toLocaleString()}원`;
   }
+  // 확신도: 배터리식 1~5칸 — 칸을 나눠 그려 4와 5가 한눈에 구분되게
   const convColor = { 1: '#c0392b', 2: '#e0762f', 3: '#9aa39d', 4: '#5a9b6e', 5: '#1e7a4f' };
-  const cy = H - CONV_H / 2 - 2;
-  svg += s.map((p, i) => p.conv != null
-    ? `<circle cx="${Math.round(x(i))}" cy="${cy}" r="3.6" fill="${convColor[p.conv] || '#9aa39d'}"><title>${p.date} 확신도 ${p.conv}</title></circle>`
-    : '').join('');
+  const bw = 8, bh = 16, seg = (bh - 2) / 5; // 칸 5개 + 칸 사이 여백
+  const by = H - CONV_H + (CONV_H - bh) / 2;
+  svg += s.map((p, i) => {
+    if (p.conv == null) return '';
+    const bx = Math.round(x(i) - bw / 2);
+    const color = convColor[p.conv] || '#9aa39d';
+    let cells = '';
+    for (let k = 0; k < 5; k++) {
+      const filled = k < p.conv;
+      const cy2 = by + 1 + (4 - k) * seg; // 아래부터 채운다
+      cells += `<rect x="${bx + 1.5}" y="${(cy2 + 0.4).toFixed(1)}" width="${bw - 3}" height="${(seg - 0.8).toFixed(1)}"` +
+               ` fill="${filled ? color : 'none'}" ${filled ? '' : 'fill-opacity="0"'} stroke="none"/>`;
+    }
+    return `<g><rect x="${bx}" y="${by}" width="${bw}" height="${bh}" rx="2" fill="none" stroke="#9aa39d" stroke-width="1"/>` +
+           `${cells}<title>${p.date} 확신도 ${p.conv}/5</title></g>`;
+  }).join('');
   const div = document.createElement('div');
   div.className = 'msg assistant chart';
   const f = funda && funda.companies && funda.companies[cd.code];
   div.innerHTML =
-    `<div class="chart-title">📈 ${escapeHtml(cd.name)} — TP(선) · 확신도(점, 빨강1↔초록5)</div>` +
+    `<div class="chart-title">📈 ${escapeHtml(cd.name)} — TP(선) · 확신도(배터리 1~5칸)</div>` +
     `<svg viewBox="0 0 ${W} ${H}" role="img">${svg}</svg>` +
     `<div class="chart-cap">${s[0].date} ~ ${s[n - 1].date} · 리포트 ${n}건${tpLabel}</div>` +
     (f ? fundaTableHtml(f) : '');
