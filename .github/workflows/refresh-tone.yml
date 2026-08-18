@@ -62,7 +62,10 @@ jobs:
         run: python price_returns.py || echo "::warning::주가 캐시 갱신 실패"
 
       # 커버 종목 연간 재무·밸류 지표(네이버 금융) — 챗봇 기업 카드용, 캐시 20시간 이내면 스킵
+      # (코드 머지·수동 실행 때는 강제 재수집 — 수집 로직을 고친 직후 바로 반영되도록)
       - name: 네이버 재무 지표 수집
+        env:
+          FORCE_FUNDA: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && '1' || '' }}
         run: python naver_fundamentals.py || echo "::warning::재무 지표 수집 실패"
 
       - name: 사용 가능 Gemini 모델 덤프

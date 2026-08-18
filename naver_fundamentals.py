@@ -75,15 +75,37 @@ def parse_annual(payload):
     return out
 
 
+MCAP_KEYS = ('marketvalue', 'marketsum', 'marketcap', '시가총액')
+
+
+def _num_loose(x):
+    """'4,013,225억원' 같은 단위 접미사가 붙은 값도 숫자로. (조/억 혼합 표기는 버린다)"""
+    import re
+    s = str(x if x is not None else '')
+    if '조' in s:
+        return None  # '400조 1,322억' 류는 파싱하지 않음 — 다른 후보를 찾는다
+    s = re.sub(r'[^0-9.]', '', s.replace(',', ''))
+    try:
+        return float(s) if s else None
+    except ValueError:
+        return None
+
+
 def find_market_cap(obj):
-    """basic 응답에서 시가총액(억원)을 키 이름으로 탐색 — 응답 구조 변화에 방어적."""
+    """응답 어디에 있든 시가총액(억원)을 찾는다 — 키 이름 매치와
+    {code|key: 'marketValue', value: ...} 항목 형태 둘 다 커버."""
     stack = [obj]
     while stack:
         cur = stack.pop()
         if isinstance(cur, dict):
+            tag = str(cur.get('code') or cur.get('key') or '').lower()
+            if tag in MCAP_KEYS:
+                n = _num_loose(cur.get('value'))
+                if n:
+                    return n
             for k, v in cur.items():
-                if str(k).lower() in ('marketvalue', 'marketsum', 'marketcap'):
-                    n = _num(v)
+                if str(k).lower() in MCAP_KEYS:
+                    n = _num_loose(v)
                     if n:
                         return n
                 stack.append(v)
@@ -123,11 +145,14 @@ def main():
             if not years:
                 raise ValueError('연도 데이터 없음')
             mcap = None
-            try:
-                basic = s.get(API.format(code=code, path='basic'), headers=UA, timeout=10).json()
-                mcap = find_market_cap(basic)
-            except Exception:
-                pass
+            for path in ('basic', 'integration'):
+                try:
+                    payload = s.get(API.format(code=code, path=path), headers=UA, timeout=10).json()
+                    mcap = find_market_cap(payload)
+                except Exception:
+                    mcap = None
+                if mcap:
+                    break
             for y, rec in years.items():
                 rec['psr'] = round(mcap / rec['revenue'], 2) if mcap and rec.get('revenue') else None
             companies[code] = {'name': name, 'market_cap': mcap, 'years': years}
