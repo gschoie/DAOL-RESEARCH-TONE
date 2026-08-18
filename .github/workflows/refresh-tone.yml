@@ -61,6 +61,10 @@ jobs:
       - name: 주가 종가 캐시 갱신
         run: python price_returns.py || echo "::warning::주가 캐시 갱신 실패"
 
+      # 커버 종목 연간 재무·밸류 지표(네이버 금융) — 챗봇 기업 카드용, 캐시 20시간 이내면 스킵
+      - name: 네이버 재무 지표 수집
+        run: python naver_fundamentals.py || echo "::warning::재무 지표 수집 실패"
+
       - name: 사용 가능 Gemini 모델 덤프
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -113,6 +117,7 @@ jobs:
           # 웹 챗봇의 PDF 원문 검색용 (없어도 배포는 계속 — 챗봇의 원문 도구만 비활성)
           cp data/daol_pdf_text_cache.json data/daol_messages.json _site/ 2>/dev/null || true
           cp data/daily_brief.json _site/ 2>/dev/null || true
+          cp data/naver_fundamentals.json _site/ 2>/dev/null || true
 
       # 커밋백이 실패해도 배포는 계속한다(데이터는 다음 성공 런에 다시 담김).
       # 실패 시 진단을 _site/debug_commitback.txt로 배포해 밖에서 원인을 볼 수 있게 한다.
