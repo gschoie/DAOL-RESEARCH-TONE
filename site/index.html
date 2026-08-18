@@ -507,7 +507,14 @@ document.addEventListener('click',e=>{
 if(window.self!==window.top){const hero=document.querySelector('.hero');if(hero){hero.querySelector('div:first-child').style.display='none';hero.style.cssText+='border-bottom:0;padding-bottom:2px;margin-bottom:6px;justify-content:flex-end'}
  // 데이터 갱신 링크는 대시보드(iframe)에서만 노출 — 새창/단독으로 열면 숨김
  const la=document.getElementById('link-actions');if(la)la.hidden=false}
-loadTone();
+/* URL 해시 딥링크: #co=<company_key 또는 회사명> → 해당 기업 팝업 자동 오픈 (대시보드 오늘의요약 연동) */
+function openToneDeepLink(){const m=(location.hash||'').match(/co=([^&]+)/);if(!m)return;
+ const want=decodeURIComponent(m[1]),cos=state.tone2?.companies||{};
+ let key=cos[want]?want:null;
+ if(!key){const nw=want.replace(/\s+/g,'');key=Object.keys(cos).find(k=>String(cos[k].name||'').replace(/\s+/g,'')===nw)||null}
+ if(key)openToneCompany(key)}
+window.addEventListener('hashchange',openToneDeepLink);
+loadTone().then(openToneDeepLink);
 </script>
 </body>
 </html>
