@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-18T23:13:47.496992+00:00",
+ "generated_at": "2026-08-18T23:21:29.961248+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1266,
+ "report_count": 1267,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29484,7 +29484,7 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.4
+   "burst": 31.3
   },
   {
    "term": "월드컵",
@@ -29498,21 +29498,21 @@
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.8
+   "burst": 11.7
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.9
+   "burst": 6.8
   },
   {
    "term": "분쟁",
