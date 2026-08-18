@@ -51,6 +51,12 @@
   #brief > summary::before { content:'▸ '; }
   #brief[open] > summary::before { content:'▾ '; }
   #brief .msg { max-width:100%; }
+  .funda { margin-top:10px; overflow-x:auto; }
+  .funda table { border-collapse:collapse; width:100%; font-size:12px; font-variant-numeric:tabular-nums; }
+  .funda th, .funda td { padding:3px 8px; border-bottom:1px solid var(--line); text-align:right; white-space:nowrap; }
+  .funda th:first-child, .funda td:first-child { text-align:left; }
+  .funda th { color:var(--sub); font-weight:600; border-bottom-width:1.5px; }
+  .funda tr:last-child td { border-bottom:0; }
   .msg.user { align-self:flex-end; background:var(--user); color:#fff; border-bottom-right-radius:4px; }
   .msg.assistant { align-self:flex-start; background:var(--panel); border:1px solid #e5e2da; border-bottom-left-radius:4px; }
   .msg.error { align-self:flex-start; background:#fdeaea; border:1px solid #f2c3c3; color:#8a1f1f; }
@@ -419,6 +425,9 @@ const TOOLS = [
   { name: 'search_street',
     description: '전시장 타사 증권사 리포트(최근 120일, 2,100여 건)에서 종목을 검색한다. 다올이 커버하지 않는 종목 질문에 사용. 증권사/TP 변경/의견/제목/요약 불릿 포함.',
     input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명(예: "에코프로")' } }, required: ['company'], additionalProperties: false } },
+  { name: 'get_fundamentals',
+    description: '다올 커버 종목의 연간 재무·밸류에이션 컨센서스(네이버 금융): 2025·2026년 매출액·영업이익·영업이익률·순이익·ROE·PER·PBR·PSR과 시가총액. "PER 얼마?", "내년 영업이익 컨센은?", "감익인가?" 류 수치 질문에 사용. 단위: 금액 억원, 비율 %.',
+    input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명 또는 6자리 종목코드' } }, required: ['company'], additionalProperties: false } },
   { name: 'compare_daol_vs_street',
     description: '다올 커버 종목별로 다올 TP와 타사(스트리트, 최근 120일) TP 중앙값의 괴리를 랭킹으로 돌려준다. "다올이 시장보다 강하게(약하게) 보는 종목은?", "시장과 시각차 큰 종목?" 류 질문에 사용. gap_pct 양수 = 다올이 강세.',
     input_schema: { type: 'object', properties: {
@@ -487,6 +496,17 @@ async function runTool(name, input) {
       if (!r.error) registerStreetChart(r, ked);
       return serialize(r);
     }
+    case 'get_fundamentals': {
+      const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
+      const hit = resolveCompany(input.company || '', tone);
+      if (!hit) return serialize({ error: `'${input.company}'는 다올 커버 종목이 아닙니다. search_street를 사용하세요.` });
+      let funda = null;
+      try { funda = await loadJson('naver_fundamentals.json'); } catch (e) {}
+      const f = funda && funda.companies && funda.companies[hit[0]];
+      if (!f) return serialize({ error: '이 종목의 재무 지표 데이터가 아직 없습니다.' });
+      registerChart(hit[0], tone);
+      return serialize({ code: hit[0], unit_note: funda.unit_note, source: funda.source, ...f });
+    }
     case 'compare_daol_vs_street': return serialize(compareStreet(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     default: return serialize({ error: `알 수 없는 도구: ${name}` });
   }
@@ -513,6 +533,7 @@ const SYSTEM_PROMPT = `당신은 "다올 리서치 톤" 챗봇입니다. 다올�
 - 주제/키워드로 리포트 찾기 → search_reports · 원문 표현/수치 확인 → search_report_fulltext, get_report_fulltext
 - 다올 미커버 종목 → search_street
 - 다올과 시장(타사)의 시각 차이("다올이 시장보다 강하게 보는 종목?") → compare_daol_vs_street
+- 재무·밸류 수치("PER 얼마?", "내년 영업이익 컨센?") → get_fundamentals (네이버 금융 컨센서스)
 답하기 전에 반드시 관련 도구를 호출해 데이터를 확인하세요. 구조화 필드(요약)와 원문이 다르면 원문을 우선합니다.`;
 
 const MAX_TOOL_ROUNDS = 8;
@@ -842,7 +863,25 @@ function streetChartBubble(cd) {
   chat.scrollTop = chat.scrollHeight;
 }
 
-function chartBubble(cd) {
+/* --- 재무·밸류 표 (네이버 금융 컨센서스, 커버 종목 차트 아래) --- */
+function fundaTableHtml(f) {
+  const y25 = f.years && f.years['2025'], y26 = f.years && f.years['2026'];
+  if (!y25 && !y26) return '';
+  const fmt = (v, d) => v == null ? '—'
+    : Number(v).toLocaleString(undefined, { maximumFractionDigits: d, minimumFractionDigits: 0 });
+  const rows = [
+    ['매출액(억원)', 'revenue', 0], ['영업이익(억원)', 'op', 0], ['영업이익률(%)', 'opm', 1],
+    ['순이익(억원)', 'ni', 0], ['PER(배)', 'per', 1], ['PBR(배)', 'pbr', 2],
+    ['ROE(%)', 'roe', 1], ['PSR(배)', 'psr', 2], ['EV/EBITDA(배)', 'ev_ebitda', 1],
+  ].filter(([, k]) => k !== 'ev_ebitda' || (y25 && y25[k] != null) || (y26 && y26[k] != null));
+  const head = (y, label) => label + (y && y.est ? '(E)' : '');
+  const tr = rows.map(([lab, k, d]) =>
+    `<tr><td>${lab}</td><td>${fmt(y25 && y25[k], d)}</td><td>${fmt(y26 && y26[k], d)}</td></tr>`).join('');
+  return `<div class="funda"><table><tr><th>NAVER 컨센</th><th>${head(y25, '2025')}</th><th>${head(y26, '2026')}</th></tr>${tr}</table>` +
+    `<div class="chart-cap">출처: 네이버 금융 · (E)=컨센서스 추정${f.market_cap ? ` · 시가총액 ${fmt(f.market_cap, 0)}억원` : ''}</div></div>`;
+}
+
+function chartBubble(cd, funda) {
   if (cd.kind === 'street') return streetChartBubble(cd);
   const s = cd.series;
   const n = s.length;
@@ -870,10 +909,12 @@ function chartBubble(cd) {
     : '').join('');
   const div = document.createElement('div');
   div.className = 'msg assistant chart';
+  const f = funda && funda.companies && funda.companies[cd.code];
   div.innerHTML =
     `<div class="chart-title">📈 ${escapeHtml(cd.name)} — TP(선) · 확신도(점, 빨강1↔초록5)</div>` +
     `<svg viewBox="0 0 ${W} ${H}" role="img">${svg}</svg>` +
-    `<div class="chart-cap">${s[0].date} ~ ${s[n - 1].date} · 리포트 ${n}건${tpLabel}</div>`;
+    `<div class="chart-cap">${s[0].date} ~ ${s[n - 1].date} · 리포트 ${n}건${tpLabel}</div>` +
+    (f ? fundaTableHtml(f) : '');
   chat.appendChild(div);
   chat.scrollTop = chat.scrollHeight;
 }
@@ -896,7 +937,11 @@ async function ask(question) {
     const r = await answer(question);
     pending.remove();
     if (!r.rendered) bubble('assistant', r.text);
-    for (const cd of turnCharts.slice(0, 2)) chartBubble(cd);
+    let funda = null;
+    if (turnCharts.some(c => c.kind !== 'street')) {
+      try { funda = await loadJson('naver_fundamentals.json'); } catch (e) {}
+    }
+    for (const cd of turnCharts.slice(0, 2)) chartBubble(cd, funda);
   } catch (err) {
     pending.remove();
     bubble('error', err.message || '오류가 발생했습니다.');
