@@ -877,8 +877,9 @@ function fundaTableHtml(f) {
   const head = (y, label) => label + (y && y.est ? '(E)' : '');
   const tr = rows.map(([lab, k, d]) =>
     `<tr><td>${lab}</td><td>${fmt(y25 && y25[k], d)}</td><td>${fmt(y26 && y26[k], d)}</td></tr>`).join('');
+  const mcap = (y26 && y26.mcap_implied) || (y25 && y25.mcap_implied);
   return `<div class="funda"><table><tr><th>NAVER 컨센</th><th>${head(y25, '2025')}</th><th>${head(y26, '2026')}</th></tr>${tr}</table>` +
-    `<div class="chart-cap">출처: 네이버 금융 · (E)=컨센서스 추정${f.market_cap ? ` · 시가총액 ${fmt(f.market_cap, 0)}억원` : ''}</div></div>`;
+    `<div class="chart-cap">출처: 네이버 금융 · (E)=컨센서스 추정${mcap ? ` · 시총(컨센 함의) 약 ${fmt(mcap, 0)}억원` : ''}</div></div>`;
 }
 
 function chartBubble(cd, funda) {

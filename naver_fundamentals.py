@@ -75,43 +75,17 @@ def parse_annual(payload):
     return out
 
 
-MCAP_KEYS = ('marketvalue', 'marketsum', 'marketcap', '시가총액')
-
-
-def _num_loose(x):
-    """'4,013,225억원' 같은 단위 접미사가 붙은 값도 숫자로. (조/억 혼합 표기는 버린다)"""
-    import re
-    s = str(x if x is not None else '')
-    if '조' in s:
-        return None  # '400조 1,322억' 류는 파싱하지 않음 — 다른 후보를 찾는다
-    s = re.sub(r'[^0-9.]', '', s.replace(',', ''))
-    try:
-        return float(s) if s else None
-    except ValueError:
-        return None
-
-
-def find_market_cap(obj):
-    """응답 어디에 있든 시가총액(억원)을 찾는다 — 키 이름 매치와
-    {code|key: 'marketValue', value: ...} 항목 형태 둘 다 커버."""
-    stack = [obj]
-    while stack:
-        cur = stack.pop()
-        if isinstance(cur, dict):
-            tag = str(cur.get('code') or cur.get('key') or '').lower()
-            if tag in MCAP_KEYS:
-                n = _num_loose(cur.get('value'))
-                if n:
-                    return n
-            for k, v in cur.items():
-                if str(k).lower() in MCAP_KEYS:
-                    n = _num_loose(v)
-                    if n:
-                        return n
-                stack.append(v)
-        elif isinstance(cur, list):
-            stack.extend(cur)
-    return None
+def derived_valuation(rec):
+    """같은 표의 수치로 파생 지표 계산 — 외부 시총 조회는 단위 사고가 잦아 쓰지 않는다.
+    시총(억원) ≈ PER × 순이익, PSR = 시총 ÷ 매출액 = PER × 순이익 ÷ 매출액."""
+    per, ni, rev = rec.get('per'), rec.get('ni'), rec.get('revenue')
+    if per and ni and ni > 0 and rev:
+        rec['psr'] = round(per * ni / rev, 2)
+        rec['mcap_implied'] = round(per * ni)
+    else:
+        rec['psr'] = None
+        rec['mcap_implied'] = None
+    return rec
 
 
 def main():
@@ -144,18 +118,9 @@ def main():
             years = parse_annual(annual)
             if not years:
                 raise ValueError('연도 데이터 없음')
-            mcap = None
-            for path in ('basic', 'integration'):
-                try:
-                    payload = s.get(API.format(code=code, path=path), headers=UA, timeout=10).json()
-                    mcap = find_market_cap(payload)
-                except Exception:
-                    mcap = None
-                if mcap:
-                    break
-            for y, rec in years.items():
-                rec['psr'] = round(mcap / rec['revenue'], 2) if mcap and rec.get('revenue') else None
-            companies[code] = {'name': name, 'market_cap': mcap, 'years': years}
+            for rec in years.values():
+                derived_valuation(rec)
+            companies[code] = {'name': name, 'years': years}
             ok += 1
         except Exception as exc:
             fail += 1
@@ -171,7 +136,7 @@ def main():
     OUT.write_text(json.dumps({
         'fetched_at': datetime.now(timezone.utc).isoformat(),
         'source': 'NAVER FINANCE (m.stock.naver.com)',
-        'unit_note': '매출액·영업이익·순이익·시가총액: 억원 / 영업이익률·ROE: % / PER·PBR·PSR·EV/EBITDA: 배',
+        'unit_note': '매출액·영업이익·순이익: 억원 / 영업이익률·ROE: % / PER·PBR·PSR·EV/EBITDA: 배 · PSR·mcap_implied는 PER×순이익 기반 파생값',
         'companies': companies,
     }, ensure_ascii=False), encoding='utf-8')
     print(f'fundamentals: {ok}건 수집, {fail}건 실패(이전값 유지 포함), 총 {len(companies)}건 저장')
