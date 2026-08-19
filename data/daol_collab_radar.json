@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-19T22:08:27.808781+00:00",
+ "generated_at": "2026-08-19T22:34:04.337277+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1268,
+ "report_count": 1270,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28639,6 +28639,23 @@
    "title": "[다올투자증권 반도체/소부장 고영민] #Baidu CY2Q26 실적 발표(현지기준 8/18)",
    "post_url": "https://t.me/daolresearch/14911",
    "source_url": "https://buly.kr/90daU00"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-08-20",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "글로벌텍스프리",
+   "code": "204620",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[글로벌텍스프리(204620)/ Not Rated/ 다올 의료기기/화장품 박종현]"
+   ],
+   "title": "[글로벌텍스프리(204620)/ Not Rated/ 다올 의료기기/화장품 박종현] ★ 주가 환급받을 시간",
+   "post_url": "https://t.me/daolresearch/14917",
+   "source_url": "https://buly.kr/7QOm0ft"
   }
  ],
  "cross_mentions": [
@@ -29501,21 +29518,21 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.2
+   "burst": 31.4
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.6
+   "burst": 13.7
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.7
+   "burst": 11.8
   },
   {
    "term": "저변",
@@ -29529,21 +29546,21 @@
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.8
+   "burst": 6.9
   },
   {
    "term": "분쟁",
    "recent": 6,
    "total": 9,
    "sectors": 5,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
-   "term": "공급계약",
-   "recent": 6,
-   "total": 10,
+   "term": "실질",
+   "recent": 7,
+   "total": 12,
    "sectors": 5,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "기저가",
@@ -29581,13 +29598,6 @@
    "burst": 3.9
   },
   {
-   "term": "실질",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
-   "burst": 3.9
-  },
-  {
    "term": "물류비",
    "recent": 6,
    "total": 11,
@@ -29600,6 +29610,13 @@
    "total": 22,
    "sectors": 7,
    "burst": 3.6
+  },
+  {
+   "term": "일시",
+   "recent": 9,
+   "total": 18,
+   "sectors": 8,
+   "burst": 3.5
   }
  ]
 }
