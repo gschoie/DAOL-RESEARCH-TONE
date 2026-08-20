@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-20T22:54:33.105704+00:00",
+ "generated_at": "2026-08-20T23:47:15.064227+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1273,
+ "report_count": 1274,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28708,6 +28708,92 @@
    "title": "[한화에어로스페이스(012450)/BUY(유지)/TP 2,460,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화에어로스페이스(012450) : 대박경사: K9이 바퀴 달고 미국 간다",
    "post_url": "https://t.me/daolresearch/14920",
    "source_url": "https://bit.ly/HA0820SPOT"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-21",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ Key Chart & 핵심지표 - 원/달러 환율의 급락 원인."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 3주차)]",
+   "post_url": "https://t.me/daolresearch/14931",
+   "source_url": "https://buly.kr/EI6Kdlp"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-08-21",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "이후 SK하이닉스 대규모 주주환원 발표와 미 국채금리 안정을 재료로 저가매수가 유입, 급반등하며 낙폭 만회."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 3주차)]",
+   "post_url": "https://t.me/daolresearch/14931",
+   "source_url": "https://buly.kr/EI6Kdlp"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-21",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "미·이란 전쟁 장기화에 따른 인플레이션 부담으로 유가·금리가 상승하며 약세 출발."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 3주차)]",
+   "post_url": "https://t.me/daolresearch/14931",
+   "source_url": "https://buly.kr/EI6Kdlp"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-08-21",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -4,
+   "evidences": [
+    "주중 미 재무부의 국채 바이백 확대 발표로 중장기 금리가 급락하며 반등 흐름 보였으나, 유가 상승에 따른 인플레이션 우려 지속 및 소비 둔화 우려 등으로 반등 제한",
+    "다만 중동 정세 악화에 따른 유가·금리 부담으로 하락 전환, 차익실현·AI 우려가 겹치며 급락."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 3주차)]",
+   "post_url": "https://t.me/daolresearch/14931",
+   "source_url": "https://buly.kr/EI6Kdlp"
+  },
+  {
+   "theme": "구리/비철금속",
+   "category": "원자재",
+   "date": "2026-08-21",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "KOSPI는 비철,목재등(+2.0%), 반도체(+0.3%), 보험(+0.1%) 업종이 상승한 가운데 IT하드웨어(-9.7%), 자동차(-7.6%), 조선(-6.3%) 업종 하락."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 3주차)]",
+   "post_url": "https://t.me/daolresearch/14931",
+   "source_url": "https://buly.kr/EI6Kdlp"
   }
  ],
  "cross_mentions": [
@@ -29570,14 +29656,14 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.5
+   "burst": 31.4
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.8
+   "burst": 13.7
   },
   {
    "term": "일평균거래대금",
@@ -29591,7 +29677,7 @@
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "배당수익률",
