@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-20T22:10:09.028594+00:00",
+ "generated_at": "2026-08-20T22:36:56.452925+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1271,
+ "report_count": 1272,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29570,35 +29570,35 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.3
+   "burst": 31.6
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.7
+   "burst": 13.8
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.7
+   "burst": 11.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.8
+   "burst": 6.9
   },
   {
    "term": "분쟁",
@@ -29657,18 +29657,18 @@
    "burst": 3.9
   },
   {
-   "term": "점차",
-   "recent": 11,
-   "total": 22,
-   "sectors": 7,
-   "burst": 3.6
-  },
-  {
    "term": "일시",
    "recent": 9,
    "total": 18,
    "sectors": 8,
-   "burst": 3.5
+   "burst": 3.6
+  },
+  {
+   "term": "Mix",
+   "recent": 9,
+   "total": 18,
+   "sectors": 5,
+   "burst": 3.6
   }
  ]
 }
