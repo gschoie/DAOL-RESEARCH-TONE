@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-23T22:48:33.359555+00:00",
+ "generated_at": "2026-08-23T23:42:49.179039+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1276,
+ "report_count": 1277,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28899,6 +28899,24 @@
    "title": "[삼성생명(032830)/BUY/TP 450,000원, 삼성화재(000810)/BUY/TP 850,000]｜다올 금융 김지원 ☎ 2184-2306] ★ 전자 관련 취득재원 증가",
    "post_url": "https://t.me/daolresearch/14936",
    "source_url": "https://buly.kr/BpHjzDL"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-08-24",
+   "analyst": "김혜영",
+   "sector": "인터넷/게임/레저",
+   "company": "카카오",
+   "code": "035720",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "추가적으로 카카오인베스트먼트 흡수 합병을 통해 마련한 2.3조원(자회사 재원 제외)을 향후 투자 및 주주환원에 활용할 예정 -KakaoAI는 카카오톡 기반의 플랫폼 사업을 중심으로 AI 사업, 광고, 커머스 사업 영위할 예정.",
+    "다소 아쉬운 주주환원 - KakaoX는 기본적으로 수취한 배당금의 30%를 배당이나 자사주 매입/소각으로 환원할 계획."
+   ],
+   "title": "[카카오(035720)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 인적분할로 확실해진 명암 ★ 45,000원(하향), BUY(유지)",
+   "post_url": "https://t.me/daolresearch/14940",
+   "source_url": "https://buly.kr/GEAgVyx"
   }
  ],
  "cross_mentions": [
@@ -29761,7 +29779,7 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.4
+   "burst": 31.3
   },
   {
    "term": "월드컵",
@@ -29775,21 +29793,21 @@
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.8
+   "burst": 11.7
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.9
+   "burst": 6.8
   },
   {
    "term": "방향",
