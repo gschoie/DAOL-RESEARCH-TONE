@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-23T22:06:50.552840+00:00",
+ "generated_at": "2026-08-23T22:32:30.274840+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1275,
+ "report_count": 1276,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28881,6 +28881,24 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 일본 나무라도 LNG선 건조 추진, 중국의 수주들 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/14934",
    "source_url": "https://bit.ly/DOS836"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-08-24",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "삼성생명",
+   "code": "032830",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "전자의 2026년 주주환원 예상규모와 방향 내용 공시.",
+    "또한, 회사별 주주환원 정책에 따라서도 달라질 수 있음."
+   ],
+   "title": "[삼성생명(032830)/BUY/TP 450,000원, 삼성화재(000810)/BUY/TP 850,000]｜다올 금융 김지원 ☎ 2184-2306] ★ 전자 관련 취득재원 증가",
+   "post_url": "https://t.me/daolresearch/14936",
+   "source_url": "https://buly.kr/BpHjzDL"
   }
  ],
  "cross_mentions": [
@@ -29743,7 +29761,7 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.2
+   "burst": 31.4
   },
   {
    "term": "월드컵",
@@ -29757,28 +29775,35 @@
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.7
+   "burst": 11.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.8
+   "burst": 6.9
+  },
+  {
+   "term": "방향",
+   "recent": 6,
+   "total": 10,
+   "sectors": 4,
+   "burst": 4.7
   },
   {
    "term": "분쟁",
-   "recent": 7,
+   "recent": 6,
    "total": 10,
    "sectors": 5,
-   "burst": 6.8
+   "burst": 4.7
   },
   {
    "term": "실질",
@@ -29834,13 +29859,6 @@
    "recent": 9,
    "total": 18,
    "sectors": 8,
-   "burst": 3.5
-  },
-  {
-   "term": "Mix",
-   "recent": 9,
-   "total": 18,
-   "sectors": 5,
    "burst": 3.5
   }
  ]
