@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-22T23:52:28.277464+00:00",
+ "generated_at": "2026-08-23T13:34:14.360556+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1274,
+ "report_count": 1275,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28794,6 +28794,93 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 3주차)]",
    "post_url": "https://t.me/daolresearch/14931",
    "source_url": "https://buly.kr/EI6Kdlp"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-08-23",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "신조 선복 대거 유입으로 올해 잔여 기간 및 2027년까지 어두운 시장 전망이 확산 Howe Robinson은 2027년 이후 약세 전망에 따른 단기 매물 증가로 용선료 하락 압력이 지속될 것으로 진단 △ Flex LNG는 호르무즈 해협 폐쇄 지속으로, 4분기 LNG 운임 반등 전망 Flex LNG는 호르무즈 해협이 2026년 내내 폐쇄 상태를 유지할 것으로 전망하며, ▽ ALNG는 중동 분쟁 지속 시, 해운시장 부정 전망",
+    "해양/디펜스/바람 △ HD현대, 미국 서•남부 조선소 2~3곳 인수 후보로 압축 ▷ HD한국조선해양, 인도 코친조선소와 합작법인 추진 중단 ▽ Aramco, 이란 공격 속 걸프만 원유 수출 재개 및 장금상선 VLCC 3척 선적"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 일본 나무라도 LNG선 건조 추진, 중국의 수주들 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14934",
+   "source_url": "https://bit.ly/DOS836"
+  },
+  {
+   "theme": "해운 운임",
+   "category": "원자재",
+   "date": "2026-08-23",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "컨테이너 운임 강세 및 연간 실적 전망 상향으로 AP Moller-Maersk 주가가 24% 급등하며 사상 최고치(21,590 DKK) 기록"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 일본 나무라도 LNG선 건조 추진, 중국의 수주들 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14934",
+   "source_url": "https://bit.ly/DOS836"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-08-23",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 일본 나무라도 LNG선 건조 추진, 중국의 수주들 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14934",
+   "source_url": "https://bit.ly/DOS836"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-08-23",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "LNG △ Namura Shipbuilding, LNG선 건조를 위한 신규 대형 드라이도크 건설 추진 ▽ 선복량 증가로 LNG선 스팟 운임 8개월 만에 최저치 급락, 2027년까지 침체 분위기 지속 ▼ 후동중화와 Everllence는 하이브리드 전기 추진 LNG선 설계 협력 ▽ Jiangsu Yangzijiang Shipbuilding, 첫 대형 LNG선 인도.",
+    "다올 선박: 일본 나무라도 LNG선 건조 추진, 중국의 수주들 ⚓ 주시 뉴스"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 일본 나무라도 LNG선 건조 추진, 중국의 수주들 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14934",
+   "source_url": "https://bit.ly/DOS836"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-08-23",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Lloyd’s Register(LR), Perenco 자회사 Dixstone으로부터 가봉 프로젝트용 LNG FSU 개조 선급 및 기술 보증 계약 수주"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 일본 나무라도 LNG선 건조 추진, 중국의 수주들 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/14934",
+   "source_url": "https://bit.ly/DOS836"
   }
  ],
  "cross_mentions": [
@@ -29656,7 +29743,7 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.4
+   "burst": 31.2
   },
   {
    "term": "월드컵",
@@ -29670,7 +29757,7 @@
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.8
+   "burst": 11.7
   },
   {
    "term": "저변",
@@ -29684,14 +29771,14 @@
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.9
+   "burst": 6.8
   },
   {
    "term": "분쟁",
-   "recent": 6,
-   "total": 9,
+   "recent": 7,
+   "total": 10,
    "sectors": 5,
-   "burst": 5.9
+   "burst": 6.8
   },
   {
    "term": "실질",
