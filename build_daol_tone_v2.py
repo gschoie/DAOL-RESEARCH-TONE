@@ -665,12 +665,32 @@ def build():
     steady = sorted(steady, key=lambda x: x['date'], reverse=True)[:200]
 
     # 이벤트 사후 주가 검증: +5/+20영업일 수익률(종가 캐시 기반, 네트워크 없음)
-    fwd = make_return_fn(load_json(PRICE_CACHE, {}))
+    price_cache = load_json(PRICE_CACHE, {})
+    fwd = make_return_fn(price_cache)
     for e in events + steady:
         code = e.get('company_key') or ''
         if re.fullmatch(r'[0-9]{6}', code):
             e['ret5'] = fwd(code, e['date'], 5)
             e['ret20'] = fwd(code, e['date'], 20)
+
+    # 발간 당시 상승여력: TP ÷ 발간 전일 종가 − 1. 아침 발간 보고서의 관례(전일 종가 기준)를 따르므로
+    # 발간일 "직전" 거래일 종가를 쓴다(종가 캐시는 최근 150일 커버 — 그 밖 과거 리포트는 표기 생략).
+    closes_by_code = {c: e.get('closes', []) for c, e in price_cache.items()}
+
+    def prior_close(code, day):
+        prev = None
+        for d, px in closes_by_code.get(code, []):
+            if d >= day: break
+            prev = px
+        return prev
+
+    for entry in companies.values():
+        for r in entry['timeline']:
+            tp_ev, code = r.get('tp_event') or {}, r.get('code') or ''
+            if tp_ev.get('value') and re.fullmatch(r'[0-9]{6}', code):
+                base = prior_close(code, r['date'])
+                if base:
+                    tp_ev['upside'] = round((tp_ev['value'] / base - 1) * 100)
 
     data = {'generated_at': datetime.now(timezone.utc).isoformat(),
             'report_count': len(records), 'ai_analyzed': sum(1 for r in records if r['ai']),

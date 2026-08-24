@@ -42,6 +42,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .pub-co{border:0;background:transparent;padding:0;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;color:#173f35;text-align:left}
 .pub-co:hover{text-decoration:underline}
 .pub-tpc{white-space:nowrap}.pub-tp{font-weight:700;line-height:1.45}.pub-tp.up{color:#2e7d4f}.pub-tp.down{color:var(--red)}
+.tp-upside{font-style:normal;font-weight:400;font-size:10px;color:#5b665f}
 .pub-rsn{max-width:130px}
 .pub-rsn .tp-reason{display:block;margin:1px 0;width:fit-content}
 .pub-type{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:3px;white-space:nowrap;background:#eef1ec;color:#4c574f;border:1px solid #dfe5dd}
@@ -304,7 +305,8 @@ function renderRecentReports(){const box=$('#tone-events');if(!box)return;
   const t=r.tp_event;
   let tp='—';
   if(t&&t.direction!=='없음'){const disp=esc(t.display||t.direction);
-   tp=`<span class="pub-tp ${t.direction==='상향'?'up':t.direction==='하향'?'down':''}">${t.direction==='상향'?'▲':t.direction==='하향'?'▼':'●'} ${disp.replace(' → ','<br>→ ')}</span>`}
+   const ups=t.upside!=null?` <em class="tp-upside" title="발간 전일 종가 대비 상승여력">(${t.upside>0?'+':''}${t.upside}%)</em>`:'';
+   tp=`<span class="pub-tp ${t.direction==='상향'?'up':t.direction==='하향'?'down':''}">${t.direction==='상향'?'▲':t.direction==='하향'?'▼':'●'} ${disp.replace(' → ','<br>→ ')}${ups}</span>`}
   const reasons=t&&(t.reasons||[]).length?t.reasons.map(x=>`<i class="tp-reason">${esc(x)}</i>`).join(''):'—';
   const earn=['상향','하향'].includes(r.earnings_direction)?`<span class="${r.earnings_direction==='상향'?'pub-up':'pub-down'}" title="${esc(r.earnings_evidence||'')}">${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'—';
   const pts=(r.points_added||[]).length?r.points_added.slice(0,3).map(x=>`<span class="pt-chip new">＋${esc(x)}</span>`).join(''):((r.points||[]).length?`<span class="pub-pts-dim">${esc(r.points.slice(0,2).join(' · '))}</span>`:'—');
@@ -393,7 +395,7 @@ function streetConflicts(r,street){if(!r.tp_event||!['상향','하향'].includes
  if(!opp.length)return '';
  return `<span class="mini-badge down" title="±7일 내 타사 반대방향: ${opp.map(e=>`${esc(e.brokerage)} ${e.direction}`).join(', ')}">타사 엇갈림 ${opp.length}</span>`}
 function phraseBlock(title,items,cls){return items?.length?`<div class="phrase ${cls}"><b>${title}</b>${items.map(x=>`<q>${esc(x)}</q>`).join('')}</div>`:''}
-function drillReport(r,street){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.direction==='상향'?'up':r.tp_event.direction==='하향'?'down':''}">TP ${esc(r.tp_event.direction)} ${esc(r.tp_event.display||'')} ${(r.tp_event.reasons||[]).map(x=>`<i class="tp-reason">${esc(x)}</i>`).join('')}${r.tp_event.evidence?`<small>${esc(r.tp_event.evidence)}</small>`:''}</div>`:'';
+function drillReport(r,street){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.direction==='상향'?'up':r.tp_event.direction==='하향'?'down':''}">TP ${esc(r.tp_event.direction)} ${esc(r.tp_event.display||'')}${r.tp_event.upside!=null?` <em class="tp-upside" title="발간 전일 종가 대비 상승여력">(${r.tp_event.upside>0?'+':''}${r.tp_event.upside}%)</em>`:''} ${(r.tp_event.reasons||[]).map(x=>`<i class="tp-reason">${esc(x)}</i>`).join('')}${r.tp_event.evidence?`<small>${esc(r.tp_event.evidence)}</small>`:''}</div>`:'';
  const earnings=['상향','하향'].includes(r.earnings_direction)?`<span class="mini-badge ${r.earnings_direction==='상향'?'up':'down'}" title="${esc(r.earnings_evidence||'')}">실적추정 ${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'';
  const curPts=(r.points||[]).map(p=>{const added=(r.points_added||[]).includes(p);return `<span class="pt-chip${added?' new':''}">${added?'＋':''}${esc(p)}</span>`}).join('');
  const prevPts=(r.points_dropped||[]).length?`<span class="pt-prev" title="직전 리포트의 핵심 키워드 — 이번 자료에서는 강조되지 않음(소멸이 아니라 키워드 변경)">${r.points_prev_date?mmdd(r.points_prev_date)+' 포인트':'직전'}: ${r.points_dropped.map(esc).join(' · ')}</span>`:'';
