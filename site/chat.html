@@ -122,6 +122,19 @@ function syncKeyInput() {
   $('apikey').placeholder = p.placeholder;
   $('apikey').value = localStorage.getItem(p.ls) || '';
 }
+// 베타테스트 비밀 링크: chat.html#k=AIza... 로 열면 Gemini 키를 저장하고 주소에서 즉시 지운다.
+// 키는 코드·리포에 없고 링크에만 있으므로, 링크는 사내 메신저 등 닫힌 채널로만 공유할 것.
+let keyImported = false;
+(function importKeyFromHash() {
+  const m = location.hash.match(/[#&]k=([^&]+)/);
+  if (!m) return;
+  try {
+    localStorage.setItem(PROVIDERS.gemini.ls, decodeURIComponent(m[1]).trim());
+    localStorage.setItem(LS_MODEL, localStorage.getItem(LS_MODEL) || 'gemini-flash-lite-latest');
+    keyImported = true;
+  } catch (e) {}
+  history.replaceState(null, '', location.pathname + location.search);
+})();
 $('model').value = localStorage.getItem(LS_MODEL) || 'gemini-flash-lite-latest';
 syncKeyInput();
 // 키가 이미 저장돼 있으면 설정을 접어둔다 — 필요할 때 ⚙️로 다시 연다.
@@ -361,6 +374,32 @@ async function getFulltext(ref, around = '') {
   return { ...meta, source_url: src, text: text.slice(0, MAX_FULLTEXT_CHARS), truncated: text.length > MAX_FULLTEXT_CHARS };
 }
 
+/* --- 최선호주(탑픽): 최신 리포트에 없으면 가장 최근에 명시된 리포트를 거슬러 찾는다 --- */
+function topPicks(tone, { sector = '', analyst = '' } = {}) {
+  const hits = [];
+  for (const item of iterAllReports(tone)) {
+    if (!Array.isArray(item.top_picks) || !item.top_picks.length) continue;
+    if (sector && !String(item.sector || '').includes(sector.trim())) continue;
+    if (analyst && !String(item.analyst || '').includes(analyst.trim())) continue;
+    hits.push(item);
+  }
+  if (!hits.length) {
+    const avail = [...new Set([...iterAllReports(tone)]
+      .filter(it => Array.isArray(it.top_picks) && it.top_picks.length)
+      .map(it => it.sector).filter(Boolean))];
+    return { error: `조건(sector='${sector}', analyst='${analyst}')에 탑픽이 명시된 리포트가 없습니다.`,
+             sectors_with_picks: avail };
+  }
+  hits.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+  return {
+    note: '탑픽은 매 리포트에 명시되지 않음 — 아래는 가장 최근에 탑픽을 명시한 리포트들. 인용 시 해당 리포트 날짜를 반드시 밝힐 것.',
+    results: hits.slice(0, 5).map(it => ({
+      date: it.date, sector: it.sector, analyst: it.analyst, title: it.title,
+      top_picks: it.top_picks, post_url: it.post_url, source_url: it.source_url,
+    })),
+  };
+}
+
 /* --- 다올 vs 타사(스트리트) TP 비교 — street.stats는 파이프라인이 미리 계산 --- */
 function compareStreet(tone, { sector = '', direction = '', limit = 15 } = {}) {
   const rows = [];
@@ -424,6 +463,11 @@ const TOOLS = [
   { name: 'search_street',
     description: '전시장 타사 증권사 리포트(최근 120일, 2,100여 건)에서 종목을 검색한다. 다올이 커버하지 않는 종목 질문에 사용. 증권사/TP 변경/의견/제목/요약 불릿 포함.',
     input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명(예: "에코프로")' } }, required: ['company'], additionalProperties: false } },
+  { name: 'get_top_picks',
+    description: '다올의 최선호주(탑픽)를 찾는다. 탑픽은 매 리포트에 명시되지 않으므로, 이 도구는 가장 최근에 탑픽이 명시된 리포트들을 자동으로 거슬러 찾아 돌려준다. "조선 최선호주는?", "고영민 탑픽?" 류 질문에 반드시 사용. 결과의 date를 인용에 명시할 것.',
+    input_schema: { type: 'object', properties: {
+      sector: { type: 'string', description: '섹터 필터(선택, 예: "조선", "반도체")' },
+      analyst: { type: 'string', description: '애널리스트 이름 필터(선택)' } }, additionalProperties: false } },
   { name: 'get_fundamentals',
     description: '다올 커버 종목의 연간 재무·밸류에이션 컨센서스(네이버 금융): 2025·2026년 매출액·영업이익·영업이익률·순이익·ROE·PER·PBR·PSR과 시가총액. "PER 얼마?", "내년 영업이익 컨센은?", "감익인가?" 류 수치 질문에 사용. 단위: 금액 억원, 비율 %.',
     input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명 또는 6자리 종목코드' } }, required: ['company'], additionalProperties: false } },
@@ -495,6 +539,7 @@ async function runTool(name, input) {
       if (!r.error) registerStreetChart(r, ked);
       return serialize(r);
     }
+    case 'get_top_picks': return serialize(topPicks(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     case 'get_fundamentals': {
       const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
       const hit = resolveCompany(input.company || '', tone);
@@ -533,6 +578,7 @@ const SYSTEM_PROMPT = `당신은 "다올 리서치 톤" 챗봇입니다. 다올�
 - 다올 미커버 종목 → search_street
 - 다올과 시장(타사)의 시각 차이("다올이 시장보다 강하게 보는 종목?") → compare_daol_vs_street
 - 재무·밸류 수치("PER 얼마?", "내년 영업이익 컨센?") → get_fundamentals (네이버 금융 컨센서스)
+- 최선호주/탑픽("조선 최선호주는?") → get_top_picks — 최신 리포트에 없어도 가장 최근 명시 리포트를 거슬러 찾아준다. 답할 때 그 리포트 날짜 기준임을 명시.
 답하기 전에 반드시 관련 도구를 호출해 데이터를 확인하세요. 구조화 필드(요약)와 원문이 다르면 원문을 우선합니다.`;
 
 const MAX_TOOL_ROUNDS = 8;
@@ -1025,7 +1071,8 @@ document.querySelectorAll('.hints button').forEach(b =>
 })();
 
 if (location.protocol === 'file:') bubble('error', '이 페이지는 웹 서버에서 열어야 데이터 JSON을 읽을 수 있습니다. https://gschoie.github.io/DAOL-RESEARCH-TONE/chat.html 로 접속하세요.');
-if (!($('apikey').value || '').trim()) bubble('status', 'API 키를 입력·저장한 뒤 질문하세요. Gemini 키는 aistudio.google.com/apikey에서 카드 등록 없이 무료로 받을 수 있습니다. 키는 이 브라우저에만 저장됩니다.');
+if (keyImported) bubble('status', '베타테스트 키가 설정되었습니다. 바로 질문해 보세요!');
+else if (!($('apikey').value || '').trim()) bubble('status', 'API 키를 입력·저장한 뒤 질문하세요. Gemini 키는 aistudio.google.com/apikey에서 카드 등록 없이 무료로 받을 수 있습니다. 키는 이 브라우저에만 저장됩니다.');
 </script>
 </body>
 </html>
