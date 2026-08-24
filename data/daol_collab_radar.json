@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-24T22:11:20.244427+00:00",
+ "generated_at": "2026-08-24T22:38:35.278559+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1277,
+ "report_count": 1280,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28917,6 +28917,41 @@
    "title": "[카카오(035720)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 인적분할로 확실해진 명암 ★ 45,000원(하향), BUY(유지)",
    "post_url": "https://t.me/daolresearch/14940",
    "source_url": "https://buly.kr/GEAgVyx"
+  },
+  {
+   "theme": "비만/GLP-1",
+   "category": "산업테마",
+   "date": "2026-08-25",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "한미약품",
+   "code": "128940",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "HM17321은 근육·지방조직의 CRF2 수용체를 선택적으로 활성화해 지방 감소와 근육 증가를 동시에 유도하는 비만 치료제.",
+    "GLP-1의 근손실 한계를 보완할 수 있으며, GLP-1·아밀린과의 병용 가능성도 확인돼 차세대 비만 병용요법으로서 가치 기대"
+   ],
+   "title": "[한미약품 (128940) | BUY(유지) | TP 69만원(유지) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 릴리에 이어 제넨텍, 다시 확인된 R&D",
+   "post_url": "https://t.me/daolresearch/14947",
+   "source_url": "https://buly.kr/AlnCSe8"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-08-25",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "삼성SDI",
+   "code": "006400",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "일차적으로 동사의 미국 투자재원으로 활용할 가능성이 높을 것으로 예상"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 삼성SDI(006400) - 드디어 올게 왔다",
+   "post_url": "https://t.me/daolresearch/14948",
+   "source_url": "https://buly.kr/4Qpv9Rm"
   }
  ],
  "cross_mentions": [
@@ -29779,14 +29814,21 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.3
+   "burst": 31.1
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 13.7
+   "burst": 13.6
+  },
+  {
+   "term": "보합",
+   "recent": 6,
+   "total": 7,
+   "sectors": 3,
+   "burst": 11.7
   },
   {
    "term": "일평균거래대금",
@@ -29797,10 +29839,10 @@
   },
   {
    "term": "저변",
-   "recent": 6,
-   "total": 8,
+   "recent": 7,
+   "total": 9,
    "sectors": 3,
-   "burst": 7.8
+   "burst": 9.1
   },
   {
    "term": "배당수익률",
@@ -29828,14 +29870,14 @@
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.6
+   "burst": 4.5
   },
   {
    "term": "기저가",
    "recent": 8,
    "total": 14,
    "sectors": 5,
-   "burst": 4.5
+   "burst": 4.4
   },
   {
    "term": "남미",
@@ -29871,13 +29913,6 @@
    "total": 11,
    "sectors": 5,
    "burst": 3.9
-  },
-  {
-   "term": "일시",
-   "recent": 9,
-   "total": 18,
-   "sectors": 8,
-   "burst": 3.5
   }
  ]
 }
