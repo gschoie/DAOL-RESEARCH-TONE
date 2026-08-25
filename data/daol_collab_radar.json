@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-25T22:56:23.044046+00:00",
+ "generated_at": "2026-08-25T23:47:00.352704+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1280,
+ "report_count": 1281,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28952,6 +28952,23 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 삼성SDI(006400) - 드디어 올게 왔다",
    "post_url": "https://t.me/daolresearch/14948",
    "source_url": "https://buly.kr/4Qpv9Rm"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-08-26",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "ESG",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "ESG stories VOL."
+   ],
+   "title": "[ESG / 다올투자증권 투자전략 조병현] ★ ESG stories VOL. 12 ESG가 단기 변동성 구간의 대안이 될 수 있을까?",
+   "post_url": "https://t.me/daolresearch/14954",
+   "source_url": "https://buly.kr/5UKTPMS"
   }
  ],
  "cross_mentions": [
@@ -29852,13 +29869,6 @@
    "burst": 6.8
   },
   {
-   "term": "방향",
-   "recent": 6,
-   "total": 10,
-   "sectors": 4,
-   "burst": 4.7
-  },
-  {
    "term": "분쟁",
    "recent": 6,
    "total": 10,
@@ -29901,18 +29911,25 @@
    "burst": 3.9
   },
   {
-   "term": "강조",
-   "recent": 6,
-   "total": 11,
-   "sectors": 6,
-   "burst": 3.9
-  },
-  {
    "term": "물류비",
    "recent": 6,
    "total": 11,
    "sectors": 5,
    "burst": 3.9
+  },
+  {
+   "term": "일시",
+   "recent": 9,
+   "total": 18,
+   "sectors": 8,
+   "burst": 3.5
+  },
+  {
+   "term": "Mix",
+   "recent": 9,
+   "total": 18,
+   "sectors": 5,
+   "burst": 3.5
   }
  ]
 }
