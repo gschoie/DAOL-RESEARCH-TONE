@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-26T13:58:38.559720+00:00",
+ "generated_at": "2026-08-26T23:12:39.767525+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1282,
+ "report_count": 1285,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28987,6 +28987,41 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 현대차 CEO Investor Day 후기",
    "post_url": "https://t.me/daolresearch/14958",
    "source_url": "https://buly.kr/ChrXp4w"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-08-27",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "코스맥스엔비티",
+   "code": "222040",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "‘26년 상반기 기준 동사 별도 매출액의 약 10%가 상기한 신유통 채널에서 발생하고 있으며, 올리브영의 경우 Wellness 전문 매장 ‘Olive Better’ 및 올리브영 점포 내 입점 확대로 분기당 약 10 -20억원의 매출 시현 중."
+   ],
+   "title": "[코스맥스엔비티(222040) | Not Rated | 다올 음식료/통신 이다연] ★ 탐방 후기: Q 성장은 지속된다",
+   "post_url": "https://t.me/daolresearch/14967",
+   "source_url": "https://buly.kr/4FvAthO"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-08-27",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "빙그레",
+   "code": "005180",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "2Q26 Review: 해태 흡수합병 효과, 관세 환급 고려해도 호실적 2Q26 연결 매출액 4,421억원(YoY +7.9%), 영업이익 697억원(YoY +159.9%, OPM +15.8%) 기록.",
+    "해태아이스크림 흡수합병(4/1), 미국법인 관세 환급 효과(50억원)를 고려하더라도 호실적."
+   ],
+   "title": "[빙그레(005180) | Not Rated | 다올 음식료/통신 이다연] ★ 탐방 후기: 숫자로 증명한 체질 개선, 하반기에도 이어진다",
+   "post_url": "https://t.me/daolresearch/14968",
+   "source_url": "https://buly.kr/GEAhbKG"
   }
  ],
  "cross_mentions": [
@@ -29846,108 +29881,108 @@
  "candidates": [
   {
    "term": "통신",
-   "recent": 16,
-   "total": 17,
+   "recent": 18,
+   "total": 19,
    "sectors": 3,
-   "burst": 31.0
-  },
-  {
-   "term": "월드컵",
-   "recent": 7,
-   "total": 8,
-   "sectors": 4,
-   "burst": 13.6
+   "burst": 35.7
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.6
+   "burst": 11.9
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.6
+   "burst": 11.9
   },
   {
-   "term": "저변",
+   "term": "남아",
    "recent": 7,
    "total": 9,
    "sectors": 3,
-   "burst": 9.0
+   "burst": 9.2
+  },
+  {
+   "term": "월드컵",
+   "recent": 6,
+   "total": 8,
+   "sectors": 4,
+   "burst": 7.9
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.8
+   "burst": 6.9
+  },
+  {
+   "term": "저변",
+   "recent": 6,
+   "total": 9,
+   "sectors": 3,
+   "burst": 5.9
   },
   {
    "term": "분쟁",
    "recent": 6,
    "total": 10,
    "sectors": 5,
-   "burst": 4.6
+   "burst": 4.8
   },
   {
    "term": "실질",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.5
+   "burst": 4.6
   },
   {
    "term": "기저가",
    "recent": 8,
    "total": 14,
    "sectors": 5,
-   "burst": 4.4
+   "burst": 4.5
   },
   {
    "term": "남미",
    "recent": 8,
    "total": 15,
    "sectors": 4,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "하고",
    "recent": 6,
    "total": 11,
    "sectors": 7,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "Mix",
    "recent": 10,
    "total": 19,
    "sectors": 6,
-   "burst": 3.9
-  },
-  {
-   "term": "물류비",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "일시",
    "recent": 9,
    "total": 18,
    "sectors": 8,
-   "burst": 3.5
+   "burst": 3.6
   }
  ]
 }
