@@ -56,6 +56,10 @@
   .funda th, .funda td { padding:2px 8px; text-align:right; white-space:nowrap; }
   .funda th:first-child, .funda td:first-child { text-align:left; }
   .funda th { color:var(--sub); font-weight:600; border-bottom:1.5px solid var(--line); }
+  .entity { color:var(--accent); font-weight:600; cursor:pointer; text-decoration:none;
+            border-bottom:1.5px dotted var(--accent); padding:0 1px; }
+  .entity::after { content:'↗'; font-size:9.5px; vertical-align:super; margin-left:1px; opacity:.75; }
+  .entity:hover { background:#e6edf5; border-bottom-style:solid; }
   .msg.user { align-self:flex-end; background:var(--user); color:#fff; border-bottom-right-radius:4px; }
   .msg.assistant { align-self:flex-start; background:var(--panel); border:1px solid #e5e2da; border-bottom-left-radius:4px; }
   .msg.error { align-self:flex-start; background:#fdeaea; border:1px solid #f2c3c3; color:#8a1f1f; }
@@ -874,12 +878,66 @@ function mdToHtml(text) {
 function bubble(cls, text) {
   const div = document.createElement('div');
   div.className = 'msg ' + cls;
-  if (cls === 'assistant') { div.classList.add('md'); div.innerHTML = mdToHtml(text); }
+  if (cls === 'assistant') { div.classList.add('md'); div.innerHTML = mdToHtml(text); linkifyEl(div); }
   else div.textContent = text;
   chat.appendChild(div);
   chat.scrollTop = chat.scrollHeight;
   return div;
 }
+
+/* --- 기업·산업명 자동 링크화: 클릭하면 톤 보드의 상세 화면을 팝업으로 --- */
+let entityMap = null, entityRegex = null;
+async function buildEntityMap() {
+  if (entityMap) return;
+  try {
+    const tone = await loadJson('daol_tone_v2.json');
+    const m = new Map();
+    for (const [key, e] of Object.entries(tone.companies || {})) {
+      if (key.startsWith('IND:')) { const s = key.slice(4); if (s.length >= 2) m.set(s, key); }
+      else { const n = nameOf(e); if (n && n.length >= 2) m.set(n, key); }
+    }
+    entityMap = m;
+    const names = [...m.keys()].sort((a, b) => b.length - a.length)
+      .map(n => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    entityRegex = new RegExp(names.join('|'), 'g');
+    linkifyAll(); // 이미 그려진 말풍선(브리핑·지난대화)도 소급 적용
+  } catch (e) { /* 데이터 못 받으면 링크 없이 동작 */ }
+}
+function linkifyEl(root) {
+  if (!entityRegex || !root) return;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: (n) => n.parentElement && n.parentElement.closest('a, .entity, svg')
+      ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  for (const node of nodes) {
+    const text = node.nodeValue;
+    entityRegex.lastIndex = 0;
+    if (!entityRegex.test(text)) continue;
+    entityRegex.lastIndex = 0;
+    const frag = document.createDocumentFragment();
+    let last = 0, hit;
+    while ((hit = entityRegex.exec(text))) {
+      frag.appendChild(document.createTextNode(text.slice(last, hit.index)));
+      const a = document.createElement('a');
+      a.className = 'entity';
+      a.textContent = hit[0];
+      a.dataset.ck = entityMap.get(hit[0]);
+      a.title = (a.dataset.ck.startsWith('IND:') ? '산업 뷰' : '기업 뷰') + ' 열기 — 톤 보드';
+      frag.appendChild(a);
+      last = hit.index + hit[0].length;
+    }
+    frag.appendChild(document.createTextNode(text.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  }
+}
+function linkifyAll() { document.querySelectorAll('.msg.assistant.md').forEach(linkifyEl); }
+chat.addEventListener('click', (e) => {
+  const a = e.target.closest('.entity');
+  if (!a || !a.dataset.ck) return;
+  window.open('./index.html#ck=' + encodeURIComponent(a.dataset.ck), 'daoltoneview', 'width=1000,height=880');
+});
+setTimeout(buildEntityMap, 1200); // 접속 직후 백그라운드로 이름 사전 구축(브리핑 카드도 링크화)
 
 /* --- 기업 미니 차트: TP(선) + 확신도(점) 추이 SVG --- */
 const BROKER_COLORS = ['#0f4c81', '#1e7a4f', '#9a6b1f', '#7b4b94', '#b23a48', '#2a7b8c', '#5c5f66'];
@@ -997,6 +1055,7 @@ async function ask(question) {
     const r = await answer(question);
     pending.remove();
     if (!r.rendered) bubble('assistant', r.text);
+    linkifyAll(); // 스트리밍으로 그려진 말풍선은 bubble()을 안 거치므로 여기서 링크화
     let funda = null;
     if (turnCharts.some(c => c.kind !== 'street')) {
       try { funda = await loadJson('naver_fundamentals.json'); } catch (e) {}
