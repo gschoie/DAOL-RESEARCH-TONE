@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-26T23:12:39.767525+00:00",
+ "generated_at": "2026-08-26T23:44:08.746773+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1285,
+ "report_count": 1286,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29022,6 +29022,41 @@
    "title": "[빙그레(005180) | Not Rated | 다올 음식료/통신 이다연] ★ 탐방 후기: 숫자로 증명한 체질 개선, 하반기에도 이어진다",
    "post_url": "https://t.me/daolresearch/14968",
    "source_url": "https://buly.kr/GEAhbKG"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-27",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ 업종 투자전략 - AI 산업의 단기/중기 투자 확대 방향성 재확인한 실적 발표 - 최근 매크로 등 여러 이유로 주가는 괴리가 있으나 이와 관계없이 펀더멘털은 강하다는 것을 또 한번 명확히 체감 - 환율 변동성으로 인한 3분기 실적 불확실성,"
+   ],
+   "title": "[다올투자증권 반도체/소부장 고영민] 반도체/소부장 - [엔비디아 FY2Q27] 보여지기 시작했다",
+   "post_url": "https://t.me/daolresearch/14970",
+   "source_url": "https://buly.kr/6teXcX4"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-08-27",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ 업종 투자전략 - AI 산업의 단기/중기 투자 확대 방향성 재확인한 실적 발표 - 최근 매크로 등 여러 이유로 주가는 괴리가 있으나 이와 관계없이 펀더멘털은 강하다는 것을 또 한번 명확히 체감 - 환율 변동성으로 인한 3분기 실적 불확실성,",
+    "[다올투자증권 반도체/소부장 고영민] 반도체/소부장 - [엔비디아 FY2Q27] 보여지기 시작했다"
+   ],
+   "title": "[다올투자증권 반도체/소부장 고영민] 반도체/소부장 - [엔비디아 FY2Q27] 보여지기 시작했다",
+   "post_url": "https://t.me/daolresearch/14970",
+   "source_url": "https://buly.kr/6teXcX4"
   }
  ],
  "cross_mentions": [
@@ -29884,21 +29919,21 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.7
+   "burst": 35.5
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.9
+   "burst": 11.8
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.9
+   "burst": 11.8
   },
   {
    "term": "남아",
@@ -29929,11 +29964,18 @@
    "burst": 5.9
   },
   {
+   "term": "클라우드",
+   "recent": 6,
+   "total": 10,
+   "sectors": 3,
+   "burst": 4.7
+  },
+  {
    "term": "분쟁",
    "recent": 6,
    "total": 10,
    "sectors": 5,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "실질",
@@ -29954,35 +29996,28 @@
    "recent": 8,
    "total": 15,
    "sectors": 4,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "하고",
    "recent": 6,
    "total": 11,
    "sectors": 7,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "Mix",
    "recent": 10,
    "total": 19,
    "sectors": 6,
-   "burst": 4.0
-  },
-  {
-   "term": "일시",
-   "recent": 9,
-   "total": 18,
-   "sectors": 8,
-   "burst": 3.6
+   "burst": 3.9
   }
  ]
 }
