@@ -1068,6 +1068,22 @@ async function ask(question) {
     pending.remove();
     if (!r.rendered) bubble('assistant', r.text);
     linkifyAll(); // 스트리밍으로 그려진 말풍선은 bubble()을 안 거치므로 여기서 링크화
+    // 도구 경로가 카드 등록을 안 했어도(예: 탑픽 조회), 답변이 특정 기업 이야기면 카드를 붙인다.
+    // 최종 답변에 언급된 커버 기업이 1~3개면 앞의 최대 2개 — 랭킹형 답변(4개+)은 생략.
+    if (!turnCharts.length && entityMap && dataCache.has('daol_tone_v2.json')) {
+      try {
+        const tone = await loadJson('daol_tone_v2.json');
+        const bubbles = document.querySelectorAll('#chat > .msg.assistant.md');
+        const last = bubbles[bubbles.length - 1];
+        const codes = [];
+        if (last) for (const a of last.querySelectorAll('.entity')) {
+          const ck = a.dataset.ck;
+          if (ck && !ck.startsWith('IND:') && !codes.includes(ck)) codes.push(ck);
+        }
+        if (codes.length >= 1 && codes.length <= 3)
+          for (const code of codes.slice(0, 2)) registerChart(code, tone);
+      } catch (e) {}
+    }
     let funda = null;
     if (turnCharts.some(c => c.kind !== 'street')) {
       try { funda = await loadJson('naver_fundamentals.json'); } catch (e) {}
