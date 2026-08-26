@@ -100,11 +100,16 @@
 </details>
 <div id="chat"></div>
 <div class="hints">
-  <button type="button">오늘 뭐 바뀌었어?</button>
+  <button type="button">한 주간 의견이 강하게 올라온 보고서는?</button>
+  <button type="button">최근 한 달 TP 상향된 종목 정리해줘</button>
+  <button type="button">전기전자에서 상승여력이 가장 높은 종목은?</button>
+  <button type="button">자동차 선호주는 뭐야?</button>
+  <button type="button">조선 최선호주는?</button>
+  <button type="button">다올이 시장보다 강하게 보는 종목은?</button>
   <button type="button">최광식 조선 톤 요즘 어때?</button>
   <button type="button">삼양식품 다올 뷰?</button>
+  <button type="button">삼성전기 PER이랑 내년 영업이익 컨센은?</button>
   <button type="button">HBM 언급한 리포트 찾아줘</button>
-  <button type="button">다올이 시장보다 강하게 보는 종목은?</button>
 </div>
 <form id="form">
   <input id="input" placeholder="질문을 입력하세요" autocomplete="off" autofocus>
@@ -408,6 +413,48 @@ function topPicks(tone, { sector = '', analyst = '' } = {}) {
   };
 }
 
+/* --- 변화 이벤트 기간 조회 (TP·실적추정·의견·톤이례·투자포인트) --- */
+function changeEvents(tone, { date_from = '', date_to = '', type = '', sector = '', limit = 30 } = {}) {
+  const all = (tone.events || []).filter(e => e && typeof e === 'object');
+  const dates = all.map(e => String(e.date || '')).filter(Boolean).sort();
+  const coverage = dates.length ? `이벤트 보관 범위: ${dates[0]} ~ ${dates[dates.length - 1]} (최근 ${all.length}건) — 그 이전은 search_reports로 조회` : '';
+  const hits = all.filter(e => {
+    const d = String(e.date || '');
+    if (date_from && d < date_from) return false;
+    if (date_to && d > date_to) return false;
+    if (type && !String(e.type || '').includes(type)) return false;
+    if (sector && !String(e.sector || '').includes(sector.trim())) return false;
+    return true;
+  });
+  if (!hits.length) return { error: '조건에 맞는 변화 이벤트가 없습니다.', coverage };
+  return { coverage, total: hits.length, results: hits.slice(0, Math.min(Number(limit) || 30, 50)) };
+}
+
+/* --- 상승여력 랭킹: 다올 TP ÷ 최근 종가 - 1 --- */
+function upsideRank(tone, prices, { sector = '', limit = 15 } = {}) {
+  const rows = [];
+  for (const [code, e] of Object.entries(tone.companies || {})) {
+    if (code.startsWith('IND:') || !e || typeof e !== 'object') continue;
+    if (sector && !String(e.sector || '').includes(sector.trim())) continue;
+    let tp = null, tpDate = null;
+    for (const it of timelineOf(e).slice().reverse())
+      if (it && it.tp_event && it.tp_event.value) { tp = it.tp_event.value; tpDate = String(it.date || '') || null; break; }
+    if (!tp) tp = e.street && e.street.stats && e.street.stats.daol;
+    const closes = prices[code] && prices[code].closes;
+    if (!tp || !closes || !closes.length) continue;
+    const [closeDate, close] = closes[closes.length - 1];
+    if (!close) continue;
+    const up = tp / close - 1;
+    if (!isFinite(up) || Math.abs(up) > 3) continue; // 데이터 이상치 방어
+    rows.push({ name: e.name, code, sector: e.sector, daol_tp: tp, tp_date: tpDate, close, close_date: closeDate,
+                upside_pct: Math.round(up * 1000) / 10 });
+  }
+  if (!rows.length) return { error: `'${sector}' 조건에서 다올 TP와 주가 데이터가 모두 있는 종목이 없습니다.` };
+  rows.sort((a, b) => b.upside_pct - a.upside_pct);
+  return { note: '상승여력(upside_pct, %) = 다올 TP ÷ 최근 종가 - 1. close_date=종가 기준일, tp_date=그 TP를 제시한 리포트 날짜(오래됐으면 답에 언급할 것).',
+           total: rows.length, results: rows.slice(0, Math.min(Number(limit) || 15, 30)) };
+}
+
 /* --- 다올 vs 타사(스트리트) TP 비교 — street.stats는 파이프라인이 미리 계산 --- */
 function compareStreet(tone, { sector = '', direction = '', limit = 15 } = {}) {
   const rows = [];
@@ -485,6 +532,19 @@ const TOOLS = [
       direction: { type: 'string', enum: ['above', 'below'], description: 'above=다올이 강세인 순(기본), below=다올이 약세인 순' },
       sector: { type: 'string', description: '섹터 필터(선택, 예: "조선")' },
       limit: { type: 'string', description: '반환 개수(기본 15, 최대 30)' } }, additionalProperties: false } },
+  { name: 'get_change_events',
+    description: '다올 리포트의 변화 이벤트(TP 상향/하향·실적추정 상향/하향·의견 변경·톤 이례↑/↓·투자포인트 변화)를 기간·유형·섹터로 조회한다. "한 주간 의견이 강하게 올라온 보고서?", "최근 TP 상향 종목?" 류 질문에 사용. 보관 범위는 최근 200건(약 2~3주) — 그보다 먼 과거는 search_reports에 date_from/date_to를 줘서 보완할 것.',
+    input_schema: { type: 'object', properties: {
+      date_from: { type: 'string', description: '시작일 YYYY-MM-DD (포함)' },
+      date_to: { type: 'string', description: '종료일 YYYY-MM-DD (포함)' },
+      type: { type: 'string', description: '이벤트 유형 부분일치(예: "TP 상향", "실적추정 상향", "의견 변경", "톤 이례")' },
+      sector: { type: 'string', description: '섹터 필터(선택, 예: "조선")' },
+      limit: { type: 'string', description: '반환 개수(기본 30, 최대 50)' } }, additionalProperties: false } },
+  { name: 'get_upside',
+    description: '다올 커버 종목의 상승여력 랭킹: 다올 목표주가(TP) ÷ 최근 종가 − 1. "상승여력 가장 높은 종목은?", "전기전자에서 업사이드 큰 종목?" 류 질문에 반드시 사용(타사 TP와의 괴리가 아니라 현재 주가 대비 여력). upside_pct가 %.',
+    input_schema: { type: 'object', properties: {
+      sector: { type: 'string', description: '섹터 필터(선택, 예: "전기전자", "2차전지")' },
+      limit: { type: 'string', description: '반환 개수(기본 15, 최대 30)' } }, additionalProperties: false } },
 ];
 
 // 이번 턴에 조회된 기업 — 답변이 끝나면 미니 차트로 렌더한다
@@ -561,6 +621,14 @@ async function runTool(name, input) {
       return serialize({ code: hit[0], unit_note: funda.unit_note, source: funda.source, ...f });
     }
     case 'compare_daol_vs_street': return serialize(compareStreet(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
+    case 'get_change_events': return serialize(changeEvents(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
+    case 'get_upside': {
+      const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
+      let prices = null;
+      try { prices = await loadJson('price_close_cache.json'); } catch (e) {}
+      if (!prices) return serialize({ error: '주가 캐시가 아직 배포되지 않았습니다. compare_daol_vs_street로 대신 답하되, 주가 대비가 아닌 타사 TP 대비임을 밝히세요.' });
+      return serialize(upsideRank(tone, prices, input));
+    }
     default: return serialize({ error: `알 수 없는 도구: ${name}` });
   }
 }
@@ -586,6 +654,8 @@ const SYSTEM_PROMPT = `당신은 "다올 리서치 톤" 챗봇입니다. 다올�
 - 주제/키워드로 리포트 찾기 → search_reports · 원문 표현/수치 확인 → search_report_fulltext, get_report_fulltext
 - 다올 미커버 종목 → search_street
 - 다올과 시장(타사)의 시각 차이("다올이 시장보다 강하게 보는 종목?") → compare_daol_vs_street
+- 상승여력/업사이드("상승여력 가장 높은 종목?") → get_upside — 다올 TP ÷ 현재 주가 − 1. 타사 TP 괴리(compare_daol_vs_street)와 혼동 금지. 답에 종가 기준일(close_date)을 명시.
+- 기간별 변화 이벤트("한 주간 의견이 강하게 올라온 보고서?", "최근 TP 상향?") → get_change_events — 톤 이례↑·실적추정 상향·TP 상향 등 유형별 조회. 보관 범위 밖 기간은 search_reports로 보완.
 - 재무·밸류 수치("PER 얼마?", "내년 영업이익 컨센?") → get_fundamentals (네이버 금융 컨센서스)
 - 최선호주/탑픽("조선 최선호주는?") → get_top_picks — 최신 리포트에 없어도 가장 최근 명시 리포트를 거슬러 찾아준다. 답할 때 그 리포트 날짜 기준임을 명시.
 답하기 전에 반드시 관련 도구를 호출해 데이터를 확인하세요. 구조화 필드(요약)와 원문이 다르면 원문을 우선합니다.`;
