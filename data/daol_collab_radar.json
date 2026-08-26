@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-26T05:18:59.482330+00:00",
+ "generated_at": "2026-08-26T13:58:38.559720+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1281,
+ "report_count": 1282,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -28969,6 +28969,24 @@
    "title": "[ESG / 다올투자증권 투자전략 조병현] ★ ESG stories VOL. 12 ESG가 단기 변동성 구간의 대안이 될 수 있을까?",
    "post_url": "https://t.me/daolresearch/14954",
    "source_url": "https://buly.kr/5UKTPMS"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-08-26",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "자동차",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "Boston Dynamics에 대해서는 2026년내 생산거점 발표 계획임을 공개하고, 연내 RMAC(훈련거점)의 부지규모를 10배 수준으로도 확대할 계획임을 발표",
+    "자동차(Overweight) - 현대차 CEO Investor Day 후기"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 현대차 CEO Investor Day 후기",
+   "post_url": "https://t.me/daolresearch/14958",
+   "source_url": "https://buly.kr/ChrXp4w"
   }
  ],
  "cross_mentions": [
@@ -29831,7 +29849,7 @@
    "recent": 16,
    "total": 17,
    "sectors": 3,
-   "burst": 31.1
+   "burst": 31.0
   },
   {
    "term": "월드컵",
@@ -29845,21 +29863,21 @@
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.7
+   "burst": 11.6
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.7
+   "burst": 11.6
   },
   {
    "term": "저변",
    "recent": 7,
    "total": 9,
    "sectors": 3,
-   "burst": 9.1
+   "burst": 9.0
   },
   {
    "term": "배당수익률",
@@ -29873,7 +29891,7 @@
    "recent": 6,
    "total": 10,
    "sectors": 5,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "실질",
@@ -29911,6 +29929,13 @@
    "burst": 3.9
   },
   {
+   "term": "Mix",
+   "recent": 10,
+   "total": 19,
+   "sectors": 6,
+   "burst": 3.9
+  },
+  {
    "term": "물류비",
    "recent": 6,
    "total": 11,
@@ -29922,13 +29947,6 @@
    "recent": 9,
    "total": 18,
    "sectors": 8,
-   "burst": 3.5
-  },
-  {
-   "term": "Mix",
-   "recent": 9,
-   "total": 18,
-   "sectors": 5,
    "burst": 3.5
   }
  ]
