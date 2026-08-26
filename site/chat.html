@@ -60,6 +60,10 @@
             border-bottom:1.5px dotted var(--accent); padding:0 1px; }
   .entity::after { content:'↗'; font-size:9.5px; vertical-align:super; margin-left:1px; opacity:.75; }
   .entity:hover { background:#e6edf5; border-bottom-style:solid; }
+  .chart-actions { display:flex; gap:6px; justify-content:flex-end; flex-wrap:wrap; margin:2px 0 6px; }
+  .chart-btn { border:1px solid var(--accent); color:var(--accent); background:var(--panel);
+               border-radius:12px; font-size:11.5px; padding:3px 9px; cursor:pointer; font-family:inherit; }
+  .chart-btn:hover { background:#e6edf5; }
   .msg.user { align-self:flex-end; background:var(--user); color:#fff; border-bottom-right-radius:4px; }
   .msg.assistant { align-self:flex-start; background:var(--panel); border:1px solid #e5e2da; border-bottom-left-radius:4px; }
   .msg.error { align-self:flex-start; background:#fdeaea; border:1px solid #f2c3c3; color:#8a1f1f; }
@@ -493,7 +497,8 @@ function registerChart(code, tone) {
     .filter(it => it && typeof it === 'object' && it.date)
     .map(it => ({ date: String(it.date), tp: it.tp_event && it.tp_event.value != null ? it.tp_event.value : null,
                   conv: it.conviction != null ? it.conviction : null }));
-  if (series.length >= 2) turnCharts.push({ code, name: nameOf(entry) || code, series });
+  const sector = entry.sector && tone.companies['IND:' + entry.sector] ? entry.sector : null;
+  if (series.length >= 2) turnCharts.push({ code, name: nameOf(entry) || code, sector, series });
 }
 
 // 검색 결과가 한 종목에 몰리면(과반) 그 종목 차트를 그린다 — search_reports 경로의 사각지대 보완
@@ -933,7 +938,7 @@ function linkifyEl(root) {
 }
 function linkifyAll() { document.querySelectorAll('.msg.assistant.md').forEach(linkifyEl); }
 chat.addEventListener('click', (e) => {
-  const a = e.target.closest('.entity');
+  const a = e.target.closest('.entity, .chart-btn');
   if (!a || !a.dataset.ck) return;
   window.open('./index.html#ck=' + encodeURIComponent(a.dataset.ck), 'daoltoneview', 'width=1000,height=880');
 });
@@ -1028,8 +1033,15 @@ function chartBubble(cd, funda) {
   const div = document.createElement('div');
   div.className = 'msg assistant chart';
   const f = funda && funda.companies && funda.companies[cd.code];
+  // 톤 보드 상세로 점프하는 버튼 — 기업 화면 + (있으면) 산업 화면
+  const actions =
+    `<div class="chart-actions">` +
+    `<button type="button" class="chart-btn" data-ck="${escapeHtml(cd.code)}">📊 ${escapeHtml(cd.name)} 최근 의견과 변화 →</button>` +
+    (cd.sector ? `<button type="button" class="chart-btn" data-ck="IND:${escapeHtml(cd.sector)}">🏭 ${escapeHtml(cd.sector)} 최근 의견과 변화 →</button>` : '') +
+    `</div>`;
   div.innerHTML =
     `<div class="chart-title">📈 ${escapeHtml(cd.name)} — TP(선) · 확신도(배터리 1~5칸)</div>` +
+    actions +
     `<svg viewBox="0 0 ${W} ${H}" role="img">${svg}</svg>` +
     `<div class="chart-cap">${s[0].date} ~ ${s[n - 1].date} · 리포트 ${n}건${tpLabel}</div>` +
     (f ? fundaTableHtml(f) : '');
