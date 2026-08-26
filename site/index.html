@@ -481,7 +481,11 @@ async function loadTone(){$('#tone-status').textContent='불러오는 중…';
  catch(e){$('#tone-content').innerHTML=`<div class="tone-loading">데이터를 불러오지 못했습니다 (${esc(e.message)}). 잠시 후 새로고침해 주세요.</div>`;$('#tone-status').textContent='로드 실패';return}
  fillToneFilters();renderTone();
  const t=state.tone2,stamp=t.generated_at?new Intl.DateTimeFormat('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Seoul'}).format(new Date(t.generated_at)):'';
- $('#tone-status').textContent=`${stamp} · ${(t.report_count||0).toLocaleString()}건 · AI ${(t.ai_analyzed||0).toLocaleString()}건`}
+ $('#tone-status').textContent=`${stamp} · ${(t.report_count||0).toLocaleString()}건 · AI ${(t.ai_analyzed||0).toLocaleString()}건`;
+ openFromHash()}
+// 딥링크: index.html#ck=005930 / #ck=IND:조선 으로 열면 해당 상세 모달을 바로 띄운다(챗봇 답변 링크용)
+function openFromHash(){const m=location.hash.match(/[#&]ck=([^&]+)/);if(m&&state.tone2)openToneCompany(decodeURIComponent(m[1]))}
+window.addEventListener('hashchange',openFromHash);
 $('#tone-search').oninput=e=>{state.toneQ=e.target.value;renderTone()};
 $('#tone-sector').onchange=e=>{state.toneSector=e.target.value;renderTone()};
 $('#tone-analyst').onchange=e=>{state.toneAnalyst=e.target.value;renderTone()};
