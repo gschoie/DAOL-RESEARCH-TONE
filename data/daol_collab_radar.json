@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-27T04:40:44.631383+00:00",
+ "generated_at": "2026-08-27T22:55:58.152099+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1286,
+ "report_count": 1287,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29057,6 +29057,41 @@
    "title": "[다올투자증권 반도체/소부장 고영민] 반도체/소부장 - [엔비디아 FY2Q27] 보여지기 시작했다",
    "post_url": "https://t.me/daolresearch/14970",
    "source_url": "https://buly.kr/6teXcX4"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-08-27",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "8월",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "통방문 내 \"금리인상 기조를 이어나갈 필요\" 문구와 고환율 관련 문구의 삭제",
+    "신현송 총재 역시 향후 기준금리 인상 속도 조절을 시사"
+   ],
+   "title": "[다올투자증권 매크로·투자전략 조병현] ★ 8월 금통위 Review: 선제적 인상으로 확보된 여유",
+   "post_url": "https://t.me/daolresearch/14974",
+   "source_url": "https://buly.kr/BIXUGFT"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-27",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "8월",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "통방문 내 \"금리인상 기조를 이어나갈 필요\" 문구와 고환율 관련 문구의 삭제"
+   ],
+   "title": "[다올투자증권 매크로·투자전략 조병현] ★ 8월 금통위 Review: 선제적 인상으로 확보된 여유",
+   "post_url": "https://t.me/daolresearch/14974",
+   "source_url": "https://buly.kr/BIXUGFT"
   }
  ],
  "cross_mentions": [
@@ -29919,7 +29954,7 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.5
+   "burst": 35.4
   },
   {
    "term": "보합",
