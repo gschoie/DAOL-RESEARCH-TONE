@@ -75,6 +75,55 @@ def parse_annual(payload):
     return out
 
 
+def parse_quarters(payload):
+    """finance/quarter의 financeInfo에서 분기별 영업이익을 뽑는다.
+    반환: [{'period': '2026.09', 'op': 값, 'est': bool}, ...] (제공 순서 유지)"""
+    fi = (payload or {}).get('financeInfo') or {}
+    titles = fi.get('trTitleList') or []
+    rows = fi.get('rowList') or []
+
+    def op_val(key):
+        for r in rows:
+            if str(r.get('title', '')).strip() == '영업이익':
+                return _num((r.get('columns') or {}).get(key, {}).get('value'))
+        return None
+
+    out = []
+    for t in titles:
+        period = str(t.get('title', '')).rstrip('.')
+        if not period[:4].isdigit():
+            continue
+        out.append({'period': period, 'op': op_val(t.get('key')), 'est': t.get('isConsensus') == 'Y'})
+    return out
+
+
+def _quarter_label(period):
+    """'2026.09' → '3Q26'."""
+    try:
+        y, m = period.split('.')[:2]
+        return f"{int(m) // 3}Q{y[2:]}"
+    except (ValueError, IndexError):
+        return period
+
+
+def next_quarter_growth(quarters):
+    """가장 가까운 추정(E) 분기의 영업이익과 전년동기 대비 성장률(챗봇 '다음 분기 성장' 랭킹용).
+    전년동기가 0 이하인데 흑자 추정이면 turnaround로 표시(성장률은 무의미하므로 null)."""
+    est = [q for q in quarters if q['est'] and q['op'] is not None]
+    if not est:
+        return None
+    nq = est[0]
+    try:
+        y, m = nq['period'].split('.')[:2]
+        prev = {q['period']: q['op'] for q in quarters}.get(f'{int(y) - 1}.{m}')
+    except (ValueError, IndexError):
+        prev = None
+    return {'period': nq['period'], 'label': _quarter_label(nq['period']), 'op': nq['op'],
+            'op_prev_year': prev,
+            'yoy_pct': round((nq['op'] / prev - 1) * 100, 1) if prev and prev > 0 else None,
+            'turnaround': bool(prev is not None and prev <= 0 and nq['op'] > 0)}
+
+
 def derived_valuation(rec):
     """같은 표의 수치로 파생 지표 계산 — 외부 시총 조회는 단위 사고가 잦아 쓰지 않는다.
     시총(억원) ≈ PER × 순이익, PSR = 시총 ÷ 매출액 = PER × 순이익 ÷ 매출액."""
@@ -122,6 +171,13 @@ def main():
             for rec in years.values():
                 derived_valuation(rec)
             companies[code] = {'name': name, 'years': years}
+            try:  # 다음 분기 영업이익 컨센(성장 랭킹용) — 실패해도 연간 데이터는 유지
+                qpay = s.get(API.format(code=code, path='finance/quarter'), headers=UA, timeout=10).json()
+                nq = next_quarter_growth(parse_quarters(qpay))
+                if nq:
+                    companies[code]['next_q'] = nq
+            except Exception:
+                pass
             ok += 1
         except Exception as exc:
             fail += 1
@@ -137,7 +193,7 @@ def main():
     OUT.write_text(json.dumps({
         'fetched_at': datetime.now(timezone.utc).isoformat(),
         'source': 'NAVER FINANCE (m.stock.naver.com)',
-        'unit_note': '매출액·영업이익·순이익: 억원 / 영업이익률·ROE: % / PER·PBR·PSR·EV/EBITDA: 배 · PSR·mcap_implied는 PER×순이익 기반 파생값',
+        'unit_note': '매출액·영업이익·순이익: 억원 / 영업이익률·ROE: % / PER·PBR·PSR·EV/EBITDA: 배 · PSR·mcap_implied는 PER×순이익 기반 파생값 · next_q는 가장 가까운 추정(E) 분기 영업이익과 전년동기 대비 성장률',
         'companies': companies,
     }, ensure_ascii=False), encoding='utf-8')
     print(f'fundamentals: {ok}건 수집, {fail}건 실패(이전값 유지 포함), 총 {len(companies)}건 저장')
