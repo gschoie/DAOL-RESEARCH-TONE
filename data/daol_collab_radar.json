@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-27T22:55:58.152099+00:00",
+ "generated_at": "2026-08-28T05:59:10.841984+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1287,
+ "report_count": 1288,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29092,6 +29092,93 @@
    "title": "[다올투자증권 매크로·투자전략 조병현] ★ 8월 금통위 Review: 선제적 인상으로 확보된 여유",
    "post_url": "https://t.me/daolresearch/14974",
    "source_url": "https://buly.kr/BIXUGFT"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-08-28",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "이후 엔비디아 실적 발표, 8월 금통위, 미 연준 잭슨홀 미팅 등 대내외 주요 이벤트를 앞둔 관망 심리 이어졌으나, 중동 지역 군사적 충돌 가능성 후퇴에 따른 유가, 금리 부담 완화에 반등 시도."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 4주차)]",
+   "post_url": "https://t.me/daolresearch/14979",
+   "source_url": "https://buly.kr/90ddkVN"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-28",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ Key Chart & 핵심지표 - 한-미 정책금리차가 환율의 뛰어난 설명변수는 아니지만, 스프레드의 가파른 움직임이나 역전은 방향성에 일부 영향 - 26일 발표된 12차 전기본 잠정안과, 정체되어 있는 송전망 현황 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/90ddkVN"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 4주차)]",
+   "post_url": "https://t.me/daolresearch/14979",
+   "source_url": "https://buly.kr/90ddkVN"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-08-28",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "코스피는 삼성전자 주주환원 발표 이후 재료 소멸로 인한 셀온 매물 출회되며 약세 출발."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 4주차)]",
+   "post_url": "https://t.me/daolresearch/14979",
+   "source_url": "https://buly.kr/90ddkVN"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-08-28",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "AI 투자 부담과 엔비디아 실적 발표 앞둔 경계 심리에 약세 출발.",
+    "이후 엔비디아 실적 발표, 8월 금통위, 미 연준 잭슨홀 미팅 등 대내외 주요 이벤트를 앞둔 관망 심리 이어졌으나, 중동 지역 군사적 충돌 가능성 후퇴에 따른 유가, 금리 부담 완화에 반등 시도."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 4주차)]",
+   "post_url": "https://t.me/daolresearch/14979",
+   "source_url": "https://buly.kr/90ddkVN"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-08-28",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "이후 엔비디아 실적 발표, 8월 금통위, 미 연준 잭슨홀 미팅 등 대내외 주요 이벤트를 앞둔 관망 심리 이어졌으나, 중동 지역 군사적 충돌 가능성 후퇴에 따른 유가, 금리 부담 완화에 반등 시도.",
+    "이후 중동 지역 긴장감 완화에 따른 유가·금리 하락에도 관망세 이어지며 제한적 등락을 거듭."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 4주차)]",
+   "post_url": "https://t.me/daolresearch/14979",
+   "source_url": "https://buly.kr/90ddkVN"
   }
  ],
  "cross_mentions": [
@@ -29954,21 +30041,21 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.4
+   "burst": 35.6
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.8
+   "burst": 11.9
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.8
+   "burst": 11.9
   },
   {
    "term": "남아",
@@ -30031,28 +30118,28 @@
    "recent": 8,
    "total": 15,
    "sectors": 4,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "하고",
    "recent": 6,
    "total": 11,
    "sectors": 7,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "Mix",
    "recent": 10,
    "total": 19,
    "sectors": 6,
-   "burst": 3.9
+   "burst": 4.0
   }
  ]
 }
