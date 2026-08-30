@@ -1,9 +1,9 @@
 {
- "ran_at": "2026-08-30T17:20:12.489714+00:00",
+ "ran_at": "2026-08-30T23:19:47.609195+00:00",
  "provider": "gemini",
- "analyzed": 0,
+ "analyzed": 3,
  "errors": 0,
- "cached_total": 1288,
+ "cached_total": 1291,
  "pending_left": 0,
  "model_tried": "gemini-flash-lite-latest",
  "last_error": ""

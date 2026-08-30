@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-30T17:20:14.055933+00:00",
+ "generated_at": "2026-08-30T23:19:49.192514+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1288,
+ "report_count": 1291,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30041,21 +30041,21 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.6
+   "burst": 35.3
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.9
+   "burst": 11.8
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.9
+   "burst": 11.8
   },
   {
    "term": "남아",
@@ -30077,6 +30077,13 @@
    "total": 10,
    "sectors": 6,
    "burst": 6.9
+  },
+  {
+   "term": "감가상각비",
+   "recent": 6,
+   "total": 9,
+   "sectors": 6,
+   "burst": 5.9
   },
   {
    "term": "저변",
@@ -30114,32 +30121,25 @@
    "burst": 4.5
   },
   {
-   "term": "남미",
-   "recent": 8,
-   "total": 15,
-   "sectors": 4,
-   "burst": 4.0
-  },
-  {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "하고",
    "recent": 6,
    "total": 11,
    "sectors": 7,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "Mix",
    "recent": 10,
    "total": 19,
    "sectors": 6,
-   "burst": 4.0
+   "burst": 3.9
   }
  ]
 }
