@@ -15,7 +15,9 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .hero .links{display:flex;gap:12px;align-items:center;font-size:12px}
 .hero a{color:#386453;text-decoration:none}
 .hero a:hover{text-decoration:underline}
-.tone-toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 150px 180px auto auto;gap:10px;align-items:center;background:#fff;border:1px solid var(--line);padding:15px;margin-bottom:14px}
+.tone-toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 150px 180px auto auto auto;gap:10px;align-items:center;background:#fff;border:1px solid var(--line);padding:15px;margin-bottom:14px}
+.tone-toolbar .btn-link{display:block;text-align:center;border:1px solid var(--green);border-radius:6px;background:#fff;color:var(--green);padding:9px 13px;font-size:13px;text-decoration:none;white-space:nowrap}
+.tone-toolbar .btn-link:hover{background:#eef4ef}
 .tone-toolbar input,.tone-toolbar select{width:100%;border:1px solid #cfd6d0;border-radius:6px;background:#fff;padding:9px 11px;color:var(--ink);font-size:13px}
 .tone-toolbar button{border:0;border-radius:6px;background:var(--green);color:#fff;padding:10px 16px;cursor:pointer}
 .tone-toolbar span{font-size:11px;color:var(--muted);white-space:nowrap}
@@ -236,6 +238,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
     <select id="tone-sector"><option value="">전체 섹터</option></select>
     <select id="tone-analyst"><option value="">전체 애널리스트</option></select>
     <button id="tone-refresh" type="button">새로고침</button>
+    <a id="tone-dispatch" class="btn-link" href="https://github.com/gschoie/DAOL-RESEARCH-TONE/actions/workflows/refresh-tone.yml" target="_blank" rel="noopener" title="GitHub Actions가 열리면 Run workflow 버튼 클릭 — 수집·AI 분석·배포까지 약 10분 후 반영">⚡ 수동 실행</a>
     <button id="street-lookup-btn" type="button" title="다올 커버 여부와 무관하게, 한경 에이셀에 취합된 전시장 리포트를 종목명으로 조회">🔍 전시장 조회</button>
     <span id="tone-status">불러오는 중…</span>
   </div>
