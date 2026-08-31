@@ -16,8 +16,9 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .hero a{color:#386453;text-decoration:none}
 .hero a:hover{text-decoration:underline}
 .tone-toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 150px 180px auto auto auto;gap:10px;align-items:center;background:#fff;border:1px solid var(--line);padding:15px;margin-bottom:14px}
-.tone-toolbar .btn-link{display:block;text-align:center;border:1px solid var(--green);border-radius:6px;background:#fff;color:var(--green);padding:9px 13px;font-size:13px;text-decoration:none;white-space:nowrap}
+.tone-toolbar .btn-link{display:block;text-align:center;border:1px solid var(--green);border-radius:6px;background:#fff;color:var(--green);padding:9px 13px;font-size:13px;text-decoration:none;white-space:nowrap;cursor:pointer;font-family:inherit}
 .tone-toolbar .btn-link:hover{background:#eef4ef}
+.tone-toolbar .btn-link:disabled{opacity:.55;cursor:default}
 .tone-toolbar input,.tone-toolbar select{width:100%;border:1px solid #cfd6d0;border-radius:6px;background:#fff;padding:9px 11px;color:var(--ink);font-size:13px}
 .tone-toolbar button{border:0;border-radius:6px;background:var(--green);color:#fff;padding:10px 16px;cursor:pointer}
 .tone-toolbar span{font-size:11px;color:var(--muted);white-space:nowrap}
@@ -238,7 +239,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
     <select id="tone-sector"><option value="">전체 섹터</option></select>
     <select id="tone-analyst"><option value="">전체 애널리스트</option></select>
     <button id="tone-refresh" type="button">새로고침</button>
-    <a id="tone-dispatch" class="btn-link" href="https://github.com/gschoie/DAOL-RESEARCH-TONE/actions/workflows/refresh-tone.yml" target="_blank" rel="noopener" title="GitHub Actions가 열리면 Run workflow 버튼 클릭 — 수집·AI 분석·배포까지 약 10분 후 반영">⚡ 수동 실행</a>
+    <button id="tone-dispatch" class="btn-link" type="button" title="수집·AI 분석·배포 파이프라인을 즉시 실행 — 약 10분 후 반영">⚡ 수동 실행</button>
     <button id="street-lookup-btn" type="button" title="다올 커버 여부와 무관하게, 한경 에이셀에 취합된 전시장 리포트를 종목명으로 조회">🔍 전시장 조회</button>
     <span id="tone-status">불러오는 중…</span>
   </div>
@@ -495,6 +496,23 @@ $('#tone-search').oninput=e=>{state.toneQ=e.target.value;renderTone()};
 $('#tone-sector').onchange=e=>{state.toneSector=e.target.value;renderTone()};
 $('#tone-analyst').onchange=e=>{state.toneAnalyst=e.target.value;renderTone()};
 $('#tone-refresh').onclick=loadTone;
+// 수동 실행: GAS 프록시(스크립트 속성에 보관된 PAT로 workflow_dispatch 호출) — GitHub 방문 불필요.
+const DISPATCH_URL='https://script.google.com/macros/s/AKfycbyIaUSx44rSiGnprdH9nvrId7mokzl1d0GgtwzU46_088g7hRo8ncxtKjlQfHpuJS_dWg/exec';
+const DISPATCH_KEY='daol-tone-2026';
+$('#tone-dispatch').onclick=async e=>{
+ const btn=e.currentTarget;if(btn.disabled)return;
+ btn.disabled=true;btn.textContent='⏳ 실행 요청 중…';
+ try{
+  const r=await(await fetch(`${DISPATCH_URL}?key=${encodeURIComponent(DISPATCH_KEY)}`)).json();
+  if(!r.ok)throw new Error(r.error||'실행 실패');
+  btn.textContent='✅ 실행됨 · ~10분 후 반영';
+  setTimeout(()=>{btn.disabled=false;btn.textContent='⚡ 수동 실행'},90_000);
+ }catch(err){
+  btn.textContent='⚡ 수동 실행';btn.disabled=false;
+  // 프록시 장애 시 폴백: 기존 2클릭 경로(Actions Run workflow)를 새 탭으로.
+  if(confirm(`원클릭 실행 실패 (${err.message}).\nGitHub Actions 페이지를 열어 직접 실행할까요?`))
+   window.open('https://github.com/gschoie/DAOL-RESEARCH-TONE/actions/workflows/refresh-tone.yml','_blank');
+ }};
 $('#street-lookup-btn').onclick=openStreetLookup;
 $('#tone-modal-close').addEventListener('click',closeToneModal);
 $('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
