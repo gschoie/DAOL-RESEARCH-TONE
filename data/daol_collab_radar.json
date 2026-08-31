@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-31T04:03:50.382256+00:00",
+ "generated_at": "2026-08-31T19:33:23.576830+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1291,
+ "report_count": 1292,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29179,6 +29179,24 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 4주차)]",
    "post_url": "https://t.me/daolresearch/14979",
    "source_url": "https://buly.kr/90ddkVN"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-08-31",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "달라지는",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "2026년 2분기 이례적인 변화가 나타났지만, 밸류에이션 효과를 축소하고, 최종 값에 대해 민감하지 않은 추세를 적용해 본 결과 최근 4년 간의 NFA 중심값을 기준으로 외생변수 제거 시 약 1,413원 수준의 환율 중심값을 도출 가능",
+    "달라지는 환율결정 메커니즘: 견고한 중심값 탐색 방법론"
+   ],
+   "title": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현 ☎ 02-2184-2351] ★ 달라지는 환율결정 메커니즘: 견고한 중심값 탐색 방법론",
+   "post_url": "https://t.me/daolresearch/14991",
+   "source_url": "https://buly.kr/3CQeZzL"
   }
  ],
  "cross_mentions": [
@@ -30041,42 +30059,42 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.3
+   "burst": 35.2
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.8
+   "burst": 11.7
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.8
+   "burst": 11.7
   },
   {
    "term": "남아",
    "recent": 7,
    "total": 9,
    "sectors": 3,
-   "burst": 9.2
+   "burst": 9.1
   },
   {
    "term": "월드컵",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.9
+   "burst": 6.8
   },
   {
    "term": "감가상각비",
