@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-31T22:26:16.057066+00:00",
+ "generated_at": "2026-08-31T23:26:39.366418+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1293,
+ "report_count": 1295,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29215,6 +29215,23 @@
    "title": "[DB손해보험(005830)/BUY/TP 270,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 배당 수준 높아지고 예측가능성 확보",
    "post_url": "https://t.me/daolresearch/14993",
    "source_url": "https://buly.kr/DlM7fkY"
+  },
+  {
+   "theme": "중국 경기/부양",
+   "category": "매크로",
+   "date": "2026-09-01",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "자동차",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "중국 내수 시장은 이구환신 보조금 축소, NEV 가수요 소진으로 2026년 YTD 성장률은 YoY -20%를 기록"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 유럽 EV 경쟁구도가 선명해 진다",
+   "post_url": "https://t.me/daolresearch/14995",
+   "source_url": "https://buly.kr/9MTBA2A"
   }
  ],
  "cross_mentions": [
@@ -30077,21 +30094,21 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.6
+   "burst": 35.3
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.9
+   "burst": 11.8
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.9
+   "burst": 11.8
   },
   {
    "term": "남아",
@@ -30105,7 +30122,7 @@
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "배당수익률",
@@ -30157,25 +30174,25 @@
    "burst": 4.5
   },
   {
+   "term": "할인율",
+   "recent": 6,
+   "total": 11,
+   "sectors": 3,
+   "burst": 3.9
+  },
+  {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "하고",
    "recent": 6,
    "total": 11,
    "sectors": 7,
-   "burst": 4.0
-  },
-  {
-   "term": "Mix",
-   "recent": 10,
-   "total": 19,
-   "sectors": 6,
-   "burst": 4.0
+   "burst": 3.9
   }
  ]
 }
