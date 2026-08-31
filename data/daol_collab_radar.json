@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-31T19:33:23.576830+00:00",
+ "generated_at": "2026-08-31T22:26:16.057066+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1292,
+ "report_count": 1293,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29197,6 +29197,24 @@
    "title": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현 ☎ 02-2184-2351] ★ 달라지는 환율결정 메커니즘: 견고한 중심값 탐색 방법론",
    "post_url": "https://t.me/daolresearch/14991",
    "source_url": "https://buly.kr/3CQeZzL"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-09-01",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "DB손해보험",
+   "code": "005830",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "관련해 함의 3가지 생각 가능: (1) 주주환원 의지와 예측 가능성 제시 긍정적 평가 (2) 높아진 배당성향 기저에도, 배당성향 상향 기울기 높임.",
+    "그 중 변경된 주주환원정책 내용: (1) 총주주환원율 목표 변경, (2) 현금배당 기본, (3) 주주환원 이행 가능 지표 범위 확대 및 신규 제시"
+   ],
+   "title": "[DB손해보험(005830)/BUY/TP 270,000원]｜다올 금융 김지원 ☎ 2184-2306] ★ 배당 수준 높아지고 예측가능성 확보",
+   "post_url": "https://t.me/daolresearch/14993",
+   "source_url": "https://buly.kr/DlM7fkY"
   }
  ],
  "cross_mentions": [
@@ -30059,42 +30077,42 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.2
+   "burst": 35.6
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.7
+   "burst": 11.9
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.7
+   "burst": 11.9
   },
   {
    "term": "남아",
    "recent": 7,
    "total": 9,
    "sectors": 3,
-   "burst": 9.1
+   "burst": 9.2
   },
   {
    "term": "월드컵",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.8
+   "burst": 6.9
   },
   {
    "term": "감가상각비",
@@ -30143,21 +30161,21 @@
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "하고",
    "recent": 6,
    "total": 11,
    "sectors": 7,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "Mix",
    "recent": 10,
    "total": 19,
    "sectors": 6,
-   "burst": 3.9
+   "burst": 4.0
   }
  ]
 }
