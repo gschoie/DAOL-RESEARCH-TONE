@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-01T22:26:50.414047+00:00",
+ "generated_at": "2026-09-01T23:15:54.177366+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1295,
+ "report_count": 1299,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29232,6 +29232,59 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 유럽 EV 경쟁구도가 선명해 진다",
    "post_url": "https://t.me/daolresearch/14995",
    "source_url": "https://buly.kr/9MTBA2A"
+  },
+  {
+   "theme": "구리/비철금속",
+   "category": "원자재",
+   "date": "2026-09-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "리튬",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[철강(Overweight) 다올 철강/비철금속 이정우]"
+   ],
+   "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 리튬 가격 9월이 분수령",
+   "post_url": "https://t.me/daolresearch/15006",
+   "source_url": "https://buly.kr/FWVhqoS"
+  },
+  {
+   "theme": "이차전지 메탈",
+   "category": "원자재",
+   "date": "2026-09-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "리튬",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "중국에서는 2월 짐바브웨 리튬 정광 수출 금지 조치 이후 아르헨티나와 칠레산 탄산리튬 수입을 확대하면서 물량과 가격 측면에서 모두 이점을 누릴 수 있었음.",
+    "현 상황에서는 리튬 톤당 2.5만달러 내외 유지 가능 리튬 가격을 둘러싼 센티먼트는 부진하며, 탄산리튬 현물 재고도 크게 부족하지 않은 것으로 파악."
+   ],
+   "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 리튬 가격 9월이 분수령",
+   "post_url": "https://t.me/daolresearch/15006",
+   "source_url": "https://buly.kr/FWVhqoS"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-09-02",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "글로벌",
+   "code": "",
+   "direction": "수혜",
+   "score": 7,
+   "evidences": [
+    "글로벌 플랫폼의 K-POP 활용 증가",
+    "글로벌 플랫폼들의 팬덤 사업 확대는 국내 엔터사들과의 경쟁보다 상호 보완 효과가 클 것으로 판단."
+   ],
+   "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 글로벌 플랫폼의 K-POP 활용 증가",
+   "post_url": "https://t.me/daolresearch/15007",
+   "source_url": "https://buly.kr/FWVhr20"
   }
  ],
  "cross_mentions": [
@@ -30094,84 +30147,91 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.3
+   "burst": 34.8
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.8
+   "burst": 11.6
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 7,
    "sectors": 5,
-   "burst": 11.8
+   "burst": 11.6
   },
   {
    "term": "남아",
    "recent": 7,
    "total": 9,
    "sectors": 3,
-   "burst": 9.2
+   "burst": 9.0
   },
   {
    "term": "월드컵",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 7.8
+   "burst": 7.7
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.9
+   "burst": 6.8
   },
   {
    "term": "감가상각비",
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "클라우드",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "분쟁",
    "recent": 6,
    "total": 10,
    "sectors": 5,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "실질",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.6
+   "burst": 4.5
   },
   {
    "term": "기저가",
    "recent": 8,
    "total": 14,
    "sectors": 5,
-   "burst": 4.5
+   "burst": 4.4
+  },
+  {
+   "term": "Mix",
+   "recent": 11,
+   "total": 20,
+   "sectors": 6,
+   "burst": 4.3
   },
   {
    "term": "할인율",
@@ -30185,13 +30245,6 @@
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.9
-  },
-  {
-   "term": "하고",
-   "recent": 6,
-   "total": 11,
-   "sectors": 7,
    "burst": 3.9
   }
  ]
