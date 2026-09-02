@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-02T22:28:56.962325+00:00",
+ "generated_at": "2026-09-02T23:16:41.851850+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1301,
+ "report_count": 1303,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29302,6 +29302,40 @@
    "title": "[알테오젠(196170) | Not Rated | 다올 제약/바이오 이지수] ★ 또 하나의 빅파마, 더 넓어진 가능성",
    "post_url": "https://t.me/daolresearch/15014",
    "source_url": "https://buly.kr/EzlRGPY"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-09-03",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "인터로조",
+   "code": "119610",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "국내 B2C 인지도 제고에 더해, 해당 IP의 아시아 팬덤을 기반으로 고객 접점 확대가 기대되는 국면."
+   ],
+   "title": "[인터로조(119610)/ Not Rated/ 다올 의료기기 박종현] ★ B2C 본격 시험대 진입",
+   "post_url": "https://t.me/daolresearch/15015",
+   "source_url": "https://buly.kr/CWwpXGQ"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-09-03",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "리센스메디컬",
+   "code": "394420",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[Cooloa600] 중국은 글로벌 Top-tier 화장품 브랜드 통한 하이엔드 스파향 공급과 왕훙 판매를 준비, 가전 인증 후 빠르면 4Q26E 가시화."
+   ],
+   "title": "[리센스메디컬(394420)/ Not Rated/ 다올 의료기기 박종현] ★ 기술에서 상업화로",
+   "post_url": "https://t.me/daolresearch/15016",
+   "source_url": "https://buly.kr/5JPlJoP"
   }
  ],
  "cross_mentions": [
@@ -30164,14 +30198,14 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.9
+   "burst": 34.6
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.6
+   "burst": 11.5
   },
   {
    "term": "남아",
@@ -30199,7 +30233,7 @@
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.8
+   "burst": 6.7
   },
   {
    "term": "감가상각비",
@@ -30248,21 +30282,21 @@
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.3
+   "burst": 4.2
   },
   {
    "term": "할인율",
    "recent": 6,
    "total": 11,
    "sectors": 3,
-   "burst": 3.9
+   "burst": 3.8
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.9
+   "burst": 3.8
   }
  ]
 }
