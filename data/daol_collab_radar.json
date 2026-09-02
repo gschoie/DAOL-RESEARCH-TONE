@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-02T17:11:35.834018+00:00",
+ "generated_at": "2026-09-02T22:28:56.962325+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1300,
+ "report_count": 1301,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29285,6 +29285,23 @@
    "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 글로벌 플랫폼의 K-POP 활용 증가",
    "post_url": "https://t.me/daolresearch/15007",
    "source_url": "https://buly.kr/FWVhr20"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-09-03",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "알테오젠",
+   "code": "196170",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "미국 IRA 약가 협상 규정에 따른 Keytruda Qlex의 협상 대상 포함 여부는 점검이 필요하나, 할로자임 특허 무효 결정으로 관련 리스크가 완화되는 가운데 추가 기술이전 기대감은 유효하다고 판단"
+   ],
+   "title": "[알테오젠(196170) | Not Rated | 다올 제약/바이오 이지수] ★ 또 하나의 빅파마, 더 넓어진 가능성",
+   "post_url": "https://t.me/daolresearch/15014",
+   "source_url": "https://buly.kr/EzlRGPY"
   }
  ],
  "cross_mentions": [
@@ -30147,14 +30164,7 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.7
-  },
-  {
-   "term": "일평균거래대금",
-   "recent": 7,
-   "total": 8,
-   "sectors": 5,
-   "burst": 13.5
+   "burst": 34.9
   },
   {
    "term": "보합",
@@ -30178,11 +30188,18 @@
    "burst": 7.7
   },
   {
+   "term": "일평균거래대금",
+   "recent": 6,
+   "total": 8,
+   "sectors": 5,
+   "burst": 7.7
+  },
+  {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.7
+   "burst": 6.8
   },
   {
    "term": "감가상각비",
@@ -30231,7 +30248,7 @@
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.2
+   "burst": 4.3
   },
   {
    "term": "할인율",

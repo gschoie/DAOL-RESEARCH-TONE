@@ -37446,5 +37446,46 @@
       "https://buly.kr/CWwpKP7"
     ],
     "post_url": "https://t.me/daolresearch/15011"
+  },
+  {
+    "id": 15012,
+    "date": "2026-09-02T21:51:23+00:00",
+    "text": "[다올투자증권 반도체/소부장 고영민] #Broadcom FY3Q26 실적 발표 (현지기준 9/2) ▶️ 실적 내용 ($bil, $) » 실적 공시 - 매출액: 29.6 Semi: 20.8 Infra: 8.8 *AI 매출: 16.7 (YoY +221%) - 영업이익(OPM): 20.1 (68%) - EPS: 3.32 → 컨센서스 및 가이던스 소폭 상회 » 컨센서스 ($bil, $) - 매출액: 29.4 - 영업이익(OPM): 19.4 (66%) - EPS: 3.23 » 직전 가이던스 ($bil, $) - 매출액: 29.4 (AI 매출: 16.0) - 영업이익(OPM): 19.7 (67%) ▶️ 차분기(FY4Q26) 가이던스 ($bil) - 매출액: 34.8 Semi: 26.1 AI: 21.7 (YoY +236%) → XPU 및 AI networking의 대규모 deployment가 AI 매출 성장을 견인 비AI: 4.3 Infra SW: 8.7 - 영업이익(OPM): 66% → 기존 컨센서스: 매출액 35.0 (OPM: 66%) ▶️ 주요 Comment » AI 매출 관련 - 당분기 AI 매출 $16.7B (YoY +221%) → 맞춤형 AI 가속기(Custom AI accelerator) 및 AI networking 수요 호조에 기인 - 6개 XPU 고객사의 맞춤형 가속기 채택 가속화 - 당분기 XPU 출하량 YoY 3.5배 이상 증가, AI 매출의 73% 차지 - 당분기 AI networking 매출 YoY 2.5배 이상 증가 → XPU와 AI networking의 강한 성장세가 차분기에도 지속될 전망 - 차분기 XPU 및 AI networking 매출 모두 YoY 3배 성장 전망 - FY26 AI 매출 $58B (+186% YoY) 전망, 기존 가이던스 $56B 상회 - 현재 AI workload의 컴퓨팅 수요 대부분은 최신 프론티어 모델(Frontier model)을 개발하는 소수 고객군에서 발생 → 해당 고객들의 컴퓨팅 인프라 수요는 27~28년 더욱 가속화 될 전망 » AI 고객사 관련 ① Google: Ironwood TPU V7 대규모 출하 및 차세대 TPU V8 AI 생산 출하 개시 → V8 AI는 메모리·대역폭 확대 및 추론 최적화를 통해 Vera Rubin과 동등 이상 성능 확보 - 차세대 TPU·AI 네트워킹 장기 공급 계약 체결, 향후 수년간 연간 수백억 달러 규모 TPU 공급 예정 → 28~29년 증가하는 수요는 차세대 TPU로 대응 계획 ② Anthropic: 26년 Ironwood 1GW 배치 예정 → 27~28년 TPU V8 AI 5GW 추가 배치, 28년 10GW 추가 공급 가시성 확보 → Anthropic은 27년 최대 XPU 고객사로 부상하고 28년에도 유지 될 전망 ③ OpenAI: 27년 1.3GW 규모 Jalapeno 배치 계획 순항, Jalapeno 후속 XPU는 28년 테이프아웃(Tapeout, 설계 확정) 목표 → Jalapeno 및 후속 세대 XPU 5GW 이상 배치 가시성 확보, OpenAI가 2번째로 큰 XPU 고객사로 부상 전망 (다른 프론티어 모델에도 적용 가능하며 GPU 대비 약 50% 비용 절감) ④ Meta: 4Q 추론 및 대규모 추천 알고리즘(Recommendation)에 최적화된 맞춤형 가속기 생산 출하 예정 → 27년 말까지 3세대 MTIA 가속기 공급 예정, 28년까지 3GW 배치 가시성 확보 » AI 인프라 금융 및 고객 지원 관련 - Apollo·Blackstone과 I-SPV 플랫폼을 설립해 OpenAI·Anthropic의 2028년 말까지 20GW+ 컴퓨팅 인프라 구축 지원 - Anthropic 1GW 배치용 $35B 1차 트랜치 완료 및 배치 진행 중 → 제3자 금융 파트너와 인프라 투자를 지원해 XPU 수요의 실행 가능성 제고 » AI 네트워킹 관련 - AI 네트워킹 매출은 향후 수년간 XPU와 유사한 속도로 성장 전망 → XPU뿐 아니라 AI 네트워킹도 AI 매출의 핵심 성장축으로 부상 - Ethernet switching: Scale-up(하나의 서부에서 가속기 연결) 및 Scale-out(여러 서버간 연결) 모두 시장 선도 → 100Tbps Tomahawk 6 최초 출시, 200Tbps Tomahawk 7 출시 - PCIe switching: 모든 세대에서 시장 선도 - Optical DSP: 차세대 광학 DSP 시장 선도, 생산능력 및 시장점유율 확대 중 - Optical interconnect: EML, VCSEL 및 CW laser 시장에서 선도적 지위 확보 » AI 반도체 기술 경쟁력 및 중장기 성장 전망 - 칩 간 연결, 최첨단 HBM·SRAM 통합, 첨단 패키징 등 광범위한 설계 IP와 빠른 Time-to-market 확보 → 재설계(Respins)를 최소화하며 높은 기술적 진입장벽 구축 - AI 컴퓨팅 수요가 공급을 상회하는 가운데, 공급 확대를 통해 성장세 지속 전망 - AI 반도체 매출 FY27 $115B → FY28 $230B로 연속 2배 성장 전망 (FY28 EPS $30+ 목표) » 비AI 관련 - 당분기 매출 $4.1B (YoY +4%), 차분기 $4.3B 전망 → Broadband·Server Storage 성장, Wireless 감소 일부 상쇄 » 인프라 SW 관련 - 당분기 매출 $8.8B (YoY 29%), 차분기 $8.7B 전망 → VMware Private AI Cloud 출시를 통해 기업의 AI 인프라·보안·컴플라이언스 및 Private Cloud 전환 수요 공략 📁 IR자료: https://buly.kr/7FU652n 📨 DAOL 반도체: https://t.me/Semi_Ko 위 내용은 공시 자료 요약으로 별도의 컴플라이언스 승인절차 없이 제공합니다.",
+    "links": [
+      "https://buly.kr/7FU652n",
+      "https://t.me/Semi_Ko"
+    ],
+    "post_url": "https://t.me/daolresearch/15012"
+  },
+  {
+    "id": 15013,
+    "date": "2026-09-02T21:57:01+00:00",
+    "text": "[다올투자증권 자동차 유지웅] 09/03(목) 데일리NEWS [완성차] ■현대차 로봇 '투트랙'…아틀라스 이어 자체 양팔로봇 키운다 https://buly.kr/jc3eiP ■기아, 8월 美서 역대 최다 판매…현대차는 1.9% 감소 https://buly.kr/uWodX3 ■美·캐나다 관세전쟁…현대차·기아 '반사이익' 기대 https://buly.kr/7x97sAM ■“풀충전땐 1000km 거뜬하죠 ”…북미 겨냥한 현대차, EV 패러다임 바꾼다 https://buly.kr/2qb9QYI [부품/타이어] ■현대모비스 램프사업부 매각 '지지부진'한 까닭은 https://buly.kr/4xaFCM0 ■중동 막힌 중고차 부품 수출길…KOTRA, 아프리카·CIS 대체시장 공략 https://buly.kr/4xaFCIv [배터리/2차전지] ■\"중국산 배터리 철거\" 명령에…배터리3사, '기회의 땅' 공략 본격화 https://buly.kr/4FvDH2f ■脫중국에 K배터리, 공급망 재편 속도…유럽서 반사이익 기대 https://buly.kr/2UldSsx ■에코프로비엠 유증 조달액 3139억원 줄었다 https://buly.kr/3u5hJWt ■배터리 셀만 팔아선 한계…K배터리, ESS 시스템으로 승부 https://buly.kr/7x97sBW [글로벌] ■볼보자동차, 6~8월 판매량 전년 대비 7.4% 감소 https://buly.kr/AlnFZEu ■테슬라, 텍사스 오스틴서 사이버캡 행사 개최 예정 https://buly.kr/614n5DH ■테슬라 중국산 전기차 판매 증가세 지속…성장 동력은 둔화 https://buly.kr/CrmiIS ■빈패스트, 인도 내 일부 차종 생산 보류 https://buly.kr/CM243oS * 위 내용은 보도된 사실의 단순요약으로 별도의 컴플라이언스 절차 없이 제공됩니다",
+    "links": [
+      "https://buly.kr/jc3eiP",
+      "https://buly.kr/uWodX3",
+      "https://buly.kr/7x97sAM",
+      "https://buly.kr/2qb9QYI",
+      "https://buly.kr/4xaFCM0",
+      "https://buly.kr/4xaFCIv",
+      "https://buly.kr/4FvDH2f",
+      "https://buly.kr/2UldSsx",
+      "https://buly.kr/3u5hJWt",
+      "https://buly.kr/7x97sBW",
+      "https://buly.kr/AlnFZEu",
+      "https://buly.kr/614n5DH",
+      "https://buly.kr/CrmiIS",
+      "https://buly.kr/CM243oS"
+    ],
+    "post_url": "https://t.me/daolresearch/15013"
+  },
+  {
+    "id": 15014,
+    "date": "2026-09-02T22:05:01+00:00",
+    "text": "[알테오젠(196170) | Not Rated | 다올 제약/바이오 이지수] ★ 또 하나의 빅파마, 더 넓어진 가능성 ▶ 9/2 노바티스와 ALT-B4에 대한 독점적 옵션·라이선스 계약 체결. 총 계약 규모 최대 32.23억달러(약 4.4조원)이며, 상업화 이후 판매 로열티는 별도 수취 ▶ 이번 계약은 복수 품목을 대상으로 한다는 점에서 ALT-B4의 적용 범위 확대에 의미가 있음. 노바티스가 항체의약품뿐 아니라 ADC, AOC 등 차세대 모달리티로 파이프라인을 확장하고 있어, 고용량·반복 투여가 필요한 바이오의약품을 중심으로 ALT-B4의 활용 기회가 확대될 전망 ▶ 올해 네 번째 ALT-B4 라이선스 계약으로 글로벌 빅파마 대상 기술이전 성과와 상업적 수요를 재확인. 미국 IRA 약가 협상 규정에 따른 Keytruda Qlex의 협상 대상 포함 여부는 점검이 필요하나, 할로자임 특허 무효 결정으로 관련 리스크가 완화되는 가운데 추가 기술이전 기대감은 유효하다고 판단 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/EzlRGPY >",
+    "links": [
+      "https://buly.kr/EzlRGPY"
+    ],
+    "post_url": "https://t.me/daolresearch/15014"
   }
 ]
