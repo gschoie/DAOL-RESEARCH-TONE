@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-02T01:28:14.171248+00:00",
+ "generated_at": "2026-09-02T17:11:35.834018+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1299,
+ "report_count": 1300,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30147,20 +30147,20 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.8
+   "burst": 34.7
+  },
+  {
+   "term": "일평균거래대금",
+   "recent": 7,
+   "total": 8,
+   "sectors": 5,
+   "burst": 13.5
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.6
-  },
-  {
-   "term": "일평균거래대금",
-   "recent": 6,
-   "total": 7,
-   "sectors": 5,
    "burst": 11.6
   },
   {
@@ -30182,7 +30182,7 @@
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.8
+   "burst": 6.7
   },
   {
    "term": "감가상각비",
@@ -30231,7 +30231,7 @@
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.3
+   "burst": 4.2
   },
   {
    "term": "할인율",
