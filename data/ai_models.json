@@ -38,5 +38,6 @@
  "models/gemma-4-31b-it",
  "models/lyria-3-clip-preview",
  "models/lyria-3-pro-preview",
+ "models/lyria-3.5",
  "models/nano-banana-pro-preview"
 ]
