@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-03T22:28:37.041676+00:00",
+ "generated_at": "2026-09-03T23:17:53.670405+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1303,
+ "report_count": 1306,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29336,6 +29336,111 @@
    "title": "[리센스메디컬(394420)/ Not Rated/ 다올 의료기기 박종현] ★ 기술에서 상업화로",
    "post_url": "https://t.me/daolresearch/15016",
    "source_url": "https://buly.kr/5JPlJoP"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-09-04",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "2차전지",
+   "code": "",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "2차전지(Overweight) - ESS기반 고속 성장 구간",
+    "셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 2차전지(Overweight) - ESS기반 고속 성장 구간",
+   "post_url": "https://t.me/daolresearch/15024",
+   "source_url": "https://buly.kr/BIXX2F6"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-09-04",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "이후 미·이란 교전 격화에 유가·장기금리 상승세 지속, 9월 금리 인상 우려까지 부각되며 증시 부담 확대되는 양상."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15025",
+   "source_url": "https://buly.kr/2qb9xJt"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-09-04",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "케빈 워시 잭슨홀 매파적 발언에도 자사주 매입 효과에 코스피는 상승 출발, 8월 수출이 호조를 보인 점도 증시 상승을 지지."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15025",
+   "source_url": "https://buly.kr/2qb9xJt"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-09-04",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "이후 미·이란 교전 격화에 유가·장기금리 상승세 지속, 9월 금리 인상 우려까지 부각되며 증시 부담 확대되는 양상.",
+    "그러나 주중 미·이란 교전 격화, 유가 및 국채금리 급등하며 코스피 급락."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15025",
+   "source_url": "https://buly.kr/2qb9xJt"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-09-04",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "이후 미·이란 교전 격화에 유가·장기금리 상승세 지속, 9월 금리 인상 우려까지 부각되며 증시 부담 확대되는 양상.",
+    "그러나 주중 미·이란 교전 격화, 유가 및 국채금리 급등하며 코스피 급락."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15025",
+   "source_url": "https://buly.kr/2qb9xJt"
+  },
+  {
+   "theme": "구리/비철금속",
+   "category": "원자재",
+   "date": "2026-09-04",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "KOSPI는 은행(+3.3%), 철강(+1.2%), 보험(+1.1%) 업종이 상승한 가운데 기계(-9.8%), 비철,목재등(-9.1%), 화장품,의류,완구(-7.0%) 업종 하락."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15025",
+   "source_url": "https://buly.kr/2qb9xJt"
   }
  ],
  "cross_mentions": [
@@ -30198,28 +30303,21 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.6
+   "burst": 34.7
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.5
-  },
-  {
-   "term": "남아",
-   "recent": 7,
-   "total": 9,
-   "sectors": 3,
-   "burst": 9.0
+   "burst": 11.6
   },
   {
    "term": "월드컵",
-   "recent": 6,
-   "total": 8,
+   "recent": 7,
+   "total": 9,
    "sectors": 4,
-   "burst": 7.7
+   "burst": 9.0
   },
   {
    "term": "일평균거래대금",
@@ -30240,6 +30338,13 @@
    "recent": 6,
    "total": 9,
    "sectors": 6,
+   "burst": 5.8
+  },
+  {
+   "term": "남아",
+   "recent": 6,
+   "total": 9,
+   "sectors": 3,
    "burst": 5.8
   },
   {
@@ -30289,14 +30394,14 @@
    "recent": 6,
    "total": 11,
    "sectors": 3,
-   "burst": 3.8
+   "burst": 3.9
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.8
+   "burst": 3.9
   }
  ]
 }
