@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-04T01:14:41.871935+00:00",
+ "generated_at": "2026-09-04T16:59:17.201166+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1306,
+ "report_count": 1307,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29441,6 +29441,58 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)]",
    "post_url": "https://t.me/daolresearch/15025",
    "source_url": "https://buly.kr/2qb9xJt"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-09-04",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "company": "안녕하세요",
+   "code": "",
+   "direction": "수혜",
+   "score": 8,
+   "evidences": [
+    "환율과 무관하거나, 원화강세에 수혜를 받는 기업들 II.",
+    "안녕하세요, 원화 강세입니다"
+   ],
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028",
+   "source_url": "https://buly.kr/AasVJLq"
+  },
+  {
+   "theme": "HBM/AI반도체",
+   "category": "산업테마",
+   "date": "2026-09-04",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "company": "안녕하세요",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "DRAM ASP 호조가 일부 상쇄 2."
+   ],
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028",
+   "source_url": "https://buly.kr/AasVJLq"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-04",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "company": "안녕하세요",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "방위산업: 외화 원가 상쇄 없어 OPM -1.2~-2.6%p, KAI만 수혜 6."
+   ],
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028",
+   "source_url": "https://buly.kr/AasVJLq"
   }
  ],
  "cross_mentions": [
@@ -30295,6 +30347,126 @@
    "evidence": "30)에1 aha 일평균거라대금 96억원 일부 1『들의 투어 개시 속 주요 들의 글로벌 대신 일본 컴백이 집중됩어 age 은 22 따라 음반원 매출은 QoQ 감소가 불가피할 전망 주요주주지분율(%) 카카오 (의 10인) 41.8 ㆍ [공연] 매출 416억원.",
    "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
    "post_url": "https://t.me/daolresearch/14798"
+  },
+  {
+   "company": "삼성중공업",
+   "code": "010140",
+   "owner_analyst": "최광식",
+   "owner_sector": "조선/기계/방산",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "조선: 삼성중공업만 영향 없고 OPM -1~-2%p, 고가 수주 빈티지가 상쇄 5.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "SK바이오팜",
+   "code": "326030",
+   "owner_analyst": "이지수",
+   "owner_sector": "제약/바이오",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "제약/바이오: 삼바·에스티팜에 부담 집중, 셀트리온·SK바이오팜은 자연헤지 10.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "에스티팜",
+   "code": "237690",
+   "owner_analyst": "이지수",
+   "owner_sector": "제약/바이오",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "제약/바이오: 삼바·에스티팜에 부담 집중, 셀트리온·SK바이오팜은 자연헤지 10.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "현대건설",
+   "code": "000720",
+   "owner_analyst": "박영도",
+   "owner_sector": "건설/부동산",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "건설기계: HD현대건설기계 OPM -2.0%p, 밥캣은 환산이익만 감소 7.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "삼성E&A",
+   "code": "028050",
+   "owner_analyst": "박영도",
+   "owner_sector": "건설/부동산",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "건설: 해외 원가 현지통화 지급으로 자연헤지, 삼성E&A 외엔 영향 제한적 8.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "세아제강",
+   "code": "306200",
+   "owner_analyst": "이정우",
+   "owner_sector": "철강/비철금속",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "철강: 일관제철 2사 수혜(4Q 본격 발현), 미국 40%인 세아제강은 피해 9.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "셀트리온",
+   "code": "068270",
+   "owner_analyst": "이지수",
+   "owner_sector": "제약/바이오",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "제약/바이오: 삼바·에스티팜에 부담 집중, 셀트리온·SK바이오팜은 자연헤지 10.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "현대차",
+   "code": "005380",
+   "owner_analyst": "유지웅",
+   "owner_sector": "자동차/이차전지",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "자동차·2차전지: 100원당 현대차 1.9조·기아 1.4조, 원/엔 방향성이 더 중요 4.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "LG이노텍",
+   "code": "011070",
+   "owner_analyst": "김연미",
+   "owner_sector": "전기전자",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "전기전자: 기판은 매출·원재료 모두 달러로 자연헤지, LG이노텍은 4Q 환율이 관건 3.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "기아",
+   "code": "000270",
+   "owner_analyst": "유지웅",
+   "owner_sector": "자동차/이차전지",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-09-04",
+   "evidence": "자동차·2차전지: 100원당 현대차 1.9조·기아 1.4조, 원/엔 방향성이 더 중요 4.",
+   "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
+   "post_url": "https://t.me/daolresearch/15028"
   }
  ],
  "candidates": [
@@ -30303,14 +30475,14 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.7
+   "burst": 34.6
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 7,
    "sectors": 3,
-   "burst": 11.6
+   "burst": 11.5
   },
   {
    "term": "월드컵",
@@ -30394,14 +30566,14 @@
    "recent": 6,
    "total": 11,
    "sectors": 3,
-   "burst": 3.9
+   "burst": 3.8
   },
   {
    "term": "단일",
    "recent": 7,
    "total": 13,
    "sectors": 5,
-   "burst": 3.9
+   "burst": 3.8
   }
  ]
 }
