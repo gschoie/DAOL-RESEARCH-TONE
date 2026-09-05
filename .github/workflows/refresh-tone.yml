@@ -3,7 +3,15 @@ name: 톤 수집·AI 분석·배포
 # 다올리서치 채널 수집 → AI 톤 분석(증분) → v2 빌드 → 콜라보 레이더 → Pages 배포.
 # 데이터는 캐시가 아니라 리포에 커밋백한다(대시보드 리포에서 겪은 캐시 계보 꼬임 원천 차단).
 on:
+  # 수동 실행(버튼·Routine·GAS)은 기본이 빠른 아침 모드 — OCR 설치·재무 강제수집을 생략해
+  # 8~12분 런을 4~6분으로 줄인다(7:45 발간분을 8시 전에 반영하기 위함). 전체 모드가 필요하면
+  # GitHub UI에서 fast 체크를 해제하고 실행(저녁 스케줄 런은 원래대로 전체 모드).
   workflow_dispatch:
+    inputs:
+      fast:
+        description: "빠른 아침 모드(OCR 설치·재무 강제수집 생략, 신규 15건만)"
+        type: boolean
+        default: true
   # 코드 push 시에도 전체 파이프라인 실행(봇 커밋백은 GITHUB_TOKEN이라 재트리거 안 됨 — 무한루프 없음).
   push:
     branches: ["main"]
@@ -33,6 +41,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # 빠른 아침 모드 여부 — dispatch 기본 true(버튼·아침 Routine), 스케줄·push는 항상 전체 모드.
+      FAST: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fast != 'false' }}
     steps:
       - uses: actions/checkout@v5
 
@@ -41,10 +52,13 @@ jobs:
           python-version: "3.12"
 
       - name: Python 패키지 준비
-        run: |
-          python -m pip install requests beautifulsoup4 lxml pypdf pypdfium2 pytesseract
-          # 이미지형 PDF 표지의 적정주가 박스를 읽기 위한 OCR
-          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
+        run: python -m pip install requests beautifulsoup4 lxml pypdf pypdfium2 pytesseract
+
+      # 이미지형 PDF 표지의 적정주가 박스를 읽기 위한 OCR — 빠른 모드에선 생략(~1분 절약).
+      # OCR이 없어 실패한 PDF는 30일 내 리포트에 한해 다음 전체 런이 자동 재시도한다.
+      - name: OCR 설치 (전체 모드만)
+        if: env.FAST != 'true'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
 
       - name: 텔레그램 수집 + 정규식 1차 추출
         run: python build_daol_tone_dashboard.py --refresh
@@ -62,10 +76,10 @@ jobs:
         run: python price_returns.py || echo "::warning::주가 캐시 갱신 실패"
 
       # 커버 종목 연간 재무·밸류 지표(네이버 금융) — 챗봇 기업 카드용, 캐시 20시간 이내면 스킵
-      # (코드 머지·수동 실행 때는 강제 재수집 — 수집 로직을 고친 직후 바로 반영되도록)
+      # (코드 머지 push 때만 강제 재수집 — 수동 실행은 빠른 아침 모드가 기본이라 캐시를 존중)
       - name: 네이버 재무 지표 수집
         env:
-          FORCE_FUNDA: ${{ (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && '1' || '' }}
+          FORCE_FUNDA: ${{ github.event_name == 'push' && '1' || '' }}
         run: python naver_fundamentals.py || echo "::warning::재무 지표 수집 실패"
 
       - name: 사용 가능 Gemini 모델 덤프
@@ -91,10 +105,10 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # 아침 런들은 신규만 빠르게(15건, ~2분), 저녁 런·수동 실행은 백필 몫(200건, ~22분).
-          AI_MAX_REPORTS: ${{ (github.event.schedule == '50 21 * * *' || github.event.schedule == '5 22 * * *' || github.event.schedule == '20 22 * * *' || github.event.schedule == '20 23 * * *' || github.event.schedule == '30 23 * * *') && '15' || '200' }}
-          # 아침 런·수동 실행은 PDF 재시도 예산을 줄여 빨리 끝낸다(과거 실패분 재시도는 저녁 런 몫)
-          PDF_BUDGET_SECONDS: ${{ (github.event.schedule == '0 13 * * *') && '900' || '360' }}
+          # 아침 크론·빠른 수동 실행은 신규만 빠르게(15건, ~2분), 저녁 런·전체 수동 실행은 백필 몫(200건).
+          AI_MAX_REPORTS: ${{ (env.FAST == 'true' || github.event.schedule == '50 21 * * *' || github.event.schedule == '5 22 * * *' || github.event.schedule == '20 22 * * *' || github.event.schedule == '20 23 * * *' || github.event.schedule == '30 23 * * *') && '15' || '200' }}
+          # PDF 재시도 예산: 빠른 모드 240초, 아침 크론 360초, 저녁 런 900초(과거 실패분 재시도는 저녁 몫)
+          PDF_BUDGET_SECONDS: ${{ env.FAST == 'true' && '240' || (github.event.schedule == '0 13 * * *') && '900' || '360' }}
           AI_BUDGET_SECONDS: "1800"
         run: python ai_report_analyzer.py
 
