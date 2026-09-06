@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-06T23:00:53.595452+00:00",
+ "generated_at": "2026-09-06T23:30:08.418648+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1308,
+ "report_count": 1310,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29562,6 +29562,57 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국의 컨테이너 8척 수주, LNG선 8척 수주설, 그리고 충남급 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15029",
    "source_url": "https://bit.ly/DOS838"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-09-07",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "현대차",
+   "code": "005380",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "현시점 일부 고수익 SUV차종들을 미국 현지화 배치가 이뤄지고 있으며, 이를 통해 관세부담 경감을 기대"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대차(005380) - 탐방후기: 3Q26보다는 4Q26 모멘텀에 무게",
+   "post_url": "https://t.me/daolresearch/15032",
+   "source_url": "https://buly.kr/EI6QnlE"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-09-07",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "현대차",
+   "code": "005380",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "모멘텀은 4Q26 초입, 또는 2026년 귀속분 자사주매입 시점까지 고려한 2027년 1월을 겨냥한 연말 매수전략 유효."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대차(005380) - 탐방후기: 3Q26보다는 4Q26 모멘텀에 무게",
+   "post_url": "https://t.me/daolresearch/15032",
+   "source_url": "https://buly.kr/EI6QnlE"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-09-07",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "기아",
+   "code": "000270",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "이익모멘텀이 하반기에도 수반되는 가운데, 동사가 올해 4월 CID(CEO Investor Day)에서 26~28년 귀속분에 대해 신규 제시한 ‘’TSR 35% 이상’’ 기조에 재 주목할 필요"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속",
+   "post_url": "https://t.me/daolresearch/15033",
+   "source_url": "https://buly.kr/7QOsXwu"
   }
  ],
  "cross_mentions": [
@@ -30544,28 +30595,28 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.6
+   "burst": 35.0
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.0
+   "burst": 9.1
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 8,
    "sectors": 5,
-   "burst": 7.7
+   "burst": 7.8
   },
   {
    "term": "배당수익률",
    "recent": 7,
    "total": 10,
    "sectors": 6,
-   "burst": 6.7
+   "burst": 6.8
   },
   {
    "term": "감가상각비",
@@ -30593,21 +30644,21 @@
    "recent": 8,
    "total": 13,
    "sectors": 6,
-   "burst": 5.1
+   "burst": 5.2
   },
   {
    "term": "클라우드",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "분쟁",
    "recent": 6,
    "total": 10,
    "sectors": 5,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "기저가",
@@ -30621,28 +30672,28 @@
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.2
+   "burst": 4.3
   },
   {
    "term": "할인율",
    "recent": 6,
    "total": 11,
    "sectors": 3,
-   "burst": 3.8
-  },
-  {
-   "term": "단일",
-   "recent": 7,
-   "total": 13,
-   "sectors": 5,
-   "burst": 3.8
+   "burst": 3.9
   },
   {
    "term": "공급계약",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 3.8
+   "burst": 3.9
+  },
+  {
+   "term": "일시",
+   "recent": 9,
+   "total": 18,
+   "sectors": 8,
+   "burst": 3.5
   }
  ]
 }
