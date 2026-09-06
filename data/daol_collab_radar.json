@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-06T01:15:19.358871+00:00",
+ "generated_at": "2026-09-06T16:15:20.495728+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1307,
+ "report_count": 1308,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29493,6 +29493,75 @@
    "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
    "post_url": "https://t.me/daolresearch/15028",
    "source_url": "https://buly.kr/AasVJLq"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-09-06",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "JMIC에 따르면 호르무즈 해협에서 피격된 Sinokor Maritime의 만재 VLCC 'Senegal Prosperity'(321k-DWT) 선원 전원 대피"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국의 컨테이너 8척 수주, LNG선 8척 수주설, 그리고 충남급 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15029",
+   "source_url": "https://bit.ly/DOS838"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-09-06",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "그린쉽 △ WinGD, 엔진개조는 CAPEX 비용보다, 연료의 가격, 가용성 등에 달림"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국의 컨테이너 8척 수주, LNG선 8척 수주설, 그리고 충남급 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15029",
+   "source_url": "https://bit.ly/DOS838"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-06",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국의 컨테이너 8척 수주, LNG선 8척 수주설, 그리고 충남급 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15029",
+   "source_url": "https://bit.ly/DOS838"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-09-06",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "다올 선박: 한국의 컨테이너 8척 수주, LNG선 8척 수주설, 그리고 충남급 ⚓ 주시 뉴스",
+    "선가, 실적, 캐파 ▽ LNG선 신조선가 하락 및 신조선가지수 소수점 하락"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국의 컨테이너 8척 수주, LNG선 8척 수주설, 그리고 충남급 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15029",
+   "source_url": "https://bit.ly/DOS838"
   }
  ],
  "cross_mentions": [
@@ -30478,13 +30547,6 @@
    "burst": 34.6
   },
   {
-   "term": "보합",
-   "recent": 6,
-   "total": 7,
-   "sectors": 3,
-   "burst": 11.5
-  },
-  {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
@@ -30527,6 +30589,13 @@
    "burst": 5.8
   },
   {
+   "term": "실질",
+   "recent": 8,
+   "total": 13,
+   "sectors": 6,
+   "burst": 5.1
+  },
+  {
    "term": "클라우드",
    "recent": 6,
    "total": 10,
@@ -30539,13 +30608,6 @@
    "total": 10,
    "sectors": 5,
    "burst": 4.6
-  },
-  {
-   "term": "실질",
-   "recent": 7,
-   "total": 12,
-   "sectors": 5,
-   "burst": 4.5
   },
   {
    "term": "기저가",
@@ -30572,6 +30634,13 @@
    "term": "단일",
    "recent": 7,
    "total": 13,
+   "sectors": 5,
+   "burst": 3.8
+  },
+  {
+   "term": "공급계약",
+   "recent": 6,
+   "total": 11,
    "sectors": 5,
    "burst": 3.8
   }
