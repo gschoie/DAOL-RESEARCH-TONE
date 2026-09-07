@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-07T18:20:12.625086+00:00",
+ "generated_at": "2026-09-07T22:28:14.347356+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1310,
+ "report_count": 1311,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30595,7 +30595,7 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.0
+   "burst": 35.2
   },
   {
    "term": "월드컵",
@@ -30605,6 +30605,13 @@
    "burst": 9.1
   },
   {
+   "term": "보합",
+   "recent": 6,
+   "total": 8,
+   "sectors": 3,
+   "burst": 7.8
+  },
+  {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 8,
@@ -30612,32 +30619,25 @@
    "burst": 7.8
   },
   {
-   "term": "배당수익률",
-   "recent": 7,
-   "total": 10,
-   "sectors": 6,
-   "burst": 6.8
-  },
-  {
    "term": "감가상각비",
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "남아",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "실질",
@@ -30654,6 +30654,13 @@
    "burst": 4.7
   },
   {
+   "term": "배당수익률",
+   "recent": 6,
+   "total": 10,
+   "sectors": 6,
+   "burst": 4.7
+  },
+  {
    "term": "분쟁",
    "recent": 6,
    "total": 10,
@@ -30661,11 +30668,18 @@
    "burst": 4.7
   },
   {
+   "term": "할인율",
+   "recent": 7,
+   "total": 12,
+   "sectors": 3,
+   "burst": 4.6
+  },
+  {
    "term": "기저가",
    "recent": 8,
    "total": 14,
    "sectors": 5,
-   "burst": 4.4
+   "burst": 4.5
   },
   {
    "term": "Mix",
@@ -30675,25 +30689,11 @@
    "burst": 4.3
   },
   {
-   "term": "할인율",
-   "recent": 6,
-   "total": 11,
-   "sectors": 3,
-   "burst": 3.9
-  },
-  {
    "term": "공급계약",
    "recent": 6,
    "total": 11,
    "sectors": 5,
    "burst": 3.9
-  },
-  {
-   "term": "일시",
-   "recent": 9,
-   "total": 18,
-   "sectors": 8,
-   "burst": 3.5
   }
  ]
 }
