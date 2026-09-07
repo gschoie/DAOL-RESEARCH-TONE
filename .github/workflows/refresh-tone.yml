@@ -60,7 +60,13 @@ jobs:
         if: env.FAST != 'true'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
 
+      # PDF 재시도 예산은 "이 스텝"이 읽는다(빠른 모드 90초 / 저녁 백필 900초 / 그 외 360초).
+      # 신규 발간분 PDF를 최신순으로 먼저 받으므로 짧은 예산에도 아침 신규분은 항상 확보되고,
+      # 30일 내 과거 실패분 재시도만 잘린다(저녁 런 몫). — 그동안 이 env가 AI 스텝에 잘못 걸려
+      # 수집 스텝이 항상 기본 900초로 돌던 것이 아침 런 15분의 원인이었다.
       - name: 텔레그램 수집 + 정규식 1차 추출
+        env:
+          PDF_BUDGET_SECONDS: ${{ env.FAST == 'true' && '90' || (github.event.schedule == '0 13 * * *') && '900' || '360' }}
         run: python build_daol_tone_dashboard.py --refresh
 
       # 리포트 1건당 LLM 구조화 분석. 캐시(daol_ai_analysis.json)에 누적 — 재호출 없음.
@@ -107,8 +113,6 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # 아침 크론·빠른 수동 실행은 신규만 빠르게(15건, ~2분), 저녁 런·전체 수동 실행은 백필 몫(200건).
           AI_MAX_REPORTS: ${{ (env.FAST == 'true' || github.event.schedule == '50 21 * * *' || github.event.schedule == '5 22 * * *' || github.event.schedule == '20 22 * * *' || github.event.schedule == '20 23 * * *' || github.event.schedule == '30 23 * * *') && '15' || '200' }}
-          # PDF 재시도 예산: 빠른 모드 240초, 아침 크론 360초, 저녁 런 900초(과거 실패분 재시도는 저녁 몫)
-          PDF_BUDGET_SECONDS: ${{ env.FAST == 'true' && '240' || (github.event.schedule == '0 13 * * *') && '900' || '360' }}
           AI_BUDGET_SECONDS: "1800"
         run: python ai_report_analyzer.py
 
