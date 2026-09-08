@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-08T22:29:21.148352+00:00",
+ "generated_at": "2026-09-08T22:48:28.894593+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1313,
+ "report_count": 1314,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29666,6 +29666,57 @@
    "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - GLP-1 애프터케어 시장의 확대",
    "post_url": "https://t.me/daolresearch/15045",
    "source_url": "https://buly.kr/1x441q"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-09-09",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "조용히",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "환율 하락에도 불구 펀더멘탈의 개선을 봐야할 시점 세아제강(BUY, 적정주가 20만원) 선호의견 유지."
+   ],
+   "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
+   "post_url": "https://t.me/daolresearch/15047",
+   "source_url": "https://buly.kr/3YGDgko"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-09-09",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "조용히",
+   "code": "",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "수출 증가의 배경 중 하나로 작용하고 있는 건 미국 내 전력 수요의 증가로 인한 발전용량의 확대."
+   ],
+   "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
+   "post_url": "https://t.me/daolresearch/15047",
+   "source_url": "https://buly.kr/3YGDgko"
+  },
+  {
+   "theme": "구리/비철금속",
+   "category": "원자재",
+   "date": "2026-09-09",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "조용히",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[철강(Overweight) 다올 철강/비철금속 이정우]"
+   ],
+   "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
+   "post_url": "https://t.me/daolresearch/15047",
+   "source_url": "https://buly.kr/3YGDgko"
   }
  ],
  "cross_mentions": [
@@ -30648,7 +30699,7 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.1
+   "burst": 35.0
   },
   {
    "term": "월드컵",
@@ -30739,7 +30790,7 @@
    "recent": 8,
    "total": 14,
    "sectors": 5,
-   "burst": 4.5
+   "burst": 4.4
   },
   {
    "term": "Mix",
