@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-07T23:01:55.820449+00:00",
+ "generated_at": "2026-09-08T00:03:51.064926+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1311,
+ "report_count": 1312,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29613,6 +29613,24 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속",
    "post_url": "https://t.me/daolresearch/15033",
    "source_url": "https://buly.kr/7QOsXwu"
+  },
+  {
+   "theme": "중국 경기/부양",
+   "category": "매크로",
+   "date": "2026-09-08",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "자동차",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "중국 판매성장의 둔화 가능성이 높아지는 가운데, 중국시장 노출도가 낮은 현대/기아의 글로벌 M/S 확대 기조 확인이 글로벌 전통 OEM 중에 선제적으로 나타날 수 있음을 시사",
+    "2026년에는 이구환신이 가격비례제로 바뀌면서 수요가 급랭하기 시작한 것으로 파악."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 중국 Peak-Out 징후 현실화",
+   "post_url": "https://t.me/daolresearch/15040",
+   "source_url": "https://buly.kr/A48Fch4"
   }
  ],
  "cross_mentions": [
@@ -30595,7 +30613,7 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.2
+   "burst": 35.1
   },
   {
    "term": "월드컵",
@@ -30623,21 +30641,21 @@
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "남아",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "실질",
@@ -30672,7 +30690,7 @@
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.6
+   "burst": 4.5
   },
   {
    "term": "기저가",
