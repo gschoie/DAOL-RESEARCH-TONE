@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-08T17:21:39.682892+00:00",
+ "generated_at": "2026-09-08T22:29:21.148352+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1312,
+ "report_count": 1313,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29631,6 +29631,41 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 중국 Peak-Out 징후 현실화",
    "post_url": "https://t.me/daolresearch/15040",
    "source_url": "https://buly.kr/A48Fch4"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-09-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue&Pitch",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "ASPS가 18~35세 시술 감소의 배경으로 \"시술에 앞서 스킨케어에 집중하는 성향\"을 명시, 미국 젊은 층 지출이 수술에서 스킨케어로 이동 중이라는 언급 확인."
+   ],
+   "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - GLP-1 애프터케어 시장의 확대",
+   "post_url": "https://t.me/daolresearch/15045",
+   "source_url": "https://buly.kr/1x441q"
+  },
+  {
+   "theme": "비만/GLP-1",
+   "category": "산업테마",
+   "date": "2026-09-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue&Pitch",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "Issue&Pitch - GLP-1 애프터케어 시장의 확대",
+    "현지 전문의 82%가 GLP-1 상담을 경험, 체중감량 후 피부이완 대응이 새 수요축으로 부상."
+   ],
+   "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - GLP-1 애프터케어 시장의 확대",
+   "post_url": "https://t.me/daolresearch/15045",
+   "source_url": "https://buly.kr/1x441q"
   }
  ],
  "cross_mentions": [
@@ -30644,6 +30679,13 @@
    "burst": 5.8
   },
   {
+   "term": "정체",
+   "recent": 6,
+   "total": 9,
+   "sectors": 4,
+   "burst": 5.8
+  },
+  {
    "term": "남아",
    "recent": 6,
    "total": 9,
@@ -30705,13 +30747,6 @@
    "total": 20,
    "sectors": 6,
    "burst": 4.3
-  },
-  {
-   "term": "공급계약",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
-   "burst": 3.9
   }
  ]
 }
