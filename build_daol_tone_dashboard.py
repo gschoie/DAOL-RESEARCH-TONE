@@ -323,10 +323,13 @@ def analyze(messages, pdf_since='2025-05'):
                  'earnings_changes':detail_lines(t,r'(?:실적|이익|매출|영업이익|EPS)\s*(?:추정|전망|상향|하향)|추정치\s*(?:상향|하향)',4),
                  'preferred_stocks':top_pick_lines(t)}
         if month>=pdf_since and (source in cache or time.monotonic()-pdf_started<pdf_budget_seconds):
-            # 다운로드 실패로 캐시된 항목은 최근 30일 리포트에 한해 재시도한다(일시 장애 복구)
+            # 다운로드 실패로 캐시된 항목은 최근 30일 리포트에 한해 재시도한다(일시 장애 복구).
+            # 재시도 역시 PDF 예산 안에서만 — '캐시에 있음'을 핑계로 예산을 우회해 실패 URL
+            # 수십 개를 매 런 재다운로드하며 15분을 태우던 문제(빠른 아침 런 무력화) 방지.
             retry_cut=(kst_today()-timedelta(days=30)).isoformat()
             retry_hints={}
-            if source in cache and cache[source].get('status')!='pdf' and day>=retry_cut:
+            if (source in cache and cache[source].get('status')!='pdf' and day>=retry_cut
+                    and time.monotonic()-pdf_started<pdf_budget_seconds):
                 prev=cache.pop(source)
                 if prev.get('final_url') and prev['final_url']!=source:retry_hints[source]=prev['final_url']
             was_cached=source in cache;p=pdf_text(source,cache,retry_hints);cache_changed=cache_changed or not was_cached
