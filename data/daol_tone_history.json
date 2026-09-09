@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T17:14:55.531680+00:00",
+  "generated_at": "2026-09-09T22:13:58.875816+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1314,
+  "report_count": 1315,
   "months": [
     {
       "month": "2026-09",
@@ -95,14 +95,46 @@
               "value": "비중확대",
               "date": "2026-09-02",
               "source": "https://t.me/daolresearch/15010"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-09-10",
+              "source": "https://t.me/daolresearch/15052"
             }
           ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15052,
+              "date": "2026-09-10",
+              "month": "2026-09",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/3jAz1XI",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3jAz1XI (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f7deaf4a450>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (8월) 은행 여수신 동향: 기업대출이 보다 확대",
+              "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (8월) 은행 여수신 동향: 기업대출이 보다 확대 ▶ 여신: 가계대출 증가폭 축소, 기업대출 증가폭 확대 ▶ 여신 증감폭: 가계대출 +3.4조원(vs. 26년 7월 +5.5조원), 기업대출 +9.7조원(vs. 26년 7월 +7.7조원) ▶ 신용대출 포함 기타대출 감소 전환이 주된 이유. 집단대출 외 주택 거래량 변동 가능성도 고려 필요 ▶ 수신: 전월비 변동 거의 없음. 수시입출식예금 감소와 정기예금 증가 지속 ▶ 수신 증감폭: +0.1조원(vs. 26년 7월 -30.0조원) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/3jAz1XI > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15052",
+              "source_url": "https://buly.kr/3jAz1XI"
+            },
             {
               "id": 15010,
               "date": "2026-09-02",
@@ -312,7 +344,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/1x441q",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1x441q (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fe1009a74a0>, 'Connection to buly.kr timed out. (connect t",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1x441q (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f7deaf4bb60>, 'Connection to buly.kr timed out. (connect t",
               "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - GLP-1 애프터케어 시장의 확대",
               "summary": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - GLP-1 애프터케어 시장의 확대 ▶ 미국 미용성형 152.3만건(+6.9% YoY). 순증 9.8만건의 92%가 안면 (+15.3%), 유방(+8.2%)에서 발생, 바디는 +1.3% 정체. 지방흡입, 복부성형 둔화되는 자리를 팔·허벅지·상하체 거상(+20~22%)이 대체하며 리프팅 8종 +12.6%. 현지 전문의 82%가 GLP-1 상담을 경험, 체중감량 후 피부이완 대응이 새 수요축으로 부상. 66세 이상 +24.1% vs 18~25세 -9.2%로 무게중심이 바디, 저연령에서 안면, 시니어로 이동 ▶ 국내 에스테틱 밸류체인에는 안면 볼륨 복원 시장의 재편이 관건. HA 필러가 사용률 69%로 1위를 지켰으나 자가지방이식이 49%로 2위까지 올라섰고, 안면 지방이식은 3.4만건(+38.7%)으로 증가율 1위. \"더 오래가는 시술을 원해 필러에서 이탈 중\"이라는 현지 코멘트도 원문에 수록. HA 필러 의존도가 높은 포트폴리오에는 부담, 자가지방, 바이오 스티뮬레이터(33%), 스킨부스터 보유 업체에는 기회 요인. EBD는 사용률 45%로 안착했으나 \"타이트닝 효능 한계로 수술이 재부상\"이 병기되어 차세대 고출력, 바디 적응증 확보가 시급 ▶ 화장품에는 우호적 근거 확보. ASPS가 18~35세 시술 감소의 배경으로 \"시술에 앞서 스킨케어에 집중하는 성향\"을 명시, 미국 젊은 층 지출이 수술에서 스킨케어로 이동 중이라는 언급 확인. 환자 동기도 '생애 변화 후 복원' 75%로 1위를 기록하며 수요 및 관심도가 '복원, 웰니스' 프레임으로 이동, 더마, 리페어 컨셉의 미국향 브랜드, ODM에 대한 실적 지속성 근거. 남대서양, 서부가 미국 시장의 72%로, 채널 확장 우선순위는 남부, 서부 축 ▶ 일라이릴",
               "post_url": "https://t.me/daolresearch/15045",
@@ -343,7 +375,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/5JPn7z8",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /5JPn7z8 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fe1009a6570>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /5JPn7z8 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f7dea8747a0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~9/7)",
               "summary": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~9/7) ▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀. Amazon Weighted MS 도 스페인 14.5%(-20.0%p)·프랑스 8.2%(-11.1%p)·영국 25.0%(-9.1%p)로 유럽 급등분을 반납, 미국 15.8%(-3.0%p)는 상대적으로 방어. QTD 할인율 35%로 높은 반면 유기적 조회 비중은 16%로 정체. 대체데이터상 재가속 판단은 유보, 추세 레벨 유지 여부가 다음 확인 사항 아모레퍼시픽은 COSRX TikTok 추정 GMV $294K(WoW -16.5%)로 되돌림 폭은 추적 바스켓 수준, QTD 유기적 조회 비중 25%·신규 조회 1회당 $0.749 로 성장의 질 상위 유지. Reddit 주간 언급도 COSRX 16건·에스트라 14건으로 상위. 성장의 질은 양호하나 규모는 여전히 제한적, 실적 기여 판단은 이른 단계 달바글로벌은 달바 Amazon 스페인 Weighted MS 20.5%(+8.8%p)로 재확대, 독일 4.1%는 보합. 반면 TikTok 추정 GMV $93K(WoW -42.8%)로 큰 폭 되돌림, 미국 Amazon 0.2%로 확산 정체. 유럽 단일국 의존 지속, 미국 채널 확산은 지연 다음 주는 메디큐브 TikTok 일별 추정 GMV 추세 레벨 유지 여부 · 메디큐브 Amazon",
               "post_url": "https://t.me/daolresearch/15038",
@@ -575,7 +607,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/A48Fch4",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /A48Fch4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fe1009a7e60>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /A48Fch4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f7deaf4a120>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 중국 Peak-Out 징후 현실화",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - 중국 Peak-Out 징후 현실화 ▶ 중국 8월 자동차 소매판매는 YoY -19% 기록. 중국 자동차 산업을 대변하는 NEV(신에너지차)의 판매량은 YoY -4%로 연초 이후에 지속된 역성장 흐름이 지속 ▶ 중국 판매성장의 둔화 가능성이 높아지는 가운데, 중국시장 노출도가 낮은 현대/기아의 글로벌 M/S 확대 기조 확인이 글로벌 전통 OEM 중에 선제적으로 나타날 수 있음을 시사 ▶ CPCA(중국 승용차협회)에서 162.6만대로 약 YoY -16% 판매 감소세 기록 ▶ 2026년에는 이구환신이 가격비례제로 바뀌면서 수요가 급랭하기 시작한 것으로 파악. 2027년의 경우에도 이구환신 정책의 강화를 기대하기는 어려움 ▶ 이는 그동안 급증한 수출량 증가분에 대해서도 영향을 크게 줄 수 있는데, 이는 수출에 의존하고 있는 중국 OEM들의 수익성 방어에 영향을 줄 수 있음 ▶ 금번 기록한 NEV차량의 YoY -5%에 해당하는 도매판매 물량은 한편 중국의 자동차 생산이 Peak-Out 구간에 진입했을 가능성을 뚜렷하게 시사함 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/A48Fch4 >",
               "post_url": "https://t.me/daolresearch/15040",
@@ -789,7 +821,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/3YGDgko",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YGDgko (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fe1009a6450>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YGDgko (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f7deaf4b4a0>, 'Connection to buly.kr timed out. (connect ",
               "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
               "summary": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈 ▶ 강관 수출 호조 지속 한국의 2Q26 강관 수출량은 98.3만톤(YoY +103.9%, QoQ +118.4%)으로 큰 폭 증가. 그 중 미국향 수출량은 38.9만톤으로 전체 수출 대비 68% 비중을 차지. 2025년까지 절반 이하의 비중을 차지했었는데 2026년 이후로 미국향 수출비중이 유의미하게 증가. 2026.07월, 08월 전체 수출량은 24.9만톤(YoY +68%), 16.4만톤(YoY +53%), 그 중 미국향 수출량은 각각 18.4만톤(YoY +109%), 10.5만톤(YoY +101%)으로 미국향 수출이 전체 수출 증가에 기여 ▶ 미국 가스발전 확대의 수혜 천연가스 파이프라인 프로젝트도 증가 중이며 2027E 계획되어 있는 파이프라인 프로젝트의 수송규모는 2025년 11.7Bcf/일 대비 +143% 증가한 28.5Bcf/일. 수출 증가의 배경 중 하나로 작용하고 있는 건 미국 내 전력 수요의 증가로 인한 발전용량의 확대. BTM(Behind the meter)방식으로 전력원을 확보하는 수요는 증가하는 중이며 그 중 천연가스 발전이 상당부분을 차지. 과거에도 파이프라인 프로젝트가 증가하는 시기도 있었지만 미국의 철강 수입 쿼터제도로 수출량 증가는 제약. 현재는 쿼터가 해제된 상태로 프로젝트 증가에 따른 수혜 가능 판단 ▶ Rig count 증가 없이도 OCTG 가격은 올랐다 2026.09.04일 미국 원유 Rig count는 449개로 전 주 대비 2개 증가. 추가적인 Rig count 증가가 크지 않았음에도 불구하고 OCTG 가격 상승은 지속되면서 현재 OCTG 가격은 2,575달러 (1월 1,960달러→4월 2,063달러, 6월 2,325달러)로 상승. 일반적으로 시추 수",
               "post_url": "https://t.me/daolresearch/15047",
@@ -1014,7 +1046,7 @@
           ]
         }
       ],
-      "report_count": 22
+      "report_count": 23
     },
     {
       "month": "2026-08",
@@ -1101,7 +1133,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/90daU00",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /90daU00 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fe1009e8230>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /90daU00 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7fe10107e330>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 반도체/소부장 고영민] #Baidu CY2Q26 실적 발표(현지기준 8/18)",
               "summary": "[다올투자증권 반도체/소부장 고영민] #Baidu CY2Q26 실적 발표(현지기준 8/18) ▶️ 실적 공시 ($bil, $) » 실적 내용 - 매출액: 4.6 - 영업이익 (OPM): 0.45 (9.7%) - EPS: 0.85 → 컨센서스 부합 » 컨센서스 - 매출액: 4.6 - 영업이익 (OPM): 0.5 (11.4%) - EPS: 1.33 » 부문별 매출액 ($bil, QoQ) - AI(코어) 비즈니스 부문 - AI Cloud Infra: 1.1 (-17%) - AI Applications: 0.4 (0%) - AI-native Marketing Services: 0.4 (+13%) - 레거시 부문: 1.5 (+2%) - 기타: 0.3 (+5%) » CapEx 추이 ($bil, 전분기/당분기) - CapEx: 0.8 / 1.7 ▶️ 주요 Comment » 사업부별 코멘트 ① AI 클라우드 인프라 - AI Cloud Infra 매출 YoY +50%, GPU Cloud 매출 YoY +283%로 성장 가속 - Training뿐 아니라 Inference 수요도 강하게 증가하며, 인터넷·게임 내 Embodied AI, 자율주행, 스마트폰, 금융 등으로 수요처 확대 - AI Compute 공급이 고객 수요 증가를 따라가지 못하는 상황이 지속 → 2H26에도 강한 수요 성장세가 이어질 것으로 전망 - GPU Cloud 성장 및 고객/제품 Mix 개선에 따라 AI Cloud Infra 수익성도 개선 ② Qianfan / 추론(Inference) - 외부 고객의 Qianfan Token 사용 매출은 YoY 9배 이상 증가 - AI 수요의 중심이 학습(Training)에서 추론(Inference)으로 빠르게 확대되고 있어 향후 추론용 Compute 수요 증가에 주목할 필요 ③ AI Chip / K",
               "post_url": "https://t.me/daolresearch/14911",
