@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-09T22:48:21.440418+00:00",
+ "generated_at": "2026-09-09T23:38:19.562016+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1316,
+ "report_count": 1317,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29717,6 +29717,60 @@
    "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
    "post_url": "https://t.me/daolresearch/15047",
    "source_url": "https://buly.kr/3YGDgko"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-09-10",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "성장하고, 이후의 성장을 위해서 CAPEX를 진행 중이어서, 2028년 너머 PER은 마찬가",
+    "Pitch - 글로벌 유도탄(지대지, 지대공) 쇼티지 현황 확인 - 미국의 긴급 생산능력 확충(CAPEX) 계획 그러나 미국도 2029-2030년에나 쇼티지 대응 가능 - 크로아티아 K239 천무 도입 배경 유저클럽 5~7개국."
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 탄 쇼티지! 천무 수혜 확인, 천궁 등으로 확산 기대",
+   "post_url": "https://t.me/daolresearch/15055",
+   "source_url": "https://bit.ly/3T1bYhg"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-09-10",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "K9의 12~13개국 이상으로 확대 예상 12+1개국(+1은 미국 MTC)으로 확대된 것처럼, 천무 유저클럽도 확대될 것으로 판단 또한 155mm 탄 쇼티지에서, 한국에 증설 중인 한화에어로스페이스의 MCS 스마트팩토리와, 미국 진출의 중장기 전망도 아주 방산 업종 전체의 Valuation에서, FWD 12개월 PER은 15배 안팎의 바닥으로 판단.",
+    " 결론) 탄 쇼티지에 천무 수혜 확인, 곧 천궁, MCS 등에서도 벌어질 일 또한 155mm 탄 쇼티지에서, 한국에 증설 중인 한화에어로스페이스의 MCS 스마트팩토리와, 미국 진출의 중장기 전망도 아주  결론: 비중확대, LIG D&A, 한화에어로스페이스 투자의견 및 Valuation 실적 및 Valuation LIG D&A 투자의견 BUY 2023 2,308.6 186.4 8.1% 175.0 7,953 47,835 10."
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 탄 쇼티지! 천무 수혜 확인, 천궁 등으로 확산 기대",
+   "post_url": "https://t.me/daolresearch/15055",
+   "source_url": "https://bit.ly/3T1bYhg"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-10",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "K9의 12~13개국 이상으로 확대 예상 12+1개국(+1은 미국 MTC)으로 확대된 것처럼, 천무 유저클럽도 확대될 것으로 판단 또한 155mm 탄 쇼티지에서, 한국에 증설 중인 한화에어로스페이스의 MCS 스마트팩토리와, 미국 진출의 중장기 전망도 아주 방산 업종 전체의 Valuation에서, FWD 12개월 PER은 15배 안팎의 바닥으로 판단.",
+    "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 탄 쇼티지! 천무 수혜 확인, 천궁 등으로 확산 기대",
+   "post_url": "https://t.me/daolresearch/15055",
+   "source_url": "https://bit.ly/3T1bYhg"
   }
  ],
  "cross_mentions": [
@@ -30699,7 +30753,7 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.9
+   "burst": 34.7
   },
   {
    "term": "월드컵",
@@ -30755,7 +30809,7 @@
    "recent": 8,
    "total": 13,
    "sectors": 6,
-   "burst": 5.2
+   "burst": 5.1
   },
   {
    "term": "클라우드",
@@ -30797,7 +30851,7 @@
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.3
+   "burst": 4.2
   }
  ]
 }
