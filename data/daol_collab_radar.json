@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T22:48:22.371716+00:00",
+ "generated_at": "2026-09-10T23:04:24.973374+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1319,
+ "report_count": 1320,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29859,6 +29859,60 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 2주차)]",
    "post_url": "https://t.me/daolresearch/15064",
    "source_url": "https://buly.kr/ET1DENZ"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-09-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "조선",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Issue: 대형 DC 발전 엔진과 SMR 주기기 생산설비 구축 CAPEX 결정",
+    "데이터센터용 엔진까지 대응하기 어렵다는 판단."
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight) – 엔진, SMR 증설: FDC 시장 개화를 안내!",
+   "post_url": "https://t.me/daolresearch/15065",
+   "source_url": "https://bit.ly/4io1jI2"
+  },
+  {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-09-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "조선",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "조선(Overweight) – 엔진, SMR 증설: FDC 시장 개화를 안내!",
+    "Issue: 대형 DC 발전 엔진과 SMR 주기기 생산설비 구축 CAPEX 결정"
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight) – 엔진, SMR 증설: FDC 시장 개화를 안내!",
+   "post_url": "https://t.me/daolresearch/15065",
+   "source_url": "https://bit.ly/4io1jI2"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "조선",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]",
+    "9월 11일에 나온 셀온(Sell-On)은 3~4년 전의 방산 수주 셀온과 유사하다고 판단 2030년에는 후속 수주가 따라질 경우 3GW 납품에, 실적 예상에 매출 3조원을 덧붙여야 함."
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight) – 엔진, SMR 증설: FDC 시장 개화를 안내!",
+   "post_url": "https://t.me/daolresearch/15065",
+   "source_url": "https://bit.ly/4io1jI2"
   }
  ],
  "cross_mentions": [
@@ -30841,14 +30895,14 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.3
+   "burst": 35.2
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.2
+   "burst": 9.1
   },
   {
    "term": "정체",
