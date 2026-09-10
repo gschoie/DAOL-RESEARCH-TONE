@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T17:10:34.824522+00:00",
+ "generated_at": "2026-09-10T22:14:11.357109+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1317,
+ "report_count": 1318,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29771,6 +29771,41 @@
    "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 탄 쇼티지! 천무 수혜 확인, 천궁 등으로 확산 기대",
    "post_url": "https://t.me/daolresearch/15055",
    "source_url": "https://bit.ly/3T1bYhg"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-09-11",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue&Pitch",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "미국은 관세로 중국 색조가 눌린 상태(립 28.7%→14.2%)라 관세 완화 시 EU 구도로 수렴 가능"
+   ],
+   "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - 색조는 내주고, 기초를 취한다",
+   "post_url": "https://t.me/daolresearch/15061",
+   "source_url": "https://buly.kr/4xaIFnK"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-09-11",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue&Pitch",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "다만 입점은 기초 2라인에 가격 미공개, 미국 리테일 채널에 먼저 들어간 C뷰티는 플로라시스, 플라워노즈 등 전부 색조.",
+    "아마존 미국 뷰티 Top100에서도 3Q26 중국 제품(네일 포함) 일 4~5개(4~5%) 불과한데 반해, K뷰티는 MS 15% 수준에 Top10 상시 점유 중"
+   ],
+   "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - 색조는 내주고, 기초를 취한다",
+   "post_url": "https://t.me/daolresearch/15061",
+   "source_url": "https://buly.kr/4xaIFnK"
   }
  ],
  "cross_mentions": [
@@ -30753,105 +30788,105 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 34.7
+   "burst": 35.4
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.0
+   "burst": 9.2
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.7
+   "burst": 7.9
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 8,
    "sectors": 5,
-   "burst": 7.7
+   "burst": 7.9
+  },
+  {
+   "term": "정체",
+   "recent": 7,
+   "total": 10,
+   "sectors": 4,
+   "burst": 6.9
   },
   {
    "term": "감가상각비",
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.8
-  },
-  {
-   "term": "정체",
-   "recent": 6,
-   "total": 9,
-   "sectors": 4,
-   "burst": 5.8
-  },
-  {
-   "term": "남아",
-   "recent": 6,
-   "total": 9,
-   "sectors": 3,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "실질",
    "recent": 8,
    "total": 13,
    "sectors": 6,
-   "burst": 5.1
+   "burst": 5.2
   },
   {
    "term": "클라우드",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "배당수익률",
    "recent": 6,
    "total": 10,
    "sectors": 6,
-   "burst": 4.6
-  },
-  {
-   "term": "분쟁",
-   "recent": 6,
-   "total": 10,
-   "sectors": 5,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "할인율",
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.5
+   "burst": 4.6
   },
   {
    "term": "기저가",
    "recent": 8,
    "total": 14,
    "sectors": 5,
-   "burst": 4.4
+   "burst": 4.5
   },
   {
    "term": "Mix",
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.2
+   "burst": 4.3
+  },
+  {
+   "term": "관건",
+   "recent": 9,
+   "total": 17,
+   "sectors": 7,
+   "burst": 3.9
+  },
+  {
+   "term": "공급계약",
+   "recent": 6,
+   "total": 11,
+   "sectors": 5,
+   "burst": 3.9
   }
  ]
 }

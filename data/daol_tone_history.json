@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T17:07:41.315607+00:00",
+  "generated_at": "2026-09-10T22:13:58.714558+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1317,
+  "report_count": 1318,
   "months": [
     {
       "month": "2026-09",
@@ -129,7 +129,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/3jAz1XI",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3jAz1XI (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7ff5ec3d3740>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3jAz1XI (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f3b3b53f440>, 'Connection to buly.kr timed out. (connect ",
               "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (8월) 은행 여수신 동향: 기업대출이 보다 확대",
               "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (8월) 은행 여수신 동향: 기업대출이 보다 확대 ▶ 여신: 가계대출 증가폭 축소, 기업대출 증가폭 확대 ▶ 여신 증감폭: 가계대출 +3.4조원(vs. 26년 7월 +5.5조원), 기업대출 +9.7조원(vs. 26년 7월 +7.7조원) ▶ 신용대출 포함 기타대출 감소 전환이 주된 이유. 집단대출 외 주택 거래량 변동 가능성도 고려 필요 ▶ 수신: 전월비 변동 거의 없음. 수시입출식예금 감소와 정기예금 증가 지속 ▶ 수신 증감폭: +0.1조원(vs. 26년 7월 -30.0조원) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/3jAz1XI > ▶ 개별 채널 https://t.me/jiwonkimfin",
               "post_url": "https://t.me/daolresearch/15052",
@@ -299,6 +299,11 @@
               "value": "비중확대",
               "date": "2026-09-09",
               "source": "https://t.me/daolresearch/15045"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-09-11",
+              "source": "https://t.me/daolresearch/15061"
             }
           ],
           "top_picks": [
@@ -316,13 +321,49 @@
               "text": "▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀.",
               "date": "2026-09-08",
               "source": "https://t.me/daolresearch/15038"
+            },
+            {
+              "text": "Top picks 에이피알(BUY, TP 56만원), 한국콜마(BUY, TP 19만원) 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/4xaIFnK > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "date": "2026-09-11",
+              "source": "https://t.me/daolresearch/15061"
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 6,
+          "report_count": 7,
           "reports": [
+            {
+              "id": 15061,
+              "date": "2026-09-11",
+              "month": "2026-09",
+              "analyst": "박종현",
+              "sector": "의료기기/화장품",
+              "company": "Issue&Pitch",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [
+                "Top picks 에이피알(BUY, TP 56만원), 한국콜마(BUY, TP 19만원) 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/4xaIFnK > * 텔레그램 채널 링크 < https://t.me/alexppark >"
+              ],
+              "preferred_stocks": [
+                "Top picks 에이피알(BUY, TP 56만원), 한국콜마(BUY, TP 19만원) 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/4xaIFnK > * 텔레그램 채널 링크 < https://t.me/alexppark >"
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ ODM 3사 미팅에서도 “색조는 C뷰티, 기초는 Made in Korea”가 일관.",
+              "report_conclusion": "▶ ODM 3사 미팅에서도 “색조는 C뷰티, 기초는 Made in Korea”가 일관.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/4xaIFnK",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /4xaIFnK (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f3b3b53e3f0>, 'Connection to buly.kr timed out. (connect ",
+              "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - 색조는 내주고, 기초를 취한다",
+              "summary": "[화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - 색조는 내주고, 기초를 취한다 ▶ 얼타 2Q26 콜에서 CEO가 “not just about K-beauty anymore” 발언과 함께 프로야 11월 400점 입점을 언급, C뷰티 위협론 부상. 다만 입점은 기초 2라인에 가격 미공개, 미국 리테일 채널에 먼저 들어간 C뷰티는 플로라시스, 플라워노즈 등 전부 색조. 유통사의 소싱 다변화 의지는 명확하나, 실적 영향은 11월 판매 개시 이후 확인 사안 ▶ 통관 데이터는 기초에서 한국 우위 확대. 3304.99 기초 점유율 한국 미국 30.7%·EU 33.6%(2026 YTD) vs 중국 5.1%·10.1%, EU 중국은 2025년 12.0% 고점 후 후퇴. 반면 색조는 EU 립 중국 43.7%·아이 44%·네일 51%로 압도, 한국 립은 2025년 16.5% 고점 후 15.5% 정체. 미국은 관세로 중국 색조가 눌린 상태(립 28.7%→14.2%)라 관세 완화 시 EU 구도로 수렴 가능 ▶ C뷰티 롱, K뷰티 숏 시그널 없음. 중국 6사 동일 가중 지수 YTD -29%, 프로야 본브랜드 -7%·칸스 -20%·쥐쯔성우 -6% 등 기초 리더 내수 역성장, 프로야 해외 매출 비중 2.8%. 아마존 미국 뷰티 Top100에서도 3Q26 중국 제품(네일 포함) 일 4~5개(4~5%) 불과한데 반해, K뷰티는 MS 15% 수준에 Top10 상시 점유 중 ▶ ODM 3사 미팅에서도 “색조는 C뷰티, 기초는 Made in Korea”가 일관. 중국 색조 브랜드의 해외 확장은 국내 ODM 중국 법인 수주로 흡수돼 ODM엔 중립 이상. ODM·브랜드 비중 유지. Top picks 에이피알(BUY, TP 56만원), 한국콜마(BUY, TP 19만원) 유지 * 보고서 원문 및 컴플라",
+              "post_url": "https://t.me/daolresearch/15061",
+              "source_url": "https://buly.kr/4xaIFnK"
+            },
             {
               "id": 15045,
               "date": "2026-09-09",
@@ -344,7 +385,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/1x441q",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1x441q (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7ff5ec3d1a60>, 'Connection to buly.kr timed out. (connect t",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /1x441q (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f3b3ae71100>, 'Connection to buly.kr timed out. (connect t",
               "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - GLP-1 애프터케어 시장의 확대",
               "summary": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - GLP-1 애프터케어 시장의 확대 ▶ 미국 미용성형 152.3만건(+6.9% YoY). 순증 9.8만건의 92%가 안면 (+15.3%), 유방(+8.2%)에서 발생, 바디는 +1.3% 정체. 지방흡입, 복부성형 둔화되는 자리를 팔·허벅지·상하체 거상(+20~22%)이 대체하며 리프팅 8종 +12.6%. 현지 전문의 82%가 GLP-1 상담을 경험, 체중감량 후 피부이완 대응이 새 수요축으로 부상. 66세 이상 +24.1% vs 18~25세 -9.2%로 무게중심이 바디, 저연령에서 안면, 시니어로 이동 ▶ 국내 에스테틱 밸류체인에는 안면 볼륨 복원 시장의 재편이 관건. HA 필러가 사용률 69%로 1위를 지켰으나 자가지방이식이 49%로 2위까지 올라섰고, 안면 지방이식은 3.4만건(+38.7%)으로 증가율 1위. \"더 오래가는 시술을 원해 필러에서 이탈 중\"이라는 현지 코멘트도 원문에 수록. HA 필러 의존도가 높은 포트폴리오에는 부담, 자가지방, 바이오 스티뮬레이터(33%), 스킨부스터 보유 업체에는 기회 요인. EBD는 사용률 45%로 안착했으나 \"타이트닝 효능 한계로 수술이 재부상\"이 병기되어 차세대 고출력, 바디 적응증 확보가 시급 ▶ 화장품에는 우호적 근거 확보. ASPS가 18~35세 시술 감소의 배경으로 \"시술에 앞서 스킨케어에 집중하는 성향\"을 명시, 미국 젊은 층 지출이 수술에서 스킨케어로 이동 중이라는 언급 확인. 환자 동기도 '생애 변화 후 복원' 75%로 1위를 기록하며 수요 및 관심도가 '복원, 웰니스' 프레임으로 이동, 더마, 리페어 컨셉의 미국향 브랜드, ODM에 대한 실적 지속성 근거. 남대서양, 서부가 미국 시장의 72%로, 채널 확장 우선순위는 남부, 서부 축 ▶ 일라이릴",
               "post_url": "https://t.me/daolresearch/15045",
@@ -612,7 +653,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/6Xp6j5y",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /6Xp6j5y (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7ff5ec3d2600>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /6Xp6j5y (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f3b3b53f560>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 이차전지(Overweight) - LFP, 한국의 시간이 왔다",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 이차전지(Overweight) - LFP, 한국의 시간이 왔다 ▶ 전일 미국 교통부(DOT)에서 Ford에 보낸 공개 서한으로 CATL 기술 도입 제한 가능성 확대. 한국 배터리 업체의 반사수혜 예상 ▶ 수혜가 예상되는 당사 커버리지 중 3개 업체에 대한 적정주가를 상향. LG에너지솔루션은 62만원, 삼성SDI는 90만원, 엘앤에프 22만원으로 상향 ▶ 전일 공개된 내용에 따르면, Ford의 CATL 기술 사용이 원천적으로 차단될 가능성이 높아진 것으로 판단 ▶ 국내 업체들은 LFP배터리에 포함되는 양극재 조달체제를 2026년 3Q를 기점으로 공급하기 시작 ▶ 금번 교통부 발언은 현재의 OBBBA하 PFE 규제를 우회할 가능성을 차단하려는 데에 목적을 둔 것으로 보임 ▶ 한국 셀/소재 업체의 LFP사업은 신규사업에 대한 기대를 넘어, 수주와 Capa로 가치산정이 가능한 단계에 진입 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/6Xp6j5y >",
               "post_url": "https://t.me/daolresearch/15054",
@@ -853,7 +894,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/3YGDgko",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YGDgko (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7ff5ec3d3140>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /3YGDgko (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f3b3b53dd60>, 'Connection to buly.kr timed out. (connect ",
               "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
               "summary": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈 ▶ 강관 수출 호조 지속 한국의 2Q26 강관 수출량은 98.3만톤(YoY +103.9%, QoQ +118.4%)으로 큰 폭 증가. 그 중 미국향 수출량은 38.9만톤으로 전체 수출 대비 68% 비중을 차지. 2025년까지 절반 이하의 비중을 차지했었는데 2026년 이후로 미국향 수출비중이 유의미하게 증가. 2026.07월, 08월 전체 수출량은 24.9만톤(YoY +68%), 16.4만톤(YoY +53%), 그 중 미국향 수출량은 각각 18.4만톤(YoY +109%), 10.5만톤(YoY +101%)으로 미국향 수출이 전체 수출 증가에 기여 ▶ 미국 가스발전 확대의 수혜 천연가스 파이프라인 프로젝트도 증가 중이며 2027E 계획되어 있는 파이프라인 프로젝트의 수송규모는 2025년 11.7Bcf/일 대비 +143% 증가한 28.5Bcf/일. 수출 증가의 배경 중 하나로 작용하고 있는 건 미국 내 전력 수요의 증가로 인한 발전용량의 확대. BTM(Behind the meter)방식으로 전력원을 확보하는 수요는 증가하는 중이며 그 중 천연가스 발전이 상당부분을 차지. 과거에도 파이프라인 프로젝트가 증가하는 시기도 있었지만 미국의 철강 수입 쿼터제도로 수출량 증가는 제약. 현재는 쿼터가 해제된 상태로 프로젝트 증가에 따른 수혜 가능 판단 ▶ Rig count 증가 없이도 OCTG 가격은 올랐다 2026.09.04일 미국 원유 Rig count는 449개로 전 주 대비 2개 증가. 추가적인 Rig count 증가가 크지 않았음에도 불구하고 OCTG 가격 상승은 지속되면서 현재 OCTG 가격은 2,575달러 (1월 1,960달러→4월 2,063달러, 6월 2,325달러)로 상승. 일반적으로 시추 수",
               "post_url": "https://t.me/daolresearch/15047",
@@ -1148,7 +1189,7 @@
           ]
         }
       ],
-      "report_count": 25
+      "report_count": 26
     },
     {
       "month": "2026-08",
@@ -1235,7 +1276,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/90daU00",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /90daU00 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7ff5ec79e270>, 'Connection to buly.kr timed out. (connect ",
+              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /90daU00 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7ff5ebb1e300>, 'Connection to buly.kr timed out. (connect ",
               "title": "[다올투자증권 반도체/소부장 고영민] #Baidu CY2Q26 실적 발표(현지기준 8/18)",
               "summary": "[다올투자증권 반도체/소부장 고영민] #Baidu CY2Q26 실적 발표(현지기준 8/18) ▶️ 실적 공시 ($bil, $) » 실적 내용 - 매출액: 4.6 - 영업이익 (OPM): 0.45 (9.7%) - EPS: 0.85 → 컨센서스 부합 » 컨센서스 - 매출액: 4.6 - 영업이익 (OPM): 0.5 (11.4%) - EPS: 1.33 » 부문별 매출액 ($bil, QoQ) - AI(코어) 비즈니스 부문 - AI Cloud Infra: 1.1 (-17%) - AI Applications: 0.4 (0%) - AI-native Marketing Services: 0.4 (+13%) - 레거시 부문: 1.5 (+2%) - 기타: 0.3 (+5%) » CapEx 추이 ($bil, 전분기/당분기) - CapEx: 0.8 / 1.7 ▶️ 주요 Comment » 사업부별 코멘트 ① AI 클라우드 인프라 - AI Cloud Infra 매출 YoY +50%, GPU Cloud 매출 YoY +283%로 성장 가속 - Training뿐 아니라 Inference 수요도 강하게 증가하며, 인터넷·게임 내 Embodied AI, 자율주행, 스마트폰, 금융 등으로 수요처 확대 - AI Compute 공급이 고객 수요 증가를 따라가지 못하는 상황이 지속 → 2H26에도 강한 수요 성장세가 이어질 것으로 전망 - GPU Cloud 성장 및 고객/제품 Mix 개선에 따라 AI Cloud Infra 수익성도 개선 ② Qianfan / 추론(Inference) - 외부 고객의 Qianfan Token 사용 매출은 YoY 9배 이상 증가 - AI 수요의 중심이 학습(Training)에서 추론(Inference)으로 빠르게 확대되고 있어 향후 추론용 Compute 수요 증가에 주목할 필요 ③ AI Chip / K",
               "post_url": "https://t.me/daolresearch/14911",
