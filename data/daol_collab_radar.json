@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T22:14:11.357109+00:00",
+ "generated_at": "2026-09-10T22:48:22.371716+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1318,
+ "report_count": 1319,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29806,6 +29806,59 @@
    "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - 색조는 내주고, 기초를 취한다",
    "post_url": "https://t.me/daolresearch/15061",
    "source_url": "https://buly.kr/4xaIFnK"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-09-11",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "적어도 FOMC 전까지 금리 경계심이 잔존할 수 있고, 회의 결과 해석도 단기적으로는 추가 변동성을 자극할 소재가 될 여지.",
+    "️ Key Chart & 핵심지표 -25년까지의 수출-영업이익 관계 대비 높게 추정되어 있는 한국 증시 영업이익 -미 연준의 최초 금리 인상 이후 S&P500 지수 흐름 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/ET1DENZ"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15064",
+   "source_url": "https://buly.kr/ET1DENZ"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-09-11",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "주중 중동 분쟁 전선 확대 우려에 따른 유가 상승, 미 재무부 바이백 실망에 따른 금리 상승 등 매크로 악재가 부담으로 작용하며 변동성 확대되었으나, 7,000선 회복 마감 -DOW(-2.5%), S&P500(-1.6%), NASDAQ(-1.6%) 하락."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15064",
+   "source_url": "https://buly.kr/ET1DENZ"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-09-11",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "주중 중동 분쟁 전선 확대 우려에 따른 유가 상승, 미 재무부 바이백 실망에 따른 금리 상승 등 매크로 악재가 부담으로 작용하며 변동성 확대되었으나, 7,000선 회복 마감 -DOW(-2.5%), S&P500(-1.6%), NASDAQ(-1.6%) 하락.",
+    "미국증시는 중동 불확실성에 따른 국제유가 상승, 미 재무부의 국채 바이백 규모 실망, PPI 상승 가속 등 매크로 이슈가 연이어 부각되며 국채금리가 상승세가 지속되자 약세 흐름을 이어감"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15064",
+   "source_url": "https://buly.kr/ET1DENZ"
   }
  ],
  "cross_mentions": [
@@ -30788,7 +30841,7 @@
    "recent": 18,
    "total": 19,
    "sectors": 3,
-   "burst": 35.4
+   "burst": 35.3
   },
   {
    "term": "월드컵",
@@ -30798,25 +30851,25 @@
    "burst": 9.2
   },
   {
+   "term": "정체",
+   "recent": 8,
+   "total": 11,
+   "sectors": 4,
+   "burst": 7.8
+  },
+  {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 8,
    "sectors": 5,
-   "burst": 7.9
-  },
-  {
-   "term": "정체",
-   "recent": 7,
-   "total": 10,
-   "sectors": 4,
-   "burst": 6.9
+   "burst": 7.8
   },
   {
    "term": "감가상각비",
@@ -30882,7 +30935,7 @@
    "burst": 3.9
   },
   {
-   "term": "공급계약",
+   "term": "분쟁",
    "recent": 6,
    "total": 11,
    "sectors": 5,
