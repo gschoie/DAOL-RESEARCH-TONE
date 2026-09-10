@@ -322,8 +322,13 @@ def merge_report(report, ai_entry):
     title = report.get('title') or ''
     title = re.sub(r'\s*/\s*다올[^\]★]*', '', title)
     title = re.sub(r'\s*[｜|]\s*다올[^\]｜|]*', '', title)
-    title = re.sub(r'^\[다올(?:투자증권)?[^\]｜|]*\]\s*', '', title)
-    title = re.sub(r'\s+', ' ', title).strip()
+    stripped = re.sub(r'^\[다올(?:투자증권)?[^\]｜|]*\]\s*', '', title)
+    if not stripped.strip():
+        # 전략 위클리형: 제목 전체가 "[다올투자증권 팀명 / 실제 제목]" 대괄호 안 — 슬래시 뒤가 제목.
+        # 통째로 지우면 표에서 제목이 비어 링크를 열 수 없게 되므로 안쪽 제목을 살린다.
+        m = re.match(r'^\[다올(?:투자증권)?[^/\]]*/\s*([^\]]+)\]', title)
+        stripped = m.group(1) if m else title.strip('[] ')
+    title = re.sub(r'\s+', ' ', stripped).strip()
     record = {
         'id': str(report['id']), 'date': report['date'], 'month': report['month'],
         'analyst': report['analyst'], 'sector': report['sector'],
