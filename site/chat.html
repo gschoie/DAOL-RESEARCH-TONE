@@ -351,21 +351,32 @@ async function searchFulltext(query, { analyst = '', sector = '' } = {}) {
     if (analyst && !String(meta.analyst || '').includes(analyst.trim())) continue;
     if (sector && !String(meta.sector || '').includes(sector.trim())) continue;
     const lower = text.toLowerCase();
-    let score = 0, miss = false;
+    let score = 0, raw = 0, miss = false;
     for (const t of terms) {
       let c = 0, p = -1;
       while ((p = lower.indexOf(t, p + 1)) >= 0) c++;
       if (!c) { miss = true; break; }
-      score += c;
+      raw += c;
+      score += Math.min(c, 3); // 한 단어가 수십 번 나오는 주간지가 상위를 독식하지 않게 단어당 기여 상한
     }
     if (miss) continue;
-    scored.push({ score, src, meta, text });
+    const hay = (String(meta.title || '') + ' ' + String(meta.company || '')).toLowerCase();
+    for (const t of terms) if (hay.includes(t)) score += 2; // 제목·기업명 매치 가중
+    scored.push({ score, raw, src, meta, text });
   }
   if (!scored.length) return { error: `원문 1,200여 건에서 '${query}'를 찾지 못했습니다. 검색어를 줄이거나 바꿔 보세요.` };
-  scored.sort((a, b) => b.score - a.score || String(b.meta.date || '').localeCompare(String(a.meta.date || '')));
+  scored.sort((a, b) => b.score - a.score || b.raw - a.raw || String(b.meta.date || '').localeCompare(String(a.meta.date || '')));
+  const picked = [], perCompany = {}; // 같은 기업(주간지 포함) 최대 2건 — 결과 다양성 확보
+  for (const s of scored) {
+    const k = String(s.meta.company || s.src);
+    if ((perCompany[k] || 0) >= 2) continue;
+    perCompany[k] = (perCompany[k] || 0) + 1;
+    picked.push(s);
+    if (picked.length >= MAX_FT_RESULTS) break;
+  }
   return { total_matches: scored.length,
-           results: scored.slice(0, MAX_FT_RESULTS).map(({ score, src, meta, text }) =>
-             ({ ...meta, source_url: src, match_count: score, snippets: snippetsOf(text, terms) })) };
+           results: picked.map(({ raw, src, meta, text }) =>
+             ({ ...meta, source_url: src, match_count: raw, snippets: snippetsOf(text, terms) })) };
 }
 
 async function getFulltext(ref, around = '') {
@@ -700,6 +711,7 @@ ${TODAY_LINE}
 - 다음 분기 영업이익 성장 랭킹("다음 분기 영업이익 성장이 가장 큰 회사?") → 반드시 get_quarter_op_growth — 아직 발표 전인 추정(E) 분기의 전년동기 대비(YoY) 컨센서스다. 어느 분기(quarter)인지 답에 명시하고 흑자전환(turnarounds)도 언급. 이미 발표된 실적 서프라이즈를 리포트에서 검색해 답하는 것은 오답.
 - 재무·밸류 수치("PER 얼마?", "내년 영업이익 컨센?") → get_fundamentals (네이버 금융 컨센서스)
 - 최선호주/탑픽("조선 최선호주는?") → get_top_picks — 최신 리포트에 없어도 가장 최근 명시 리포트를 거슬러 찾아준다. 답할 때 그 리포트 날짜 기준임을 명시.
+- 테마·수혜주 질문("미국 조선 수혜는?", "OO 수혜주?") → 반드시 search_reports와 search_report_fulltext로 테마 키워드를 검색(변형·관련어도 함께: 예. 미국 조선이면 "미국", "필리", "MASGA", "한미"). 리포트가 그 테마와 명시적으로 연결한 종목만, 종목마다 근거 문장을 인용해 답한다. 섹터 커버 종목이라는 이유만으로 수혜주에 넣거나, 리포트에 없는 일반 상식으로 종목을 넣고 빼는 것은 금지 — 검색에 안 나오면 "다올 리포트에서 근거를 찾지 못했다"고 답한다.
 답하기 전에 반드시 관련 도구를 호출해 데이터를 확인하세요. 구조화 필드(요약)와 원문이 다르면 원문을 우선합니다.`;
 
 const MAX_TOOL_ROUNDS = 8;
