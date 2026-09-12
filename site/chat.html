@@ -707,6 +707,8 @@ ${TODAY_LINE}
 3. 의견 어휘는 통일되어 있습니다 — 기업: BUY/HOLD/REDUCE, 산업: 비중확대/중립/비중축소. 위클리 자료에는 투자의견이 없으므로 의견을 추정하지 않습니다.
 4. 목표주가(TP)는 tp_event의 value/prior/direction/reasons(실적추정·멀티플·방법론·시점롤포워드)를 그대로 사용합니다.
 5. 리포트를 인용할 때는 날짜·애널리스트·제목을 함께 밝히고, 데이터에 post_url·source가 있으면 반드시 [원문](URL) 마크다운 링크를 붙입니다.
+6. 질문에 전제가 깔려 있으면(예: "실적을 내렸는데 이유가 뭐야?") 데이터로 전제부터 검증합니다. 전제가 틀렸거나 부분만 맞으면(예: TP는 올리면서 일부 연도 추정만 소폭 조정) 동조하지 말고, 첫 문장에서 전체 그림을 바로잡은 뒤 답합니다(예: "TP는 246만원으로 상향했고, 2026~27E 영업이익만 -1~-2% 미세 조정했습니다").
+7. 연결 실적 안의 부문·자회사(예: 한화에어로스페이스 실적 표의 '시스템·방산' 부문)를 언급할 때는 별도 상장사와 혼동되지 않도록 "연결 부문/자회사"임을 명시합니다.
 
 [서술 톤 — 다올 리서치 스타일]
 - 두괄식: 결론(뷰/의견/TP)을 첫 문장에 제시합니다.
@@ -896,7 +898,17 @@ async function callGemini(contents, onText) {
       if (res.ok) {
         geminiSticky = model === primary ? null
           : { model, until: Date.now() + 10 * 60 * 1000 };
-        return readGeminiStream(res, onText);
+        let out = null, broke = '';
+        try { out = await readGeminiStream(res, onText); }
+        catch (e) { broke = e.message || '연결 끊김'; }
+        // finishReason 없이 스트림이 끝났으면 중간에 끊긴 것 — 부분 답변을 정답처럼 내보내지 않고 재시도
+        if (out && (out.finish || out.calls.length)) {
+          if (out.finish === 'MAX_TOKENS') out.truncated = true;
+          return out;
+        }
+        lastErr = `스트림 중단(${shortName(model)})${broke ? ': ' + broke : ''}`;
+        if (attempt < attempts - 1) await waitWithNote(3, `응답이 중간에 끊겨 재시도(${shortName(model)})`);
+        continue;
       }
       let err = {};
       try { err = (await res.json()).error || {}; } catch (e) {}
@@ -950,7 +962,11 @@ async function answerGemini() {
       return { text: '요청을 처리할 수 없습니다. 질문을 바꿔서 다시 시도해 주세요.', rendered: false };
     }
     if (!r.calls.length || round === MAX_TOOL_ROUNDS) {
-      const text = r.text || '답변을 생성하지 못했습니다. 다시 시도해 주세요.';
+      let text = r.text || '답변을 생성하지 못했습니다. 다시 시도해 주세요.';
+      if (r.truncated && r.text) {
+        text += '\n\n_(응답이 길이 제한으로 잘렸습니다 — "계속"이라고 입력하면 이어서 답합니다.)_';
+        if (live) live.innerHTML = mdToHtml(text);
+      }
       return { text, rendered: !!(live && r.text) };
     }
     // 도구 라운드: 스트리밍된 서두 텍스트는 그대로 두고 함수 호출을 실행한다
