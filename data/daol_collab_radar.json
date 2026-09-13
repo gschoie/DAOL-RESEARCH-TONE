@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-13T17:06:31.305185+00:00",
+ "generated_at": "2026-09-13T22:13:14.541160+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1321,
+ "report_count": 1322,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29948,6 +29948,24 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Rovuma LNG, 한화도 사이펨도 FLNG, 태국 호위함, 힘센 증설 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15072",
    "source_url": "https://bit.ly/DOS839"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-09-14",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "바이오시밀러",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Bevacizumab 점유율: Avastin 12.8%, Mvasi 55.4%, Zirabev 25.6%, Vegzelma 6.1% (수량 기준)",
+    "Avastin 11.6%, Mvasi 57.8%, Zirabev 24.3%, Vegzelma 6.3% (금액 기준)"
+   ],
+   "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 8월 미국 처방 실적",
+   "post_url": "https://t.me/daolresearch/15074",
+   "source_url": "https://buly.kr/9BYUsh7"
   }
  ],
  "cross_mentions": [
