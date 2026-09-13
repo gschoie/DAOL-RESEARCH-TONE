@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-13T22:47:30.643100+00:00",
+ "generated_at": "2026-09-13T23:22:00.243578+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1322,
+ "report_count": 1323,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30957,10 +30957,10 @@
  "candidates": [
   {
    "term": "통신",
-   "recent": 18,
-   "total": 19,
+   "recent": 19,
+   "total": 20,
    "sectors": 3,
-   "burst": 35.2
+   "burst": 37.0
   },
   {
    "term": "월드컵",
@@ -30995,14 +30995,14 @@
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "실질",
@@ -31030,7 +31030,7 @@
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.6
+   "burst": 4.5
   },
   {
    "term": "기저가",
@@ -31040,18 +31040,18 @@
    "burst": 4.5
   },
   {
+   "term": "관건",
+   "recent": 10,
+   "total": 18,
+   "sectors": 8,
+   "burst": 4.3
+  },
+  {
    "term": "Mix",
    "recent": 11,
    "total": 20,
    "sectors": 6,
    "burst": 4.3
-  },
-  {
-   "term": "관건",
-   "recent": 9,
-   "total": 17,
-   "sectors": 7,
-   "burst": 3.9
   },
   {
    "term": "분쟁",
