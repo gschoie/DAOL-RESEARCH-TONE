@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-13T01:26:48.191691+00:00",
+ "generated_at": "2026-09-13T17:06:31.305185+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1320,
+ "report_count": 1321,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29913,6 +29913,41 @@
    "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight) – 엔진, SMR 증설: FDC 시장 개화를 안내!",
    "post_url": "https://t.me/daolresearch/15065",
    "source_url": "https://bit.ly/4io1jI2"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-13",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Rovuma LNG, 한화도 사이펨도 FLNG, 태국 호위함, 힘센 증설 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15072",
+   "source_url": "https://bit.ly/DOS839"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-09-13",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "2026~2027년 LNG선 대규모 인도 등으로 공급 과잉 전망되나, 장기 수요 기반 투자 지속 방침 2030년부터 아시아 역내 장거리 LCO2 운송 확대에 따른 대형 선박 수요 부상 전망 2027년 1월 EU의 터미널 반입 금지 발효로 운송 거리 연장 및 환적 수요가 대폭 확대될 전망 금지 조치 시 실소유자(UBO) 확인 및 '러시아 연계 금지' 조항 삽입 등 엄격한 실사의무 부과 전망 동사는 글로벌 FSRU 약 50척 중 ",
+    "선가, 실적, 캐파 ▽ 신조선가지수와 LNGc 2주 연속 하락, 중고선가지수는 2p나 상승"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Rovuma LNG, 한화도 사이펨도 FLNG, 태국 호위함, 힘센 증설 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15072",
+   "source_url": "https://bit.ly/DOS839"
   }
  ],
  "cross_mentions": [
@@ -30887,6 +30922,18 @@
    "evidence": "자동차·2차전지: 100원당 현대차 1.9조·기아 1.4조, 원/엔 방향성이 더 중요 4.",
    "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
    "post_url": "https://t.me/daolresearch/15028"
+  },
+  {
+   "company": "HMM",
+   "code": "011200",
+   "owner_analyst": "오정하",
+   "owner_sector": "운송/로봇",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "date": "2026-09-13",
+   "evidence": "대부분 중국으로 △ CMA CGM, HMM, ONE 등도 컨테이너 투자 추진",
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Rovuma LNG, 한화도 사이펨도 FLNG, 태국 호위함, 힘센 증설 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15072"
   }
  ],
  "candidates": [
