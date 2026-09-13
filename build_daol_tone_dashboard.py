@@ -162,14 +162,16 @@ def is_report(m):
     t=m['text']
     # 데일리뉴스·모닝브리프·관세업데이트·증시캘린더는 리포트가 아니다.
     if re.search(r'데일리\s*(NEWS|뉴스)|Daily\s*Morning\s*Brief|Morning\s*Brief|관세\s*업데이트|증시\s*캘린더|DAOL\s*Daily',t[:200],re.I):return False
-    has_report_original=bool(re.search(r'보고서\s*원문',t,re.I))
+    # '보고서. 원문'처럼 구두점 오타가 낀 표기도 인정 (9/11 이다연 SKT 인뎁스 미수집 사고)
+    has_report_original=bool(re.search(r'보고서[.,·]?\s*원문',t,re.I))
     has_compliance=bool(re.search(r'컴플라이언스|Compliance(?:\s*Notice)?',t,re.I))
     if has_report_original and has_compliance:return True
     # 주간 시황(위클리/주시뉴스)은 컴플라이언스 문구 없이 리포트 링크만 붙는다.
     is_weekly=bool(re.search(r'주시\s*뉴스|Weekly',t,re.I))
     if is_weekly and has_report_link(m):return True
     # 애널 리포트: 리포트 PDF 링크 + 애널 귀속 헤더 + 분석 신호(의견/목표가/종목코드/★)
-    analyst_hdr=re.search(r'\[다올[^\]]*\]|담당\s*[가-힣]{2,4}',t[:200])
+    # 헤더는 '[통신서비스(Overweight) | 다올 통신·음식료 이다연]'처럼 다올이 대괄호 중간에 와도 인정.
+    analyst_hdr=re.search(r'\[[^\]]{0,80}다올[^\]]*\]|담당\s*[가-힣]{2,4}',t[:200])
     signal=re.search(r'Overweight|Underweight|비중\s*(확대|축소)|목표주가|투자의견|\([0-9]{6}\)|★',t,re.I)
     return bool(has_report_link(m) and analyst_hdr and signal)
 
