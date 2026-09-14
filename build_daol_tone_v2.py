@@ -518,8 +518,18 @@ def resolve_sector(record, sector_map):
             return '화장품' if re.search(r'화장품|뷰티|코스메', record['title'][:160]) else '의료기기'
     if record['code'] and record['code'] in sector_map:
         return sector_map[record['code']]
-    # 1순위: 제목(그 리포트가 실제 다루는 주제). 2순위: 애널 헤더의 원시 섹터 문자열 —
-    # '자동차/이차전지'처럼 복수 표기는 앞 세그먼트가 주 커버리지이므로 세그먼트 순서대로 본다.
+    # 1순위: 제목(그 리포트가 실제 다루는 주제). 선두 대괄호는 보통 그 리포트의 섹터 라벨이라
+    # 그대로 매칭하되, '[조선/기계/방산(Overweight)]'처럼 복수 섹터를 나열한 통합 헤더면
+    # 헤더가 주제를 말해주지 못하므로 ★ 뒤 본제목을 먼저 본다(방산 리포트가 헤더의 '조선'에
+    # 걸려 조선으로 묶이던 문제 — 본제목에서 못 찾으면 기존대로 전체 제목으로 폴백).
+    # 2순위: 애널 헤더의 원시 섹터 문자열 — '자동차/이차전지'처럼 복수 표기는
+    # 앞 세그먼트가 주 커버리지이므로 세그먼트 순서대로 본다.
+    hdr = re.match(r'^\[([^\]]*)\]', record['title'])
+    if hdr and hdr.group(1).count('/') >= 2:
+        topic = record['title'][hdr.end():][:160]
+        for pattern, label in SECTOR_KEYWORDS:
+            if re.search(pattern, topic, re.I):
+                return label
     for pattern, label in SECTOR_KEYWORDS:
         if re.search(pattern, record['title'][:160], re.I):
             return label
