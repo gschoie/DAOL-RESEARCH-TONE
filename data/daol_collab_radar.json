@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-14T22:22:02.059509+00:00",
+ "generated_at": "2026-09-14T22:48:19.001525+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1325,
+ "report_count": 1327,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -29966,6 +29966,42 @@
    "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 8월 미국 처방 실적",
    "post_url": "https://t.me/daolresearch/15074",
    "source_url": "https://buly.kr/9BYUsh7"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-09-15",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "8월",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "일부 회차 스타디움 입성에 이어 서구권(남미/유럽) 중심의 추가 회차가 발생하며 공연 규모 확대 순항 중.",
+    "넥스지는 직전 컴백에서 음원, 음반의 동반 가파른 성장 이후 현재는 다소 주춤"
+   ],
+   "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 8월 음반원 업데이트 1) 음반 판매량 업데이트",
+   "post_url": "https://t.me/daolresearch/15082",
+   "source_url": "https://buly.kr/4mfYjJy"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-09-15",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "일상",
+   "code": "",
+   "direction": "수혜",
+   "score": 10,
+   "evidences": [
+    "특히 최근 확대되고 있는 이런 일상 채널들은 팝업 중심의 협업이 먼저 확대되었던 백화점 대비 점포 수, 접근성 측면에서 우위가 있으며 팬들의 연계소비도 발생하기 쉬운 채널이기에 성과가 확인될수록 K-POP IP 활용 역시 확대될 가능성이 높다고 판단",
+    "엔터사 또한 별도의 대규모 투자 없이 유통 업체의 점포망을 활용한 판매 접점 확대를 통해 팬들의 구매 접근성을 높이는 동시에 기존 팬덤 외 소비자에게 K-POP 상품 노출 기회를 확대시킬 수 있음."
+   ],
+   "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 일상 유통 채널로 확장되고 있는 음반과 MD",
+   "post_url": "https://t.me/daolresearch/15083",
+   "source_url": "https://buly.kr/ET1EgBR"
   }
  ],
  "cross_mentions": [
@@ -30960,7 +30996,7 @@
    "recent": 19,
    "total": 20,
    "sectors": 3,
-   "burst": 37.1
+   "burst": 36.8
   },
   {
    "term": "월드컵",
@@ -30988,21 +31024,28 @@
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.9
+   "burst": 5.8
+  },
+  {
+   "term": "올리브영",
+   "recent": 6,
+   "total": 9,
+   "sectors": 3,
+   "burst": 5.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "정체",
    "recent": 7,
    "total": 11,
    "sectors": 4,
-   "burst": 5.5
+   "burst": 5.4
   },
   {
    "term": "실질",
@@ -31010,6 +31053,13 @@
    "total": 13,
    "sectors": 6,
    "burst": 5.2
+  },
+  {
+   "term": "기저가",
+   "recent": 9,
+   "total": 15,
+   "sectors": 5,
+   "burst": 5.0
   },
   {
    "term": "클라우드",
@@ -31030,13 +31080,6 @@
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.6
-  },
-  {
-   "term": "기저가",
-   "recent": 8,
-   "total": 14,
-   "sectors": 5,
    "burst": 4.5
   },
   {
@@ -31052,13 +31095,6 @@
    "total": 20,
    "sectors": 6,
    "burst": 4.3
-  },
-  {
-   "term": "분쟁",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
-   "burst": 3.9
   }
  ]
 }
