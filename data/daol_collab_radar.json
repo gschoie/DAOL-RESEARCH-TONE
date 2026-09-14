@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-14T18:35:57.008491+00:00",
+ "generated_at": "2026-09-14T22:22:02.059509+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1323,
+ "report_count": 1325,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30960,7 +30960,7 @@
    "recent": 19,
    "total": 20,
    "sectors": 3,
-   "burst": 37.0
+   "burst": 37.1
   },
   {
    "term": "월드컵",
@@ -30968,13 +30968,6 @@
    "total": 9,
    "sectors": 4,
    "burst": 9.1
-  },
-  {
-   "term": "정체",
-   "recent": 8,
-   "total": 11,
-   "sectors": 4,
-   "burst": 7.8
   },
   {
    "term": "보합",
@@ -30995,14 +30988,21 @@
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.8
+   "burst": 5.9
+  },
+  {
+   "term": "정체",
+   "recent": 7,
+   "total": 11,
+   "sectors": 4,
+   "burst": 5.5
   },
   {
    "term": "실질",
@@ -31030,7 +31030,7 @@
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.5
+   "burst": 4.6
   },
   {
    "term": "기저가",
