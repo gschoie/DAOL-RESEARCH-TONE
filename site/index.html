@@ -457,9 +457,9 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
   const pickRec=[...timeline].reverse().find(r=>(r.top_picks||[]).length);
   const picks=pickRec?`<div class="top-picks"><b>최선호주 / TOP PICK <small>${mmdd(pickRec.date)} 자료 기준</small></b>${pickRec.top_picks.map(t=>`<p>${esc(t)}</p>`).join('')}</div>`:'';
   const comps=Object.values(state.tone2?.companies||{}).filter(c=>!c.key.startsWith('IND:')&&c.sector===entry.sector);
-  const rows=comps.map(c=>{const t=[...c.timeline].reverse().find(r=>r.tp_event&&r.tp_event.value);return t?{c,r:t,tp:t.tp_event}:null}).filter(Boolean)
-   .sort((a,b)=>b.r.date.localeCompare(a.r.date));
-  leftPanel=`<div>${picks}<h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)">최근 변동순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
+  const rows=comps.map(c=>{const t=[...c.timeline].reverse().find(r=>r.tp_event&&r.tp_event.value);return t?{c,r:t,tp:t.tp_event,last:c.timeline[c.timeline.length-1].date}:null}).filter(Boolean)
+   .sort((a,b)=>b.last.localeCompare(a.last)||b.r.date.localeCompare(a.r.date));
+  leftPanel=`<div>${picks}<h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)" title="인뎁스 수록 기업분석 포함, TP 언급 여부와 무관하게 그 종목의 가장 최근 보고서 날짜 순. TP 값은 마지막으로 TP가 표기된 보고서 기준">최근 보고서순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>TP ${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}${x.last!==x.r.date?` · 최근 보고서 ${mmdd(x.last)}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
  }
  // 확신도 점수의 '이유' — 최근 3건의 AI 한줄 요약을 차트 밑에 살짝
  const convNotes=timeline.filter(r=>r.conviction!=null&&r.one_line).slice(-3).reverse()
