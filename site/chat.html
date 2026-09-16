@@ -203,7 +203,7 @@ async function unlockKey(pass) {
     $('gate-msg').textContent = '확인 중…';
     try {
       const key = await unlockKey(pass);
-      if (!key.startsWith('AIza')) throw new Error('bad key');
+      if (key.length < 20) throw new Error('bad key'); // 복호화 성공(=암호 일치)이면 사실상 통과 — 형식은 강제하지 않는다
       localStorage.setItem(PROVIDERS.gemini.ls, key);
       localStorage.setItem(LS_MODEL, localStorage.getItem(LS_MODEL) || 'gemini-flash-lite-latest');
       $('model').value = localStorage.getItem(LS_MODEL);
