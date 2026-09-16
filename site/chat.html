@@ -83,7 +83,9 @@
   .gate-card input { width:100%; box-sizing:border-box; padding:10px; border:1px solid var(--line); border-radius:8px; font-size:15px; text-align:center; }
   #gate-form button { margin-top:10px; width:100%; background:var(--accent); color:#fff; border:0; padding:10px; border-radius:8px; font-size:14px; cursor:pointer; }
   #gate-msg { min-height:18px; font-size:13px; color:#bd4335; margin-top:8px; }
-  #gate-own { margin-top:10px; background:none; border:0; color:var(--muted,#8a8375); font-size:12px; text-decoration:underline; cursor:pointer; }
+  #gate-own { display:inline-block; margin-top:14px; background:var(--panel); border:1px solid var(--line); color:var(--accent); font-size:13.5px; font-weight:600; padding:9px 16px; border-radius:8px; cursor:pointer; }
+  #gate-own:hover { border-color:var(--accent); background:#f6f1e8; }
+  .hdr-links[hidden] { display:none; }
   form { display:flex; gap:8px; padding:10px 20px 16px; }
   #input { flex:1; padding:12px 14px; border:1px solid var(--line); border-radius:10px; font-size:14px; background:var(--panel); }
   #input:focus { outline:2px solid var(--accent); border-color:transparent; }
@@ -97,6 +99,10 @@
   <span class="hdr-links">
     <a class="home" id="mirror-sync" href="https://github.com/DAOL-Securities-Research-Center/DAOL-RESEARCH-TONE/actions/workflows/mirror.yml" target="_blank" rel="noopener" title="외부 공유용 미러 주소에 지금 내용을 즉시 반영합니다">⟳ 미러 동기화</a>
     <a class="home" href="./index.html">🌿 톤 보드</a>
+  </span>
+  <span class="hdr-links" id="mirror-ctl" hidden>
+    <a class="home" id="own-key-btn" href="#">🔑 나의 API 키 넣기</a>
+    <a class="home" id="logout-btn" href="#">로그아웃</a>
   </span>
 </header>
 <details id="setup">
@@ -142,7 +148,7 @@
       <button type="submit">확인</button>
     </form>
     <div id="gate-msg"></div>
-    <button type="button" id="gate-own">직접 API 키를 입력할게요</button>
+    <button type="button" id="gate-own">🔑 나의 API 키를 직접 입력할게요</button>
   </div>
 </div>
 
@@ -158,7 +164,22 @@ if (window.opener || matchMedia('(display-mode: standalone)').matches || IS_MIRR
 }
 // 미러 주소는 접속 암호로 들어오므로 ⚙️ 설정(모델·API 키)도 숨긴다 —
 // 게이트의 '직접 API 키 입력'을 누른 경우에만 다시 보여준다
-if (IS_MIRROR) document.getElementById('setup').style.display = 'none';
+if (IS_MIRROR) {
+  document.getElementById('setup').style.display = 'none';
+  // 대신 간단한 컨트롤 두 개: 나의 API 키 직접 넣기 / 로그아웃(키 삭제 → 암호 화면으로)
+  const ctl = document.getElementById('mirror-ctl');
+  ctl.hidden = false;
+  document.getElementById('own-key-btn').addEventListener('click', (ev) => {
+    ev.preventDefault();
+    const s = document.getElementById('setup');
+    s.style.display = ''; s.open = true; s.scrollIntoView({ block: 'nearest' });
+  });
+  document.getElementById('logout-btn').addEventListener('click', (ev) => {
+    ev.preventDefault();
+    try { localStorage.removeItem('daol_chat_gemini_key'); localStorage.removeItem('daol_chat_api_key'); } catch (e) {}
+    location.reload();
+  });
+}
 
 // '⟳ 미러 동기화': 대시보드의 GAS 디스패치 프록시로 조직 저장소의 mirror.yml을 원클릭 실행.
 // 프록시가 아직 mirror 매핑을 모르거나 실패하면 GitHub 실행 화면(href)으로 폴백한다.
