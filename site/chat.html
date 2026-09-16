@@ -454,6 +454,29 @@ function changeEvents(tone, { date_from = '', date_to = '', type = '', sector = 
   return { coverage, total: hits.length, results: hits.slice(0, Math.min(Number(limit) || 30, 50)) };
 }
 
+/* --- 다올 추정 vs 시장 컨센서스 영업이익 갭 랭킹 (리포트 발간 시점 스냅샷) --- */
+function estGapRank(tone, { period = 'annual', direction = 'above', sector = '', limit = 15 } = {}) {
+  const slot = period === 'quarter' ? 'quarter' : 'annual';
+  const rows = [];
+  for (const [code, e] of Object.entries(tone.companies || {})) {
+    if (code.startsWith('IND:') || !e || typeof e !== 'object') continue;
+    if (sector && !String(e.sector || '').includes(sector.trim())) continue;
+    for (const it of timelineOf(e).slice().reverse()) {
+      const op = it && it.est_compare && it.est_compare[slot] && it.est_compare[slot].op;
+      if (!op || op.our == null || !(op.cons > 0)) continue; // 컨센 적자면 비율 비교가 부호 왜곡을 일으켜 제외
+      const diff = op.diff_pct != null ? op.diff_pct : Math.round((op.our / op.cons - 1) * 1000) / 10;
+      rows.push({ name: e.name, code, sector: e.sector, report_date: it.date,
+                  label: it.est_compare[slot].label, daol_op: op.our, consensus_op: op.cons, diff_pct: diff,
+                  post_url: it.post_url || it.source_url });
+      break; // 종목당 가장 최근 비교 1건
+    }
+  }
+  if (!rows.length) return { error: `${slot === 'annual' ? '연간' : '분기'} 영업이익 추정 비교 데이터가 있는 종목이 없습니다` + (sector ? ` (섹터: ${sector})` : '') + '. 추정치를 병기한 리포트가 있는 종목만 비교 가능합니다.' };
+  rows.sort((a, b) => direction === 'below' ? a.diff_pct - b.diff_pct : b.diff_pct - a.diff_pct);
+  return { note: `diff_pct = 다올 영업이익 추정 ÷ 시장 컨센서스 − 1 (%). 컨센서스는 그 리포트 발간 시점(report_date)의 네이버 스냅샷 — 오래된 비교는 답에 날짜를 밝힐 것. 단위 억원, ${slot === 'annual' ? '연간(label 참조)' : '분기(label 참조)'} 기준. 비교 가능 종목은 추정 병기 리포트가 있는 경우로 한정.`,
+           total: rows.length, results: rows.slice(0, Math.min(Number(limit) || 15, 30)) };
+}
+
 /* --- 다음 분기 영업이익 성장 랭킹 (네이버 분기 컨센서스, 전년동기 대비) --- */
 function quarterGrowthRank(funda, tone, { sector = '', limit = 15 } = {}) {
   const rows = [], turnarounds = [];
@@ -586,6 +609,13 @@ const TOOLS = [
       type: { type: 'string', description: '이벤트 유형 부분일치(예: "TP 상향", "실적추정 상향", "의견 변경", "톤 이례")' },
       sector: { type: 'string', description: '섹터 필터(선택, 예: "조선")' },
       limit: { type: 'string', description: '반환 개수(기본 30, 최대 50)' } }, additionalProperties: false } },
+  { name: 'compare_est_vs_consensus',
+    description: '다올 애널리스트의 영업이익 추정과 시장 컨센서스(리포트 발간 시점 네이버 스냅샷)의 차이(%)를 종목별로 랭킹한다. "시장 컨센 대비 다올 이익 예상이 높은(낮은) 회사는?", "컨센 상회 전망 종목?" 류 질문에 사용. TP 괴리(compare_daol_vs_street)가 아니라 이익 추정 비교.',
+    input_schema: { type: 'object', properties: {
+      period: { type: 'string', enum: ['annual', 'quarter'], description: 'annual=연간(기본, 예: 2026E), quarter=당분기' },
+      direction: { type: 'string', enum: ['above', 'below'], description: 'above=다올이 높은 순(기본), below=낮은 순' },
+      sector: { type: 'string', description: '섹터 필터(선택)' },
+      limit: { type: 'string', description: '반환 개수(기본 15, 최대 30)' } }, additionalProperties: false } },
   { name: 'get_quarter_op_growth',
     description: '다올 커버 종목의 다음 분기(가장 가까운 추정 분기) 영업이익 컨센서스를 전년동기 대비 성장률(YoY)로 랭킹한다. "다음 분기 영업이익 성장이 가장 큰 회사는?", "3분기 증익 폭 큰 종목?" 류 질문에 사용. 흑자전환 예상 종목은 별도 목록으로 온다.',
     input_schema: { type: 'object', properties: {
@@ -673,6 +703,7 @@ async function runTool(name, input) {
     }
     case 'compare_daol_vs_street': return serialize(compareStreet(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     case 'get_change_events': return serialize(changeEvents(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
+    case 'compare_est_vs_consensus': return serialize(estGapRank(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     case 'get_quarter_op_growth': {
       const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
       let funda = null;
@@ -724,6 +755,7 @@ ${TODAY_LINE}
 - 상승여력/업사이드("상승여력 가장 높은 종목?") → get_upside — 다올 TP ÷ 현재 주가 − 1. 타사 TP 괴리(compare_daol_vs_street)와 혼동 금지. 답에 종가 기준일(close_date)을 명시.
 - 기간별 변화 이벤트("한 주간 의견이 강하게 올라온 보고서?", "최근 TP 상향?") → get_change_events — 톤 이례↑·실적추정 상향·TP 상향 등 유형별 조회. 보관 범위 밖 기간은 search_reports로 보완.
 - 다음 분기 영업이익 성장 랭킹("다음 분기 영업이익 성장이 가장 큰 회사?") → 반드시 get_quarter_op_growth — 아직 발표 전인 추정(E) 분기의 전년동기 대비(YoY) 컨센서스다. 어느 분기(quarter)인지 답에 명시하고 흑자전환(turnarounds)도 언급. 이미 발표된 실적 서프라이즈를 리포트에서 검색해 답하는 것은 오답.
+- 다올 추정 vs 시장 컨센 이익 비교("컨센 대비 다올 이익 예상이 높은 회사?") → compare_est_vs_consensus — period로 연간/당분기 선택. diff_pct 양수 = 다올이 컨센 상회 전망. 컨센은 리포트 발간 시점 스냅샷이므로 report_date를 답에 명시. TP 괴리(compare_daol_vs_street)와 혼동 금지.
 - 재무·밸류 수치("PER 얼마?", "내년 영업이익 컨센?") → get_fundamentals (네이버 금융 컨센서스)
 - 최선호주/탑픽("조선 최선호주는?") → get_top_picks — 최신 리포트에 없어도 가장 최근 명시 리포트를 거슬러 찾아준다. 답할 때 그 리포트 날짜 기준임을 명시.
 - 테마·수혜주 질문("미국 조선 수혜는?", "MASGA 수혜주?", "원화강세 수혜주?") → 반드시 search_reports와 search_report_fulltext로 테마 키워드를 검색(변형·관련어도 함께: 예. 미국 조선/MASGA면 "MASGA", "미국", "필리", "한미"; 붙여 쓴 말은 띄어 쓴 변형도 — "원화강세"면 "원화 강세", "원화", "환율"). 검색 결과의 matched_companies(매칭된 전체 기업 목록)를 훑어 상위 results에 없는 기업도 빠뜨리지 말고, 필요하면 그 기업의 latest_id로 get_report_fulltext(around=테마 키워드)를 호출해 근거를 확보한다. 리포트가 그 테마와 명시적으로 연결한 종목만, 종목마다 근거 문장과 [원문](URL) 링크를 붙여 답한다 — 근거 링크를 못 붙일 종목은 언급하지 않는다. 섹터 커버 종목이라는 이유만으로 수혜주에 넣거나, 리포트에 없는 일반 상식으로 종목을 넣고 빼는 것은 금지.
