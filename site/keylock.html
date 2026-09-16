@@ -26,8 +26,8 @@
     <p class="note">Gemini API 키를 <b>접속 암호로 암호화한 암호문</b>을 만듭니다.
     모든 계산은 이 브라우저 안에서만 일어나며 <b>키와 암호는 어디로도 전송되지 않습니다</b>.
     생성된 암호문은 공개되어도 접속 암호 없이는 풀 수 없으므로, 코드에 넣어 배포할 수 있습니다.</p>
-    <label>Gemini API 키 (AIza…)</label>
-    <input id="key" autocomplete="off" placeholder="AIza…">
+    <label>Gemini API 키 — aistudio.google.com/apikey 에서 복사한 값 그대로</label>
+    <input id="key" autocomplete="off" placeholder="발급받은 키 붙여넣기">
     <label>접속 암호 — 사용자들에게 알려줄 암호 (길고 추측 어려운 문구 권장, 예: 한글 문장)</label>
     <input id="pass" autocomplete="off" placeholder="예: 다올리서치 화이팅 2026!">
     <label>접속 암호 확인</label>
@@ -75,7 +75,7 @@ $('make').onclick = async () => {
   const key = $('key').value.trim(), pass = $('pass').value;
   const msg = $('msg');
   msg.className = 'msg';
-  if (!key.startsWith('AIza')) { msg.textContent = 'Gemini 키는 AIza로 시작합니다. 다시 확인해 주세요.'; msg.classList.add('bad'); return; }
+  if (key.length < 20 || /\s/.test(key)) { msg.textContent = '키가 너무 짧거나 공백이 섞여 있습니다. 복사한 키를 다시 확인해 주세요.'; msg.classList.add('bad'); return; }
   if (pass.length < 6) { msg.textContent = '접속 암호는 6자 이상으로 해주세요(길수록 안전).'; msg.classList.add('bad'); return; }
   if (pass !== $('pass2').value) { msg.textContent = '접속 암호 확인이 일치하지 않습니다.'; msg.classList.add('bad'); return; }
   msg.textContent = '생성 중…';
