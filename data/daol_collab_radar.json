@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-16T22:49:51.933366+00:00",
+ "generated_at": "2026-09-16T23:05:29.756580+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1327,
+ "report_count": 1328,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30002,6 +30002,41 @@
    "title": "[엔터(Overweight) | 다올 엔터 임도영] ★ 일상 유통 채널로 확장되고 있는 음반과 MD",
    "post_url": "https://t.me/daolresearch/15083",
    "source_url": "https://buly.kr/ET1EgBR"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-09-17",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "9월",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "9월 FOMC Review: 결국 시작된 금리인상",
+    "9월 FOMC 정책금리 3.75% → 4.00% 25bp 인상(만장일치)"
+   ],
+   "title": "[다올투자증권 매크로/투자전략 조병현] ★ 9월 FOMC Review: 결국 시작된 금리인상",
+   "post_url": "https://t.me/daolresearch/15094",
+   "source_url": "https://buly.kr/CM29dbQ"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-09-17",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "9월",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "유가의 고공행진과 9월 물가 상승이 확인되면, 10월 백투백 인상 가능성도 배제할 수 없음 ♣ 보고서 원문 및 Compliance Notice : https://buly.kr/CM29dbQ"
+   ],
+   "title": "[다올투자증권 매크로/투자전략 조병현] ★ 9월 FOMC Review: 결국 시작된 금리인상",
+   "post_url": "https://t.me/daolresearch/15094",
+   "source_url": "https://buly.kr/CM29dbQ"
   }
  ],
  "cross_mentions": [
@@ -30996,56 +31031,56 @@
    "recent": 19,
    "total": 20,
    "sectors": 3,
-   "burst": 36.8
+   "burst": 37.4
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.1
+   "burst": 9.2
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "일평균거래대금",
    "recent": 6,
    "total": 8,
    "sectors": 5,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "감가상각비",
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "올리브영",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 5.8
+   "burst": 5.9
   },
   {
    "term": "정체",
    "recent": 7,
    "total": 11,
    "sectors": 4,
-   "burst": 5.4
+   "burst": 5.5
   },
   {
    "term": "실질",
@@ -31059,7 +31094,7 @@
    "recent": 9,
    "total": 15,
    "sectors": 5,
-   "burst": 5.0
+   "burst": 5.1
   },
   {
    "term": "클라우드",
@@ -31080,14 +31115,14 @@
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.5
+   "burst": 4.6
   },
   {
    "term": "관건",
    "recent": 10,
    "total": 18,
    "sectors": 8,
-   "burst": 4.3
+   "burst": 4.4
   },
   {
    "term": "Mix",

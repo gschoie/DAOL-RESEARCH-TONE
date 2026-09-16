@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T22:48:04.066722+00:00",
+  "generated_at": "2026-09-16T23:03:32.271726+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1327,
+  "report_count": 1328,
   "months": [
     {
       "month": "2026-09",
@@ -1247,6 +1247,48 @@
           ]
         },
         {
+          "analyst": "조병현",
+          "sectors": [
+            "매크로/투자전략"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "전월 대비 유지",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15094,
+              "date": "2026-09-17",
+              "month": "2026-09",
+              "analyst": "조병현",
+              "sector": "매크로/투자전략",
+              "company": "9월",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/CM29dbQ",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
+              "title": "[다올투자증권 매크로/투자전략 조병현] ★ 9월 FOMC Review: 결국 시작된 금리인상",
+              "summary": "[다올투자증권 매크로/투자전략 조병현] ★ 9월 FOMC Review: 결국 시작된 금리인상 ▶ 9월 FOMC 정책금리 3.75% → 4.00% 25bp 인상(만장일치) ▶ 성장, 물가, Longer Run 전망 상향 조정. 성명문 내 성장 견조 시사 강화 ▶ 26년/27년 점도표 기준금리 중간값 4.1%, 4.1% ▶ 기자회견은 매파적, 경제의 견조함과 물가안정을 위한 추가 금리인상 시사 ▶ 연내 금리인상 추가 1회 전망. 최종금리 수준은 4.25%로 추정. 유가의 고공행진과 9월 물가 상승이 확인되면, 10월 백투백 인상 가능성도 배제할 수 없음 ♣ 보고서 원문 및 Compliance Notice : https://buly.kr/CM29dbQ",
+              "post_url": "https://t.me/daolresearch/15094",
+              "source_url": "https://buly.kr/CM29dbQ"
+            }
+          ]
+        },
+        {
           "analyst": "최광식",
           "sectors": [
             "조선/기계/방산"
@@ -1520,7 +1562,7 @@
           ]
         }
       ],
-      "report_count": 35
+      "report_count": 36
     },
     {
       "month": "2026-08",
