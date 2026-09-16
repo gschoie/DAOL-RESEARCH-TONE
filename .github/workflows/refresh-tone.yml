@@ -198,3 +198,18 @@ jobs:
       - name: GitHub Pages 배포
         id: deployment
         uses: actions/deploy-pages@v5
+
+      # 외부 공유용 미러(조직 저장소)도 곧바로 따라오게 깨운다 — 클릭·크론 대기 불필요.
+      # MIRROR_PAT 시크릿(조직 저장소 권한 있는 classic PAT)이 없으면 조용히 건너뛴다
+      # (그 경우 미러는 매일 1회 크론과 수동 버튼으로만 갱신).
+      - name: 미러 동기화 트리거
+        env:
+          MIRROR_PAT: ${{ secrets.MIRROR_PAT }}
+        run: |
+          if [ -z "$MIRROR_PAT" ]; then echo "MIRROR_PAT 미설정 — 미러 트리거 생략"; exit 0; fi
+          code=$(curl -s -o /tmp/mirror_resp.txt -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $MIRROR_PAT" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/DAOL-Securities-Research-Center/DAOL-RESEARCH-TONE/actions/workflows/mirror.yml/dispatches \
+            -d '{"ref":"main"}')
+          if [ "$code" = "204" ]; then echo "미러 동기화 트리거 성공"; \
+          else echo "::warning::미러 트리거 실패(HTTP $code) — $(head -c 200 /tmp/mirror_resp.txt)"; fi
