@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>접속 암호 잠금 생성기</title>
+<style>
+  :root { --bg:#f7f5f0; --panel:#fff; --line:#e3ded4; --accent:#7a5c2e; --muted:#8a8375; }
+  body { margin:0; background:var(--bg); color:#2c2a22; font:15px/1.6 -apple-system,'Malgun Gothic','Apple SD Gothic Neo',sans-serif; }
+  main { max-width:640px; margin:40px auto; padding:0 18px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:22px 24px; margin-bottom:16px; }
+  h1 { font-size:20px; } h2 { font-size:16px; margin:0 0 10px; }
+  label { display:block; font-size:13px; color:var(--muted); margin:12px 0 4px; }
+  input, textarea { width:100%; box-sizing:border-box; padding:9px 10px; border:1px solid var(--line); border-radius:8px; font-size:14px; background:#fdfcfa; }
+  textarea { font-family:ui-monospace,monospace; font-size:12px; min-height:84px; }
+  button { margin-top:14px; background:var(--accent); color:#fff; border:0; padding:10px 18px; border-radius:8px; font-size:14px; cursor:pointer; }
+  button.ghost { background:transparent; color:var(--accent); border:1px solid var(--line); }
+  .msg { margin-top:10px; font-size:13px; } .ok { color:#2e7d4f; } .bad { color:#bd4335; }
+  .note { font-size:13px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>🔒 접속 암호 잠금 생성기</h1>
+  <div class="card">
+    <p class="note">Gemini API 키를 <b>접속 암호로 암호화한 암호문</b>을 만듭니다.
+    모든 계산은 이 브라우저 안에서만 일어나며 <b>키와 암호는 어디로도 전송되지 않습니다</b>.
+    생성된 암호문은 공개되어도 접속 암호 없이는 풀 수 없으므로, 코드에 넣어 배포할 수 있습니다.</p>
+    <label>Gemini API 키 (AIza…)</label>
+    <input id="key" autocomplete="off" placeholder="AIza…">
+    <label>접속 암호 — 사용자들에게 알려줄 암호 (길고 추측 어려운 문구 권장, 예: 한글 문장)</label>
+    <input id="pass" autocomplete="off" placeholder="예: 다올리서치 화이팅 2026!">
+    <label>접속 암호 확인</label>
+    <input id="pass2" autocomplete="off">
+    <button id="make">암호문 생성</button>
+    <div id="msg" class="msg"></div>
+    <label>결과 암호문 — 이 문자열만 전달하면 됩니다</label>
+    <textarea id="out" readonly placeholder="여기에 암호문이 나옵니다"></textarea>
+    <button id="copy" class="ghost" type="button">복사</button>
+  </div>
+  <div class="card">
+    <h2>검증 (선택)</h2>
+    <p class="note">만든 암호문이 접속 암호로 잘 풀리는지 확인합니다.</p>
+    <label>암호문</label><textarea id="v-blob"></textarea>
+    <label>접속 암호</label><input id="v-pass" autocomplete="off">
+    <button id="verify" class="ghost" type="button">복호화 테스트</button>
+    <div id="v-msg" class="msg"></div>
+  </div>
+</main>
+<script>
+'use strict';
+const $ = (id) => document.getElementById(id);
+const ITER = 310000;
+const b64 = (u8) => btoa(String.fromCharCode(...u8));
+const unb64 = (s) => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+async function derive(pass, salt) {
+  const km = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+  return crypto.subtle.deriveKey({ name: 'PBKDF2', salt, iterations: ITER, hash: 'SHA-256' }, km,
+    { name: 'AES-GCM', length: 256 }, false, ['encrypt', 'decrypt']);
+}
+async function encrypt(plain, pass) {
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const k = await derive(pass, salt);
+  const ct = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, k, new TextEncoder().encode(plain)));
+  return `${b64(salt)}.${b64(iv)}.${b64(ct)}`;
+}
+async function decrypt(blob, pass) {
+  const [s, i, c] = String(blob).trim().split('.');
+  const k = await derive(pass, unb64(s));
+  const pt = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: unb64(i) }, k, unb64(c));
+  return new TextDecoder().decode(pt);
+}
+$('make').onclick = async () => {
+  const key = $('key').value.trim(), pass = $('pass').value;
+  const msg = $('msg');
+  msg.className = 'msg';
+  if (!key.startsWith('AIza')) { msg.textContent = 'Gemini 키는 AIza로 시작합니다. 다시 확인해 주세요.'; msg.classList.add('bad'); return; }
+  if (pass.length < 6) { msg.textContent = '접속 암호는 6자 이상으로 해주세요(길수록 안전).'; msg.classList.add('bad'); return; }
+  if (pass !== $('pass2').value) { msg.textContent = '접속 암호 확인이 일치하지 않습니다.'; msg.classList.add('bad'); return; }
+  msg.textContent = '생성 중…';
+  const blob = await encrypt(key, pass);
+  if ((await decrypt(blob, pass)) !== key) { msg.textContent = '자체 검증 실패 — 다시 시도해 주세요.'; msg.classList.add('bad'); return; }
+  $('out').value = blob;
+  msg.textContent = '완료(자체 복호화 검증 통과). 아래 암호문만 전달하세요 — 키·암호는 전달 금지.';
+  msg.classList.add('ok');
+};
+$('copy').onclick = async () => { try { await navigator.clipboard.writeText($('out').value); $('msg').textContent = '복사했습니다.'; } catch (e) { $('out').select(); document.execCommand('copy'); } };
+$('verify').onclick = async () => {
+  const m = $('v-msg'); m.className = 'msg';
+  try {
+    const key = await decrypt($('v-blob').value, $('v-pass').value);
+    m.textContent = `복호화 성공: ${key.slice(0, 8)}…${key.slice(-4)}`; m.classList.add('ok');
+  } catch (e) { m.textContent = '복호화 실패 — 암호문 또는 접속 암호가 다릅니다.'; m.classList.add('bad'); }
+};
+</script>
+</body>
+</html>
