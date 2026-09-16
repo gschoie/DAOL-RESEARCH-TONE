@@ -570,7 +570,7 @@ const TOOLS = [
       sector: { type: 'string', description: '섹터 필터(선택, 예: "조선", "반도체")' },
       analyst: { type: 'string', description: '애널리스트 이름 필터(선택)' } }, additionalProperties: false } },
   { name: 'get_fundamentals',
-    description: '다올 커버 종목의 연간 재무·밸류에이션 컨센서스(네이버 금융): 작년·올해·내년 3개 연도의 매출액·영업이익·영업이익률·순이익·ROE·PER·PBR·PSR과 시가총액. "PER 얼마?", "내년 영업이익 컨센은?", "감익인가?" 류 수치 질문에 사용. 단위: 금액 억원, 비율 %.',
+    description: '다올 커버 종목의 연간 재무·밸류에이션 컨센서스(네이버 금융): 2025·2026년 매출액·영업이익·영업이익률·순이익·ROE·PER·PBR·PSR과 시가총액. "PER 얼마?", "내년 영업이익 컨센은?", "감익인가?" 류 수치 질문에 사용. 단위: 금액 억원, 비율 %.',
     input_schema: { type: 'object', properties: { company: { type: 'string', description: '종목명 또는 6자리 종목코드' } }, required: ['company'], additionalProperties: false } },
   { name: 'compare_daol_vs_street',
     description: '다올 커버 종목별로 다올 TP와 타사(스트리트, 최근 120일) TP 중앙값의 괴리를 랭킹으로 돌려준다. "다올이 시장보다 강하게(약하게) 보는 종목은?", "시장과 시각차 큰 종목?" 류 질문에 사용. gap_pct 양수 = 다올이 강세.',
@@ -1126,24 +1126,21 @@ function streetChartBubble(cd) {
 
 /* --- 재무·밸류 표 (네이버 금융 컨센서스, 커버 종목 차트 아래) --- */
 function fundaTableHtml(f) {
-  // 데이터에 있는 연도(작년·올해·내년)를 그대로 열로 쓴다 — 연도 하드코딩 없음
-  const years = Object.keys(f.years || {}).filter(y => /^\d{4}$/.test(y)).sort().slice(-4);
-  const ys = years.map(y => f.years[y]);
-  if (!ys.length) return '';
+  const y25 = f.years && f.years['2025'], y26 = f.years && f.years['2026'];
+  if (!y25 && !y26) return '';
   const fmt = (v, d) => v == null ? '—'
     : Number(v).toLocaleString(undefined, { maximumFractionDigits: d, minimumFractionDigits: 0 });
   const rows = [
     ['매출액(억원)', 'revenue', 0, ''], ['영업이익(억원)', 'op', 0, ''], ['영업이익률', 'opm', 1, '%'],
     ['순이익(억원)', 'ni', 0, ''], ['PER(배)', 'per', 1, ''], ['PBR(배)', 'pbr', 2, ''],
     ['ROE', 'roe', 1, '%'], ['PSR(배)', 'psr', 1, ''], ['EV/EBITDA(배)', 'ev_ebitda', 1, ''],
-  ].filter(([, k]) => k !== 'ev_ebitda' || ys.some(y => y && y[k] != null));
+  ].filter(([, k]) => k !== 'ev_ebitda' || (y25 && y25[k] != null) || (y26 && y26[k] != null));
   const head = (y, label) => label + (y && y.est ? '(E)' : '');
   const cell = (y, k, d, suf) => y && y[k] != null ? fmt(y[k], d) + suf : '—';
   const tr = rows.map(([lab, k, d, suf]) =>
-    `<tr><td>${lab}</td>${ys.map(y => `<td>${cell(y, k, d, suf)}</td>`).join('')}</tr>`).join('');
-  const cy = f.years[String(new Date().getFullYear())];
-  const mcap = (cy && cy.mcap_implied) || ys.map(y => y && y.mcap_implied).find(v => v);
-  return `<div class="funda"><table><tr><th>NAVER 컨센</th>${years.map(y => `<th>${head(f.years[y], y)}</th>`).join('')}</tr>${tr}</table>` +
+    `<tr><td>${lab}</td><td>${cell(y25, k, d, suf)}</td><td>${cell(y26, k, d, suf)}</td></tr>`).join('');
+  const mcap = (y26 && y26.mcap_implied) || (y25 && y25.mcap_implied);
+  return `<div class="funda"><table><tr><th>NAVER 컨센</th><th>${head(y25, '2025')}</th><th>${head(y26, '2026')}</th></tr>${tr}</table>` +
     `<div class="chart-cap">출처: 네이버 금융 · (E)=컨센서스 추정${mcap ? ` · 시총(컨센 함의) 약 ${fmt(mcap, 0)}억원` : ''}</div></div>`;
 }
 
