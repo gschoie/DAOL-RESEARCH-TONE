@@ -141,8 +141,9 @@
 'use strict';
 /* ============ 설정 (localStorage) ============ */
 const $ = (id) => document.getElementById(id);
-// 새창(팝업·바로가기 앱 창)으로 띄운 경우엔 상단 '← 톤 보드' 링크를 숨긴다 — 독립 화면처럼
-if (window.opener || matchMedia('(display-mode: standalone)').matches) {
+// 새창(팝업·바로가기 앱 창)이나 외부 공유용 미러 주소에서는 상단 '← 톤 보드' 링크를 숨긴다
+if (window.opener || matchMedia('(display-mode: standalone)').matches ||
+    /^daol-securities-research-center\./i.test(location.hostname)) {
   const home = document.querySelector('header .home');
   if (home) home.style.display = 'none';
 }
@@ -1163,6 +1164,15 @@ async function buildEntityMap() {
       if (key.startsWith('IND:')) { const s = key.slice(4); if (s.length >= 2) m.set(s, key); }
       else { const n = nameOf(e); if (n && n.length >= 2) m.set(n, key); }
     }
+    // 섹터명 조각도 링크(예: '정유·화학'의 '화학') — 두 섹터에 걸치거나 너무 흔한 말은 제외
+    const skip = new Set(['전략', '시황', '금융', '기타', '카드기타']);
+    const partCount = new Map();
+    const parts = (key) => key.slice(4).split(/[·/\-]/).filter(p => p.length >= 2 && !skip.has(p));
+    for (const key of Object.keys(tone.companies || {}))
+      if (key.startsWith('IND:')) for (const p of parts(key)) partCount.set(p, (partCount.get(p) || 0) + 1);
+    for (const key of Object.keys(tone.companies || {}))
+      if (key.startsWith('IND:')) for (const p of parts(key))
+        if (partCount.get(p) === 1 && !m.has(p)) m.set(p, key);
     entityMap = m;
     const names = [...m.keys()].sort((a, b) => b.length - a.length)
       .map(n => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
