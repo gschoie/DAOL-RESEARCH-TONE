@@ -12,7 +12,12 @@
   header { padding:14px 20px 8px; display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap; }
   header h1 { font-size:17px; }
   header .home { font-size:12px; color:var(--accent); text-decoration:none; }
-  .hdr-links { display:flex; gap:14px; align-items:baseline; }
+  .hdr-links { display:flex; gap:8px; align-items:center; }
+  .hdr-links .home { border:1px solid var(--line); background:var(--panel); padding:5px 13px; border-radius:999px; transition:background .15s, color .15s, border-color .15s; white-space:nowrap; }
+  .hdr-links .home:hover { background:var(--accent); border-color:var(--accent); color:#fff; text-decoration:none; }
+  #mirror-sync.busy { opacity:.65; pointer-events:none; }
+  #mirror-sync.done { background:#eaf4ee; border-color:#2e7d4f; color:#2e7d4f; }
+  #mirror-sync.fail { background:#faeceb; border-color:#bd4335; color:#bd4335; }
   header .home:hover { text-decoration:underline; }
   #settings { display:flex; gap:6px; padding:0 20px 8px; align-items:center; flex-wrap:wrap; font-size:12px; }
   #settings input { flex:1; min-width:180px; padding:8px 10px; border:1px solid var(--line); border-radius:8px; font-size:12px; background:var(--panel); }
@@ -90,8 +95,8 @@
 <header>
   <h1>다올 리서치 톤 챗봇</h1>
   <span class="hdr-links">
-    <a class="home" id="mirror-sync" href="https://github.com/DAOL-Securities-Research-Center/DAOL-RESEARCH-TONE/actions/workflows/mirror.yml" target="_blank" rel="noopener" title="외부 공유용 미러 주소에 지금 내용을 즉시 반영 — 열리는 GitHub 화면에서 'Run workflow' 버튼을 누르세요">⟳ 미러 동기화</a>
-    <a class="home" href="./index.html">← 톤 보드</a>
+    <a class="home" id="mirror-sync" href="https://github.com/DAOL-Securities-Research-Center/DAOL-RESEARCH-TONE/actions/workflows/mirror.yml" target="_blank" rel="noopener" title="외부 공유용 미러 주소에 지금 내용을 즉시 반영합니다">⟳ 미러 동기화</a>
+    <a class="home" href="./index.html">🌿 톤 보드</a>
   </span>
 </header>
 <details id="setup">
@@ -154,6 +159,36 @@ if (window.opener || matchMedia('(display-mode: standalone)').matches || IS_MIRR
 // 미러 주소는 접속 암호로 들어오므로 ⚙️ 설정(모델·API 키)도 숨긴다 —
 // 게이트의 '직접 API 키 입력'을 누른 경우에만 다시 보여준다
 if (IS_MIRROR) document.getElementById('setup').style.display = 'none';
+
+// '⟳ 미러 동기화': 대시보드의 GAS 디스패치 프록시로 조직 저장소의 mirror.yml을 원클릭 실행.
+// 프록시가 아직 mirror 매핑을 모르거나 실패하면 GitHub 실행 화면(href)으로 폴백한다.
+const MIRROR_DISPATCH = 'https://script.google.com/macros/s/AKfycbx3RjIjtlO2Z6fIYo2T3LhJrFg9Wp2hS7dMS3Is52-JVF1hizoCWewbQ1uM_v5sdhR2jw/exec';
+(function initMirrorSync() {
+  const a = document.getElementById('mirror-sync');
+  if (!a) return;
+  a.addEventListener('click', async (ev) => {
+    ev.preventDefault();
+    const orig = a.textContent;
+    a.textContent = '⟳ 동기화 요청 중…'; a.classList.add('busy');
+    let ok = false, why = '';
+    try {
+      const r = await fetch(MIRROR_DISPATCH, { method: 'POST', body: JSON.stringify({ workflow: 'mirror' }) });
+      ok = r.ok;
+      try { const d = await r.json(); if (d && d.ok === false) { ok = false; why = d.error || ''; } } catch (e) {}
+    } catch (e) { why = e.message; }
+    a.classList.remove('busy');
+    if (ok) {
+      a.textContent = '✓ 동기화 시작 — 2~3분 후 반영';
+      a.classList.add('done');
+    } else {
+      a.textContent = '⚠ 실패 — GitHub에서 직접 실행';
+      a.classList.add('fail');
+      console.warn('미러 동기화 실패:', why);
+      window.open(a.href, '_blank', 'noopener');
+    }
+    setTimeout(() => { a.textContent = orig; a.classList.remove('done', 'fail'); }, 10000);
+  });
+})();
 const LS_MODEL = 'daol_chat_model';
 // 공급자별 키를 따로 저장한다 — Gemini(무료)와 Claude(유료)를 오가며 쓸 수 있게.
 const PROVIDERS = {
