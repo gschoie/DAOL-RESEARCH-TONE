@@ -122,6 +122,10 @@ jobs:
       - name: 섹터 콜라보 레이더
         run: python build_daol_collab_radar.py
 
+      # 밸류 스냅샷 축적(챗봇 추세 질문·밸류 랭킹 보드용) — 실패해도 파이프라인 계속
+      - name: 밸류 스냅샷 축적
+        run: python build_valuation_snapshot.py || echo "::warning::밸류 스냅샷 실패"
+
       # 챗봇 첫 화면의 '오늘의 브리핑' 카드 — 실패해도 파이프라인 계속(카드만 이전 날짜로 남음)
       - name: 오늘의 브리핑 생성
         env:
@@ -141,6 +145,7 @@ jobs:
           cp data/daily_brief.json _site/ 2>/dev/null || true
           cp data/naver_fundamentals.json _site/ 2>/dev/null || true
           cp data/price_close_cache.json _site/ 2>/dev/null || true
+          cp data/valuation_history.json _site/ 2>/dev/null || true
 
       # 커밋백이 실패해도 배포는 계속한다(데이터는 다음 성공 런에 다시 담김).
       # 실패 시 진단을 _site/debug_commitback.txt로 배포해 밖에서 원인을 볼 수 있게 한다.
