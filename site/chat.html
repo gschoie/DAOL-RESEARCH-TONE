@@ -180,7 +180,7 @@ $('clearkey').onclick = () => { localStorage.removeItem(PROVIDERS[currentProvide
 /* ============ 접속 암호 게이트 ============ */
 // 접속 암호로 잠근 Gemini 키의 암호문(salt.iv.ct, keylock.html로 생성). 코드가 공개돼도
 // 암호 없이는 못 푼다. 비어 있으면 게이트는 뜨지 않는다(기존 키 입력 방식 그대로).
-const LOCKED_KEY = '';
+const LOCKED_KEY = '3AK7VOW2n08JYS/X+2lrow==.8u2eToCOt87RIDNo.cA7gWDbMAT/EY2Pw033HqKZrFEWR/MdbEmbljdc5pQgTKbSqE8q/QuzsnzTqdDrplUmakO/lQEyJOP0Zw/2t42VYcaiX';
 async function unlockKey(pass) {
   const b = (x) => Uint8Array.from(atob(x), (ch) => ch.charCodeAt(0));
   const [s, i, c] = LOCKED_KEY.split('.');
