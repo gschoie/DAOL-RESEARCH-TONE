@@ -23,6 +23,19 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .tone-toolbar button{border:0;border-radius:6px;background:var(--green);color:#fff;padding:10px 16px;cursor:pointer}
 .tone-toolbar span{font-size:11px;color:var(--muted);white-space:nowrap}
 #street-lookup-btn{background:#3d6c9e}
+#val-board-btn{background:#7a5c2e}
+.val-bar{display:flex;gap:10px;align-items:center;margin:10px 0 8px;flex-wrap:wrap}
+.val-bar select{padding:6px 8px;border:1px solid var(--line);border-radius:6px;font-size:13px}
+.val-note{font-size:12px;color:var(--muted)}
+.val-table{width:100%;border-collapse:collapse;font-size:12.5px}
+.val-table th{position:sticky;top:0;background:#f4f1ea;border-bottom:1px solid var(--line);padding:7px 6px;text-align:right;cursor:pointer;white-space:nowrap;user-select:none}
+.val-table th:first-child,.val-table th:nth-child(2){text-align:left}
+.val-table th.on{color:#7a5c2e}
+.val-table td{padding:6px;border-bottom:1px solid #efece4;text-align:right;white-space:nowrap}
+.val-table td.nm{text-align:left;font-weight:600;color:#2c5b46}
+.val-table td:nth-child(2){text-align:left;color:var(--muted);font-size:11.5px}
+.val-table tbody tr{cursor:pointer}
+.val-table tbody tr:hover{background:#faf7f0}
 .lookup-input{width:100%;border:1px solid #cfd6d0;border-radius:8px;padding:12px 14px;font-size:15px;margin:12px 0;font-family:inherit}
 .lookup-input:focus{outline:0;border-color:#3d6c9e}
 .lookup-company{border:1px solid var(--line);margin-bottom:12px;background:#fff}
@@ -241,6 +254,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
     <button id="tone-refresh" type="button">새로고침</button>
     <button id="tone-dispatch" class="btn-link" type="button" title="수집·AI 분석·배포 파이프라인을 즉시 실행 — 약 10분 후 반영">⚡ 수동 실행</button>
     <button id="street-lookup-btn" type="button" title="다올 커버 여부와 무관하게, 한경 에이셀에 취합된 전시장 리포트를 종목명으로 조회">🔍 전시장 조회</button>
+    <button id="val-board-btn" type="button" title="커버 전 종목의 PER·PBR·PSR·ROE·영업이익률·상승여력 랭킹 — 정렬·섹터 필터">📊 밸류 랭킹</button>
     <span id="tone-status">불러오는 중…</span>
   </div>
   <div id="tone-events"></div>
@@ -430,6 +444,50 @@ function renderStreetLookup(q){const box=$('#street-lookup-results');if(!box)ret
   const daol=Object.values(state.tone2?.companies||{}).find(c=>!c.key.startsWith('IND:')&&c.name===name);
   html+=`<div class="lookup-company"><div class="lookup-head"><b>${esc(name)}</b><small>${kedStats(items)}</small>${daol?`<button type="button" class="tone-ck company-mini" data-ck="${esc(daol.key)}">다올 뷰 →</button>`:''}</div>${items.slice(0,6).map(streetRow).join('')}</div>`}
  box.innerHTML=html}
+/* --- 밸류 랭킹 보드: 커버 전 종목의 PER·PBR·PSR·ROE·영업이익률·상승여력 --- */
+let valSort={key:'per',dir:1};
+function valRows(){
+ const y=String(new Date().getFullYear());
+ const rows=[];
+ for(const [code,f] of Object.entries(state.funda?.companies||{})){
+  const r=(f.years||{})[y];if(!r)continue;
+  const t=state.tone2?.companies?.[code]||{};
+  const closes=state.prices?.[code]?.closes;const close=closes&&closes.length?closes[closes.length-1][1]:null;
+  let tp=null;for(const it of[...(t.timeline||[])].reverse()){if(it&&it.tp_event&&it.tp_event.value){tp=it.tp_event.value;break}}
+  if(!tp)tp=t.street?.stats?.daol||null;
+  const upRaw=tp&&close?tp/close-1:null;
+  const up=upRaw!=null&&Math.abs(upRaw)<=3?Math.round(upRaw*1000)/10:null; // TP 파싱 이상치(±300% 초과) 방어 — 챗봇 get_upside와 동일 기준
+  rows.push({code,name:f.name,sector:t.sector||'',per:r.per,pbr:r.pbr,psr:r.psr,roe:r.roe,opm:r.opm,close,tp:up!=null?tp:null,upside:up})}
+ return rows}
+function renderValBoard(){
+ const sec=$('#val-sector')?$('#val-sector').value:'';
+ const rows=valRows().filter(r=>!sec||r.sector===sec);
+ const k=valSort.key,d=valSort.dir;
+ rows.sort((a,b)=>{const x=a[k],y=b[k];if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;
+  return typeof x==='string'?d*String(x).localeCompare(y,'ko'):d*(x-y)});
+ const fmt=(v,dec=1)=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:dec});
+ const COLS=[['name','종목'],['sector','섹터'],['per','PER'],['pbr','PBR'],['psr','PSR'],['roe','ROE%'],['opm','OPM%'],['close','종가'],['tp','다올TP'],['upside','상승여력%']];
+ const head=COLS.map(([key,label])=>`<th data-k="${key}" class="${valSort.key===key?'on':''}">${label}${valSort.key===key?(valSort.dir===1?' ▲':' ▼'):''}</th>`).join('');
+ const body=rows.map(r=>`<tr class="tone-ck" data-ck="${esc(r.code)}"><td class="nm">${esc(r.name)}</td><td>${esc(r.sector)}</td><td>${fmt(r.per)}</td><td>${fmt(r.pbr,2)}</td><td>${fmt(r.psr)}</td><td>${fmt(r.roe)}</td><td>${fmt(r.opm)}</td><td>${fmt(r.close,0)}</td><td>${fmt(r.tp,0)}</td><td>${r.upside==null?'—':(r.upside>0?'+':'')+fmt(r.upside)}</td></tr>`).join('');
+ $('#val-table-wrap').innerHTML=`<table class="val-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+ $('#val-count').textContent=`${rows.length}종목 · ${String(new Date().getFullYear())}년(E) 네이버 컨센서스 · 헤더 클릭=정렬 · 종목 클릭=상세`;
+ $('#val-table-wrap').querySelector('thead').onclick=e=>{const th=e.target.closest('th');if(!th)return;
+  const key=th.dataset.k;
+  if(valSort.key===key)valSort.dir*=-1;else valSort={key,dir:(key==='roe'||key==='opm'||key==='upside')?-1:1};
+  renderValBoard()}}
+async function openValBoard(){
+ $('#tone-modal-body').innerHTML=`<header class="drill-header"><h3>📊 밸류 랭킹 <small>네이버 컨센서스 + 다올 TP</small></h3></header>
+  <div class="val-bar"><select id="val-sector"><option value="">전체 섹터</option></select><span id="val-count" class="val-note">불러오는 중…</span></div>
+  <div id="val-table-wrap"><div class="tone-empty" style="padding:14px">데이터 로딩 중…</div></div>`;
+ $('#tone-modal').hidden=false;document.body.style.overflow='hidden';
+ modalStack=[];currentModalKey='__val__';
+ try{if(!state.funda)state.funda=await(await fetch('naver_fundamentals.json')).json()}catch(e){$('#val-table-wrap').innerHTML='<div class="tone-empty">재무 데이터를 불러오지 못했습니다.</div>';return}
+ if(!state.prices){try{state.prices=await(await fetch('price_close_cache.json')).json()}catch(e){}}
+ const secs=[...new Set(valRows().map(r=>r.sector).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ko'));
+ $('#val-sector').innerHTML='<option value="">전체 섹터</option>'+secs.map(s=>`<option>${esc(s)}</option>`).join('');
+ $('#val-sector').onchange=renderValBoard;
+ valSort={key:'per',dir:1};
+ renderValBoard()}
 async function openStreetLookup(){
  $('#tone-modal-body').innerHTML=`<header class="drill-header"><h3>전시장 종목 조회 <small>한경 에이셀 · 최근 120일</small></h3></header>
   <input id="street-lookup-input" class="lookup-input" placeholder="종목명 입력 (예: 대덕전자, 한온시스템…)" autocomplete="off">
@@ -541,12 +599,13 @@ $('#tone-dispatch').onclick=async e=>{
    window.open('https://github.com/gschoie/DAOL-RESEARCH-TONE/actions/workflows/refresh-tone.yml','_blank');
  }};
 $('#street-lookup-btn').onclick=openStreetLookup;
+$('#val-board-btn').onclick=openValBoard;
 $('#tone-modal-close').addEventListener('click',closeToneModal);
 $('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#tone-modal').hidden)closeToneModal()});
 document.addEventListener('click',e=>{
  if(e.target.closest('#wk-toggle')){const ds=[...document.querySelectorAll('#tone-modal-body details.drill-weekly')];const anyOpen=ds.some(d=>d.open);ds.forEach(d=>d.open=!anyOpen);return}
- if(e.target.closest('#tone-modal-back')){const k=modalStack.pop();if(k)openToneCompany(k,true);return}
+ if(e.target.closest('#tone-modal-back')){const k=modalStack.pop();if(k==='__val__'){openValBoard();return}if(k==='__lookup__'){openStreetLookup();return}if(k)openToneCompany(k,true);return}
  const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck){openToneCompany(t.dataset.ck);return}
  const rth=e.target.closest('#th-r-tp,#th-r-earn,#th-r-pts,#th-r-date');
  if(rth){const k={'th-r-tp':'tp','th-r-earn':'earn','th-r-pts':'pts','th-r-date':null}[rth.id];

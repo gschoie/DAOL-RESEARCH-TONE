@@ -612,6 +612,18 @@ function valuationRank(funda, tone, { metric = 'per', year = '', direction = '',
            total: rows.length, results: rows.slice(0, Math.min(Number(limit) || 15, 30)) };
 }
 
+/* --- 종목 밸류 추세: 매일 축적되는 스냅샷 DB(valuation_history) 조회 --- */
+function valuationTrend(hist, tone, company) {
+  const hit = resolveCompany(company || '', tone);
+  if (!hit) return { error: `'${company}'를 커버 종목에서 찾지 못했습니다.` };
+  const c = hist && hist.companies && hist.companies[hit[0]];
+  const rows = (c && c.rows) || [];
+  if (!rows.length) return { error: `${nameOf(hit[1])}의 밸류 스냅샷이 아직 없습니다(매일 1회 축적 — 축적 시작 전이거나 재무 데이터 없는 종목).` };
+  return { name: nameOf(hit[1]), code: hit[0], fields: hist.fields,
+           note: `매일 1회 축적되는 밸류 스냅샷: 현재 ${rows.length}일치 (${rows[0][0]} ~ ${rows[rows.length - 1][0]}). per·pbr·psr 배, roe·opm %, close·tp 원 — per~opm은 그 해(E) 네이버 컨센서스. 축적 기간이 짧으면 추세 판단이 어렵다는 점을 답에 명시할 것.`,
+           rows: rows.slice(-120) };
+}
+
 /* --- 다올 추정 vs 시장 컨센서스 영업이익 갭 랭킹 (리포트 발간 시점 스냅샷) --- */
 function estGapRank(tone, { period = 'annual', direction = 'above', sector = '', label = '', limit = 15 } = {}) {
   const slot = period === 'quarter' ? 'quarter' : 'annual';
@@ -778,6 +790,10 @@ const TOOLS = [
       type: { type: 'string', description: '이벤트 유형 부분일치(예: "TP 상향", "실적추정 상향", "의견 변경", "톤 이례")' },
       sector: { type: 'string', description: '섹터 필터(선택, 예: "조선")' },
       limit: { type: 'string', description: '반환 개수(기본 30, 최대 50)' } }, additionalProperties: false } },
+  { name: 'get_valuation_trend',
+    description: '한 종목의 밸류에이션 추세를 조회한다 — 매일 축적되는 스냅샷 DB(PER·PBR·PSR·ROE·영업이익률·종가·다올TP의 일별 기록). "PER이 싸진 건가?", "밸류 추이 어때?" 류 질문에 사용. 축적 기간이 짧으면 그 사실이 note에 표시된다.',
+    input_schema: { type: 'object', properties: {
+      company: { type: 'string', description: '종목명 또는 6자리 종목코드' } }, required: ['company'], additionalProperties: false } },
   { name: 'rank_valuation',
     description: '다올 커버 종목을 밸류에이션·수익성 지표로 랭킹한다(네이버 컨센서스): PER/PBR/PSR 낮은 순(저평가) 또는 ROE/영업이익률(opm) 높은 순. "PER 기준 저평가 10개", "PBR 낮은 종목?", "ROE 높은 회사?" 류 질문에 반드시 사용 — TP 상승여력(get_upside)과 다른 개념.',
     input_schema: { type: 'object', properties: {
@@ -881,6 +897,13 @@ async function runTool(name, input) {
     }
     case 'compare_daol_vs_street': return serialize(compareStreet(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     case 'get_change_events': return serialize(changeEvents(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
+    case 'get_valuation_trend': {
+      const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
+      let hist = null;
+      try { hist = await loadJson('valuation_history.json'); } catch (e) {}
+      if (!hist) return serialize({ error: '밸류 스냅샷 DB가 아직 배포되지 않았습니다. 현재 시점 지표는 get_fundamentals로 답하세요.' });
+      return serialize(valuationTrend(hist, tone, input.company || ''));
+    }
     case 'rank_valuation': {
       const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
       let funda = null;
@@ -939,6 +962,7 @@ ${TODAY_LINE}
 - 다올과 시장(타사)의 시각 차이("다올이 시장보다 강하게 보는 종목?") → compare_daol_vs_street
 - 상승여력/업사이드("상승여력 가장 높은 종목?") → get_upside — 다올 TP ÷ 현재 주가 − 1. 타사 TP 괴리(compare_daol_vs_street)와 혼동 금지. 답에 종가 기준일(close_date)을 명시.
 - 밸류 지표 랭킹("PER 저평가 10개", "PBR 낮은 종목?", "ROE 높은 회사?") → 반드시 rank_valuation — 지표(metric)로 per/pbr/psr/roe/opm 선택. TP 상승여력으로 대체 답변 금지. (E)=컨센 추정임과 적자 종목 제외를 답에 명시.
+- 종목 밸류 추세("PER이 싸진 건가?", "밸류 추이?") → get_valuation_trend — 일별 스냅샷 DB. 축적 기간이 짧으면 그 사실을 명시하고 현재 시점 지표(get_fundamentals)로 보완.
 - 기간별 변화 이벤트("한 주간 의견이 강하게 올라온 보고서?", "최근 TP 상향?") → get_change_events — 톤 이례↑·실적추정 상향·TP 상향 등 유형별 조회. 보관 범위 밖 기간은 search_reports로 보완.
 - 다음 분기 영업이익 성장 랭킹("다음 분기 영업이익 성장이 가장 큰 회사?") → 반드시 get_quarter_op_growth — 아직 발표 전인 추정(E) 분기의 전년동기 대비(YoY) 컨센서스다. 어느 분기(quarter)인지 답에 명시하고 흑자전환(turnarounds)도 언급. 이미 발표된 실적 서프라이즈를 리포트에서 검색해 답하는 것은 오답.
 - 다올 추정 vs 시장 컨센 이익 비교("컨센 대비 다올 이익 예상이 높은 회사?") → compare_est_vs_consensus — period로 연간/분기 선택. 사용자가 특정 분기(예: 3Q26)를 지목하면 반드시 label로 그 분기만 필터하고, 해당 분기 비교가 적거나 없으면 그 사실을 그대로 밝힌 뒤 연간 비교를 대안으로 제시. stale:true(이미 끝난 분기의 비교)를 현재 전망처럼 제시하는 것은 오답. diff_pct 양수 = 다올이 컨센 상회 전망. 컨센은 리포트 발간 시점 스냅샷이므로 report_date를 답에 명시. TP 괴리(compare_daol_vs_street)와 혼동 금지.
