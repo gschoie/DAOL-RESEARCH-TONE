@@ -2,7 +2,7 @@
 
 챗봇 기업 카드(차트 아래 표)와 get_fundamentals 도구가 쓴다.
 naver_consensus.py와 같은 무토큰 모바일 API를 사용:
-  - /api/stock/{code}/finance/annual : 매출액·영업이익·순이익·영업이익률·ROE·PER·PBR (작년·올해·내년, E 포함)
+  - /api/stock/{code}/finance/annual : 매출액·영업이익·순이익·영업이익률·ROE·PER·PBR (연도별, E 포함)
   - /api/stock/{code}/basic          : 시가총액(PSR 계산용)
 EV/EBITDA는 이 API에 없으므로 행이 발견될 때만 담는다(없으면 null).
 하루 1회면 충분하므로 캐시가 20시간 이내면 수집을 건너뛴다(FORCE_FUNDA=1로 강제).
@@ -10,7 +10,7 @@ EV/EBITDA는 이 API에 없으므로 행이 발견될 때만 담는다(없으면
 import json
 import os
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -20,9 +20,7 @@ OUT = DATA / 'naver_fundamentals.json'
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
       'Referer': 'https://m.stock.naver.com/'}
 API = 'https://m.stock.naver.com/api/stock/{code}/{path}'
-# 작년·올해·내년 — 연도가 바뀌면 자동으로 창이 굴러간다(예: 2027년 1월부터 2026~2028)
-_KST_YEAR = datetime.now(timezone(timedelta(hours=9))).year
-YEARS = tuple(str(y) for y in (_KST_YEAR - 1, _KST_YEAR, _KST_YEAR + 1))
+YEARS = ('2025', '2026')
 FRESH_HOURS = 20
 
 
@@ -192,11 +190,6 @@ def main():
     if ok < max(5, len(codes) // 4):  # 대량 실패 시 기존 파일을 덮어쓰지 않는다
         print(f'::warning::수집 성공 {ok}/{len(codes)} — 너무 적어 기존 캐시 유지')
         return
-    try:  # 진단: 연간 API가 실제로 주는 연도·행 구조 원본 1건 저장(내년 E 부재 조사용)
-        raw = s.get(API.format(code='005930', path='finance/annual'), headers=UA, timeout=10).json()
-        (DATA / 'debug_naver_annual.json').write_text(json.dumps(raw, ensure_ascii=False, indent=1), encoding='utf-8')
-    except Exception:
-        pass
     OUT.write_text(json.dumps({
         'fetched_at': datetime.now(timezone.utc).isoformat(),
         'source': 'NAVER FINANCE (m.stock.naver.com)',
