@@ -440,6 +440,29 @@ async function openStreetLookup(){
  renderStreetLookup($('#street-lookup-input').value);
  const inp=$('#street-lookup-input');inp.focus();
  inp.oninput=e=>renderStreetLookup(e.target.value)}
+// TP 추이 위에 일별 종가를 같은 원화 축으로 겹쳐 그린다 — 목표가와 주가의 갭이 보이게.
+// 마지막 TP는 점선으로 오른쪽 끝까지 연장(현재 유효한 목표가라는 뜻). 종가가 없으면 기존 차트로 폴백.
+function tpPriceChart(points,closes,{w=560,h=150,color='#8a5a2b'}={}){
+ const pts=points.filter(p=>p.v!=null);
+ const px=(closes||[]).filter(c=>c&&c[1]!=null);
+ if(px.length<2||!pts.length)return lineChart(points);
+ const fmt=v=>Number(v).toLocaleString();
+ const t=s=>new Date(s).getTime();
+ const t0=Math.min(t(pts[0].date),t(px[0][0])),t1=Math.max(t(pts[pts.length-1].date),t(px[px.length-1][0]));
+ const vs=[...pts.map(p=>p.v),...px.map(c=>c[1])];
+ const min=Math.min(...vs),max=Math.max(...vs),pad=(max-min)*0.12||max*0.05||1,lo=min-pad,hi=max+pad;
+ const X=d=>64+(t(d)-t0)*(w-78)/((t1-t0)||1),Y=v=>h-24-(v-lo)*(h-38)/(hi-lo);
+ const priceLine=px.map(c=>`${X(c[0]).toFixed(1)},${Y(c[1]).toFixed(1)}`).join(' ');
+ const tpLine=pts.map(p=>`${X(p.date).toFixed(1)},${Y(p.v).toFixed(1)}`).join(' ');
+ const last=pts[pts.length-1],lastPx=px[px.length-1];
+ const ext=X(last.date)<w-14?`<line x1="${X(last.date).toFixed(1)}" y1="${Y(last.v).toFixed(1)}" x2="${w-14}" y2="${Y(last.v).toFixed(1)}" stroke="${color}" stroke-width="1.4" stroke-dasharray="4,4" opacity=".7"/>`:'';
+ const dots=pts.map(p=>`<circle cx="${X(p.date).toFixed(1)}" cy="${Y(p.v).toFixed(1)}" r="${p.c?3.5:3}" fill="${p.c||color}"><title>${mmdd(p.date)} · ${fmt(p.v)}${p.note?` · ${esc(p.note)}`:''}</title></circle>`).join('');
+ const d10=ms=>new Date(ms).toISOString().slice(0,10);
+ return `<svg class="tone-chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">`+
+  `<text x="4" y="${Y(max)+4}" class="ax">${fmt(max)}</text><text x="4" y="${Y(min)+4}" class="ax">${fmt(min)}</text>`+
+  `<text x="64" y="${h-6}" class="ax">${mmdd(d10(t0))}</text><text x="${w-14}" y="${h-6}" class="ax" text-anchor="end">${mmdd(d10(t1))}</text>`+
+  `<polyline points="${priceLine}" fill="none" stroke="#7d92b8" stroke-width="1.4" opacity=".95"><title>종가 ${mmdd(px[0][0])}~${mmdd(lastPx[0])} · 최근 ${fmt(lastPx[1])}원</title></polyline>`+
+  `<polyline points="${tpLine}" fill="none" stroke="${color}" stroke-width="2"/>${ext}${dots}</svg>`}
 let modalStack=[],currentModalKey=null;
 function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?.[key];if(!entry)return;
  if(!fromBack&&currentModalKey&&currentModalKey!==key)modalStack.push(currentModalKey);
@@ -451,7 +474,8 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
   if(t.prior&&t.prior!==t.value)tpPoints.push({date:r.date,v:t.prior,note:'변경 전'});
   tpPoints.push({date:r.date,v:t.value,note:t.direction,c:t.direction==='하향'?'#bd4335':t.direction==='상향'?'#2e7d4f':null})}
  const convPoints=timeline.filter(r=>r.conviction!=null).map(r=>({date:r.date,v:r.conviction,note:r.tone_label}));
- let leftPanel=`<div><h4>적정주가(TP) 추이</h4>${lineChart(tpPoints)}</div>`;
+ const priceCloses=(!key.startsWith('IND:')&&entry.code&&state.prices&&state.prices[entry.code]&&state.prices[entry.code].closes)||null;
+ let leftPanel=`<div><h4>적정주가(TP) 추이${priceCloses&&priceCloses.length>1?` <small style="font-weight:400;color:#7d92b8">─ 종가 (최근 ${Number(priceCloses[priceCloses.length-1][1]).toLocaleString()}원)</small>`:''}</h4>${tpPriceChart(tpPoints,priceCloses)}</div>`;
  if(key.startsWith('IND:')){
   // 산업 모달: 최선호주(가장 최근 명시) → 커버 종목 TP 현황 순으로 보여준다.
   const pickRec=[...timeline].reverse().find(r=>(r.top_picks||[]).length);
@@ -486,6 +510,9 @@ async function loadTone(){$('#tone-status').textContent='불러오는 중…';
  try{const r=await fetch(`daol_tone_v2.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(r.status);state.tone2=await r.json()}
  catch(e){$('#tone-content').innerHTML=`<div class="tone-loading">데이터를 불러오지 못했습니다 (${esc(e.message)}). 잠시 후 새로고침해 주세요.</div>`;$('#tone-status').textContent='로드 실패';return}
  fillToneFilters();renderTone();
+ // 일별 종가(파이프라인 캐시) — TP 차트에 겹쳐 그린다. 늦게 도착하면 열린 모달만 다시 그림
+ fetch('price_close_cache.json').then(r=>r.ok?r.json():null).then(j=>{if(!j)return;state.prices=j;
+  if(currentModalKey&&!$('#tone-modal').hidden)openToneCompany(currentModalKey,true)}).catch(()=>{});
  const t=state.tone2,stamp=t.generated_at?new Intl.DateTimeFormat('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Seoul'}).format(new Date(t.generated_at)):'';
  $('#tone-status').textContent=`${stamp} · ${(t.report_count||0).toLocaleString()}건 · AI ${(t.ai_analyzed||0).toLocaleString()}건`;
  openFromHash()}
