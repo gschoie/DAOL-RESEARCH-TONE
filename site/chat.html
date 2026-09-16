@@ -141,6 +141,11 @@
 'use strict';
 /* ============ 설정 (localStorage) ============ */
 const $ = (id) => document.getElementById(id);
+// 새창(팝업·바로가기 앱 창)으로 띄운 경우엔 상단 '← 톤 보드' 링크를 숨긴다 — 독립 화면처럼
+if (window.opener || matchMedia('(display-mode: standalone)').matches) {
+  const home = document.querySelector('header .home');
+  if (home) home.style.display = 'none';
+}
 const LS_MODEL = 'daol_chat_model';
 // 공급자별 키를 따로 저장한다 — Gemini(무료)와 Claude(유료)를 오가며 쓸 수 있게.
 const PROVIDERS = {
