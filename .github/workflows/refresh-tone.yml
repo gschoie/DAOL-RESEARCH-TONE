@@ -52,7 +52,7 @@ jobs:
           python-version: "3.12"
 
       - name: Python 패키지 준비
-        run: python -m pip install requests beautifulsoup4 lxml pypdf pypdfium2 pytesseract
+        run: python -m pip install requests beautifulsoup4 lxml pypdf pypdfium2 pytesseract curl-cffi
 
       # 이미지형 PDF 표지의 적정주가 박스를 읽기 위한 OCR — 빠른 모드에선 생략(~1분 절약).
       # OCR이 없어 실패한 PDF는 30일 내 리포트에 한해 다음 전체 런이 자동 재시도한다.
