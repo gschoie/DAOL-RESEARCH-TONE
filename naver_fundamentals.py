@@ -192,6 +192,11 @@ def main():
     if ok < max(5, len(codes) // 4):  # 대량 실패 시 기존 파일을 덮어쓰지 않는다
         print(f'::warning::수집 성공 {ok}/{len(codes)} — 너무 적어 기존 캐시 유지')
         return
+    try:  # 진단: 연간 API가 실제로 주는 연도·행 구조 원본 1건 저장(내년 E 부재 조사용)
+        raw = s.get(API.format(code='005930', path='finance/annual'), headers=UA, timeout=10).json()
+        (DATA / 'debug_naver_annual.json').write_text(json.dumps(raw, ensure_ascii=False, indent=1), encoding='utf-8')
+    except Exception:
+        pass
     OUT.write_text(json.dumps({
         'fetched_at': datetime.now(timezone.utc).isoformat(),
         'source': 'NAVER FINANCE (m.stock.naver.com)',
