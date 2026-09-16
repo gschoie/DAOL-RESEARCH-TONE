@@ -70,6 +70,14 @@
   .msg.status { align-self:flex-start; background:transparent; border:0; color:var(--sub); font-size:12px; font-style:italic; padding:0 4px; }
   .hints { display:flex; flex-wrap:wrap; gap:6px; padding:0 20px 6px; }
   .hints button { background:var(--panel); color:var(--accent); border:1px solid var(--line); font-size:12px; padding:6px 10px; border-radius:8px; cursor:pointer; }
+  #gate { position:fixed; inset:0; z-index:60; background:rgba(247,245,240,.94); display:flex; align-items:center; justify-content:center; }
+  #gate[hidden] { display:none; }
+  .gate-card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:26px 24px; width:88%; max-width:340px; text-align:center; box-shadow:0 10px 34px rgba(0,0,0,.1); }
+  .gate-card h3 { margin:0 0 8px; } .gate-card p { font-size:13px; color:var(--muted,#8a8375); margin:0 0 14px; }
+  .gate-card input { width:100%; box-sizing:border-box; padding:10px; border:1px solid var(--line); border-radius:8px; font-size:15px; text-align:center; }
+  #gate-form button { margin-top:10px; width:100%; background:var(--accent); color:#fff; border:0; padding:10px; border-radius:8px; font-size:14px; cursor:pointer; }
+  #gate-msg { min-height:18px; font-size:13px; color:#bd4335; margin-top:8px; }
+  #gate-own { margin-top:10px; background:none; border:0; color:var(--muted,#8a8375); font-size:12px; text-decoration:underline; cursor:pointer; }
   form { display:flex; gap:8px; padding:10px 20px 16px; }
   #input { flex:1; padding:12px 14px; border:1px solid var(--line); border-radius:10px; font-size:14px; background:var(--panel); }
   #input:focus { outline:2px solid var(--accent); border-color:transparent; }
@@ -116,6 +124,19 @@
   <button id="send" type="submit">전송</button>
 </form>
 
+<div id="gate" hidden>
+  <div class="gate-card">
+    <h3>🔒 접속 암호</h3>
+    <p>배포자에게 받은 접속 암호를 입력하면 바로 사용할 수 있습니다.<br><small>암호는 이 브라우저 안에서만 쓰이며 어디로도 전송되지 않습니다.</small></p>
+    <form id="gate-form">
+      <input id="gate-pass" type="password" placeholder="접속 암호" autocomplete="current-password">
+      <button type="submit">확인</button>
+    </form>
+    <div id="gate-msg"></div>
+    <button type="button" id="gate-own">직접 API 키를 입력할게요</button>
+  </div>
+</div>
+
 <script>
 'use strict';
 /* ============ 설정 (localStorage) ============ */
@@ -155,6 +176,45 @@ $('setup').open = !($('apikey').value || '').trim();
 $('savekey').onclick = () => { localStorage.setItem(PROVIDERS[currentProvider()].ls, $('apikey').value.trim()); localStorage.setItem(LS_MODEL, $('model').value); $('setup').open = false; bubble('status', '저장했습니다. 이제 질문해 보세요.'); };
 $('model').onchange = () => { localStorage.setItem(LS_MODEL, $('model').value); geminiSticky = null; syncKeyInput(); if (!($('apikey').value || '').trim()) $('setup').open = true; };
 $('clearkey').onclick = () => { localStorage.removeItem(PROVIDERS[currentProvider()].ls); $('apikey').value = ''; bubble('status', '현재 공급자의 키를 삭제했습니다.'); };
+
+/* ============ 접속 암호 게이트 ============ */
+// 접속 암호로 잠근 Gemini 키의 암호문(salt.iv.ct, keylock.html로 생성). 코드가 공개돼도
+// 암호 없이는 못 푼다. 비어 있으면 게이트는 뜨지 않는다(기존 키 입력 방식 그대로).
+const LOCKED_KEY = '';
+async function unlockKey(pass) {
+  const b = (x) => Uint8Array.from(atob(x), (ch) => ch.charCodeAt(0));
+  const [s, i, c] = LOCKED_KEY.split('.');
+  const km = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+  const k = await crypto.subtle.deriveKey({ name: 'PBKDF2', salt: b(s), iterations: 310000, hash: 'SHA-256' }, km,
+    { name: 'AES-GCM', length: 256 }, false, ['decrypt']);
+  const pt = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b(i) }, k, b(c));
+  return new TextDecoder().decode(pt).trim();
+}
+(function initGate() {
+  const stored = (localStorage.getItem(PROVIDERS.gemini.ls) || '').trim();
+  if (!LOCKED_KEY || stored || keyImported) return;
+  $('gate').hidden = false;
+  $('setup').open = false;
+  $('gate-own').onclick = () => { $('gate').hidden = true; $('setup').open = true; };
+  $('gate-form').onsubmit = async (ev) => {
+    ev.preventDefault();
+    const pass = $('gate-pass').value;
+    if (!pass) return;
+    $('gate-msg').textContent = '확인 중…';
+    try {
+      const key = await unlockKey(pass);
+      if (!key.startsWith('AIza')) throw new Error('bad key');
+      localStorage.setItem(PROVIDERS.gemini.ls, key);
+      localStorage.setItem(LS_MODEL, localStorage.getItem(LS_MODEL) || 'gemini-flash-lite-latest');
+      $('model').value = localStorage.getItem(LS_MODEL);
+      syncKeyInput();
+      $('gate').hidden = true;
+      bubble('status', '접속되었습니다. 이제 질문해 보세요.');
+    } catch (e) {
+      $('gate-msg').textContent = '암호가 올바르지 않습니다.';
+    }
+  };
+})();
 
 /* ============ 대화 로그 (localStorage 보존) ============ */
 const LS_LOG = 'daol_chat_log', MAX_LOG = 200;
