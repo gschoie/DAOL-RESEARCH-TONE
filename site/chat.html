@@ -142,11 +142,14 @@
 /* ============ 설정 (localStorage) ============ */
 const $ = (id) => document.getElementById(id);
 // 새창(팝업·바로가기 앱 창)이나 외부 공유용 미러 주소에서는 상단 '← 톤 보드' 링크를 숨긴다
-if (window.opener || matchMedia('(display-mode: standalone)').matches ||
-    /^daol-securities-research-center\./i.test(location.hostname)) {
+const IS_MIRROR = /^daol-securities-research-center\./i.test(location.hostname);
+if (window.opener || matchMedia('(display-mode: standalone)').matches || IS_MIRROR) {
   const home = document.querySelector('header .home');
   if (home) home.style.display = 'none';
 }
+// 미러 주소는 접속 암호로 들어오므로 ⚙️ 설정(모델·API 키)도 숨긴다 —
+// 게이트의 '직접 API 키 입력'을 누른 경우에만 다시 보여준다
+if (IS_MIRROR) document.getElementById('setup').style.display = 'none';
 const LS_MODEL = 'daol_chat_model';
 // 공급자별 키를 따로 저장한다 — Gemini(무료)와 Claude(유료)를 오가며 쓸 수 있게.
 const PROVIDERS = {
@@ -201,7 +204,7 @@ async function unlockKey(pass) {
   if (!LOCKED_KEY || stored || keyImported) return;
   $('gate').hidden = false;
   $('setup').open = false;
-  $('gate-own').onclick = () => { $('gate').hidden = true; $('setup').open = true; };
+  $('gate-own').onclick = () => { $('gate').hidden = true; $('setup').style.display = ''; $('setup').open = true; };
   $('gate-form').onsubmit = async (ev) => {
     ev.preventDefault();
     const pass = $('gate-pass').value;
