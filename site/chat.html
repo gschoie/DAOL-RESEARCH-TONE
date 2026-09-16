@@ -583,6 +583,35 @@ function changeEvents(tone, { date_from = '', date_to = '', type = '', sector = 
   return { coverage, total: hits.length, results: hits.slice(0, Math.min(Number(limit) || 30, 50)) };
 }
 
+/* --- 밸류에이션·수익성 지표 랭킹 (네이버 컨센서스: PER·PBR·PSR·ROE·영업이익률) --- */
+function valuationRank(funda, tone, { metric = 'per', year = '', direction = '', sector = '', limit = 15 } = {}) {
+  const m = String(metric).toLowerCase();
+  const META = { per: ['PER', '배'], pbr: ['PBR', '배'], psr: ['PSR', '배'], roe: ['ROE', '%'], opm: ['영업이익률', '%'] };
+  if (!META[m]) return { error: `지원하는 지표: per, pbr, psr, roe, opm — '${metric}'은 없습니다.` };
+  const y = String(year || new Date().getFullYear());
+  const dir = direction || ((m === 'roe' || m === 'opm') ? 'high' : 'low'); // 배수는 낮을수록, 수익성은 높을수록
+  const rows = [];
+  for (const [code, f] of Object.entries((funda && funda.companies) || {})) {
+    const rec = f && f.years && f.years[y];
+    const v = rec && rec[m];
+    if (v == null) continue;
+    if ((m === 'per' || m === 'pbr' || m === 'psr') && !(v > 0)) continue; // 적자 등 음수 배수는 랭킹 무의미
+    const t = tone.companies && tone.companies[code];
+    if (sector && !String((t && t.sector) || '').includes(sector.trim())) continue;
+    rows.push({ name: f.name, code, sector: (t && t.sector) || '', year: y + (rec.est ? 'E' : ''),
+                [m]: v, ...(m !== 'roe' && rec.roe != null ? { roe: rec.roe } : {}),
+                ...(m !== 'per' && rec.per != null ? { per: rec.per } : {}) });
+  }
+  if (!rows.length) {
+    const avail = new Set();
+    for (const f of Object.values((funda && funda.companies) || {})) for (const k of Object.keys(f.years || {})) avail.add(k);
+    return { error: `${y}년 ${META[m][0]} 데이터가 없습니다${sector ? ` (섹터: ${sector})` : ''}. 가능한 연도: ${[...avail].sort().join(', ')}` };
+  }
+  rows.sort((a, b) => dir === 'high' ? b[m] - a[m] : a[m] - b[m]);
+  return { note: `${META[m][0]}(${META[m][1]}) ${dir === 'high' ? '높은' : '낮은'} 순, ${y}년 네이버 컨센서스 기준(E=추정). 적자 등 음수 배수 종목은 제외. 저${META[m][0]}=저평가는 단순 지표이므로 업종 특성·성장성 함께 언급할 것.`,
+           total: rows.length, results: rows.slice(0, Math.min(Number(limit) || 15, 30)) };
+}
+
 /* --- 다올 추정 vs 시장 컨센서스 영업이익 갭 랭킹 (리포트 발간 시점 스냅샷) --- */
 function estGapRank(tone, { period = 'annual', direction = 'above', sector = '', label = '', limit = 15 } = {}) {
   const slot = period === 'quarter' ? 'quarter' : 'annual';
@@ -749,6 +778,14 @@ const TOOLS = [
       type: { type: 'string', description: '이벤트 유형 부분일치(예: "TP 상향", "실적추정 상향", "의견 변경", "톤 이례")' },
       sector: { type: 'string', description: '섹터 필터(선택, 예: "조선")' },
       limit: { type: 'string', description: '반환 개수(기본 30, 최대 50)' } }, additionalProperties: false } },
+  { name: 'rank_valuation',
+    description: '다올 커버 종목을 밸류에이션·수익성 지표로 랭킹한다(네이버 컨센서스): PER/PBR/PSR 낮은 순(저평가) 또는 ROE/영업이익률(opm) 높은 순. "PER 기준 저평가 10개", "PBR 낮은 종목?", "ROE 높은 회사?" 류 질문에 반드시 사용 — TP 상승여력(get_upside)과 다른 개념.',
+    input_schema: { type: 'object', properties: {
+      metric: { type: 'string', enum: ['per', 'pbr', 'psr', 'roe', 'opm'], description: '랭킹 지표(기본 per)' },
+      year: { type: 'string', description: '기준 연도(기본 올해, 예: "2026")' },
+      direction: { type: 'string', enum: ['low', 'high'], description: '기본: per/pbr/psr=low(저평가), roe/opm=high' },
+      sector: { type: 'string', description: '섹터 필터(선택)' },
+      limit: { type: 'string', description: '반환 개수(기본 15, 최대 30)' } }, additionalProperties: false } },
   { name: 'compare_est_vs_consensus',
     description: '다올 애널리스트의 영업이익 추정과 시장 컨센서스(리포트 발간 시점 네이버 스냅샷)의 차이(%)를 종목별로 랭킹한다. "시장 컨센 대비 다올 이익 예상이 높은(낮은) 회사는?", "컨센 상회 전망 종목?" 류 질문에 사용. TP 괴리(compare_daol_vs_street)가 아니라 이익 추정 비교.',
     input_schema: { type: 'object', properties: {
@@ -844,6 +881,13 @@ async function runTool(name, input) {
     }
     case 'compare_daol_vs_street': return serialize(compareStreet(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     case 'get_change_events': return serialize(changeEvents(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
+    case 'rank_valuation': {
+      const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
+      let funda = null;
+      try { funda = await loadJson('naver_fundamentals.json'); } catch (e) {}
+      if (!funda) return serialize({ error: '재무 지표 데이터가 아직 배포되지 않았습니다.' });
+      return serialize(valuationRank(funda, tone, input));
+    }
     case 'compare_est_vs_consensus': return serialize(estGapRank(await loadJson('daol_tone_v2.json', '톤 데이터(3MB)'), input));
     case 'get_quarter_op_growth': {
       const tone = await loadJson('daol_tone_v2.json', '톤 데이터(3MB)');
@@ -894,6 +938,7 @@ ${TODAY_LINE}
 - 다올 미커버 종목 → search_street
 - 다올과 시장(타사)의 시각 차이("다올이 시장보다 강하게 보는 종목?") → compare_daol_vs_street
 - 상승여력/업사이드("상승여력 가장 높은 종목?") → get_upside — 다올 TP ÷ 현재 주가 − 1. 타사 TP 괴리(compare_daol_vs_street)와 혼동 금지. 답에 종가 기준일(close_date)을 명시.
+- 밸류 지표 랭킹("PER 저평가 10개", "PBR 낮은 종목?", "ROE 높은 회사?") → 반드시 rank_valuation — 지표(metric)로 per/pbr/psr/roe/opm 선택. TP 상승여력으로 대체 답변 금지. (E)=컨센 추정임과 적자 종목 제외를 답에 명시.
 - 기간별 변화 이벤트("한 주간 의견이 강하게 올라온 보고서?", "최근 TP 상향?") → get_change_events — 톤 이례↑·실적추정 상향·TP 상향 등 유형별 조회. 보관 범위 밖 기간은 search_reports로 보완.
 - 다음 분기 영업이익 성장 랭킹("다음 분기 영업이익 성장이 가장 큰 회사?") → 반드시 get_quarter_op_growth — 아직 발표 전인 추정(E) 분기의 전년동기 대비(YoY) 컨센서스다. 어느 분기(quarter)인지 답에 명시하고 흑자전환(turnarounds)도 언급. 이미 발표된 실적 서프라이즈를 리포트에서 검색해 답하는 것은 오답.
 - 다올 추정 vs 시장 컨센 이익 비교("컨센 대비 다올 이익 예상이 높은 회사?") → compare_est_vs_consensus — period로 연간/분기 선택. 사용자가 특정 분기(예: 3Q26)를 지목하면 반드시 label로 그 분기만 필터하고, 해당 분기 비교가 적거나 없으면 그 사실을 그대로 밝힌 뒤 연간 비교를 대안으로 제시. stale:true(이미 끝난 분기의 비교)를 현재 전망처럼 제시하는 것은 오답. diff_pct 양수 = 다올이 컨센 상회 전망. 컨센은 리포트 발간 시점 스냅샷이므로 report_date를 답에 명시. TP 괴리(compare_daol_vs_street)와 혼동 금지.
