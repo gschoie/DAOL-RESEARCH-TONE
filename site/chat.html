@@ -12,6 +12,7 @@
   header { padding:14px 20px 8px; display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap; }
   header h1 { font-size:17px; }
   header .home { font-size:12px; color:var(--accent); text-decoration:none; }
+  .hdr-links { display:flex; gap:14px; align-items:baseline; }
   header .home:hover { text-decoration:underline; }
   #settings { display:flex; gap:6px; padding:0 20px 8px; align-items:center; flex-wrap:wrap; font-size:12px; }
   #settings input { flex:1; min-width:180px; padding:8px 10px; border:1px solid var(--line); border-radius:8px; font-size:12px; background:var(--panel); }
@@ -88,7 +89,10 @@
 <body>
 <header>
   <h1>다올 리서치 톤 챗봇</h1>
-  <a class="home" href="./index.html">← 톤 보드</a>
+  <span class="hdr-links">
+    <a class="home" id="mirror-sync" href="https://github.com/DAOL-Securities-Research-Center/DAOL-RESEARCH-TONE/actions/workflows/mirror.yml" target="_blank" rel="noopener" title="외부 공유용 미러 주소에 지금 내용을 즉시 반영 — 열리는 GitHub 화면에서 'Run workflow' 버튼을 누르세요">⟳ 미러 동기화</a>
+    <a class="home" href="./index.html">← 톤 보드</a>
+  </span>
 </header>
 <details id="setup">
   <summary>⚙️ 설정 — 모델·API 키</summary>
@@ -144,8 +148,8 @@ const $ = (id) => document.getElementById(id);
 // 새창(팝업·바로가기 앱 창)이나 외부 공유용 미러 주소에서는 상단 '← 톤 보드' 링크를 숨긴다
 const IS_MIRROR = /^daol-securities-research-center\./i.test(location.hostname);
 if (window.opener || matchMedia('(display-mode: standalone)').matches || IS_MIRROR) {
-  const home = document.querySelector('header .home');
-  if (home) home.style.display = 'none';
+  const links = document.querySelector('header .hdr-links');
+  if (links) links.style.display = 'none';
 }
 // 미러 주소는 접속 암호로 들어오므로 ⚙️ 설정(모델·API 키)도 숨긴다 —
 // 게이트의 '직접 API 키 입력'을 누른 경우에만 다시 보여준다
