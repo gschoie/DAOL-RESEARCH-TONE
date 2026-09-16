@@ -28,6 +28,32 @@ def kst_today(): return datetime.now(KST).date()
 
 def clean(s): return re.sub(r'\s+',' ',s or '').strip()
 
+def _fetch_pdf_bytes(url):
+    """PDF 바이트 다운로드. 2026-09부터 buly.kr가 GitHub 러너의 requests 접속을 통째로
+    차단(ConnectTimeout)해서, 커넥션 단계 실패면 브라우저 TLS로 위장하는 curl_cffi →
+    시스템 curl 순으로 폴백한다. 반환: (bytes, 최종 URL, HTTP 상태코드)."""
+    import requests
+    try:
+        r=requests.get(url,headers=UA,timeout=(8,20),allow_redirects=True)
+        return r.content,r.url,r.status_code
+    except (requests.exceptions.ConnectionError,requests.exceptions.Timeout):
+        pass
+    try:
+        from curl_cffi import requests as creq
+        r=creq.get(url,impersonate='chrome',timeout=30,allow_redirects=True)
+        return r.content,str(r.url),r.status_code
+    except Exception:
+        pass
+    import subprocess,tempfile
+    with tempfile.NamedTemporaryFile(suffix='.bin') as tf:
+        out=subprocess.run(['curl','-sL','--max-time','35','-A',UA['User-Agent'],
+                            '-o',tf.name,'-w','%{url_effective} %{http_code}',url],
+                           capture_output=True,text=True,timeout=45)
+        body=open(tf.name,'rb').read()
+    info=(out.stdout or '').split()
+    if out.returncode!=0 or not body:raise ConnectionError(f'curl fallback failed rc={out.returncode}')
+    return body,(info[0] if info else url),int(info[1]) if len(info)>1 and info[1].isdigit() else 200
+
 def pdf_text(source_url, cache, retry_hints=None):
     import requests
     from pypdf import PdfReader
@@ -40,17 +66,17 @@ def pdf_text(source_url, cache, retry_hints=None):
     urls=[source_url]+([hint] if hint and hint!=source_url else [])
     for attempt,url in enumerate(urls*2 if len(urls)==1 else urls):
         try:
-            r=requests.get(url,headers=UA,timeout=(8,20),allow_redirects=True)
-            result['final_url']=r.url
-            r.raise_for_status()
-            if len(r.content)>20_000_000:raise ValueError('PDF exceeds 20MB')
-            text='\n'.join(page.extract_text() or '' for page in PdfReader(BytesIO(r.content)).pages)
+            content,final,status_code=_fetch_pdf_bytes(url)
+            result['final_url']=final
+            if status_code>=400:raise requests.HTTPError(f'HTTP {status_code}')
+            if len(content)>20_000_000:raise ValueError('PDF exceeds 20MB')
+            text='\n'.join(page.extract_text() or '' for page in PdfReader(BytesIO(content)).pages)
             # 일부 인뎁스 PDF는 본문 폰트가 pypdf로 안 읽힌다(ToUnicode 누락) — 핵심 마커가 없으면
             # pypdfium2로 재추출해 더 나은 쪽을 쓴다(GS건설 인뎁스 TP 누락 사고 재발 방지).
             if '적정주가' not in text:
                 try:
                     import pypdfium2 as _pdfium
-                    _doc=_pdfium.PdfDocument(r.content)
+                    _doc=_pdfium.PdfDocument(content)
                     alt='\n'.join(_doc[i].get_textpage().get_text_range() for i in range(len(_doc)))
                     if '적정주가' in alt or len(alt)>len(text):text=alt
                 except Exception:pass
@@ -59,13 +85,13 @@ def pdf_text(source_url, cache, retry_hints=None):
             if len(text)<300:
                 try:
                     import pypdfium2 as _pdfium2;import pytesseract as _tess
-                    _pg=_pdfium2.PdfDocument(r.content)[0]
+                    _pg=_pdfium2.PdfDocument(content)[0]
                     _ocr=_tess.image_to_string(_pg.render(scale=300/72).to_pil(),lang='kor+eng')
                     _ocr=re.sub(r'[ \t]+',' ',_ocr).strip()
                     if len(_ocr)>=120:text=_ocr+'\n[OCR표지]'
                 except Exception:pass
             if len(text)<300:raise ValueError('PDF text is empty or scanned')
-            result={'status':'pdf','final_url':r.url,'text':text,'error':''};break
+            result={'status':'pdf','final_url':final,'text':text,'error':''};break
         except ValueError as e:
             result['error']=f'{type(e).__name__}: {e}'[:240]
             break
