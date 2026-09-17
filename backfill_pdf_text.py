@@ -60,6 +60,8 @@ def main():
             continue
         if _kr(v.get('text') or '') >= GARBAGE_KR:
             continue
+        if v.get('ai_read'):
+            continue  # AI 판독 전사본 보유 — 재수집하면 전사·ai_tp가 날아간다
         if str(v.get('error') or '').startswith('backfill:'):
             continue  # 지난 백필에서 OCR로도 개선 불가 판정 — 반복 시도 방지
         direct = v.get('final_url')

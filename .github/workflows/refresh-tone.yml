@@ -76,6 +76,15 @@ jobs:
         if: env.FAST != 'true' && (github.event.schedule == '0 13 * * *' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
         run: python backfill_pdf_text.py || echo "::warning::PDF 백필 실패"
 
+      # 백필 OCR로도 못 살린 폰트 깨짐 PDF(예: 7/6 자동차 프리뷰)는 Gemini가 원본 PDF를
+      # 직접 판독해 전사(text)+종목별 TP(ai_tp)를 캐시에 남긴다 — v2 빌드가 ai_tp를 합성 소비.
+      # 런당 소량(기본 15건)으로 무료 쿼터를 지키고, ai_read 표식으로 재호출을 막는다.
+      - name: AI PDF 판독 (부실 원문 레스큐)
+        if: env.FAST != 'true' && (github.event.schedule == '0 13 * * *' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python ai_pdf_rescue.py || echo "::warning::AI PDF 판독 실패"
+
       # 리포트 1건당 LLM 구조화 분석. 캐시(daol_ai_analysis.json)에 누적 — 재호출 없음.
       # 하루 1회 스케줄이라 런당 200건(약 22분) — 백필 완료 후엔 하루 신규분만 처리돼 수 분.
       # 키가 없거나 일일 쿼터 소진 시 우아하게 멈춘다(정규식 데이터만으로 사이트 정상 동작).
