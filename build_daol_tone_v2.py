@@ -159,9 +159,10 @@ def build_bundled_records(records, pdf_cache, sector_map):
         entry = pdf_cache.get(r['source_url']) or {}
         text = entry.get('text', '') if entry.get('status') == 'pdf' else ''
         if '적정주가' not in text:
-            # 인뎁스로 보이는데 TP 박스가 전혀 안 읽히면 조용히 넘기지 말고 경고를 남긴다
-            if re.search(r'In-?Depth|인뎁스', r['title'], re.I) and len(text) > 30000:
-                print(f"::warning::인뎁스 의심 자료에서 종목 TP 미검출: {r['date']} {r['title'][:50]}")
+            # 인뎁스·프리뷰로 보이는데 TP 박스가 전혀 안 읽히면 조용히 넘기지 말고 경고를 남긴다
+            # (현대차 7/6 사고: 프리뷰 PDF가 껍데기 텍스트로 캐시돼 종목별 TP 하향이 통째로 누락)
+            if text and re.search(r'In-?Depth|인뎁스|Preview|프리뷰', r['title'], re.I):
+                print(f"::warning::산업자료에서 종목 TP 미검출(원문 부실 의심): {r['date']} {r['title'][:50]}")
             continue
         for item in extract_bundled_tp(text):
             display = (fmt_won(item['value']) if item['direction'] == '유지'
