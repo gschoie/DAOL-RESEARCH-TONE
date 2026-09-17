@@ -54,9 +54,40 @@ def _fetch_pdf_bytes(url):
     if out.returncode!=0 or not body:raise ConnectionError(f'curl fallback failed rc={out.returncode}')
     return body,(info[0] if info else url),int(info[1]) if len(info)>1 and info[1].isdigit() else 200
 
+def _kr(t):
+    """한글 문자 수 — '추출 성공처럼 보이는 껍데기 텍스트'(그림 캡션만 남는 인뎁스류) 판별용."""
+    return len(re.findall(r'[가-힣]', t or ''))
+
+def extract_text_from_pdf(content):
+    """PDF 바이트 → 본문 텍스트. pypdf → (부실하면) pypdfium2 → (그래도 한글이 없으면)
+    앞 3페이지 OCR 순으로 시도한다. 백필 스크립트(backfill_pdf_text.py)와 공유."""
+    from pypdf import PdfReader
+    text='\n'.join(page.extract_text() or '' for page in PdfReader(BytesIO(content)).pages)
+    # 일부 인뎁스 PDF는 본문 폰트가 pypdf로 안 읽힌다(ToUnicode 누락) — 핵심 마커가 없으면
+    # pypdfium2로 재추출해 더 나은 쪽을 쓴다(GS건설 인뎁스 TP 누락 사고 재발 방지).
+    if '적정주가' not in text:
+        try:
+            import pypdfium2 as _pdfium
+            _doc=_pdfium.PdfDocument(content)
+            alt='\n'.join(_doc[i].get_textpage().get_text_range() for i in range(len(_doc)))
+            if '적정주가' in alt or _kr(alt)>_kr(text) or len(alt)>len(text):text=alt
+        except Exception:pass
+    text=re.sub(r'[ \t]+',' ',text);text=re.sub(r'\n{3,}','\n\n',text).strip()
+    # 이미지형/폰트깨짐 PDF: 텍스트가 짧거나 한글이 거의 없으면 앞 3페이지를 OCR한다
+    # (프리뷰·인뎁스의 종목별 TP 표가 주로 1~3페이지에 있다 — 현대차 7/6 100만→80만 누락 사고).
+    if len(text)<300 or _kr(text)<200:
+        try:
+            import pypdfium2 as _pdfium2;import pytesseract as _tess
+            _doc=_pdfium2.PdfDocument(content)
+            _ocr='\n'.join(_tess.image_to_string(_doc[i].render(scale=300/72).to_pil(),lang='kor+eng')
+                           for i in range(min(3,len(_doc))))
+            _ocr=re.sub(r'[ \t]+',' ',_ocr).strip()
+            if _kr(_ocr)>_kr(text):text=_ocr+'\n[OCR 1-3p]'
+        except Exception:pass
+    return text
+
 def pdf_text(source_url, cache, retry_hints=None):
     import requests
-    from pypdf import PdfReader
     cached=cache.get(source_url)
     if cached:return cached
     result={'status':'failed','final_url':source_url,'text':'','error':''}
@@ -70,27 +101,8 @@ def pdf_text(source_url, cache, retry_hints=None):
             result['final_url']=final
             if status_code>=400:raise requests.HTTPError(f'HTTP {status_code}')
             if len(content)>20_000_000:raise ValueError('PDF exceeds 20MB')
-            text='\n'.join(page.extract_text() or '' for page in PdfReader(BytesIO(content)).pages)
-            # 일부 인뎁스 PDF는 본문 폰트가 pypdf로 안 읽힌다(ToUnicode 누락) — 핵심 마커가 없으면
-            # pypdfium2로 재추출해 더 나은 쪽을 쓴다(GS건설 인뎁스 TP 누락 사고 재발 방지).
-            if '적정주가' not in text:
-                try:
-                    import pypdfium2 as _pdfium
-                    _doc=_pdfium.PdfDocument(content)
-                    alt='\n'.join(_doc[i].get_textpage().get_text_range() for i in range(len(_doc)))
-                    if '적정주가' in alt or len(alt)>len(text):text=alt
-                except Exception:pass
-            text=re.sub(r'[ \t]+',' ',text);text=re.sub(r'\n{3,}','\n\n',text).strip()
-            # 완전 이미지형 PDF는 표지 1페이지만 OCR해 TP 박스라도 확보한다(tesseract-kor 있을 때만).
-            if len(text)<300:
-                try:
-                    import pypdfium2 as _pdfium2;import pytesseract as _tess
-                    _pg=_pdfium2.PdfDocument(content)[0]
-                    _ocr=_tess.image_to_string(_pg.render(scale=300/72).to_pil(),lang='kor+eng')
-                    _ocr=re.sub(r'[ \t]+',' ',_ocr).strip()
-                    if len(_ocr)>=120:text=_ocr+'\n[OCR표지]'
-                except Exception:pass
-            if len(text)<300:raise ValueError('PDF text is empty or scanned')
+            text=extract_text_from_pdf(content)
+            if len(text)<300 or _kr(text)<120:raise ValueError('PDF text is empty or scanned')
             result={'status':'pdf','final_url':final,'text':text,'error':''};break
         except ValueError as e:
             result['error']=f'{type(e).__name__}: {e}'[:240]

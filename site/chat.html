@@ -341,8 +341,30 @@ function companyView(query, tone) {
   if (!hit) return { error: `'${query}'에 해당하는 다올 커버 종목을 찾지 못했습니다. 미커버 종목이면 search_street 도구를 사용하세요.` };
   const [code, entry] = hit;
   const street = (tone.street && tone.street[code]) ?? (entry && entry.street) ?? null;
+  const tl = timelineOf(entry);
+  // 현재 확정 상태 — 긴 타임라인이 잘려도(serialize 12,000자 컷) 최신 TP·의견은 항상 살아남게 맨 앞에 둔다.
+  // (현대차 사고: 항목이 길어 뒤쪽 최신 리포트가 잘리면서 6/2의 옛 TP 100만원이 최신처럼 보임)
+  const cur = { as_of: null, opinion: null, opinion_date: null, daol_tp: null, tp_date: null, tp_display: null };
+  for (const it of tl) {
+    if (!it || typeof it !== 'object') continue;
+    if (it.date) cur.as_of = it.date;
+    if (it.opinion) { cur.opinion = it.opinion; cur.opinion_date = it.date; }
+    const te = it.tp_event;
+    if (te && te.value) { cur.daol_tp = te.value; cur.tp_date = it.date; cur.tp_display = te.display || null; }
+  }
+  const slim = (it) => {
+    if (!it || typeof it !== 'object') return it;
+    const keep = ['id', 'date', 'analyst', 'sector', 'title', 'report_type', 'opinion', 'conviction',
+                  'tone_label', 'one_line', 'points', 'top_picks', 'tp_event', 'est_compare',
+                  'earnings_direction', 'post_url', 'source_url'];
+    const o = {};
+    for (const k of keep) if (it[k] != null) o[k] = it[k];
+    return o;
+  };
   return { code, name: nameOf(entry) || null,
-           timeline_recent: timelineOf(entry).slice(-MAX_TIMELINE), street_position: street };
+           current: cur,
+           note: 'current = 최신 확정 상태(daol_tp·opinion가 지금 유효한 값 — 현재 TP·의견 질문엔 이 값을 그대로 사용). timeline_recent은 최신순 정렬.',
+           timeline_recent: tl.slice(-MAX_TIMELINE).reverse().map(slim), street_position: street };
 }
 
 function sectorTone(sectorQuery, tone) {
@@ -957,6 +979,7 @@ ${TODAY_LINE}
 
 [도구 선택 가이드]
 - 오늘/최근 변화 → get_today_briefing · 특정 기업 → get_company_view · 섹터/애널 톤 → get_sector_tone
+- 기업의 "현재 TP·투자의견" 질문 → get_company_view 응답의 current 필드 값을 그대로 사용(as_of·tp_date 명시). timeline_recent은 최신순이며, 타임라인 중간의 옛 TP를 현재값처럼 답하는 것은 오답.
 - 주제/키워드로 리포트 찾기 → search_reports · 원문 표현/수치 확인 → search_report_fulltext, get_report_fulltext
 - 다올 미커버 종목 → search_street
 - 다올과 시장(타사)의 시각 차이("다올이 시장보다 강하게 보는 종목?") → compare_daol_vs_street
