@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-17T22:22:33.482731+00:00",
+ "generated_at": "2026-09-17T22:48:58.034297+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1330,
+ "report_count": 1331,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30313,6 +30313,24 @@
    "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - Brands never die",
    "post_url": "https://t.me/daolresearch/15097",
    "source_url": "https://buly.kr/7FUBXnO"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-09-18",
+   "analyst": "김혜영",
+   "sector": "인터넷/게임/레저",
+   "company": "하나투어",
+   "code": "039130",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "유류할증료 증가, 환율 재상승 등 외부 변수로 인해 영업환경이 불리해진 상황이며 이에 따라 매출액과 영업이익 모두 전년 대비 감소할 전망",
+    "6월 중순 대비 달러 및 유로 환율이 10% 가량 하락한 후 다시 상승 추세이기 때문에 여행 심리에 부정적으로 작용"
+   ],
+   "title": "[하나투어(039130)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 인고의 시기 ★ 37,000원(하향), BUY(유지)",
+   "post_url": "https://t.me/daolresearch/15099",
+   "source_url": "https://buly.kr/DlMDqAx"
   }
  ],
  "cross_mentions": [
@@ -31331,7 +31349,7 @@
    "recent": 19,
    "total": 20,
    "sectors": 3,
-   "burst": 37.6
+   "burst": 37.5
   },
   {
    "term": "월드컵",
@@ -31422,7 +31440,7 @@
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "할인율",
