@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T17:55:05.466973+00:00",
+ "generated_at": "2026-09-17T21:20:13.064484+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1328,
  "hits": [
@@ -20466,6 +20466,23 @@
    "source_url": "https://buly.kr/3CPsbhq"
   },
   {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-04-21",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "건설",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Source: Contains modified Copernicus Sentinel data [2026], processed by ESA, C}S=4}S74"
+   ],
+   "title": "[건설/부동산(Overweight)｜다올 건설·부동산 박영도 ☎️ 2184-2548] ★ 건설/부동산(Overweight) - 중동 복구 사업의 현실화 수준 검토",
+   "post_url": "https://t.me/daolresearch/14018",
+   "source_url": "https://buly.kr/3CPsbhq"
+  },
+  {
    "theme": "환율/원화",
    "category": "매크로",
    "date": "2026-04-22",
@@ -21563,9 +21580,10 @@
    "sector": "전기전자",
    "company": "삼성전기",
    "code": "009150",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
+    "ㆍ26년 CAPEX% 전년(약 1.2조원) 대비 2배 이상 확대될 전망.",
     "️ MLCC: 더 큰 그림을 그릴 수 있는 단계 - AI 서버용 수요에 기반한 고가동(90%+) 환경 지속."
    ],
    "title": "[삼성전기(009150) | BUY(유지) | TP 105만원(상향) | 다올투자증권 전기전자 김연미] ★ 삼성전기 1Q26 Review - 다 가진 자의 시간",
@@ -21877,7 +21895,7 @@
    "company": "휴젤",
    "code": "145020",
    "direction": "수혜",
-   "score": 3,
+   "score": 4,
    "evidences": [
     "전망 2026E 매출액 5,125억원(YoY +21%), 영업이익 2,193억원(YoY +9%)으로 추정치 상향 2Q26E 미국 투자 본격화로 OPM 41.1% 추정하나, 3Q26E부터 미국 직판 개시 통해 OPM QoQ 개선 기대.",
     "북남미 톡신 매출액은 1Q26P부터 155억원 > 197억원 > 313억원 > 456억원의 계단식 성장 기대 2026년 미국 화장품 오프라인 입점 기대되며 국내 MBS 채널의 미국 진출과 함께 북미 입점 예정"
@@ -21933,6 +21951,23 @@
    "score": 0,
    "evidences": [
     "2026E 미국 매출액 1.2조원(YoY +111%), 연간 OPM 25.8% 전망 관세 환급액 200억원은 2Q26E~3Q26E 중 인식 예정이나 추정치에는 미반영."
+   ],
+   "title": "[에이피알(278470)/ BUY(유지)/ TP 51만원(상향)/ 다올 화장품 박종현] ★ 유럽 침투 본격 개시",
+   "post_url": "https://t.me/daolresearch/14159",
+   "source_url": "https://buly.kr/4xZYZp7"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-05-08",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "에이피알",
+   "code": "278470",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Note: 글로벌 화장품 평균 PER 10% 할증 적용"
    ],
    "title": "[에이피알(278470)/ BUY(유지)/ TP 51만원(상향)/ 다올 화장품 박종현] ★ 유럽 침투 본격 개시",
    "post_url": "https://t.me/daolresearch/14159",
@@ -22138,11 +22173,11 @@
    "sector": "의료기기/화장품",
    "company": "씨젠",
    "code": "096530",
-   "direction": "중립",
-   "score": 0,
+   "direction": "피해",
+   "score": -1,
    "evidences": [
-    "업종 내 최고 주주 환원, 실적도 우수",
-    "투자의견 동사 주주 환원 정책 주목."
+    "예상 주가상승률 59.8% 계절적 변동성으로 호흡7| 매출 감소에도 불구하고, 비호흠7| 매출의 우수한 주주환원율 감안 시, 저평가 판단 외사 잠정 당사 예상 시장 리 won 전년 (= 전분 CAPEX 추이 및 전망 Fig.",
+    "업종 내 최고 주주 환원, 실적도 우수"
    ],
    "title": "[씨젠(096530)/ BUY(유지)/ TP 3.9만원(상향)/ 다올 의료기기 박종현] ★ 업종 내 최고 주주 환원, 실적도 우수",
    "post_url": "https://t.me/daolresearch/14177",
@@ -22156,9 +22191,10 @@
    "sector": "의료기기/화장품",
    "company": "씨젠",
    "code": "096530",
-   "direction": "중립",
-   "score": 0,
+   "direction": "피해",
+   "score": -1,
    "evidences": [
+    "예상 주가상승률 59.8% 계절적 변동성으로 호흡7| 매출 감소에도 불구하고, 비호흠7| 매출의 우수한 주주환원율 감안 시, 저평가 판단 외사 잠정 당사 예상 시장 리 won 전년 (= 전분 CAPEX 추이 및 전망 Fig.",
     "연간 EBITDA 1,500억원 수준, 3,000억원대 순현금, 연간 400억원 수준의 고정 CAPEX 기반 안정적 주주환원 지속 기대 * 보고서 원문 및 컴플라이언스 < https://buly.kr/Alma27Z > * 텔레그램 채널 링크 < https://t.me/alexppark >"
    ],
    "title": "[씨젠(096530)/ BUY(유지)/ TP 3.9만원(상향)/ 다올 의료기기 박종현] ★ 업종 내 최고 주주 환원, 실적도 우수",
@@ -30921,6 +30957,30 @@
    "post_url": "https://t.me/daolresearch/14184"
   },
   {
+   "company": "종근당",
+   "code": "185750",
+   "owner_analyst": "이지수",
+   "owner_sector": "제약/바이오",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "date": "2026-05-13",
+   "evidence": "Note: 국내 제약사 266 PER 평균은 종근당, 동아에스티, HK, SY 컨센서스 기준",
+   "title": "[대웅제약(069620)/ BUY(유지)/ TP 21만원(유지)/ 다올 의료기기 박종현] ★ 저력을 보여줘라",
+   "post_url": "https://t.me/daolresearch/14207"
+  },
+  {
+   "company": "동아에스티",
+   "code": "170900",
+   "owner_analyst": "이지수",
+   "owner_sector": "제약/바이오",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "date": "2026-05-13",
+   "evidence": "Note: 국내 제약사 266 PER 평균은 종근당, 동아에스티, HK, SY 컨센서스 기준",
+   "title": "[대웅제약(069620)/ BUY(유지)/ TP 21만원(유지)/ 다올 의료기기 박종현] ★ 저력을 보여줘라",
+   "post_url": "https://t.me/daolresearch/14207"
+  },
+  {
    "company": "팬오션",
    "code": "028670",
    "owner_analyst": "오정하",
@@ -31182,20 +31242,6 @@
    "burst": 37.4
   },
   {
-   "term": "전분",
-   "recent": 7,
-   "total": 7,
-   "sectors": 3,
-   "burst": 27.6
-  },
-  {
-   "term": "YID",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 23.6
-  },
-  {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
@@ -31203,10 +31249,10 @@
    "burst": 9.2
   },
   {
-   "term": "일평균거래대금",
+   "term": "전분",
    "recent": 7,
    "total": 9,
-   "sectors": 6,
+   "sectors": 3,
    "burst": 9.2
   },
   {
@@ -31217,10 +31263,24 @@
    "burst": 7.9
   },
   {
+   "term": "YID",
+   "recent": 6,
+   "total": 8,
+   "sectors": 4,
+   "burst": 7.9
+  },
+  {
    "term": "저변",
    "recent": 7,
    "total": 10,
    "sectors": 3,
+   "burst": 6.9
+  },
+  {
+   "term": "일평균거래대금",
+   "recent": 7,
+   "total": 10,
+   "sectors": 7,
    "burst": 6.9
   },
   {
@@ -31229,13 +31289,6 @@
    "total": 12,
    "sectors": 6,
    "burst": 6.3
-  },
-  {
-   "term": "배당수익률",
-   "recent": 11,
-   "total": 17,
-   "sectors": 9,
-   "burst": 6.2
   },
   {
    "term": "감가상각비",
@@ -31257,6 +31310,13 @@
    "total": 11,
    "sectors": 4,
    "burst": 5.5
+  },
+  {
+   "term": "배당수익률",
+   "recent": 11,
+   "total": 18,
+   "sectors": 9,
+   "burst": 5.4
   },
   {
    "term": "실질",
