@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T22:48:43.518181+00:00",
+  "generated_at": "2026-09-17T23:51:15.537063+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1331,
+  "report_count": 1332,
   "months": [
     {
       "month": "2026-09",
@@ -11,8 +11,14 @@
           "sectors": [
             "전기전자"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-09-18",
+              "source": "https://t.me/daolresearch/15101"
+            }
+          ],
           "top_picks": [
             {
               "text": "향후 MLCC 실적 Upside 지속 전망 - 삼성전기 적정주가 280만원 및 최선호주 의견 유지 *보고서 원문 및 컴플라이언스: https://buly.kr/Ga0FjYZ",
@@ -37,8 +43,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15101,
+              "date": "2026-09-18",
+              "month": "2026-09",
+              "analyst": "김연미",
+              "sector": "전기전자",
+              "company": "EMIB",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 투자전략 - EMIB-T 확산의 수혜 영역으로 ① FC-BGA 기판, ② 실리콘 커패시터 제시 - LG이노텍은 EMIB 기판 공급망 신규 진입 가능성, 삼성전기는 AI 패키지용 Si-cap 채용 확대에 따른 추가 고객 및 Contents 증가 가능성에 주목 *보고서 원문 및 컴플라이언스: https://buly.kr/CWwuyjb",
+              "report_conclusion": "▶ 투자전략 - EMIB-T 확산의 수혜 영역으로 ① FC-BGA 기판, ② 실리콘 커패시터 제시 - LG이노텍은 EMIB 기판 공급망 신규 진입 가능성, 삼성전기는 AI 패키지용 Si-cap 채용 확대에 따른 추가 고객 및 Contents 증가 가능성에 주목 *보고서 원문 및 컴플라이언스: https://buly.kr/CWwuyjb",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/CWwuyjb",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
+              "title": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ EMIB-T 동향 및 패키지부품 공급망 점검",
+              "summary": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ EMIB-T 동향 및 패키지부품 공급망 점검 ▶ 대면적 AI 패키지 확대 → EMIB-T 채택 유인 증가 - 27년 이후 GPU·AI 가속기의 대면적화가 본격화되며 EMIB-T가 CoWoS의 대안으로 부각될 전망 - EMIB는 대면적 실리콘 인터포저 대신 필요한 구간에만 실리콘 브릿지를 적용해, 패키지가 커질수록 상대적인 원가·확장성 우위 확대 - Google 차세대 TPU Humufish는 약 9.5x Reticle 규모의 초대형 패키지로 개발 중이며, 2H27 이후 EMIB-T 적용 양산 예상 - 양산 안정화 이후 타 ASIC뿐 아니라 차세대 GPU까지 적용처가 확대될 가능성 ▶ EMIB-T 양산의 핵심 병목은 FC-BGA 기판 - EMIB는 실리콘 브릿지를 기판 내부에 임베드하는 구조로, 패키징 복잡도의 상당 부분이 기판으로 이동 - Intel 로드맵상 Bridge 수는 26년 20개+ → 28년 38개+로 증가. 개별 Bridge 수율이 높더라도 개수가 늘수록 전체 기판의 누적 수율 부담 확대 - 현재 EMIB용 FC-BGA 공급사는 Ibiden, Shinko, Unimicron, AT&S 등 4개사로 제한 - Unimicron은 초기 목표 수율을 약 50%로 제시. 고객사의 Commercial Protection을 통해 낮은 수율의 램프업 구간에서도 합리적인 이익 확보 가능 - 국내 기판 업체들도 EMIB 공급망 신규 진입을 추진 중 ▶ VPD(수직 전력공급) 적용 → 실리콘 커패시터 역할 확대 - EMIB-T는 TSV를 활용해 전력을 실리콘 브릿지를 관통해 Die로 전달하는VPD(Vertical Power Delivery) 구조 적용 - AI 가속기의 전력 밀도가 높아질수록 높은 Capacitance De",
+              "post_url": "https://t.me/daolresearch/15101",
+              "source_url": "https://buly.kr/CWwuyjb"
+            },
             {
               "id": 15005,
               "date": "2026-09-02",
@@ -1685,7 +1718,7 @@
           ]
         }
       ],
-      "report_count": 39
+      "report_count": 40
     },
     {
       "month": "2026-08",

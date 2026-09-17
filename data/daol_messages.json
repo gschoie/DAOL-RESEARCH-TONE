@@ -38624,5 +38624,42 @@
       "https://tinyurl.com/2s3ua8f5"
     ],
     "post_url": "https://t.me/daolresearch/15100"
+  },
+  {
+    "id": 15101,
+    "date": "2026-09-17T22:50:11+00:00",
+    "text": "[전기전자(Overweight) | 다올투자증권 전기전자 김연미] ★ EMIB-T 동향 및 패키지부품 공급망 점검 ▶ 대면적 AI 패키지 확대 → EMIB-T 채택 유인 증가 - 27년 이후 GPU·AI 가속기의 대면적화가 본격화되며 EMIB-T가 CoWoS의 대안으로 부각될 전망 - EMIB는 대면적 실리콘 인터포저 대신 필요한 구간에만 실리콘 브릿지를 적용해, 패키지가 커질수록 상대적인 원가·확장성 우위 확대 - Google 차세대 TPU Humufish는 약 9.5x Reticle 규모의 초대형 패키지로 개발 중이며, 2H27 이후 EMIB-T 적용 양산 예상 - 양산 안정화 이후 타 ASIC뿐 아니라 차세대 GPU까지 적용처가 확대될 가능성 ▶ EMIB-T 양산의 핵심 병목은 FC-BGA 기판 - EMIB는 실리콘 브릿지를 기판 내부에 임베드하는 구조로, 패키징 복잡도의 상당 부분이 기판으로 이동 - Intel 로드맵상 Bridge 수는 26년 20개+ → 28년 38개+로 증가. 개별 Bridge 수율이 높더라도 개수가 늘수록 전체 기판의 누적 수율 부담 확대 - 현재 EMIB용 FC-BGA 공급사는 Ibiden, Shinko, Unimicron, AT&S 등 4개사로 제한 - Unimicron은 초기 목표 수율을 약 50%로 제시. 고객사의 Commercial Protection을 통해 낮은 수율의 램프업 구간에서도 합리적인 이익 확보 가능 - 국내 기판 업체들도 EMIB 공급망 신규 진입을 추진 중 ▶ VPD(수직 전력공급) 적용 → 실리콘 커패시터 역할 확대 - EMIB-T는 TSV를 활용해 전력을 실리콘 브릿지를 관통해 Die로 전달하는VPD(Vertical Power Delivery) 구조 적용 - AI 가속기의 전력 밀도가 높아질수록 높은 Capacitance Density와 낮은 ESL·ESR을 구현할 수 있는 실리콘 커패시터의 활용도가 높아질 전망 - 공급망에서는 27년 이후 EMIB-T 기판 내 실리콘 커패시터 채용 확대를 예상 ▶ 투자전략 - EMIB-T 확산의 수혜 영역으로 ① FC-BGA 기판, ② 실리콘 커패시터 제시 - LG이노텍은 EMIB 기판 공급망 신규 진입 가능성, 삼성전기는 AI 패키지용 Si-cap 채용 확대에 따른 추가 고객 및 Contents 증가 가능성에 주목 *보고서 원문 및 컴플라이언스: https://buly.kr/CWwuyjb",
+    "links": [
+      "https://buly.kr/CWwuyjb"
+    ],
+    "post_url": "https://t.me/daolresearch/15101"
+  },
+  {
+    "id": 15102,
+    "date": "2026-09-17T22:56:17+00:00",
+    "text": "[DAOL 9/18 Morning Brief] ▶️ 미국증시: Dow (+0.61%), S&P500 (+1.14%), Nasdaq (+1.69%) -미국증시, FOMC 불확실성이 해소된 가운데, 국채금리와 국제유가가 동반 하락하자 저가 매수세 유입되며 기술주 중심 상승 마감 -레바논 언론, 사우디 정부가 예멘 후티 반군에 2주 휴전을 제안하는 동시에 합의를 원하고 있다고 보도 -BoE, 9월 기준금리 3.75% 동결. 베일리 BoE 총재는 지금까지는 에너지 비용 상승이 물가와 임금에 미친 영향이 제한적이었다고 평가 -마이크론, 인도 사난드 공장의 상업 생산 개시와 인텔 CEO의 메모리 가격 급등 및 내년 공급 부족 심화 전망에 +5.5% 상승 -엔비디아, 네비우스가 GPU 임대 가격을 최대 20% 인상하자 견조한 GPU 수요 기대가 부각되며 +2.6% 상승 -테슬라, 캘리포니아 전기트럭 거점 3곳에서 공공 급속충전 시설을 직접 운영하고 총 30MW의 충전 용량을 추가한다는 소식에 +2.3% 상승 -S&P500, 기술 +2.2%, 재량소비재 +1.4% vs 금융 -0.1%, 필수소비재 0.0% ▶️ 미국국채: 2yr 4.664%(-7.2bp), 10yr 4.93%(-9.2bp) -미 국채금리, 국제유가 하락과 BOE의 장기 길트 시장 매각 중단을 담은 QT 개편안 발표로 글로벌 장기물 금리가 하락한 영향에 동반 하락. 10년물 금리는 5%대를 하회 ▶️ FX: JPY 155.97(-0.19%), EUR 1.148(+0.10%), Dollar 100.25(-0.00%) -달러 인덱스, 금리·유가 하락에 약세를 보이다 트럼프 대통령의 대이란 강경 발언에 보합권 마감. 한편 BOJ 금정위를 앞두고 엔/달러 환율은 155엔대에서 등락. 시장에서는 금리 인상 기대가 이어지는 가운데, 향후 추가 금리 인상 속도에 주목하는 모습 ▶️ Commodity: WTI $101.91(-0.51%), Brent $104.82(-0.95%) -WTI, 사우디가 오만 소하르항에서 환적을 통해 아시아 정유사에 추가 화물을 공급하기로 하자 하락. 이후 트럼프 대통령의 \"이란 전멸\" 위협 발언에 낙폭 축소 ♣ 주식: https://buly.kr/HSa8RlP ♣ 채권: https://buly.kr/1GMQCPr",
+    "links": [
+      "https://buly.kr/HSa8RlP",
+      "https://buly.kr/1GMQCPr"
+    ],
+    "post_url": "https://t.me/daolresearch/15102"
+  },
+  {
+    "id": 15103,
+    "date": "2026-09-17T23:41:23+00:00",
+    "text": "[다올투자증권 조선/기계/방산 최광식] 9/18(금) 데일리뉴스 🛳 조선 [TradeWinds] HD Hyundai Samho, ClassNK team up on future-proof LNG carrier design CMA CGM and HMM line up $3.9bn in newbuildings at Yangzijiang CU Lines orders its largest-ever container ships in China Strait of Hormuz closure making Middle East VLCC market messier and messier Drone-hit LNG carrier fails to catch a bid on the auction block [Upstream] Peru issues new call for offshore block after failing to attract bidders Repsol back in FPSO market for Mexico project Exmar wins West Africa FSRU deal... five years after supermajor's effort failed GasEntec wins major boost for giant FSRU design Bid chase begins for lucrative UAE offshore project 🚢 조선 '조선 도시' 거제에 해양플랜트 소부장 특화단지 선다 https://tinyurl.com/27ntq29b 호황기 체질 개선 나선 K-조선 3사...엔진•특수선•해양 키운다 https://tinyurl.com/2cglt4wp 임주성 대사 \"한화오션•HD현대중, 그리스 해군 현대화 프로젝트 참여 논의 진전\" https://buly.kr/5JPqkkF 미 전쟁부 부차관보 한화오션 거제사업장 찾았다...‘마스가’ 속도 빨라지나 https://buly.kr/1RHBCEO 한화 필리조선소 증설 본격화...옛 美해군 조선소 내 건물 임대 https://buly.kr/9XO2IKb 🚀 방산 한화, UAE 국영 방산 '에지'와 통합 방공체계 구축…L-SAM•천궁•천무 현지 생산 https://tinyurl.com/22ol6g33 폴란드 국방장관 \"한국산 K2 전차 18대 추가 인도\"…제16기계화사단 배치 https://tinyurl.com/2y9x47yl 한화에어로, 2029년부터 K9•천무 무인화한다 https://tinyurl.com/27tyz965 LG디스플레이, 한화시스템과 전투기 콕핏용 OLED 개발 https://tinyurl.com/22c97z8j 방사청, EU와 저궤도위성통신 맞손…행정약정 체결 https://tinyurl.com/27pkcfj9 * 위 내용은 보도된 사실의 단순요약으로 별도의 컴플라이언스 절차 없이 제공됩니다",
+    "links": [
+      "https://tinyurl.com/27ntq29b",
+      "https://tinyurl.com/2cglt4wp",
+      "https://buly.kr/5JPqkkF",
+      "https://buly.kr/1RHBCEO",
+      "https://buly.kr/9XO2IKb",
+      "https://tinyurl.com/22ol6g33",
+      "https://tinyurl.com/2y9x47yl",
+      "https://tinyurl.com/27tyz965",
+      "https://tinyurl.com/22c97z8j",
+      "https://tinyurl.com/27pkcfj9"
+    ],
+    "post_url": "https://t.me/daolresearch/15103"
   }
 ]
