@@ -70,10 +70,10 @@ jobs:
         run: python build_daol_tone_dashboard.py --refresh
 
       # 가비지 PDF 텍스트 백필(폰트 깨짐으로 껍데기만 캐시된 과거분, 직링크 재수집+OCR) —
-      # 저녁 런·머지·수동 실행에서만 배치로 돌고, 소진되면 대상 0건이라 사실상 노옵.
+      # OCR이 설치된 전체 런에서만(FAST 런은 tesseract가 없어 전부 오판정 남). 소진되면 노옵.
       # v2 빌드 전에 돌아야 복구된 원문의 종목별 TP가 같은 런에서 타임라인에 합성된다.
       - name: PDF 텍스트 백필
-        if: github.event.schedule == '0 13 * * *' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
+        if: env.FAST != 'true' && (github.event.schedule == '0 13 * * *' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
         run: python backfill_pdf_text.py || echo "::warning::PDF 백필 실패"
 
       # 리포트 1건당 LLM 구조화 분석. 캐시(daol_ai_analysis.json)에 누적 — 재호출 없음.
