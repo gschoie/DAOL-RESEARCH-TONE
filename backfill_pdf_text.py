@@ -11,6 +11,7 @@ OCR 3페이지 폴백 포함)로 교체한다. 최근 리포트 우선(메타 �
 import json
 import os
 import re
+import shutil
 import time
 from pathlib import Path
 
@@ -42,7 +43,16 @@ def report_dates():
 
 
 def main():
+    # 폰트 깨진 PDF 복구는 사실상 OCR 의존 — tesseract가 없는 런(FAST 모드)에서 돌면
+    # 전부 '개선불가'로 오판정하고 표식이 붙는 사고가 난다(2026-09-17 실측). 없으면 그냥 건너뛴다.
+    if not shutil.which('tesseract'):
+        print('backfill: tesseract 미설치(FAST 런?) — 생략')
+        return
     cache = json.loads(CACHE_FILE.read_text(encoding='utf-8'))
+    # 과거 OCR 없이 돌았던 런이 잘못 붙인 표식은 지워 재시도 대상으로 되돌린다(1회성 마이그레이션).
+    for v in cache.values():
+        if isinstance(v, dict) and v.get('error') == 'backfill: no better text':
+            v['error'] = ''
     dates = report_dates()
     targets = []
     for url, v in cache.items():
@@ -76,8 +86,8 @@ def main():
                 fixed += 1
                 print(f'  복구 {date} {url[:40]} 한글 {old_kr}→{_kr(text)}')
             else:
-                still += 1  # OCR로도 개선 안 됨 — 재시도해도 같으니 표식을 남겨 다음 런에서 제외
-                cache[url]['error'] = 'backfill: no better text'
+                still += 1  # OCR까지 시도해도 개선 안 됨 — 재시도해도 같으니 표식을 남겨 다음 런에서 제외
+                cache[url]['error'] = 'backfill: no better text (ocr)'
         except Exception as exc:
             fail += 1
             print(f'  실패 {date} {url[:40]} {type(exc).__name__}: {str(exc)[:80]}')
