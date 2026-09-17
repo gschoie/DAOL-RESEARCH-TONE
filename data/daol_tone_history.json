@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:06:23.571392+00:00",
+  "generated_at": "2026-09-17T14:22:26.708101+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1328,
   "months": [
@@ -2136,10 +2136,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "현재 0\" 너도 7월 거래대금 반영 후 기존 연간 전망치 하향. 예상 주가상승률 72.4% 220 프 이 TT34T 7 ㅇ 70). ven wy ~ 거래대금 전망치 하향에 따른 기존 Brokerage 전망치 조정. ㆍ예상보다 빠른 별도 자기자본 8조 달성.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY, 적정주가 170,000원으로 하항 현재 0\" 너도 7월 거래대금 반영 후 기존 연간 전망치 하향. ven wy ~ 거래대금 전망치 하향에 따른 기존 Brokerage 전망치 조정.",
+              "valuation": [
+                "Valuation wide 2025 20266 20275",
+                "PER(HH) 67 5.6 56 : 업종 공통적으로 7월 일평균 꺼래대금 반영하여, 하반기 및 연간 일평균",
+                "EV/EBITDA(H N/A N/A N/A 7 — ' '",
+                "Performance 14 6M 124 YTD 가능성 °c ae 쓰쓰",
+                "삼성증권 PER Bandchart",
+                "> 삼성증권 PBR Bandchart"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143109/1/20260805_016360_jiwonkim_242.pdf",
@@ -2175,6 +2182,16 @@
             }
           ],
           "top_picks": [
+            {
+              "text": "매출 인식 시점(2027)이 머지 않있기 때문에 인터넷 산업 Top-Pick 유지",
+              "date": "2026-08-10",
+              "source": "https://t.me/daolresearch/14820"
+            },
+            {
+              "text": "될 수 있기 때문에 인터넷 산업 Top-PickS 유지한다.",
+              "date": "2026-08-10",
+              "source": "https://t.me/daolresearch/14820"
+            },
             {
               "text": "하지만 2027년 출시 목표이고 CBT를 진행할 예정이기 때문에 점진적으로 기대감이 반영될 가능성 有 - 2PP인 <Project ZETA>, <TARAE: The Unbound>, <Age Twisters>도 2027년 출시 예정이며 동사가 투자하고 퍼블리싱 할 계획이기 때문에 흥행 시 퍼블리셔의 역량 증명 가능 - 자체 개발 및 2PP 타이틀의 출시 가시성이 높아지는 가운데 게임 산업 Top-Pick 유지",
               "date": "2026-08-31",
@@ -2291,9 +2308,18 @@
               "tp_raises": [],
               "pitch": "",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "증가와 주주친화적인 주주환원을 기대하며 투자의견 BUYS 제시.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(HH) 8.8 6.7 6.2",
+                "PBR(Ht) 3.7 2.8 19",
+                "EV/EBITDA(HH) 14 1.1 n/a",
+                "Performance 1M 6M 12M YTD",
+                "더블유게임즈 Valuation Table"
+              ],
+              "earnings_changes": [
+                "적정주가는 이익 추정치를 소폭 상향하며 75,000원으로 변경"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143352/1/20260813_192080_hyyy_209.pdf",
               "pdf_error": "",
@@ -2316,11 +2342,20 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 37.0% ㆍ<리니지> 2,047억원(+887.3% YoY, +105.1% QoQ). 김택진 (의 16인) 124 업데이트를 완료하였7| 때문에 3026까지는 유사한 수준의 매출 전망하며, attaed (위 12) TBI 108 5일에 글로벌 버전 정식 출시 예정이7| 때문에 4026에는 반등 전망 EV/EBITDA(HH) 237 62 50 고도화, MEAS 동해 2027년에도 고성장 이어깥 전망",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 상회. 투자의견 BUY 및 적정주가 350,000원 유지 김택진 (의 16인) 124 업데이트를 완료하였7| 때문에 3026까지는 유사한 수준의 매출 전망하며, attaed (위 12) TBI 108 5일에 글로벌 버전 정식 출시 예정이7| 때문에 4026에는 반등 전망 EV/EBITDA(HH) 237 62 50 고도화, MEAS 동해 2027년에도 고성장 이어깥 전망",
+              "valuation": [
+                "주요주주지분율(%) ARRU(Average Revenue Per User)7} 하락.",
+                "Valuation wide 2025 2026E 2027E 통해 1,256억원의 매출이 추가되어 BET) 대비 2 폭으로 성장",
+                "PER(HH) 12.5 12.4 115 JustPlay= 전년 S7] 대비 약 100% 성장.",
+                "PBR(HH) 1.3 1.7 1.5 sue = ee 년에도 고성장 이어갈 저망",
+                "EV/EBITDA(HH) 237 62 50 고도화, MEAS 동해 2027년에도 고성장 이어깥 전망",
+                "Performance 1M 6M 12M YTD 00” ' = 5"
+              ],
+              "earnings_changes": [
+                "김택진 (의 16인) 124 업데이트를 완료하였7| 때문에 3026까지는 유사한 수준의 매출 전망하며,"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143312/1/20260812_036570_hyyy_208.pdf",
               "pdf_error": "",
@@ -2339,14 +2374,25 @@
               "code": "035420",
               "report_type": "기업자료",
               "opinion": "",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "매출 인식 시점(2027)이 머지 않있기 때문에 인터넷 산업 Top-Pick 유지",
+                "될 수 있기 때문에 인터넷 산업 Top-PickS 유지한다."
+              ],
+              "preferred_stocks": [
+                "매출 인식 시점(2027)이 머지 않있기 때문에 인터넷 산업 Top-Pick 유지",
+                "될 수 있기 때문에 인터넷 산업 Top-PickS 유지한다."
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "투자의견 BUY BUY 유지 필요한 비용이라고 판단하며 투자의견 BUY 및 적정주가 400,000원 유시 예상 WSS 90.5% 커머스 프로무션 비용 증가로 컨센서스에 하회 외사 잠정 당사 예상 상 컨센서스 전년 동기 전분기 [Ｌ 실제 사용연수와 일치한다면 문제는 아니라고 판단하나 실질적으로 증가하",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 필요한 비용이라고 판단하며 투자의견 BUY 및 적정주가 400,000원 유시 셋째, 마케팅비(6,049억원, +25.4% YoY, +18.2% QoQ)=E 지속적으로 SIPS 전망이다.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "EV/EBITDA(HH) 113 92 16 1조 2,568억원(+22.0% YoY, +5.8% 0200)으로 Npay 커넥트 단말7",
+                "Performance 14 6M 124 YTD 전략적 집행과 커머스 프로모션 비용이 증가하며 큰 폭으로 증가",
+                "2: NAVER Valuation Table"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143233/1/20260810_035420_hyyy_207.pdf",
@@ -2370,10 +2416,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 56.7% ㆍ지배주주당기순이익은 163억원(-89.9% YoY, -90.5% 0200))으로 컨센서스에 확인된다면 레퍼런스가 되어 다른 파트너사의 참여를 이끌 수 있다고 판단 수익화를 증명 aa 반등의 폭이 클 수 있다고 판단. 회사 잠정 당사 예상 = 전년 = 전분2",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY 및 적정주가 60,000원 유지",
+              "valuation": [
+                "Valuationwide 2025 20266 202 586억원(+528.2% YoY, +81.7% QoQ; OPM 17.5%) 기록",
+                "PER(HH) 541 270 15.7",
+                "PBR(HH)) 44 2.1 18 ㆍ 동사는 쿠팡이츠와의 파트너십을 발표.",
+                "EV/EBITDACEH) 128 aud oe 결제까지 관여할 예정.",
+                "Performance 1M 6M 12M YTD 배달뿐만 아니라 커머스, 예약 여 O> 결제 fo) 버티컬 서비 로 왁상할",
+                "1: 카카오 Valuation Table"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143193/1/20260807_035720_hyyy_206.pdf",
@@ -2430,11 +2483,13 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "여름 휴가 효과로 개선된 실적 전망 - 신설 구간에 마라 exer 미치는 영향은 크게 달라질 전망. 구간 기준에 따라 이익 감소는 크게 달라질 전망이다.",
+              "industry_conclusion": "여름 휴가 효과로 개선된 실적 전망 - 신설 구간에 마라 exer 미치는 영향은 크게 달라질 전망. - 정책 자: 특성상 were 결론이 나오기 쉽지 구간 기준에 따라 이익 감소는 크게 달라질 전망이다.",
+              "report_conclusion": "여름 휴가 효과로 개선된 실적 전망 - 신설 구간에 마라 exer 미치는 영향은 크게 달라질 전망. - 정책 자: 특성상 were 결론이 나오기 쉽지 구간 기준에 따라 이익 감소는 크게 달라질 전망이다.",
               "valuation": [],
-              "earnings_changes": [],
+              "earnings_changes": [
+                "여름 휴가 효과로 개선된 실적 전망"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143111/1/20260805_B2550_hyyy_204.pdf",
               "pdf_error": "",
@@ -2472,10 +2527,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 주택 이익. 적정주가 24,0008) 유시하고 투자의견 Buy 유시. Performance 1M 6M 124 YTD :적정주가 24000원을 유지하고 투자의견 84 유지.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E GUE] 수주 7.1조원으로 NE 가이던스 18조원의 39.6% 달성.",
+                "PER(HH) n/a 111 13.9 |이던스로 27조원을 제시.",
+                "PBR(HH) 0.5 16 14 나이지리아 비료, 모잠비크 LNG, 가덕도 신공항 등 대형 사업장의 수주가",
+                "EV/EBITDA(HH) n/a 9.6 111 ~ a ~ oa ：",
+                "Performance 1M 6M 124 YTD :적정주가 24000원을 유지하고 투자의견 84 유지.",
+                "3: 『\\00 008 Fig.4: FY1PBR/ ROE"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143107/1/20260805_047040_ypark_114.pdf",
@@ -2499,10 +2561,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 63.8% © 227) 매출액 6조 8,423억원으로 당사추성치와 컨센서스 각각 3.3%, 1.1% 주가상승률(%) (17.2) (7.8) 40.1 35.0 양호한 수주 성과 기반 실적 개선 전망. 금융흰경과 프로젝트 수익성 판단의 회사 잠정 당사 예상 시장 컨 = 전년 ㅠㅠ 전분",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 계절적으로 낮은 판매관리비 효과로 영업이익 7]대치 조과 달성. carn; VIET 155,000] 유지하고 투자의견 Buy 유지. 주가상승률(%) (17.2) (7.8) 40.1 35.0 양호한 수주 성과 기반 실적 개선 전망. 적정주가 155,000원 유지하고 투자의견 Buy 유지.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E 미수 채권 규모 다수 높아 비용 반영 가능성은 존재.",
+                "PER(HH) 20.9 20.9 18.8",
+                "PBR(4il) 11 1.2 1.2 * 상반7| 수주 22.8조원으로 연간 가이던스 33448219] 68%를 달성하는 TAA,",
+                "EV/EBITDA(HH) 7.2 8.4 6.8 =o] =)",
+                "Performance 1M 6M 12M YTD",
+                "(X) —— PER Fwd12e — PER Fwd24e (X) ——PBRFY1e —ROE(Q)FY1e (%)"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143027/1/20260731_000720_ypark_113.pdf",
@@ -2524,6 +2593,11 @@
           "opinion": "비중확대",
           "opinion_history": [
             {
+              "value": "중립",
+              "date": "2026-08-04",
+              "source": "https://t.me/daolresearch/14755"
+            },
+            {
               "value": "비중확대",
               "date": "2026-08-05",
               "source": "https://t.me/daolresearch/14769"
@@ -2537,6 +2611,11 @@
               "value": "비중확대",
               "date": "2026-08-10",
               "source": "https://t.me/daolresearch/14819"
+            },
+            {
+              "value": "중립",
+              "date": "2026-08-11",
+              "source": "https://t.me/daolresearch/14837"
             },
             {
               "value": "비중확대",
@@ -2573,6 +2652,121 @@
           ],
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
+            {
+              "company": "에이피알",
+              "direction": "상향",
+              "old": null,
+              "new": 560000,
+              "display": "560,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "26.1% 개선 전망 Performance 1M 6M 12M YTD _ . _ oa esx xo ASS (%) (65) 286 909 548 ㆍ 전 채널 매졸 SATE 추정지 상향 견인. 금번 실적 SSeS 동해 1) 매졸액 KOSPI | HSS (%) 11.9 08 (155) (1.8) 성장 GAS 북미 오프라인과 유럽 온라인 성과를 통해 해소하였고, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화를 통해 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.068) 2026.06(E) 2025,06(A) 000 매출액 767.5 726.0 5.7 735.2 4.4 327.7| 1342 . 29.4 영업이익 185.5 175.6 5.6 178.4 4.0 84.6 119.3 . 27.4 지배주주순이익 141.5 130.9 138.0 66.3 113",
+              "date": "2026-08-06",
+              "source": "https://t.me/daolresearch/14786"
+            },
+            {
+              "company": "휴젤",
+              "direction": "상향",
+              "old": null,
+              "new": 430000,
+              "display": "430,000원 (상향)",
+              "reasons": [
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "미 법인 인력 Performance 1M 6M 12M _ YID 6 ona = = - 주가상승률 (%) 136 146 (184) 210 증가는 2026.02월 이후 34명으로 월별 채용 인력 확대 중. 다만, 사모펀드 KOSDAQ CHU] ACIS (94) 19.0 40.4 (18.2) 344 지휘 체제 St EBITDA Margin®] = 훼손 없는 인력 채용 전망 :중국의 구조적 성장에 미국 직판이라는 장7| 옴션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 = 전년 — 2026.06(P)| _2026.06(E) 2026.06(E)| __ vsCon| 2025.06(A)| 10 . 000 매출액 137.9 124.0 11.2 1269 110.3 25.1 18.2 영업이익 56.0 50.4 11.2 51.2 9.4 567 (1.2) . 17.6 지배주주순이익 43.3 40.3 41.8 36.4 ",
+              "date": "2026-08-07",
+              "source": "https://t.me/daolresearch/14805"
+            },
+            {
+              "company": "파마리서치",
+              "direction": "상향",
+              "old": null,
+              "new": 550000,
+              "display": "550,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "+25%를 상회하는 국면 Performance 1M 6M 12M _ YTD oe _ _ - 주가상승률 (%) 112 113 (377) G1) *8/7일 실적 발포 직후, 높은 시장 기대치 대비 하회한 실적으로 주7 KOSDAQ 54비상두음) 15.1 37.4 (369) 7.6 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 2026 Review (단위: 십억원, %, %p) 외사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.060 2026.06(E) 000 매출액 1787 175.8 169.5 140.6 27.1 146.1) 223 영업이익 66.5 67.5 (1.5) 677 (1.8) 559 19.0 573| 16.0 지배주주순이익 50.7 51.3 (1.1) 538 (5.7) 474 7.0 476 6.6 NIM 28.4 29.2",
+              "date": "2026-08-10",
+              "source": "https://t.me/daolresearch/14816"
+            },
+            {
+              "company": "씨젠",
+              "direction": "상향",
+              "old": null,
+              "new": 47000,
+              "display": "47,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "DAOL 다올투자증권 10 Aug. 2026 씨젠 (096530) 코스닥에서 이 정도의 체급을 박종현 의료기기 | alex.park@daolfn.com Issue 2Q26P Review Pitch 2Q26P 영업이익 컨센서스 18% YS]. BI 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 현재 시 rt re 애 7 Cc fo} 투자의견 BUY 유지 적정주가 47,000 45,000 상향 Rationale Earnings 상향 ㆍ 2026? 매출액 13359억(6? +19.1%, QoQ +5.2%), 영업이익 216억(0 ae +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 1439 (YoY +40%, QoQ +20%)°] 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 Stock Information 5 의 thax _ = ; 현재가 (8/7) 28,900원 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번",
+              "date": "2026-08-10",
+              "source": "https://t.me/daolresearch/14817"
+            },
+            {
+              "company": "펌텍코리아",
+              "direction": "상향",
+              "old": null,
+              "new": 76000,
+              "display": "76,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "8 매출액 4,349억원(<6 Performance 1M 6M 12M _ YID +17%), 영업이익 750억원(6 +33%) OS 추정치 상향 주가상승률 (%) 17.2 (15.0) (249) (1.7) KOSDAQ Cd] ACIADS (4) 14.7 81 (306) 5.6 2026 실적 발표에서 ODM/27/AF 모두 견조한 KHE] 수요를 동시다발적 확인, 2H26EN 해당 27] 확산 기대. 판가 온7| 반영은 3Q26E 상방 요인. 추정치 상향으로 적정주가 7.6만원으로 상향 u: 2Q26 Review %, %p) 회사 잠정 당사 예상 al 2026.06(P)| _2026.06(E) 2026.06( . 000 매출액 116.8 123.7 (5.6) 1 ! 27.3 영업이익 21.6 230| 659 |! o| 669 지배주주순이익 18.1 153| 186 43.3 OPM 44 NIM 1.7 Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 펌텍코리아 Fig. 7; 펌텍",
+              "date": "2026-08-12",
+              "source": "https://t.me/daolresearch/14848"
+            },
+            {
+              "company": "넥스트바이오메디컬",
+              "direction": "하향",
+              "old": null,
+              "new": 90000,
+              "display": "90,000원 (하향)",
+              "reasons": [
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "formance 1M 6M 12M YTD _ 은 ° 주가상승률 (%) 28 (49.9) (26.9) (56.5) ° 색전 통한 통증 감소 기 전을 가진 넥스 스피어는 2027. 04월 미국 임 임상 KOSDAQ HH] AHALE (4) 0.3 (26.9) (32.5) (49.2) 1차 평가 wll 후 후 6개월) 발표 예정으로 대조군과 비교를 Fo 유효성 확인 후 본격 가치 반영 기대. WACC 10.6%(7|존 9.5%)로 상향 조정하여 SOTP 통해 산정한 적정주가 9만원 하향, 투자의견 80 유지 2Q26 Review (단위: 십억원, %, %p) 매 당사 = 시장 ol won 전년 부드 2026.06(A)| 2026.06(E VS | vs Chg| 2026.06(E VS | vs Con| 2025.06(A QoQ 매출액 (20.4) (3.2) 4. . 19.8 영업이익 시 . 적지 i” 적지 (0.6) OPM (20.9) (28.8) 79 (23.5) 2.6 0.5 (21.4) (28. no . NIM (12.",
+              "date": "2026-08-12",
+              "source": "https://t.me/daolresearch/14849"
+            },
+            {
+              "company": "코스맥스",
+              "direction": "상향",
+              "old": null,
+              "new": 290000,
+              "display": "290,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "Performance 14 6M. 12M __ YTD 526억원(6? +16%)°] 수출로 보완, [인니] 280A 21(YoY +30%) 주가상승률 (%) 21.6 34 (11.2) 288 ㆍ KOSPI CH] 상수율] 36.7 (15.1) (109.1) (21.7) ㆍ 2026E 매출액 2.9조원(6 +22%), 영업이익 24734 (YoY +26%)으로 ” 상향, 미국이 옴션 가치에서 실적 기여로 재분류되는 국면인 점이 고무적, 추정치 상향에 따라 적정주가 29만원으로 상향 투자의견 BUY 유지 2Q26 Review (단위: 십억원 %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 2026.06(P)| 2026.068) 2026.06(E) 2026.03(A)| 000 매출액 7949 750.0 6.0 7398 74 6236| 275 165 영업이익 737 670| 101 69.6 5.9 608} 212 530| 39.0 지배주주순이익 487 434| _ 123 418 165 209| 71327 4",
+              "date": "2026-08-12",
+              "source": "https://t.me/daolresearch/14850"
+            },
+            {
+              "company": "한국콜마",
+              "direction": "상향",
+              "old": null,
+              "new": 170000,
+              "display": "170,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "수주 상황ㅇ 견조하다는 점을 반영하여 국내 매출액 YOY +33%, QoQ -1% 성장 기대. —= 5) 조업일수 약 5일 QoQ 깜소하나, 생산 최적화 통해 달성 전망 :선케어 고객사의 일부 이탈이 있었던 2025년과 다르게 꾸준히 고객사 유입 나타나고 있으며, 옵션 가치였던 미국 OTC 선케어 매출이 실적에 기여하고 있다는 점 또한 중요. 8/9일부터 신규 자외선 차단 성분 판매 가능. 2H26E/2027E2] 추가적인 성장 동력. 추정치 상향으로 적정주가 17만원으로 상향, 투자의견 BUY 유지 시장 ee 전년 을 전분2 2026.03(A) QoQ 2.8 8279 730.8 178 728.0 18.3 148 94.9 16.3 73.5 50.2 78.9 39.9 17.6 549 144 34.9 79.8 45.2 39.1 OPM 128 11.5 13 11.5 13 10.1 28 10.8 2.0 NIM 6.4 0.9 6.6 0.7 48 25 6.2 1.1 Note: K-IFRS 연결 기준 Source: 다올투자증권 매",
+              "date": "2026-08-13",
+              "source": "https://t.me/daolresearch/14865"
+            },
             {
               "company": "리브스메드",
               "direction": "하향",
@@ -2618,6 +2812,107 @@
             }
           ],
           "tp_raises": [
+            {
+              "company": "에이피알",
+              "direction": "상향",
+              "old": null,
+              "new": 560000,
+              "display": "560,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "26.1% 개선 전망 Performance 1M 6M 12M YTD _ . _ oa esx xo ASS (%) (65) 286 909 548 ㆍ 전 채널 매졸 SATE 추정지 상향 견인. 금번 실적 SSeS 동해 1) 매졸액 KOSPI | HSS (%) 11.9 08 (155) (1.8) 성장 GAS 북미 오프라인과 유럽 온라인 성과를 통해 해소하였고, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화를 통해 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.068) 2026.06(E) 2025,06(A) 000 매출액 767.5 726.0 5.7 735.2 4.4 327.7| 1342 . 29.4 영업이익 185.5 175.6 5.6 178.4 4.0 84.6 119.3 . 27.4 지배주주순이익 141.5 130.9 138.0 66.3 113",
+              "date": "2026-08-06",
+              "source": "https://t.me/daolresearch/14786"
+            },
+            {
+              "company": "휴젤",
+              "direction": "상향",
+              "old": null,
+              "new": 430000,
+              "display": "430,000원 (상향)",
+              "reasons": [
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "미 법인 인력 Performance 1M 6M 12M _ YID 6 ona = = - 주가상승률 (%) 136 146 (184) 210 증가는 2026.02월 이후 34명으로 월별 채용 인력 확대 중. 다만, 사모펀드 KOSDAQ CHU] ACIS (94) 19.0 40.4 (18.2) 344 지휘 체제 St EBITDA Margin®] = 훼손 없는 인력 채용 전망 :중국의 구조적 성장에 미국 직판이라는 장7| 옴션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 = 전년 — 2026.06(P)| _2026.06(E) 2026.06(E)| __ vsCon| 2025.06(A)| 10 . 000 매출액 137.9 124.0 11.2 1269 110.3 25.1 18.2 영업이익 56.0 50.4 11.2 51.2 9.4 567 (1.2) . 17.6 지배주주순이익 43.3 40.3 41.8 36.4 ",
+              "date": "2026-08-07",
+              "source": "https://t.me/daolresearch/14805"
+            },
+            {
+              "company": "파마리서치",
+              "direction": "상향",
+              "old": null,
+              "new": 550000,
+              "display": "550,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "+25%를 상회하는 국면 Performance 1M 6M 12M _ YTD oe _ _ - 주가상승률 (%) 112 113 (377) G1) *8/7일 실적 발포 직후, 높은 시장 기대치 대비 하회한 실적으로 주7 KOSDAQ 54비상두음) 15.1 37.4 (369) 7.6 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 2026 Review (단위: 십억원, %, %p) 외사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.060 2026.06(E) 000 매출액 1787 175.8 169.5 140.6 27.1 146.1) 223 영업이익 66.5 67.5 (1.5) 677 (1.8) 559 19.0 573| 16.0 지배주주순이익 50.7 51.3 (1.1) 538 (5.7) 474 7.0 476 6.6 NIM 28.4 29.2",
+              "date": "2026-08-10",
+              "source": "https://t.me/daolresearch/14816"
+            },
+            {
+              "company": "씨젠",
+              "direction": "상향",
+              "old": null,
+              "new": 47000,
+              "display": "47,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "DAOL 다올투자증권 10 Aug. 2026 씨젠 (096530) 코스닥에서 이 정도의 체급을 박종현 의료기기 | alex.park@daolfn.com Issue 2Q26P Review Pitch 2Q26P 영업이익 컨센서스 18% YS]. BI 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 현재 시 rt re 애 7 Cc fo} 투자의견 BUY 유지 적정주가 47,000 45,000 상향 Rationale Earnings 상향 ㆍ 2026? 매출액 13359억(6? +19.1%, QoQ +5.2%), 영업이익 216억(0 ae +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 1439 (YoY +40%, QoQ +20%)°] 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 Stock Information 5 의 thax _ = ; 현재가 (8/7) 28,900원 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번",
+              "date": "2026-08-10",
+              "source": "https://t.me/daolresearch/14817"
+            },
+            {
+              "company": "펌텍코리아",
+              "direction": "상향",
+              "old": null,
+              "new": 76000,
+              "display": "76,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "8 매출액 4,349억원(<6 Performance 1M 6M 12M _ YID +17%), 영업이익 750억원(6 +33%) OS 추정치 상향 주가상승률 (%) 17.2 (15.0) (249) (1.7) KOSDAQ Cd] ACIADS (4) 14.7 81 (306) 5.6 2026 실적 발표에서 ODM/27/AF 모두 견조한 KHE] 수요를 동시다발적 확인, 2H26EN 해당 27] 확산 기대. 판가 온7| 반영은 3Q26E 상방 요인. 추정치 상향으로 적정주가 7.6만원으로 상향 u: 2Q26 Review %, %p) 회사 잠정 당사 예상 al 2026.06(P)| _2026.06(E) 2026.06( . 000 매출액 116.8 123.7 (5.6) 1 ! 27.3 영업이익 21.6 230| 659 |! o| 669 지배주주순이익 18.1 153| 186 43.3 OPM 44 NIM 1.7 Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 펌텍코리아 Fig. 7; 펌텍",
+              "date": "2026-08-12",
+              "source": "https://t.me/daolresearch/14848"
+            },
+            {
+              "company": "코스맥스",
+              "direction": "상향",
+              "old": null,
+              "new": 290000,
+              "display": "290,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "Performance 14 6M. 12M __ YTD 526억원(6? +16%)°] 수출로 보완, [인니] 280A 21(YoY +30%) 주가상승률 (%) 21.6 34 (11.2) 288 ㆍ KOSPI CH] 상수율] 36.7 (15.1) (109.1) (21.7) ㆍ 2026E 매출액 2.9조원(6 +22%), 영업이익 24734 (YoY +26%)으로 ” 상향, 미국이 옴션 가치에서 실적 기여로 재분류되는 국면인 점이 고무적, 추정치 상향에 따라 적정주가 29만원으로 상향 투자의견 BUY 유지 2Q26 Review (단위: 십억원 %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 2026.06(P)| 2026.068) 2026.06(E) 2026.03(A)| 000 매출액 7949 750.0 6.0 7398 74 6236| 275 165 영업이익 737 670| 101 69.6 5.9 608} 212 530| 39.0 지배주주순이익 487 434| _ 123 418 165 209| 71327 4",
+              "date": "2026-08-12",
+              "source": "https://t.me/daolresearch/14850"
+            },
+            {
+              "company": "한국콜마",
+              "direction": "상향",
+              "old": null,
+              "new": 170000,
+              "display": "170,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "수주 상황ㅇ 견조하다는 점을 반영하여 국내 매출액 YOY +33%, QoQ -1% 성장 기대. —= 5) 조업일수 약 5일 QoQ 깜소하나, 생산 최적화 통해 달성 전망 :선케어 고객사의 일부 이탈이 있었던 2025년과 다르게 꾸준히 고객사 유입 나타나고 있으며, 옵션 가치였던 미국 OTC 선케어 매출이 실적에 기여하고 있다는 점 또한 중요. 8/9일부터 신규 자외선 차단 성분 판매 가능. 2H26E/2027E2] 추가적인 성장 동력. 추정치 상향으로 적정주가 17만원으로 상향, 투자의견 BUY 유지 시장 ee 전년 을 전분2 2026.03(A) QoQ 2.8 8279 730.8 178 728.0 18.3 148 94.9 16.3 73.5 50.2 78.9 39.9 17.6 549 144 34.9 79.8 45.2 39.1 OPM 128 11.5 13 11.5 13 10.1 28 10.8 2.0 NIM 6.4 0.9 6.6 0.7 48 25 6.2 1.1 Note: K-IFRS 연결 기준 Source: 다올투자증권 매",
+              "date": "2026-08-13",
+              "source": "https://t.me/daolresearch/14865"
+            },
             {
               "company": "판단",
               "direction": "상향",
@@ -2941,10 +3236,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 n/a 원화 약세가 GPMol] 직접 반영된 결과 배당수익률(6) Us 06 Us 2%) 전망. 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "배당수익률(6) Us 06 Us 2%) 전망.",
+              "valuation": [
+                "외국인 지분율 76% [유럽] 1,7349(YoY +62%) 성장하며, Boots UK, Superdrug 등 내셔널",
+                "PBR(HH) 5.6 40 2.9 하락 전환, 산업 성장률을 상회해 온 궤적에서 처음 이탈.",
+                "EV/EBITDA(HH) 11.3 8.7 6.8 425429 (YOY +42%, QoQ +6%), 영업이익 817A (YoY +30%, QoQ -",
+                "Performance 1M 6M 12M YTD _ stem sa 고",
+                "7 실리콘투 1204 Fwd PER 밴드 차트",
+                "2 실리콘투 Valuation Scenario"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143389/1/20260814_257720_alex.park_597.pdf",
@@ -2968,10 +3270,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 44.1% 일회성 관세 환급 20억원 제꺼 시 실질 OPM 24.2%. 주요주주지분율(%) 333억원(0 +99%, QoQ -29%), OPM 19.0%를 전망. PER(HH) 23.1 21.8 15.6 TAI6AA (YOY +44%), 2027E 1221(YoY +37%) 전망 회사 잠정 당사 예상 시장 컨센서스 전년 동기",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "주요주주지분율(%) 333억원(0 +99%, QoQ -29%), OPM 19.0%를 전망. PER(HH) 23.1 21.8 15.6 TAI6AA (YOY +44%), 2027E 1221(YoY +37%) 전망",
+              "valuation": [
+                "Valuationwide 2025 20266 202 매출액 비중 23%)2 외형 성장 겨냥한 선투자 2026 매출액",
+                "PER(HH) 23.1 21.8 15.6 TAI6AA (YOY +44%), 2027E 1221(YoY +37%) 전망",
+                "PBR(HH) 9.2 8.9 6.0",
+                "EV/EBITDACH) 16.8 16.1 10.5 : 오프라인: 미국 코스트코 20268말 6254, Set 1.450점에서 매대 추가",
+                "Performance 14 6M 1204 YTD 예정.",
+                "Fwd EPSol] 적정 PER 적용한 적정주가 34만원 유지"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143390/1/20260814_483650_alex.park_598.pdf",
@@ -2995,11 +3304,16 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "경사 예상 시장 컨센서스 전년 동기 오리지널 EBD 시술가 감소나 시술 다양화가 원인 판단. 파업 종료에 따른 신규 개원의 감소 등이 내수 매출 Hse] 원인 판단",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "경사 예상 시장 컨센서스 전년 동기 오리지널 EBD 시술가 감소나 시술 다양화가 원인 판단. 파업 종료에 따른 신규 개원의 감소 등이 내수 매출 Hse] 원인 판단",
+              "valuation": [
+                "Valuation wide 2025",
+                "EV/EBITDA(HH) 18.6"
+              ],
+              "earnings_changes": [
+                "2: StHAl|A 분기별 실적 추정"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143349/1/20260813_214150_alex.park_592.pdf",
               "pdf_error": "",
@@ -3020,13 +3334,48 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "한국콜마",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 170000,
+                  "display": "170,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "수주 상황ㅇ 견조하다는 점을 반영하여 국내 매출액 YOY +33%, QoQ -1% 성장 기대. —= 5) 조업일수 약 5일 QoQ 깜소하나, 생산 최적화 통해 달성 전망 :선케어 고객사의 일부 이탈이 있었던 2025년과 다르게 꾸준히 고객사 유입 나타나고 있으며, 옵션 가치였던 미국 OTC 선케어 매출이 실적에 기여하고 있다는 점 또한 중요. 8/9일부터 신규 자외선 차단 성분 판매 가능. 2H26E/2027E2] 추가적인 성장 동력. 추정치 상향으로 적정주가 17만원으로 상향, 투자의견 BUY 유지 시장 ee 전년 을 전분2 2026.03(A) QoQ 2.8 8279 730.8 178 728.0 18.3 148 94.9 16.3 73.5 50.2 78.9 39.9 17.6 549 144 34.9 79.8 45.2 39.1 OPM 128 11.5 13 11.5 13 10.1 28 10.8 2.0 NIM 6.4 0.9 6.6 0.7 48 25 6.2 1.1 Note: K-IFRS 연결 기준 Source: 다올투자증권 매"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "한국콜마",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 170000,
+                  "display": "170,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "수주 상황ㅇ 견조하다는 점을 반영하여 국내 매출액 YOY +33%, QoQ -1% 성장 기대. —= 5) 조업일수 약 5일 QoQ 깜소하나, 생산 최적화 통해 달성 전망 :선케어 고객사의 일부 이탈이 있었던 2025년과 다르게 꾸준히 고객사 유입 나타나고 있으며, 옵션 가치였던 미국 OTC 선케어 매출이 실적에 기여하고 있다는 점 또한 중요. 8/9일부터 신규 자외선 차단 성분 판매 가능. 2H26E/2027E2] 추가적인 성장 동력. 추정치 상향으로 적정주가 17만원으로 상향, 투자의견 BUY 유지 시장 ee 전년 을 전분2 2026.03(A) QoQ 2.8 8279 730.8 178 728.0 18.3 148 94.9 16.3 73.5 50.2 78.9 39.9 17.6 549 144 34.9 79.8 45.2 39.1 OPM 128 11.5 13 11.5 13 10.1 28 10.8 2.0 NIM 6.4 0.9 6.6 0.7 48 25 6.2 1.1 Note: K-IFRS 연결 기준 Source: 다올투자증권 매"
+                }
+              ],
+              "pitch": "+55%, QoQ -18%)S 전망. 조업일수 약 5일 QoQ 깜소하나, 생산 최적화 통해 달성 전망",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "+55%, QoQ -18%)S 전망. 조업일수 약 5일 QoQ 깜소하나, 생산 최적화 통해 달성 전망 17만원으로 상향, 투자의견 BUY 유지",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(HH) 11.7 16.0 13.8",
+                "PBR(HH) 1.6 2.9 24",
+                "EV/EBITDA(H) 6.9 8.8 7.7",
+                "Performance 1M 6M 12M YTD",
+                "PER Valuation 2022"
+              ],
+              "earnings_changes": [
+                "추정치 상향으로 로 a 17만 원 상향"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143350/1/20260813_161890_alex.park_593.pdf",
               "pdf_error": "",
@@ -3047,13 +3396,49 @@
               "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "코스맥스",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 290000,
+                  "display": "290,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "Performance 14 6M. 12M __ YTD 526억원(6? +16%)°] 수출로 보완, [인니] 280A 21(YoY +30%) 주가상승률 (%) 21.6 34 (11.2) 288 ㆍ KOSPI CH] 상수율] 36.7 (15.1) (109.1) (21.7) ㆍ 2026E 매출액 2.9조원(6 +22%), 영업이익 24734 (YoY +26%)으로 ” 상향, 미국이 옴션 가치에서 실적 기여로 재분류되는 국면인 점이 고무적, 추정치 상향에 따라 적정주가 29만원으로 상향 투자의견 BUY 유지 2Q26 Review (단위: 십억원 %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 2026.06(P)| 2026.068) 2026.06(E) 2026.03(A)| 000 매출액 7949 750.0 6.0 7398 74 6236| 275 165 영업이익 737 670| 101 69.6 5.9 608} 212 530| 39.0 지배주주순이익 487 434| _ 123 418 165 209| 71327 4"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "코스맥스",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 290000,
+                  "display": "290,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "Performance 14 6M. 12M __ YTD 526억원(6? +16%)°] 수출로 보완, [인니] 280A 21(YoY +30%) 주가상승률 (%) 21.6 34 (11.2) 288 ㆍ KOSPI CH] 상수율] 36.7 (15.1) (109.1) (21.7) ㆍ 2026E 매출액 2.9조원(6 +22%), 영업이익 24734 (YoY +26%)으로 ” 상향, 미국이 옴션 가치에서 실적 기여로 재분류되는 국면인 점이 고무적, 추정치 상향에 따라 적정주가 29만원으로 상향 투자의견 BUY 유지 2Q26 Review (단위: 십억원 %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 2026.06(P)| 2026.068) 2026.06(E) 2026.03(A)| 000 매출액 7949 750.0 6.0 7398 74 6236| 275 165 영업이익 737 670| 101 69.6 5.9 608} 212 530| 39.0 지배주주순이익 487 434| _ 123 418 165 209| 71327 4"
+                }
+              ],
+              "pitch": "예상 주가상승률 38.1% 최대. See ee aes more 702억원(0 +64%, QoQ -5%)S 전망. “eae 200 M1 주요 고객 리오더와 서부 인디 신규 오더의 지속 전망 [중국] 상하ㅇ 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 BUY 유지 적정주가 29만원으로 상향 See ee aes more 702억원(0 +64%, QoQ -5%)S 전망. “eae 200 M1 주요 고객 리오더와 서부 인디 신규 오더의 지속 전망 [중국] 상하ㅇ 추정치 상향에 따라 적정주가 29만원으로 상향 투자의견 BUY 유지",
+              "valuation": [
+                "PBR(HH) 37 37 29 +36%)으로 12개월 이내 신제품 비중 확대와 더마ㆍ크림 리오더어",
+                "Performance 14 6M.",
+                "PER Valuation 2022 2023 2024 2025 2026E 2027E",
+                "Note: 글로벌 화장품 평균 PER 30% 할인"
+              ],
+              "earnings_changes": [
+                "장사 첫 영업흑자와 국내 겔마스크 수을 WAS 반영해 추정치 상향",
+                "추정치 상향에 따라 적정주가 29만원으로 상향 투자의견 BUY 유지"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143309/1/20260812_192820_alex.park_591.pdf",
               "pdf_error": "",
@@ -3074,13 +3459,36 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
+              "tp_changes": [
+                {
+                  "company": "넥스트바이오메디컬",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 90000,
+                  "display": "90,000원 (하향)",
+                  "reasons": [
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "formance 1M 6M 12M YTD _ 은 ° 주가상승률 (%) 28 (49.9) (26.9) (56.5) ° 색전 통한 통증 감소 기 전을 가진 넥스 스피어는 2027. 04월 미국 임 임상 KOSDAQ HH] AHALE (4) 0.3 (26.9) (32.5) (49.2) 1차 평가 wll 후 후 6개월) 발표 예정으로 대조군과 비교를 Fo 유효성 확인 후 본격 가치 반영 기대. WACC 10.6%(7|존 9.5%)로 상향 조정하여 SOTP 통해 산정한 적정주가 9만원 하향, 투자의견 80 유지 2Q26 Review (단위: 십억원, %, %p) 매 당사 = 시장 ol won 전년 부드 2026.06(A)| 2026.06(E VS | vs Chg| 2026.06(E VS | vs Con| 2025.06(A QoQ 매출액 (20.4) (3.2) 4. . 19.8 영업이익 시 . 적지 i” 적지 (0.6) OPM (20.9) (28.8) 79 (23.5) 2.6 0.5 (21.4) (28. no . NIM (12."
+                }
+              ],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 131.4% +62%)이 매출종이익 증가분을 상회. Valuation wide 2025 2026E 2027E 확대 전망. * 타임라인은 예상 일정이며임상 진행 상황에따라 변동 될 수 있음 Fig.3: 넥스트바이오메디컬 실적 전망",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "Valuation wide 2025 2026E 2027E 확대 전망. 조정하여 SOTP 통해 산정한 적정주가 9만원 하향, 투자의견 80 유지 Fig.3: 넥스트바이오메디컬 실적 전망",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E 확대 전망.",
+                "PER(HH) n/a n/a n/a _",
+                "PBR(HH) 153 72 72 도달하며 2H26E 임상비 504°] 집행되기 때문.",
+                "EV/EBITDA(HH) n/a n/a n/a 4Q27~1Q28 FDA 91°] 가시권에 진입하고, 9월 CIRSE 2026에서는",
+                "Performance 1M 6M 12M YTD _ 은 °",
+                "WACC 10.6%(7|존 9.5%)로 상향"
+              ],
+              "earnings_changes": [
+                "현재 직전 aS 반영해 추정치 하향.",
+                "Fig.3: 넥스트바이오메디컬 실적 전망"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143308/1/20260812_389650_alex.park_590.pdf",
               "pdf_error": "",
@@ -3101,13 +3509,52 @@
               "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "펌텍코리아",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 76000,
+                  "display": "76,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "8 매출액 4,349억원(<6 Performance 1M 6M 12M _ YID +17%), 영업이익 750억원(6 +33%) OS 추정치 상향 주가상승률 (%) 17.2 (15.0) (249) (1.7) KOSDAQ Cd] ACIADS (4) 14.7 81 (306) 5.6 2026 실적 발표에서 ODM/27/AF 모두 견조한 KHE] 수요를 동시다발적 확인, 2H26EN 해당 27] 확산 기대. 판가 온7| 반영은 3Q26E 상방 요인. 추정치 상향으로 적정주가 7.6만원으로 상향 u: 2Q26 Review %, %p) 회사 잠정 당사 예상 al 2026.06(P)| _2026.06(E) 2026.06( . 000 매출액 116.8 123.7 (5.6) 1 ! 27.3 영업이익 21.6 230| 659 |! o| 669 지배주주순이익 18.1 153| 186 43.3 OPM 44 NIM 1.7 Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 펌텍코리아 Fig. 7; 펌텍"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "펌텍코리아",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 76000,
+                  "display": "76,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "8 매출액 4,349억원(<6 Performance 1M 6M 12M _ YID +17%), 영업이익 750억원(6 +33%) OS 추정치 상향 주가상승률 (%) 17.2 (15.0) (249) (1.7) KOSDAQ Cd] ACIADS (4) 14.7 81 (306) 5.6 2026 실적 발표에서 ODM/27/AF 모두 견조한 KHE] 수요를 동시다발적 확인, 2H26EN 해당 27] 확산 기대. 판가 온7| 반영은 3Q26E 상방 요인. 추정치 상향으로 적정주가 7.6만원으로 상향 u: 2Q26 Review %, %p) 회사 잠정 당사 예상 al 2026.06(P)| _2026.06(E) 2026.06( . 000 매출액 116.8 123.7 (5.6) 1 ! 27.3 영업이익 21.6 230| 659 |! o| 669 지배주주순이익 18.1 153| 186 43.3 OPM 44 NIM 1.7 Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 펌텍코리아 Fig. 7; 펌텍"
+                }
+              ],
+              "pitch": "예상 주가상승률 48.4% 두 자릿수 성장을 시현 EV/EBITDA(H) 8.3 6.2 50 227억원(6 +48%, QoQ +5%), OPM 191% 전망.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "EV/EBITDA(H) 8.3 6.2 50 227억원(6 +48%, QoQ +5%), OPM 191% 전망.",
+              "valuation": [
+                "Valuationwide 2025 20266 2027 대비 원료 이슈에 따른 고객사 판가 인상을 선제적으로 시행",
+                "PER(H) 18.8 12.1 10.6 oie 여어이이",
+                "PBR(HH) 22 19 16 ㆍ30268 매출액 1.185억원(0 +21%, QoQ +1%), 영업이익",
+                "EV/EBITDA(H) 8.3 6.2 50 227억원(6 +48%, QoQ +5%), OPM 191% 전망.",
+                "Performance 1M 6M 12M _ YID +17%), 영업이익 750억원(6 +33%) OS 추정치 상향",
+                "7; 펌텍코리아 PER Valuation"
+              ],
+              "earnings_changes": [
+                "추정치 상향에 따라 적정주가 7.6만원으로 상향",
+                "Performance 1M 6M 12M _ YID +17%), 영업이익 750억원(6 +33%) OS 추정치 상향",
+                "추정치 상향으로 적정주가 7.6만원으로 상향"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143307/1/20260812_251970_alex.park_589.pdf",
               "pdf_error": "",
@@ -3125,7 +3572,7 @@
               "company": "산업/기타",
               "code": "",
               "report_type": "산업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
@@ -3157,11 +3604,18 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 36.8% +63%)ㆍ영업이익 245억(0 +77%)°] 서프라이즈를 견인. 배당수익률(6) 08 04.08 335억원(201 +23%, QoQ +49%)을 전망. 각각 1,779억원과 636억원으로 YoY +37%, +3% 성장 전망 회사 잠정 당사 예상 시장 384 | 전년 러그",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 840 유지 13만원으로 상향 배당수익률(6) 08 04.08 335억원(201 +23%, QoQ +49%)을 전망. 각각 1,779억원과 636억원으로 YoY +37%, +3% 성장 전망",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E 5~10위권 중소 고객사 비중이 1% 미만에서 2~3%로 확대되며 고객 저변",
+                "PER(HH) 15.7 13.8 11.9 확장 확인",
+                "EV/EBITDA(HH) 8.0 8.4 74 © 3Q26E 매출액 233682(YoY +28%, QoQ +3%), 영업이익",
+                "Performance 1M 6M 12M YTD ae _ _"
+              ],
+              "earnings_changes": [
+                "현재 직전 aS 고객사 저변 확대와 연간 가이던스 재상향 반영해 추정치 상향 yan"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143268/1/20260811_241710_alex.park_587.pdf",
               "pdf_error": "",
@@ -3213,10 +3667,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 n/a [판관비] 76억원(6? PBR(HH) 13 1.0 09 +99%, QoQ +57%)S 전망. 배당수익률(%) 41 5.7 5.7 전망이며, 재고 소진에 따른 운전자본 개선도 동반될 국면. 1.391억원(707 +18%), 영업이익 318억원(6 +63%)을 전망",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "PBR(HH) 13 1.0 09 +99%, QoQ +57%)S 전망. 배당수익률(%) 41 5.7 5.7 전망이며, 재고 소진에 따른 운전자본 개선도 동반될 국면. 1.391억원(707 +18%), 영업이익 318억원(6 +63%)을 전망",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E © 3Q26E 매출액 393억원(6 +21%, QoQ +33%), 영업이익 9421(YoY",
+                "PER(HH) 141 65 49 = as _",
+                "PBR(HH) 13 1.0 09 +99%, QoQ +57%)S 전망.",
+                "EV/EBITDA(H) 75 45 32 10억원이 더해져 일본 매출액은 2Q26P 대비 2배 수준으로 회복될",
+                "Performance 1M 6M 12M YTD",
+                "주가상승률 (%) (0.7) (243) (266) (12.1) 20268 PER 6.5배 진입하며, 유동% 성 및 사업 계획 지연 우려 반영."
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143229/1/20260810_119610_alex.park_586.pdf",
@@ -3238,12 +3699,42 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "씨젠",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 47000,
+                  "display": "47,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "DAOL 다올투자증권 10 Aug. 2026 씨젠 (096530) 코스닥에서 이 정도의 체급을 박종현 의료기기 | alex.park@daolfn.com Issue 2Q26P Review Pitch 2Q26P 영업이익 컨센서스 18% YS]. BI 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 현재 시 rt re 애 7 Cc fo} 투자의견 BUY 유지 적정주가 47,000 45,000 상향 Rationale Earnings 상향 ㆍ 2026? 매출액 13359억(6? +19.1%, QoQ +5.2%), 영업이익 216억(0 ae +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 1439 (YoY +40%, QoQ +20%)°] 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 Stock Information 5 의 thax _ = ; 현재가 (8/7) 28,900원 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "씨젠",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 47000,
+                  "display": "47,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "DAOL 다올투자증권 10 Aug. 2026 씨젠 (096530) 코스닥에서 이 정도의 체급을 박종현 의료기기 | alex.park@daolfn.com Issue 2Q26P Review Pitch 2Q26P 영업이익 컨센서스 18% YS]. BI 스크리닝 편입으로 HPV 매출 성장 지속. 연내 자사주 소각 동반 예정. 적정주가 4.7만원 상향 현재 시 rt re 애 7 Cc fo} 투자의견 BUY 유지 적정주가 47,000 45,000 상향 Rationale Earnings 상향 ㆍ 2026? 매출액 13359억(6? +19.1%, QoQ +5.2%), 영업이익 216억(0 ae +586.4%, QoQ -8.3%)으로 컨센서스 상회. [HPV] 1439 (YoY +40%, QoQ +20%)°] 견인, 전사 매출의 11%. 중남미와 아시아는 각각 매출액 Stock Information 5 의 thax _ = ; 현재가 (8/7) 28,900원 169억원과 259억원을 달성하며, YoY +48%, +35% 성장하며, 금번"
+                }
+              ],
+              "pitch": "예상 주가상승률 62.6% 성장을 견인. ial 257 00 149 0 133 영업이익 184억(0 +92%, QoQ -1596)을 전망. 가능성을 염두 30268 OPMS QoQ -2.1%p 감소한 13.8% 전망 Performance 1M 64 12M YTD ㆍ 20)26에도 주당 3007 분기배당 전망(연환산 시가배당률 4.2%), 4Q26E",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "ial 257 00 149 0 133 영업이익 184억(0 +92%, QoQ -1596)을 전망. 가능성을 염두 30268 OPMS QoQ -2.1%p 감소한 13.8% 전망 Performance 1M 64 12M YTD ㆍ 20)26에도 주당 3007 분기배당 전망(연환산 시가배당률 4.2%), 4Q26E 고정비 부담시기 영업레버리지 발생 전망",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E 실적 방향성 제시.",
+                "PBR(#t) 13 1.4 13 모려있다는 AS.",
+                "EV/EBITDA(HH) 9.2 74 6.0 1있다는 점을 감안하면, 30)보다는 40) 유의미한 QoQ 실적 성정 Ih",
+                "Performance 1M 64 12M YTD ㆍ 20)26에도 주당 3007 분기배당 전망(연환산 시가배당률 4.2%), 4Q26E",
+                "Target EV/EBITDA multiple (배) © 119 글로벌 진단 20265ㄷ 평균 EV/EBITDA 30% 할인 적용"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143228/1/20260810_096530_alex.park_584.pdf",
@@ -3265,13 +3756,50 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "파마리서치",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 550000,
+                  "display": "550,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "+25%를 상회하는 국면 Performance 1M 6M 12M _ YTD oe _ _ - 주가상승률 (%) 112 113 (377) G1) *8/7일 실적 발포 직후, 높은 시장 기대치 대비 하회한 실적으로 주7 KOSDAQ 54비상두음) 15.1 37.4 (369) 7.6 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 2026 Review (단위: 십억원, %, %p) 외사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.060 2026.06(E) 000 매출액 1787 175.8 169.5 140.6 27.1 146.1) 223 영업이익 66.5 67.5 (1.5) 677 (1.8) 559 19.0 573| 16.0 지배주주순이익 50.7 51.3 (1.1) 538 (5.7) 474 7.0 476 6.6 NIM 28.4 29.2"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "파마리서치",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 550000,
+                  "display": "550,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "+25%를 상회하는 국면 Performance 1M 6M 12M _ YTD oe _ _ - 주가상승률 (%) 112 113 (377) G1) *8/7일 실적 발포 직후, 높은 시장 기대치 대비 하회한 실적으로 주7 KOSDAQ 54비상두음) 15.1 37.4 (369) 7.6 하락했으나, 수출 중심 견조한 탑라인 성장과 일회성 판관비를 확인하며, 주가 하락폭 축소. 8/11일 의료 관광 데이터 발표에서 견조한 피부과 성장 확인이 관건. 수출 추정치 상향과 함께 적정주가 55만원 상향 2026 Review (단위: 십억원, %, %p) 외사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.060 2026.06(E) 000 매출액 1787 175.8 169.5 140.6 27.1 146.1) 223 영업이익 66.5 67.5 (1.5) 677 (1.8) 559 19.0 573| 16.0 지배주주순이익 50.7 51.3 (1.1) 538 (5.7) 474 7.0 476 6.6 NIM 28.4 29.2"
+                }
+              ],
+              "pitch": "예상 주가상승률 45.3% 회복으로 성수7| 효과. PBR(HH) 74 53 42 +15%, QoQ +7%)를 전망. EV/EBITDA(HH) 16.9 12.1 92 QoQ 감소 전망. 외사 잠정 당사 예상 시장 컨센서스 전년 동기",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "현재 직전 변동 적정주가 55만원 상향, 투자의견 BUY 유지 PBR(HH) 74 53 42 +15%, QoQ +7%)를 전망. EV/EBITDA(HH) 16.9 12.1 92 QoQ 감소 전망.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E 이 30268 매출액 1.825억(6 +35%, 000 +2%), 영업이익 712억 YoY",
+                "PER(HH) 25.4 19.0 155 _ ; ; 0",
+                "PBR(HH) 74 53 42 +15%, QoQ +7%)를 전망.",
+                "EV/EBITDA(HH) 16.9 12.1 92 QoQ 감소 전망.",
+                "Performance 1M 6M 12M _ YTD oe _ _ -",
+                "PER Valuation 2021 2022 2023 2024 2025 2026E 2027E"
+              ],
+              "earnings_changes": [
+                "수출 추정치 상향과 함께 적정주가 55만원 상향"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143227/1/20260810_214450_alex.park_583.pdf",
               "pdf_error": "",
@@ -3294,11 +3822,20 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 n/a 영업이익 148억원(0ㅁ0) 20%) LS 추정치 상회. PBR(HH) 14 26 22 601억원(70 +63%, OPM 21%) 전망하며 추정치 상향 조정.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 Not Rated 환으로 성장 저변 확대 국면 PBR(HH) 14 26 22 601억원(70 +63%, OPM 21%) 전망하며 추정치 상향 조정.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(Hi aA ARIS Ae +52%, QoQ -16%), 2026E 매출액 2.848억원(0 +22%), 영업이익",
+                "PBR(HH) 14 26 22 601억원(70 +63%, OPM 21%) 전망하며 추정치 상향 조정.",
+                "Performance 14 6M 124 YTD :의료71기 업종 내 GLP-1 확산에 따른 수혜 종목으로서 관심 SS (Not",
+                "주가상승률 (%) 203 1090 1473 1137 Rated) 유지, 전일 실적 발표 후, 주가 상승으로 20268 PER 17.644 도달.",
+                "구간이며, 해이 진출 기대깝이 BE 2018-2019년 구간 Historical PER"
+              ],
+              "earnings_changes": [
+                "PBR(HH) 14 26 22 601억원(70 +63%, OPM 21%) 전망하며 추정치 상향 조정."
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143190/1/20260807_041830_alex.park_582.pdf",
               "pdf_error": "",
@@ -3319,12 +3856,44 @@
               "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "휴젤",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 430000,
+                  "display": "430,000원 (상향)",
+                  "reasons": [
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "미 법인 인력 Performance 1M 6M 12M _ YID 6 ona = = - 주가상승률 (%) 136 146 (184) 210 증가는 2026.02월 이후 34명으로 월별 채용 인력 확대 중. 다만, 사모펀드 KOSDAQ CHU] ACIS (94) 19.0 40.4 (18.2) 344 지휘 체제 St EBITDA Margin®] = 훼손 없는 인력 채용 전망 :중국의 구조적 성장에 미국 직판이라는 장7| 옴션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 = 전년 — 2026.06(P)| _2026.06(E) 2026.06(E)| __ vsCon| 2025.06(A)| 10 . 000 매출액 137.9 124.0 11.2 1269 110.3 25.1 18.2 영업이익 56.0 50.4 11.2 51.2 9.4 567 (1.2) . 17.6 지배주주순이익 43.3 40.3 41.8 36.4 "
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "휴젤",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 430000,
+                  "display": "430,000원 (상향)",
+                  "reasons": [
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "미 법인 인력 Performance 1M 6M 12M _ YID 6 ona = = - 주가상승률 (%) 136 146 (184) 210 증가는 2026.02월 이후 34명으로 월별 채용 인력 확대 중. 다만, 사모펀드 KOSDAQ CHU] ACIS (94) 19.0 40.4 (18.2) 344 지휘 체제 St EBITDA Margin®] = 훼손 없는 인력 채용 전망 :중국의 구조적 성장에 미국 직판이라는 장7| 옴션이 더해지는 국면으로 추정치 소폭 상향하며, 적정주가 43만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 = 전년 — 2026.06(P)| _2026.06(E) 2026.06(E)| __ vsCon| 2025.06(A)| 10 . 000 매출액 137.9 124.0 11.2 1269 110.3 25.1 18.2 영업이익 56.0 50.4 11.2 51.2 9.4 567 (1.2) . 17.6 지배주주순이익 43.3 40.3 41.8 36.4 "
+                }
+              ],
+              "pitch": "2032년까지 동사 기회 요인으로 판단. KOSDAQ CHU] ACIS (94) 19.0 40.4 (18.2) 344 지휘 체제 St EBITDA Margin®] = 훼손 없는 인력 채용 전망 회사 잠정 당사 예상 시장 = 전년 —",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "KOSDAQ CHU] ACIS (94) 19.0 40.4 (18.2) 344 지휘 체제 St EBITDA Margin®] = 훼손 없는 인력 채용 전망 추정치 소폭 상향하며, 적정주가 43만원 상향, 투자의견 BUY 유지",
+              "valuation": [
+                "PBR(HH) 37 37 29 인프라 구축 완료)과 중국 2H26E 선적 지속이 탑라인을 sane",
+                "Performance 1M 6M 12M _ YID 6 ona = = -",
+                "PER Valuation 2020 2021 2022 2023 2024 2025 2026E 2027E",
+                "3: 312M Fwd PER 밴드 Fig.",
+                "S31 12M Fwd PBR 밴드"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143191/1/20260807_145020_alex.park_581.pdf",
@@ -3346,13 +3915,51 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "에이피알",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 560000,
+                  "display": "560,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "26.1% 개선 전망 Performance 1M 6M 12M YTD _ . _ oa esx xo ASS (%) (65) 286 909 548 ㆍ 전 채널 매졸 SATE 추정지 상향 견인. 금번 실적 SSeS 동해 1) 매졸액 KOSPI | HSS (%) 11.9 08 (155) (1.8) 성장 GAS 북미 오프라인과 유럽 온라인 성과를 통해 해소하였고, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화를 통해 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.068) 2026.06(E) 2025,06(A) 000 매출액 767.5 726.0 5.7 735.2 4.4 327.7| 1342 . 29.4 영업이익 185.5 175.6 5.6 178.4 4.0 84.6 119.3 . 27.4 지배주주순이익 141.5 130.9 138.0 66.3 113"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "에이피알",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 560000,
+                  "display": "560,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "26.1% 개선 전망 Performance 1M 6M 12M YTD _ . _ oa esx xo ASS (%) (65) 286 909 548 ㆍ 전 채널 매졸 SATE 추정지 상향 견인. 금번 실적 SSeS 동해 1) 매졸액 KOSPI | HSS (%) 11.9 08 (155) (1.8) 성장 GAS 북미 오프라인과 유럽 온라인 성과를 통해 해소하였고, 2) OPM Peak 우려도 물류비 정상화 및 채널 믹스 변화를 통해 재가속 가능성 확인. 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 2Q26 Review (단위: YAH, %, %p) 회사 잠정 당사 예상 시장 컨센서스 전년 동기 2026.06(P)| 2026.068) 2026.06(E) 2025,06(A) 000 매출액 767.5 726.0 5.7 735.2 4.4 327.7| 1342 . 29.4 영업이익 185.5 175.6 5.6 178.4 4.0 84.6 119.3 . 27.4 지배주주순이익 141.5 130.9 138.0 66.3 113"
+                }
+              ],
+              "pitch": "예상 주가상승률 56.6% +265%)ㆍ유럽 1.45192 (YoY +380%)°] 견인 i Ba — ee oe +777.7% 전망. 카테고리 확장 의지가 동사 매출 확장에 기여 판단 따라 OPM 개선 여지 있음 20268 25.2% > 20278 26.1% 개선 전망",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "i Ba — ee oe +777.7% 전망. 따라 OPM 개선 여지 있음 20268 25.2% > 20278 26.1% 개선 전망 추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지 6: 매출액 대비 계정별 비중의 주이 및 전망",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E : Sk 북미 오프라인 비중 1326 18%—>2026P 23% 확대에도 온오프라인",
+                "PER(HH) 29.9 22.1 17.2",
+                "PBR(HH) 197 137 87 시장 간 잠식 관찰되지 않음 온라인에서도 여전히 대체데이 EVs, 아마존",
+                "EV/EBITDA(HH) 21.6 15.7 11.9 US 점유율 174%(WoW +1.9%p), 틱톡샵 채널 GMV 우상향 기조",
+                "Performance 1M 6M 12M YTD _ .",
+                "Note: 글로벌 화장품 평균 PER 10% 할증 적용"
+              ],
+              "earnings_changes": [
+                "추정치 상향으로 적정주가 56만원 상향",
+                "추정치 상향으로 적정주가 56만원 상향, 투자의견 BUY 유지"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143147/1/20260806_278470_alex.park_580.pdf",
               "pdf_error": "",
@@ -3397,14 +4004,14 @@
               "company": "산업/기타",
               "code": "",
               "report_type": "산업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "000 실적 둔화에 대한 우려를 불식했다는 판단",
+              "industry_conclusion": "000 실적 둔화에 대한 우려를 불식했다는 판단",
+              "report_conclusion": "000 실적 둔화에 대한 우려를 불식했다는 판단",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -3776,6 +4383,11 @@
               "value": "비중확대",
               "date": "2026-08-04",
               "source": "https://t.me/daolresearch/14758"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-08-10",
+              "source": "https://t.me/daolresearch/14822"
             }
           ],
           "top_picks": [
@@ -4089,7 +4701,7 @@
               "company": "Nissin Food Holdings",
               "code": "2897 JT Equity",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
@@ -4097,7 +4709,9 @@
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
-              "valuation": [],
+              "valuation": [
+                "PER(x) 2023 27.5 74 28 37"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143232/1/20260810_B_lizzy_89.pdf",
@@ -4877,9 +5491,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "간 총 650만장 이상의 기여는 충분히 가능할 전망. 빅뱅은 8/19 선공개 디싱 공개 예정으로 피지컬 앨범은 4Q 발매 예상 40 추가 컴백이 예상되며 26년 연간 총 650만장 이상의 기여는 충분히 PAs 감안하면 향후 일본 공연 성장 잠재성이 크다고 판단.",
+              "industry_conclusion": "간 총 650만장 이상의 기여는 충분히 가능할 전망.",
+              "report_conclusion": "간 총 650만장 이상의 기여는 충분히 가능할 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -5625,10 +6239,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Refinitiv, CHS =A}S7 Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143392/1/20260814_B_bhcho_293.pdf",
@@ -5652,10 +6268,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/143195/1/20260807_B_bhcho_292.pdf",
@@ -6784,10 +7402,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 59.8% 어워 6 8 Na ㅅ텐가 Bajo] tc a 9200 691 120 008) 예성되어 있기 때문에 계절성은 있겠으나 견고한 실적 이어갈 전망 회사 잠정 당사 예상 시장 | wom 전년 동기",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "현재 직전 변동 파이프라인 확장이 고무적이며 투자의견 BUY 및 적정주가 390,000원 유지 a 9200 691 120 008) 예성되어 있기 때문에 계절성은 있겠으나 견고한 실적 이어갈 전망",
+              "valuation": [
+                "Valuationwide 2025 20266 202 [영업비용] 8.793억원(+111.496 YoY, +8.6% QoQ).",
+                "PER(HH) 15.9 137 86 ADK 비용이 반영되며 증가하였고, 전분7| 대비로는 <서브노티카 2>의",
+                "PBR(HH) 22 20 17 플랫폼 수수료와 마케팅비가 반영되며 상승",
+                "EV/EBITDA(HH) 74 50 3.9",
+                "Performance 1M 6M 12M YTD",
+                "ㆍ 크래프톤 Valuation Table"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142911/1/20260730_259960_hyyy_202.pdf",
@@ -7171,10 +7796,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승륭 64.5% 영업이익 1.594억원으로 당사주성치 컨센서스 각각 40.3%, 28.8% 상회. 발행주식수 38,694천주 수주도 개선되고 있어 점진적 개선세 지속 전망. PBR(HH) 0.3 0.4 0.4 수주 분위기도 양호할 전망. 회사 잠정 당사 예상 시장 384 | 전년 러그",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 인한 판매관리비 증가에도 불구하고 영업이익 서프라이즈, 수주 성과도 전년대비 발행주식수 38,694천주 수주도 개선되고 있어 점진적 개선세 지속 전망. PBR(HH) 0.3 0.4 0.4 수주 분위기도 양호할 전망.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(HH) 3 1 1.6 수주 2.6조원.",
+                "PBR(HH) 0.3 0.4 0.4 수주 분위기도 양호할 전망.",
+                "EV/EBITDA(HH) 15 0.5 0.2",
+                "배당수익률(%) 2.2 1.6 1.6 : BS 내 가장 양호한 재무 안정성과 낮은 밸류에이션 메리트 보유 SMR, 대ㅁ",
+                "Performance 1M 6M 124 YTD 유지."
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142950/1/20260731_375500_ypark_112.pdf",
@@ -7198,10 +7830,16 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 71.2% BAN 914억원으로 당사추정치와 컨센서스 각각 30.7%, 23.2% 하회. 발행주식수 85,581선주 구간이나 주택 사업장 착공 이어지고 있어 점진적 매출 개선 예상. 1 ; 서 분양, 연간 가이던스 1.4만세대ㅇ 이를 상회할 것으로 전망. 원가 인정 흐름 반영하여 하반기 이후 SE} 매출이익률 전망치",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 판매관리비에 대규모 대손 반영되면서 컨센서스 하회. 주세 확인됨으로 투자의견 Buy 유시 1 ; 서 분양, 연간 가이던스 1.4만세대ㅇ 이를 상회할 것으로 전망. 원가 인정 흐름 반영하여 하반기 이후 SE} 매출이익률 전망치 1%p 상향 본업 개선 방향 Slots] 추가 대손 확률은 점진적으로 하향 전망",
+              "valuation": [
+                "Valuationwide 20256 20266 2027",
+                "PER(HH) 18.0 122 59 ㆍ HT] 누적 수주 7.8조원으로 연간 가이던스 17.8조원의 44% 달성.",
+                "EV/EBITDAG 69 47 3.9 아이 이이이 아이오 느 0",
+                "Performance 1M 64 12M 110 아쉬우나, 비용반영의 확률이 낮아지고 있음은 긍정적.",
+                "(X) ——PERFwd12 ——PER Fwd24 00 ——PBRFY1 ——ROE(2) FY1 (%)"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142908/1/20260729_006360_ypark_110.pdf",
@@ -7225,10 +7863,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "현재 직전 wg 자체와 외주주택 매출 인식이 예상보다 다소 낮았음에도 불구하고 외주주택 carn 속도가 점차 빨라지는 구간으로 분기마다 이익 수준이 높아지는 패턴 반복 전망. 예상 주가상승률 51.2% ㆍ 2분기 매출액 9,146억원으로 당사추정치와 컨센서스 각각 14.9%, 7.6% 하회. 발행주식수 65,907천주 :자체와 외주주택 매출 인식이 당초 전망보다 다소 부진.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 이익률이 10% 중반을 Ae 유지하면서 이익 FEE 기대치 부합. carn 속도가 점차 빨라지는 구간으로 분기마다 이익 수준이 높아지는 패턴 반복 전망. 적정주가 31.000원과 투자의견 Buy 유지. 발행주식수 65,907천주 :자체와 외주주택 매출 인식이 당초 전망보다 다소 부진. 주요주주지분율) 빨라지면서 매출도 분기별로 증가하는 흐름 전망.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E 운정아이파크포레스트 등 수익성이 양호한 현장이 기여하고 있는 것으로 추정.",
+                "PER(HH) 9.1 41 3.1 주택 사이클의 개선으로 추가 업사이드 은",
+                "PBR(HH) 0.5 0.4 0.4 Toa } ]클의 개선 주가 } ]드7 대 7 o-",
+                "EV/EBITDA(H) 9.1 46 35 a) 이이 이오 5 wu 5 .",
+                "Performance 14 6M 124 YTD * 주택 종심의 실적 개선 본격적으로 확인되7| 시작.",
+                "주가상승률(%) 7.7 0.2 (13.1) (64) 수주로 이 해 밸류에이션 HES 받고 고 있으나 이를 감안하더라도 20276"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142807/1/20260727_294870_ypark_109.pdf",
@@ -7463,6 +8108,11 @@
               "text": "• K뷰티의 전방위적인 확산에 따라 업종 바스켓 매수가 유효한 구간으로 판단, 의료기기/화장품 업종 선호 의견 유지한다.",
               "date": "2026-07-03",
               "source": "https://t.me/daolresearch/14494"
+            },
+            {
+              "text": "Through 데이터 확인, 업종 선호 의견 유지(2060\\0610111).",
+              "date": "2026-07-28",
+              "source": "https://t.me/daolresearch/14671"
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
@@ -7538,10 +8188,14 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 KISS 3430 (YoY +63%)9] AF 고성장이 전사 외형을 견인. KOSPI Cul ACIALE (%) 60.8 (10.5) (71.6) (20.6) 3%)S 전망. 회사 잠정 당사 예상 시장 컨센서스 전분기",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "판매 호조가 북미 이익 레벨업 견인, 적정주가 18만원ㆍ투자의견 BUY 유지 KOSPI Cul ACIALE (%) 60.8 (10.5) (71.6) (20.6) 3%)S 전망. 적정주가 18만원ㆍ투자의견 BUY 유지",
+              "valuation": [
+                "PBR(Et) 22 23 22 4주 연속 우상향(0/4/\\/1 1.4배)에 규모, 재생 1회당 684\\(중앙값의 4배),",
+                "EV/EBITDA(HH) 11.9 10.4 9.2 크리에이터 분산 모두 ※뷰티 12개 브랜드 중앙값 상회.",
+                "Performance 1M 6M 12M YTD"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142948/1/20260731_090430_alex.park_577.pdf",
@@ -7565,10 +8219,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "DERE 000 509윌 수혜)-건기식(다이소 전국망 확데이 예상 상회하며 분기 500억원 최초 주요주주시분율(%) 조정으로 출하 일시 둔화(8월 정상화 예상)되며 매출액 140억원 적정주가 22만원ㆍ투자의견 매수(30) 유지 회사 잠정 당사 예상 시장 리 won 젠년 (= (alee",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY 유지 RoW 국가를 통해 NAL 영향 극복 예정. 적정주가 22만원ㆍ투자의견 매수(30) 유지",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E GPM 55.5% 5 YoY +2.5%p, QoQ +7.5%p 개선, GPM 및 영업",
+                "PER(4I]) 10.2 9.3 11.7 레버리지에 따라 연결 OPM 15% BAYHYOY +0.9%p, QoQ +9.3%p).",
+                "PBR(HH) 3.1 2.0 19 7-0 21 그 하느 K OlA SEH 0] ONO) Ｌ 7 Hr 소사 FIA I",
+                "EV/EBITDAUH) 105 Te ae 순이익 하회는 I ㅣ 한을 }이오파마의 11161 개발 손상 차손 및 100",
+                "Performance 1M 6M 12M YTD 확산 필요.",
+                "Note: 국내 제약사 26E PER 평균은"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142909/1/20260730_069620_alex.park_576.pdf",
@@ -7588,13 +8249,17 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "Through 데이터 확인, 업종 선호 의견 유지(2060\\0610111)."
+              ],
+              "preferred_stocks": [
+                "Through 데이터 확인, 업종 선호 의견 유지(2060\\0610111)."
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "해당 변수가 20266 수익성 저하 요인으로 판단. 달바글로벌은 스페인 고점 유지 여부보다 독일ㆍ영국-미국으로의 지역 다변화가 향후 성장 지속성 판단 기",
+              "industry_conclusion": "해당 변수가 20266 수익성 저하 요인으로 판단. 달바글로벌은 스페인 고점 유지 여부보다 독일ㆍ영국-미국으로의 지역 다변화가 향후 성장 지속성 판단 기",
+              "report_conclusion": "해당 변수가 20266 수익성 저하 요인으로 판단. 달바글로벌은 스페인 고점 유지 여부보다 독일ㆍ영국-미국으로의 지역 다변화가 향후 성장 지속성 판단 기",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -7619,11 +8284,20 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 82.9% +1.0%0)로 외형, 수익성이 동반 개선. Wie 일평균거래대금 isle 당사 예상을 상회하며 반등했고 POCTE YOY +8% 성장으로 안정적",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 BUY 유지 조정에도 불구하고, WACC 상향 조정으로 적정주가 3.2만원 유^ FIO SNE 9.1% > 10.3%) DCFS 통한 적정주가, 투자의견 유지",
+              "valuation": [
+                "투자의견 BUY 유지 조정에도 불구하고, WACC 상향 조정으로 적정주가 3.2만원 유^",
+                "Valuation wide 2025 2026E 2027E eH 급여 Sap} 순차 확대.",
+                "PER(HH) n/a 721 61.1 은 _ 오",
+                "PBR(HH) 16 16 16 이어 2H26E 터키ㆍ이스라엘 등록과 중동ㆍ인도네시아 등 신규국 출시가",
+                "EV/EBITDA(HH) 21.3 195 13.9 예정돼 해외 CGM 외형 성장 기대.",
+                "Performance 1M 6M 12M YTD 2169 (OPM 5.6%) TFA] 개선되며 이익 성장이 재차 가팔라질 국면"
+              ],
+              "earnings_changes": [
+                "상향 조정에 따라 20268 추정치 상향하나, 금리 인상에 따른 WACC"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142869/1/20260728_099190_alex.park_574.pdf",
               "pdf_error": "",
@@ -9479,6 +10153,11 @@
               "text": "FATA BUY 및 업종 내 최선호주 유지",
               "date": "2026-07-08",
               "source": "https://t.me/daolresearch/14527"
+            },
+            {
+              "text": "투자의견 BUY 및 업종 내 최선호주 의견 유지",
+              "date": "2026-07-29",
+              "source": "https://t.me/daolresearch/14687"
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
@@ -9523,14 +10202,25 @@
               "code": "352820",
               "report_type": "기업자료",
               "opinion": "",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "투자의견 BUY 및 업종 내 최선호주 의견 유지"
+              ],
+              "preferred_stocks": [
+                "투자의견 BUY 및 업종 내 최선호주 의견 유지"
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "2000 1006 168,808 ㆍ[공연] 매출 6,477억원으로 예상치(5,052억원) 크게 상회. eb Le) , [MD 및 라이션성] 3,106억원으로 예상치(1.957억원) 상회. (의 12) 75 예상대비 응원봉 반영 물량 비중이 A MD 매출이 서프라이즈였던 점, 예상보다 아쉬운 GPM2} MD 실적어",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY 및 업종 내 최선호주 의견 유지 투자의견 BUY BUY 유지 1.709억원(<6+159.3%, QoQ 흑전)으로 컨센서스 상회 감안 시 2[127부터는 해당 우려가 점차 완화될 전망.",
+              "valuation": [
+                "Valuationwide 2025 20266 20276 상회한 껏으로 주성.",
+                "PER(HH) 08 517 226 외 $70).",
+                "PBR(HH) 11.1 57 45 콜라부 및 남미/아ㅅ^ 아 맞춤형 전용 MD= 출시 계획",
+                "EV/EBITDA(HH) 68.4 171 126 ：",
+                "Performance 14 64 12M_YTD 않다고 판단한 영향으로 보임.",
+                "1: 하이브 Valuation Table"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142893/1/20260729_352820_dy.lim_39.pdf",
@@ -9769,10 +10459,15 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "만장일치 SANA 껏과 달리 소수의견이 세 명이나 등장했다는 점은 예상보다 매파석 결과. 수준에서 물가와 성장 지표의 발표에 연동되어 높은 변동성 FUL 이어갈 ROS 전망. 금리 동결 전망을 유지하나, 징기금리 통제를 위한 단발성 인상 가능성은 높아졌다고 판단",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "수준에서 물가와 성장 지표의 발표에 연동되어 높은 변동성 FUL 이어갈 ROS 전망. 금리 동결 전망을 유지하나, 징기금리 통제를 위한 단발성 인상 가능성은 높아졌다고 판단",
+              "valuation": [
+                "rate of 2 percent over the longer run.",
+                "3-1/2 to 3-3/4 percent.",
+                "Committee's 2 percent goal, in part reflecting",
+                "3-1/2 to 3-3/4 percent, in support of the"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142915/1/20260730_B_bhcho_290.pdf",
@@ -10623,10 +11318,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Refinitiv, 다올투자증권 Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142962/1/20260731_B_bhcho_291.pdf",
