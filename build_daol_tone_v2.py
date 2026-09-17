@@ -154,10 +154,43 @@ def extract_bundled_tp(text):
 def build_bundled_records(records, pdf_cache, sector_map):
     """산업자료(인뎁스)의 종목 페이지 TP를 합성 레코드로 만들어 종목 타임라인에 주입한다."""
     synth = []
+    # AI 판독 TP의 코드 해결용: 커버 종목명 → 코드 (정확 일치만)
+    name_to_code = {x['company']: x['code'] for x in records if x.get('code') and x.get('company')}
+
+    def make(r, item, evidence, is_ai):
+        prior = None if item['direction'] in ('유지', '신규') else item.get('prior')
+        display = fmt_won(item['value']) if prior is None else f"{fmt_won(prior)} → {fmt_won(item['value'])}"
+        return {
+            'id': f"{r['id']}-b{item['code']}", 'date': r['date'], 'month': r['month'],
+            'analyst': r['analyst'], 'sector': sector_map.get(item['code'], r['sector']),
+            'company': item['company'], 'code': item['code'], 'report_type': '기업자료',
+            # 인뎁스 안 종목 섹션의 자체 제목·Pitch가 있으면 그걸 쓴다(없으면 모(母)자료 제목)
+            'title': item.get('title') or r['title'], 'post_url': r['post_url'], 'source_url': r['source_url'],
+            'pdf_url': r['pdf_url'], 'opinion': '', 'ai': is_ai, 'bundled': True,
+            'conviction': None, 'tone_label': '', 'one_line': item.get('summary') or '',
+            'strong_phrases': [], 'hedge_phrases': [], 'negative_phrases': [],
+            'points': [], 'points_detail': [], 'earnings_direction': '', 'earnings_evidence': '',
+            'estimates': None, 'est_compare': None,
+            'tp_event': {'direction': item['direction'], 'value': item['value'],
+                         'prior': prior, 'display': display, 'reasons': [], 'evidence': evidence},
+        }
+
     for r in records:
         if r['report_type'] != '산업자료' or not r.get('source_url'): continue
         entry = pdf_cache.get(r['source_url']) or {}
-        text = entry.get('text', '') if entry.get('status') == 'pdf' else ''
+        if entry.get('status') != 'pdf': continue
+        text = entry.get('text', '')
+        # 폰트 깨진 PDF는 ai_pdf_rescue가 Gemini로 직접 판독해 ai_tp를 남긴다 — 그게 있으면 우선
+        # (규칙 추출이 불가능했던 자료이므로 extract_bundled_tp와 겹치지 않는다)
+        if entry.get('ai_tp'):
+            seen = set()
+            for item in entry['ai_tp']:
+                code = item.get('code') or name_to_code.get(item.get('company') or '', '')
+                if not code or code in seen: continue  # 커버 밖 종목·코드 미상은 스킵
+                seen.add(code)
+                synth.append(make(r, {**item, 'code': code},
+                                  f"부실 원문 AI 판독 ({r['title'][:60]})", True))
+            continue
         if '적정주가' not in text:
             # 인뎁스·프리뷰로 보이는데 TP 박스가 전혀 안 읽히면 조용히 넘기지 말고 경고를 남긴다
             # (현대차 7/6 사고: 프리뷰 PDF가 껍데기 텍스트로 캐시돼 종목별 TP 하향이 통째로 누락)
@@ -165,24 +198,7 @@ def build_bundled_records(records, pdf_cache, sector_map):
                 print(f"::warning::산업자료에서 종목 TP 미검출(원문 부실 의심): {r['date']} {r['title'][:50]}")
             continue
         for item in extract_bundled_tp(text):
-            display = (fmt_won(item['value']) if item['direction'] == '유지'
-                       else f"{fmt_won(item['prior'])} → {fmt_won(item['value'])}")
-            synth.append({
-                'id': f"{r['id']}-b{item['code']}", 'date': r['date'], 'month': r['month'],
-                'analyst': r['analyst'], 'sector': sector_map.get(item['code'], r['sector']),
-                'company': item['company'], 'code': item['code'], 'report_type': '기업자료',
-                # 인뎁스 안 종목 섹션의 자체 제목·Pitch가 있으면 그걸 쓴다(없으면 모(母)자료 제목)
-                'title': item.get('title') or r['title'], 'post_url': r['post_url'], 'source_url': r['source_url'],
-                'pdf_url': r['pdf_url'], 'opinion': '', 'ai': False, 'bundled': True,
-                'conviction': None, 'tone_label': '', 'one_line': item.get('summary') or '',
-                'strong_phrases': [], 'hedge_phrases': [], 'negative_phrases': [],
-                'points': [], 'points_detail': [], 'earnings_direction': '', 'earnings_evidence': '',
-                'estimates': None, 'est_compare': None,
-                'tp_event': {'direction': item['direction'], 'value': item['value'],
-                             'prior': None if item['direction'] == '유지' else item['prior'],
-                             'display': display, 'reasons': [],
-                             'evidence': f"산업 인뎁스 종목 페이지에서 추출 ({r['title'][:60]})"},
-            })
+            synth.append(make(r, item, f"산업 인뎁스 종목 페이지에서 추출 ({r['title'][:60]})", False))
     # 같은 날짜·같은 종목·같은 값의 정식 기업자료가 이미 있으면 합성본은 뺀다(중복 방지)
     existing = {(x['code'], x['date'], (x.get('tp_event') or {}).get('value'))
                 for x in records if x.get('code') and x.get('tp_event')}
