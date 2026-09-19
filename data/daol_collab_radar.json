@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T16:41:19.783873+00:00",
+ "generated_at": "2026-09-19T23:44:51.379223+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1332,
  "hits": [
@@ -12391,8 +12391,8 @@
    "sector": "엔터",
    "company": "11월",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 5,
    "evidences": [
     "다만 23년 하반기부터 이어진 음반 판매량 감소세는 둔화되며 마무리되는 모습.",
     "25년 연간 음반판매량은 엔터 4사 기준 YoY-10% 내외의 역성장 전망."
@@ -12755,11 +12755,11 @@
    "sector": "전략/시황",
    "company": "산업/기타",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
-    "️ 차주 증시 전망 (12/22~12/26) - 12월 FOMC에서 금리 인하와 단기물 중심 자산매입이 발표됐지만, 시중금리는 유의미한 하락이 나타나지 않고 있음.",
-    "인플레 상승이 제한되고 연준 정책이 금리 상단을 제어할 수 있다는 확신이 형성될 때 분위기 반전이 시도될 것."
+    "Il, 이벤트 일정 & 증시 동향 및 전망 40 시점에서는 예상지를 상회하는 수준의 성장률이 SES 경우 연준 통화정책에 대한 기대감을 AAS 수 있다는 점에서 통화정책 회의 결과와 맞물려 향후 금리 인상에 대한 전망지에 영향을 줄 수 있다는 점에서 확인할 필요 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+    "️ 차주 증시 전망 (12/22~12/26) - 12월 FOMC에서 금리 인하와 단기물 중심 자산매입이 발표됐지만, 시중금리는 유의미한 하락이 나타나지 않고 있음."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (12월 3주차)]",
    "post_url": "https://t.me/daolresearch/13153",
@@ -13187,6 +13187,23 @@
    "source_url": "https://buly.kr/CWvQAWw"
   },
   {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-01-05",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "4Q25",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[업에서의 이익안정성이 높아 3사 모두 전분기에 이은 흑자 예상 40)25실적 부진이 예상되고, 현대차/혼다/토요타 등 IRAS HH 따른 8사업 매출규모 고성장세 재확인과 맞물려 주가회복세가 본격화 될 것으로 판단 적정주가 500,000 600,000 히향 ㆍ 4025 MBAS 5.2조원(267 -19%), 영업이익 -188억원(6 적지) 예상."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 4Q25 Preview: 악재소진, 움직이는 큰 그림",
+   "post_url": "https://t.me/daolresearch/13208",
+   "source_url": "https://buly.kr/CWvQAWw"
+  },
+  {
    "theme": "이차전지 메탈",
    "category": "원자재",
    "date": "2026-01-05",
@@ -13370,7 +13387,7 @@
    "company": "파마리서치",
    "code": "214450",
    "direction": "수혜",
-   "score": 10,
+   "score": 12,
    "evidences": [
     "1) 리쥬란 시술 가격 반등으로 시술의 선호도 회복, 2) 속건조 개선에 따른 계절적 성수기, 3) 원달러 환율 하락에 따른 인바운드 관광객 구매력 증가로 인해 리쥬란 시술 횟수 증가가 내수 매출 증가 견인 [의료기기 수출] 273억원으로 YoY +39%, QoQ +39%, 유럽향 초도 선적 20억원은 1Q26E로 지연됨에 따라 하향 조정 [화장품 수출] 245억원으로 YoY +75%, QoQ +12% 전망.",
     "스킨케어 제품군 미국 아마존 판매 지속 성장함에 따라서 화장품 실적 성장 견인 [OPM] GPM YoY +5.9%p 증가한 79.3%로 ASP 높은 미국향 화장품 및 의료기기 비중 증가 지속으로 70% 후반 유지 전망."
@@ -13395,6 +13412,23 @@
    "title": "[에이피알(278470)/ BUY(유지)/ TP 32만원(유지)/ 다올 화장품 박종현] ★ 4Q25E Preview: 글로벌 소비재 구매 행태 변화의 최대 수혜",
    "post_url": "https://t.me/daolresearch/13244",
    "source_url": "https://buly.kr/5UJ8NOc"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-01-09",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 1월에도 600억5 내외의 수출이 이어실 경우 실적 전망에 대해서도 긍정적 전망이 2026-01-15 S 1월 필라델피아 연준 경기 전망 Index - -10.2"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (1월 2주차)]",
+   "post_url": "https://t.me/daolresearch/13245",
+   "source_url": "https://buly.kr/GvoO8fN"
   },
   {
    "theme": "AI/데이터센터 투자",
@@ -13966,11 +14000,11 @@
    "sector": "전략/시황",
    "company": "1월",
    "code": "",
-   "direction": "피해",
-   "score": -2,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
-    "환율 안정과 수출 둔화 및 내수 회복 탄력도 둔화 조건이 동시 확인될 경우 금리 인하는 가능할 수 있음.",
-    "환율 논의가 주가 되었던 기자회견, 통방문 이상의 충격은 부재"
+    ": 물가 안정화 경로(11월 전망) 예상되나, 환율발 상방 리스크 존재 새로운 경제 전망치 제시는 없었으나 전체적인 톤은 상향 - 성장률 11월 전망치(1.8%)에 대체로 부합할 것 — 반도체 경기의 호조, 예상보다 양호한 주요국의 성장 등 대외 경기",
+    ": 물가 안정화 경로(11월 전망) 예상되나, 환율발 상방 리스크 존재 새로운 경제 전망치 제시는 없었으나 전체적인 톤은 상향 - 성장률 11월 전망치(1.8%)에 대체로 부합할 것 물가에 대해서는 2%대로 안정되는 경로를 전망하고 있으나, 여전히 환율 해7 을 리스크를 제외하면 안정적인 경로 전망, 결국 현재 가장 주안점"
    ],
    "title": "[Macro Issue / 다올투자증권 투자전략/거시경제 조병현 ☎ 02-2184-2351] ★ 1월 금통위 Review: 삭제된 금리인하 가능성 문구",
    "post_url": "https://t.me/daolresearch/13310",
@@ -14221,6 +14255,23 @@
    "source_url": "https://bit.ly/HME4Q25RE"
   },
   {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-01-19",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "하이브",
+   "code": "352820",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Valuationwide 2024 20255 20266 ㆍ [MD 및 라이선싱/콘텐즈| MD 및 라이선싱 매출은 1.469억원으로 공연"
+   ],
+   "title": "[하이브(352820) | BUY(유지) | TP 43만원(상향) | 다올 엔터 임도영] ★ 4Q25 Preview: 동트기 전 새벽",
+   "post_url": "https://t.me/daolresearch/13334",
+   "source_url": "https://buly.kr/4bjP6VY"
+  },
+  {
    "theme": "해운 운임",
    "category": "원자재",
    "date": "2026-01-20",
@@ -14254,6 +14305,23 @@
    "title": "[대한조선(439260)/BUY(유지)/TP 100,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 4Q25 Preview : 뜨거운 탱커 시장, 선가 올려 수주 개시",
    "post_url": "https://t.me/daolresearch/13342",
    "source_url": "https://bit.ly/DH4Q25PRE"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-01-20",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "부담을",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "원달러 환율 상승과 이익 추정치 상향에 따른"
+   ],
+   "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 부담을 이기는 성장",
+   "post_url": "https://t.me/daolresearch/13343",
+   "source_url": "https://buly.kr/7bII8tm"
   },
   {
    "theme": "밸류업/주주환원",
@@ -14819,9 +14887,10 @@
    "company": "리브스메드",
    "code": "491000",
    "direction": "수혜",
-   "score": 1,
+   "score": 4,
    "evidences": [
-    "국내 보험 수가 진입 목표하고 있으며, DRG 기반 포괄수가제 체제 내 낮은 가격으로 미국 내 MS 확대 전망"
+    "국내 보험 수가 진입 목표하고 있으며, DRG 기반 포괄수가제 체제 내 낮은 가격으로 미국 내 MS 확대 전망",
+    "Valuation wide 2024 2025E 20265 낮은 가격으로 미국 내 MS 확대 전망 KOSDAQ 다비 ACIS (96) n/a n/a ra 129 1/264 1개월 오버행 10.3%(254만주) SS] 예정이나 매수 권고"
    ],
    "title": "[리브스메드(491000)/ BUY(신규) / TP 14만원(신규)/ 다올투자증권 의료기기 박종현] ★ Coverage Initiation: Welcome to the Show",
    "post_url": "https://t.me/daolresearch/13387",
@@ -14844,6 +14913,24 @@
    "title": "[리브스메드(491000)/ BUY(신규) / TP 14만원(신규)/ 다올투자증권 의료기기 박종현] ★ Coverage Initiation: Welcome to the Show",
    "post_url": "https://t.me/daolresearch/13387",
    "source_url": "https://buly.kr/4FtvgAQ"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-01-26",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "삼성전기",
+   "code": "009150",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "26년 연간 영업이익 1.3조원 달성 전망 Apres 203,167억원 수요가 예상대비 강한 흐름을 보이며, 당초 우려하던 1426 FC-BGA oul 기: 실적 ESS 희석할 것으로 전망.",
+    "26년 연간 영업이익 1.3조원 달성 전망 oul 기: 실적 ESS 희석할 것으로 전망."
+   ],
+   "title": "[삼성전기(009150) | BUY(유지) | TP 36만원 | 다올투자증권 전기전자 김연미] ★ 4Q25 Review - 서버 CPU도 반등, 더욱 강해진 FC-BGA 호황 단서",
+   "post_url": "https://t.me/daolresearch/13394",
+   "source_url": "https://buly.kr/GvoUIlR"
   },
   {
    "theme": "밸류업/주주환원",
@@ -31483,13 +31570,6 @@
    "burst": 6.9
   },
   {
-   "term": "일평균거래대금",
-   "recent": 7,
-   "total": 10,
-   "sectors": 7,
-   "burst": 6.9
-  },
-  {
    "term": "감가상각비",
    "recent": 6,
    "total": 9,
@@ -31557,6 +31637,13 @@
    "recent": 11,
    "total": 20,
    "sectors": 6,
+   "burst": 4.3
+  },
+  {
+   "term": "배당수익률",
+   "recent": 11,
+   "total": 20,
+   "sectors": 9,
    "burst": 4.3
   }
  ]
