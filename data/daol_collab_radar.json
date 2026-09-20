@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-20T01:35:14.867044+00:00",
+ "generated_at": "2026-09-20T17:11:55.300730+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1332,
+ "report_count": 1333,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30528,6 +30528,58 @@
    "title": "[하나투어(039130)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 인고의 시기 ★ 37,000원(하향), BUY(유지)",
    "post_url": "https://t.me/daolresearch/15099",
    "source_url": "https://buly.kr/DlMDqAx"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-09-20",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "LNG ▼ 중국 Hengli Heavy Industry가 자체 발주 방식으로 첫 LNG선 2척 건조 추진."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Hengli의 LNG선 시장 진입 시도. VLGC 신조선가 또 상승 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15104",
+   "source_url": "https://bit.ly/DOS840"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-20",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Hengli의 LNG선 시장 진입 시도. VLGC 신조선가 또 상승 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15104",
+   "source_url": "https://bit.ly/DOS840"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-09-20",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "프랑스 GTT는 2035년까지의 LNG선 신조 수요 전망치를 기존 450척 이상에서 550척으로 상향 조정한 바 있음 ▽ Vortexa 전망: LNG 공급이 선대 증가를 2028년말에나 따라잡을 것으로 전망 대형 2행정 신조 LNG선이 월마다 6~8척씩 대거 인도되며 공급 과잉으로 향후 2년간 수급 균형 회복은 어려울 전망 급격한 선대 팽창 여파로 노후 스팀터빈 LNG선의 퇴출 압박 가중 전망 중동 LNG 생산능력은 현재 90",
+    "다올 선박: Hengli의 LNG선 시장 진입 시도."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Hengli의 LNG선 시장 진입 시도. VLGC 신조선가 또 상승 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15104",
+   "source_url": "https://bit.ly/DOS840"
   }
  ],
  "cross_mentions": [
@@ -31584,13 +31636,6 @@
    "burst": 5.9
   },
   {
-   "term": "정체",
-   "recent": 7,
-   "total": 11,
-   "sectors": 4,
-   "burst": 5.5
-  },
-  {
    "term": "관건",
    "recent": 12,
    "total": 20,
@@ -31645,6 +31690,13 @@
    "total": 20,
    "sectors": 9,
    "burst": 4.3
+  },
+  {
+   "term": "남미",
+   "recent": 9,
+   "total": 17,
+   "sectors": 4,
+   "burst": 3.9
   }
  ]
 }

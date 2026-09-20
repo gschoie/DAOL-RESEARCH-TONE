@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T01:35:10.374546+00:00",
+  "generated_at": "2026-09-20T16:58:01.156111+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1332,
+  "report_count": 1333,
   "months": [
     {
       "month": "2026-09",
@@ -1449,7 +1449,7 @@
           "sectors": [
             "조선/기계/방산"
           ],
-          "opinion": "비중축소",
+          "opinion": "중립",
           "opinion_history": [
             {
               "value": "중립",
@@ -1470,6 +1470,11 @@
               "value": "비중축소",
               "date": "2026-09-13",
               "source": "https://t.me/daolresearch/15072"
+            },
+            {
+              "value": "중립",
+              "date": "2026-09-20",
+              "source": "https://t.me/daolresearch/15104"
             }
           ],
           "top_picks": [
@@ -1497,8 +1502,42 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 4,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 15104,
+              "date": "2026-09-20",
+              "month": "2026-09",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "다올",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원) HD현대중공업 (1년 누적 매수) 당사 예상 대비 발주와 발주 LIST 클락슨 신조 발주: 한/중/일",
+              "industry_conclusion": "",
+              "report_conclusion": "프랑스 GTT는 2035년까지의 LNG선 신조 수요 전망치를 기존 450척 이상에서 550척으로 상향 조정한 바 있음 ▽ Vortexa 전망: LNG 공급이 선대 증가를 2028년말에나 따라잡을 것으로 전망 대형 2행정 신조 LNG선이 월마다 6~8척씩 대거 인도되며 공급 과잉으로 향후 2년간 수급 균형 회복은 어려울 전망 급격한 선대 팽창 여파로 노후 스팀터빈 LNG선의 퇴출 압박 가중 전망 중동 LNG 생산능력은 현재 90MTPA에서 7~8년 내 170~180MTPA로 급증하며 2035년까지 수출량이 70~80% 증가할 전망",
+              "valuation": [
+                "▶ 한국 조선5사 Per f or m ance",
+                "GTT가 방콕 Gastech에서 'LNG Performance Centre'와 개량형 화물창 시스템 'Cubiq Plus'를 공개",
+                "Maersk와 Hapag-Lloyd의 동맹 Gemini Cooperation이 4개 정기선 서비스를 희망봉 우회에서 홍해 및 수에즈 운하 경로로 전환",
+                "2026 EPS(원) Change(%) VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 26.08.21 26.08.28 26.09.04 26.09.11 26.09.18 2달전 대비 4주전 대비 2026 PER 종가",
+                "2026 BPS(원) ROE VALUATION"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144587/1/20260920_B2040_gs.choie_589.pdf",
+              "pdf_error": "",
+              "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Hengli의 LNG선 시장 진입 시도. VLGC 신조선가 또 상승 ⚓ 주시 뉴스",
+              "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Hengli의 LNG선 시장 진입 시도. VLGC 신조선가 또 상승 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 △ 신조선가는 LNG선 하락, VLGC 상승, 중고선가는 중대형 탱커 2주 연속 급등 ▶ 그린쉽: N/A ▶ LNG ▼ 중국 Hengli Heavy Industry가 자체 발주 방식으로 첫 LNG선 2척 건조 추진. 시장 진입 ▲ 삼성중공업, 그리스 Dynagas로부터 LNG선 최대 4척 수주. 2척 수주 공시 ▲ 미국 LNG 수출 프로젝트 Commonwealth LNG, 착공 4개월 만에 5개 train 확장 계획 추진 ▽ Vortexa 전망: LNG 공급이 선대 증가를 2028년말에나 따라잡을 것으로 전망 ▶ 가스선 ▲ HD현대중공업, BGN으로부터 VLGC 1척 수주 ▶ 컨테이너 ▽ CMA CGM, 양지장에 울트라막스 컨테이너선 12척 발주 협의 ▽ 머스크, 중국 Hengli 20척, NTS에 6척 포스트파나막스 컨테이너선 발주 확인 ▶ 탱커 ▲ 삼성중공업, Advantage Tankers로부터 수에즈막스 탱커 2척 추가 수주 ▲ HD현대중공업, Asyad로부터 MR 2척 추가 수주 ▶ 해양/디펜스/바람 △ 태국 해양 프로젝트 드라이브 ▲ HD한국조선해양, 인도 타밀나두주에 조선 투자 < ☞ https://bit.ly/DOS840 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15104",
+              "source_url": "https://bit.ly/DOS840"
+            },
             {
               "id": 15072,
               "date": "2026-09-13",
@@ -1718,7 +1757,7 @@
           ]
         }
       ],
-      "report_count": 40
+      "report_count": 41
     },
     {
       "month": "2026-08",
