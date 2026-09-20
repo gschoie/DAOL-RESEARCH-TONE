@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T16:58:01.156111+00:00",
+  "generated_at": "2026-09-20T22:20:05.605944+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1333,
+  "report_count": 1334,
   "months": [
     {
       "month": "2026-09",
@@ -998,6 +998,7 @@
         {
           "analyst": "이다연",
           "sectors": [
+            "음식료/통신",
             "통신·음식료"
           ],
           "opinion": "비중확대",
@@ -1018,8 +1019,35 @@
           "top_pick_change": "해당 기간 최초 명시",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15106,
+              "date": "2026-09-21",
+              "month": "2026-09",
+              "analyst": "이다연",
+              "sector": "음식료/통신",
+              "company": "KT&G",
+              "code": "033780",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/6MuPj9J",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
+              "title": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기",
+              "summary": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기 ▶ [생산] 현지 생산 체계로 완성되는 원가 경쟁력 ‘25년 3월 KT&G의 유라시아 주요 생산거점 중 한 곳인 카자흐스탄 알마티 공장의 상업 생산 개시. 당 공장의 연간 최대 CAPA는 60억 개비, ‘26년 연 생산실적은 33억 개비 전망. 카자흐스탄 현지 생산 전환 효과는 크게 1) 가공비 절감, 2) EAEU 무관세 혜택 두 가지. 향후 생산량 증가와 함께 가공비 절감, 무관세 혜택 효과가 더욱 가시화되며 원가 경쟁력 강화 전망. 최대 8대의 설비를 추가 투입할 수 있는 유휴 공간도 확보하고 있어 향후 현지·주변국 침투 확대, NGP 직접 사업 진출 성과에 따라 생산 CAPA 확대 가능성도 존재 ▶ [판매] 더 넓어지고 촘촘해진 유통망 ‘23년 1월 카자흐스탄 판매법인 설립과 함께 나타난 변화는 세 가지. 1) 유통상 변경과 함께 기존 알마티 중심 남부→ 전국으로 영업망 커버리지 확대 중. 2) 자사 영업사원 확충 및 소매채널 밀착 관리 확대로 진열 SKU 증가, 제품 Visibility 강화가 이루어지며 매대 점유율 상승 중. 3) ‘26년 11월 ‘릴(lil)’ 플래그십 스토어 오픈과 함께 카자흐스탄 내 NGP 직접사업 개시 예정. 현지 판매법인 주도 공격적인 프로모션 하 빠른 HNB(Heat N Burn) 시장 침투 기대. 매해 12%에 달하는 물가상승률 역시 소비자 가격 전가에 유리한 환경으로 작용 중 ▶ [주주환원] Capex Cycle 종료, 예상보다 강할 ‘26년 하반기 주주환원 동사는 지난 8월 중간 주당배당금으로 2,000원을 공시. 동시에 연간 배당에서 중간 배당이 차지하는 비중도 소폭 확대할 계획이라 밝힘. 연초 약속한 자사주 매입 3,000억원은 하반기 중 진행 예정. ",
+              "post_url": "https://t.me/daolresearch/15106",
+              "source_url": "https://buly.kr/6MuPj9J"
+            },
             {
               "id": 15070,
               "date": "2026-09-11",
@@ -1757,7 +1785,7 @@
           ]
         }
       ],
-      "report_count": 41
+      "report_count": 42
     },
     {
       "month": "2026-08",
@@ -40568,6 +40596,11 @@
           "opinion_history": [
             {
               "value": "비중확대",
+              "date": "2025-12-02",
+              "source": "https://t.me/daolresearch/13023"
+            },
+            {
+              "value": "비중확대",
               "date": "2025-12-16",
               "source": "https://t.me/daolresearch/13125"
             }
@@ -40717,9 +40750,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "총 S4OMW HS 예상되대, 준공기한은 20274 12월. 경우 20274 양산을 SHE [배터리 조기양산규모 16\\『가 예상.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "총 S4OMW HS 예상되대, 준공기한은 20274 12월. 경우 20274 양산을 SHE [배터리 조기양산규모 16\\『가 예상.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -40739,14 +40772,14 @@
               "company": "11월",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "ISSUE & PITCH | 자동차",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "ISSUE & PITCH | 자동차",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -41017,10 +41050,16 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "ISSUE & PITCH | 셀비온",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "ISSUE & PITCH | 셀비온",
+              "valuation": [
+                "Valuation wide 2022 2023 2024",
+                "PER(HH) n/a n/a n/a",
+                "PBR(HH) n/a n/a n/a",
+                "EV/EBITDA(HH) n/a n/a n/a",
+                "Performance 1M 6M 12M YTD"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135687/1/20251205_308430_jislee_369.pdf",
@@ -41169,6 +41208,34 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
+              "company": "삼성중공업",
+              "direction": "상향",
+              "old": 30000,
+              "new": 37000,
+              "display": "30,000원 → 37,000원",
+              "reasons": [
+                "적용 멀티플 조정"
+              ],
+              "evidence": "인력 교육/훈련, 미 해군 차세대 군수지원함(4618)에 공동 입찰을 te ag ㆍ 또한 000780와는 미국 LNGBV 시장에 공동 진출을 AS 그동안 피어그룹이 미국 투자 및 특수선을 바탕으로 한 MASCA 동력 때문에 적정0288 20배로 동사 및 조선의 15배보다 높게 부여. 이번 UWS 포함해 3건의 미국 조선 그룹과의 사업확대로 피어그룹 대 144904에서 밀릴 것 없다는 판단으로 동사의 적정088을 기존 15배에서 20배로 상향하고 적정주가도 3만원에서 37,000원으로 상향 프 ㆍ또한 트럼프의 LNG 수출 장려 정책에서 비롯되는 16180 FLNG 1호선 계약도 임박한 것으로 외신은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p ",
+              "date": "2025-12-09",
+              "source": "https://t.me/daolresearch/13066"
+            },
+            {
+              "company": "삼성중공업",
+              "direction": "상향",
+              "old": null,
+              "new": 37000,
+              "display": "37,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p 7.8%| -1.1%p -3.6%| 10.3%p 54% 상향: EARNINGS PREVIEW | Fig. 삼성중공업 적정주가 37,000원으로 상향: MAPERS MASGAS| 20배로 상향 (원, 배수) PER Valuation 202114 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 742 1,632 1,702 2,037 PER(z1) -49 -9.2 -56.2 169.3 26.7 PER(A) -3.1 7.1 -28.4 96.2 15.1 AAIPER 12 15 20 20 적정주가의 PER 509.7 49.9 22.7 2",
+              "date": "2025-12-09",
+              "source": "https://t.me/daolresearch/13066"
+            },
+            {
               "company": "현대로템",
               "direction": "유지",
               "old": null,
@@ -41208,7 +41275,36 @@
               "source": "https://t.me/daolresearch/13148"
             }
           ],
-          "tp_raises": [],
+          "tp_raises": [
+            {
+              "company": "삼성중공업",
+              "direction": "상향",
+              "old": 30000,
+              "new": 37000,
+              "display": "30,000원 → 37,000원",
+              "reasons": [
+                "적용 멀티플 조정"
+              ],
+              "evidence": "인력 교육/훈련, 미 해군 차세대 군수지원함(4618)에 공동 입찰을 te ag ㆍ 또한 000780와는 미국 LNGBV 시장에 공동 진출을 AS 그동안 피어그룹이 미국 투자 및 특수선을 바탕으로 한 MASCA 동력 때문에 적정0288 20배로 동사 및 조선의 15배보다 높게 부여. 이번 UWS 포함해 3건의 미국 조선 그룹과의 사업확대로 피어그룹 대 144904에서 밀릴 것 없다는 판단으로 동사의 적정088을 기존 15배에서 20배로 상향하고 적정주가도 3만원에서 37,000원으로 상향 프 ㆍ또한 트럼프의 LNG 수출 장려 정책에서 비롯되는 16180 FLNG 1호선 계약도 임박한 것으로 외신은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p ",
+              "date": "2025-12-09",
+              "source": "https://t.me/daolresearch/13066"
+            },
+            {
+              "company": "삼성중공업",
+              "direction": "상향",
+              "old": null,
+              "new": 37000,
+              "display": "37,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p 7.8%| -1.1%p -3.6%| 10.3%p 54% 상향: EARNINGS PREVIEW | Fig. 삼성중공업 적정주가 37,000원으로 상향: MAPERS MASGAS| 20배로 상향 (원, 배수) PER Valuation 202114 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 742 1,632 1,702 2,037 PER(z1) -49 -9.2 -56.2 169.3 26.7 PER(A) -3.1 7.1 -28.4 96.2 15.1 AAIPER 12 15 20 20 적정주가의 PER 509.7 49.9 22.7 2",
+              "date": "2025-12-09",
+              "source": "https://t.me/daolresearch/13066"
+            }
+          ],
           "report_count": 8,
           "reports": [
             {
@@ -41444,12 +41540,69 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "삼성중공업",
+                  "direction": "상향",
+                  "old": 30000,
+                  "new": 37000,
+                  "display": "30,000원 → 37,000원",
+                  "reasons": [
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "인력 교육/훈련, 미 해군 차세대 군수지원함(4618)에 공동 입찰을 te ag ㆍ 또한 000780와는 미국 LNGBV 시장에 공동 진출을 AS 그동안 피어그룹이 미국 투자 및 특수선을 바탕으로 한 MASCA 동력 때문에 적정0288 20배로 동사 및 조선의 15배보다 높게 부여. 이번 UWS 포함해 3건의 미국 조선 그룹과의 사업확대로 피어그룹 대 144904에서 밀릴 것 없다는 판단으로 동사의 적정088을 기존 15배에서 20배로 상향하고 적정주가도 3만원에서 37,000원으로 상향 프 ㆍ또한 트럼프의 LNG 수출 장려 정책에서 비롯되는 16180 FLNG 1호선 계약도 임박한 것으로 외신은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p "
+                },
+                {
+                  "company": "삼성중공업",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 37000,
+                  "display": "37,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p 7.8%| -1.1%p -3.6%| 10.3%p 54% 상향: EARNINGS PREVIEW | Fig. 삼성중공업 적정주가 37,000원으로 상향: MAPERS MASGAS| 20배로 상향 (원, 배수) PER Valuation 202114 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 742 1,632 1,702 2,037 PER(z1) -49 -9.2 -56.2 169.3 26.7 PER(A) -3.1 7.1 -28.4 96.2 15.1 AAIPER 12 15 20 20 적정주가의 PER 509.7 49.9 22.7 2"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "삼성중공업",
+                  "direction": "상향",
+                  "old": 30000,
+                  "new": 37000,
+                  "display": "30,000원 → 37,000원",
+                  "reasons": [
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "인력 교육/훈련, 미 해군 차세대 군수지원함(4618)에 공동 입찰을 te ag ㆍ 또한 000780와는 미국 LNGBV 시장에 공동 진출을 AS 그동안 피어그룹이 미국 투자 및 특수선을 바탕으로 한 MASCA 동력 때문에 적정0288 20배로 동사 및 조선의 15배보다 높게 부여. 이번 UWS 포함해 3건의 미국 조선 그룹과의 사업확대로 피어그룹 대 144904에서 밀릴 것 없다는 판단으로 동사의 적정088을 기존 15배에서 20배로 상향하고 적정주가도 3만원에서 37,000원으로 상향 프 ㆍ또한 트럼프의 LNG 수출 장려 정책에서 비롯되는 16180 FLNG 1호선 계약도 임박한 것으로 외신은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p "
+                },
+                {
+                  "company": "삼성중공업",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 37000,
+                  "display": "37,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "은 전해, 단기 BES 기대 TU :동사의 4Q25 OPM 11.1% (QoQ +2.1%p)= 낮추지만, MIX} 생산성 개선으로, 가이던스보다 공격적인 예상치 시장 컨센서스 전년 동기 2024.12(A) (6.8) . 11.7 (40.5) . (10.0) -0.8%p 104%] 0.7%0 6.5% 760 9.0% -4,6%p 7.8%| -1.1%p -3.6%| 10.3%p 54% 상향: EARNINGS PREVIEW | Fig. 삼성중공업 적정주가 37,000원으로 상향: MAPERS MASGAS| 20배로 상향 (원, 배수) PER Valuation 202114 2022년 2023년 2024년 2025년 2026년 2027년 2028년 EPS -1,642 -704 -168 73 742 1,632 1,702 2,037 PER(z1) -49 -9.2 -56.2 169.3 26.7 PER(A) -3.1 7.1 -28.4 96.2 15.1 AAIPER 12 15 20 20 적정주가의 PER 509.7 49.9 22.7 2"
+                }
+              ],
+              "pitch": "소선사들과의 파트너십 제별로 큰 차이 없다고 판단. 144904에서 밀릴 것 없다는 판단으로 동사의 적정088을 기존 개선으로, 가이던스보다 공격적인 예상치",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "소선사들과의 파트너십 제별로 큰 차이 없다고 판단. 144904에서 밀릴 것 없다는 판단으로 동사의 적정088을 기존 개선으로, 가이던스보다 공격적인 예상치",
+              "valuation": [
+                "피어그룹과 동일한 MASGA BESS AAPER 20배(기존 15배)로 상향",
+                "삼성중공업 적정주가 37,000원으로 상향: MAPERS MASGAS| 20배로 상향 (원, 배수)",
+                "PER Valuation 202114 2022년 2023년 2024년 2025년 2026년 2027년 2028년",
+                "PER(z1) -49 -9.2 -56.2 169.3 26.7",
+                "PER(A) -3.1 7.1 -28.4 96.2 15.1",
+                "AAIPER 12 15 20 20"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135767/1/20251209_010140_gs.choie_478.pdf",
@@ -41551,10 +41704,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 반대로 인플레이션의 예상외 상승과 고용의 추가 둔화가 나타날 경우 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135850/1/20251212_B_bhcho_238.pdf",
@@ -41578,10 +41733,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 여기에서 일자리 수의 감소 주이를 확인할 수 있음 | 이전 발표된 8S 데이터는 사전 전망치나 7월 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 여기에서 일자리 수의 감소 주이를 확인할 수 있음 | 이전 발표된 8S 데이터는 사전 전망치나 7월",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 여기에서 일자리 수의 감소 주이를 확인할 수 있음 | 이전 발표된 8S 데이터는 사전 전망치나 7월",
+              "valuation": [
+                "Source: Refinitiy, 다올투자증권 Source: Check Expert, 다을투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135689/1/20251205_B_bhcho_237.pdf",
@@ -41598,8 +41755,14 @@
           "sectors": [
             "채권분석"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "중립",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2025-12-12",
+              "source": "https://t.me/daolresearch/13097"
+            }
+          ],
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
@@ -41615,14 +41778,14 @@
               "company": "한은",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": ": 환율은 1.465원대만 도달해도 실매수 수요 유입 - 만약 예상대비 과감한 인하 이후 물가가 반등하게 될 시, aL 체제하의 비 인플레 논거는 - 따라서 차기 의장의 인하 SES 선반영하여 추종하는 것은 위험하다고 판단한.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": ": 환율은 1.465원대만 도달해도 실매수 수요 유입 - 만약 예상대비 과감한 인하 이후 물가가 반등하게 될 시, aL 체제하의 비 인플레 논거는 - 따라서 차기 의장의 인하 SES 선반영하여 추종하는 것은 위험하다고 판단한.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -41689,6 +41852,31 @@
           ],
           "top_picks": [
             {
+              "text": "46 9하이닉스 (000660) _ Top Picks",
+              "date": "2025-11-06",
+              "source": "https://t.me/daolresearch/12811"
+            },
+            {
+              "text": "57 브이엠 (089970) _ Top Picks",
+              "date": "2025-11-06",
+              "source": "https://t.me/daolresearch/12811"
+            },
+            {
+              "text": "60 에스티아이 (039440) _ Top Picks",
+              "date": "2025-11-06",
+              "source": "https://t.me/daolresearch/12811"
+            },
+            {
+              "text": "전반의 비중확대와 더불어, 대형주 최선호주 6#하이닉스/차선호주 삼",
+              "date": "2025-11-06",
+              "source": "https://t.me/daolresearch/12811"
+            },
+            {
+              "text": "선호주 브이엠, 에스티아이 의견을 유지한다",
+              "date": "2025-11-06",
+              "source": "https://t.me/daolresearch/12811"
+            },
+            {
               "text": "소부장 최선호주는 브이엠, 에스티아이 를 유지합니다.\"",
               "date": "2025-11-20",
               "source": "https://t.me/daolresearch/12946"
@@ -41747,13 +41935,25 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "46 9하이닉스 (000660) _ Top Picks",
+                "57 브이엠 (089970) _ Top Picks",
+                "60 에스티아이 (039440) _ Top Picks",
+                "전반의 비중확대와 더불어, 대형주 최선호주 6#하이닉스/차선호주 삼",
+                "선호주 브이엠, 에스티아이 의견을 유지한다"
+              ],
+              "preferred_stocks": [
+                "46 9하이닉스 (000660) _ Top Picks",
+                "57 브이엠 (089970) _ Top Picks",
+                "60 에스티아이 (039440) _ Top Picks",
+                "전반의 비중확대와 더불어, 대형주 최선호주 6#하이닉스/차선호주 삼",
+                "선호주 브이엠, 에스티아이 의견을 유지한다"
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "07 1. 과거로 회귀한 Cycle2| 속성 | -1. 9월 중순 이후 달라진 것 I-2.Al 수요는 변수 없이 27년까지 우상향 1-3. 결국 BSS 다시 BH Cycles} 동일 16 11. 같지만 CHE® 공간이 없어 공급을 못 늘린다 11-1. 공급 증가 제약의 시작점, 공간 11-2. 27년까지의 업체별 증설 AAS 및 캐파 세부 주성 20 1\\. 같지만 다른22 620 시도 Belz 확장 V-1,B2B 만이 아니라 820 시도 물리(카\\/51081 A= 1/-2.820 시 물리 확대 > 온디바이스 수요 및 클라우드 서버 투자 자극 V-3. 클라우드 조기와 달리 기초 체력은 높아졌다 29 \\/. 다르지만 BLO 장기 계약, BIS 동일하다 구조와 유사섬/차별성 비교 Ad ie) V-1. 16-17-18 Cycle 계약 구 V-2.18'4 Down-Cycle 전환 변곡점 s 2 S/W 효율화로부터 | = NVIDIA CPX? 중요하다 V-3. 이번 CycledA] 효율호 36 VI. 다르지만 GEO 이상(650)과 (HDD) Vi-1. 주가의 변곡점은 1) ee sol © 추거나, 2) 증가율이 둔화되거나 VI-2, 스토리지에서 SSD 전환이 필요한 이론적 이유 VI-3, 그러나 현실은(100 — 결정될 550 가격 지 ra 43 VIL, 투자전략 45 Vill. 종목별 투자의견 46 9하이닉스 (000660) _ Top Picks 51 삼성전자 (005930) 57 브이엠 (089970) _ Top Picks 60 에스티아이 (039440) _ Top Picks DAOL Investment &Securities | 2 In-Depth | 2026 반도체/소부장 연간전망 rad 1. Summary & Focus Chart 같지만 다를 1H26 이전 Up-Cyclest 유사하지만 이번 국면이 더 긍정적인 차별화된 이유들이 있다. 해 당 요인들이 18126까지 이익 및 주가의 우상향을 견고히 만들 전망이다. (01) 공간이 없어 공급 증가가 어렵다: FH St 마찬가지로 공급 레벨이 눌려 있던 상 황에서 출발한 가격 상승세다. 다만, 차이는 지난 2년간 사전적 인프라 투자가 제한 적이었던 결과로 생산업체들의 단7| 공급 증가가 물리적으로 어렵다는 점이다. 투자 ANSE 감안할 때, 2[126부터 점진적, 27년 이후 유의미한 공급 확대가 가능하다. (2) 820 시도 BAS 확장: AL 수요는 27년까지 지",
+              "industry_conclusion": "In-Depth | 2026 반도체/소부장 연간전망 당 요인들이 18126까지 이익 및 주가의 우상향을 견고히 만들 전망이다.",
+              "report_conclusion": "In-Depth | 2026 반도체/소부장 연간전망 당 요인들이 18126까지 이익 및 주가의 우상향을 견고히 만들 전망이다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -41779,8 +41979,14 @@
               "source": "https://t.me/daolresearch/12913"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "top_picks": [
+            {
+              "text": "보험업 투자의견 Neutral, Top-pick 삼성화재",
+              "date": "2025-11-17",
+              "source": "https://t.me/daolresearch/12913"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
               "company": "BNK금융지주",
@@ -41807,6 +42013,62 @@
               "evidence": "[동양생명(082640)/BUY(상향)/TP 8,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ All for Solvency ▶ 3Q25 Review. 별도 순이익 231억원(YoY -74.4%, QoQ -42.3%) 기록 ▶ 보험손익 (-)예실차 확대, 영업외비용에서 일회성 잡손실 규모 증가 ▶ 예상 K-ICS비율 172.7%(QoQ -4.3%p). 신종자본증권 상환 효과 ▶ 지주 편입 후 자본적정성 최우선 확보 전략으로 해석. ALM 관리와 수익성 확보 중 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/4xYT9P1 >",
               "date": "2025-11-03",
               "source": "https://t.me/daolresearch/12771"
+            },
+            {
+              "company": "미래에셋증권",
+              "direction": "상향",
+              "old": null,
+              "new": 24000,
+              "display": "24,000원 (상향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "DAOL 다올투자증권 Wo 208 미래에셋증권 (006800) 투자목적자산 운용이 중요 Issue 3Q25 Review HOLD nt 투자의견 HOLD 유지, 적정주가 24,000원으로 상향 현재 직전 변동 Rationale 투자의권 1010 HOLD 유지 ㆍ3025『 연결기준 영업이익 2,228억원(70 -39.9%, QoQ -55.50), 지배순이익 4억원 + 9 - %)으로, 순이익 기준 적정주가 24,000 23.000 상향 지배순이익 3,404 커원(6 16.9%, QoQ -15.6%)으로, 순이익 기준 컨센서스와 당사 추정치를 각각 +12.7%, +12.0% 상회 Earnings 상향 ㆍ [수수료부문] (1) Brokerage 수수료수익(200) +18.4%) 크게 증가. 국내외 Stock Information 수수료수익 증가. 시장 일평균 거래대금 증가 영향 WM 관련 현재가 (11/6) 23,6502 수수료수익(3000 +20.9%)E 크게 증가. WEL Wrap 중심 판매잔고 pen oseneoia 증",
+              "date": "2025-11-07",
+              "source": "https://t.me/daolresearch/12821"
+            },
+            {
+              "company": "삼성증권",
+              "direction": "상향",
+              "old": null,
+              "new": 93000,
+              "display": "93,000원 (상향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "DAOL 다올투자증권 12 Nov. 2025 삼성증군 (01 6360) Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 93,000원으로 상향 현재 직전 변동 . Rationale 으 투자의견 84 BUY 유지 ㆍ3025?『 연결기준 영업이익 4.018억원(0 +24.0%, QoQ +30.2%), 적정주가 93,000 86,000 상향 지배순이익 3,092억원(0 +28.7%, QoQ +31.89%)으로 컨센서스와 당사 Earnings 셈할 추정치를 크게 상회 ㆍ [수수료부문] (1) Brokerage 수수료수 200 | +18.5%). 국내외 거래대금 Stock Information = = = = 증가 영향. 특히, BAR 해외주식 점유율 며 수익 증7 주식 현재가 | (11711) 76,3008 oO o°o- 1, } H ] oa 승하 | me }(국내주 예상 주가상승률 21.9% QoQ +18.0%, 해외주식 QoQ +28. 09)어 에 기여한 것으로 해석. 시가종액 68,",
+              "date": "2025-11-12",
+              "source": "https://t.me/daolresearch/12874"
+            },
+            {
+              "company": "670",
+              "direction": "상향",
+              "old": null,
+              "new": 250,
+              "display": "250원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "자 해외 펀드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 s",
+              "date": "2025-11-12",
+              "source": "https://t.me/daolresearch/12875"
+            },
+            {
+              "company": "한국금융지주",
+              "direction": "상향",
+              "old": null,
+              "new": 250,
+              "display": "250원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 spa dad",
+              "date": "2025-11-12",
+              "source": "https://t.me/daolresearch/12875"
             },
             {
               "company": "삼성생명",
@@ -41836,6 +42098,62 @@
             }
           ],
           "tp_raises": [
+            {
+              "company": "미래에셋증권",
+              "direction": "상향",
+              "old": null,
+              "new": 24000,
+              "display": "24,000원 (상향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "DAOL 다올투자증권 Wo 208 미래에셋증권 (006800) 투자목적자산 운용이 중요 Issue 3Q25 Review HOLD nt 투자의견 HOLD 유지, 적정주가 24,000원으로 상향 현재 직전 변동 Rationale 투자의권 1010 HOLD 유지 ㆍ3025『 연결기준 영업이익 2,228억원(70 -39.9%, QoQ -55.50), 지배순이익 4억원 + 9 - %)으로, 순이익 기준 적정주가 24,000 23.000 상향 지배순이익 3,404 커원(6 16.9%, QoQ -15.6%)으로, 순이익 기준 컨센서스와 당사 추정치를 각각 +12.7%, +12.0% 상회 Earnings 상향 ㆍ [수수료부문] (1) Brokerage 수수료수익(200) +18.4%) 크게 증가. 국내외 Stock Information 수수료수익 증가. 시장 일평균 거래대금 증가 영향 WM 관련 현재가 (11/6) 23,6502 수수료수익(3000 +20.9%)E 크게 증가. WEL Wrap 중심 판매잔고 pen oseneoia 증",
+              "date": "2025-11-07",
+              "source": "https://t.me/daolresearch/12821"
+            },
+            {
+              "company": "삼성증권",
+              "direction": "상향",
+              "old": null,
+              "new": 93000,
+              "display": "93,000원 (상향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "DAOL 다올투자증권 12 Nov. 2025 삼성증군 (01 6360) Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 93,000원으로 상향 현재 직전 변동 . Rationale 으 투자의견 84 BUY 유지 ㆍ3025?『 연결기준 영업이익 4.018억원(0 +24.0%, QoQ +30.2%), 적정주가 93,000 86,000 상향 지배순이익 3,092억원(0 +28.7%, QoQ +31.89%)으로 컨센서스와 당사 Earnings 셈할 추정치를 크게 상회 ㆍ [수수료부문] (1) Brokerage 수수료수 200 | +18.5%). 국내외 거래대금 Stock Information = = = = 증가 영향. 특히, BAR 해외주식 점유율 며 수익 증7 주식 현재가 | (11711) 76,3008 oO o°o- 1, } H ] oa 승하 | me }(국내주 예상 주가상승률 21.9% QoQ +18.0%, 해외주식 QoQ +28. 09)어 에 기여한 것으로 해석. 시가종액 68,",
+              "date": "2025-11-12",
+              "source": "https://t.me/daolresearch/12874"
+            },
+            {
+              "company": "670",
+              "direction": "상향",
+              "old": null,
+              "new": 250,
+              "display": "250원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "자 해외 펀드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 s",
+              "date": "2025-11-12",
+              "source": "https://t.me/daolresearch/12875"
+            },
+            {
+              "company": "한국금융지주",
+              "direction": "상향",
+              "old": null,
+              "new": 250,
+              "display": "250원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 spa dad",
+              "date": "2025-11-12",
+              "source": "https://t.me/daolresearch/12875"
+            },
             {
               "company": "삼성생명",
               "direction": "상향",
@@ -41875,13 +42193,17 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "중립",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "보험업 투자의견 Neutral, Top-pick 삼성화재"
+              ],
+              "preferred_stocks": [
+                "보험업 투자의견 Neutral, Top-pick 삼성화재"
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "투자포인트 및 프리미엄 부여 지속 중",
+              "industry_conclusion": "보험업 투자의견 Neutral, Top-pick 삼성화재",
+              "report_conclusion": "보험업 투자의견 Neutral, Top-pick 삼성화재",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -42008,12 +42330,73 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "670",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 250,
+                  "display": "250원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "자 해외 펀드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 s"
+                },
+                {
+                  "company": "한국금융지주",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 250,
+                  "display": "250원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 spa dad"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "670",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 250,
+                  "display": "250원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "자 해외 펀드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 s"
+                },
+                {
+                  "company": "한국금융지주",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 250,
+                  "display": "250원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "드 cube oF 1,000억원 반영된 결과. 향후 국내외 증시에 따라 지속여부 확인 필요. 연결 저축은행 및 캐피탈 충당금 전입 지속. 캐피탈 연체율 상승 유의ㅎ Performance 1M 6M 12M YTD . ] oe TN eed |속. 피탈 Fey ㅇㅇ 유의 }나, 주가상승률(%) 16.7 101.7 1188 138.1 3 사 NPLYLS 하락 전환은 긍정적 대비 상대스익류 [% ~ ~ KOSPI Ci] ACES () 3.0 42.3 56.6 670 : 적정주가 250.000원으로 상향. 실적 반영 후 선행 ROE 상향 연초 확충 이후 이익잉여금 증가 기반 자본축적으로 선행 885도 상향된 결과 IMA 인가 GRAS 대기 중. 상승여력 충분 3025 Review (단위: 십억원, %, 60) 회사 잠정 당사 | 시장 이 wom 전년 = 2025.09(0 2025.09(ㄷ vs | vsChg| 2025,09(E VS | vsCon| 2024.09( ()| YoY | QoQ 순영업수익 1,260 26 spa dad"
+                }
+              ],
+              "pitch": "예상 주가상승률 47.2% 거래대금 증가 영향. 외국인 지분율 36.7% 예상대로 여러 ECM, DCMY 주관 및 인수로 관련 수익 증가했으",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY 유지, 적정주} 250,000원으로 상향 투자의견 BUY BUY 유지 Rationale",
+              "valuation": [
+                "Valuation wide 2024 20255 00 20266 기타존익(000) +ㅜ64.39%6)으로 크게 증가.",
+                "PER(HH) 42 44 44 유가증권 평가익 축소 및 보유 a een 환차손 확대에도, 증권 별도 충당금",
+                "EV/EBITDA(HH) N/A N/A N/A wo.",
+                "Performance 1M 6M 12M YTD .",
+                "ott 2 S2| Valuation",
+                "한국금융지주 PBR Bandchart"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134969/1/20251112_071050_jiwonkim_154.pdf",
@@ -42035,12 +42418,43 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "삼성증권",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 93000,
+                  "display": "93,000원 (상향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "DAOL 다올투자증권 12 Nov. 2025 삼성증군 (01 6360) Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 93,000원으로 상향 현재 직전 변동 . Rationale 으 투자의견 84 BUY 유지 ㆍ3025?『 연결기준 영업이익 4.018억원(0 +24.0%, QoQ +30.2%), 적정주가 93,000 86,000 상향 지배순이익 3,092억원(0 +28.7%, QoQ +31.89%)으로 컨센서스와 당사 Earnings 셈할 추정치를 크게 상회 ㆍ [수수료부문] (1) Brokerage 수수료수 200 | +18.5%). 국내외 거래대금 Stock Information = = = = 증가 영향. 특히, BAR 해외주식 점유율 며 수익 증7 주식 현재가 | (11711) 76,3008 oO o°o- 1, } H ] oa 승하 | me }(국내주 예상 주가상승률 21.9% QoQ +18.0%, 해외주식 QoQ +28. 09)어 에 기여한 것으로 해석. 시가종액 68,"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "삼성증권",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 93000,
+                  "display": "93,000원 (상향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "DAOL 다올투자증권 12 Nov. 2025 삼성증군 (01 6360) Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 93,000원으로 상향 현재 직전 변동 . Rationale 으 투자의견 84 BUY 유지 ㆍ3025?『 연결기준 영업이익 4.018억원(0 +24.0%, QoQ +30.2%), 적정주가 93,000 86,000 상향 지배순이익 3,092억원(0 +28.7%, QoQ +31.89%)으로 컨센서스와 당사 Earnings 셈할 추정치를 크게 상회 ㆍ [수수료부문] (1) Brokerage 수수료수 200 | +18.5%). 국내외 거래대금 Stock Information = = = = 증가 영향. 특히, BAR 해외주식 점유율 며 수익 증7 주식 현재가 | (11711) 76,3008 oO o°o- 1, } H ] oa 승하 | me }(국내주 예상 주가상승률 21.9% QoQ +18.0%, 해외주식 QoQ +28. 09)어 에 기여한 것으로 해석. 시가종액 68,"
+                }
+              ],
+              "pitch": "예상 주가상승률 21.9% QoQ +18.0%, 해외주식 QoQ +28. 3개월 일평균거래대금 243억원 전망도 반영하며 추정치 수정. monet 309 808 143.2%) 기존 예상대비 크게 증가. 긍정적 판단하고 추정치 수정하여 선행 ROE 상향.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY, 적정주가 93,000원으로 상향 투자의견 84 BUY 유지 ㆍ3025?『 연결기준 영업이익 4.018억원(0 +24.0%, QoQ +30.2%), 3개월 일평균거래대금 243억원 전망도 반영하며 추정치 수정.",
+              "valuation": [
+                "Valuation wide 2024 + 2025E 00 20266 따른 수익 증가 영향.",
+                "PER(HH) 43 6.2 6.0 매크로 환경상 유가증권 중심 [자산 평가익 축소 영향으로 해석",
+                "PBR(HH) 0.5 08 0.7",
+                "EV/EBITDA(HH) N/A N/A N/A : 그 외 전분] 성과급 등 인건비 증가 NAS 판관비 감소(0200 -15.6%",
+                "Performance 1M 6M 12M YTD | = = =1 2",
+                "삼성증권 PBR Bandchart"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134968/1/20251112_016360_jiwonkim_153.pdf",
@@ -42062,12 +42476,43 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "미래에셋증권",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 24000,
+                  "display": "24,000원 (상향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "DAOL 다올투자증권 Wo 208 미래에셋증권 (006800) 투자목적자산 운용이 중요 Issue 3Q25 Review HOLD nt 투자의견 HOLD 유지, 적정주가 24,000원으로 상향 현재 직전 변동 Rationale 투자의권 1010 HOLD 유지 ㆍ3025『 연결기준 영업이익 2,228억원(70 -39.9%, QoQ -55.50), 지배순이익 4억원 + 9 - %)으로, 순이익 기준 적정주가 24,000 23.000 상향 지배순이익 3,404 커원(6 16.9%, QoQ -15.6%)으로, 순이익 기준 컨센서스와 당사 추정치를 각각 +12.7%, +12.0% 상회 Earnings 상향 ㆍ [수수료부문] (1) Brokerage 수수료수익(200) +18.4%) 크게 증가. 국내외 Stock Information 수수료수익 증가. 시장 일평균 거래대금 증가 영향 WM 관련 현재가 (11/6) 23,6502 수수료수익(3000 +20.9%)E 크게 증가. WEL Wrap 중심 판매잔고 pen oseneoia 증"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "미래에셋증권",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 24000,
+                  "display": "24,000원 (상향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "DAOL 다올투자증권 Wo 208 미래에셋증권 (006800) 투자목적자산 운용이 중요 Issue 3Q25 Review HOLD nt 투자의견 HOLD 유지, 적정주가 24,000원으로 상향 현재 직전 변동 Rationale 투자의권 1010 HOLD 유지 ㆍ3025『 연결기준 영업이익 2,228억원(70 -39.9%, QoQ -55.50), 지배순이익 4억원 + 9 - %)으로, 순이익 기준 적정주가 24,000 23.000 상향 지배순이익 3,404 커원(6 16.9%, QoQ -15.6%)으로, 순이익 기준 컨센서스와 당사 추정치를 각각 +12.7%, +12.0% 상회 Earnings 상향 ㆍ [수수료부문] (1) Brokerage 수수료수익(200) +18.4%) 크게 증가. 국내외 Stock Information 수수료수익 증가. 시장 일평균 거래대금 증가 영향 WM 관련 현재가 (11/6) 23,6502 수수료수익(3000 +20.9%)E 크게 증가. WEL Wrap 중심 판매잔고 pen oseneoia 증"
+                }
+              ],
+              "pitch": "시장 일평균꺼래대금 우상향 전망어 미래에셋증권 분기 실적 추이 및 전망 (십억원)",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 HOLD 유지, 적정주가 24,000원으로 상향 시장 일평균꺼래대금 우상향 전망어 상승여력 깜안하여 투자의견은 HOLD 유지 미래에셋증권 분기 실적 추이 및 전망 (십억원)",
+              "valuation": [
+                "Valuation wide 2024 2025E 2026 - _ _",
+                "PER(HH) 64 116 118 : 테크원타워 처분익 3,400억은 영업외수익으로 반영.",
+                "PBR(HH) 05 14 1.0 지배지분 SF 1,600역원이 반영된 셈.",
+                "Performance 1M 6M 12M YID wo",
+                "7: 미래에셋증권 Valuation (원, 배 %)",
+                "2: 미래에셋증권 PER Bandchart Fig."
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134808/1/20251107_006800_jiwonkim_152.pdf",
@@ -42526,7 +42971,36 @@
           "opinion_history": [],
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
-          "tp_changes": [],
+          "tp_changes": [
+            {
+              "company": "현대건설",
+              "direction": "하향",
+              "old": null,
+              "new": 77000,
+              "display": "77,000원 (하향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "로 연결매출은 감소세. 매출 깜소에도 불구, 매출채권 증가세 지속. 채권 미회수와 Performance 1M 6M 12M YTD 현금흐름 없는 현장으로 인해 현금 감소 추세 지속. 주가상승률(%) 29.2 69.0 1520 1768 KOSPI HHH] ACHF°S (4) 9.3 8.3 91.3 105.6 *원전 시장 확대로 밸류에이션 멀티플은 FH 상단인 14배를 유지하지만 실적에 대한 방향성 TRSS}7] 어려움. PER 14배를 2026년 878에 적용하여 적정주가를 77,000원으로 하향하고 투자의견 Hold= 하향. 3025 Review (단위: 십억원, %, %p) 외사 잠정 당사 예상 시장 컨 = 접년 ㅠㅠ 2025.09(P)| 2025.09) 2025.096)| 56000 | 2024.09 000 매출액 1.4 영업이익 (58.7) . 43.2 . . .0| (523) 지배주주순이익 ! . (68.4) . (21.5) . .5| (539) OPM : 3.4% -2.1%p 1.0% 0.4%p 14%| -0.",
+              "date": "2025-11-03",
+              "source": "https://t.me/daolresearch/12776"
+            },
+            {
+              "company": "DL이앤씨",
+              "direction": "하향",
+              "old": null,
+              "new": 45000,
+              "display": "45,000원 (하향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "3Q25 Review: | ypark@daolfn.com Issue 3Q25 Review Pitch 매출액과 영업이익 모두 당사추정치와 컨센서스 부합. 주택 원가율 예상보다 현재 직전 ibs 좋았지만, 우려하던 채권 손상 발생. 수주 부진 Aske 매출 감소 우려 투자의견 HOLD BUY 하향 사측은 수주부진, 추가 손실을 고려하여 연간 가이던스를 하향. 가이던스 적정주가 45,000 56,000 하향 하향과 매출 UA 우려를 반영하여 이익 주정치를 하향, 적정주가를 45,000원으로 하향하고 투자의견 11010로 하향 Earnings Stock Inf +f Rationale Ock Information _ 현재가 (11/6 39.900원 ㆍ3분7| 매출액 1조 9,070억원으로 당사추정치와 컨센서스를 각각 2.6% 예상 주가상승률 12.8% 4.8% 상회. 영업이익 1.168억원으로 당사추정치를 1.8% 하회, 컨센서스를 APSA 15,4394 2 6.1% 상회. 수주 부진 심화로 매출 감소 불가피. 선별적 수주전략",
+              "date": "2025-11-07",
+              "source": "https://t.me/daolresearch/12823"
+            }
+          ],
           "tp_raises": [],
           "report_count": 4,
           "reports": [
@@ -42542,12 +43016,31 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
+              "tp_changes": [
+                {
+                  "company": "DL이앤씨",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 45000,
+                  "display": "45,000원 (하향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "3Q25 Review: | ypark@daolfn.com Issue 3Q25 Review Pitch 매출액과 영업이익 모두 당사추정치와 컨센서스 부합. 주택 원가율 예상보다 현재 직전 ibs 좋았지만, 우려하던 채권 손상 발생. 수주 부진 Aske 매출 감소 우려 투자의견 HOLD BUY 하향 사측은 수주부진, 추가 손실을 고려하여 연간 가이던스를 하향. 가이던스 적정주가 45,000 56,000 하향 하향과 매출 UA 우려를 반영하여 이익 주정치를 하향, 적정주가를 45,000원으로 하향하고 투자의견 11010로 하향 Earnings Stock Inf +f Rationale Ock Information _ 현재가 (11/6 39.900원 ㆍ3분7| 매출액 1조 9,070억원으로 당사추정치와 컨센서스를 각각 2.6% 예상 주가상승률 12.8% 4.8% 상회. 영업이익 1.168억원으로 당사추정치를 1.8% 하회, 컨센서스를 APSA 15,4394 2 6.1% 상회. 수주 부진 심화로 매출 감소 불가피. 선별적 수주전략"
+                }
+              ],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 12.8% 4.8% 상회. 90일 feria 105491 반영 예상, 사측 연간 가이던스 하향 (수주 13.2조원 그 9.5조원, 매출",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 HOLD BUY 하향 사측은 수주부진, 추가 손실을 고려하여 연간 가이던스를 하향. 45,000원으로 하향하고 투자의견 11010로 하향 하향하고 투자의견 11010로 하항",
+              "valuation": [
+                "Kopernik Global Investors (2| 1인) 85 5.5조원으로 GR 연간목표의 41.7% 달성에 그침.",
+                "Valuation wide 2024 2025E 2026 양호하지만 운전자본 회전이라는 업의 본질 고려시 수주 확인 필요한",
+                "PER(H) 54 73 44 시점",
+                "PBR(HH) 0.3 0.3 0.3",
+                "EV/EBITDA(HH) 0 14 0.8 :우려했던 미회수 채권 손상 발생하면서 판관비 크게 증가.",
+                "Performance 1M 6M 12M YTD 상충 이슈."
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134809/1/20251107_375500_ypark_90.pdf",
@@ -42571,10 +43064,16 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "현재가 (14/4) 18,6608 매수 기회를 주고 있음 하락한 주가가 매수 기회를 주고 있음 회사 잠정 당사 예상 시장 | aco 전년 (om",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 자회사 자이6&의 관계사 공사 정산이익 인식, 베트남 토지매각분 일시 반영 | 유지, 투자의견 Buy 유지. KOSP| Cid] ACIAME (%) (14.9) (55.8) (53.8) (64.2) 24,000원을 유지, 투자의견 Buy 유지.",
+              "valuation": [
+                "Valuation wide 2024 2025E 2026E 끼여",
+                "PER(HH) 6.0 13.0 54 oy ey !",
+                "PBR(HH) 0.4 0.5 0.4 ° 매출채권 회수는 업종 내에서 상대적으로 안정적.",
+                "EV/EBITDA(HH) 99 63 6.0 대비 규모 기준으로 양호한 규모",
+                "Performance 1M 6M 12M YTD _ _ _ 이"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134709/1/20251105_006360_ypark_89.pdf",
@@ -42598,11 +43097,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 14.7% ㆍ 3427] 매출액 1조 9,906억원으로 당사추정치와 컨센서스를 각각 5.4%, 4.0%",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "° 4,300원으로 하향하고 투자의견 Hold& 하향. 하향하고 투자의견 Hold 하향: 실적 개선 또는 대출규제로 인해 발생한 업황",
+              "valuation": [
+                "EV/EBITDA(HH) 63 73 57 공급.",
+                "Performance 1M 6M 12M YTD _ _ _ yoy x:"
+              ],
+              "earnings_changes": [
+                "carn 리스크 있는 BI] 실적 변동성을 반영하여 실적 추정치 하향 적정주가를",
+                "실적 추정 자 ORS 반영 se 적정주가를 4300008"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134613/1/20251103_047040_ypark_88.pdf",
               "pdf_error": "",
@@ -42623,12 +43128,33 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
+              "tp_changes": [
+                {
+                  "company": "현대건설",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 77000,
+                  "display": "77,000원 (하향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "로 연결매출은 감소세. 매출 깜소에도 불구, 매출채권 증가세 지속. 채권 미회수와 Performance 1M 6M 12M YTD 현금흐름 없는 현장으로 인해 현금 감소 추세 지속. 주가상승률(%) 29.2 69.0 1520 1768 KOSPI HHH] ACHF°S (4) 9.3 8.3 91.3 105.6 *원전 시장 확대로 밸류에이션 멀티플은 FH 상단인 14배를 유지하지만 실적에 대한 방향성 TRSS}7] 어려움. PER 14배를 2026년 878에 적용하여 적정주가를 77,000원으로 하향하고 투자의견 Hold= 하향. 3025 Review (단위: 십억원, %, %p) 외사 잠정 당사 예상 시장 컨 = 접년 ㅠㅠ 2025.09(P)| 2025.09) 2025.096)| 56000 | 2024.09 000 매출액 1.4 영업이익 (58.7) . 43.2 . . .0| (523) 지배주주순이익 ! . (68.4) . (21.5) . .5| (539) OPM : 3.4% -2.1%p 1.0% 0.4%p 14%| -0."
+                }
+              ],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 9.5% * 3427] 매출액 7조 8,265억원으로 당사추성치와 컨센서스 각각 7.3%, 4.7% 외사 잠정 당사 예상 시장 컨 = 접년 ㅠㅠ",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 HOLD BUY 하향 방향성 Tel] 어려운 시점. 적정주가를 77,000원으로 하향하고 투자의견 Hold= 하향.",
+              "valuation": [
+                "적정주가 77,000 85,000 하향 밸류에이션 멀티플은 AHH 상단 14배로 규시하시만 실적 주성치 하향으로",
+                "Valuation wide 2024 2025E 2026E 확인할 필요 있음.",
+                "PER(HH) n/a 23.6 128 _",
+                "PBR(HH) 04 4 10 *ㆍ수주 성과 양호.",
+                "EV/EBITDA(HH)) n/a 9.2 6.6 SEE 347] 93%, 연간 26.1조로 연간목표 84% 달성.",
+                "Performance 1M 6M 12M YTD 현금흐름 없는 현장으로 인해 현금 감소 추세 지속."
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134612/1/20251103_000720_ypark_87.pdf",
@@ -43762,6 +44288,11 @@
               "text": "호주로(BUY, 적정주가 60만원), 그리고 삼성SDI, 엘앤에프를 선호주로 제시한다.",
               "date": "2025-11-19",
               "source": "https://t.me/daolresearch/12932"
+            },
+            {
+              "text": "Sau 투자의견 적정주가 — Top picks wWejA]O|E2] HEV 미국판매 시작으로 현대차의 미국 ASP 상승구간 시작.",
+              "date": "2025-11-21",
+              "source": "https://t.me/daolresearch/12957"
             }
           ],
           "top_pick_change": "해당 기간 최초 명시",
@@ -43811,9 +44342,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "202814 매출액은 23년대비 2배 예상, 64조원에 해당 유럽 50GWh+",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "202814 매출액은 23년대비 2배 예상, 64조원에 해당 유럽 50GWh+",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -43923,9 +44454,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "이차전지 중국 대형 리틈업체인 관평리틈 SSS 내년 톤당 19만위안 이상을 예상",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "이차전지 중국 대형 리틈업체인 관평리틈 SSS 내년 톤당 19만위안 이상을 예상",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -43946,14 +44477,22 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "Sau 투자의견 적정주가 — Top picks wWejA]O|E2] HEV 미국판매 시작으로 현대차의 미국 ASP 상승구간 시작."
+              ],
+              "preferred_stocks": [
+                "Sau 투자의견 적정주가 — Top picks wWejA]O|E2] HEV 미국판매 시작으로 현대차의 미국 ASP 상승구간 시작."
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "내외가 예상되며 현대차의 및 7) obo] 전사 ASP 상승을 이끌7| 시작할 것 영업이익 3.1주원, 1.8조원을 예상 확대될 전망이나, 현재 P/ETE 6배수준까지 어닝 개선에 대한 정교한 양사 영업이익은 3년만의 증익이 예상되며, 13.6조원(0 +6.8%),",
+              "industry_conclusion": "Sau 투자의견 적정주가 — Top picks wWejA]O|E2] HEV 미국판매 시작으로 현대차의 미국 ASP 상승구간 시작. 양사 투자의견 BUY 및 적정주가 36만원, 17만원 유지 확대될 전망이나, 현재 P/ETE 6배수준까지 어닝 개선에 대한 정교한",
+              "report_conclusion": "Sau 투자의견 적정주가 — Top picks wWejA]O|E2] HEV 미국판매 시작으로 현대차의 미국 ASP 상승구간 시작. 양사 투자의견 BUY 및 적정주가 36만원, 17만원 유지 확대될 전망이나, 현재 P/ETE 6배수준까지 어닝 개선에 대한 정교한",
+              "valuation": [
+                "SAIS 자동사 | jwyoo@daolfn.com ASP?} O|7 끄는 밸류에이션 상승",
+                "WeAlo|S2] 미국 출시, ASP 인상을 통한 밸류에이션 상승 S",
+                "가속화가 기대되며, 차종별 HEV 확대전개가 빠른 현대/71아의 밸류에이션"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135255/1/20251121_B2510_jwyoo_565.pdf",
@@ -44015,10 +44554,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "엔비디아 실적시즌, 655수요의 강력한 단서 제시 예상 LBNLOIAE 현재 2028년 최대 S8OTWh 예상",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "엔비디아 실적시즌, 655수요의 강력한 단서 제시 예상 LBNLOIAE 현재 2028년 최대 S8OTWh 예상",
+              "valuation": [
+                "TeslaS 포함한 High-multiple 밸류에이션 자동차 업체들은 대체로 부진"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135059/1/20251114_B20_jwyoo_563.pdf",
@@ -44069,9 +44610,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "텔룰라이드 AAA Ro} 1026 들어서는 12%대로 안착 전망.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "텔룰라이드 AAA Ro} 1026 들어서는 12%대로 안착 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -44222,9 +44763,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "이차전지 150Gwhol 달할 것으로 전망.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "이차전지 150Gwhol 달할 것으로 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -45997,9 +46538,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "- 투자포인트 1) 신조선가는 보합이지만 엔진가격",
+              "industry_conclusion": "4분기와 2026년 상반기 수주 전망 밝음 - 한화엔진의 중국 민영: 미국 USTRE| 중국",
+              "report_conclusion": "4분기와 2026년 상반기 수주 전망 밝음 - 한화엔진의 중국 민영: 미국 USTRE| 중국",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -46198,9 +46739,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "회사 잠정 당사 예상 시장 호 전년 >",
+              "industry_conclusion": "회사 잠정 당사 예상 시장 호 전년 >",
+              "report_conclusion": "회사 잠정 당사 예상 시장 호 전년 >",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -46225,10 +46766,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "납품 잔여대수 납품 2025 잔여대수 미래 예상",
+              "pitch": "예상 주가상승률 33.4% 5,726억원(+30%, +99%)으로 AAS 이어깝. ㆍ 수출잔고에서 7조원 이상의 영업이익에 예상되는데, 시총은 50조원 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기",
               "industry_conclusion": "",
-              "report_conclusion": "납품 잔여대수 납품 2025 잔여대수 미래 예상",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 반영해서, SATS] 적정주가를 139만원으로 +11% 상향",
+              "valuation": [
+                "Valuation wide 2024 2025E 20266 한 반복세작에 때론 규 8제도 발휘된다는 설명",
+                "EV/EBITDA(HH) 10.9 137 107 2029년까지 백로그는 4년치에 달하지만, 이를 유지하는 5조원의 수주7",
+                "Performance 14 6M 124 YTD MCSE 24212) 수주를 달성 중.",
+                "PER VALUATION 20224 202314 2024'4 2025'4",
+                "PER(1) 225 9.4 85 9.0",
+                "PER(AT) 10.6 41 25 44"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134668/1/20251104_012450_gs.choie_462.pdf",
@@ -46366,10 +46914,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 4분기 정책 측면에서 SPIE 발생을 예상하고 있었으나 지금까지 SESH 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135254/1/20251121_B_bhcho_235.pdf",
@@ -46393,10 +46943,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 12월 10일 『014(를 앞두고 있는 상황에서 정책 결정에 다해 중요한 판단 근거를 제시할 수 있는 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치 2025-11-20 국 11월 필라델피아 연준 경기 전망 %mom 2.0 -12.8",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 2025-11-20 국 11월 필라델피아 연준 경기 전망 %mom 2.0 -12.8",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 2025-11-20 국 11월 필라델피아 연준 경기 전망 %mom 2.0 -12.8",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135040/1/20251114_takkama2_13.pdf",
@@ -46420,10 +46972,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134829/1/20251107_takkama2_12.pdf",
@@ -46440,8 +46994,14 @@
           "sectors": [
             "채권분석"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "중립",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2025-11-27",
+              "source": "https://t.me/daolresearch/13001"
+            }
+          ],
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
@@ -46457,14 +47017,14 @@
               "company": "11월",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "화 및 기자회견 영향으로 성장전망의 시장 영향력은 제한적 : 물가 안정적 흐름-예상보다 높아진 상황 포워드 가이던스 예상 수준에서 매파적 : 변화 자체는 cho LOU, 시장이 이 정도 변화는 이미 예상",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "화 및 기자회견 영향으로 성장전망의 시장 영향력은 제한적 : 이외에, 새롭게 제시한 2027년 성장률 전망치가(1.9%) 2026년 성장전망(1.8%)보다 높은 점 So] '인하 기조의 종료'로 9) 2026년 성장률 1.8% 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -46489,9 +47049,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": ": 다만 SAA 적극적인 로스컷보다는 108 중 매수 SSS 처리ㅎ : 운용사 및 증권사는 1~3분7] 순매수 금액의 30% BES 4분기에 매도. : 현물에서는 운용과 증권사의 로스컷이 나타나고 있으나, 1~3분기 순매수를 되돌리기 위한 기관들(=오히려 금리가 오를 때 매수하는 기관들, 은행, 보험 SVE 적극적으로 로스컷 ge",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": ": HLL 11월 경제전망을 앞두고 물가와 성장",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -46811,6 +47371,19 @@
               "evidence": "수수료수익 감소 때문. 전분기 파크원 조기 리파이낸싱 관련 수익 기저가 있고, 수도권 본PF 중심 선별적 기조 속 신규 보강규모 축소 영향 • [비수수료부문] 순이자이익(QoQ +6.6%). 예탁금 및 신용공여 잔고 평잔 증가에 따른 수익 증가. 반면, 기업여신 잔고 평잔은 정체. 운용 및 기타손익(QoQ +43.1%) 크게 증가. 유가증권 평가익 증가는 제한적이었지만, 비시장성 자산 평가익 500억원 반영과 일부 충당금 환입분 존재로 해석 • 적정주가 24,000원으로 상향. 실적 반영 후 이익 추정치 수정과 선행 ROE 상향 결과. 적정 PBR 0.9배 • 높은 주주환원 매력 지속. 2025E 총주주환원율 53.0% 전망. 전년도 연결 배당성향 47.8% 유지 가정. 지난 7월 31일 발표된 세제개편안 내용상 도입예정인 배당소득 분리과세 적용 기준에도 부합할 개연성 판단 EARNINGS REVIEW 김지원 금융 I jiwonkim@daolfn.com 31 Oct. 2025 NH투자증권 (005940) BUY 현재 ",
               "date": "2025-10-31",
               "source": "https://t.me/daolresearch/12754"
+            },
+            {
+              "company": "키움증권",
+              "direction": "상향",
+              "old": null,
+              "new": 360000,
+              "display": "360,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "DAOL 다올투자증권 10005 키움증권 (039490) 실적 좋았고 배당 확대 기대 Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 360,000원으로 상향 현재 직전 변동 투자의견 BUY BUY 유지 Rationale 적정주가 360,000 320.000 상향 ㆍ 30252 연결기준 영업이익 _4,089억원(0 +52.6%, QoQ flat), 지배순이익 3,219억원(6 +52.0%, QoQ +3.9%)으로 컨센서스와 당사 Earnings 상향 _ , 7 주정치를 각각 +19.5%, +12.6% 상회 Stock Information ㆍ [수수료부문] (1) Brokerage 수수료수익 SIHQOQ +6.9%). 국내외 주식 현재가(10/30) 299,500원 수수료수익 증가. 리테일 신용공여 한도 상당부분 소진 등으로 BI 중 At 주가상승륭 20.2% = a pe 79,1519 점유율 하락이 있었으나, 국내외 시장 일평균 거래대금 증가와 평균 een 0.24% 수수료을 회복 영향으로 해석",
+              "date": "2025-10-31",
+              "source": "https://t.me/daolresearch/12755"
             }
           ],
           "tp_raises": [
@@ -46827,6 +47400,19 @@
               "evidence": "수수료수익 감소 때문. 전분기 파크원 조기 리파이낸싱 관련 수익 기저가 있고, 수도권 본PF 중심 선별적 기조 속 신규 보강규모 축소 영향 • [비수수료부문] 순이자이익(QoQ +6.6%). 예탁금 및 신용공여 잔고 평잔 증가에 따른 수익 증가. 반면, 기업여신 잔고 평잔은 정체. 운용 및 기타손익(QoQ +43.1%) 크게 증가. 유가증권 평가익 증가는 제한적이었지만, 비시장성 자산 평가익 500억원 반영과 일부 충당금 환입분 존재로 해석 • 적정주가 24,000원으로 상향. 실적 반영 후 이익 추정치 수정과 선행 ROE 상향 결과. 적정 PBR 0.9배 • 높은 주주환원 매력 지속. 2025E 총주주환원율 53.0% 전망. 전년도 연결 배당성향 47.8% 유지 가정. 지난 7월 31일 발표된 세제개편안 내용상 도입예정인 배당소득 분리과세 적용 기준에도 부합할 개연성 판단 EARNINGS REVIEW 김지원 금융 I jiwonkim@daolfn.com 31 Oct. 2025 NH투자증권 (005940) BUY 현재 ",
               "date": "2025-10-31",
               "source": "https://t.me/daolresearch/12754"
+            },
+            {
+              "company": "키움증권",
+              "direction": "상향",
+              "old": null,
+              "new": 360000,
+              "display": "360,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "DAOL 다올투자증권 10005 키움증권 (039490) 실적 좋았고 배당 확대 기대 Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 360,000원으로 상향 현재 직전 변동 투자의견 BUY BUY 유지 Rationale 적정주가 360,000 320.000 상향 ㆍ 30252 연결기준 영업이익 _4,089억원(0 +52.6%, QoQ flat), 지배순이익 3,219억원(6 +52.0%, QoQ +3.9%)으로 컨센서스와 당사 Earnings 상향 _ , 7 주정치를 각각 +19.5%, +12.6% 상회 Stock Information ㆍ [수수료부문] (1) Brokerage 수수료수익 SIHQOQ +6.9%). 국내외 주식 현재가(10/30) 299,500원 수수료수익 증가. 리테일 신용공여 한도 상당부분 소진 등으로 BI 중 At 주가상승륭 20.2% = a pe 79,1519 점유율 하락이 있었으나, 국내외 시장 일평균 거래대금 증가와 평균 een 0.24% 수수료을 회복 영향으로 해석",
+              "date": "2025-10-31",
+              "source": "https://t.me/daolresearch/12755"
             }
           ],
           "report_count": 11,
@@ -46843,12 +47429,43 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "키움증권",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 360000,
+                  "display": "360,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "DAOL 다올투자증권 10005 키움증권 (039490) 실적 좋았고 배당 확대 기대 Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 360,000원으로 상향 현재 직전 변동 투자의견 BUY BUY 유지 Rationale 적정주가 360,000 320.000 상향 ㆍ 30252 연결기준 영업이익 _4,089억원(0 +52.6%, QoQ flat), 지배순이익 3,219억원(6 +52.0%, QoQ +3.9%)으로 컨센서스와 당사 Earnings 상향 _ , 7 주정치를 각각 +19.5%, +12.6% 상회 Stock Information ㆍ [수수료부문] (1) Brokerage 수수료수익 SIHQOQ +6.9%). 국내외 주식 현재가(10/30) 299,500원 수수료수익 증가. 리테일 신용공여 한도 상당부분 소진 등으로 BI 중 At 주가상승륭 20.2% = a pe 79,1519 점유율 하락이 있었으나, 국내외 시장 일평균 거래대금 증가와 평균 een 0.24% 수수료을 회복 영향으로 해석"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "키움증권",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 360000,
+                  "display": "360,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "DAOL 다올투자증권 10005 키움증권 (039490) 실적 좋았고 배당 확대 기대 Issue 3Q25 Review Pitch 투자의견 BUY, 적정주가 360,000원으로 상향 현재 직전 변동 투자의견 BUY BUY 유지 Rationale 적정주가 360,000 320.000 상향 ㆍ 30252 연결기준 영업이익 _4,089억원(0 +52.6%, QoQ flat), 지배순이익 3,219억원(6 +52.0%, QoQ +3.9%)으로 컨센서스와 당사 Earnings 상향 _ , 7 주정치를 각각 +19.5%, +12.6% 상회 Stock Information ㆍ [수수료부문] (1) Brokerage 수수료수익 SIHQOQ +6.9%). 국내외 주식 현재가(10/30) 299,500원 수수료수익 증가. 리테일 신용공여 한도 상당부분 소진 등으로 BI 중 At 주가상승륭 20.2% = a pe 79,1519 점유율 하락이 있었으나, 국내외 시장 일평균 거래대금 증가와 평균 een 0.24% 수수료을 회복 영향으로 해석"
+                }
+              ],
+              "pitch": "가 주 299% 기존 예상보다 대형 딜 유상증자 인수비율에 따른 수취 수익이 많았고, 주가상승률(%) 222 1186 1232 1577 전망과 실적 반영 후 추정치 수정 결과 FSSA 분기 실적 추이 및 전망 (십억원)",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY, 적정주가 360,000원으로 상향 투자의견 BUY BUY 유지 Rationale 주가상승률(%) 222 1186 1232 1577 전망과 실적 반영 후 추정치 수정 결과 FSSA 분기 실적 추이 및 전망 (십억원)",
+              "valuation": [
+                "Valuation wide 2024 2025E 2026E ETE LP 선점 차익 효과에도, 파생상품 평가손실 및 유가증권 평가익 감소",
+                "PER(HH) 37 58 53 moe = x 츠으레 =",
+                "PBR(HH)) 06 1.0 0.9 영향으로 해석.",
+                "EV/EBITDA(HH) N/A N/A N/A = = 5 = PLLA 3 규탄코 3",
+                "Performance 14 6M 124 YTD :적정주가 상향.",
+                "Fig.2: 키움증권 PER Bandchart Fig."
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134518/1/20251031_039490_jiwonkim_149.pdf",
@@ -47630,11 +48247,21 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 16.8% ㆍ3분7| 매출액 1조 9956억원, 영업이익 1.765억원. 외국인 지분율 48.2% 겨허되구 과 고 7 선 전망. 배당수익률(96) a0 24 as 높다고 판단. Performance 1M 6M 12M YTD 이익 전망 반영 필요.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 부담 중동 대형 현장 매출인식 본격화로 당분간은 매출 방어 가능하지만 이익 외국인 지분율 48.2% 겨허되구 과 고 7 선 전망. Performance 1M 6M 12M YTD 이익 전망 반영 필요. KOSPI Cte] <tC-eOls (%) (17.1) (17.4) (7.3) (48) :아직 수주 가정을 낮추지 않아 이익 추정 GA 전망 유지.",
+              "valuation": [
+                "Valuation wide 2024 2025E 2026E 수준이 이례적이었던 만큼 정상화되는 Zs.",
+                "PER(HH)) 43 7.0 7.1 ㆍ 0” ㆍ .",
+                "PBR(HH) 08 12 10 ㆍ 2026년 하반7| 매출을 담보하7| 위해서는 그 전에 수주 확보 필요.",
+                "EV/EBITDA(HH) 0.3 33 24 수주 4.1조원으로 연간 BHO] 36%에 그침.",
+                "Performance 1M 6M 12M YTD 이익 전망 반영 필요."
+              ],
+              "earnings_changes": [
+                "아직은 수주 가정을 HEA) 않아 이익 추정은",
+                "Performance 1M 6M 12M YTD 이익 전망 반영 필요.",
+                "KOSPI Cte] <tC-eOls (%) (17.1) (17.4) (7.3) (48) :아직 수주 가정을 낮추지 않아 이익 추정 GA 전망 유지."
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134522/1/20251031_028050_ypark_86.pdf",
               "pdf_error": "",

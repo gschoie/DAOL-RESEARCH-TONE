@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-20T17:11:55.300730+00:00",
+ "generated_at": "2026-09-20T22:20:20.391879+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1333,
+ "report_count": 1334,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -9169,6 +9169,23 @@
    "source_url": "https://buly.kr/BeLFL9R"
   },
   {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2025-10-31",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "키움증권",
+   "code": "039490",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "Valuation wide 2024 2025E 2026E ETE LP 선점 차익 효과에도, 파생상품 평가손실 및 유가증권 평가익 감소"
+   ],
+   "title": "[키움증권(039490)/BUY(유지)/TP 360,000원(상향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 실적 좋았고 배당 확대 기대",
+   "post_url": "https://t.me/daolresearch/12755",
+   "source_url": "https://buly.kr/BeLFL9R"
+  },
+  {
    "theme": "관세/무역분쟁",
    "category": "매크로",
    "date": "2025-10-31",
@@ -9984,6 +10001,23 @@
    "source_url": "https://buly.kr/Nkmk4H"
   },
   {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2025-11-07",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "DL이앤씨",
+   "code": "375500",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Kopernik Global Investors (2| 1인) 85 5.5조원으로 GR 연간목표의 41.7% 달성에 그침."
+   ],
+   "title": "[DL이앤씨(375500)/HOLD(하향)/TP 45,000원(하향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q25 Review : 성장이 필요",
+   "post_url": "https://t.me/daolresearch/12823",
+   "source_url": "https://buly.kr/8828Fwx"
+  },
+  {
    "theme": "관세/무역분쟁",
    "category": "매크로",
    "date": "2025-11-07",
@@ -10346,6 +10380,40 @@
    "source_url": "https://buly.kr/BeLJgaE"
   },
   {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2025-11-12",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "삼성증권",
+   "code": "016360",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "PER(HH) 43 6.2 6.0 매크로 환경상 유가증권 중심 [자산 평가익 축소 영향으로 해석"
+   ],
+   "title": "[삼성증권(016360)/BUY(유지)/TP 93,000원(상향)]｜다올 금융 김지원 ☎ 2184-2306] ★ Fee-biz 경쟁력 확인",
+   "post_url": "https://t.me/daolresearch/12874",
+   "source_url": "https://buly.kr/BeLJgaE"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2025-11-12",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "한국금융지주",
+   "code": "071050",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "PER(HH) 42 44 44 유가증권 평가익 축소 및 보유 a een 환차손 확대에도, 증권 별도 충당금"
+   ],
+   "title": "[한국금융지주(071050)/BUY(유지)/TP 250,000원(상향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 일단 믿고 간다",
+   "post_url": "https://t.me/daolresearch/12875",
+   "source_url": "https://buly.kr/YfZtCF"
+  },
+  {
    "theme": "방산 수출",
    "category": "산업테마",
    "date": "2025-11-12",
@@ -10706,7 +10774,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "차주(11/19) Nvidia의 실적발표 예정."
+    "차주(11/19) Nvidia의 실적발표 예정.",
+    "엔비디아 실적시즌, 655수요의 강력한 단서 제시 예상 LBNLOIAE 현재 2028년 최대 S8OTWh 예상"
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 주간 업종 리뷰: 병목구조 vs 차량 가격 인상 기대 vs 배터리 반등",
    "post_url": "https://t.me/daolresearch/12906",
@@ -10955,6 +11024,23 @@
    "source_url": "https://buly.kr/9MRVVog"
   },
   {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-11-19",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "조선",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "4분기와 2026년 상반기 수주 전망 밝음 - 한화엔진의 중국 민영: 미국 USTRE| 중국"
+   ],
+   "title": "[조선(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight): 조선보다 더 가파른 엔진",
+   "post_url": "https://t.me/daolresearch/12933",
+   "source_url": "https://bit.ly/ENGINE3Q25R"
+  },
+  {
    "theme": "AI/데이터센터 투자",
    "category": "미국공략",
    "date": "2025-11-19",
@@ -10999,7 +11085,8 @@
    "direction": "수혜",
    "score": 3,
    "evidences": [
-    "HD현대마린엔진은 2024년 수주 일감이 절반을 차지하면서 일회성제거 QoQ 3.0%p 개선 - 양사 모두 P-Mix 개선은 2027년까지 계속되면서, 조선업보다 높은 수익성, 더 가파른 턴어라운드 계속 - 투자포인트 1) 신조선가는 보합이지만 엔진가격은 상승, 2) 중국 조선의 수주 재개로 향후 수주 기대, 3) 2025년에 또 사상최대 수주를 기록함에 따른 CAPEX 필요성/예상을 바탕으로 엔진보다 조선의 비중확대 의견 견"
+    "HD현대마린엔진은 2024년 수주 일감이 절반을 차지하면서 일회성제거 QoQ 3.0%p 개선 - 양사 모두 P-Mix 개선은 2027년까지 계속되면서, 조선업보다 높은 수익성, 더 가파른 턴어라운드 계속 - 투자포인트 1) 신조선가는 보합이지만 엔진가격은 상승, 2) 중국 조선의 수주 재개로 향후 수주 기대, 3) 2025년에 또 사상최대 수주를 기록함에 따른 CAPEX 필요성/예상을 바탕으로 엔진보다 조선의 비중확대 의견 견",
+    "- 투자포인트 1) 신조선가는 보합이지만 엔진가격"
    ],
    "title": "[조선(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 조선(Overweight): 조선보다 더 가파른 엔진",
    "post_url": "https://t.me/daolresearch/12933",
@@ -12069,6 +12156,23 @@
    "source_url": "https://bit.ly/DOS800"
   },
   {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2025-12-09",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "삼성중공업",
+   "code": "010140",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "피어그룹과 동일한 MASGA BESS AAPER 20배(기존 15배)로 상향"
+   ],
+   "title": "[삼성중공업(010140)/BUY(유지)/TP 37,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 4Q25 Preview : 나도 MASGA 3개 협력. 같은 멀티플 달라",
+   "post_url": "https://t.me/daolresearch/13066",
+   "source_url": "https://bit.ly/SHI4Q25PRE"
+  },
+  {
    "theme": "미 함정 MRO/조선협력",
    "category": "미국공략",
    "date": "2025-12-09",
@@ -12077,10 +12181,10 @@
    "company": "삼성중공업",
    "code": "010140",
    "direction": "수혜",
-   "score": 2,
+   "score": 5,
    "evidences": [
-    "Issue: 미국 General Dynamic 휘하 NASSCO, Conrad와 파트너십 체결 피어그룹과 동일한 MASGA 멀티플인 적정PER 20배(기존 15배)로, 적정주가 37,000원으로 상향",
-    "Pitch: > 피어그룹과 달리 특수선 사업을 영위하지 않아서 BIG3 중 MASGA에서 수혜가 가장 약해 보였지만, - 이번 사업협력 2개 추가 및 누적 3개의 미국 조선사들과의 파트너십 체결으로 큰 차이 없다고 판단 - 특히 General Dynamic은 미국 군함 건조를 양분하는 큰 손 - Delfin FLNG 수주 임박."
+    "삼성중공업 적정주가 37,000원으로 상향: MAPERS MASGAS| 20배로 상향 (원, 배수)",
+    "Issue: 미국 General Dynamic 휘하 NASSCO, Conrad와 파트너십 체결 피어그룹과 동일한 MASGA 멀티플인 적정PER 20배(기존 15배)로, 적정주가 37,000원으로 상향"
    ],
    "title": "[삼성중공업(010140)/BUY(유지)/TP 37,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 4Q25 Preview : 나도 MASGA 3개 협력. 같은 멀티플 달라",
    "post_url": "https://t.me/daolresearch/13066",
@@ -12252,9 +12356,10 @@
    "sector": "전략/시황",
    "company": "한은",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
+    ": 환율은 1.465원대만 도달해도 실매수 수요 유입 - 만약 예상대비 과감한 인하 이후 물가가 반등하게 될 시, aL 체제하의 비 인플레 논거는 - 따라서 차기 의장의 인하 SES 선반영하여 추종하는 것은 위험하다고 판단한.",
     "결국 중요한 것은 이를 통한 원/달러 환율의 움직임"
    ],
    "title": "[Fixed Income / 다올투자증권 채권분석 허정인 ☎ 02-2184-2303] ★ 한은 단순매입 딜레마",
@@ -30580,6 +30685,77 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Hengli의 LNG선 시장 진입 시도. VLGC 신조선가 또 상승 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15104",
    "source_url": "https://bit.ly/DOS840"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-09-21",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "KT&G",
+   "code": "033780",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "향후 생산량 증가와 함께 가공비 절감, 무관세 혜택 효과가 더욱 가시화되며 원가 경쟁력 강화 전망.",
+    "카자흐스탄 현지 생산 전환 효과는 크게 1) 가공비 절감, 2) EAEU 무관세 혜택 두 가지."
+   ],
+   "title": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기",
+   "post_url": "https://t.me/daolresearch/15106",
+   "source_url": "https://buly.kr/6MuPj9J"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-09-21",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "KT&G",
+   "code": "033780",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[주주환원] Capex Cycle 종료, 예상보다 강할 ‘26년 하반기 주주환원 동사는 지난 8월 중간 주당배당금으로 2,000원을 공시.",
+    "연초 약속한 자사주 매입 3,000억원은 하반기 중 진행 예정."
+   ],
+   "title": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기",
+   "post_url": "https://t.me/daolresearch/15106",
+   "source_url": "https://buly.kr/6MuPj9J"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-09-21",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "KT&G",
+   "code": "033780",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[주주환원] Capex Cycle 종료, 예상보다 강할 ‘26년 하반기 주주환원 동사는 지난 8월 중간 주당배당금으로 2,000원을 공시."
+   ],
+   "title": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기",
+   "post_url": "https://t.me/daolresearch/15106",
+   "source_url": "https://buly.kr/6MuPj9J"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-09-21",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "KT&G",
+   "code": "033780",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[생산] 현지 생산 체계로 완성되는 원가 경쟁력 ‘25년 3월 KT&G의 유라시아 주요 생산거점 중 한 곳인 카자흐스탄 알마티 공장의 상업 생산 개시.",
+    "카자흐스탄 현지 생산 전환 효과는 크게 1) 가공비 절감, 2) EAEU 무관세 혜택 두 가지."
+   ],
+   "title": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기",
+   "post_url": "https://t.me/daolresearch/15106",
+   "source_url": "https://buly.kr/6MuPj9J"
   }
  ],
  "cross_mentions": [
@@ -31595,10 +31771,10 @@
  "candidates": [
   {
    "term": "통신",
-   "recent": 19,
-   "total": 20,
+   "recent": 20,
+   "total": 21,
    "sectors": 3,
-   "burst": 37.4
+   "burst": 39.2
   },
   {
    "term": "월드컵",
@@ -31612,7 +31788,7 @@
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "저변",
@@ -31647,14 +31823,7 @@
    "recent": 9,
    "total": 15,
    "sectors": 5,
-   "burst": 5.1
-  },
-  {
-   "term": "클라우드",
-   "recent": 6,
-   "total": 10,
-   "sectors": 3,
-   "burst": 4.7
+   "burst": 5.0
   },
   {
    "term": "부분이",
@@ -31685,16 +31854,23 @@
    "burst": 4.3
   },
   {
-   "term": "배당수익률",
-   "recent": 11,
-   "total": 20,
-   "sectors": 9,
-   "burst": 4.3
+   "term": "클라우드",
+   "recent": 6,
+   "total": 11,
+   "sectors": 3,
+   "burst": 3.9
   },
   {
    "term": "남미",
    "recent": 9,
    "total": 17,
+   "sectors": 4,
+   "burst": 3.9
+  },
+  {
+   "term": "정체",
+   "recent": 6,
+   "total": 11,
    "sectors": 4,
    "burst": 3.9
   }
