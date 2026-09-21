@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T18:44:23.036479+00:00",
+  "generated_at": "2026-09-21T22:16:21.487627+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1335,
   "months": [
@@ -40114,7 +40114,7 @@
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135587/1/20251203_B40_jiwonkim_158.pdf",
-              "pdf_error": "",
+              "pdf_error": "backfill: no better text (ocr)",
               "title": "[증권(Overweight)/은행(Overweight)/보험(Neutral)｜다올 금융 김지원 ☎ 2184-2306] ★ 2026 금융 연간전망: Capture Money in Motion",
               "summary": "[증권(Overweight)/은행(Overweight)/보험(Neutral)｜다올 금융 김지원 ☎ 2184-2306] ★ 2026 금융 연간전망: Capture Money in Motion ▶ 금융업종 간 투자의견은 증권 > 은행 > 보험 순을 유지 ▶ 구조적 여건상 증권업종에 아직 유리하다고 판단. 거래대금 증가 전망 유지와 증권업종으로의 머니무브 가능성. 성장 스토리의 연장 가능 ▶ 다만, 희석 여부에 따라 높은 주주환원수익률이 기대되는 은행주의 확인된 매력이 상대적으로 더 부각될 개연성도 염두 ▶ 업권별 2026년 상세 전망 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/7x7WhOt >",
               "post_url": "https://t.me/daolresearch/13033",
@@ -47837,10 +47837,13 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "ㅣ 있었지만, 기존 예상과 달리 (1) 주가지 1: 3Q25E 전망: 대체로 컨센서스 부합 또는 소폭 상회 예상",
+              "industry_conclusion": "| 투자의견 Overweight 유지, 1: 3Q25E 전망: 대체로 컨센서스 부합 또는 소폭 상회 예상",
+              "report_conclusion": "| 투자의견 Overweight 유지, 1: 3Q25E 전망: 대체로 컨센서스 부합 또는 소폭 상회 예상",
+              "valuation": [
+                "3: 증권 섹터 및 커버리지 종목 PBR 현황",
+                "(배) 24년말 =ScHPBR = APBR"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134008/1/20251020_B4030_jiwonkim_141.pdf",
@@ -48344,11 +48347,19 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "자체사업이 견인할 2026년 이익 성장 전망은 예상 주가상승률 39.7% ㆍ 3분기 매출액 1조 530억원으로 당사추성치 3.6% 상회, 컨센서스 18% 하회. KOSPI CH] Ces (%) (19.4) (75.5) (56.4) (56.1) 2026 이익전망 수정은 미미하시만, ASSIA 하향으로 적정주가 산정7|준을 외사 잠정 당사 예상 시장 컨센서스",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 재하락이 영업이익 감소 원인. 자체사업이 견인할 2026년 이익 성장 전망은 급격한 주가 하락으로 인해 상승여력 남아 있어 투자의견 Buy 유시. KOSPI CH] Ces (%) (19.4) (75.5) (56.4) (56.1) 2026 이익전망 수정은 미미하시만, ASSIA 하향으로 적정주가 산정7|준을 최근 급격한 주가 하락으로 인해 상승여력 남아 있어 투자의견 Buy 유지",
+              "valuation": [
+                "Valuationwide 2024 20256 20266 *매출채권(미청구포함) 1.9조원으로 운전자본 부담 AA 이문3, 잠실진주",
+                "PER(HH) 7.6 59 42 은 이이 이 ae = 느",
+                "PBR(HH) 04 04 04 광명4 등 현장이 분양 성과 양호하여 향후 회수에 문제 없을 껏이라는 점은",
+                "EV/EBITDA(HH) 9.3 6.6 43 긍정적.",
+                "Performance 1M 6M 12M YTD"
+              ],
+              "earnings_changes": [
+                "KOSPI CH] Ces (%) (19.4) (75.5) (56.4) (56.1) 2026 이익전망 수정은 미미하시만, ASSIA 하향으로 적정주가 산정7|준을"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134414/1/20251029_294870_ypark_85.pdf",
               "pdf_error": "",
@@ -49038,10 +49049,17 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "3Q25E 매출액과 영업이익 컨센서스 부합 전망. Earni 영업이익은 13984 A(-13%) OS 컨센서스 부합 전망. 시가총액 18,889억원 :택배사업 매출액 9%634억원(+7.3%), 영업이익률 4.8%(-1.0%2) 예상. KOSPI 대비 상대수익률 (%) (9.8) (46.9) (47.4) (52.1) 낮은 밸류 르에이션은 매수 기회 판단.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "3Q25E 매출액과 영업이익 컨센서스 부합 전망. 투자의견 BUY BUY 유지 Rationale Earni 영업이익은 13984 A(-13%) OS 컨센서스 부합 전망. 주가상승률 (%) (0.8) 07 (85) (1.5) ㆍ 투자의견 BUY, 적정주가 110,000 유지.",
+              "valuation": [
+                "Valuation wide 2024 2025E 20265 반영됨.",
+                "PER(HH) 77 8.3 6.4",
+                "PBR(HH) 07 07 0.6 ㆍ 택배사업은 3분기부터 턴어라운드가 확인됨.",
+                "EV/EBITDA(#H) 43 6.5 4] 프로모션에 기인함.",
+                "Performance 1M 6M 12M YTD",
+                "20268 PER 6.40] 수준으로"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/133814/1/20251013_000120_junghao_7.pdf",
@@ -49062,6 +49080,11 @@
           "opinion_history": [
             {
               "value": "비중확대",
+              "date": "2025-10-02",
+              "source": "https://t.me/daolresearch/12551"
+            },
+            {
+              "value": "비중확대",
               "date": "2025-10-28",
               "source": "https://t.me/daolresearch/12706"
             },
@@ -49074,6 +49097,19 @@
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [
+            {
+              "company": "3Q25",
+              "direction": "상향",
+              "old": 195000,
+              "new": 210000,
+              "display": "195,000원 → 210,000원",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "DAOL 다올투자증권 20420 포스코퓨처엠 (003670) 3025 Preview: 레벨업 초입구간 진입 BAS 자동차/이차전지 ㅣ jwyoo@daolfn.com Issue 3Q25 A 실적 프리뷰 및 주가 포 B UY Pitch 투자의견 BUYS 유지하며 적정주가는 195,000원에서 210,000원으로 상향. 양극재 출하량 급증에 따른 3025 실적호조가 기대되며, 중장기 re aw oft 현재 직전 ws 관점 상향을 위한 다수 근거가 확인되7| 시작. 적정 기업가치는 2027 투자의견 BUY BUY 유지 기준 수정 EPS 적정 P/E 35를 적용해서 산정. 4025는 기본적으로 AAAI 210,000 195,000 상향 Tae 신형 EV 수요 가세로 전방산엽에 대한 긍정적 시각 유지 필요 Earnings Rationale , ㆍ 30325 매출액 및 영업이익은 각각 9,241억원(<6 +0.1%), 336억원(6 Stock Information 5 _ 6 a 형재가 (10/4) 147 500% +2,356%) ",
+              "date": "2025-10-02",
+              "source": "https://t.me/daolresearch/12544"
+            },
             {
               "company": "3Q25",
               "direction": "상향",
@@ -49143,6 +49179,19 @@
             }
           ],
           "tp_raises": [
+            {
+              "company": "3Q25",
+              "direction": "상향",
+              "old": 195000,
+              "new": 210000,
+              "display": "195,000원 → 210,000원",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "DAOL 다올투자증권 20420 포스코퓨처엠 (003670) 3025 Preview: 레벨업 초입구간 진입 BAS 자동차/이차전지 ㅣ jwyoo@daolfn.com Issue 3Q25 A 실적 프리뷰 및 주가 포 B UY Pitch 투자의견 BUYS 유지하며 적정주가는 195,000원에서 210,000원으로 상향. 양극재 출하량 급증에 따른 3025 실적호조가 기대되며, 중장기 re aw oft 현재 직전 ws 관점 상향을 위한 다수 근거가 확인되7| 시작. 적정 기업가치는 2027 투자의견 BUY BUY 유지 기준 수정 EPS 적정 P/E 35를 적용해서 산정. 4025는 기본적으로 AAAI 210,000 195,000 상향 Tae 신형 EV 수요 가세로 전방산엽에 대한 긍정적 시각 유지 필요 Earnings Rationale , ㆍ 30325 매출액 및 영업이익은 각각 9,241억원(<6 +0.1%), 336억원(6 Stock Information 5 _ 6 a 형재가 (10/4) 147 500% +2,356%) ",
+              "date": "2025-10-02",
+              "source": "https://t.me/daolresearch/12544"
+            },
             {
               "company": "3Q25",
               "direction": "상향",
@@ -49568,9 +49617,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "GMa} Ford 각각 실적발표를 통해 $0.5~161101 가량의 연간 관세비용 예상치를 축소. 예상되며, YOY +60%에 해당.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "GMa} Ford 각각 실적발표를 통해 $0.5~161101 가량의 연간 관세비용 예상치를 축소. 예상되며, YOY +60%에 해당.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -49733,11 +49782,13 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "2027년부터 공급이 예상되는 Ｌ0에너지솔루션이 CHEMO 35000 “yoo 분기판매가 예상되고, 이후 저가 Variant 모델이 전지역으로",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "2027년부터 공급이 예상되는 Ｌ0에너지솔루션이 CHEMO 35000 “yoo 분기판매가 예상되고, 이후 저가 Variant 모델이 전지역으로",
               "valuation": [],
-              "earnings_changes": [],
+              "earnings_changes": [
+                "관세협상 진전 기대, 자동차 BSL] 2026년 이익 추정치 급증 기대감"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/133985/1/20251017_B20_jwyoo_542.pdf",
               "pdf_error": "",
@@ -49814,9 +49865,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "1609에 달할 것으로 예상되고 있어, 현실적으로 한국 350000",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "1609에 달할 것으로 예상되고 있어, 현실적으로 한국 350000",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -49836,14 +49887,14 @@
               "company": "9월",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "불과하며, 미국판매 SATE 9월에도 확인되고 있어 4025 반등 SSS 예상 10월 대반등 예상 +13.9% 양전 지속",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "불과하며, 미국판매 SATE 9월에도 확인되고 있어 4025 반등 SSS 예상 10월 대반등 예상 +13.9% 양전 지속",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -49866,12 +49917,43 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "",
+              "tp_changes": [
+                {
+                  "company": "3Q25",
+                  "direction": "상향",
+                  "old": 195000,
+                  "new": 210000,
+                  "display": "195,000원 → 210,000원",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "DAOL 다올투자증권 20420 포스코퓨처엠 (003670) 3025 Preview: 레벨업 초입구간 진입 BAS 자동차/이차전지 ㅣ jwyoo@daolfn.com Issue 3Q25 A 실적 프리뷰 및 주가 포 B UY Pitch 투자의견 BUYS 유지하며 적정주가는 195,000원에서 210,000원으로 상향. 양극재 출하량 급증에 따른 3025 실적호조가 기대되며, 중장기 re aw oft 현재 직전 ws 관점 상향을 위한 다수 근거가 확인되7| 시작. 적정 기업가치는 2027 투자의견 BUY BUY 유지 기준 수정 EPS 적정 P/E 35를 적용해서 산정. 4025는 기본적으로 AAAI 210,000 195,000 상향 Tae 신형 EV 수요 가세로 전방산엽에 대한 긍정적 시각 유지 필요 Earnings Rationale , ㆍ 30325 매출액 및 영업이익은 각각 9,241억원(<6 +0.1%), 336억원(6 Stock Information 5 _ 6 a 형재가 (10/4) 147 500% +2,356%) "
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "3Q25",
+                  "direction": "상향",
+                  "old": 195000,
+                  "new": 210000,
+                  "display": "195,000원 → 210,000원",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "DAOL 다올투자증권 20420 포스코퓨처엠 (003670) 3025 Preview: 레벨업 초입구간 진입 BAS 자동차/이차전지 ㅣ jwyoo@daolfn.com Issue 3Q25 A 실적 프리뷰 및 주가 포 B UY Pitch 투자의견 BUYS 유지하며 적정주가는 195,000원에서 210,000원으로 상향. 양극재 출하량 급증에 따른 3025 실적호조가 기대되며, 중장기 re aw oft 현재 직전 ws 관점 상향을 위한 다수 근거가 확인되7| 시작. 적정 기업가치는 2027 투자의견 BUY BUY 유지 기준 수정 EPS 적정 P/E 35를 적용해서 산정. 4025는 기본적으로 AAAI 210,000 195,000 상향 Tae 신형 EV 수요 가세로 전방산엽에 대한 긍정적 시각 유지 필요 Earnings Rationale , ㆍ 30325 매출액 및 영업이익은 각각 9,241억원(<6 +0.1%), 336억원(6 Stock Information 5 _ 6 a 형재가 (10/4) 147 500% +2,356%) "
+                }
+              ],
+              "pitch": "형재가 (10/4) 147 500% +2,356%) 전망. 예상 주가상승률 42.4% 예상. 박용산 (외 1인) 0.0 > GM@ N86 양극재는 4025에 들어서도 약 8천톤 출하 예상. 따라 동사의 84/5가 빠르게 확보되7| 시작할 것으로 전망",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUYS 유지하며 적정주가는 195,000원에서 210,000원으로 투자의견 BUY BUY 유지 기준 수정 EPS 적정 P/E 35를 적용해서 산정. 형재가 (10/4) 147 500% +2,356%) 전망. 따라 동사의 84/5가 빠르게 확보되7| 시작할 것으로 전망",
+              "valuation": [
+                "Valuationwide 2024 20255 20266 45\\활용을 동한 리스판매 형태로 $7,500 세액공제가 지속될 가등성0",
+                "PER(HH) 0/3 _ 2020 79.1 놓기 때문.",
+                "PBR(HIl) 3.6 40 38 ： ㆍ",
+                "EV/EBITDA(HH) 739 51.9 333 *NCAG 공급 물량에 대해서는 동사 고객사인 삼성5101-스텔란티스의",
+                "Performance 14 6M 12M _ YTD 상황.",
+                "7 포스코퓨처엠 Valuation: 적정"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/133663/1/20251002_jwyoo_1853.pdf",
@@ -51722,11 +51804,21 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 47.0% 수주 엔진 MIX] 큰 변회가 없음 발행주식수 83,447전주 14.3%60/의 공격적인 실적 예상치를 제시하는데 이는 1) 2023~2024년에 계속되기에, 추가 0428%7} 언제든 결정될 수 있다고 당사는 판단",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "투자의견 BUY BUY 유지 많고 벌써 작년만큼인데, 중국 조선소 향 대형 컨선 엔진 문의가 계속됨",
+              "valuation": [
+                "Valuationwide 2024 20255 20266 ㅣ 충심의 컨테이너션 수주였지만 최 다시 중국 |들의",
+                "PER(HH!) 194 396 227 컨테이너선 수주가 올라옴.",
+                "EV/EBITDA(H) 184 250 126 ㆍ올해 초에 동사는 800억원 추가 CAPEX 계획을 발표.",
+                "Performance 1M 6M 12M _ YID : 얼마 저 Adee 타고 가보지 않은 길로) 조선 산업자료처럼",
+                "PER Valuation 202214 2023년 202444 202514 202644 20270 2028'4",
+                "FWD 1-2Y2| PER(Z) 23.8 12.2 12.3 129"
+              ],
+              "earnings_changes": [
+                "발행주식수 83,447전주 14.3%60/의 공격적인 실적 예상치를 제시하는데 이는 1) 2023~2024년에",
+                "컨테이너선 및 2023년 수주 엔진의 마진 확인하며, 실적 상향 (억원"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/133608/1/20251001_082740_gs.choie_450.pdf",
               "pdf_error": "",
@@ -51770,10 +51862,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 『 지난달 지연된 CPIS| 예상치 하회도 POMP! 년 후 기대 인흘레이션 전망지의 안정회가 이어질 경우 12월 추가 금리 인하와 관련된 안도감 형성엔 도움을 S 수 있음 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 년 후 기대 인흘레이션 전망지의 안정회가 이어질 경우 12월 추가 금리 인하와 관련된 안도감 형성엔 도움을 S 수 있음",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 년 후 기대 인흘레이션 전망지의 안정회가 이어질 경우 12월 추가 금리 인하와 관련된 안도감 형성엔 도움을 S 수 있음",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134525/1/20251031_B_bhcho_231.pdf",
@@ -51797,10 +51891,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 비쿠폰 효과와 예상보다 견조했던 SSS 바탕으로 지난 분기 대비 개선이 가능할 것으로 보이나 여전히 내수 투자관련 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134153/1/20251024_B_bhcho_230.pdf",
@@ -51824,10 +51920,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 ; 보이고 있다는 점은 고무적이나 예상치 이상 가파른 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Refinitiy, 다올투자증권 Source: Check Expert, 다을투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134022/1/20251020_takkama2_3.pdf",
@@ -51844,8 +51942,19 @@
           "sectors": [
             "채권분석"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "중립",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2025-10-23",
+              "source": "https://t.me/daolresearch/12670"
+            },
+            {
+              "value": "중립",
+              "date": "2025-10-30",
+              "source": "https://t.me/daolresearch/12739"
+            }
+          ],
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
@@ -51861,15 +51970,21 @@
               "company": "10월",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "T-bill ASAE 보유자산 듀레이션 축소 예상 당사 전망(연내 1회 추가인하 유지) 3) 만약 고용시장이 안정되는 데이터가 확인되면, 향후 정책 판단에 UY 껏. 5) 가용할 수 있는 AES 봤을 때, 경제는 예상보다 견조",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "당사 전망(연내 1회 추가인하 유지)",
+              "valuation": [
+                "ate of 2 percent over the longer run.",
+                "4-1/4 to 4-1/2 percent.",
+                "eturning inflation to its 2 percent objective",
+                "4 to 4-1/4 percent.",
+                "1/4 percentage point to 3-3/4 to 4 percent."
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/134458/1/20251030_B_jeongin_229.pdf",
@@ -51888,14 +52003,14 @@
               "company": "10월",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "불발 시 2026년 1윌로 지연 예상. 따라서 터미널 금리 2.25% 전망에는 변화가 없음",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "따라서 터미널 금리 2.25% 전망에는 변화가 없음",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -51920,9 +52035,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "12월 종료 전망이 시장의 컨센서스로 자리잡고 있다 - 일시적인 단기자금 유동성 부족은 상설레포 프로그램 등 미시정책으로 Wa 예상",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "12월 종료 전망이 시장의 컨센서스로 자리잡고 있다",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -51947,9 +52062,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "10월 금통위 만장일치 동결 예상 한국은행 10월 금통위 2.5% 동결 예상. 하락을 통해 일부 매수 기회7} 주어질 수 있으나, 미국 금 0월 금통위에서 기준금리 250% SRS 예상한다.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "10월 금통위 만장일치 동결 예상 한국은행 10월 금통위 2.5% 동결 예상. 하락을 통해 일부 매수 기회7} 주어질 수 있으나, 미국 금 0월 금통위에서 기준금리 250% SRS 예상한다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -51977,12 +52092,28 @@
           "opinion_history": [
             {
               "value": "비중확대",
+              "date": "2025-09-08",
+              "source": "https://t.me/daolresearch/12385"
+            },
+            {
+              "value": "비중확대",
               "date": "2025-09-22",
               "source": "https://t.me/daolresearch/12472"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "전월 대비 유지",
+          "top_picks": [
+            {
+              "text": "36 9하이닉스 (000660) _ Top Picks",
+              "date": "2025-09-08",
+              "source": "https://t.me/daolresearch/12385"
+            },
+            {
+              "text": "Ao] 대한 최선호주 의견을 유지한다.",
+              "date": "2025-09-08",
+              "source": "https://t.me/daolresearch/12385"
+            }
+          ],
+          "top_pick_change": "해당 기간 최초 명시",
           "tp_changes": [
             {
               "company": "산업/기타",
@@ -52123,14 +52254,20 @@
               "company": "산업/기타",
               "code": "",
               "report_type": "산업자료",
-              "opinion": "",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "opinion": "비중확대",
+              "top_picks": [
+                "36 9하이닉스 (000660) _ Top Picks",
+                "Ao] 대한 최선호주 의견을 유지한다."
+              ],
+              "preferred_stocks": [
+                "36 9하이닉스 (000660) _ Top Picks",
+                "Ao] 대한 최선호주 의견을 유지한다."
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "07 Il. Intro) 공급 과잉 우려 속에서 ㅣ|-1. 우려의 배경 1-2. 23년과 유사한 계절성 10 Il. HBM 수요의 중기적 향방 11-1. 투자 정책의 전환 - 성능 ㄱ 전력 효율성 II-2. Al 버블? 클라우드 보다 명확하고, 클라우드 만큼 하지도 않았다 11-3.828 Al, 신규 수요 기울기 요인 19 W. AA 시대의 기술변화 I\\V-1. Base Die(Logic Die)2| 2 I\\V-2. Base Die2| 로직 기능 I\\V-3. Custom HBM 기술 역할과 구조 확대는 필연 변화와 메모리 3사 대응전략 느 ㄱ 1 12] 24 \\. 26년 HBM 수요/공급 전망 H LO \\/-1. 수요 전망 - 핵심은 전력 V-2. 공급 전망 - 진입 ART 수율 \\/-3. 결론 - 관전 포인트는 1426 공급자 구도 결과와 수요 서프라이즈 32 VI. 투자전략 35 VI 종목별 투자의견 36 9하이닉스 (000660) _ Top Picks 41 삼성전자 (005930) DAOL Investment & Securities | 2 In-Depth | 반도체 1. Summary & Focus Chart 26년 HBM2 공급 과잉? No! 삼성전자, 마이크론의 유의미한 진입과 함께 HBM 전체적으로는 공급 과잉이 발생할 수 있다는 우려가 AISI 이 논리에서 핵심 변수는 NVIDIAL] 차세대 Rubin 출 시 지연 여부다. 그러나 8#060은 예정대로 26년 메인 제품으로 확장될 전망이며, 가 능성을 높여주는 근거는 전성비다. 향후 수요 방향성은 표면적 성능 보 에 있다. 제한된 전력 속 최대 성능 구현이 핵심이다 공급 과잉이 아닌 이유(1) - 데이터센터 전력 규모가 보여주는 가시적 HBM 수요 현재와 깥이 수요 7|울기가 가파르게 확대되는 상황에서 데이터센터 확대의 가상 큰 껄림돌은 전력이다. 글로벌 전력 공급 가능 규모가 Al 17] 및 11814의 출하 가능 한 SAS 보여주는 지표라는 것을 의미한다. 마치 TSMC2] CoWoS 캐파를 기준 으로 수요 규모를 역산하는 AES} 맥락이 We 25년 이후 예정된 데이터센터 프로젝트들은 공개된 것 기준 약 165개 수준이다. 이 중 확정된 곳들의 전력 공급량을 기반으로 계산해보면 11814 수요 규모는 25년 17억 GB, 26년 26억068, 27년 32억00로 확대될 전망이다. 예정돼 있으나 미확정인 프로젝 ESS 26년 이후 추가 서프라이즈",
+              "industry_conclusion": "결론 - 관전 포인트는 1426 공급자 구도 결과와 수요 서프라이즈 그러나 8#060은 예정대로 26년 메인 제품으로 확장될 전망이며, 가 GB, 26년 26억068, 27년 32억00로 확대될 전망이다. 투자전략 - 레벨 콜 다음은 타이밍 콜 Custom 11814 시장에서도 우위를 점할 수 있는 TAS 작용될 전망이다.",
+              "report_conclusion": "결론 - 관전 포인트는 1426 공급자 구도 결과와 수요 서프라이즈 그러나 8#060은 예정대로 26년 메인 제품으로 확장될 전망이며, 가 GB, 26년 26억068, 27년 32억00로 확대될 전망이다. 투자전략 - 레벨 콜 다음은 타이밍 콜 Custom 11814 시장에서도 우위를 점할 수 있는 TAS 작용될 전망이다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -52213,9 +52350,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "8월 증권사들의 수수료수익은 변동 존재 예상.",
+              "industry_conclusion": "8월 증권사들의 수수료수익은 변동 존재 예상.",
+              "report_conclusion": "8월 증권사들의 수수료수익은 변동 존재 예상.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -52267,9 +52404,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "낮은 수준이겠지만, 개별 SYS TSS 비중 확대를 예상 해당 NAT 향후에도 이어질 전망.",
+              "industry_conclusion": "해당 NAT 향후에도 이어질 전망.",
+              "report_conclusion": "해당 NAT 향후에도 이어질 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -52865,8 +53002,14 @@
           "sectors": [
             "운송"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "중립",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2025-09-26",
+              "source": "https://t.me/daolresearch/12507"
+            }
+          ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
@@ -52882,15 +53025,18 @@
               "company": "산업/기타",
               "code": "",
               "report_type": "산업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "3025 대한항공, 진에어 실적 시장 기대치 하회 예상. YoY, -20.1% QoQ) 전망. 영업이익률은 9.9%(-4.4%p YoY) 예상 영업이익률은 12.4% (-2.2%p YoY) 예상",
+              "industry_conclusion": "YoY, -20.1% QoQ) 전망.",
+              "report_conclusion": "YoY, -20.1% QoQ) 전망.",
+              "valuation": [
+                "Valuation wide 2024 2025E 2026E",
+                "EV/EBITDA(HH)) 54 56 6.4"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/133432/1/20250926_B2020_junghao_6.pdf",
@@ -52934,8 +53080,13 @@
           "sectors": [
             "자동차/이차전지"
           ],
-          "opinion": "중립",
+          "opinion": "비중확대",
           "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2025-09-02",
+              "source": "https://t.me/daolresearch/12348"
+            },
             {
               "value": "비중확대",
               "date": "2025-09-05",
@@ -52945,6 +53096,11 @@
               "value": "중립",
               "date": "2025-09-19",
               "source": "https://t.me/daolresearch/12462"
+            },
+            {
+              "value": "비중확대",
+              "date": "2025-09-22",
+              "source": "https://t.me/daolresearch/12475"
             }
           ],
           "top_picks": [],
@@ -53098,9 +53254,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "\"이슈 더 예상 발행가액은 2,590원으로 현재 주가와는 다소 괴리 존재.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "\"이슈 더 예상 발행가액은 2,590원으로 현재 주가와는 다소 괴리 존재.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -53120,14 +53276,14 @@
               "company": "자동차",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "S23 투자의견 적정가 100 picks Pitch ISSUE & PITCH |자동차",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "S23 투자의견 적정가 100 picks Pitch 지속적으로 진행되며 수직전개 형태의 설비가 투입될 전망이다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -53152,9 +53308,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "배터리 투자포인트, 연말로 가며 유럽에 주목",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "배터리 투자포인트, 연말로 가며 유럽에 주목",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -53232,9 +53388,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "증가세가 두드러지기 시작할 전망.",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "증가세가 두드러지기 시작할 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -53313,9 +53469,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "개선세는 기대되며, 4425는 특히 유럽 공장 풀가동 효과 예상",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "화재 감식이 결론지어지매, 사건은 다음 단계로 넘어가기 70°",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -53389,14 +53545,14 @@
               "company": "8월",
               "code": "",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "신차효과 및 미국 가격인상으로 전체 45와 믹스는 우상향 흐름 예상",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "신차효과 및 미국 가격인상으로 전체 45와 믹스는 우상향 흐름 예상",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -53935,8 +54091,24 @@
               "source": "https://t.me/daolresearch/12508"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "top_picks": [
+            {
+              "text": "중공업 (329180) _ Top Picks",
+              "date": "2025-09-08",
+              "source": "https://t.me/daolresearch/12387"
+            },
+            {
+              "text": "[성중공업 (010140) _ Top Picks",
+              "date": "2025-09-08",
+              "source": "https://t.me/daolresearch/12387"
+            },
+            {
+              "text": "조선업종 비중확대 의견을 견지하고, 최선호주를 NE 삼성중공업과 신규로 HDs",
+              "date": "2025-09-08",
+              "source": "https://t.me/daolresearch/12387"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
               "company": "한국항공우주",
@@ -54097,17 +54269,31 @@
               "code": "",
               "report_type": "기업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "중공업 (329180) _ Top Picks",
+                "[성중공업 (010140) _ Top Picks",
+                "조선업종 비중확대 의견을 견지하고, 최선호주를 NE 삼성중공업과 신규로 HDs"
+              ],
+              "preferred_stocks": [
+                "중공업 (329180) _ Top Picks",
+                "[성중공업 (010140) _ Top Picks",
+                "조선업종 비중확대 의견을 견지하고, 최선호주를 NE 삼성중공업과 신규로 HDs"
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "11. 벌써 사상최대 이익 경신 1-1. 2025년 매출과 영업이익 사상최대 경신 1-2. 실적 턴머라운드의 배경. 더 강해진다 느 11. 선표 모델 업데이트 11-1. 신조선가 상승폭: 2023-2024 더 강력 ||-2. ME 모델 업데이트: 초대박 고가물량을 공개 ||-3. ME 모델 AAR 11-4. 2025년의 실제가 아닌 클락슨의 신조선가 하락 반영에 대한 반 ㄱ LO",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "Valuation 및 투자전략: 피크아웃 아직 아니다",
               "valuation": [
-                "Nakilat LNG 174,000 1 265 BGN / Pertamina JV LPG 88,000 1 124"
+                "Valuation 및 투자전략: 피크아웃 아직 아니다",
+                "멀티플 유지: ASPER 15~20HH",
+                "조선업종 주가가 3~4년 계속 올랐고, PBRE 전 슈펴사이클 시절보다 높고, 조선5사",
+                "2023-2024 선가 상승폭의 1/3만을 Margin spread 가정해서, Valuation 지점"
               ],
-              "earnings_changes": [],
+              "earnings_changes": [
+                "실적 상향: 초대박 고가물량의 1/3만 반영",
+                "2023-2024 선가 상승을 실적예상모델에 제대로 반영하면 실적이 너무 높게 나오기"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/132890/1/20250908_B2040_gs.choie_445.pdf",
               "pdf_error": "",
@@ -54211,10 +54397,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/133207/1/20250919_B_bhcho_227.pdf",
@@ -54238,10 +54426,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 『 주중 물가지표는 예상치에 부합하는 수준이었지만, 불안감은 잔존. SAE 10월 금리인상에 대한 전망이 우위에 있었으나 최근 이시바 총리의 사임 등 GAIA 불 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 SAE 10월 금리인상에 대한 전망이 우위에 있었으나 최근 이시바 총리의 사임 등 GAIA 불",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 SAE 10월 금리인상에 대한 전망이 우위에 있었으나 최근 이시바 총리의 사임 등 GAIA 불",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/132988/1/20250912_B_bhcho_226.pdf",
@@ -54265,10 +54455,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 예상되고 있으며, 지난달 1개월 전 대비 +0.9% 급등하면서 변동성을 촉발시켰던 PPIQ| 경우 MoM +0.3%로 추정치 해당 수치들이 예상지를 크게 상회할(2! = 물가지표에 대한 전망이 높아지고 있음에 하고 주중 발표된 ISM 제조업 지수의 물가 항목은 전월 대비 소폭",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 = 물가지표에 대한 전망이 높아지고 있음에 하고 주중 발표된 ISM 제조업 지수의 물가 항목은 전월 대비 소폭",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 = 물가지표에 대한 전망이 높아지고 있음에 하고 주중 발표된 ISM 제조업 지수의 물가 항목은 전월 대비 소폭",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/132828/1/20250905_B_bhcho_225.pdf",
@@ -56324,9 +56516,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "-……………………ㅡ es Pitch",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "판매량에 2026년부터 수렴하기 시작할 전망: BWeyAol=s] 경우 10월 이후 / 현대기아 EV/HEV 판매대수 추이 및 전망 (천대) 볼륨 차이가 사실상 줄어들며 45\"와 SHO] 모두 상승하는 구간이 나타날 전망이다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -56409,9 +56601,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "유상증자가 유력, 증자 HEE 9월이내 결정 예상 절차들의 급물살이 가능해 질 것으로 예상 > OS 이후 수출 반등 재개가 예상되며, MEIAIO[= 신차가 0.0 -40%",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "유상증자가 유력, 증자 HEE 9월이내 결정 예상 절차들의 급물살이 가능해 질 것으로 예상 > OS 이후 수출 반등 재개가 예상되며, MEIAIO[= 신차가 0.0 -40%",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -58305,10 +58497,12 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "조병현 투자전략 ㅣ bhcho@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
+              ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/132609/1/20250829_B_bhcho_224.pdf",
