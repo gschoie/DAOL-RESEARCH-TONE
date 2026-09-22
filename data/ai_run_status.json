@@ -1,7 +1,7 @@
 {
- "ran_at": "2026-09-22T23:24:04.409216+00:00",
+ "ran_at": "2026-09-22T23:59:46.129872+00:00",
  "provider": "gemini",
- "analyzed": 1,
+ "analyzed": 0,
  "errors": 0,
  "cached_total": 1341,
  "pending_left": 0,
