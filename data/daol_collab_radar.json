@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-22T22:16:49.076197+00:00",
+ "generated_at": "2026-09-22T22:48:40.072724+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1339,
+ "report_count": 1340,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30918,6 +30918,41 @@
    "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) - K+EU방산: 경쟁도 하지만, 함께도 한다",
    "post_url": "https://t.me/daolresearch/15115",
    "source_url": "https://buly.kr/2fgVVAG"
+  },
+  {
+   "theme": "로봇/자동화",
+   "category": "산업테마",
+   "date": "2026-09-23",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "자동차",
+   "code": "",
+   "direction": "수혜",
+   "score": 6,
+   "evidences": [
+    "현대모비스는 Atlas 제조원가 70% 이상 담당 예상돼 로봇 양산 확대가 직접 실적 성장으로 연결될 가능성 보유",
+    "이익 전망치 변화 없이도 로봇사업 가시성 확대만으로 멀티플 재평가 구간 진입."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - RMAC 가동: 다시 총성이 울렸다",
+   "post_url": "https://t.me/daolresearch/15120",
+   "source_url": "https://buly.kr/Edw2Yl4"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-09-23",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "자동차",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Boston Dynamics는 2027~2028년 IPO 예상되며, 생산현장 투입에 따른 현대차와 기아의 원가 경쟁우위 부각 가능"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - RMAC 가동: 다시 총성이 울렸다",
+   "post_url": "https://t.me/daolresearch/15120",
+   "source_url": "https://buly.kr/Edw2Yl4"
   }
  ],
  "cross_mentions": [
@@ -31936,14 +31971,14 @@
    "recent": 20,
    "total": 21,
    "sectors": 3,
-   "burst": 39.2
+   "burst": 39.1
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.2
+   "burst": 9.1
   },
   {
    "term": "보합",
