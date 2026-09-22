@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T22:48:37.745547+00:00",
+  "generated_at": "2026-09-22T00:26:16.994104+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1336,
+  "report_count": 1337,
   "months": [
     {
       "month": "2026-09",
@@ -1564,7 +1564,7 @@
           "sectors": [
             "조선/기계/방산"
           ],
-          "opinion": "중립",
+          "opinion": "비중확대",
           "opinion_history": [
             {
               "value": "중립",
@@ -1590,6 +1590,11 @@
               "value": "중립",
               "date": "2026-09-20",
               "source": "https://t.me/daolresearch/15104"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-09-22",
+              "source": "https://t.me/daolresearch/15115"
             }
           ],
           "top_picks": [
@@ -1617,8 +1622,35 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 6,
           "reports": [
+            {
+              "id": 15115,
+              "date": "2026-09-22",
+              "month": "2026-09",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "방산",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 보고서 원문 및 컴플라이언스 노티스: < https://buly.kr/2fgVVAG > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "report_conclusion": "▶ 보고서 원문 및 컴플라이언스 노티스: < https://buly.kr/2fgVVAG > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/2fgVVAG",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
+              "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) - K+EU방산: 경쟁도 하지만, 함께도 한다",
+              "summary": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) - K+EU방산: 경쟁도 하지만, 함께도 한다 ▶ Pitch - EU 재무장관들이 국방비 증액을 논의하면서, EU 방산은 안보 자립·예산 확대를 바탕으로 구조적 성장 국면에 진입. - K-방산은 폴란드·루마니아·노르웨이 등에서 수출을 확대 중이며, 현지 생산·MRO·기술이전으로 장기 파트너십을 구축. - 다만 방산업체 공급능력과 숙련 인력 부족은 병목 요인. 한화·LIG넥스원 등은 유럽 거점 및 NATO 협력 확대로 수혜 가능 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://buly.kr/2fgVVAG > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15115",
+              "source_url": "https://buly.kr/2fgVVAG"
+            },
             {
               "id": 15104,
               "date": "2026-09-20",
@@ -1872,7 +1904,7 @@
           ]
         }
       ],
-      "report_count": 44
+      "report_count": 45
     },
     {
       "month": "2026-08",

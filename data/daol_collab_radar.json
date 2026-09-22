@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-21T22:48:49.302042+00:00",
+ "generated_at": "2026-09-22T00:26:29.527746+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1336,
+ "report_count": 1337,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30812,6 +30812,58 @@
    "title": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기",
    "post_url": "https://t.me/daolresearch/15106",
    "source_url": "https://buly.kr/6MuPj9J"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-09-22",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "- K-방산은 폴란드·루마니아·노르웨이 등에서 수출을 확대 중이며, 현지 생산·MRO·기술이전으로 장기 파트너십을 구축."
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) - K+EU방산: 경쟁도 하지만, 함께도 한다",
+   "post_url": "https://t.me/daolresearch/15115",
+   "source_url": "https://buly.kr/2fgVVAG"
+  },
+  {
+   "theme": "미 함정 MRO/조선협력",
+   "category": "미국공략",
+   "date": "2026-09-22",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "- K-방산은 폴란드·루마니아·노르웨이 등에서 수출을 확대 중이며, 현지 생산·MRO·기술이전으로 장기 파트너십을 구축."
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) - K+EU방산: 경쟁도 하지만, 함께도 한다",
+   "post_url": "https://t.me/daolresearch/15115",
+   "source_url": "https://buly.kr/2fgVVAG"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-22",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "Pitch - EU 재무장관들이 국방비 증액을 논의하면서, EU 방산은 안보 자립·예산 확대를 바탕으로 구조적 성장 국면에 진입.",
+    "한화·LIG넥스원 등은 유럽 거점 및 NATO 협력 확대로 수혜 가능"
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) - K+EU방산: 경쟁도 하지만, 함께도 한다",
+   "post_url": "https://t.me/daolresearch/15115",
+   "source_url": "https://buly.kr/2fgVVAG"
   }
  ],
  "cross_mentions": [
@@ -31830,21 +31882,21 @@
    "recent": 20,
    "total": 21,
    "sectors": 3,
-   "burst": 39.3
+   "burst": 39.2
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.2
+   "burst": 9.1
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "저변",
@@ -31879,7 +31931,7 @@
    "recent": 9,
    "total": 15,
    "sectors": 5,
-   "burst": 5.1
+   "burst": 5.0
   },
   {
    "term": "부분이",
