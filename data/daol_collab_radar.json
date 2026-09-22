@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-22T22:48:40.072724+00:00",
+ "generated_at": "2026-09-22T23:24:06.563916+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1340,
+ "report_count": 1341,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30953,6 +30953,40 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - RMAC 가동: 다시 총성이 울렸다",
    "post_url": "https://t.me/daolresearch/15120",
    "source_url": "https://buly.kr/Edw2Yl4"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-09-23",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "수혜",
+   "score": 12,
+   "evidences": [
+    "1) 데이터센터 건설 확대로 냉각 배관 수요에 더해, 데이터센터 내 가스터빈을 발전원으로 쓰는 사례가 증가하면서 가스관 지선 수요 확대, 2) 시추 확대로 인한 Rig count 증가 및 유정관 수요 확대, 3) 멕시코만 연안 LNG 터미널 원료가스관과 Permian."
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강 이정우] ★ 강관 병목 발생 중",
+   "post_url": "https://t.me/daolresearch/15121",
+   "source_url": "https://buly.kr/DwH0dfK"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-09-23",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "미국 내 송유관 및 유정관 수요 확대가 병목 생성 중이며 강관 원재료인 열연도 미국 내에서 가격이 지속 상승 중."
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강 이정우] ★ 강관 병목 발생 중",
+   "post_url": "https://t.me/daolresearch/15121",
+   "source_url": "https://buly.kr/DwH0dfK"
   }
  ],
  "cross_mentions": [
@@ -31971,7 +32005,7 @@
    "recent": 20,
    "total": 21,
    "sectors": 3,
-   "burst": 39.1
+   "burst": 38.9
   },
   {
    "term": "월드컵",
@@ -31992,7 +32026,7 @@
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "관건",
@@ -32034,14 +32068,14 @@
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.6
+   "burst": 4.5
   },
   {
    "term": "실질",
    "recent": 7,
    "total": 12,
    "sectors": 6,
-   "burst": 4.6
+   "burst": 4.5
   },
   {
    "term": "Mix",
@@ -32058,17 +32092,17 @@
    "burst": 3.9
   },
   {
+   "term": "방향",
+   "recent": 7,
+   "total": 13,
+   "sectors": 7,
+   "burst": 3.9
+  },
+  {
    "term": "정체",
    "recent": 6,
    "total": 11,
    "sectors": 4,
-   "burst": 3.9
-  },
-  {
-   "term": "배당수익률",
-   "recent": 11,
-   "total": 21,
-   "sectors": 9,
    "burst": 3.9
   }
  ]
