@@ -29,8 +29,6 @@
  "models/gemini-3.6-flash",
  "models/gemini-3.7-flash",
  "models/gemini-3.8-flash",
- "models/gemini-3.8-flash-lite-tts",
- "models/gemini-3.8-flash-tts",
  "models/gemini-flash-latest",
  "models/gemini-flash-lite-latest",
  "models/gemini-omni-1.1-flash",

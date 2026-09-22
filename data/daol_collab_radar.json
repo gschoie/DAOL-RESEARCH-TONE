@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-22T18:00:26.523623+00:00",
+ "generated_at": "2026-09-22T22:16:49.076197+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1337,
+ "report_count": 1339,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -956,10 +956,10 @@
    "company": "주간",
    "code": "",
    "direction": "피해",
-   "score": -1,
+   "score": -2,
    "evidences": [
     "따라서 2Q25의 시장 기대치 및 3Q25에 대한 현대모비스의 전망은 당장의 관세적용 차량에 대한 부담이 존재하는 완성차 대비 상대적으로 명확",
-    "주간 업종 리뷰: 관세여파 시작, 가격 흡수 가능성을 기대"
+    "라서 2Q252| 시장 기대치 및 3025에 대한 APSO] 전망은 당장의 관세적용 차량에 대한 부담이 존재하는"
    ],
    "title": "[다올투자증권 자동차 유지웅] ★주간 업종 리뷰: 관세여파 시작, 가격 흡수 가능성을 기대",
    "post_url": "https://t.me/daolresearch/11797",
@@ -973,10 +973,11 @@
    "sector": "자동차/이차전지",
    "company": "2Q25",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
-    "대미 자동차 관세협상은 EU-일본-한국 순서로 진행 중으로 타임라인 상 한국이 불리하나 국내 자동차 업종은 충분한 밸류에이션 메리트를 보이고 있으며(현대차 P/E 3.7배), 미국 내 시장 점유율 확대로 관세우려 상쇄가 진행 중"
+    "대미 자동차 관세협상은 EU-일본-한국 순서로 진행 중으로 타임라인 상 한국이 불리하나 국내 자동차 업종은 충분한 밸류에이션 메리트를 보이고 있으며(현대차 P/E 3.7배), 미국 내 시장 점유율 확대로 관세우려 상쇄가 진행 중",
+    "SSS 투자의견 적정가 100 picks [동차 수출 관세협상 시작에 따른 투자심리 개선이 TEASE] 시작."
    ],
    "title": "[다올투자증권 자동차 유지웅] ★ 2Q25 Preview: 분위기 반전의 시간",
    "post_url": "https://t.me/daolresearch/11822",
@@ -1512,9 +1513,10 @@
    "company": "2Q25",
    "code": "",
    "direction": "피해",
-   "score": -1,
+   "score": -2,
    "evidences": [
-    "미국 자동차 관세 부과로 차량 잔존가치 크게 상승, 보조금에 대한 구매 의존도 감소 예상."
+    "미국 자동차 관세 부과로 차량 잔존가치 크게 상승, 보조금에 대한 구매 의존도 감소 예상.",
+    "PER(HH) 0/3 _ 1179 41.3 관세 As 따른 중국산 수출감소가 일시적으로 불가피했으나,"
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] LG에너지솔루션: 오늘도 태양은 뜬다. TP 44만원 유지 ★ 2Q25 Preview: 오늘도 태양은 뜬다",
    "post_url": "https://t.me/daolresearch/11879",
@@ -2604,9 +2606,10 @@
    "company": "현대건설",
    "code": "000720",
    "direction": "수혜",
-   "score": 2,
+   "score": 4,
    "evidences": [
-    "2분기 실적 개선수준을 하반기 추정치에 반영하고, 원전에 대한 시장 관심을 반영하여 밸류에이션을 과거 정점 수준인 12개월 선행 PER 14배로 상향."
+    "2분기 실적 개선수준을 하반기 추정치에 반영하고, 원전에 대한 시장 관심을 반영하여 밸류에이션을 과거 정점 수준인 12개월 선행 PER 14배로 상향.",
+    "투자의견 BUY BUY 유지 반영하고, 원전에 대한 시장 관심을 반영하여 밸류에이션을 aH 정점 수준인 적정주가를 85,000윈으로 상향하고 투자의견"
    ],
    "title": "[현대건설(000720)/BUY(유지)/TP 85,000원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 2Q25 Review : 개선 추세 유지",
    "post_url": "https://t.me/daolresearch/11998",
@@ -3286,6 +3289,23 @@
    "evidences": [
     "주요 해외기업 실적발표: GM - 2Q 실적은 컨센서스 상회하였으나, 관세 부담금이 약 11억달러 발생.",
     "관세리스크가 본격 반영되며 실적발표 이후 주가는 약 8%가량 급락"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★주간 업종 리뷰: 이차전지 단기 강세",
+   "post_url": "https://t.me/daolresearch/12052",
+   "source_url": "https://buly.kr/FsIsFBr"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2025-07-27",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "주간",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "30258 기점으로 YoY 매출 증가 역성장세는 마무리 예상 10 meee [a > ESS 배터리 AQ} 예상보다 크게 증가하는 구간.10+30% 6 -50 GM 완화 효과는 연간 기준 전체 부담금의 OF 30% 정도로 예상됨 예상되며, 회사는 시장 수요에 맞춰 와 EV 사이에서 유연한 생산 전략을 택할 것이라고 발"
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★주간 업종 리뷰: 이차전지 단기 강세",
    "post_url": "https://t.me/daolresearch/12052",
@@ -4619,6 +4639,23 @@
    "source_url": "https://buly.kr/2fe6UK0"
   },
   {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2025-08-07",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "한국금융지주",
+   "code": "071050",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "PER(HH) 42 55 55 변동성 확대에도 비교적 양호한 유가증권 평가이익 시현한 Woe 분석"
+   ],
+   "title": "[한국금융지주(071050)/BUY(유지)/TP 200,000원(상향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 자본시장에 최적화된 종목",
+   "post_url": "https://t.me/daolresearch/12164",
+   "source_url": "https://buly.kr/15PHf9v"
+  },
+  {
    "theme": "K뷰티 수출",
    "category": "미국공략",
    "date": "2025-08-07",
@@ -5310,6 +5347,23 @@
    "title": "[농심(004370) | BUY(유지) | TP 45만원(하향) | 다올 음식료 이다연] ★ 2Q25 Review: 하반기 미국 외형 성장이 관건",
    "post_url": "https://t.me/daolresearch/12247",
    "source_url": "https://bit.ly/4oDEpgb"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2025-08-18",
+   "analyst": "오정하",
+   "sector": "운송/로봇",
+   "company": "CJ대한통운",
+   "code": "000120",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "투자의견 BUY BUY 유지 Rationale Stock Information 신규수주 물량 확대에 따라 물동량 +2~3%를 전망함."
+   ],
+   "title": "[CJ대한통운(000120)/ BUY(유지)/ 다올 운송 오정하] ★ [NDR 후기: 택배사X → 종합물류사O]",
+   "post_url": "https://t.me/daolresearch/12248",
+   "source_url": "https://buly.kr/DEZdLK9"
   },
   {
    "theme": "밸류업/주주환원",
@@ -31889,7 +31943,7 @@
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.1
+   "burst": 9.2
   },
   {
    "term": "보합",
@@ -31899,24 +31953,10 @@
    "burst": 7.8
   },
   {
-   "term": "저변",
-   "recent": 7,
-   "total": 10,
-   "sectors": 3,
-   "burst": 6.9
-  },
-  {
    "term": "감가상각비",
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.9
-  },
-  {
-   "term": "올리브영",
-   "recent": 6,
-   "total": 9,
-   "sectors": 3,
    "burst": 5.9
   },
   {
@@ -31934,10 +31974,24 @@
    "burst": 5.0
   },
   {
+   "term": "Cloud",
+   "recent": 6,
+   "total": 10,
+   "sectors": 4,
+   "burst": 4.7
+  },
+  {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
+   "burst": 4.7
+  },
+  {
+   "term": "저변",
+   "recent": 6,
+   "total": 10,
+   "sectors": 3,
    "burst": 4.7
   },
   {
@@ -31969,17 +32023,17 @@
    "burst": 3.9
   },
   {
-   "term": "남미",
-   "recent": 9,
-   "total": 17,
-   "sectors": 4,
-   "burst": 3.9
-  },
-  {
    "term": "정체",
    "recent": 6,
    "total": 11,
    "sectors": 4,
+   "burst": 3.9
+  },
+  {
+   "term": "배당수익률",
+   "recent": 11,
+   "total": 21,
+   "sectors": 9,
    "burst": 3.9
   }
  ]
