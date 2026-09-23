@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T01:49:18.511535+00:00",
+  "generated_at": "2026-09-23T17:58:05.115131+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1341,
   "months": [
@@ -1441,7 +1441,7 @@
               "earnings_changes": [],
               "analysis_source": "텔레그램 요약",
               "pdf_url": "https://buly.kr/9BYY968",
-              "pdf_error": "PDF 처리 시간 한도 초과 — 텔레그램 요약 사용",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
               "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ AI 신약 개발 시대, 핵심은 데이터",
               "summary": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ AI 신약 개발 시대, 핵심은 데이터 ▶ 빅파마의 AI 협업이 확산 중. Novo Nordisk·BMS는 Anthropic과, MSD는 Google Cloud와 협력해 R&D 데이터 분석 및 업무 자동화에 AI를 적용 중 ▶ AI 분석과 실험 자동화를 연결해 실험 데이터가 축적될수록 연구 설계 정확도를 높이는 선순환이 핵심. 다만 후보 발굴 속도 개선이 임상 안전성·효능 및 성공률 개선을 보장하지는 않으며, 실질적인 비용 절감과 개발기간 단축으로 이어지는지 확인이 필요 ▶ 국내 기업은 질환·약물별 전문성과 자체·실패 실험 데이터를 AI 학습 자산으로 활용할 필요. 대학·병원과 데이터 풀을 확대하고 실험 역량을 확보할 경우 글로벌 AI 협력, 기술이전 및 사업개발 기회로 연결될 전망. ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/9BYY968 >",
               "post_url": "https://t.me/daolresearch/15118",
