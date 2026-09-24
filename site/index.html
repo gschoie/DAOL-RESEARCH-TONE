@@ -222,6 +222,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .pt-chip .pt-n{font-style:normal;font-size:9px;color:#7d938a;margin-left:3px;font-weight:700}
 .pt-chip.new{background:#dff1e5;color:#1f6b43;font-weight:700}
 .pt-prev{color:#96a09a;font-size:10.5px;font-style:italic;align-self:center;padding-left:2px}
+.pt-hist{color:#3c4a44;font-size:12px;align-self:center;padding-left:2px}
+.pt-hist .pt-jump{color:#1d4e96;font-weight:700;cursor:pointer;text-decoration:underline dotted;margin:0 1px}
+.pt-hist .pt-jump:hover{color:#0f2b52}
+.rep-flash{animation:repflash 1.8s ease}
+@keyframes repflash{0%{background:#fdf0c2}60%{background:#fdf0c2}100%{background:transparent}}
 .phrase-details{margin:7px 0;font-size:12px}
 .phrase-details summary{cursor:pointer;color:#386453;font-size:11px;font-weight:700}
 .phrase{margin:7px 0;padding:7px 10px;font-size:12px;line-height:1.7}
@@ -422,16 +427,16 @@ function drillReport(r,street){const tp=r.tp_event?`<div class="drill-tp ${r.tp_
  const earnings=['상향','하향'].includes(r.earnings_direction)?`<span class="mini-badge ${r.earnings_direction==='상향'?'up':'down'}" title="${esc(r.earnings_evidence||'')}">실적추정 ${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'';
  const hist=r._ptHist||[];
  const curPts=(r.points||[]).map((p,i)=>{const added=(r.points_added||[]).includes(p);
-  const h=hist[i]&&hist[i].dates.length?hist[i]:null;
-  const tip=h?`과거 ${h.dates.length}회 언급: ${h.dates.slice(-6).map(mmdd).join(' · ')}`:'이 타임라인에서 첫 등장한 키워드';
-  return `<span class="pt-chip${added?' new':''}" title="${tip}">${added?'＋':''}${esc(p)}${h?`<i class="pt-n">×${h.dates.length+1}</i>`:''}</span>`}).join('');
- // 과거 언급 이력이 있으면 직전-키워드 줄 대신 유사 키워드 이력을 정리해 보여준다
- const histItems=hist.filter(h=>h&&h.dates.length);
- const prevPts=histItems.length?`<span class="pt-prev" title="이번 포인트와 유사한 키워드가 언급됐던 과거 보고서 날짜(최근 3개)">이전 언급: ${histItems.map(h=>`${esc(h.label)} ${h.dates.slice(-3).map(mmdd).join('·')}${h.dates.length>3?'⋯':''}`).join(' · ')}</span>`
+  const h=hist[i]&&hist[i].hits.length?hist[i]:null;
+  const tip=h?`과거 ${h.hits.length}회 언급: ${h.hits.slice(-6).map(x=>mmdd(x.d)).join(' · ')}`:'이 타임라인에서 첫 등장한 키워드';
+  return `<span class="pt-chip${added?' new':''}" title="${tip}">${added?'＋':''}${esc(p)}${h?`<i class="pt-n">×${h.hits.length+1}</i>`:''}</span>`}).join('');
+ // 과거 언급 이력이 있으면 직전-키워드 줄 대신 유사 키워드 이력을 정리해 보여준다(날짜 클릭 → 해당 보고서로 이동)
+ const histItems=hist.filter(h=>h&&h.hits.length);
+ const prevPts=histItems.length?`<span class="pt-hist">이전 언급: ${histItems.map(h=>`${esc(h.label)} ${h.hits.slice(-3).map(x=>`<a class="pt-jump" data-rid="${esc(x.id)}" title="이 날짜의 보고서로 이동">${mmdd(x.d)}</a>`).join('·')}${h.hits.length>3?'⋯':''}`).join(' <b>·</b> ')}</span>`
   :((r.points_dropped||[]).length?`<span class="pt-prev" title="직전 리포트의 핵심 키워드 — 이번 자료에서는 강조되지 않음(소멸이 아니라 키워드 변경)">${r.points_prev_date?mmdd(r.points_prev_date)+' 포인트':'직전'}: ${r.points_dropped.map(esc).join(' · ')}</span>`:'');
  const points=curPts+prevPts;
  const phrases=r.ai&&(r.strong_phrases?.length||r.hedge_phrases?.length||r.negative_phrases?.length)?`<details class="phrase-details"><summary>근거 문구 보기</summary>${phraseBlock('강한 문구',r.strong_phrases,'ph-strong')}${phraseBlock('헤징 문구',r.hedge_phrases,'ph-hedge')}${phraseBlock('부정 문구',r.negative_phrases,'ph-neg')}</details>`:'';
- return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:r.bundled?'<span class="mini-badge" title="산업 인뎁스 자료의 종목 페이지에서 추출한 TP">인뎁스 수록</span>':'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}${streetConflicts(r,street)}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}<div class="drill-foot">${phrases||'<span></span>'}<a class="drill-report-link" href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
+ return `<div class="drill-report" id="rep-${esc(String(r.id))}"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:r.bundled?'<span class="mini-badge" title="산업 인뎁스 자료의 종목 페이지에서 추출한 TP">인뎁스 수록</span>':'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}${streetConflicts(r,street)}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}<div class="drill-foot">${phrases||'<span></span>'}<a class="drill-report-link" href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
 let kedAll=null;
 async function loadKedAll(){if(kedAll)return kedAll;
  try{const r=await fetch(`ked_street.json?t=${Date.now()}`,{cache:'no-store'});if(r.ok)kedAll=await r.json()}catch{}
@@ -549,10 +554,11 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
   return ptToks(a).some(t=>y.includes(t))||ptToks(b).some(t=>x.includes(t))};
  for(let i=0;i<timeline.length;i++){const r=timeline[i];
   if(!(r.points||[]).length){r._ptHist=null;continue}
-  r._ptHist=r.points.map(p=>{const dates=[];
+  r._ptHist=r.points.map(p=>{const hits=[];
    for(let j=0;j<i;j++){const q=timeline[j];
-    if(q.date!==r.date&&(q.points||[]).some(x=>samePt(x,p)))dates.push(q.date)}
-   return {label:p,dates:[...new Set(dates)]}})}
+    if(q.date!==r.date&&(q.points||[]).some(x=>samePt(x,p)))hits.push({d:q.date,id:String(q.id)})}
+   const seen=new Set();
+   return {label:p,hits:hits.filter(h=>!seen.has(h.d)&&seen.add(h.d))}})}
  const tpPoints=[];
  for(const r of timeline){const t=r.tp_event;if(!t||!t.value)continue;
   // 상향/하향은 직전값을 같은 날짜에 먼저 찍어 실제 꺾임이 보이게 한다
@@ -631,6 +637,10 @@ $('#tone-modal-close').addEventListener('click',closeToneModal);
 $('#tone-modal').addEventListener('click',e=>{if(e.target.id==='tone-modal')closeToneModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#tone-modal').hidden)closeToneModal()});
 document.addEventListener('click',e=>{
+ // 포인트 이력 날짜 클릭 → 그 보고서 카드로 스크롤 + 하이라이트
+ const pj=e.target.closest('.pt-jump');
+ if(pj){const el=document.getElementById('rep-'+pj.dataset.rid);
+  if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.remove('rep-flash');void el.offsetWidth;el.classList.add('rep-flash')}return}
  if(e.target.closest('#wk-toggle')){const ds=[...document.querySelectorAll('#tone-modal-body details.drill-weekly')];const anyOpen=ds.some(d=>d.open);ds.forEach(d=>d.open=!anyOpen);return}
  if(e.target.closest('#tone-modal-back')){const k=modalStack.pop();if(k==='__val__'){openValBoard();return}if(k==='__lookup__'){openStreetLookup();return}if(k)openToneCompany(k,true);return}
  const t=e.target.closest('.tone-ck');if(t&&t.dataset.ck){openToneCompany(t.dataset.ck);return}
