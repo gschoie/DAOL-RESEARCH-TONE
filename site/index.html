@@ -219,6 +219,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .est-item i.up{color:#2e7d4f}.est-item i.down{color:var(--red)}
 .drill-points{margin:6px 0;display:flex;gap:5px;flex-wrap:wrap}
 .pt-chip{background:#eef4ef;color:#33604e;border-radius:10px;padding:2px 9px;font-size:11px}
+.pt-chip .pt-n{font-style:normal;font-size:9px;color:#7d938a;margin-left:3px;font-weight:700}
 .pt-chip.new{background:#dff1e5;color:#1f6b43;font-weight:700}
 .pt-prev{color:#96a09a;font-size:10.5px;font-style:italic;align-self:center;padding-left:2px}
 .phrase-details{margin:7px 0;font-size:12px}
@@ -419,8 +420,15 @@ function streetConflicts(r,street){if(!r.tp_event||!['상향','하향'].includes
 function phraseBlock(title,items,cls){return items?.length?`<div class="phrase ${cls}"><b>${title}</b>${items.map(x=>`<q>${esc(x)}</q>`).join('')}</div>`:''}
 function drillReport(r,street){const tp=r.tp_event?`<div class="drill-tp ${r.tp_event.direction==='상향'?'up':r.tp_event.direction==='하향'?'down':''}">TP ${esc(r.tp_event.direction)} ${esc(r.tp_event.display||'')}${r.tp_event.upside!=null?` <em class="tp-upside" title="발간 전일 종가 대비 상승여력">(${r.tp_event.upside>0?'+':''}${r.tp_event.upside}%)</em>`:''} ${(r.tp_event.reasons||[]).map(x=>`<i class="tp-reason">${esc(x)}</i>`).join('')}${r.tp_event.evidence?`<small>${esc(r.tp_event.evidence)}</small>`:''}</div>`:'';
  const earnings=['상향','하향'].includes(r.earnings_direction)?`<span class="mini-badge ${r.earnings_direction==='상향'?'up':'down'}" title="${esc(r.earnings_evidence||'')}">실적추정 ${r.earnings_direction==='상향'?'▲':'▼'}</span>`:'';
- const curPts=(r.points||[]).map(p=>{const added=(r.points_added||[]).includes(p);return `<span class="pt-chip${added?' new':''}">${added?'＋':''}${esc(p)}</span>`}).join('');
- const prevPts=(r.points_dropped||[]).length?`<span class="pt-prev" title="직전 리포트의 핵심 키워드 — 이번 자료에서는 강조되지 않음(소멸이 아니라 키워드 변경)">${r.points_prev_date?mmdd(r.points_prev_date)+' 포인트':'직전'}: ${r.points_dropped.map(esc).join(' · ')}</span>`:'';
+ const hist=r._ptHist||[];
+ const curPts=(r.points||[]).map((p,i)=>{const added=(r.points_added||[]).includes(p);
+  const h=hist[i]&&hist[i].dates.length?hist[i]:null;
+  const tip=h?`과거 ${h.dates.length}회 언급: ${h.dates.slice(-6).map(mmdd).join(' · ')}`:'이 타임라인에서 첫 등장한 키워드';
+  return `<span class="pt-chip${added?' new':''}" title="${tip}">${added?'＋':''}${esc(p)}${h?`<i class="pt-n">×${h.dates.length+1}</i>`:''}</span>`}).join('');
+ // 과거 언급 이력이 있으면 직전-키워드 줄 대신 유사 키워드 이력을 정리해 보여준다
+ const histItems=hist.filter(h=>h&&h.dates.length);
+ const prevPts=histItems.length?`<span class="pt-prev" title="이번 포인트와 유사한 키워드가 언급됐던 과거 보고서 날짜(최근 3개)">이전 언급: ${histItems.map(h=>`${esc(h.label)} ${h.dates.slice(-3).map(mmdd).join('·')}${h.dates.length>3?'⋯':''}`).join(' · ')}</span>`
+  :((r.points_dropped||[]).length?`<span class="pt-prev" title="직전 리포트의 핵심 키워드 — 이번 자료에서는 강조되지 않음(소멸이 아니라 키워드 변경)">${r.points_prev_date?mmdd(r.points_prev_date)+' 포인트':'직전'}: ${r.points_dropped.map(esc).join(' · ')}</span>`:'');
  const points=curPts+prevPts;
  const phrases=r.ai&&(r.strong_phrases?.length||r.hedge_phrases?.length||r.negative_phrases?.length)?`<details class="phrase-details"><summary>근거 문구 보기</summary>${phraseBlock('강한 문구',r.strong_phrases,'ph-strong')}${phraseBlock('헤징 문구',r.hedge_phrases,'ph-hedge')}${phraseBlock('부정 문구',r.negative_phrases,'ph-neg')}</details>`:'';
  return `<div class="drill-report"><div class="drill-head"><small>${esc(r.date)}</small><span class="mini-badge">${esc(r.analyst)}</span>${r.opinion?`<span class="op-badge ${opinionClass(r.opinion)}">${esc(r.opinion)}</span>`:''}${r.ai?`<span class="tone-badge ${toneLabelClass(r.tone_label)}">${convDots(r.conviction)} ${esc(r.tone_label)}</span>${r.conv_base?`<span class="mini-badge" title="이 애널리스트의 평소 확신도 평균">평소 ${r.conv_base}</span>`:''}`:r.bundled?'<span class="mini-badge" title="산업 인뎁스 자료의 종목 페이지에서 추출한 TP">인뎁스 수록</span>':'<span class="mini-badge" title="AI 분석 전 — 정규식 추출만 반영">AI 대기</span>'}${earnings}${streetConflicts(r,street)}</div><a class="drill-title" href="${esc(r.post_url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.one_line?`<p class="drill-oneline">${esc(r.one_line)}</p>`:''}${tp}${estCompBlock(r)}${points?`<div class="drill-points">${points}</div>`:''}<div class="drill-foot">${phrases||'<span></span>'}<a class="drill-report-link" href="${esc(r.pdf_url)}" target="_blank" rel="noopener">보고서 ↗</a></div></div>`}
@@ -530,6 +538,21 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
  if(!fromBack&&currentModalKey&&currentModalKey!==key)modalStack.push(currentModalKey);
  currentModalKey=key;
  const timeline=[...entry.timeline];
+ // 리포트별 투자포인트 이력: 이 포인트와 유사한 키워드(정규화 후 부분일치)가 과거 보고서에서
+ // 언급된 날짜들을 미리 계산해 카드에 표시한다("직전 대비"보다 넓은, 타임라인 전체 대비 이력).
+ const normPt=s=>(s||'').toLowerCase().replace(/[\s·/&()\-＋+.,]/g,'');
+ // 라벨 전체 부분일치 + 토큰(3자 이상) 교차 포함 — '대규모 공급계약' ↔ '장기공급계약 확대'(공급계약),
+ // 'AI MLCC 수요' ↔ 'MLCC 수급 타이트'(mlcc)처럼 표현이 달라도 같은 테마면 잇는다.
+ const ptToks=s=>(s||'').toLowerCase().split(/[\s·/&()\-＋+.,]+/).map(t=>t.replace(/[^0-9a-z가-힣]/g,'')).filter(t=>t.length>=3);
+ const samePt=(a,b)=>{const x=normPt(a),y=normPt(b);if(!x||!y)return false;
+  if(x===y||x.includes(y)||y.includes(x))return true;
+  return ptToks(a).some(t=>y.includes(t))||ptToks(b).some(t=>x.includes(t))};
+ for(let i=0;i<timeline.length;i++){const r=timeline[i];
+  if(!(r.points||[]).length){r._ptHist=null;continue}
+  r._ptHist=r.points.map(p=>{const dates=[];
+   for(let j=0;j<i;j++){const q=timeline[j];
+    if(q.date!==r.date&&(q.points||[]).some(x=>samePt(x,p)))dates.push(q.date)}
+   return {label:p,dates:[...new Set(dates)]}})}
  const tpPoints=[];
  for(const r of timeline){const t=r.tp_event;if(!t||!t.value)continue;
   // 상향/하향은 직전값을 같은 날짜에 먼저 찍어 실제 꺾임이 보이게 한다
