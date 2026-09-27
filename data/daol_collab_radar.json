@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-27T22:17:04.411091+00:00",
+ "generated_at": "2026-09-27T22:49:25.285125+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1342,
+ "report_count": 1344,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31058,6 +31058,41 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 250백만달러 리세일 협의설, 200k-CBM LNG 시대 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15124",
    "source_url": "https://bit.ly/DOS841"
+  },
+  {
+   "theme": "중국 경기/부양",
+   "category": "매크로",
+   "date": "2026-09-28",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "자동차",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "중국 자동차, 해외판매 이후가 진짜 시험대 - 이구환신 다음은 없다: 부작용이 나타나기 시작 - 해외로 나간 중국 자동차 - EU의 반격: 그런데, 반격이 가능할까?"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - The Last Global Challenger",
+   "post_url": "https://t.me/daolresearch/15127",
+   "source_url": "https://buly.kr/4Qq7TrY"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-09-28",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "한올바이오파마",
+   "code": "009420",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "금리 인상 및 Rm 상승(13% > 18%)에 따른 WACC 상승으로 기존(10.1% > 11.8%)로 적정주가 6.5만원 하향 * 보고서 원문 및 컴플라이언스 < https://",
+    "금리 인상 및 Rm 상승(13% > 18%)에 따른 WACC 상승으로 기존(10.1% > 11.8%)로 적정주가 6.5만원 하향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/AF37qt6 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
+   ],
+   "title": "[한올바이오파마(009420)/ BUY(유지)/ TP 65,000원(하향)/ 다올투자증권 박종현] ★ SPOT: 확장보단 현재 파이프라인에 집중하기",
+   "post_url": "https://t.me/daolresearch/15128",
+   "source_url": "https://buly.kr/AF37qt6"
   }
  ],
  "cross_mentions": [
@@ -32076,7 +32111,7 @@
    "recent": 20,
    "total": 21,
    "sectors": 3,
-   "burst": 40.3
+   "burst": 40.1
   },
   {
    "term": "월드컵",
@@ -32090,7 +32125,7 @@
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.1
+   "burst": 8.0
   },
   {
    "term": "감가상각비",
@@ -32098,6 +32133,13 @@
    "total": 9,
    "sectors": 6,
    "burst": 6.0
+  },
+  {
+   "term": "할인율",
+   "recent": 8,
+   "total": 13,
+   "sectors": 3,
+   "burst": 5.4
   },
   {
    "term": "관건",
@@ -32133,13 +32175,6 @@
    "total": 10,
    "sectors": 3,
    "burst": 4.8
-  },
-  {
-   "term": "할인율",
-   "recent": 7,
-   "total": 12,
-   "sectors": 3,
-   "burst": 4.7
   },
   {
    "term": "실질",
