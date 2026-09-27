@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-27T01:47:46.446862+00:00",
+ "generated_at": "2026-09-27T17:45:13.075671+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1341,
+ "report_count": 1342,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -30988,6 +30988,76 @@
    "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강 이정우] ★ 강관 병목 발생 중",
    "post_url": "https://t.me/daolresearch/15121",
    "source_url": "https://buly.kr/DwH0dfK"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-09-27",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "▲ 아부다비 Adnoc, 호르무즈 우회 East Coast LNG 추진 ▽ Vortexa 전망: LNG 공급이 선대 증가를 2028년말에나 따라잡을 것으로 전망 2011년 건조 VLCC 2척(Samail, Seeb)을 총 160.2백만달러에 매각해 75.2백만달러 차익 실현 전망 FSRU는 단순 백업에서 에너지 안보 핵심 전략 자산으로 위상 격상되었으며, 신규 LNG 생산 물량 유입으로 지속 성장 전망 운항 속도 저하 속에서 ",
+    "▲ 아부다비 Adnoc, 호르무즈 우회 East Coast LNG 추진 ▽ Vortexa 전망: LNG 공급이 선대 증가를 2028년말에나 따라잡을 것으로 전망 ▲ Woodside Energy, BP의 호주 Browse 프로젝트 지분 매각에 대한 우선매수권 행사 검토 ▲ HD한국조선해양, 인도 타밀나두주에 조선 투자 HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원)"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 250백만달러 리세일 협의설, 200k-CBM LNG 시대 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15124",
+   "source_url": "https://bit.ly/DOS841"
+  },
+  {
+   "theme": "해운 운임",
+   "category": "원자재",
+   "date": "2026-09-27",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "가스선 △ Dorian LPG, 운임 급등에 따른 중고선가 상승세 속 5번째 VLGC 매각 단행"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 250백만달러 리세일 협의설, 200k-CBM LNG 시대 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15124",
+   "source_url": "https://bit.ly/DOS841"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-09-27",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 250백만달러 리세일 협의설, 200k-CBM LNG 시대 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15124",
+   "source_url": "https://bit.ly/DOS841"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-09-27",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "LNG선 4주 연속 하락했지만 VLGC 2주 연속 상승 ▲ VLCC 250백만달러에 리세일 추진 풍문",
+    "삼성중공업 액화 기술 MoU 체결 ▲ Hoegh, LNG-FSRU 신조 적극 검토 ▲ LR, 200k-CBM LNG선이 최적이라고 제안 ▲ 아부다비 Adnoc, 호르무즈 우회 East Coast LNG 추진"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLCC 250백만달러 리세일 협의설, 200k-CBM LNG 시대 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15124",
+   "source_url": "https://bit.ly/DOS841"
   }
  ],
  "cross_mentions": [
@@ -32006,105 +32076,105 @@
    "recent": 20,
    "total": 21,
    "sectors": 3,
-   "burst": 38.9
+   "burst": 40.3
   },
   {
    "term": "월드컵",
    "recent": 7,
    "total": 9,
    "sectors": 4,
-   "burst": 9.1
+   "burst": 9.4
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 7.8
+   "burst": 8.1
   },
   {
    "term": "감가상각비",
    "recent": 6,
    "total": 9,
    "sectors": 6,
-   "burst": 5.8
+   "burst": 6.0
   },
   {
    "term": "관건",
    "recent": 12,
    "total": 20,
    "sectors": 9,
-   "burst": 5.2
+   "burst": 5.4
   },
   {
    "term": "기저가",
    "recent": 9,
    "total": 15,
    "sectors": 5,
-   "burst": 5.0
+   "burst": 5.2
   },
   {
    "term": "Cloud",
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.7
+   "burst": 4.8
   },
   {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 4.7
+   "burst": 4.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.7
+   "burst": 4.8
   },
   {
    "term": "할인율",
    "recent": 7,
    "total": 12,
    "sectors": 3,
-   "burst": 4.5
+   "burst": 4.7
   },
   {
    "term": "실질",
    "recent": 7,
    "total": 12,
    "sectors": 6,
-   "burst": 4.5
+   "burst": 4.7
   },
   {
    "term": "Mix",
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.3
+   "burst": 4.4
   },
   {
    "term": "일시",
    "recent": 10,
    "total": 19,
    "sectors": 8,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "방향",
    "recent": 7,
    "total": 13,
    "sectors": 7,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "정체",
    "recent": 6,
    "total": 11,
    "sectors": 4,
-   "burst": 3.9
+   "burst": 4.0
   }
  ]
 }
