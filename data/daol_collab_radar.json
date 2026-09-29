@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-29T18:47:03.079160+00:00",
+ "generated_at": "2026-09-29T22:14:49.353534+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1346,
+ "report_count": 1347,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32125,10 +32125,10 @@
  "candidates": [
   {
    "term": "통신",
-   "recent": 21,
+   "recent": 20,
    "total": 22,
    "sectors": 3,
-   "burst": 42.2
+   "burst": 27.0
   },
   {
    "term": "월드컵",
@@ -32142,14 +32142,7 @@
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.0
-  },
-  {
-   "term": "감가상각비",
-   "recent": 6,
-   "total": 9,
-   "sectors": 6,
-   "burst": 6.0
+   "burst": 8.1
   },
   {
    "term": "할인율",
@@ -32177,21 +32170,21 @@
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.8
+   "burst": 4.9
   },
   {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 4.8
+   "burst": 4.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.8
+   "burst": 4.9
   },
   {
    "term": "분쟁",
@@ -32215,17 +32208,24 @@
    "burst": 4.4
   },
   {
-   "term": "일시",
-   "recent": 10,
-   "total": 19,
-   "sectors": 8,
-   "burst": 4.0
-  },
-  {
    "term": "방향",
    "recent": 7,
    "total": 13,
    "sectors": 7,
+   "burst": 4.0
+  },
+  {
+   "term": "독일",
+   "recent": 9,
+   "total": 17,
+   "sectors": 4,
+   "burst": 4.0
+  },
+  {
+   "term": "정체",
+   "recent": 6,
+   "total": 11,
+   "sectors": 4,
    "burst": 4.0
   }
  ]

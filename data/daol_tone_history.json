@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T18:44:11.017219+00:00",
+  "generated_at": "2026-09-29T22:14:36.436774+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1346,
+  "report_count": 1347,
   "months": [
     {
       "month": "2026-09",
@@ -544,8 +544,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 11,
+          "report_count": 12,
           "reports": [
+            {
+              "id": 15138,
+              "date": "2026-09-30",
+              "month": "2026-09",
+              "analyst": "박종현",
+              "sector": "화장품",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ Implication K-뷰티 추적 32개 브랜드 합계 $11.65M, 직전 4주 평균 대비 +6.1%(전주 대비 -4.0%) · 메디큐브 $4.66M(4주 평균 대비 +9.3%)가 증가분 대부분 · TikTok 센텔리안24 는 2주 연속 상승으로 급변 발동 아마존에서는 메디큐브 독일·스페인 판매 순위가 직전 4주 평균 대비 +60%·+43% 상승(이번 주 처음), 반면 미국 Weighted MS 는 12.8%로 4주 평균 15.4% 대비 -2.7%p.",
+              "report_conclusion": "▶ Implication K-뷰티 추적 32개 브랜드 합계 $11.65M, 직전 4주 평균 대비 +6.1%(전주 대비 -4.0%) · 메디큐브 $4.66M(4주 평균 대비 +9.3%)가 증가분 대부분 · TikTok 센텔리안24 는 2주 연속 상승으로 급변 발동 아마존에서는 메디큐브 독일·스페인 판매 순위가 직전 4주 평균 대비 +60%·+43% 상승(이번 주 처음), 반면 미국 Weighted MS 는 12.8%로 4주 평균 15.4% 대비 -2.7%p.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/3jB6H5d",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
+              "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~9/29)",
+              "summary": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~9/29) ▶ Implication K-뷰티 추적 32개 브랜드 합계 $11.65M, 직전 4주 평균 대비 +6.1%(전주 대비 -4.0%) · 메디큐브 $4.66M(4주 평균 대비 +9.3%)가 증가분 대부분 · TikTok 센텔리안24 는 2주 연속 상승으로 급변 발동 아마존에서는 메디큐브 독일·스페인 판매 순위가 직전 4주 평균 대비 +60%·+43% 상승(이번 주 처음), 반면 미국 Weighted MS 는 12.8%로 4주 평균 15.4% 대비 -2.7%p. 할인율은 메디큐브 19.2%(4주 평균 대비 +6.5%p)·달바 27.4%(+4.6%p)로 확대 TikTok Shop 에서는 센텔리안24 가 직전 4주 평균 대비 +34% → +69%로 2주 연속 기준(±30%)을 넘어 급변으로 잡힘. 바이오힐보(+49%)·달바(+47%)는 이번 주 처음 상승 기준을, 미샤(-31%)·마녀공장(-41%)은 하락 기준을 넘었고, 지난주 +39%로 처음 넘었던 리쥬란은 $79K(4주 평균 대비 -48%)로 상승이 이어지지 않음 * 보고서 원문 및 컴플라이언스 < https://buly.kr/3jB6H5d > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/15138",
+              "source_url": "https://buly.kr/3jB6H5d"
+            },
             {
               "id": 15128,
               "date": "2026-09-28",
@@ -2290,7 +2317,7 @@
           ]
         }
       ],
-      "report_count": 54
+      "report_count": 55
     },
     {
       "month": "2026-08",
