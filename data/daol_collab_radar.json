@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T22:49:12.941681+00:00",
+ "generated_at": "2026-09-30T23:24:15.568067+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1350,
  "hits": [
@@ -23654,8 +23654,8 @@
    "date": "2026-05-28",
    "analyst": "김혜영",
    "sector": "인터넷/게임/레저",
-   "company": "Naver",
-   "code": "035420",
+   "company": "산업/기타",
+   "code": "",
    "direction": "수혜",
    "score": 1,
    "evidences": [
@@ -31135,8 +31135,8 @@
    "date": "2026-10-01",
    "analyst": "박영도",
    "sector": "건설/부동산",
-   "company": "NAVER",
-   "code": "035420",
+   "company": "산업/기타",
+   "code": "",
    "direction": "피해",
    "score": -3,
    "evidences": [
@@ -31153,8 +31153,8 @@
    "date": "2026-10-01",
    "analyst": "박영도",
    "sector": "건설/부동산",
-   "company": "NAVER",
-   "code": "035420",
+   "company": "산업/기타",
+   "code": "",
    "direction": "중립",
    "score": 0,
    "evidences": [
@@ -32191,6 +32191,18 @@
    "evidence": "대부분 중국으로 △ CMA CGM, HMM, ONE 등도 컨테이너 투자 추진",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: Rovuma LNG, 한화도 사이펨도 FLNG, 태국 호위함, 힘센 증설 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15072"
+  },
+  {
+   "company": "NAVER",
+   "code": "035420",
+   "owner_analyst": "김혜영",
+   "owner_sector": "인터넷/게임/레저",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "date": "2026-10-01",
+   "evidence": "NAVER (035420): TP 400,000원, BUY, Top-Pick - 빠르면 1Q27부터 자체 AI 데이터센터 매출 반영, '27년 엔터프라이즈 매출 2.2조원(+239.9% YoY) 전망 - 외부 투자 유치로 투자 리스크 분산",
+   "title": "[건설/AI·인터넷 데이터센터 콜라보｜다올 건설·부동산 박영도 ☎️ 2184-2548/다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 대세 는 데 이터 센 터 ★ NAVER (035420): TP 400,000원, BUY, Top-Pick -",
+   "post_url": "https://t.me/daolresearch/15147"
   }
  ],
  "candidates": [
