@@ -86,6 +86,34 @@ def fmt_won(v):
     return f'{int(v):,}원' if v else None
 
 
+# 텔레그램 서두의 콜라보/인뎁스 요약: "★ NAVER (035420): TP 400,000원, BUY … ★ GS건설 (006360): TP 48,000원 …"
+TG_TP_RE = re.compile(r'([가-힣A-Za-z0-9&. ]{2,30}?)\s*\((\d{6})\)\s*[:：]\s*(?:TP|적정주가)\s*([0-9][\d,.]*)\s*(만)?\s*원')
+
+
+def extract_tg_bundled_tp(summary):
+    """PDF 원문이 없거나 부실할 때: 텔레그램 서두의 '종목 (코드): TP 값원' 페어에서 뽑는다.
+    방향은 본문에 없으므로 비워 두고, fill_tp_priors가 타임라인 직전 TP와 비교해 채운다."""
+    out, seen = [], set()
+    ms = list(TG_TP_RE.finditer(summary or ''))
+    for i, m in enumerate(ms):
+        code = m.group(2)
+        if code in seen: continue
+        seen.add(code)
+        value = float(m.group(3).replace(',', '')) * (10000 if m.group(4) else 1)
+        if value < 500: continue  # 원 단위 TP로 볼 수 없는 값은 오탐
+        # 'Top-Pick 카카오(035720)'처럼 수식어가 이름에 딸려 오면 떼어낸다
+        name = re.sub(r'^(?:Top\s*-?\s*Pick|Pick|차선호주|최선호주|탑픽|관심종목|선호주)\s*',
+                      '', m.group(1).strip(), flags=re.I)
+        # 다음 종목 페어 전까지가 이 종목의 요약 — 한 줄 설명으로 쓴다
+        nxt = ms[i + 1].start() if i + 1 < len(ms) else len(summary)
+        tail = re.split(r'[▶♣]', summary[m.end():nxt])[0]
+        tail = re.sub(r'\s+', ' ', tail).strip(' -–—·,★')
+        tail = re.sub(r'^(?:(?:BUY|HOLD|REDUCE|매수|중립|Top\s*-?\s*Pick)[,\s·\-–—]*)+', '', tail, flags=re.I)
+        out.append({'code': code, 'company': name or m.group(1).strip(), 'value': value,
+                    'prior': None, 'direction': '', 'title': '', 'summary': tail[:220]})
+    return out
+
+
 # 인뎁스 종목 페이지의 TP 박스: "적정주가  43,000  24,000  상향" (현재/직전/변동)
 BUNDLED_TP_RE = re.compile(r'적정주가\s*([\d,]{3,9})\s+([\d,]{3,9})\s+(상향|하향|유지)')
 CODE_RE = re.compile(r'\((\d{6})\)')
@@ -151,14 +179,14 @@ def extract_bundled_tp(text):
     return out
 
 
-def build_bundled_records(records, pdf_cache, sector_map):
+def build_bundled_records(records, pdf_cache, sector_map, summaries=None):
     """산업자료(인뎁스)의 종목 페이지 TP를 합성 레코드로 만들어 종목 타임라인에 주입한다."""
     synth = []
     # AI 판독 TP의 코드 해결용: 커버 종목명 → 코드 (정확 일치만)
     name_to_code = {x['company']: x['code'] for x in records if x.get('code') and x.get('company')}
 
     def make(r, item, evidence, is_ai):
-        prior = None if item['direction'] in ('유지', '신규') else item.get('prior')
+        prior = None if item['direction'] in ('유지', '신규', '') else item.get('prior')
         display = fmt_won(item['value']) if prior is None else f"{fmt_won(prior)} → {fmt_won(item['value'])}"
         return {
             'id': f"{r['id']}-b{item['code']}", 'date': r['date'], 'month': r['month'],
@@ -176,10 +204,8 @@ def build_bundled_records(records, pdf_cache, sector_map):
         }
 
     for r in records:
-        if r['report_type'] != '산업자료' or not r.get('source_url'): continue
-        entry = pdf_cache.get(r['source_url']) or {}
-        if entry.get('status') != 'pdf': continue
-        text = entry.get('text', '')
+        if r['report_type'] != '산업자료': continue
+        entry = (pdf_cache.get(r['source_url']) or {}) if r.get('source_url') else {}
         # 폰트 깨진 PDF는 ai_pdf_rescue가 Gemini로 직접 판독해 ai_tp를 남긴다 — 그게 있으면 우선
         # (규칙 추출이 불가능했던 자료이므로 extract_bundled_tp와 겹치지 않는다)
         if entry.get('ai_tp'):
@@ -191,14 +217,21 @@ def build_bundled_records(records, pdf_cache, sector_map):
                 synth.append(make(r, {**item, 'code': code},
                                   f"부실 원문 AI 판독 ({r['title'][:60]})", True))
             continue
-        if '적정주가' not in text:
+        text = entry.get('text', '') if entry.get('status') == 'pdf' else ''
+        added = False
+        if text and '적정주가' in text:
+            for item in extract_bundled_tp(text):
+                synth.append(make(r, item, f"산업 인뎁스 종목 페이지에서 추출 ({r['title'][:60]})", False))
+                added = True
+        elif text and re.search(r'In-?Depth|인뎁스|Preview|프리뷰', r['title'], re.I):
             # 인뎁스·프리뷰로 보이는데 TP 박스가 전혀 안 읽히면 조용히 넘기지 말고 경고를 남긴다
             # (현대차 7/6 사고: 프리뷰 PDF가 껍데기 텍스트로 캐시돼 종목별 TP 하향이 통째로 누락)
-            if text and re.search(r'In-?Depth|인뎁스|Preview|프리뷰', r['title'], re.I):
-                print(f"::warning::산업자료에서 종목 TP 미검출(원문 부실 의심): {r['date']} {r['title'][:50]}")
-            continue
-        for item in extract_bundled_tp(text):
-            synth.append(make(r, item, f"산업 인뎁스 종목 페이지에서 추출 ({r['title'][:60]})", False))
+            print(f"::warning::산업자료에서 종목 TP 미검출(원문 부실 의심): {r['date']} {r['title'][:50]}")
+        if not added:
+            # PDF가 없거나(다운로드 실패) TP 박스를 못 읽은 자료: 텔레그램 서두의 종목별 TP 페어로 폴백
+            # (10/1 건설/AI·인터넷 콜라보 — PDF 실패로 NAVER·GS건설 한 줄이 통째로 빠지던 문제)
+            for item in extract_tg_bundled_tp((summaries or {}).get(str(r['id']), '')):
+                synth.append(make(r, item, f"텔레그램 서두에서 추출 ({r['title'][:60]})", False))
     # 같은 날짜·같은 종목·같은 값의 정식 기업자료가 이미 있으면 합성본은 뺀다(중복 방지)
     existing = {(x['code'], x['date'], (x.get('tp_event') or {}).get('value'))
                 for x in records if x.get('code') and x.get('tp_event')}
@@ -433,6 +466,14 @@ def fill_tp_priors(timeline):
             if consistent:
                 tp['prior'] = last_tp
                 tp['display'] = f"{fmt_won(last_tp)} → {fmt_won(tp['value'])}"
+        elif tp['direction'] == '' and last_tp:
+            # 텔레그램 폴백 추출은 방향이 없다 — 직전 TP와 비교해 방향을 채운다
+            if last_tp != tp['value']:
+                tp['direction'] = '상향' if tp['value'] > last_tp else '하향'
+                tp['prior'] = last_tp
+                tp['display'] = f"{fmt_won(last_tp)} → {fmt_won(tp['value'])}"
+            else:
+                tp['direction'] = '유지'
         last_tp = tp['value']
 
 
@@ -569,14 +610,17 @@ def build():
     history = load_json(HISTORY, {'months': []})
     ai_cache = load_json(AI_CACHE, {})
     sector_map = load_json(SECTOR_MAP_FILE, {})
-    records = [merge_report(r, ai_cache.get(str(r['id']))) for r in flat_reports(history)]
+    raw_reports = flat_reports(history)
+    # 텔레그램 서두 원문(요약) — PDF 폴백 인뎁스 추출용. 화면 레코드에는 싣지 않는다.
+    summaries = {str(r['id']): r.get('summary') or '' for r in raw_reports}
+    records = [merge_report(r, ai_cache.get(str(r['id']))) for r in raw_reports]
     records = [r for r in records if r['analyst'] not in EXCLUDED_ANALYSTS]
     for r in records: r['sector'] = resolve_sector(r, sector_map)
     # 기업 리포트 표지 박스로 TP 보강(직전값 확보 — '기존 →' 플레이스홀더 최소화)
     enrich_from_cover(records, load_json(PDF_TEXT_CACHE, {}))
 
     # 인뎁스(묶음 산업자료) 종목 페이지의 TP를 종목 타임라인에 주입
-    records.extend(build_bundled_records(records, load_json(PDF_TEXT_CACHE, {}), sector_map))
+    records.extend(build_bundled_records(records, load_json(PDF_TEXT_CACHE, {}), sector_map, summaries))
 
     # 애널리스트 확신도 베이스라인(개인 평균±표준편차) — '평소 대비'가 진짜 신호다.
     from statistics import mean, pstdev
