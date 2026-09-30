@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-29T22:48:23.719562+00:00",
+ "generated_at": "2026-09-30T00:55:10.179217+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1347,
+ "report_count": 1348,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31110,6 +31110,24 @@
    "title": "[삼성전기(009150) | BUY(유지) | TP 280만원(유지) | 다올투자증권 전기전자 김연미] ★ 삼성전기 3Q26 Preview - 쉼 없는 레벨업",
    "post_url": "https://t.me/daolresearch/15133",
    "source_url": "https://buly.kr/E7BnnF3"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-09-30",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "LG이노텍",
+   "code": "011070",
+   "direction": "피해",
+   "score": -4,
+   "evidences": [
+    "️ 실적 전망 및 Valuation - 연간 영업이익은 26년 1조 457억원, 27년 1조 5,398억원으로 각각 -22%, -4% 하향 조정 - 이익 추정치 변경 및 멀티플 축소 감안해 적정주가 100만원으로 하향 - 단, 환율 노이즈가 짙은 26년보다 FC-BGA 이익 기여 확대가 시작되는 27년 실적으로 무게중심을 이동할 필요 - 현 주가는 27E P/E 11.9배, P/B 1.8배 수준으로 밸류에이션 매력 유효한 구간",
+    "️ 실적 전망 및 Valuation - 연간 영업이익은 26년 1조 457억원, 27년 1조 5,398억원으로 각각 -22%, -4% 하향 조정 - 이익 추정치 변경 및 멀티플 축소 감안해 적정주가 100만원으로 하향 - 단, 환율 노이즈가 짙은 26년보다 FC-BGA"
+   ],
+   "title": "[LG이노텍(011070) | BUY(유지) | TP 100만원(하향) | 다올투자증권 전기전자 김연미] ★ LG이노텍 3Q26 Preview - 흔들린 건 환율일 뿐",
+   "post_url": "https://t.me/daolresearch/15140",
+   "source_url": "https://buly.kr/BpHxPKD"
   }
  ],
  "cross_mentions": [
@@ -32128,7 +32146,7 @@
    "recent": 20,
    "total": 22,
    "sectors": 3,
-   "burst": 27.0
+   "burst": 26.9
   },
   {
    "term": "월드컵",
@@ -32170,21 +32188,21 @@
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.9
+   "burst": 4.8
   },
   {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 4.9
+   "burst": 4.8
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.9
+   "burst": 4.8
   },
   {
    "term": "분쟁",
