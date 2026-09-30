@@ -357,6 +357,11 @@ def analyze(messages, pdf_since='2025-05'):
         t=m['text']; analyst,sector=analyst_sector(t); company,code=company_name(t); dt=kst_dt(m['date'])
         day=dt.date().isoformat()
         month=dt.strftime('%Y-%m');is_industry=company in ('산업/기타',sector) or bool(re.search(r'\((?:Overweight|Neutral|Underweight)\)',t[:300],re.I))
+        # 콜라보/인뎁스 묶음: 서두에 '종목 (6자리): TP' 페어가 2개 이상이면 산업자료다.
+        # 첫 종목만 company로 잡으면 묶음 자료가 그 종목의 기업자료로 오인되므로 비운다 —
+        # 종목별 TP는 v2가 인뎁스 합성 레코드로 각 종목 타임라인에 주입한다.
+        if len(set(re.findall(r'\((\d{6})\)\s*[:：]\s*(?:TP|적정주가)',t[:1500],re.I)))>=2:
+            is_industry=True;company,code='산업/기타',''
         source=source_link(m);analysis_text=t;analysis_source='텔레그램 요약';final_url=source;pdf_error=''
         details={'pitch':report_pitch(t),'conclusion':industry_conclusion(t) if is_industry else '',
                  'valuation':detail_lines(t,r'Valuation|밸류에이션|적정주가\s*산출|PER|PBR|EV/EBITDA|WACC|DCF|적용\s*(?:배수|멀티플)',4),

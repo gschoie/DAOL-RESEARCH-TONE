@@ -324,10 +324,14 @@ def merge_report(report, ai_entry):
     # '1Q26'·'CY2Q26' 같은 분기 라벨은 기업명이 아니다 — 비워서 AI 귀속 보정이 진짜 기업명을 채우게 한다
     if re.fullmatch(r'(?:CY|FY)?[1-4]Q\d{2}[EP]?', company):
         company, code = '', ''
+    # 콜라보/인뎁스 묶음('종목 (코드): TP' 페어 2개 이상)은 AI가 '기업'으로 오판해도
+    # 첫 종목의 기업자료로 뒤집지 않는다 — 제목은 잘릴 수 있어 요약까지 본다.
+    is_collab = len(set(re.findall(r'\((\d{6})\)\s*[:：]\s*(?:TP|적정주가)',
+                                   f"{report.get('title') or ''} {report.get('summary') or ''}", re.I))) >= 2
     if ai:
         # 정규식이 기업을 못 잡았거나(산업/기타), 코드 없이 산업자료로 오인한 경우
         # (제목 조각 '조선' 따위가 company로 들어옴) AI 귀속으로 보정한다.
-        if ai['report_scope'] == '기업' and ai['company'] and (
+        if not is_collab and ai['report_scope'] == '기업' and ai['company'] and (
                 company in ('', '산업/기타') or (scope == '산업자료' and not code)):
             company, code = ai['company'], ai['code'] or code
             scope = '기업자료'
@@ -542,6 +546,10 @@ def resolve_sector(record, sector_map):
     # 2순위: 애널 헤더의 원시 섹터 문자열 — '자동차/이차전지'처럼 복수 표기는
     # 앞 세그먼트가 주 커버리지이므로 세그먼트 순서대로 본다.
     hdr = re.match(r'^\[([^\]]*)\]', record['title'])
+    # 선두 대괄호에 '콜라보'가 명시된 크로스섹터 자료는 키워드 우선순위('건설' 등)에
+    # 걸리기 전에 콜라보 버킷으로 — 종목별 내용은 합성 레코드가 각 섹터로 간다.
+    if hdr and '콜라보' in hdr.group(1):
+        return '콜라보'
     if hdr and hdr.group(1).count('/') >= 2:
         topic = record['title'][hdr.end():][:160]
         for pattern, label in SECTOR_KEYWORDS:
