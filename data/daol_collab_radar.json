@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-01T22:17:22.372691+00:00",
+ "generated_at": "2026-10-01T22:48:51.228965+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1351,
+ "report_count": 1352,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32229,14 +32229,14 @@
    "recent": 21,
    "total": 23,
    "sectors": 3,
-   "burst": 29.0
+   "burst": 28.8
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.3
+   "burst": 8.2
   },
   {
    "term": "관건",
@@ -32264,21 +32264,21 @@
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 5.0
+   "burst": 4.9
   },
   {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 5.0
+   "burst": 4.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 5.0
+   "burst": 4.9
   },
   {
    "term": "분쟁",
@@ -32292,7 +32292,7 @@
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.6
+   "burst": 4.5
   },
   {
    "term": "원화",
@@ -32323,10 +32323,10 @@
    "burst": 4.1
   },
   {
-   "term": "공급계약",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
+   "term": "일평균거래대금",
+   "recent": 8,
+   "total": 15,
+   "sectors": 7,
    "burst": 4.1
   }
  ]

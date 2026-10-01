@@ -1,11 +1,59 @@
 {
-  "generated_at": "2026-10-01T22:15:33.417934+00:00",
+  "generated_at": "2026-10-01T22:48:37.299272+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1351,
+  "report_count": 1352,
   "months": [
     {
       "month": "2026-10",
       "analysts": [
+        {
+          "analyst": "김지원",
+          "sectors": [
+            "금융"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-10-02",
+              "source": "https://t.me/daolresearch/15155"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15155,
+              "date": "2026-10-02",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/28wIArM",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
+              "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (8월) 자본시장: 기다림 속 관점 유지",
+              "summary": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (8월) 자본시장: 기다림 속 관점 유지 ▶ 비우호적 영업환경 지속. 실적 전후 시장 환경 변화 여부 주목. 여전히 선별적 접근 관점 유지 ▶ 국내주식 일평균거래대금: (8월) 47.2조원, (9월) 38.2조원 ▶ 국내 ETF 일평균거래대금: (8월) 16.8조원, (9월) 15.8조원 ▶ 주식 발행실적: 4,549억원(YoY-48.7%, MoM-69.5%) ▶ 회사채 발행실적: 15.9조원(YoY-14.8%, MoM-36.1%) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/28wIArM > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15155",
+              "source_url": "https://buly.kr/28wIArM"
+            }
+          ]
+        },
         {
           "analyst": "박영도",
           "sectors": [
@@ -184,7 +232,7 @@
           ]
         }
       ],
-      "report_count": 3
+      "report_count": 4
     },
     {
       "month": "2026-09",
