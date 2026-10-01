@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-01T18:59:24.619118+00:00",
+ "generated_at": "2026-10-01T22:17:22.372691+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1350,
+ "report_count": 1351,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31181,6 +31181,24 @@
    "title": "[오리온(271560) | BUY(유지) | TP 18만원(유지) | 다올 음식료/통신 이다연] ★ P/E 8배, 배당수익률 4%대, 저점 매수 유효",
    "post_url": "https://t.me/daolresearch/15148",
    "source_url": "https://buly.kr/9MTM1oH"
+  },
+  {
+   "theme": "비만/GLP-1",
+   "category": "산업테마",
+   "date": "2026-10-02",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "장기지속형",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "비만치료제 경쟁이 투약 편의성으로 확대.",
+    "Eli Lilly도 Camurus의 FluidCrystal 적용 대상을 인크레틴(GLP-1)에서 아밀린 수용체 작용제로 확대하며 장기지속형 제형 개발 지속"
+   ],
+   "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 장기지속형 기술에 베팅하는 빅파마",
+   "post_url": "https://t.me/daolresearch/15154",
+   "source_url": "https://buly.kr/4mfesui"
   }
  ],
  "cross_mentions": [
@@ -32211,77 +32229,70 @@
    "recent": 21,
    "total": 23,
    "sectors": 3,
-   "burst": 28.4
-  },
-  {
-   "term": "월드컵",
-   "recent": 7,
-   "total": 9,
-   "sectors": 4,
-   "burst": 9.5
+   "burst": 29.0
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.1
+   "burst": 8.3
+  },
+  {
+   "term": "관건",
+   "recent": 13,
+   "total": 21,
+   "sectors": 9,
+   "burst": 6.0
   },
   {
    "term": "할인율",
    "recent": 8,
    "total": 13,
    "sectors": 3,
-   "burst": 5.4
-  },
-  {
-   "term": "관건",
-   "recent": 12,
-   "total": 20,
-   "sectors": 9,
-   "burst": 5.4
+   "burst": 5.5
   },
   {
    "term": "기저가",
    "recent": 9,
    "total": 15,
    "sectors": 5,
-   "burst": 5.2
+   "burst": 5.3
   },
   {
    "term": "Cloud",
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.9
+   "burst": 5.0
   },
   {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 4.9
+   "burst": 5.0
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.9
+   "burst": 5.0
   },
   {
    "term": "분쟁",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.7
+   "burst": 4.8
   },
   {
    "term": "Mix",
    "recent": 11,
    "total": 20,
    "sectors": 6,
-   "burst": 4.5
+   "burst": 4.6
   },
   {
    "term": "원화",
@@ -32309,6 +32320,13 @@
    "recent": 6,
    "total": 11,
    "sectors": 4,
+   "burst": 4.1
+  },
+  {
+   "term": "공급계약",
+   "recent": 6,
+   "total": 11,
+   "sectors": 5,
    "burst": 4.1
   }
  ]

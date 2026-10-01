@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T18:58:09.267877+00:00",
+  "generated_at": "2026-10-01T22:15:33.417934+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1350,
+  "report_count": 1351,
   "months": [
     {
       "month": "2026-10",
@@ -134,9 +134,57 @@
               "source_url": "https://buly.kr/9MTM1oH"
             }
           ]
+        },
+        {
+          "analyst": "이지수",
+          "sectors": [
+            "제약/바이오"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-10-02",
+              "source": "https://t.me/daolresearch/15154"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15154,
+              "date": "2026-10-02",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "장기지속형",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 국내의 지투지바이오·인벤티지랩·펩트론 주목.",
+              "report_conclusion": "▶ 국내의 지투지바이오·인벤티지랩·펩트론 주목.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://buly.kr/4mfesui",
+              "pdf_error": "ConnectionError: curl fallback failed rc=28",
+              "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 장기지속형 기술에 베팅하는 빅파마",
+              "summary": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 장기지속형 기술에 베팅하는 빅파마 ▶ 비만치료제 경쟁이 투약 편의성으로 확대. Novo Nordisk는 Nanexa의 PharmaShell(최대 €11.6억)·Hengrui의 HRS-1596(최대 $26억)을 신규 도입. Eli Lilly도 Camurus의 FluidCrystal 적용 대상을 인크레틴(GLP-1)에서 아밀린 수용체 작용제로 확대하며 장기지속형 제형 개발 지속 ▶ 장기지속형 기술의 적용 약물이 늘어나는 가운데, 약물별 특성과 필요 용량에 맞는 제형 구현이 중요. 약물 탑재량·방출 조절과 함께 생산 규모 확대 시 균일한 품질을 유지할 수 있는지가 플랫폼 경쟁력의 핵심 ▶ 국내의 지투지바이오·인벤티지랩·펩트론 주목. 지투지바이오는 글로벌 제약사와의 공동연구, 인벤티지랩은 베링거인겔하임과의 연구 확대가 주목되며, 펩트론은 10월 7일 평가계약 종료 후 기술이전이나 추가 협의 여부가 관건. 향후 협력의 구체화와 기술이전 성과에 따라 기업별 차별화가 예상 ★ 보고서원문 및 컴플라이언스 → https://buly.kr/4mfesui",
+              "post_url": "https://t.me/daolresearch/15154",
+              "source_url": "https://buly.kr/4mfesui"
+            }
+          ]
         }
       ],
-      "report_count": 2
+      "report_count": 3
     },
     {
       "month": "2026-09",
