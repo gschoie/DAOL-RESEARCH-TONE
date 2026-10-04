@@ -114,8 +114,9 @@ def extract_tg_bundled_tp(summary):
     return out
 
 
-# 인뎁스 종목 페이지의 TP 박스: "적정주가  43,000  24,000  상향" (현재/직전/변동)
-BUNDLED_TP_RE = re.compile(r'적정주가\s*([\d,]{3,9})\s+([\d,]{3,9})\s+(상향|하향|유지)')
+# 인뎁스 종목 페이지의 TP 박스: "적정주가  43,000  24,000  상향" (현재/직전/변동),
+# 신규 커버 종목은 직전값 없이 "적정주가  270,000  신규" 한 값 형식(10/1 콜라보 인뎁스).
+BUNDLED_TP_RE = re.compile(r'적정주가\s*([\d,]{3,9})\s+(?:([\d,]{3,9})\s+(상향|하향|유지)|(신규))')
 CODE_RE = re.compile(r'\((\d{6})\)')
 # 종목 섹션의 애널 헤더 줄("이다연 음식료 | dayeonlee@daolfn.com") — 섹션 제목이 바로 다음 줄에 온다
 ANALYST_HDR_RE = re.compile(r'[가-힣]{2,4}\s+[^\n]{0,40}@daolfn\.com[^\n]*\n')
@@ -150,7 +151,7 @@ def _bundled_section_meta(text, box_start, owner_pos, owner_is_before):
     return title[:90].strip(), summary[:220].strip()
 
 
-def extract_bundled_tp(text):
+def extract_bundled_tp(text, name_to_code=None):
     """산업 인뎁스 PDF 텍스트에서 종목별 TP 박스를 뽑는다. [{code, company, value, prior, direction}]"""
     # 페이지 레이아웃이 두 갈래다:
     #  A) 좌측 TP 박스 텍스트가 먼저, 그 종목의 헤더 '회사명 (코드)'가 수백 자 뒤 (GS건설 인뎁스형)
@@ -159,18 +160,31 @@ def extract_bundled_tp(text):
     #   A형은 박스 앞 ~200자에 전 종목 코드 요약표가 오는 경우가 있어(건설 인뎁스) 그걸 배제해야 한다.
     out, seen = [], set()
     codes = [(m.start(), m.group(1)) for m in CODE_RE.finditer(text)]
-    for bm in BUNDLED_TP_RE.finditer(text):
-        value, prior = float(bm.group(1).replace(',', '')), float(bm.group(2).replace(',', ''))
-        direction = bm.group(3)
-        if direction == '상향' and not value > prior: continue
-        if direction == '하향' and not value < prior: continue
-        if direction == '유지' and value != prior: continue
+    # 2패스: '현재/직전/변동' 두값 박스(기존 커버, 고신뢰)를 먼저 처리하고 '신규' 한값 박스를
+    # 나중에 본다 — 신규 페이지에 다른 커버 종목 코드가 오기재된 PDF(10/23 음식료: 동원산업
+    # 페이지에 농심 코드)가 기존 커버의 진짜 박스를 선점하지 못하게 하는 순서다.
+    matches = sorted(BUNDLED_TP_RE.finditer(text), key=lambda m: (bool(m.group(4)), m.start()))
+    for bm in matches:
+        value = float(bm.group(1).replace(',', ''))
+        if bm.group(4):  # 신규 커버: 직전값 없음
+            prior, direction = None, '신규'
+        else:
+            prior, direction = float(bm.group(2).replace(',', '')), bm.group(3)
+            if direction == '상향' and not value > prior: continue
+            if direction == '하향' and not value < prior: continue
+            if direction == '유지' and value != prior: continue
         after = next(((pos, c) for pos, c in codes if 0 < pos - bm.start() <= 1200), None)
         before = next(((pos, c) for pos, c in reversed(codes) if 0 < bm.start() - pos <= 120), None)
         owner = min((o for o in (after, before) if o), key=lambda o: abs(o[0] - bm.start()), default=None)
-        if not owner or owner[1] in seen: continue
+        if not owner: continue
         pos, code = owner
         name = re.search(r'([가-힣A-Za-z0-9&\-]+(?: [가-힣A-Za-z0-9&\-]+)?)\s*$', text[max(0, pos - 30):pos])
+        if code in seen:
+            # PDF 오기재 방어: 10/1 콜라보 인뎁스의 삼성물산 페이지에 LG씨엔에스 코드(064400)가
+            # 찍혀 있었다 — 이미 쓰인 코드면 종목명으로 커버 맵에서 재해석하고, 안 되면 스킵.
+            alt = (name_to_code or {}).get(name.group(1).strip() if name else '')
+            if not alt or alt in seen: continue
+            code = alt
         sec_title, sec_summary = _bundled_section_meta(text, bm.start(), pos, owner is before)
         seen.add(code)
         out.append({'code': code, 'company': (name.group(1).strip() if name else ''),
@@ -182,8 +196,13 @@ def extract_bundled_tp(text):
 def build_bundled_records(records, pdf_cache, sector_map, summaries=None):
     """산업자료(인뎁스)의 종목 페이지 TP를 합성 레코드로 만들어 종목 타임라인에 주입한다."""
     synth = []
-    # AI 판독 TP의 코드 해결용: 커버 종목명 → 코드 (정확 일치만)
-    name_to_code = {x['company']: x['code'] for x in records if x.get('code') and x.get('company')}
+    # AI 판독 TP의 코드 해결용: 커버 종목명 → 코드 (정확 일치만).
+    # 커버 이력이 없어 맵에 안 잡히는 종목의 수동 보충 — PDF 오기재 재해석(extract_bundled_tp)이
+    # 여기 의존한다 (10/1 콜라보: 삼성물산 신규 커버인데 페이지 코드가 LG씨엔에스 것으로 오기재).
+    name_to_code = {'삼성물산': '028260'}
+    name_to_code.update({x['company']: x['code'] for x in records if x.get('code') and x.get('company')})
+    # 역방향: 섹션 헤더에서 종목명 추출이 실패한 박스(이름 '')가 IND 버킷으로 새지 않게 코드로 보충
+    code_to_name = {x['code']: x['company'] for x in records if x.get('code') and x.get('company')}
 
     def make(r, item, evidence, is_ai):
         prior = None if item['direction'] in ('유지', '신규', '') else item.get('prior')
@@ -191,7 +210,7 @@ def build_bundled_records(records, pdf_cache, sector_map, summaries=None):
         return {
             'id': f"{r['id']}-b{item['code']}", 'date': r['date'], 'month': r['month'],
             'analyst': r['analyst'], 'sector': sector_map.get(item['code'], r['sector']),
-            'company': item['company'], 'code': item['code'], 'report_type': '기업자료',
+            'company': item['company'] or code_to_name.get(item['code'], ''), 'code': item['code'], 'report_type': '기업자료',
             # 인뎁스 안 종목 섹션의 자체 제목·Pitch가 있으면 그걸 쓴다(없으면 모(母)자료 제목)
             'title': item.get('title') or r['title'], 'post_url': r['post_url'], 'source_url': r['source_url'],
             'pdf_url': r['pdf_url'], 'opinion': '', 'ai': is_ai, 'bundled': True,
@@ -220,7 +239,7 @@ def build_bundled_records(records, pdf_cache, sector_map, summaries=None):
         text = entry.get('text', '') if entry.get('status') == 'pdf' else ''
         added = False
         if text and '적정주가' in text:
-            for item in extract_bundled_tp(text):
+            for item in extract_bundled_tp(text, name_to_code):
                 synth.append(make(r, item, f"산업 인뎁스 종목 페이지에서 추출 ({r['title'][:60]})", False))
                 added = True
         elif text and re.search(r'In-?Depth|인뎁스|Preview|프리뷰', r['title'], re.I):
@@ -246,17 +265,20 @@ def enrich_from_cover(records, pdf_cache):
         if entry.get('status') != 'pdf': continue
         m = BUNDLED_TP_RE.search(entry.get('text', '')[:5000])
         if not m: continue
-        value, prior = float(m.group(1).replace(',', '')), float(m.group(2).replace(',', ''))
-        direction = m.group(3)
-        if direction == '상향' and not value > prior: continue
-        if direction == '하향' and not value < prior: continue
-        if direction == '유지' and value != prior: continue
+        value = float(m.group(1).replace(',', ''))
+        if m.group(4):  # 신규 커버 표지: 직전값 없음
+            prior, direction = None, '신규'
+        else:
+            prior, direction = float(m.group(2).replace(',', '')), m.group(3)
+            if direction == '상향' and not value > prior: continue
+            if direction == '하향' and not value < prior: continue
+            if direction == '유지' and value != prior: continue
         tp = r.get('tp_event') or {}
         evidence = tp.get('evidence') or '표지 적정주가 박스'
         reasons = tp.get('reasons') or []
-        display = fmt_won(value) if direction == '유지' else f"{fmt_won(prior)} → {fmt_won(value)}"
+        display = fmt_won(value) if direction in ('유지', '신규') else f"{fmt_won(prior)} → {fmt_won(value)}"
         r['tp_event'] = {'direction': direction, 'value': value,
-                         'prior': None if direction == '유지' else prior,
+                         'prior': None if direction in ('유지', '신규') else prior,
                          'display': display, 'reasons': reasons, 'evidence': evidence}
 
 
