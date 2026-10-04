@@ -21,9 +21,9 @@ jobs:
                             'X-Requested-With':'XMLHttpRequest'}, timeout=20)
           print('== list status', r.status_code, 'len', len(r.text), 'totCount hdr:', r.headers.get('totCount'))
           body=re.sub(r'\s+',' ',r.text)
-          print('BODY[:3200]:', body[:3200])
+          print('BODY[:600]:', body[:600])
           # PDF 직링크 검증: 응답에서 첫 attach 경로/파일명 추출
-          m=re.search(r"fn_viewPdfPopEvt\('([^']+)','([^']+)'\)", r.text) or re.search(r"fn_download_before\('([^']+)','([^']+)'", r.text)
+          m=re.search(r"fn_viewPdfPopEvt\('([^']+)',\s*'([^']+)'\)", r.text) or re.search(r"fn_download_before\('([^']+)',\s*'([^']+)'", r.text)
           if m:
               path, fn = m.group(1), m.group(2)
               u=f"{BASE}/common/download.jspx?cmd=viewPDF&path={path}/{fn}"
