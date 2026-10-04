@@ -1,0 +1,61 @@
+name: 아침 텔레그램 보고
+# 평일 아침 업데이트 결과(최신 런 성패 + PDF 수집 성적 + 오늘 보고서 수)를 텔레그램으로 1건 발송.
+# 시크릿 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID 가 없으면 조용히 스킵한다. 수동 실행(Run workflow)으로 테스트 가능.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "52 22 * * 0-4"   # KST 평일 07:52 — 07:45 런(~07:49 완료) 직후
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: morning-telegram
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: 결과 수집·발송
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ]; then
+            echo "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID 시크릿 없음 — 발송 스킵"; exit 0; fi
+          # 가장 최근 '완료된' refresh-tone 런 (아침 07:52 크론 기준 = 방금 끝난 07:45 런)
+          gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/refresh-tone.yml/runs?per_page=10&status=completed" \
+            --jq '.workflow_runs[0]' > /tmp/run.json
+          RID=$(python3 -c "import json;print(json.load(open('/tmp/run.json'))['id'])")
+          gh run view "$RID" --log > /tmp/run.log 2>/dev/null || true
+          python3 - <<'PY'
+          import json, os, re, urllib.request, urllib.parse
+          from datetime import datetime, timezone, timedelta
+          KST = timezone(timedelta(hours=9))
+          run = json.load(open('/tmp/run.json'))
+          log = open('/tmp/run.log', encoding='utf-8', errors='replace').read()
+          pdf = ''
+          m = [x for x in re.findall(r'PDF 수집:.*', log)]
+          if m: pdf = re.sub(r'\s+', ' ', m[-1]).strip()
+          allfail = 'PDF 수집 전패' in log
+          when = datetime.fromisoformat(run['updated_at'].replace('Z', '+00:00')).astimezone(KST)
+          today = datetime.now(KST).strftime('%Y-%m-%d')
+          h = json.load(open('data/daol_tone_history.json'))
+          n = sum(1 for mo in h['months'] for a in mo['analysts']
+                  for r in a.get('reports', []) if r['date'] == today)
+          ok = run['conclusion'] == 'success' and not allfail
+          lines = [f"🌅 리서치톤 아침 업데이트 {'✅' if ok else '⚠️'} ({when:%m/%d %H:%M} 런 기준)",
+                   f"오늘 보고서 {n}건 반영 · 런 {run['conclusion']}"]
+          if pdf: lines.append(pdf)
+          if allfail: lines.append("⚠️ PDF 수집 전패 — 수집 경로 점검 필요")
+          lines.append("https://gschoie.github.io/DAOL-RESEARCH-TONE/")
+          data = urllib.parse.urlencode({'chat_id': os.environ['TG_CHAT'], 'text': '\n'.join(lines),
+                                         'disable_web_page_preview': 'true'}).encode()
+          r = urllib.request.urlopen(urllib.request.Request(
+              f"https://api.telegram.org/bot{os.environ['TG_TOKEN']}/sendMessage", data=data), timeout=20)
+          resp = json.load(r)
+          assert resp.get('ok'), resp
+          print('발송 OK')
+          PY
