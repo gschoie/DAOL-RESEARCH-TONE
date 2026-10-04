@@ -5,31 +5,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - name: 리서치 게시판 행 구조·목록·실다운로드 검증
+      - name: 리서치 목록 페이지 행 구조·실다운로드
         run: |
           python3 - <<'EOF'
           import re, requests
           UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'}
           s=requests.Session(); s.headers.update(UA)
           BASE='https://www.daolsecurities.com'
-          r=s.get(BASE+'/research/main.jspx', timeout=15)
-          html=r.text
-          print('== main.jspx', r.status_code, len(html))
-          # 1) download.jspx 전체 href
-          for m in sorted(set(re.findall(r'''["']([^"']*download\.jspx[^"']*)["']''', html))):
-              print('DL:', m[:200])
-          # 2) 행 구조: 제목/날짜가 어떻게 붙는지 — download 링크 주변 300자
-          for m in list(re.finditer(r'download\.jspx', html))[:3]:
-              seg=re.sub(r'\s+',' ',html[max(0,m.start()-500):m.start()+260])
-              print('ROW:', seg[-640:])
-          # 3) 목록/상세 페이지 후보 링크
-          for m in sorted(set(re.findall(r'''["']((?:/research/|researchView|researchList|research_)[^"']{0,120})["']''', html))):
-              print('NAV:', m[:160])
-          # 4) 최신 attach 하나 실제 다운로드 (전체 경로를 페이지에서 그대로)
-          dl=re.search(r'''["']([^"']*download\.jspx[^"']*attach_file/RESEARCH[^"']*)["']''', html)
-          if dl:
-              u=dl.group(1).replace('&amp;','&')
-              if u.startswith('/'): u=BASE+u
-              rr=s.get(u, headers={'Referer':BASE+'/research/main.jspx'}, timeout=30)
-              print('== 실다운로드:', rr.status_code, len(rr.content), rr.content[:20])
+          for path in ['/research/article/common.jspx?rGubun=RALL&direct=a&view=a',
+                       '/research/article/common.jspx?rGubun=RALL']:
+              r=s.get(BASE+path, timeout=15)
+              html=r.text
+              print('==', path, r.status_code, len(html))
+              dls=sorted(set(re.findall(r'''["']([^"']*(?:download\.jspx|attach_file)[^"']*)["']''', html)))
+              for m in dls[:8]: print('  DL:', m.replace('&amp;','&')[:200])
+              # 행 컨텍스트: 첫 download 링크 앞 600자(제목/날짜 포맷 파악)
+              mm=re.search(r'download\.jspx', html)
+              if mm:
+                  print('  ROW:', re.sub(r'\s+',' ',html[max(0,mm.start()-700):mm.start()+200])[:900])
+              # 페이지네이션 파라미터 후보
+              for p in sorted(set(re.findall(r'''["']([^"']*(?:page|Page|pageIndex|currentPage)=[0-9][^"']*)["']''', html)))[:5]:
+                  print('  PG:', p[:150])
+              if dls:
+                  u=dls[0].replace('&amp;','&')
+                  if u.startswith('/'): u=BASE+u
+                  if 'download.jspx' not in u: u=BASE+'/common/download.jspx?cmd=viewPDF&path=/'+u.lstrip('/')
+                  rr=s.get(u, headers={'Referer':BASE+path}, timeout=30)
+                  print('  == 실다운로드:', u[:160], '->', rr.status_code, len(rr.content), rr.content[:20])
+                  break
           EOF
