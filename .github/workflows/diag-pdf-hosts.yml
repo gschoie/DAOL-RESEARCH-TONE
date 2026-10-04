@@ -5,32 +5,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - name: 리서치 목록 페이지 행 구조·실다운로드
+      - name: attach_file 컨텍스트 + common.jspx 전문
         run: |
           python3 - <<'EOF'
           import re, requests
           UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'}
           s=requests.Session(); s.headers.update(UA)
           BASE='https://www.daolsecurities.com'
-          for path in ['/research/article/common.jspx?rGubun=RALL&direct=a&view=a',
-                       '/research/article/common.jspx?rGubun=RALL']:
-              r=s.get(BASE+path, timeout=15)
-              html=r.text
-              print('==', path, r.status_code, len(html))
-              dls=sorted(set(re.findall(r'''["']([^"']*(?:download\.jspx|attach_file)[^"']*)["']''', html)))
-              for m in dls[:8]: print('  DL:', m.replace('&amp;','&')[:200])
-              # 행 컨텍스트: 첫 download 링크 앞 600자(제목/날짜 포맷 파악)
-              mm=re.search(r'download\.jspx', html)
-              if mm:
-                  print('  ROW:', re.sub(r'\s+',' ',html[max(0,mm.start()-700):mm.start()+200])[:900])
-              # 페이지네이션 파라미터 후보
-              for p in sorted(set(re.findall(r'''["']([^"']*(?:page|Page|pageIndex|currentPage)=[0-9][^"']*)["']''', html)))[:5]:
-                  print('  PG:', p[:150])
-              if dls:
-                  u=dls[0].replace('&amp;','&')
-                  if u.startswith('/'): u=BASE+u
-                  if 'download.jspx' not in u: u=BASE+'/common/download.jspx?cmd=viewPDF&path=/'+u.lstrip('/')
-                  rr=s.get(u, headers={'Referer':BASE+path}, timeout=30)
-                  print('  == 실다운로드:', u[:160], '->', rr.status_code, len(rr.content), rr.content[:20])
-                  break
+          r=s.get(BASE+'/research/main.jspx', timeout=15); html=r.text
+          print('== main.jspx', r.status_code, len(html))
+          pos=[m.start() for m in re.finditer(r'attach_file', html)][:4]
+          for p in pos:
+              print('CTX:', re.sub(r'\s+',' ',html[max(0,p-420):p+200])[:660])
+              print('---')
+          r2=s.get(BASE+'/research/article/common.jspx?rGubun=RALL', timeout=15)
+          print('== common.jspx FULL'); print(re.sub(r'\n{2,}','\n',r2.text))
           EOF
