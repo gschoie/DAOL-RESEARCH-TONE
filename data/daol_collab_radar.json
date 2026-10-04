@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T00:55:55.115298+00:00",
+ "generated_at": "2026-10-04T01:16:37.308511+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1352,
  "hits": [
@@ -30323,23 +30323,6 @@
    "source_url": "https://buly.kr/1x441q"
   },
   {
-   "theme": "환율/원화",
-   "category": "매크로",
-   "date": "2026-09-09",
-   "analyst": "이정우",
-   "sector": "철강/비철금속",
-   "company": "조용히",
-   "code": "",
-   "direction": "수혜",
-   "score": 1,
-   "evidences": [
-    "환율 하락에도 불구 펀더멘탈의 개선을 봐야할 시점 세아제강(BUY, 적정주가 20만원) 선호의견 유지."
-   ],
-   "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
-   "post_url": "https://t.me/daolresearch/15047",
-   "source_url": "https://buly.kr/3YGDgko"
-  },
-  {
    "theme": "전력기기/전력망",
    "category": "미국공략",
    "date": "2026-09-09",
@@ -30372,6 +30355,23 @@
    "title": "[철강(Overweight) 다올 철강/비철금속 이정우] ★ 조용히 개선되고 있는 철강 펀더멘탈",
    "post_url": "https://t.me/daolresearch/15047",
    "source_url": "https://buly.kr/3YGDgko"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-09-10",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "이차전지",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "종목명 투자의견 적정주가 Top picks 전일 미국 교통부(201')에서 6010에 보낸 공개 서한으로 CATL 기술 5: Ｌ06에너지솔루션 연간 ESS 매출액 추이 및 전망"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 이차전지(Overweight) - LFP, 한국의 시간이 왔다",
+   "post_url": "https://t.me/daolresearch/15054",
+   "source_url": "https://buly.kr/6Xp6j5y"
   },
   {
    "theme": "AI/데이터센터 투자",
@@ -30474,7 +30474,7 @@
    "score": -1,
    "evidences": [
     "적어도 FOMC 전까지 금리 경계심이 잔존할 수 있고, 회의 결과 해석도 단기적으로는 추가 변동성을 자극할 소재가 될 여지.",
-    "️ Key Chart & 핵심지표 -25년까지의 수출-영업이익 관계 대비 높게 추정되어 있는 한국 증시 영업이익 -미 연준의 최초 금리 인상 이후 S&P500 지수 흐름 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/ET1DENZ"
+    "Il, 이벤트 일정 & 증시 동향 및 전망 40 로 추정되는 기업 이익 전망치 레벨 그리고 금리 인상 경로에 영향을 줄 수 있음 9월 회의 추가 인상 가능성이 높게 전망되고 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치"
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 2주차)]",
    "post_url": "https://t.me/daolresearch/15064",
@@ -30570,6 +30570,24 @@
    "source_url": "https://bit.ly/4io1jI2"
   },
   {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-09-11",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "company": "The",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "신주 발행 대금은 SK호라이즌의 신규 데이터센터(울산, 구로) 건설에, 구주 매각 대금은 SK텔레콤 본사로 유입돼 성장 사업 투자에 활용될 예정이다.",
+    "SK호라이즌 설립 개요 SK텔레콤은 8/27일 100% 자회사 SK브로드밴드에서 데이터센터, 해저케이블 사업을 인적분할해 ‘SK호라이즌(가칭)’ 분할신설법인 설립을 공시했다."
+   ],
+   "title": "[통신서비스(Overweight) | 다올 통신·음식료 이다연] ★ The Next Horizon: SK텔레콤 AI DC 전략 A to Z 분석 I. SK텔레콤 AI DC 전략 A to Z 분석 1. SK호라이즌 설립 개요 2. SK호라이즌 Valua",
+   "post_url": "https://t.me/daolresearch/15070",
+   "source_url": "https://buly.kr/15RcsEs"
+  },
+  {
    "theme": "방산 수출",
    "category": "산업테마",
    "date": "2026-09-13",
@@ -30623,6 +30641,24 @@
    "source_url": "https://buly.kr/9BYUsh7"
   },
   {
+   "theme": "비만/GLP-1",
+   "category": "산업테마",
+   "date": "2026-09-15",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "다음",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "투자의견 BUY Not Rated 투자의견 Not Rated Not Rated 글로벌 비만 치료제 시장은 2030년 약 1,100억달러 규모로 확대될 전망이다.",
+    "11: 비만치료제 시장 추이 및 전망 OLX501A의 기술이전 모멘텀으로 작용할 전망이다."
+   ],
+   "title": "[제약/바이오(Overweight) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 다음 역은 New Target",
+   "post_url": "https://t.me/daolresearch/15080",
+   "source_url": "https://buly.kr/5UKaeGB"
+  },
+  {
    "theme": "K콘텐츠",
    "category": "산업테마",
    "date": "2026-09-15",
@@ -30649,7 +30685,7 @@
    "company": "일상",
    "code": "",
    "direction": "수혜",
-   "score": 10,
+   "score": 8,
    "evidences": [
     "특히 최근 확대되고 있는 이런 일상 채널들은 팝업 중심의 협업이 먼저 확대되었던 백화점 대비 점포 수, 접근성 측면에서 우위가 있으며 팬들의 연계소비도 발생하기 쉬운 채널이기에 성과가 확인될수록 K-POP IP 활용 역시 확대될 가능성이 높다고 판단",
     "엔터사 또한 별도의 대규모 투자 없이 유통 업체의 점포망을 활용한 판매 접점 확대를 통해 팬들의 구매 접근성을 높이는 동시에 기존 팬덤 외 소비자에게 K-POP 상품 노출 기회를 확대시킬 수 있음."
@@ -30666,11 +30702,11 @@
    "sector": "전략/시황",
    "company": "9월",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 2,
    "evidences": [
-    "9월 FOMC Review: 결국 시작된 금리인상",
-    "9월 FOMC 정책금리 3.75% → 4.00% 25bp 인상(만장일치)"
+    "ㆍ PCE 물가상승률 전망치 상향 ㆍ Core PCE 물가상승률 전망치 상향 망은 자동 폐기되고, 연내 남은 두 번의 FOMC 중 추가 1회 인상으로 전망을 수정하고자 Bh",
+    "9월 FOMC Review: 결국 시작된 금리인상"
    ],
    "title": "[다올투자증권 매크로/투자전략 조병현] ★ 9월 FOMC Review: 결국 시작된 금리인상",
    "post_url": "https://t.me/daolresearch/15094",
@@ -30684,31 +30720,15 @@
    "sector": "전략/시황",
    "company": "9월",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 2,
    "evidences": [
+    "시장 예상치를 상회한 8월 소매판매에도 국제유가에 연동되며 ㆍ PCE 물가상승률 전망치 상향 ㆍ Core PCE 물가상승률 전망치 상향 3) 현재 통화/금융여건이 제약적이지 않다는 판단이 80140 내에서도 널리 공유됨",
     "유가의 고공행진과 9월 물가 상승이 확인되면, 10월 백투백 인상 가능성도 배제할 수 없음 ♣ 보고서 원문 및 Compliance Notice : https://buly.kr/CM29dbQ"
    ],
    "title": "[다올투자증권 매크로/투자전략 조병현] ★ 9월 FOMC Review: 결국 시작된 금리인상",
    "post_url": "https://t.me/daolresearch/15094",
    "source_url": "https://buly.kr/CM29dbQ"
-  },
-  {
-   "theme": "환율/원화",
-   "category": "매크로",
-   "date": "2026-09-18",
-   "analyst": "박종현",
-   "sector": "의료기기/화장품",
-   "company": "Issue&Pitch",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "원화 강세에 따른 실적 우려로 브랜드 3사 주가 하락했으나, 환율 제외 양호한 영업 흐름 파악."
-   ],
-   "title": "[의료기기/화장품(Overweight)/ 다올 박종현] ★ Issue&Pitch - Brands never die",
-   "post_url": "https://t.me/daolresearch/15097",
-   "source_url": "https://buly.kr/7FUBXnO"
   },
   {
    "theme": "금/귀금속",
@@ -30844,7 +30864,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "[주주환원] Capex Cycle 종료, 예상보다 강할 ‘26년 하반기 주주환원 동사는 지난 8월 중간 주당배당금으로 2,000원을 공시."
+    "[주주환원] Capex Cycle 종료, 예상보다 강할 ‘26년 하반기 주주환원 동사는 지난 8월 중간 주당배당금으로 2,000원을 공시.",
+    "주주환원] Capex move’ 종료, 예상보다 강할 ‘264 하반기 주주환원 생산실적은 33억 개비 수준으로 전망된다."
    ],
    "title": "[KT&G(033780) | 다올 음식료/통신 이다연] ★ 카자흐스탄 사이트 투어 후기",
    "post_url": "https://t.me/daolresearch/15106",
@@ -30931,8 +30952,8 @@
    "direction": "수혜",
    "score": 6,
    "evidences": [
-    "현대모비스는 Atlas 제조원가 70% 이상 담당 예상돼 로봇 양산 확대가 직접 실적 성장으로 연결될 가능성 보유",
-    "이익 전망치 변화 없이도 로봇사업 가시성 확대만으로 멀티플 재평가 구간 진입."
+    "예상되며, 기업가치 반등뿐 아니라 실제 완성차 생산현장 투입에 따른 현대차/기아의 남당할 것으로 예상돼, 로봇 양산 확대가 직접적인 실적 성장으로 연결될 가능성도",
+    "현대모비스는 Atlas 제조원가 70% 이상 담당 예상돼 로봇 양산 확대가 직접 실적 성장으로 연결될 가능성 보유"
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 자동차(Overweight) - RMAC 가동: 다시 총성이 울렸다",
    "post_url": "https://t.me/daolresearch/15120",
@@ -30964,7 +30985,7 @@
    "company": "세아제강",
    "code": "306200",
    "direction": "수혜",
-   "score": 12,
+   "score": 6,
    "evidences": [
     "1) 데이터센터 건설 확대로 냉각 배관 수요에 더해, 데이터센터 내 가스터빈을 발전원으로 쓰는 사례가 증가하면서 가스관 지선 수요 확대, 2) 시추 확대로 인한 Rig count 증가 및 유정관 수요 확대, 3) 멕시코만 연안 LNG 터미널 원료가스관과 Permian."
    ],
@@ -31085,10 +31106,10 @@
    "company": "한올바이오파마",
    "code": "009420",
    "direction": "피해",
-   "score": -2,
+   "score": -1,
    "evidences": [
     "금리 인상 및 Rm 상승(13% > 18%)에 따른 WACC 상승으로 기존(10.1% > 11.8%)로 적정주가 6.5만원 하향 * 보고서 원문 및 컴플라이언스 < https://",
-    "금리 인상 및 Rm 상승(13% > 18%)에 따른 WACC 상승으로 기존(10.1% > 11.8%)로 적정주가 6.5만원 하향 * 보고서 원문 및 컴플라이언스 < https://buly.kr/AF37qt6 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
+    "VT-1402 신약가치 (십억원) © 2,7778 CLE 파이프라인 드랍, 금리 인상에 따른 WACC 상승"
    ],
    "title": "[한올바이오파마(009420)/ BUY(유지)/ TP 65,000원(하향)/ 다올투자증권 박종현] ★ SPOT: 확장보단 현재 파이프라인에 집중하기",
    "post_url": "https://t.me/daolresearch/15128",
@@ -31120,10 +31141,10 @@
    "company": "LG이노텍",
    "code": "011070",
    "direction": "피해",
-   "score": -4,
+   "score": -2,
    "evidences": [
-    "️ 실적 전망 및 Valuation - 연간 영업이익은 26년 1조 457억원, 27년 1조 5,398억원으로 각각 -22%, -4% 하향 조정 - 이익 추정치 변경 및 멀티플 축소 감안해 적정주가 100만원으로 하향 - 단, 환율 노이즈가 짙은 26년보다 FC-BGA 이익 기여 확대가 시작되는 27년 실적으로 무게중심을 이동할 필요 - 현 주가는 27E P/E 11.9배, P/B 1.8배 수준으로 밸류에이션 매력 유효한 구간",
-    "️ 실적 전망 및 Valuation - 연간 영업이익은 26년 1조 457억원, 27년 1조 5,398억원으로 각각 -22%, -4% 하향 조정 - 이익 추정치 변경 및 멀티플 축소 감안해 적정주가 100만원으로 하향 - 단, 환율 노이즈가 짙은 26년보다 FC-BGA"
+    "️ 실적 전망 및 Valuation - 연간 영업이익은 26년 1조 457억원, 27년 1조 5,398억원으로 각각 -22%, -4% 하향 조정 - 이익 추정치 변경 및 멀티플 축소 감안해 적정주가 100만원으로 하향 - 단, 환율 노이즈가 짙은 26년보다 FC-BGA",
+    "️ 광학솔루션: 흔들린 건 환율일 뿐 - 3Q 매출액 4.7조원, 영업이익 619억원(OPM 1.3%)으로 추정 - 8월 신모델 양산 개시 후 출하 흐름은 견조하며, 카메라 신규 채용 확대에 따라 ASP도 약 +30% 상승한 것으로 추정 - 다만 원재료 매입 시점과 제품 출하 시점 간 환율 차이로 수익성이 일시적으로 훼손 - 판가 재협상이 통상 다음 해 1Q 진행되는 만큼, 하반기 추가적인 판가 하락 우려도 제한적"
    ],
    "title": "[LG이노텍(011070) | BUY(유지) | TP 100만원(하향) | 다올투자증권 전기전자 김연미] ★ LG이노텍 3Q26 Preview - 흔들린 건 환율일 뿐",
    "post_url": "https://t.me/daolresearch/15140",
@@ -31137,8 +31158,8 @@
    "sector": "건설/부동산",
    "company": "산업/기타",
    "code": "",
-   "direction": "피해",
-   "score": -3,
+   "direction": "중립",
+   "score": 0,
    "evidences": [
     "NAVER (035420): TP 400,000원, BUY, Top-Pick - 빠르면 1Q27부터 자체 AI 데이터센터 매출 반영, '27년 엔터프라이즈 매출 2.2조원(+239.9% YoY) 전망 - 외부 투자 유치로 투자 리스크 분산",
     "AI 데이터센터 진출 섹터 긍정 평가"
@@ -31159,6 +31180,23 @@
    "score": 0,
    "evidences": [
     "GS건설 (006360): TP 48,000원, BUY, Top-Pick - 데이터센터 수주잔고의 매출이 2026년부터 본격화 - 자이씨앤에이를 포함한 연결 기준 파이프라인이 27~29년 매출로 순차 인식, GS그룹 차원의 AI 인프라 투자로 추가 수주 임박"
+   ],
+   "title": "[건설/AI·인터넷 데이터센터 콜라보｜다올 건설·부동산 박영도 ☎️ 2184-2548/다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 대세 는 데 이터 센 터 ★ NAVER (035420): TP 400,000원, BUY, Top-Pick -",
+   "post_url": "https://t.me/daolresearch/15147",
+   "source_url": "https://buly.kr/C0Cik2l"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-10-01",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "출자해서 Hyperion 데이터센터 개발을 위한 합작 회사(Beignet Investor LLC)를"
    ],
    "title": "[건설/AI·인터넷 데이터센터 콜라보｜다올 건설·부동산 박영도 ☎️ 2184-2548/다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 대세 는 데 이터 센 터 ★ NAVER (035420): TP 400,000원, BUY, Top-Pick -",
    "post_url": "https://t.me/daolresearch/15147",
@@ -32221,6 +32259,18 @@
    "evidence": "NAVER (035420): TP 400,000원, BUY, Top-Pick - 빠르면 1Q27부터 자체 AI 데이터센터 매출 반영, '27년 엔터프라이즈 매출 2.2조원(+239.9% YoY) 전망 - 외부 투자 유치로 투자 리스크 분산",
    "title": "[건설/AI·인터넷 데이터센터 콜라보｜다올 건설·부동산 박영도 ☎️ 2184-2548/다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 대세 는 데 이터 센 터 ★ NAVER (035420): TP 400,000원, BUY, Top-Pick -",
    "post_url": "https://t.me/daolresearch/15147"
+  },
+  {
+   "company": "카카오",
+   "code": "035720",
+   "owner_analyst": "김혜영",
+   "owner_sector": "인터넷/게임/레저",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "date": "2026-10-01",
+   "evidence": "104: NAVER 주가 프리미엄/디스카운트 Note: 3개사는 카카오, 삼성에스디에스, LG씨엔에스 Source: Quantiwise, 다올투자증권 50 100 150 200",
+   "title": "[건설/AI·인터넷 데이터센터 콜라보｜다올 건설·부동산 박영도 ☎️ 2184-2548/다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 대세 는 데 이터 센 터 ★ NAVER (035420): TP 400,000원, BUY, Top-Pick -",
+   "post_url": "https://t.me/daolresearch/15147"
   }
  ],
  "candidates": [
@@ -32295,13 +32345,6 @@
    "burst": 4.5
   },
   {
-   "term": "원화",
-   "recent": 10,
-   "total": 19,
-   "sectors": 9,
-   "burst": 4.1
-  },
-  {
    "term": "방향",
    "recent": 7,
    "total": 13,
@@ -32327,6 +32370,13 @@
    "recent": 8,
    "total": 15,
    "sectors": 7,
+   "burst": 4.1
+  },
+  {
+   "term": "공급계약",
+   "recent": 6,
+   "total": 11,
+   "sectors": 5,
    "burst": 4.1
   }
  ]
