@@ -3,22 +3,39 @@ on: workflow_dispatch
 jobs:
   diag:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 8
     steps:
-      - name: 각 호스트 연결 테스트
+      - name: 다올 홈페이지 리서치 게시판 구조 탐사
         run: |
-          set +e
-          echo "===== 1) buly.kr 리다이렉트 안 따라가고 헤더만"
-          curl -sS -o /dev/null -D - -w "code=%{http_code} t=%{time_total}s redirect=%{redirect_url}\n" --max-time 20 "https://buly.kr/C0Cik2l"; echo "exit=$?"
-          echo "===== 2) www.ktb.co.kr 루트"
-          curl -sS -o /dev/null -w "code=%{http_code} t=%{time_total}s\n" --max-time 20 "https://www.ktb.co.kr/"; echo "exit=$?"
-          echo "===== 3) www.daolfn.com 루트"
-          curl -sS -o /dev/null -w "code=%{http_code} t=%{time_total}s\n" --max-time 20 "https://www.daolfn.com/"; echo "exit=$?"
-          echo "===== 4) ktb.co.kr 과거 성공 PDF 직링크 재다운로드"
-          curl -sS -o /tmp/t.pdf -w "code=%{http_code} t=%{time_total}s size=%{size_download}\n" --max-time 40 -A "Mozilla/5.0" "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142207/1/20260705_B2040_gs.pdf"; echo "exit=$?"
-          file /tmp/t.pdf 2>/dev/null || true
-          echo "===== 5) buly.kr 전체 체인 (-L)"
-          curl -sSI -L -o /dev/null -w "final=%{url_effective} code=%{http_code} t=%{time_total}s\n" --max-time 45 "https://buly.kr/C0Cik2l"; echo "exit=$?"
-          echo "===== 6) buly.kr을 크롬 UA + HTTP/2로"
-          curl -sS -o /dev/null -D - --http2 -w "code=%{http_code} t=%{time_total}s redirect=%{redirect_url}\n" --max-time 20 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" "https://buly.kr/C0Cik2l"; echo "exit=$?"
-          true
+          python3 - <<'EOF'
+          import re, requests
+          UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'}
+          s=requests.Session(); s.headers.update(UA)
+          def probe(url, show=0, pat=None):
+              try:
+                  r=s.get(url, timeout=15, allow_redirects=True)
+                  print(f"== {url}\n   -> {r.url} [{r.status_code}] len={len(r.text)}")
+                  if pat:
+                      hits=re.findall(pat, r.text)[:12]
+                      for h in hits: print('   HIT:', str(h)[:160])
+                  if show: print('   HEAD:', re.sub(r'\s+',' ',r.text[:show]))
+                  return r
+              except Exception as e:
+                  print(f"== {url}\n   FAIL {type(e).__name__}: {e}")
+          r=probe('https://www.daolfn.com/', pat=r'href="([^"]*(?:research|리서치|invest|bbs)[^"]*)"')
+          # 메뉴에서 리서치 관련 경로 후보를 긁는다
+          if r is not None:
+              for m in sorted(set(re.findall(r'href="([^"]+)"', r.text))):
+                  if re.search(r'research|Research|RESEARCH', m): print('   LINK:', m[:160])
+          probe('https://www.ktb.co.kr/', pat=r'href="([^"]*research[^"]*)"')
+          for u in ['https://www.daolfn.com/research/research_list.jspx',
+                    'https://www.ktb.co.kr/research/research_list.jspx',
+                    'https://www.ktb.co.kr/research/main.jspx',
+                    'https://www.daolfn.com/research/main.jspx']:
+              probe(u, show=400, pat=r'(download\.jspx[^"\']{0,160}|attach_file[^"\']{0,160})')
+          # 과거 직링크를 리퍼러/세션 포함해 재시도
+          s.get('https://www.ktb.co.kr/research/main.jspx', timeout=15)
+          r=s.get('https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142207/1/20260705_B2040_gs.pdf',
+                  headers={'Referer':'https://www.ktb.co.kr/research/main.jspx'}, timeout=20)
+          print('== direct pdf with referer+session:', r.status_code, len(r.content), r.content[:60])
+          EOF
