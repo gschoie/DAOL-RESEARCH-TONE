@@ -5,37 +5,31 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - name: 다올 홈페이지 리서치 게시판 구조 탐사
+      - name: 리서치 게시판 행 구조·목록·실다운로드 검증
         run: |
           python3 - <<'EOF'
           import re, requests
           UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'}
           s=requests.Session(); s.headers.update(UA)
-          def probe(url, show=0, pat=None):
-              try:
-                  r=s.get(url, timeout=15, allow_redirects=True)
-                  print(f"== {url}\n   -> {r.url} [{r.status_code}] len={len(r.text)}")
-                  if pat:
-                      hits=re.findall(pat, r.text)[:12]
-                      for h in hits: print('   HIT:', str(h)[:160])
-                  if show: print('   HEAD:', re.sub(r'\s+',' ',r.text[:show]))
-                  return r
-              except Exception as e:
-                  print(f"== {url}\n   FAIL {type(e).__name__}: {e}")
-          r=probe('https://www.daolfn.com/', pat=r'href="([^"]*(?:research|리서치|invest|bbs)[^"]*)"')
-          # 메뉴에서 리서치 관련 경로 후보를 긁는다
-          if r is not None:
-              for m in sorted(set(re.findall(r'href="([^"]+)"', r.text))):
-                  if re.search(r'research|Research|RESEARCH', m): print('   LINK:', m[:160])
-          probe('https://www.ktb.co.kr/', pat=r'href="([^"]*research[^"]*)"')
-          for u in ['https://www.daolfn.com/research/research_list.jspx',
-                    'https://www.ktb.co.kr/research/research_list.jspx',
-                    'https://www.ktb.co.kr/research/main.jspx',
-                    'https://www.daolfn.com/research/main.jspx']:
-              probe(u, show=400, pat=r'(download\.jspx[^"\']{0,160}|attach_file[^"\']{0,160})')
-          # 과거 직링크를 리퍼러/세션 포함해 재시도
-          s.get('https://www.ktb.co.kr/research/main.jspx', timeout=15)
-          r=s.get('https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142207/1/20260705_B2040_gs.pdf',
-                  headers={'Referer':'https://www.ktb.co.kr/research/main.jspx'}, timeout=20)
-          print('== direct pdf with referer+session:', r.status_code, len(r.content), r.content[:60])
+          BASE='https://www.daolsecurities.com'
+          r=s.get(BASE+'/research/main.jspx', timeout=15)
+          html=r.text
+          print('== main.jspx', r.status_code, len(html))
+          # 1) download.jspx 전체 href
+          for m in sorted(set(re.findall(r'''["']([^"']*download\.jspx[^"']*)["']''', html))):
+              print('DL:', m[:200])
+          # 2) 행 구조: 제목/날짜가 어떻게 붙는지 — download 링크 주변 300자
+          for m in list(re.finditer(r'download\.jspx', html))[:3]:
+              seg=re.sub(r'\s+',' ',html[max(0,m.start()-500):m.start()+260])
+              print('ROW:', seg[-640:])
+          # 3) 목록/상세 페이지 후보 링크
+          for m in sorted(set(re.findall(r'''["']((?:/research/|researchView|researchList|research_)[^"']{0,120})["']''', html))):
+              print('NAV:', m[:160])
+          # 4) 최신 attach 하나 실제 다운로드 (전체 경로를 페이지에서 그대로)
+          dl=re.search(r'''["']([^"']*download\.jspx[^"']*attach_file/RESEARCH[^"']*)["']''', html)
+          if dl:
+              u=dl.group(1).replace('&amp;','&')
+              if u.startswith('/'): u=BASE+u
+              rr=s.get(u, headers={'Referer':BASE+'/research/main.jspx'}, timeout=30)
+              print('== 실다운로드:', rr.status_code, len(rr.content), rr.content[:20])
           EOF
