@@ -406,6 +406,7 @@ def analyze(messages, pdf_since='2025-05'):
     reports=[]
     # 아침 런은 CI가 360초로 줄여서 넘긴다(빨리 끝내기) — 과거 실패분 재시도는 저녁 런(900초) 몫
     pdf_started=time.monotonic();pdf_budget_seconds=int(os.getenv('PDF_BUDGET_SECONDS','900'))
+    pdf_tried=pdf_ok=0  # 이번 런에서 실제 네트워크로 시도한 PDF 수집 성적(캐시 재사용 제외)
     for m in sorted((x for x in messages if is_report(x)),key=lambda x:x['date'],reverse=True):
         t=m['text']; analyst,sector=analyst_sector(t); company,code=company_name(t); dt=kst_dt(m['date'])
         day=dt.date().isoformat()
@@ -435,6 +436,8 @@ def analyze(messages, pdf_since='2025-05'):
                 hb=board_pdf_url(day,t,code)
                 if hb:retry_hints[source]=hb
             was_cached=source in cache;p=pdf_text(source,cache,retry_hints);cache_changed=cache_changed or not was_cached
+            if not was_cached:
+                pdf_tried+=1;pdf_ok+=(p['status']=='pdf')
             final_url=p['final_url'];pdf_error=p['error']
             if p['status']=='pdf':
                 analysis_text=p['text'];analysis_source='PDF 원문 분석';details=pdf_details(analysis_text,is_industry)
@@ -444,6 +447,11 @@ def analyze(messages, pdf_since='2025-05'):
         reports.append({'id':m['id'],'date':day,'month':month,'analyst':analyst,'sector':sector,'company':company,'code':code,'report_type':'산업자료' if is_industry else '기업자료','opinion':opinion(analysis_text) or opinion(t),'top_picks':details['preferred_stocks'],'preferred_stocks':details['preferred_stocks'],'tp_changes':changes,'tp_raises':[x for x in changes if x['direction']=='상향'],'pitch':details['pitch'],'industry_conclusion':details['conclusion'] if is_industry else '','report_conclusion':details['conclusion'],'valuation':details['valuation'],'earnings_changes':details['earnings_changes'],'analysis_source':analysis_source,'pdf_url':final_url,'pdf_error':pdf_error,'title':report_title(t),'summary':clean(t)[:900],'post_url':m['post_url'],'source_url':source})
     if cache_changed:
         PDF_CACHE.write_text(json.dumps(cache,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    # 런 성적표 — 아침 루틴이 잡 로그에서 이 줄을 읽어 결과를 보고한다. 전패면 수집 경로
+    # (buly.kr·게시판 폴백) 동시 장애 의심이므로 워크플로 경고로 띄운다(9/28 무음 장애 재발 방지).
+    print(f"PDF 수집: 신규시도 {pdf_tried} · 성공 {pdf_ok} · 실패 {pdf_tried-pdf_ok}")
+    if pdf_tried>=2 and pdf_ok==0:
+        print(f"::warning::이번 런 PDF 수집 전패({pdf_tried}건) — buly.kr 차단 + 게시판 폴백 실패 의심, 수집 경로 점검 필요")
     return sorted(reports,key=lambda x:(x['date'],x['id']))
 
 def monthly_summary(reports):
