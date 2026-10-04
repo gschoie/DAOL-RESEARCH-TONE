@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T01:14:38.156649+00:00",
+  "generated_at": "2026-10-04T01:25:22.585130+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1352,
   "months": [
@@ -774,14 +774,14 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶ 몸집이 커지는 중 - 월드컵 기간이 끝나면서 3사 모두 드랍액이 전월 대비 성장하였으나 롯데관광개발과 GKL은 홀드율이 평균치 대비 하회하며 순매출은 전월 대비 감소 - 9~10월 중국 및 일본 연휴 효과로 드랍액은 8월 대비 크게 감소하지 않을 전망.",
-              "report_conclusion": "▶ 몸집이 커지는 중 - 월드컵 기간이 끝나면서 3사 모두 드랍액이 전월 대비 성장하였으나 롯데관광개발과 GKL은 홀드율이 평균치 대비 하회하며 순매출은 전월 대비 감소 - 9~10월 중국 및 일본 연휴 효과로 드랍액은 8월 대비 크게 감소하지 않을 전망.",
+              "pitch": "- 9~10월 중국 및 일본 연휴 효과로 드람액은 8월 대비 크게 감소하지 않을 전망. AVIS 위해서 필요한 과정이라고 판단.",
+              "industry_conclusion": "- 9~10월 중국 및 일본 연휴 효과로 드람액은 8월 대비 크게 감소하지 않을 전망.",
+              "report_conclusion": "- 9~10월 중국 및 일본 연휴 효과로 드람액은 8월 대비 크게 감소하지 않을 전망.",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/614nbXK",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /614nbXK (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f0453b11b20>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144107/1/20260904_B2550_hyyy_214.pdf",
+              "pdf_error": "",
               "title": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 8월 카지노 실적: 몸집이 커지는 중",
               "summary": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 8월 카지노 실적: 몸집이 커지는 중 ▶ 롯데관광개발 - 8월 드랍액 3,364억원(+19.7% YoY, +27.7% MoM), 순매출 462억원(+7.5% YoY, -10.4% MoM), 홀드율은 13.7% - 월드컵 영향이 사라지며 드랍액이 전월 대비 큰 폭으로 증가하였으나 2025년 2월(13.7%) 이후 가장 낮은 홀드율 기록 ▶ 파라다이스 - 8월 드랍액 6,805억원(+3.7% YoY, +1.3% MoM), 순매출 1,049억원(+32.1% YoY, +35.8% MoM), 홀드율은 15.4% - 일본 VIP의 드랍액은 2,990억원(+3.1% YoY, +14.2% MoM), 기타 VIP의 드랍액은 1,594억원(+3.9% YoY, +5.7% MoM)로 모두 전년 동기 대비 성장 - 중국 VIP의 드랍액은 1,002억원(-12.0% YoY, +14.6% MoM)으로 전년 동기 대비 하락 지속. 전략적으로 중국보다 일본 및 기타 VIP 영업에 집중하는 모습 ▶ GKL - 8월 드랍액 3,414억원(+7.2% YoY, +5.0% MoM), 순매출 311억원(-11.3% YoY, -25.4% MoM), 홀드율은 9.1% - 서울 강남점의 드랍액은 1,973억원(+20.3% YoY, +1.1% MoM)으로 성장하였으나 순매출 124억원(-13.3% YoY, -43.1% MoM)을 기록하며 홀드율(6.3%)이 크게 하회 - 강남점은 VIP 비중이 88%이기 때문에 월변동성이 클 수밖에 없는 환경. 평균치로 회귀하는 특성 有. 순매출보다 드랍액이 견조하게 상승하는 점에 주목 ▶ 몸집이 커지는 중 - 월드컵 기간이 끝나면서 3사 모두 드랍액이 전월 대비 성장하였으나 롯데관광개발과 GKL은 홀드율이 평균치",
               "post_url": "https://t.me/daolresearch/15022",
@@ -821,9 +821,9 @@
               "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/AasVJLq",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /AasVJLq (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f0453b0e420>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144136/1/20260904_B_gs.choie_583.pdf",
+              "pdf_error": "",
               "title": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다",
               "summary": "[다올투자증권 리서치센터 기업분석팀] ★ 안녕하세요, 원화 강세입니다 ▶️ Issue: 원화 강세에 따른 3Q26 산업 및 기업별 실적 영향 ▶️ Pitch - 원화 강세에 대다수 수출 산업은 실적에 악영향. 그러나 외화비용을 수출보다 더 치르는 철강, 운송 등의 산업은 수혜. 일부 기업들도 수출비중, 외화비용, 환헤지 정책 등으로 무관하거나 증익을 보이기도 함 - 단순 3Q26의 환율 영향만으로 산업이나 종목을 선택하기보다는, 본업의 경쟁력과 실적 성장 궤도가 여전히 주가에 가장 중요한 변수 - 이번 자료는 3Q26 프리뷰 시즌을 맞아 산업 및 기업의 실적 예상치의 조정 폭을 가늠하는 참고 자료로 활용하기 바람 ▶️ 목차 I. Executive Summary I-1. 수혜 산업: 철강, 음식료 뿐 I-2. 환율과 무관하거나, 원화강세에 수혜를 받는 기업들 II. 원화 강세, 산업별 영향 점검 1. 반도체: 래깅으로 자연헤지 미작동, OP -6~-7%. DRAM ASP 호조가 일부 상쇄 2. 전기전자: 기판은 매출·원재료 모두 달러로 자연헤지, LG이노텍은 4Q 환율이 관건 3. 자동차·2차전지: 100원당 현대차 1.9조·기아 1.4조, 원/엔 방향성이 더 중요 4. 조선: 삼성중공업만 영향 없고 OPM -1~-2%p, 고가 수주 빈티지가 상쇄 5. 방위산업: 외화 원가 상쇄 없어 OPM -1.2~-2.6%p, KAI만 수혜 6. 건설기계: HD현대건설기계 OPM -2.0%p, 밥캣은 환산이익만 감소 7. 건설: 해외 원가 현지통화 지급으로 자연헤지, 삼성E&A 외엔 영향 제한적 8. 철강: 일관제철 2사 수혜(4Q 본격 발현), 미국 40%인 세아제강은 피해 9. 제약/바이오: 삼바·에스티팜에 부담 집중, 셀트리온·SK바이오팜은 자연헤지 10. 의료기기: 국내 생산·외화 매출로 업",
               "post_url": "https://t.me/daolresearch/15028",
@@ -871,11 +871,6 @@
               "text": "의료기기 업종 내 양사 최선호 의견 유지(파마리서치(BUY, TP 55만원), 휴젤(BUY, TP 43만원)) * 보고서 원문 및 컴플라이언스 < https://buly.kr/3CQfBah > * 텔레그램 채널 링크 < https://t.me/alexppark >",
               "date": "2026-09-02",
               "source": "https://t.me/daolresearch/15003"
-            },
-            {
-              "text": "▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀.",
-              "date": "2026-09-08",
-              "source": "https://t.me/daolresearch/15038"
             },
             {
               "text": "업종 선호 의견 +4] (Overweight)",
@@ -1139,22 +1134,18 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "",
-              "top_picks": [
-                "▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀."
-              ],
-              "preferred_stocks": [
-                "▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀."
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀.",
-              "report_conclusion": "▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀.",
+              "pitch": "> 재가속 판단 유보, 추세 레벨 유지 여부 확인 > 성장의 질 우위, 규모는 여전히 제한적 > 프로모션 주기 따른 변동, 추세 판단 보류 > 유럽 단일국 의존 지속, 미국 확산 지연",
+              "industry_conclusion": "> 재가속 판단 유보, 추세 레벨 유지 여부 확인 > 성장의 질 우위, 규모는 여전히 제한적 > 프로모션 주기 따른 변동, 추세 판단 보류 > 유럽 단일국 의존 지속, 미국 확산 지연",
+              "report_conclusion": "> 재가속 판단 유보, 추세 레벨 유지 여부 확인 > 성장의 질 우위, 규모는 여전히 제한적 > 프로모션 주기 따른 변동, 추세 판단 보류 > 유럽 단일국 의존 지속, 미국 확산 지연",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/5JPn7z8",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /5JPn7z8 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f0453b139b0>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144247/1/20260908_B3020_alex.park_609.pdf",
+              "pdf_error": "",
               "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~9/7)",
               "summary": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~9/7) ▶ Implication 최근 7일 추적 바스켓 추정 GMV $9.12M(WoW -15.8%), 메디큐브 $3.85M(-29.4%)으로 직전 주 급증분 되돌림, 2위 닥터멜락신 $2.21M(+7.3%)은 소폭 증가, 에이피알(BUY, TP 56만원) 중심 화장품 업종 선호 의견 유지 에이피알은 메디큐브 TikTok 추정 GMV $3.85M(WoW -29.4%)으로 직전 주 급증분 반납, 일별 추정 GMV 는 8월 말 급증 이전 수준으로 복귀. Amazon Weighted MS 도 스페인 14.5%(-20.0%p)·프랑스 8.2%(-11.1%p)·영국 25.0%(-9.1%p)로 유럽 급등분을 반납, 미국 15.8%(-3.0%p)는 상대적으로 방어. QTD 할인율 35%로 높은 반면 유기적 조회 비중은 16%로 정체. 대체데이터상 재가속 판단은 유보, 추세 레벨 유지 여부가 다음 확인 사항 아모레퍼시픽은 COSRX TikTok 추정 GMV $294K(WoW -16.5%)로 되돌림 폭은 추적 바스켓 수준, QTD 유기적 조회 비중 25%·신규 조회 1회당 $0.749 로 성장의 질 상위 유지. Reddit 주간 언급도 COSRX 16건·에스트라 14건으로 상위. 성장의 질은 양호하나 규모는 여전히 제한적, 실적 기여 판단은 이른 단계 달바글로벌은 달바 Amazon 스페인 Weighted MS 20.5%(+8.8%p)로 재확대, 독일 4.1%는 보합. 반면 TikTok 추정 GMV $93K(WoW -42.8%)로 큰 폭 되돌림, 미국 Amazon 0.2%로 확산 정체. 유럽 단일국 의존 지속, 미국 채널 확산은 지연 다음 주는 메디큐브 TikTok 일별 추정 GMV 추세 레벨 유지 여부 · 메디큐브 Amazon",
               "post_url": "https://t.me/daolresearch/15038",
@@ -1332,17 +1323,7 @@
               "source": "https://t.me/daolresearch/14995"
             },
             {
-              "text": "▶ 셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천",
-              "date": "2026-09-04",
-              "source": "https://t.me/daolresearch/15024"
-            },
-            {
-              "text": "★ 기아(000270) - 탐방 후기: 하반기 선호주 지속",
-              "date": "2026-09-07",
-              "source": "https://t.me/daolresearch/15033"
-            },
-            {
-              "text": "적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지",
+              "text": "24만원으로 상향하며, 2126 자동차 섹터 Top Pick 유지",
               "date": "2026-09-07",
               "source": "https://t.me/daolresearch/15033"
             },
@@ -1363,7 +1344,33 @@
               "reasons": [
                 "어닝/실적 추정 상향"
               ],
-              "evidence": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속 ▶ 그룹사 파업 영향은 중립적으로 판단되며, 3Q26에도 판매실적 호조 가능성을 확인. 적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지 ▶ 현재 미국 판매량이 사상최고치를 달성하고 있는 가운데(8월 8.4만대, M/S 6.0%), 2H26에도 지속적으로 M/S 확대 → 수익성 확대 궤적이 뚜렷해질 것으로 파악 ▶ 회사는 현재 월 4만대 EV판매기조가 하반기에도 유지되고, 월 5.5만대 수준인 HEV판매량이 하반기에 더욱 탄력을 받을 가능성을 언급 ▶ EV의 경우 현지 EV2부터 PV5까지 8개 수준의 라인업이 유럽에 투입된 상태 ▶ 최근의 높은 총 판매증가세 기조가 9월뿐 아니라 4Q26에도 지속될 가능성이 높다는 판단 ▶ 이익모멘텀이 하반기에도 수반되는 가운데, 동사가 올해 4월 CID(CEO Investor Day)에서 26~28년 귀속분에 대해 신규 제시한 ‘’TSR 35% 이상’’ 기조에",
+              "evidence": "정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PITCH | 기아 ",
+              "date": "2026-09-07",
+              "source": "https://t.me/daolresearch/15033"
+            },
+            {
+              "company": "기아",
+              "direction": "상향",
+              "old": 220000,
+              "new": 240000,
+              "display": "220,000원 → 240,000원",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "도 8% SELES, 21127에 유럽법인 수익성 우려가 47S 단계는 아님 :최근의 높은 총 판매증가세 TAT} 9월뿐 아니라 4026에도 지속될 가능성이 높다는 판단. 3026 매출액과 영업이익은 31.7조원(6 2.85조원(76 +95%)S A4etory, o]e] Fae] 11126대ㅁ oO nS at ot S of rH O1 “Ss Syd 껏으로 전망함. 적정주가를 위한 밸류에이션은 한편 805적용 APES 2027년으로 전환하고 적정주가는 22만원에서 24만원으로 상향 이 ㅇ td a in 2 oll aol ay i, = rs \\ i =, al) = 가운데, 동사가 올해 4월 CID(CEO 속분에 대해 신규 제시한 \"158 35% 『。 기조에 시 주목할 필요. 2025년 귀속분과는 다르게, 2026년 분에 대해서는 DPS 상향과 함께 자사주매입소각 최소 3천억원 5\" < (2 a io) at iw) 05 S Sr i) OV NO (oe) g FO ~ ㅇ 0 44 0% IP o& od 4 Fig. 2: 종겨 ",
+              "date": "2026-09-07",
+              "source": "https://t.me/daolresearch/15033"
+            },
+            {
+              "company": "Valuation",
+              "direction": "상향",
+              "old": null,
+              "new": 240000,
+              "display": "240,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "Fig. 1: 적정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PI",
               "date": "2026-09-07",
               "source": "https://t.me/daolresearch/15033"
             }
@@ -1378,7 +1385,33 @@
               "reasons": [
                 "어닝/실적 추정 상향"
               ],
-              "evidence": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속 ▶ 그룹사 파업 영향은 중립적으로 판단되며, 3Q26에도 판매실적 호조 가능성을 확인. 적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지 ▶ 현재 미국 판매량이 사상최고치를 달성하고 있는 가운데(8월 8.4만대, M/S 6.0%), 2H26에도 지속적으로 M/S 확대 → 수익성 확대 궤적이 뚜렷해질 것으로 파악 ▶ 회사는 현재 월 4만대 EV판매기조가 하반기에도 유지되고, 월 5.5만대 수준인 HEV판매량이 하반기에 더욱 탄력을 받을 가능성을 언급 ▶ EV의 경우 현지 EV2부터 PV5까지 8개 수준의 라인업이 유럽에 투입된 상태 ▶ 최근의 높은 총 판매증가세 기조가 9월뿐 아니라 4Q26에도 지속될 가능성이 높다는 판단 ▶ 이익모멘텀이 하반기에도 수반되는 가운데, 동사가 올해 4월 CID(CEO Investor Day)에서 26~28년 귀속분에 대해 신규 제시한 ‘’TSR 35% 이상’’ 기조에",
+              "evidence": "정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PITCH | 기아 ",
+              "date": "2026-09-07",
+              "source": "https://t.me/daolresearch/15033"
+            },
+            {
+              "company": "기아",
+              "direction": "상향",
+              "old": 220000,
+              "new": 240000,
+              "display": "220,000원 → 240,000원",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "도 8% SELES, 21127에 유럽법인 수익성 우려가 47S 단계는 아님 :최근의 높은 총 판매증가세 TAT} 9월뿐 아니라 4026에도 지속될 가능성이 높다는 판단. 3026 매출액과 영업이익은 31.7조원(6 2.85조원(76 +95%)S A4etory, o]e] Fae] 11126대ㅁ oO nS at ot S of rH O1 “Ss Syd 껏으로 전망함. 적정주가를 위한 밸류에이션은 한편 805적용 APES 2027년으로 전환하고 적정주가는 22만원에서 24만원으로 상향 이 ㅇ td a in 2 oll aol ay i, = rs \\ i =, al) = 가운데, 동사가 올해 4월 CID(CEO 속분에 대해 신규 제시한 \"158 35% 『。 기조에 시 주목할 필요. 2025년 귀속분과는 다르게, 2026년 분에 대해서는 DPS 상향과 함께 자사주매입소각 최소 3천억원 5\" < (2 a io) at iw) 05 S Sr i) OV NO (oe) g FO ~ ㅇ 0 44 0% IP o& od 4 Fig. 2: 종겨 ",
+              "date": "2026-09-07",
+              "source": "https://t.me/daolresearch/15033"
+            },
+            {
+              "company": "Valuation",
+              "direction": "상향",
+              "old": null,
+              "new": 240000,
+              "display": "240,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "Fig. 1: 적정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PI",
               "date": "2026-09-07",
               "source": "https://t.me/daolresearch/15033"
             }
@@ -1547,12 +1580,10 @@
               "report_type": "기업자료",
               "opinion": "중립",
               "top_picks": [
-                "★ 기아(000270) - 탐방 후기: 하반기 선호주 지속",
-                "적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지"
+                "24만원으로 상향하며, 2126 자동차 섹터 Top Pick 유지"
               ],
               "preferred_stocks": [
-                "★ 기아(000270) - 탐방 후기: 하반기 선호주 지속",
-                "적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지"
+                "24만원으로 상향하며, 2126 자동차 섹터 Top Pick 유지"
               ],
               "tp_changes": [
                 {
@@ -1564,7 +1595,29 @@
                   "reasons": [
                     "어닝/실적 추정 상향"
                   ],
-                  "evidence": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속 ▶ 그룹사 파업 영향은 중립적으로 판단되며, 3Q26에도 판매실적 호조 가능성을 확인. 적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지 ▶ 현재 미국 판매량이 사상최고치를 달성하고 있는 가운데(8월 8.4만대, M/S 6.0%), 2H26에도 지속적으로 M/S 확대 → 수익성 확대 궤적이 뚜렷해질 것으로 파악 ▶ 회사는 현재 월 4만대 EV판매기조가 하반기에도 유지되고, 월 5.5만대 수준인 HEV판매량이 하반기에 더욱 탄력을 받을 가능성을 언급 ▶ EV의 경우 현지 EV2부터 PV5까지 8개 수준의 라인업이 유럽에 투입된 상태 ▶ 최근의 높은 총 판매증가세 기조가 9월뿐 아니라 4Q26에도 지속될 가능성이 높다는 판단 ▶ 이익모멘텀이 하반기에도 수반되는 가운데, 동사가 올해 4월 CID(CEO Investor Day)에서 26~28년 귀속분에 대해 신규 제시한 ‘’TSR 35% 이상’’ 기조에"
+                  "evidence": "정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PITCH | 기아 "
+                },
+                {
+                  "company": "기아",
+                  "direction": "상향",
+                  "old": 220000,
+                  "new": 240000,
+                  "display": "220,000원 → 240,000원",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "도 8% SELES, 21127에 유럽법인 수익성 우려가 47S 단계는 아님 :최근의 높은 총 판매증가세 TAT} 9월뿐 아니라 4026에도 지속될 가능성이 높다는 판단. 3026 매출액과 영업이익은 31.7조원(6 2.85조원(76 +95%)S A4etory, o]e] Fae] 11126대ㅁ oO nS at ot S of rH O1 “Ss Syd 껏으로 전망함. 적정주가를 위한 밸류에이션은 한편 805적용 APES 2027년으로 전환하고 적정주가는 22만원에서 24만원으로 상향 이 ㅇ td a in 2 oll aol ay i, = rs \\ i =, al) = 가운데, 동사가 올해 4월 CID(CEO 속분에 대해 신규 제시한 \"158 35% 『。 기조에 시 주목할 필요. 2025년 귀속분과는 다르게, 2026년 분에 대해서는 DPS 상향과 함께 자사주매입소각 최소 3천억원 5\" < (2 a io) at iw) 05 S Sr i) OV NO (oe) g FO ~ ㅇ 0 44 0% IP o& od 4 Fig. 2: 종겨 "
+                },
+                {
+                  "company": "Valuation",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 240000,
+                  "display": "240,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "Fig. 1: 적정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PI"
                 }
               ],
               "tp_raises": [
@@ -1577,17 +1630,46 @@
                   "reasons": [
                     "어닝/실적 추정 상향"
                   ],
-                  "evidence": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속 ▶ 그룹사 파업 영향은 중립적으로 판단되며, 3Q26에도 판매실적 호조 가능성을 확인. 적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지 ▶ 현재 미국 판매량이 사상최고치를 달성하고 있는 가운데(8월 8.4만대, M/S 6.0%), 2H26에도 지속적으로 M/S 확대 → 수익성 확대 궤적이 뚜렷해질 것으로 파악 ▶ 회사는 현재 월 4만대 EV판매기조가 하반기에도 유지되고, 월 5.5만대 수준인 HEV판매량이 하반기에 더욱 탄력을 받을 가능성을 언급 ▶ EV의 경우 현지 EV2부터 PV5까지 8개 수준의 라인업이 유럽에 투입된 상태 ▶ 최근의 높은 총 판매증가세 기조가 9월뿐 아니라 4Q26에도 지속될 가능성이 높다는 판단 ▶ 이익모멘텀이 하반기에도 수반되는 가운데, 동사가 올해 4월 CID(CEO Investor Day)에서 26~28년 귀속분에 대해 신규 제시한 ‘’TSR 35% 이상’’ 기조에"
+                  "evidence": "정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PITCH | 기아 "
+                },
+                {
+                  "company": "기아",
+                  "direction": "상향",
+                  "old": 220000,
+                  "new": 240000,
+                  "display": "220,000원 → 240,000원",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "도 8% SELES, 21127에 유럽법인 수익성 우려가 47S 단계는 아님 :최근의 높은 총 판매증가세 TAT} 9월뿐 아니라 4026에도 지속될 가능성이 높다는 판단. 3026 매출액과 영업이익은 31.7조원(6 2.85조원(76 +95%)S A4etory, o]e] Fae] 11126대ㅁ oO nS at ot S of rH O1 “Ss Syd 껏으로 전망함. 적정주가를 위한 밸류에이션은 한편 805적용 APES 2027년으로 전환하고 적정주가는 22만원에서 24만원으로 상향 이 ㅇ td a in 2 oll aol ay i, = rs \\ i =, al) = 가운데, 동사가 올해 4월 CID(CEO 속분에 대해 신규 제시한 \"158 35% 『。 기조에 시 주목할 필요. 2025년 귀속분과는 다르게, 2026년 분에 대해서는 DPS 상향과 함께 자사주매입소각 최소 3천억원 5\" < (2 a io) at iw) 05 S Sr i) OV NO (oe) g FO ~ ㅇ 0 44 0% IP o& od 4 Fig. 2: 종겨 "
+                },
+                {
+                  "company": "Valuation",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 240000,
+                  "display": "240,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "Fig. 1: 적정 P/E 적정주가 현재주가 Upside Source: 다올투자증권 기아 글로벌 도매판매 추이 1025 Source: 기아, 다올투자증권 2025 신규 적용가치ㅣ 기 10,030 25,691 9.5 240,000 126,500 3Q25 89.7 4Q25 존 적용가치 2025 114,141 9,078 11,792 7,561 98,979 61,190 (19,162) 6.2 8.0 6.6 (21.2) 12.9 기아 Valuation: 적정주가 240,000원으로 상향 변동률(%) 비고 2027년 기준으로 2027년 기준으로 9,185 23,526 9.5 220,000 1Q26 2Q26 20266 126,637 10,668 13,996 9,185 111,879 68,818 (28,681) 10.9 8.4 7.3 21.5 14.1 3Q26E 2027E | 140,631 11,687 15,450 10,030 121,661 76,168 (31,789) 11.0 8.3 7 9.2 138 4Q26E ISSUE & PI"
                 }
               ],
-              "pitch": "",
+              "pitch": "ISSUE & PITCH | 기아",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "기조이며 2027년 초 주주환원 정책 극대화로 이어질 전망. % 기아 실적추이 및 전망 (십억원, 백만원 %)",
+              "valuation": [
+                "Valuation wide 2025 20266 2027E",
+                "PBR(HH) 0.8 0.8 0.7",
+                "EV/EBITDA(HH) 24 1.5 1.1",
+                "Performance 1M 6M 12M YTD",
+                "적정주가를 위한 밸류에이션은 한편 805적용",
+                "기아 Valuation: 적정주가 240,000원으로 상향"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/7QOsXwu",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /7QOsXwu (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f0453b3c800>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144210/1/20260907_000270_jwyoo_667.pdf",
+              "pdf_error": "",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 기아(000270) - 탐방 후기: 하반기 선호주 지속 ▶ 그룹사 파업 영향은 중립적으로 판단되며, 3Q26에도 판매실적 호조 가능성을 확인. 적정주가 24만원으로 상향하며, 2H26 자동차 섹터 Top Pick 유지 ▶ 현재 미국 판매량이 사상최고치를 달성하고 있는 가운데(8월 8.4만대, M/S 6.0%), 2H26에도 지속적으로 M/S 확대 → 수익성 확대 궤적이 뚜렷해질 것으로 파악 ▶ 회사는 현재 월 4만대 EV판매기조가 하반기에도 유지되고, 월 5.5만대 수준인 HEV판매량이 하반기에 더욱 탄력을 받을 가능성을 언급 ▶ EV의 경우 현지 EV2부터 PV5까지 8개 수준의 라인업이 유럽에 투입된 상태 ▶ 최근의 높은 총 판매증가세 기조가 9월뿐 아니라 4Q26에도 지속될 가능성이 높다는 판단 ▶ 이익모멘텀이 하반기에도 수반되는 가운데, 동사가 올해 4월 CID(CEO Investor Day)에서 26~28년 귀속분에 대해 신규 제시한 ‘’TSR 35% 이상’’ 기조에 재 주목할 필요 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/7QOsXwu >",
               "post_url": "https://t.me/daolresearch/15033",
@@ -1607,14 +1689,21 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "ISSUE & PITCH | 현대차",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "중이며 연초 사업계획인 415만대 달성은 다소 어려울 것으로 전망.",
+              "valuation": [
+                "Valuation wide 2025 20266 2027E",
+                "PER(HH) 6.4 83 6.7",
+                "PBR(Hll) 0.7 0.9 0.8",
+                "EV/EBITDA(HH) 13.7 155 12.7",
+                "Performance 1M 6M 12M YTD",
+                "현대차 Valuation: 적정주가 640,000원 유지"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/EI6QnlE",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /EI6QnlE (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f0453b10b90>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144209/1/20260907_005380_jwyoo_666.pdf",
+              "pdf_error": "",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대차(005380) - 탐방후기: 3Q26보다는 4Q26 모멘텀에 무게",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대차(005380) - 탐방후기: 3Q26보다는 4Q26 모멘텀에 무게 ▶ 3Q26까지는 파업에 따른 모멘텀 둔화가 불가피하나, 9월부터 시작되는 생산량 확대를 통해 파업손실 만회 90% 이상을 목표 ▶ 모멘텀은 4Q26 초입, 또는 2026년 귀속분 자사주매입 시점까지 고려한 2027년 1월을 겨냥한 연말 매수전략 유효. 투자의견 BUY 및 적정주가 64만원 유지 ▶ 유럽/미국을 중심으로 글로벌 생산물량에 대한 조정이 지속적으로 발생 중 ▶ 3Q26 마무리 국면부터는 1)파업 차질분 만회 시작 2)아반떼/투싼 신차사이클 3)유럽 판매확대 재개 가능성과 견조한 미국 M/S 6.3%에 기반해 주가 모멘텀이 재개될 가능성이 존재 ▶ 3Q26의 경우 글로벌 도매판매량은 98.4만대(YoY -5.2%)로 추정하며, 손익의 경우도 기존대비 조정 ▶ 아이오닉3의 경우도 서유럽 생산차종들과 동일하게 IAA 적용에 따른 역내 생산자 보호조치가 예상됨 ▶ 미국 M/S 확대가 지속되는 기조가 매우 선명. 현시점 일부 고수익 SUV차종들을 미국 현지화 배치가 이뤄지고 있으며, 이를 통해 관세부담 경감을 기대 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/EI6QnlE >",
               "post_url": "https://t.me/daolresearch/15032",
@@ -1630,25 +1719,24 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [
-                "▶ 셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천"
-              ],
-              "preferred_stocks": [
-                "▶ 셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천"
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶ 셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천",
-              "report_conclusion": "▶ 셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천",
+              "pitch": "현재 2030년 ESS 수요 전망치는 컨센서스는 110GWhol] 머물고 있으나 환경이 SSloFA] 개선되고 있다고 판단되며, PBR 디스카운트 PBR 2.0배) 30026~2027에 859부분에서 상대적으로 고속성장이 예상되는 삼성51)[를 3: S8SDI 실적주이 및 전망 (십억원, %)",
+              "industry_conclusion": "현재 2030년 ESS 수요 전망치는 컨센서스는 110GWhol] 머물고 있으나 3: S8SDI 실적주이 및 전망 (십억원, %)",
+              "report_conclusion": "현재 2030년 ESS 수요 전망치는 컨센서스는 110GWhol] 머물고 있으나 3: S8SDI 실적주이 및 전망 (십억원, %)",
               "valuation": [
-                "▶ Tesla Energy가 현시점 북미 ESS 사업자 1위임을 감안시 국내 셀 업체의 파이프라인이 SpaceXAI 및 Hyperscaler들과 직접연결되어 있음이 확인",
-                "▶ 셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/BIXX2F6 >"
+                "환경이 SSloFA] 개선되고 있다고 판단되며, PBR 디스카운트",
+                "소가 기대되고(현재 Ｌ0에너지솔루션 대비 SSDI 밸류에이션이 50% RTH eH,",
+                "PBR 2.0배) 30026~2027에 859부분에서 상대적으로 고속성장이 예상되는 삼성51)[를",
+                "1: SDI Valuation: 적정주가 820,000원 유지",
+                "2 Ｌ6에너지솔루션 Valuation: 적정주가 550,000원 유지"
               ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/BIXX2F6",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /BIXX2F6 (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f0453b0f020>, 'Connection to buly.kr timed out. (connect ",
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144108/1/20260904_B20_jwyoo_665.pdf",
+              "pdf_error": "",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 2차전지(Overweight) - ESS기반 고속 성장 구간",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ 2차전지(Overweight) - ESS기반 고속 성장 구간 ▶ AI DC 발주가 ESS 수요를 급격히 끌어올리고 있다고 보이며, 현재 국내 셀업체로 발주된 것으로 추정되는 약 23GWh/yr 물량이 4Q26부터 삼성SDI, LG에너지솔루션에서 공급되기 시작 ▶ 해당 발주처는 Tesla Energy의 Brookshire(브룩셔) 메가팩토리로 추정, 8월부터 ESS 배터리팩 생산을 시작 ▶ Tesla Energy가 현시점 북미 ESS 사업자 1위임을 감안시 국내 셀 업체의 파이프라인이 SpaceXAI 및 Hyperscaler들과 직접연결되어 있음이 확인 ▶ 삼성SDI의 2028년 기준 북미 ESS 생산능력은 70GWh에 달할 것으로 추정되며, LG에너지솔루션 수준에 육박할 것으로 기대 ▶ 셀 업체에 대한 PBR 디스카운트 해소가 기대되고(현재 LG에너지솔루션 대비 삼성SDI 밸류에이션이 50% 할인거래, PBR 2.0배) 3Q26~2Q27에 ESS부분에서 상대적으로 고속성장이 예상되는 삼성SDI를 선호주로 추천 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/BIXX2F6 >",
               "post_url": "https://t.me/daolresearch/15024",
@@ -2837,16 +2925,16 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶️ Key Chart & 핵심지표 - 8월에도 강한 수출 모멘텀 재확인, 그러나 9월 이후는 모멘텀 둔화도 고려할 필요 - 미국 중간선거 전후 경험적인 증시 흐름 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/2qb9xJt",
-              "report_conclusion": "▶️ Key Chart & 핵심지표 - 8월에도 강한 수출 모멘텀 재확인, 그러나 9월 이후는 모멘텀 둔화도 고려할 필요 - 미국 중간선거 전후 경험적인 증시 흐름 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/2qb9xJt",
-              "valuation": [],
-              "earnings_changes": [
-                "아직까지 관성적으로 시장 이익 전망치의 완만한 상향이 이어지고는 있지만, 정체 구간으로 볼 필요."
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 『 8월 말 잭슨을 미팅에서 케빈 워시 연준의장은, 별다른 코멘트가 없을 곳이마는 사전 예상과 달리 2% 물가 목표 및 정책 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "report_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "valuation": [
+                "Source: Check Expert, 다올투자증권"
               ],
-              "analysis_source": "텔레그램 요약",
-              "pdf_url": "https://buly.kr/2qb9xJt",
-              "pdf_error": "ConnectTimeout: HTTPSConnectionPool(host='buly.kr', port=443): Max retries exceeded with url: /2qb9xJt (Caused by ConnectTimeoutError(<HTTPSConnection(host='buly.kr', port=443) at 0x7f0453b3c410>, 'Connection to buly.kr timed out. (connect ",
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144110/1/20260904_B_bhcho_301.pdf",
+              "pdf_error": "",
               "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)]",
               "summary": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (9월 1주차)] ▶️ 금주 증시 동향 (08/28~09/03) - KOSPI(-3.1%), KOSDAQ(-5.8%) 하락. KOSPI는 은행(+3.3%), 철강(+1.2%), 보험(+1.1%) 업종이 상승한 가운데 기계(-9.8%), 비철,목재등(-9.1%), 화장품,의류,완구(-7.0%) 업종 하락. 케빈 워시 잭슨홀 매파적 발언에도 자사주 매입 효과에 코스피는 상승 출발, 8월 수출이 호조를 보인 점도 증시 상승을 지지. 그러나 주중 미·이란 교전 격화, 유가 및 국채금리 급등하며 코스피 급락. 이후 미 고용 부진과 주요 인사들의 완화적 발언에 국채금리 상승세가 일단 진정되며 저가매수 유입됐으나, 여전히 높은 금리 수준과 중동 불확실성에 변동성 장세가 지속됨 - DOW(+0.2%), S&P500(+0.5%), NASDAQ(+0.7%) 상승. 케빈 워시 매파적 발언에 국채금리가 상승하자 하락 출발. 이후 미·이란 교전 격화에 유가·장기금리 상승세 지속, 9월 금리 인상 우려까지 부각되며 증시 부담 확대되는 양상. 이후 부진한 민간고용 및 주요 인사들의 비둘기파적 발언에 국채금리 급등세가 진정, 저가매수 유입되며 반등 마감 ▶️ 차주 증시 전망 (09/07~09/11) - 시장 상황 판단에 대한 큰 변화는 없음. 아직까지 관성적으로 시장 이익 전망치의 완만한 상향이 이어지고는 있지만, 정체 구간으로 볼 필요. 금리 측면에서는 여전히 미국 국채를 중심으로 선진국 국채 금리의 고공행진이 이어지고 있는 상태. 이익 측면에서도, 멀티플 측면에서도 추세적인 흐름 보다는 박스권 형태의 횡보 정도를 생각해 볼 수 있는 상황. 지난 주 잭슨홀 미팅 이후 인플레이션에 대한 민감도가 상향된 상태에서 다음 주 미국 물가지표 발표",
               "post_url": "https://t.me/daolresearch/15025",
