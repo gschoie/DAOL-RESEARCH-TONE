@@ -1,0 +1,24 @@
+name: 진단 — PDF 호스트 연결성 (일회용)
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: 각 호스트 연결 테스트
+        run: |
+          set +e
+          echo "===== 1) buly.kr 리다이렉트 안 따라가고 헤더만"
+          curl -sS -o /dev/null -D - -w "code=%{http_code} t=%{time_total}s redirect=%{redirect_url}\n" --max-time 20 "https://buly.kr/C0Cik2l"; echo "exit=$?"
+          echo "===== 2) www.ktb.co.kr 루트"
+          curl -sS -o /dev/null -w "code=%{http_code} t=%{time_total}s\n" --max-time 20 "https://www.ktb.co.kr/"; echo "exit=$?"
+          echo "===== 3) www.daolfn.com 루트"
+          curl -sS -o /dev/null -w "code=%{http_code} t=%{time_total}s\n" --max-time 20 "https://www.daolfn.com/"; echo "exit=$?"
+          echo "===== 4) ktb.co.kr 과거 성공 PDF 직링크 재다운로드"
+          curl -sS -o /tmp/t.pdf -w "code=%{http_code} t=%{time_total}s size=%{size_download}\n" --max-time 40 -A "Mozilla/5.0" "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/142207/1/20260705_B2040_gs.pdf"; echo "exit=$?"
+          file /tmp/t.pdf 2>/dev/null || true
+          echo "===== 5) buly.kr 전체 체인 (-L)"
+          curl -sSI -L -o /dev/null -w "final=%{url_effective} code=%{http_code} t=%{time_total}s\n" --max-time 45 "https://buly.kr/C0Cik2l"; echo "exit=$?"
+          echo "===== 6) buly.kr을 크롬 UA + HTTP/2로"
+          curl -sS -o /dev/null -D - --http2 -w "code=%{http_code} t=%{time_total}s redirect=%{redirect_url}\n" --max-time 20 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" "https://buly.kr/C0Cik2l"; echo "exit=$?"
+          true
