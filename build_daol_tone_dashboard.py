@@ -58,6 +58,58 @@ def _kr(t):
     """한글 문자 수 — '추출 성공처럼 보이는 껍데기 텍스트'(그림 캡션만 남는 인뎁스류) 판별용."""
     return len(re.findall(r'[가-힣]', t or ''))
 
+
+# ── 다올 홈페이지 리서치 게시판 폴백 ─────────────────────────────────────────
+# 2026-09-28부터 buly.kr 단축링크가 GitHub 러너를 IP 레벨에서 차단(TCP 타임아웃,
+# curl_cffi 위장도 무력). 게시판(www.daolsecurities.com)은 열리므로 목록 AJAX에서
+# 날짜·제목·첨부 경로를 긁어 직링크로 받는다. 직링크 포맷:
+#   /common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/{id}/1/{파일명}.pdf
+_BOARD_BASE='https://www.daolsecurities.com'
+_BOARD_ROWS=None
+
+def _daol_board_rows(days=40):
+    global _BOARD_ROWS
+    if _BOARD_ROWS is not None:return _BOARD_ROWS
+    _BOARD_ROWS=[]
+    import requests,html as _html
+    try:
+        s=requests.Session();s.headers.update(UA)
+        start=(kst_today()-timedelta(days=days)).strftime('%Y/%m/%d');end=kst_today().strftime('%Y/%m/%d')
+        for page in range(1,13):
+            r=s.post(_BOARD_BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
+                     data={'curPage':str(page),'rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
+                           'filepath':'','attaFileNm':'','startDate':start,'endDate':end,
+                           'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
+                     headers={'Referer':_BOARD_BASE+'/research/article/common.jspx?rGubun=RALL',
+                              'X-Requested-With':'XMLHttpRequest'},timeout=15)
+            found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"",r.text,re.S)
+            if not found:break
+            for d,path,fn,title in found:
+                _BOARD_ROWS.append({'date':d.replace('/','-'),'title':_html.unescape(title),'file':fn,
+                                    'url':f"{_BOARD_BASE}/common/download.jspx?cmd=viewPDF&path={path}/{fn}"})
+            if len(found)<10:break
+        print(f"다올 게시판 목록 {len(_BOARD_ROWS)}건 로드 (buly.kr 폴백용)")
+    except Exception as e:
+        print(f"::warning::다올 게시판 목록 조회 실패: {type(e).__name__}: {e}")
+    return _BOARD_ROWS
+
+def board_pdf_url(day, text, code):
+    """게시판에서 이 리포트의 직링크를 찾는다: ①같은 날짜+파일명 안의 종목코드,
+    ②같은 날짜+게시판 제목 토큰의 과반이 텔레그램 서두에 포함."""
+    rows=[r for r in _daol_board_rows() if r['date']==day]
+    if not rows:return None
+    if code and re.fullmatch(r'\d{6}',code):
+        hit=[r for r in rows if f'_{code}_' in r['file']]
+        if len(hit)==1:return hit[0]['url']
+    toks=lambda s:{w for w in re.split(r'[^0-9A-Za-z가-힣]+',(s or '').lower()) if len(w)>=2}
+    head=toks(text[:400]);best,score=None,0.0
+    for r in rows:
+        bt=toks(r['title'])
+        if not bt:continue
+        sc=len(bt&head)/len(bt)
+        if sc>score:best,score=r,sc
+    return best['url'] if best and score>=0.55 else None
+
 def extract_text_from_pdf(content):
     """PDF 바이트 → 본문 텍스트. pypdf → (부실하면) pypdfium2 → (그래도 한글이 없으면)
     앞 3페이지 OCR 순으로 시도한다. 백필 스크립트(backfill_pdf_text.py)와 공유."""
@@ -91,10 +143,11 @@ def pdf_text(source_url, cache, retry_hints=None):
     cached=cache.get(source_url)
     if cached:return cached
     result={'status':'failed','final_url':source_url,'text':'','error':''}
-    # buly.kr 등 단축링크 호스트가 GitHub 러너에서 차단되는 경우가 있다 — 이전 런(로컬 포함)이
-    # 해석해둔 직링크(final_url)가 있으면 단축링크 실패 시 그쪽으로 재시도한다.
+    # buly.kr 등 단축링크 호스트가 GitHub 러너에서 차단되는 경우가 있다 — 이전 런이 해석해둔
+    # 직링크(final_url)나 게시판에서 찾은 직링크가 있으면 그쪽을 먼저 시도한다(단축링크가
+    # IP 차단이면 타임아웃 체인에 리포트당 ~85초를 태우므로 순서가 예산을 좌우한다).
     hint=(retry_hints or {}).get(source_url)
-    urls=[source_url]+([hint] if hint and hint!=source_url else [])
+    urls=([hint] if hint and hint!=source_url else [])+[source_url]
     for attempt,url in enumerate(urls*2 if len(urls)==1 else urls):
         try:
             content,final,status_code=_fetch_pdf_bytes(url)
@@ -377,6 +430,10 @@ def analyze(messages, pdf_since='2025-05'):
                     and time.monotonic()-pdf_started<pdf_budget_seconds):
                 prev=cache.pop(source)
                 if prev.get('final_url') and prev['final_url']!=source:retry_hints[source]=prev['final_url']
+            # 신규·재시도 공히: 게시판에서 직링크를 찾으면 그쪽을 1순위로 (buly.kr 차단 우회)
+            if source not in cache and source not in retry_hints:
+                hb=board_pdf_url(day,t,code)
+                if hb:retry_hints[source]=hb
             was_cached=source in cache;p=pdf_text(source,cache,retry_hints);cache_changed=cache_changed or not was_cached
             final_url=p['final_url'];pdf_error=p['error']
             if p['status']=='pdf':
