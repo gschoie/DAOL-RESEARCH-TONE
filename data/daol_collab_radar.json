@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-05T06:03:37.138466+00:00",
+ "generated_at": "2026-10-05T13:20:21.167709+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1352,
+ "report_count": 1353,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31289,6 +31289,76 @@
    "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 장기지속형 기술에 베팅하는 빅파마",
    "post_url": "https://t.me/daolresearch/15154",
    "source_url": "https://buly.kr/4mfesui"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-10-05",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "탱커 △ 호르무즈 해협 선박 피격 여파로 VLCC 스팟 운임 역대 최고치 재경신 ▲ Clarksons Research, 유조선 선주 호황세 2027년까지 지속 가능성 제기"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 LNG선 6척 수주. Alaska, LNG Canada ph2 수주POOL 또 쌓임 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15159",
+   "source_url": "https://bit.ly/DOS842"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-05",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "해양/디펜스 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 ▽ Wison New Energies·Bumi Armada·FPSO Ventures, FLNG 사업 확대를 위해 3자 연합 구축 ▲ New Fortress Energy(NFE), FLNG 개조용 원통형 시추 리그선 2척 4년 만에 폐선 매각 ▲ Woodside Energy, BP의 호주 Browse 프로젝트 지분 매각에 대",
+    "해양/디펜스/바람 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 ▲ New Fortress Energy(NFE), FLNG 개조용 원통형 시추 리그선 2척 4년 만에 폐선 매각"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 LNG선 6척 수주. Alaska, LNG Canada ph2 수주POOL 또 쌓임 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15159",
+   "source_url": "https://bit.ly/DOS842"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-05",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 LNG선 6척 수주. Alaska, LNG Canada ph2 수주POOL 또 쌓임 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15159",
+   "source_url": "https://bit.ly/DOS842"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-05",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "다올 선박: 한국 LNG선 6척 수주.",
+    "선가, 실적, 캐파 △ 신조선가지수 3주 연속 상승."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 LNG선 6척 수주. Alaska, LNG Canada ph2 수주POOL 또 쌓임 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15159",
+   "source_url": "https://bit.ly/DOS842"
   }
  ],
  "cross_mentions": [
@@ -32331,14 +32401,14 @@
    "recent": 21,
    "total": 23,
    "sectors": 3,
-   "burst": 28.8
+   "burst": 29.1
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.2
+   "burst": 8.3
   },
   {
    "term": "관건",
@@ -32352,84 +32422,84 @@
    "recent": 8,
    "total": 13,
    "sectors": 3,
-   "burst": 5.5
+   "burst": 5.6
   },
   {
    "term": "기저가",
    "recent": 9,
    "total": 15,
    "sectors": 5,
-   "burst": 5.3
+   "burst": 5.4
   },
   {
    "term": "Cloud",
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.9
+   "burst": 5.0
   },
   {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 4.9
+   "burst": 5.0
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.9
+   "burst": 5.0
   },
   {
    "term": "분쟁",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.8
-  },
-  {
-   "term": "Mix",
-   "recent": 11,
-   "total": 20,
-   "sectors": 6,
-   "burst": 4.5
+   "burst": 4.9
   },
   {
    "term": "방향",
    "recent": 7,
    "total": 13,
    "sectors": 7,
-   "burst": 4.1
+   "burst": 4.2
   },
   {
    "term": "독일",
    "recent": 9,
    "total": 17,
    "sectors": 4,
-   "burst": 4.1
+   "burst": 4.2
   },
   {
    "term": "정체",
    "recent": 6,
    "total": 11,
    "sectors": 4,
-   "burst": 4.1
+   "burst": 4.2
   },
   {
    "term": "일평균거래대금",
    "recent": 8,
    "total": 15,
    "sectors": 7,
-   "burst": 4.1
+   "burst": 4.2
   },
   {
    "term": "공급계약",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 4.1
+   "burst": 4.2
+  },
+  {
+   "term": "우선",
+   "recent": 6,
+   "total": 11,
+   "sectors": 6,
+   "burst": 4.2
   }
  ]
 }

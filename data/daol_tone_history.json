@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T06:01:41.083778+00:00",
+  "generated_at": "2026-10-05T13:17:57.913905+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1352,
+  "report_count": 1353,
   "months": [
     {
       "month": "2026-10",
@@ -323,9 +323,64 @@
               "source_url": "https://buly.kr/4mfesui"
             }
           ]
+        },
+        {
+          "analyst": "최광식",
+          "sectors": [
+            "조선/기계/방산"
+          ],
+          "opinion": "중립",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2026-10-05",
+              "source": "https://t.me/daolresearch/15159"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15159,
+              "date": "2026-10-05",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "다올",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "해양/디펜스 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 ▽ Wison New Energies·Bumi Armada·FPSO Ventures, FLNG 사업 확대를 위해 3자 연합 구축 ▲ New Fortress Energy(NFE), FLNG 개조용 원통형 시추 리그선 2척 4년 만에 폐선 매각 ▲ Woodside Energy, BP의 호주 Browse 프로젝트 지분 매각에 대한 우선매수권 행사 검토 HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원)",
+              "industry_conclusion": "",
+              "report_conclusion": "해양/디펜스 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 ▽ Wison New Energies·Bumi Armada·FPSO Ventures, FLNG 사업 확대를 위해 3자 연합 Mitsubishi Corp 싱가포르 자회사 Diamond Global Energy 연계 프로젝트 투입 전망 상업 운전 개시는 2030년대 초반 예정이며, 사업 수명 전반에 걸쳐 50십억캐나다달러(35.5십억달러) 이상의 정부 재정 수입 창출 전망 100km 떨어진 Chuditch 가스전(조건부 자원량 약 1.2Tcf, 일산 300MMcf 전망) 물량과 결합 시 2번째 육상 LNG 프로젝트의 상업적 타당성 확보 가능 판단 비러시아산 기준 폴란드 가스 수입 능력은 2025년 최대 32.9Bcm에서 2030년 약 50Bcm 수준에 도달할 전망",
+              "valuation": [
+                "▶ 한국 조선5사 Perf orm ance",
+                "운용·건조 중인 15기 중 12기는 프로젝트 소유이며, 3기는 Golar LNG의 리스·운영(lease-and-operate) 방식으로 단일 업체 의존도가 높음",
+                "2026 EPS(원) Change(%) VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 26.09.04 26.09.11 26.09.18 26.09.25 26.10.02 2달전 대비 4주전 대비 2026 PER 종가",
+                "2026 BPS(원) ROE VALUATION",
+                "그룹 종목 다섯달전 네달전 세달전 두달전 26.09.04 26.09.11 26.09.18 26.09.25 26.10.02 2026 2027 2026 PBR"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145007/1/20261005_B2040_gs.choie_592.pdf",
+              "pdf_error": "",
+              "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 LNG선 6척 수주. Alaska, LNG Canada ph2 수주POOL 또 쌓임 ⚓ 주시 뉴스",
+              "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 LNG선 6척 수주. Alaska, LNG Canada ph2 수주POOL 또 쌓임 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 △ 신조선가지수 3주 연속 상승. 중고선가지수 5P나 오른 223P ▶ 그린쉽: N/A ▶ LNG △ 삼성중공업의 LNG선 2척 수주 공시 발주처는 일본 K Line ▲ 한화오션, Zodiac의 LNG선 시장 데뷔 2척 수주 △ 한국의 신규 투자 합의로 오랜 기간 논의된 Alaska LNG 프로젝트 가시화 양상 ▲ Shell 컨소시엄, 'LNG Canada' 2단계 FID 확정 및 EPC•파이프라인 확장 본격화 ▶ 가스선 ▲ JP Morgan, 삼성중공업에 신조선 추가 발주하며 잔고 확대 ▶ 컨테이너: N/A ▶ 탱커 △ 호르무즈 해협 선박 피격 여파로 VLCC 스팟 운임 역대 최고치 재경신 ▲ Clarksons Research, 유조선 선주 호황세 2027년까지 지속 가능성 제기 ▶ 해양/디펜스/바람 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 ▲ New Fortress Energy(NFE), FLNG 개조용 원통형 시추 리그선 2척 4년 만에 폐선 매각 ▶ 기타: N/A < ☞ https://bit.ly/DOS842 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15159",
+              "source_url": "https://bit.ly/DOS842"
+            }
+          ]
         }
       ],
-      "report_count": 4
+      "report_count": 5
     },
     {
       "month": "2026-09",
