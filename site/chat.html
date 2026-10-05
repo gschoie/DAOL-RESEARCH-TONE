@@ -116,6 +116,32 @@
   #send { padding:12px 22px; border:0; border-radius:999px; background:var(--accent); color:#fff; font-size:14px; font-weight:700; cursor:pointer; }
   #send:hover:not(:disabled) { background:var(--accent-dark); }
   #send:disabled { opacity:.5; cursor:default; }
+
+/* ══ 노션 모드: 워시·그라데이션 제거, 플랫 헤어라인·작은 라운드·노션 블루 ══ */
+html{background:#fff}
+header h1 .grad{background:none;-webkit-background-clip:unset;background-clip:unset;color:inherit}
+.hdr-links .home{border-radius:6px;box-shadow:none;border-color:#ededeb}
+.hdr-links .home:hover{background:rgba(55,53,47,.06);border-color:#ededeb;color:#111827}
+#settings input,#settings select,#settings button{border-radius:6px;border-color:#ededeb}
+#settings button.primary{background:#2383e2;border-color:#2383e2}
+#brief .msg,.msg.assistant{border-radius:8px;box-shadow:none;border-color:#ededeb;background:#fbfbfa}
+.msg.user{border-radius:8px;border-bottom-right-radius:8px;background:#2383e2}
+.msg.chart{border-radius:8px}
+.msg.md code{border-radius:4px}
+.hints button{border-radius:6px;box-shadow:none;border-color:#ededeb}
+.hints button:hover{background:rgba(55,53,47,.06);border-color:#ededeb;color:#111827}
+.hints button.daily{background:#e7f3fe;border-color:#cde3f8;color:#1b6ec2}
+.hints button.daily:hover{background:#d9ecfc;border-color:#2383e2}
+.chart-btn{border-radius:6px}
+#input{border-radius:8px;box-shadow:none;border-color:#ededeb}
+#input:focus{border-color:#2383e2;box-shadow:0 0 0 2px rgba(35,131,226,.18)}
+#send{border-radius:6px;background:#2383e2}
+#send:hover:not(:disabled){background:#1b6ec2}
+.gate-card{border-radius:10px;box-shadow:0 10px 36px rgba(15,15,15,.18)}
+.gate-card input{border-radius:6px}
+#gate-form button,#gate-own{border-radius:6px}
+#gate{background:#fff}
+#clearlog{border-radius:6px}
 </style>
 </head>
 <body>
