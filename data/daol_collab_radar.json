@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T22:47:27.402237+00:00",
+ "generated_at": "2026-10-05T23:19:01.653546+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1359,
  "hits": [
@@ -31386,7 +31386,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 6,
+   "score": 3,
    "evidences": [
     "Implication 9월 화장품 수출 $1,174M(전월 대비 +11.7%, 전년 대비 +34.4%), 업종 수요는 견조한 가운데 브랜드별 성장 모멘텀 차별화 확대 에이피알(BUY, TP 56만원)은 바디케어 세트가 신규 히어로 SKU로 부상, Amazon MS·판매지수는 동반 하락."
    ],
