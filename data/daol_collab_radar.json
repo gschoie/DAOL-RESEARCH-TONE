@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-05T22:13:26.514288+00:00",
+ "generated_at": "2026-10-05T22:47:27.402237+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1356,
+ "report_count": 1359,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31393,6 +31393,76 @@
    "title": "[다올 화장품 박종현] - K-뷰티 Monthly(9월)",
    "post_url": "https://t.me/daolresearch/15163",
    "source_url": "https://buly.kr/31W6WgF"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-06",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "삼성바이오로직스",
+   "code": "207940",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "5월 파업에 따른 생산 차질과 원/달러 환율 하락에도 1~4공장 풀가동 및 5공장 PPQ 매출 반영으로 견조한 실적 예상"
+   ],
+   "title": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(하향) | 다올 제약/바이오 이지수] ★ 실적 선방 속 지나가는 성장",
+   "post_url": "https://t.me/daolresearch/15164",
+   "source_url": "https://buly.kr/2qbLY6R"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-06",
+   "analyst": "이정우",
+   "sector": "전력기기/철강금속",
+   "company": "전력",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "다만 접속 심사가 장기납기 설비 구매 증빙을 요구하면서 변압기·차단기를 먼저 확보할 유인으로 작용 - 대형 전력 사용자의 전력망 비용 직접 부담이 확산되며 하이퍼스케일러의 직접 발주 사례 증가",
+    "데이터센터가 촉발한 전력수요 증가 II -3."
+   ],
+   "title": "[전력기기(Overweight) | 다올 전력기기/철강금속 이정우] ★ 전력, 질주",
+   "post_url": "https://t.me/daolresearch/15167",
+   "source_url": "https://buly.kr/GP5h55q"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-06",
+   "analyst": "이정우",
+   "sector": "전력기기/철강금속",
+   "company": "전력",
+   "code": "",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "다만 접속 심사가 장기납기 설비 구매 증빙을 요구하면서 변압기·차단기를 먼저 확보할 유인으로 작용 - 대형 전력 사용자의 전력망 비용 직접 부담이 확산되며 하이퍼스케일러의 직접 발주 사례 증가",
+    "전력기기 현 주소 점검 - 미국 전력 수요가 장기 정체를 벗어나 증가 국면 진입."
+   ],
+   "title": "[전력기기(Overweight) | 다올 전력기기/철강금속 이정우] ★ 전력, 질주",
+   "post_url": "https://t.me/daolresearch/15167",
+   "source_url": "https://buly.kr/GP5h55q"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-06",
+   "analyst": "이정우",
+   "sector": "전력기기/철강금속",
+   "company": "전력",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "변압기 리드타임 장기화와 2029년까지 채워진 수주잔고가 높은 멀티플의 근거"
+   ],
+   "title": "[전력기기(Overweight) | 다올 전력기기/철강금속 이정우] ★ 전력, 질주",
+   "post_url": "https://t.me/daolresearch/15167",
+   "source_url": "https://buly.kr/GP5h55q"
   }
  ],
  "cross_mentions": [
@@ -32435,21 +32505,21 @@
    "recent": 21,
    "total": 23,
    "sectors": 3,
-   "burst": 29.1
+   "burst": 28.8
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.3
+   "burst": 8.2
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "할인율",
@@ -32470,21 +32540,21 @@
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 5.0
+   "burst": 4.9
   },
   {
    "term": "부분이",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 5.0
+   "burst": 4.9
   },
   {
    "term": "저변",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 5.0
+   "burst": 4.9
   },
   {
    "term": "정체",
@@ -32505,35 +32575,35 @@
    "recent": 7,
    "total": 13,
    "sectors": 7,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "독일",
    "recent": 9,
    "total": 17,
    "sectors": 4,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "일평균거래대금",
    "recent": 8,
    "total": 15,
    "sectors": 7,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "공급계약",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "우선",
    "recent": 6,
    "total": 11,
    "sectors": 6,
-   "burst": 4.2
+   "burst": 4.1
   }
  ]
 }

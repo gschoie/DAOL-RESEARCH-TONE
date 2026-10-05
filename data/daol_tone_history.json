@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T22:12:52.778644+00:00",
+  "generated_at": "2026-10-05T22:46:55.309973+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1356,
+  "report_count": 1359,
   "months": [
     {
       "month": "2026-10",
@@ -51,6 +51,64 @@
               "summary": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (8월) 자본시장: 기다림 속 관점 유지 ▶ 비우호적 영업환경 지속. 실적 전후 시장 환경 변화 여부 주목. 여전히 선별적 접근 관점 유지 ▶ 국내주식 일평균거래대금: (8월) 47.2조원, (9월) 38.2조원 ▶ 국내 ETF 일평균거래대금: (8월) 16.8조원, (9월) 15.8조원 ▶ 주식 발행실적: 4,549억원(YoY-48.7%, MoM-69.5%) ▶ 회사채 발행실적: 15.9조원(YoY-14.8%, MoM-36.1%) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/28wIArM > ▶ 개별 채널 https://t.me/jiwonkimfin",
               "post_url": "https://t.me/daolresearch/15155",
               "source_url": "https://buly.kr/28wIArM"
+            }
+          ]
+        },
+        {
+          "analyst": "김혜영",
+          "sectors": [
+            "인터넷·게임·레저"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15165"
+            }
+          ],
+          "top_picks": [
+            {
+              "text": "9월 실적이 약세였으나 구조적인 문제는 아니라고 판단하며 카지노 산업 Top-Pick 유지 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/ET1MHxd >",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15165"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15165,
+              "date": "2026-10-06",
+              "month": "2026-10",
+              "analyst": "김혜영",
+              "sector": "인터넷·게임·레저",
+              "company": "9월",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [
+                "9월 실적이 약세였으나 구조적인 문제는 아니라고 판단하며 카지노 산업 Top-Pick 유지 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/ET1MHxd >"
+              ],
+              "preferred_stocks": [
+                "9월 실적이 약세였으나 구조적인 문제는 아니라고 판단하며 카지노 산업 Top-Pick 유지 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/ET1MHxd >"
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 성수기가 지난 뒤 - 3사 모두 드랍액이 성수기였던 8월 대비 감소.",
+              "report_conclusion": "▶ 성수기가 지난 뒤 - 3사 모두 드랍액이 성수기였던 8월 대비 감소.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145031/1/20261006_B2550_hyyy_216.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 9월 카지노 실적: 성수기가 지난 뒤",
+              "summary": "[레저(Overweight)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 9월 카지노 실적: 성수기가 지난 뒤 ▶ 롯데관광개발 - 9월 드랍액 2,761억원(-5.8% YoY, -17.9% MoM), 순매출 291억원(-45.1% YoY, -37.1% MoM), 홀드율은 10.1% - 2025년 10월까지 에이전트 계약이 유지되었고 그 후 중지되었기 때문에 기저 효과가 있고, 주요 고객들의 초반 승률이 좋아 추가 드랍이 감소하며 총 드랍액은 전년 동기 대비 감소 - 10월부터 칭다오, 양주, 스자좡 노선이 신설되며 추후 장춘, 청두 같은 도시들도 노선 신설 가능성 有. 직항 노선이 확대되면 고객 영업이 원할해지기 때문에 긍정적 요소로 작용 ▶ 파라다이스 - 9월 드랍액 6,051억원(+6.6% YoY, -11.1% MoM), 순매출 867억원(+38.2% YoY, -16.8% MoM), 홀드율은 14.3% - VIP 및 MASS 드랍액은 전년 대비 모두 성장하였으나 성수기였던 8월 대비로는 모두 하락 ▶ GKL - 9월 드랍액 3,237억원(+2.4% YoY, -5.2% MoM), 순매출 373억원(+7.2% YoY, +19.8% MoM), 홀드율은 11.5%. 8월의 홀드율(9.1%)이 저조했기 때문에 드랍액은 감소하였으나 순매출은 전월 대비 상승 - VIP 영업을 강화하며 주력 지점인 서울 강남점의 드랍액은 1,933억원(+10.0% YoY, -2.0% MoM) 시현. 순매출도 179억원(7.1% YoY, +44.4% MoM)을 기록하며 기저 효과로 전월 대비 큰 폭으로 성장 ▶ 성수기가 지난 뒤 - 3사 모두 드랍액이 성수기였던 8월 대비 감소. 10월 중국 국경절 연휴가 있으나 점진적으로 비수기에 돌입할 전망. 비수기에는 성장 모멘텀이 약해지기 때문에 주가도 동반 ",
+              "post_url": "https://t.me/daolresearch/15165",
+              "source_url": "https://buly.kr/ET1MHxd"
             }
           ]
         },
@@ -456,6 +514,105 @@
           ]
         },
         {
+          "analyst": "이정우",
+          "sectors": [
+            "전력기기/철강금속"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15167"
+            }
+          ],
+          "top_picks": [
+            {
+              "text": "55 효성중공업 (298040) _ Top Pick",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15167"
+            },
+            {
+              "text": "원)을 Top Pick으로 제시한다.",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15167"
+            },
+            {
+              "text": "전력기기 업종 내 최선호주를 효성중공업으로 제시한다.",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15167"
+            },
+            {
+              "text": "최선호주 종가 2,785,000 2027E 8,635 1,521 17.6% 1,080 115,787 24.1 30.2%",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15167"
+            },
+            {
+              "text": "효성중공업 (298040) _Top-Pick",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15167"
+            }
+          ],
+          "top_pick_change": "해당 기간 최초 명시",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15167,
+              "date": "2026-10-06",
+              "month": "2026-10",
+              "analyst": "이정우",
+              "sector": "전력기기/철강금속",
+              "company": "전력",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [
+                "55 효성중공업 (298040) _ Top Pick",
+                "원)을 Top Pick으로 제시한다.",
+                "전력기기 업종 내 최선호주를 효성중공업으로 제시한다.",
+                "최선호주 종가 2,785,000 2027E 8,635 1,521 17.6% 1,080 115,787 24.1 30.2%",
+                "효성중공업 (298040) _Top-Pick"
+              ],
+              "preferred_stocks": [
+                "55 효성중공업 (298040) _ Top Pick",
+                "원)을 Top Pick으로 제시한다.",
+                "전력기기 업종 내 최선호주를 효성중공업으로 제시한다.",
+                "최선호주 종가 2,785,000 2027E 8,635 1,521 17.6% 1,080 115,787 24.1 30.2%",
+                "효성중공업 (298040) _Top-Pick"
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "08 II. 전력기기 현 주소 점검 II-1. 전력기기 사이클 시작 II -2. 데이터센터가 촉발한 전력수요 증가 II -3. 누적된 노후화 II -4. 기대감은 지속된다 19 III. 병목①: 전력 III-1. 발전원 건설이 지연 III -2. 대체 발전원 온사이트 발전 등장 III -3. 전력의 효율성을 높이는 800VDC III-4. 부각되는 UHV. 개선될 믹스 42 IV. 병목② : 변압기 쇼티지 IV-1. 리드타임이 연장되고 있다 IV-2. 비 사이클 시기 축소된 생산능력 IV-3. 제품 가격은 지속 상승. 증설 물량 유입은 2028년에서야 48 V. 규제의 역설 52 VI. 투자전략 54 VII. 종목별 투자의견 55 효성중공업 (298040) _ Top Pick 65 HD현대일렉트릭 (267260) 75 LS ELECTRIC (010120) DAOL Investment & Securities | 3 In-Depth ㅣ 전력기기 I. Summary & Focus Chart 미국 전력 사용량 증가율은 2007~2020년 연평균 -0.1%에서 2020~2025년 1.7%로 높아졌고, 데이터센터 전력 수요는 2025년 64.4GW에서 2030년 183.2GW로 늘어날 전망이다. 지난 사이클이 노후 설비 교체였다면 이번 사이클은 송전, 변전, 배 전을 동시에 늘려야 하는 Grid 확장이다. 전력기기 12M Fwd PER은 비사이클기 10배, 사이클기 20배 내외가 상단이었는데 현 재는 40배 수준이다. 변압기 리드타임이 1년에서 3년으로 길어졌고 국내 3사 수주잔 고는 2029년까지 대부분 채워져 있어 가시성 있는 실적이 반영된 것으로 판단한다. 관건은 이익률의 유지 여부인데, 병목은 단기간에 해결되기 어렵고 병목을 우회하는 과정 속에서의 수혜를 예상한다. 첫째, 발전 대안이다. 계통 접속 대기가 길어지자 데이터센터는 가스터빈, 연료전지 등 온사이트 발전으로 우회하고 있고, 발전기와 서버 사이에 중전압 변압기, 스위치 기어, MV-UPS 등 새로운 배전 수요가 생긴다. 둘째, 초고압이다. 2026~2030년 500kV 이상 송전선로 건설 계획은 3,687마일로 지난 15년 합계를 넘어서고, 4대 계 통운영자가 동시에 765kV를 채택하고 있어 초고압 제품 위주의 믹스 개선을 기대한 다. 지역간 계통 연계 필요성도 부각되고 있다. 장거리 송전 역시 765kV급 송전망이 필요하다. 셋째, 쇼티지 속 단가 상승",
+              "industry_conclusion": "장거리 송전 역시 765kV급 송전망이 업종 투자의견 Overweight를 제시한다. 효성중공업(투자의견 BUY, 적정주가 400만 Focus Chart 3 데이터센터 전력 수요 전망 Focus Chart 8 800VDC 도입 설문 결과 Focus Chart 9 신규 데이터센터 중 800VDC 도입 전망",
+              "report_conclusion": "장거리 송전 역시 765kV급 송전망이 업종 투자의견 Overweight를 제시한다. 효성중공업(투자의견 BUY, 적정주가 400만 Focus Chart 3 데이터센터 전력 수요 전망 Focus Chart 8 800VDC 도입 설문 결과 Focus Chart 9 신규 데이터센터 중 800VDC 도입 전망",
+              "valuation": [
+                "전력기기 12M Fwd PER은 비사이클기 10배, 사이클기 20배 내외가 상단이었는데 현",
+                "Focus Chart 2 변압기 3사 12M Fwd PER 추이",
+                "Oncor PBRP 광역 계획 승인 후 개별 사업 인허가 승인 이전 장기납기 설비 확보 추진.",
+                "Louisiana Richland Parish, Hyperion",
+                "시장이 전력기기 기업에 높은 밸류에이션을 부여하고 있는 근거가 여기에 있다.",
+                "수요 사이클 시기에 따라서 전력기기 기업들의 밸류에이션은 달라지는 모습을"
+              ],
+              "earnings_changes": [
+                "74: 효성중공업 실적추정 (십억원, %)",
+                "80: HD현대일렉트릭 실적추정 (십억원, %)",
+                "89: 수요 확대로 생산능력 확대 시점 앞당겨질 시 실적 추정치 및 Valuation table (십억원, 원, %)",
+                "90: 수요 확대로 생산능력 확대 시점 앞당겨질 시 실적 추정치 및 Valuation table (십억원, 원, %)",
+                "91: 실적추정 테이블 (십억원, %)"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145033/1/20261006_B20_jungwoo_67.pdf",
+              "pdf_error": "",
+              "title": "[전력기기(Overweight) | 다올 전력기기/철강금속 이정우] ★ 전력, 질주",
+              "summary": "[전력기기(Overweight) | 다올 전력기기/철강금속 이정우] ★ 전력, 질주 ▶ 전력기기 현 주소 점검 - 미국 전력 수요가 장기 정체를 벗어나 증가 국면 진입. 데이터센터가 신규 수요를 촉발하는 가운데 1960~70년대 설치된 송전망·변압기 교체 수요까지 누적 - 지난 사이클이 노후 설비 교체였다면 이번은 송전·변전·배전을 동시에 늘려야 하는 Grid 확장. 변압기 리드타임 장기화와 2029년까지 채워진 수주잔고가 높은 멀티플의 근거 ▶ 병목①: 전력 - 계통 접속 지연으로 데이터센터는 온사이트 발전으로 우회. 발전기와 서버 사이 중전압 변압기, 스위치기어, MV-UPS 등 새로운 배전 수요 발생. 800VDC 전환 시 SST 시장도 개화 - 4대 계통운영자가 동시에 765kV 송전망 채택. 500kV 이상 건설 계획이 지난 15년 합계를 상회해 초고압 제품 위주 믹스 개선 기대 - 일부 지역의 피크 수요가 공급을 상회하며 지역간 계통 연계 필요성 대두. 극한기후 시 잉여전력 지역에서 부족 지역으로 보낼 전송용량이 부족해 장거리 송전망 신설 수요 추가 ▶ 병목②: 변압기 쇼티지 - 비사이클기 축소된 생산능력이 복원되지 않아 미국은 높은 수입 의존도 유지. 증설 물량 유입은 2028년에서야 가시화 - 긴 납기로 과거 고가 계약이 뒤늦게 반영되는 구조라 변압기 PPI는 추가 상승 가능 ▶ 규제의 역설 - 인허가와 지역 수용성이 새로운 병목. 다만 접속 심사가 장기납기 설비 구매 증빙을 요구하면서 변압기·차단기를 먼저 확보할 유인으로 작용 - 대형 전력 사용자의 전력망 비용 직접 부담이 확산되며 하이퍼스케일러의 직접 발주 사례 증가 ▶ 투자전략 - Top Pick 효성중공업(투자의견 BUY, 적정주가 400만원). 멤피스 765kV 변압기, 800kV 차단기 등 초고압 확대 국면에",
+              "post_url": "https://t.me/daolresearch/15167",
+              "source_url": "https://buly.kr/GP5h55q"
+            }
+          ]
+        },
+        {
           "analyst": "이지수",
           "sectors": [
             "제약/바이오"
@@ -472,8 +629,35 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15164,
+              "date": "2026-10-06",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "삼성바이오로직스",
+              "code": "207940",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145030/1/20261006_207940_jislee_469.pdf",
+              "pdf_error": "",
+              "title": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(하향) | 다올 제약/바이오 이지수] ★ 실적 선방 속 지나가는 성장",
+              "summary": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(하향) | 다올 제약/바이오 이지수] ★ 실적 선방 속 지나가는 성장 ▶ 3Q26 연결 매출액 1조 3,451억원(+7.0% YoY), 영업이익 6,052억원(-4.4% YoY)으로 시장 기대치에 부합할 전망. 5월 파업에 따른 생산 차질과 원/달러 환율 하락에도 1~4공장 풀가동 및 5공장 PPQ 매출 반영으로 견조한 실적 예상 ▶ 3Q 생산 정상화 효과와 미국 Rockville 공장 매출은 4Q부터 본격 반영될 전망. 다만 인수 초기 Rockville 공장의 가동률을 약 50%로 가정해 고정비 부담에 따른 수익성 개선 폭은 제한적일 것으로 예상 ▶ 26년 매출액 5조 4,383억원(+19.3% YoY), 영업이익 2조 4,566억원(+18.8% YoY) 추정. 5공장 가동 확대와 6공장 증설, PolyPeptide 인수를 통한 중장기 성장 모멘텀은 유효 ▶ 노사 협상은 10/1 3차 사후조정에도 합의에 이르지 못함. 추가 파업 여부와 Rockville 공장 가동률, PolyPeptide 인수 이후 실적 반영이 향후 주요 변수 ▶ 실적 추정치 조정과 유상증자에 따른 신주 227만주 발행을 반영해 적정주가를 200만원으로 하향. 투자의견 BUY 유지 ★ 보고서원문 및 컴플라이언스 → https://buly.kr/2qbLY6R",
+              "post_url": "https://t.me/daolresearch/15164",
+              "source_url": "https://buly.kr/2qbLY6R"
+            },
             {
               "id": 15154,
               "date": "2026-10-02",
@@ -559,7 +743,7 @@
           ]
         }
       ],
-      "report_count": 8
+      "report_count": 11
     },
     {
       "month": "2026-09",
