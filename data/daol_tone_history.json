@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:04:42.032273+00:00",
+  "generated_at": "2026-10-05T04:28:58.708898+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1352,
   "months": [
@@ -6261,9 +6261,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "미국의 중국산 라이신 대상 확정관세 판결 영향 전망 관세 부과를 앞두고 중국산 라이신 가격 급등이 예상되자 재고 확보 경쟁",
-              "industry_conclusion": "미국의 중국산 라이신 대상 확정관세 판결 영향 전망",
-              "report_conclusion": "미국의 중국산 라이신 대상 확정관세 판결 영향 전망",
+              "pitch": "제목: 미국의 중국산 라이신 대상 확정판결 영향 전망. 관세 부과를 앞두고 중국산 라이신 가격 급등이 예상되자 재고 확보 경쟁이 심화됐기 때문.",
+              "industry_conclusion": "제목: 미국의 중국산 라이신 대상 확정판결 영향 전망.",
+              "report_conclusion": "제목: 미국의 중국산 라이신 대상 확정판결 영향 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -8470,8 +8470,24 @@
               "source": "https://t.me/daolresearch/14651"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "top_picks": [
+            {
+              "text": "[보험] Overweight, Top-pick: 삼성화재.",
+              "date": "2026-07-09",
+              "source": "https://t.me/daolresearch/14536"
+            },
+            {
+              "text": "[은행] Overweight, Top-pick: KB금융, 관심종목: 신한지주.",
+              "date": "2026-07-09",
+              "source": "https://t.me/daolresearch/14536"
+            },
+            {
+              "text": "[증권] Overweight, Top-pick: 한국금융지주.",
+              "date": "2026-07-09",
+              "source": "https://t.me/daolresearch/14536"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
           "report_count": 9,
@@ -8702,13 +8718,21 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "[보험] Overweight, Top-pick: 삼성화재.",
+                "[은행] Overweight, Top-pick: KB금융, 관심종목: 신한지주.",
+                "[증권] Overweight, Top-pick: 한국금융지주."
+              ],
+              "preferred_stocks": [
+                "[보험] Overweight, Top-pick: 삼성화재.",
+                "[은행] Overweight, Top-pick: KB금융, 관심종목: 신한지주.",
+                "[증권] Overweight, Top-pick: 한국금융지주."
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": ": 불확실성 속 금융주 투자전략. [보험] Overweight, Top-pick: 삼성화재. [은행] Overweight, Top-pick: KB금융, 관심종목: 신한지주. [증권] Overweight, Top-pick: 한국금융지주. II. Seesaw Game 불확실성 속 금융주 투자전략, III. [보험] Overweight, IV. [은행] Overweight, V. [증권] Overweight, VI. 종목별 투자의견 (1. 삼성화재 000810, 2. 현대해상 001450, 3. KB금융 105560, 4. 신한지주 055550, 5. 하나금융지주 086790, 6. 우리금융지주 316140, 7. iM금융지주 139130, 8. BNK금융지주 138930, 9. JB금융지주 175330, 10. 미래에셋증권 006800, 11. 한국금융지주 071050, 12. NH투자증권 005940, 13. 삼성증권 016360, 14. 키움증권 039490). [AI판독: 텍스트 추출 실패 PDF를 Gemini가 직접 판독한 전사본]",
+              "industry_conclusion": "금융 2H26 전망: Seesaw Game, 발간일: 09 Jul. Summary: 불확실성 속 금융주 투자전략. Seesaw Game 불확실성 속 금융주 투자전략, III.",
+              "report_conclusion": "금융 2H26 전망: Seesaw Game, 발간일: 09 Jul. Summary: 불확실성 속 금융주 투자전략. Seesaw Game 불확실성 속 금융주 투자전략, III.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -14841,18 +14865,14 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "1. 주식전략 - Climb a little higher Il, 이슈분석 - 대만을 보는 KOSPI, KOSPIS 보는 KOSDAQ Appendix - 20264 하반기 글로벌 이벤트 캘린더 주식시장 개126 전망 | Climb a little higher DAOL Investment & Securities | 2 례 잠재되어 있던 인플레이션 요인에 더해 전쟁이라는 외생변수까지 인플레이션을 자극 중. 이에 연동된 Bel ASS 분명 증시 부담 요인. 하지만, 아직은 시 어 64406: 기여하고 있는 명목 성장률이 금리 부담을 흡수하는 FOS 판단. 유가와 인플레이션이 정점을 통과하면 금리는 완만히 낮아질 수 있으나, 하락 : AES 다소 더디게 진행될 가능성 존재, 결국 하반기 증시는 금리 부담을 이겨내는 성장 요인에 집중할 필요 02. 지금과 유사한 과거 상승장은 언제 있었을까? ㆍ 최근 KOSPI SBS 2005~2007년 러벨엄징세와 유사성이 있다고 WEL 당시애도 투자 사이클미 성장을 지탬했고 금리가 성장을 만들어 냈던 투자 사이클을 MOSH] 전까지 상승장이 이어졌음. 현재는 Al 446>가 그 역할을 하고 있음. AG 의구심이 제기되고는 있지만 하이퍼스케일러들은 투자를 속할 어력미중분하다고 판던되며, 더욱 가플라지고 있는 Forward CAPEX, LLM} 데이터 AHS 지나 Physical AMAL BHISKE 시 발전 경로 SS 감안하면 이번 투자 사이클은 아직 종료보다 지속 가능성에 무게 Q3. 가파르게 상향된 이익 전망과 낮은 밸류에이션, 하반기에도 이어질까? ㆍ 한국 증시 이익 전망은 반도체 Top2 ASE 이례적으로 상향됐고, 반도체 외 업종도 개선 흐름이 Sole f, 반도체를 중심으로 한 강한 수출 모멘 측면에서는 글로벌 증시 할인율이 많이 완화되고 있지만, PBR 관점에서 한국의 높은 {에 대한 신뢰도가 높지는 않아 1 L 도태 ㆍ 필요할 문제. 단, 견조한 이익 때 os 일단 이 SHS 완화시켜 주고 있으며, 당장 PERS] 가시적 SHE 어렵겠으나, 연말로 가면서 미국의 금리 HE|S ㅣ 평균적인 계절성을 본다면 경한다면 추가적인 이익 전망치의 상향 가능성은 남아 있다고 팬 “TL 제한적일 A 인거 을 바으 TMA = 1 | 더 | are 점진적으로 하향돋 상은 스 iS) 은 이루어질 수 있을 것으로 전망 ㆍ ~~ 려 ~ Say o~- DAOL Investment &Securiti",
-              "industry_conclusion": "주식시장 개126 전망 | Climb a little higher 가파르게 상향된 이익 전망과 낮은 밸류에이션, 하반기에도 이어질까? ㆍ 한국 증시 이익 전망은 반도체 Top2 ASE 이례적으로 상향됐고, 반도체 외 업종도 개선 흐름이 Sole 경한다면 추가적인 이익 전망치의 상향 가능성은 남아 있다고 팬 은 이루어질 수 있을 것으로 전망",
-              "report_conclusion": "주식시장 개126 전망 | Climb a little higher 가파르게 상향된 이익 전망과 낮은 밸류에이션, 하반기에도 이어질까? ㆍ 한국 증시 이익 전망은 반도체 Top2 ASE 이례적으로 상향됐고, 반도체 외 업종도 개선 흐름이 Sole 경한다면 추가적인 이익 전망치의 상향 가능성은 남아 있다고 팬 은 이루어질 수 있을 것으로 전망",
+              "pitch": "다올투자증권 주식시장 2H26 전망 (발간일: 2026년 6월 5일, 투자전략 조병현, 시황분석 김지현). 코스피는 반도체 Top2 주도로 가파르게 상향된 이익 전망과 낮은 밸류에이션을 바탕으로 하반기 상단 11,800pt 제시. 개인의 현금 순매수와 ETF 순매수에 따른 금융투자의 현물 순매수가 지수 상승 견인.",
+              "industry_conclusion": "다올투자증권 주식시장 2H26 전망 (발간일: 2026년 6월 5일, 투자전략 조병현, 시황분석 김지현). 코스피는 반도체 Top2 주도로 가파르게 상향된 이익 전망과 낮은 밸류에이션을 바탕으로 하반기 상단 11,800pt 제시.",
+              "report_conclusion": "다올투자증권 주식시장 2H26 전망 (발간일: 2026년 6월 5일, 투자전략 조병현, 시황분석 김지현). 코스피는 반도체 Top2 주도로 가파르게 상향된 이익 전망과 낮은 밸류에이션을 바탕으로 하반기 상단 11,800pt 제시.",
               "valuation": [
-                "가파르게 상향된 이익 전망과 낮은 밸류에이션, 하반기에도 이어질까?",
-                "측면에서는 글로벌 증시 할인율이 많이 완화되고 있지만, PBR 관점에서 한국의 높은 {에 대한 신뢰도가 높지는 않아",
-                "단, 견조한 이익 때 os 일단 이 SHS 완화시켜 주고 있으며, 당장 PERS] 가시적 SHE 어렵겠으나, 연말로 가면서 미국의 금리"
+                "코스피는 반도체 Top2 주도로 가파르게 상향된 이익 전망과 낮은 밸류에이션을 바탕으로 하반기 상단 11,800pt 제시."
               ],
               "earnings_changes": [
-                "가파르게 상향된 이익 전망과 낮은 밸류에이션, 하반기에도 이어질까?",
-                "ㆍ 한국 증시 이익 전망은 반도체 Top2 ASE 이례적으로 상향됐고, 반도체 외 업종도 개선 흐름이 Sole",
-                "경한다면 추가적인 이익 전망치의 상향 가능성은 남아 있다고 팬"
+                "코스피는 반도체 Top2 주도로 가파르게 상향된 이익 전망과 낮은 밸류에이션을 바탕으로 하반기 상단 11,800pt 제시."
               ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/141431/1/20260605_B_bhcho_278.pdf",
@@ -15304,24 +15324,8 @@
               "source": "https://t.me/daolresearch/14251"
             }
           ],
-          "top_picks": [
-            {
-              "text": "44 삼성전자 (005930) _ Top Picks",
-              "date": "2026-05-19",
-              "source": "https://t.me/daolresearch/14251"
-            },
-            {
-              "text": "50 SKSfO|L!A (000660) _ Top Picks",
-              "date": "2026-05-19",
-              "source": "https://t.me/daolresearch/14251"
-            },
-            {
-              "text": "55 브이엠 (089970) _ Top Picks",
-              "date": "2026-05-19",
-              "source": "https://t.me/daolresearch/14251"
-            }
-          ],
-          "top_pick_change": "전월과 문구/구성 변경",
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [
             {
               "company": "산업/기타",
@@ -15364,21 +15368,13 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [
-                "44 삼성전자 (005930) _ Top Picks",
-                "50 SKSfO|L!A (000660) _ Top Picks",
-                "55 브이엠 (089970) _ Top Picks"
-              ],
-              "preferred_stocks": [
-                "44 삼성전자 (005930) _ Top Picks",
-                "50 SKSfO|L!A (000660) _ Top Picks",
-                "55 브이엠 (089970) _ Top Picks"
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "08 I, 생태계 내 모두가 막대한 AL 투자를 분담한다 1-1. 기본 개념 재정리, Al 연산과 반도체의 연결성 Croft | -2. AMSA 수요) - Agentic Al | -3. SAYA 수요(2) - Physical Al 1 -4. 연산의 다다익선, 빅테크의 막대한 투자를 모두가 271 Il, 초현실적 수요의 현실화 방법, 줄이거나 늘리거나 분담한다 11-1. 하드웨어(3240/|1814)는 하드웨어로(0201 > CPO > HBF) 11-2.16-17-18 006에서 소프트웨어 효율화는 경험이 11-3. 줄일 수 있는 것(일반 마&14)과 없는 2(HBM) 32 |. 공급의 평행선 1/-1. 신규 Fab 가동 시작은 2027부터 1/-2. 메모리 가짓수 확대가 야기할 공급 제약 1/-3. 중국의 위협? 1,000《가 100(로 되는 마법 1/-4. 장기공급계약 구조에 대한 다각도 분석 471 \\. 투자전략 43 1. 종목별 투자의견 2A 44 삼성전자 (005930) _ Top Picks 50 SKSfO|L!A (000660) _ Top Picks 55 브이엠 (089970) _ Top Picks 58 신성이엔지 (011930) 01 에스티아이 (039440) DAOL Investment & Securities | 2 있다 In-Depth | 반도체/소부장 2H26 전망 1. Summary & Focus Chart 수요 초록불 - 이제는 생태계 모두가 AL 투자 비용을 분담한다 LE 이후 Al 산업의 방향은 에이전트, Physical ALS 이어지고 있다. 일회적인 추론 연산으로 GRAS 도찰하는 BEM} 달리 에이전트와 Physical ALS '결과 도출-상횡 재반영 운 프 Lu Bye] 중요했던 것과 달리, 앞으로는 서비스의 성능 a > = 1 경쟁력이 '연산의 다다익선'으로 결정된다는 의미다. 41011214가 오픈 소스로 제공 으 io 서비스 강화가 가능해진다. 주요 빅테크의 막대한 AL 투자 비용을 점차 모든 생태계 3 투자는 리 는 FAR 변모한다. 지금의 공격적 r= u 『도체를 아끼려 할수록 반도체를 더 사용한다 익선을 바꿔 표현하면 반도체의 다다익선이다. 당연하게도 의존도를 낮 주요 빅테크들의 효율화 노력은 끊임없이 지속되나 이 과정에서 오히려 류 및 개수가 많아지고 있다 o}E/Physical AIS} 반복 루프 연산 구조에서 핵심은 GPUS} 11814이다. 그러나 alue-Cha",
-              "industry_conclusion": "In-Depth | 반도체/소부장 2H26 전망",
-              "report_conclusion": "In-Depth | 반도체/소부장 2H26 전망",
+              "pitch": "다올투자증권 리서치보고서, 반도체/소부장 2H26 전망: 꺼지지 않는 초록불, 발간일: 19 May 2026, 애널리스트: 고영민, 김연미.",
+              "industry_conclusion": "다올투자증권 리서치보고서, 반도체/소부장 2H26 전망: 꺼지지 않는 초록불, 발간일: 19 May 2026, 애널리스트: 고영민, 김연미.",
+              "report_conclusion": "다올투자증권 리서치보고서, 반도체/소부장 2H26 전망: 꺼지지 않는 초록불, 발간일: 19 May 2026, 애널리스트: 고영민, 김연미.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -27590,8 +27586,14 @@
               "source": "https://t.me/daolresearch/13778"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "전월 대비 유지",
+          "top_picks": [
+            {
+              "text": "Top Picks로는 로보티즈(108490, BUY, 적정주가 340,000원)와 에스피지(058610, BUY, 적정주가 170,000원)를 제시하였으며, 에스비비테크, 클로봇, 티로보틱스, 에브리봇은 Not Rated로 제시되었습니다.",
+              "date": "2026-03-16",
+              "source": "https://t.me/daolresearch/13778"
+            }
+          ],
+          "top_pick_change": "해당 기간 최초 명시",
           "tp_changes": [],
           "tp_raises": [],
           "report_count": 1,
@@ -27606,13 +27608,17 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "Top Picks로는 로보티즈(108490, BUY, 적정주가 340,000원)와 에스피지(058610, BUY, 적정주가 170,000원)를 제시하였으며, 에스비비테크, 클로봇, 티로보틱스, 에브리봇은 Not Rated로 제시되었습니다."
+              ],
+              "preferred_stocks": [
+                "Top Picks로는 로보티즈(108490, BUY, 적정주가 340,000원)와 에스피지(058610, BUY, 적정주가 170,000원)를 제시하였으며, 에스비비테크, 클로봇, 티로보틱스, 에브리봇은 Not Rated로 제시되었습니다."
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "로봇 섹터에 대해 비중확대(Overweight) 의견을 제시하며, 2026년 하반기 주요 OEM의 부품사 선정, 양산 가시화 등에 따른 모멘텀을 전망합니다.",
+              "industry_conclusion": "로봇 섹터에 대해 비중확대(Overweight) 의견을 제시하며, 2026년 하반기 주요 OEM의 부품사 선정, 양산 가시화 등에 따른 모멘텀을 전망합니다.",
+              "report_conclusion": "로봇 섹터에 대해 비중확대(Overweight) 의견을 제시하며, 2026년 하반기 주요 OEM의 부품사 선정, 양산 가시화 등에 따른 모멘텀을 전망합니다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -41193,14 +41199,14 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "2026 금융 연간전망: Capture Money in Motion, 발간일: 2025년 12월 3일, 애널리스트: 김지원 (jiwonkim@daolfn.com), 다올투자증권. [증권] Overweight: 국내주식 거래대금 증가 전망, 신용 거래 수요에 따른 잔고 증가, IB 영업 확대 경쟁, 운용 및 기타이익. [은행] Overweight: 수신금리 상승 및 수신성장률 둔화 전망, 대출금리 하락 및 대출성장률 소폭 회복 전망, CET1 비율과 주주환원율 상향 유지. [보험] Neutral: CSM 잔액 성장률 둔화 전망, 신계약 CSM 및 손익·투자손익 전망, K-ICS 비율과 배당가능이익.",
+              "industry_conclusion": "2026 금융 연간전망: Capture Money in Motion, 발간일: 2025년 12월 3일, 애널리스트: 김지원 (jiwonkim@daolfn.com), 다올투자증권. 투자전략: 증권 Overweight, 은행 Overweight, 보험 Neutral. [증권] Overweight: 국내주식 거래대금 증가 전망, 신용 거래 수요에 따른 잔고 증가, IB 영업 확대 경쟁, 운용 및 기타이익. [은행] Overweight: 수신금리 상승 및 수신성장률 둔화 전망, 대출금리 하락 및 대출성장률 소폭 회복 전망, CET1 비율과 주주환원율 상향 유지. [보험] Neutral: CSM 잔액 성장률 둔화 전망, 신계약 CSM 및 손익·투자손익 전망, K-ICS 비율과 배당가능이익.",
+              "report_conclusion": "2026 금융 연간전망: Capture Money in Motion, 발간일: 2025년 12월 3일, 애널리스트: 김지원 (jiwonkim@daolfn.com), 다올투자증권. 투자전략: 증권 Overweight, 은행 Overweight, 보험 Neutral. [증권] Overweight: 국내주식 거래대금 증가 전망, 신용 거래 수요에 따른 잔고 증가, IB 영업 확대 경쟁, 운용 및 기타이익. [은행] Overweight: 수신금리 상승 및 수신성장률 둔화 전망, 대출금리 하락 및 대출성장률 소폭 회복 전망, CET1 비율과 주주환원율 상향 유지. [보험] Neutral: CSM 잔액 성장률 둔화 전망, 신계약 CSM 및 손익·투자손익 전망, K-ICS 비율과 배당가능이익.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/135587/1/20251203_B40_jiwonkim_158.pdf",
-              "pdf_error": "backfill: no better text (ocr)",
+              "pdf_error": "",
               "title": "[증권(Overweight)/은행(Overweight)/보험(Neutral)｜다올 금융 김지원 ☎ 2184-2306] ★ 2026 금융 연간전망: Capture Money in Motion",
               "summary": "[증권(Overweight)/은행(Overweight)/보험(Neutral)｜다올 금융 김지원 ☎ 2184-2306] ★ 2026 금융 연간전망: Capture Money in Motion ▶ 금융업종 간 투자의견은 증권 > 은행 > 보험 순을 유지 ▶ 구조적 여건상 증권업종에 아직 유리하다고 판단. 거래대금 증가 전망 유지와 증권업종으로의 머니무브 가능성. 성장 스토리의 연장 가능 ▶ 다만, 희석 여부에 따라 높은 주주환원수익률이 기대되는 은행주의 확인된 매력이 상대적으로 더 부각될 개연성도 염두 ▶ 업권별 2026년 상세 전망 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/7x7WhOt >",
               "post_url": "https://t.me/daolresearch/13033",
@@ -42998,27 +43004,7 @@
           ],
           "top_picks": [
             {
-              "text": "46 9하이닉스 (000660) _ Top Picks",
-              "date": "2025-11-06",
-              "source": "https://t.me/daolresearch/12811"
-            },
-            {
-              "text": "57 브이엠 (089970) _ Top Picks",
-              "date": "2025-11-06",
-              "source": "https://t.me/daolresearch/12811"
-            },
-            {
-              "text": "60 에스티아이 (039440) _ Top Picks",
-              "date": "2025-11-06",
-              "source": "https://t.me/daolresearch/12811"
-            },
-            {
-              "text": "전반의 비중확대와 더불어, 대형주 최선호주 6#하이닉스/차선호주 삼",
-              "date": "2025-11-06",
-              "source": "https://t.me/daolresearch/12811"
-            },
-            {
-              "text": "선호주 브이엠, 에스티아이 의견을 유지한다",
+              "text": "산업 투자의견: 비중확대 및 최선호주 유지.",
               "date": "2025-11-06",
               "source": "https://t.me/daolresearch/12811"
             },
@@ -43034,8 +43020,36 @@
             }
           ],
           "top_pick_change": "해당 기간 최초 명시",
-          "tp_changes": [],
-          "tp_raises": [],
+          "tp_changes": [
+            {
+              "company": "적정주가",
+              "direction": "상향",
+              "old": null,
+              "new": 760000,
+              "display": "760,000원 (상향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "내용: 1) 공간이 없어 공급 증가가 어렵다 - 26년까지 가시적인 가격 상승세 예상 및 공급 제약 지속. 2) B2C AI도 물리로 확장 - 물리 AI(Physical AI) 도입으로 온디바이스 및 클라우드 서버 투자 자극. 3) 장기 계약, 본질은 동일하다 - 장기공급계약(LTA) 증가와 선포(PO) 동반으로 수요 가시성 높음. 4) 이상(SSD)과 현실(HDD) - eSSD 수요 폭증과 HDD 동향에 따른 SSD 가격 지표 연동. 주요 종목별 투자의견 및 적정주가: SK하이닉스(000660) 투자의견 BUY, 적정주가 760,000원(직전 700,000원, 상향); 삼성전자(005930) 투자의견 BUY, 적정주가 136,000원(직전 136,000원, 유지); 브이엠(089970) 투자의견 BUY, 적정주가 40,000원(직전 40,000원, 유지); 에스티아이(039440) 투자의견 BUY, 적정주가 38,000원(직전 38,000원, 유지). [AI판독: 텍스트 추출 실패 PDF를 Gemini가 직접 판독한",
+              "date": "2025-11-06",
+              "source": "https://t.me/daolresearch/12811"
+            }
+          ],
+          "tp_raises": [
+            {
+              "company": "적정주가",
+              "direction": "상향",
+              "old": null,
+              "new": 760000,
+              "display": "760,000원 (상향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "내용: 1) 공간이 없어 공급 증가가 어렵다 - 26년까지 가시적인 가격 상승세 예상 및 공급 제약 지속. 2) B2C AI도 물리로 확장 - 물리 AI(Physical AI) 도입으로 온디바이스 및 클라우드 서버 투자 자극. 3) 장기 계약, 본질은 동일하다 - 장기공급계약(LTA) 증가와 선포(PO) 동반으로 수요 가시성 높음. 4) 이상(SSD)과 현실(HDD) - eSSD 수요 폭증과 HDD 동향에 따른 SSD 가격 지표 연동. 주요 종목별 투자의견 및 적정주가: SK하이닉스(000660) 투자의견 BUY, 적정주가 760,000원(직전 700,000원, 상향); 삼성전자(005930) 투자의견 BUY, 적정주가 136,000원(직전 136,000원, 유지); 브이엠(089970) 투자의견 BUY, 적정주가 40,000원(직전 40,000원, 유지); 에스티아이(039440) 투자의견 BUY, 적정주가 38,000원(직전 38,000원, 유지). [AI판독: 텍스트 추출 실패 PDF를 Gemini가 직접 판독한",
+              "date": "2025-11-06",
+              "source": "https://t.me/daolresearch/12811"
+            }
+          ],
           "report_count": 2,
           "reports": [
             {
@@ -43082,24 +43096,40 @@
               "report_type": "산업자료",
               "opinion": "비중확대",
               "top_picks": [
-                "46 9하이닉스 (000660) _ Top Picks",
-                "57 브이엠 (089970) _ Top Picks",
-                "60 에스티아이 (039440) _ Top Picks",
-                "전반의 비중확대와 더불어, 대형주 최선호주 6#하이닉스/차선호주 삼",
-                "선호주 브이엠, 에스티아이 의견을 유지한다"
+                "산업 투자의견: 비중확대 및 최선호주 유지."
               ],
               "preferred_stocks": [
-                "46 9하이닉스 (000660) _ Top Picks",
-                "57 브이엠 (089970) _ Top Picks",
-                "60 에스티아이 (039440) _ Top Picks",
-                "전반의 비중확대와 더불어, 대형주 최선호주 6#하이닉스/차선호주 삼",
-                "선호주 브이엠, 에스티아이 의견을 유지한다"
+                "산업 투자의견: 비중확대 및 최선호주 유지."
               ],
-              "tp_changes": [],
-              "tp_raises": [],
-              "pitch": "07 1. 과거로 회귀한 Cycle2| 속성 | -1. 9월 중순 이후 달라진 것 I-2.Al 수요는 변수 없이 27년까지 우상향 1-3. 결국 BSS 다시 BH Cycles} 동일 16 11. 같지만 CHE® 공간이 없어 공급을 못 늘린다 11-1. 공급 증가 제약의 시작점, 공간 11-2. 27년까지의 업체별 증설 AAS 및 캐파 세부 주성 20 1\\. 같지만 다른22 620 시도 Belz 확장 V-1,B2B 만이 아니라 820 시도 물리(카\\/51081 A= 1/-2.820 시 물리 확대 > 온디바이스 수요 및 클라우드 서버 투자 자극 V-3. 클라우드 조기와 달리 기초 체력은 높아졌다 29 \\/. 다르지만 BLO 장기 계약, BIS 동일하다 구조와 유사섬/차별성 비교 Ad ie) V-1. 16-17-18 Cycle 계약 구 V-2.18'4 Down-Cycle 전환 변곡점 s 2 S/W 효율화로부터 | = NVIDIA CPX? 중요하다 V-3. 이번 CycledA] 효율호 36 VI. 다르지만 GEO 이상(650)과 (HDD) Vi-1. 주가의 변곡점은 1) ee sol © 추거나, 2) 증가율이 둔화되거나 VI-2, 스토리지에서 SSD 전환이 필요한 이론적 이유 VI-3, 그러나 현실은(100 — 결정될 550 가격 지 ra 43 VIL, 투자전략 45 Vill. 종목별 투자의견 46 9하이닉스 (000660) _ Top Picks 51 삼성전자 (005930) 57 브이엠 (089970) _ Top Picks 60 에스티아이 (039440) _ Top Picks DAOL Investment &Securities | 2 In-Depth | 2026 반도체/소부장 연간전망 rad 1. Summary & Focus Chart 같지만 다를 1H26 이전 Up-Cyclest 유사하지만 이번 국면이 더 긍정적인 차별화된 이유들이 있다. 해 당 요인들이 18126까지 이익 및 주가의 우상향을 견고히 만들 전망이다. (01) 공간이 없어 공급 증가가 어렵다: FH St 마찬가지로 공급 레벨이 눌려 있던 상 황에서 출발한 가격 상승세다. 다만, 차이는 지난 2년간 사전적 인프라 투자가 제한 적이었던 결과로 생산업체들의 단7| 공급 증가가 물리적으로 어렵다는 점이다. 투자 ANSE 감안할 때, 2[126부터 점진적, 27년 이후 유의미한 공급 확대가 가능하다. (2) 820 시도 BAS 확장: AL 수요는 27년까지 지",
-              "industry_conclusion": "In-Depth | 2026 반도체/소부장 연간전망 당 요인들이 18126까지 이익 및 주가의 우상향을 견고히 만들 전망이다.",
-              "report_conclusion": "In-Depth | 2026 반도체/소부장 연간전망 당 요인들이 18126까지 이익 및 주가의 우상향을 견고히 만들 전망이다.",
+              "tp_changes": [
+                {
+                  "company": "적정주가",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 760000,
+                  "display": "760,000원 (상향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "내용: 1) 공간이 없어 공급 증가가 어렵다 - 26년까지 가시적인 가격 상승세 예상 및 공급 제약 지속. 2) B2C AI도 물리로 확장 - 물리 AI(Physical AI) 도입으로 온디바이스 및 클라우드 서버 투자 자극. 3) 장기 계약, 본질은 동일하다 - 장기공급계약(LTA) 증가와 선포(PO) 동반으로 수요 가시성 높음. 4) 이상(SSD)과 현실(HDD) - eSSD 수요 폭증과 HDD 동향에 따른 SSD 가격 지표 연동. 주요 종목별 투자의견 및 적정주가: SK하이닉스(000660) 투자의견 BUY, 적정주가 760,000원(직전 700,000원, 상향); 삼성전자(005930) 투자의견 BUY, 적정주가 136,000원(직전 136,000원, 유지); 브이엠(089970) 투자의견 BUY, 적정주가 40,000원(직전 40,000원, 유지); 에스티아이(039440) 투자의견 BUY, 적정주가 38,000원(직전 38,000원, 유지). [AI판독: 텍스트 추출 실패 PDF를 Gemini가 직접 판독한"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "적정주가",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 760000,
+                  "display": "760,000원 (상향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "내용: 1) 공간이 없어 공급 증가가 어렵다 - 26년까지 가시적인 가격 상승세 예상 및 공급 제약 지속. 2) B2C AI도 물리로 확장 - 물리 AI(Physical AI) 도입으로 온디바이스 및 클라우드 서버 투자 자극. 3) 장기 계약, 본질은 동일하다 - 장기공급계약(LTA) 증가와 선포(PO) 동반으로 수요 가시성 높음. 4) 이상(SSD)과 현실(HDD) - eSSD 수요 폭증과 HDD 동향에 따른 SSD 가격 지표 연동. 주요 종목별 투자의견 및 적정주가: SK하이닉스(000660) 투자의견 BUY, 적정주가 760,000원(직전 700,000원, 상향); 삼성전자(005930) 투자의견 BUY, 적정주가 136,000원(직전 136,000원, 유지); 브이엠(089970) 투자의견 BUY, 적정주가 40,000원(직전 40,000원, 유지); 에스티아이(039440) 투자의견 BUY, 적정주가 38,000원(직전 38,000원, 유지). [AI판독: 텍스트 추출 실패 PDF를 Gemini가 직접 판독한"
+                }
+              ],
+              "pitch": "다올투자증권 리서치 보고서: 2026 반도체/소부장 연간전망 (발간일: 2025년 11월 6일, 애널리스트: 고영민, 김연미). 주요 내용: 1) 공간이 없어 공급 증가가 어렵다 - 26년까지 가시적인 가격 상승세 예상 및 공급 제약 지속.",
+              "industry_conclusion": "다올투자증권 리서치 보고서: 2026 반도체/소부장 연간전망 (발간일: 2025년 11월 6일, 애널리스트: 고영민, 김연미). 산업 투자의견: 비중확대 및 최선호주 유지. 주요 종목별 투자의견 및 적정주가: SK하이닉스(000660) 투자의견 BUY, 적정주가 760,000원(직전 700,000원, 상향); 삼성전자(005930) 투자의견 BUY, 적정주가 136,000원(직전 136,000원, 유지); 브이엠(089970) 투자의견 BUY, 적정주가 40,000원(직전 40,000원, 유지); 에스티아이(039440) 투자의견 BUY, 적정주가 38,000원(직전 38,000원, 유지).",
+              "report_conclusion": "다올투자증권 리서치 보고서: 2026 반도체/소부장 연간전망 (발간일: 2025년 11월 6일, 애널리스트: 고영민, 김연미). 산업 투자의견: 비중확대 및 최선호주 유지. 주요 종목별 투자의견 및 적정주가: SK하이닉스(000660) 투자의견 BUY, 적정주가 760,000원(직전 700,000원, 상향); 삼성전자(005930) 투자의견 BUY, 적정주가 136,000원(직전 136,000원, 유지); 브이엠(089970) 투자의견 BUY, 적정주가 40,000원(직전 40,000원, 유지); 에스티아이(039440) 투자의견 BUY, 적정주가 38,000원(직전 38,000원, 유지).",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -64955,14 +64985,18 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "주요 내용: 1) 글로벌 경제 및 통화정책: 저성장 부담과 트럼프 관세 부과 등에 대응하여 미국 및 주요국에서 재정 정책과 통화 완화 조치가 교차로 진행될 전망. 2) 한국 증시(KOSPI) 전망: 8월은 기간조정 흐름 속에 Range 2,970~3,270pt 전망. 이익 전망치 하향 조정 국면이나, 정부의 적극적 재정정책과 정책적 유동성 지원, ROE 중심의 밸류에이션 확산 기대.",
               "industry_conclusion": "",
-              "report_conclusion": "DAOL 다올투자증권 투자전략 조병현 아00@@080110.0007",
-              "valuation": [],
-              "earnings_changes": [],
+              "report_conclusion": "다올투자증권, 투자전략 조병현(2025. 주요 내용: 1) 글로벌 경제 및 통화정책: 저성장 부담과 트럼프 관세 부과 등에 대응하여 미국 및 주요국에서 재정 정책과 통화 완화 조치가 교차로 진행될 전망. 2) 한국 증시(KOSPI) 전망: 8월은 기간조정 흐름 속에 Range 2,970~3,270pt 전망. 이익 전망치 하향 조정 국면이나, 정부의 적극적 재정정책과 정책적 유동성 지원, ROE 중심의 밸류에이션 확산 기대. 3) 업종별 투자전략: AI 기술 확산에 따른 2차전지, 소재, 헬스케어 및 수소/전기차 등 밸류체인 주목, 하반기 4분기 순환매 및 확산 기대.",
+              "valuation": [
+                "이익 전망치 하향 조정 국면이나, 정부의 적극적 재정정책과 정책적 유동성 지원, ROE 중심의 밸류에이션 확산 기대."
+              ],
+              "earnings_changes": [
+                "이익 전망치 하향 조정 국면이나, 정부의 적극적 재정정책과 정책적 유동성 지원, ROE 중심의 밸류에이션 확산 기대."
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/131828/1/20250728_B_bhcho_218.pdf",
-              "pdf_error": "backfill: no better text (ocr)",
+              "pdf_error": "",
               "title": "[2025 하반기 Macro/Market Update / 다올투자증권 투자전략 조병현 ☎️ 02-2184-2351] ★ 정책과 유동성이 주는 확산 기회",
               "summary": "[2025 하반기 Macro/Market Update / 다올투자증권 투자전략 조병현 ☎️ 02-2184-2351] ★ 정책과 유동성이 주는 확산 기회 ▶️ Intro - 좌시가 아닌 대응 ▶️ 경제현황/환율 - 성장률 부담을 좌시할 정부는 없다 ▶️ 증시 - 발판은 마련, 도약 가능성을 모색 중 ▶️ Appendix - 8월 및 하반기 주요 이벤트 ♣️ 보고서 원문 및 Compliance Notice : < https://buly.kr/31TYpQz >",
               "post_url": "https://t.me/daolresearch/12054",

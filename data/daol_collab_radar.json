@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T04:10:37.348989+00:00",
+ "generated_at": "2026-10-05T04:31:12.787264+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1352,
  "hits": [
@@ -3341,6 +3341,41 @@
    "score": 0,
    "evidences": [
     "️ 경제현황/환율 - 성장률 부담을 좌시할 정부는 없다"
+   ],
+   "title": "[2025 하반기 Macro/Market Update / 다올투자증권 투자전략 조병현 ☎️ 02-2184-2351] ★ 정책과 유동성이 주는 확산 기회",
+   "post_url": "https://t.me/daolresearch/12054",
+   "source_url": "https://buly.kr/31TYpQz"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2025-07-28",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "정책과",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "주요 내용: 1) 글로벌 경제 및 통화정책: 저성장 부담과 트럼프 관세 부과 등에 대응하여 미국 및 주요국에서 재정 정책과 통화 완화 조치가 교차로 진행될 전망."
+   ],
+   "title": "[2025 하반기 Macro/Market Update / 다올투자증권 투자전략 조병현 ☎️ 02-2184-2351] ★ 정책과 유동성이 주는 확산 기회",
+   "post_url": "https://t.me/daolresearch/12054",
+   "source_url": "https://buly.kr/31TYpQz"
+  },
+  {
+   "theme": "국내 정책/재정",
+   "category": "매크로",
+   "date": "2025-07-28",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "정책과",
+   "code": "",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "주요 내용: 1) 글로벌 경제 및 통화정책: 저성장 부담과 트럼프 관세 부과 등에 대응하여 미국 및 주요국에서 재정 정책과 통화 완화 조치가 교차로 진행될 전망.",
+    "이익 전망치 하향 조정 국면이나, 정부의 적극적 재정정책과 정책적 유동성 지원, ROE 중심의 밸류에이션 확산 기대."
    ],
    "title": "[2025 하반기 Macro/Market Update / 다올투자증권 투자전략 조병현 ☎️ 02-2184-2351] ★ 정책과 유동성이 주는 확산 기회",
    "post_url": "https://t.me/daolresearch/12054",
@@ -12048,9 +12083,10 @@
    "sector": "금융",
    "company": "2026",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 4,
    "evidences": [
+    "[은행] Overweight: 수신금리 상승 및 수신성장률 둔화 전망, 대출금리 하락 및 대출성장률 소폭 회복 전망, CET1 비율과 주주환원율 상향 유지.",
     "다만, 희석 여부에 따라 높은 주주환원수익률이 기대되는 은행주의 확인된 매력이 상대적으로 더 부각될 개연성도 염두"
    ],
    "title": "[증권(Overweight)/은행(Overweight)/보험(Neutral)｜다올 금융 김지원 ☎ 2184-2306] ★ 2026 금융 연간전망: Capture Money in Motion",
@@ -18677,11 +18713,11 @@
    "sector": "운송/로봇",
    "company": "로봇",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 2,
    "evidences": [
-    "[로봇(Overweight): 시연을 넘어, 일하는 로봇으로 | 다올 로봇/운송 오정하]",
-    "로봇 업종 커버리지 개시"
+    "로봇 섹터에 대해 비중확대(Overweight) 의견을 제시하며, 2026년 하반기 주요 OEM의 부품사 선정, 양산 가시화 등에 따른 모멘텀을 전망합니다.",
+    "[로봇(Overweight): 시연을 넘어, 일하는 로봇으로 | 다올 로봇/운송 오정하]"
    ],
    "title": "[로봇(Overweight): 시연을 넘어, 일하는 로봇으로 | 다올 로봇/운송 오정하] ★ 로봇 업종 커버리지 개시",
    "post_url": "https://t.me/daolresearch/13778",
@@ -24079,8 +24115,7 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "현재는 AI CAPEX가 그 역할을 하고 있음.",
-    "AG 의구심이 제기되고는 있지만 하이퍼스케일러들은 투자를 속할 어력미중분하다고 판던되며, 더욱 가플라지고 있는 Forward CAPEX, LLM} 데이터 AHS 지나 Physical AMAL BHISKE 시 발전 경로 SS 감안하면 이번 투자 사이클은 아직 종료보다 지속 가능성에 무게 Q3."
+    "현재는 AI CAPEX가 그 역할을 하고 있음."
    ],
    "title": "[2026년 하반기 주식시장 전망: Climb a little higher / 다올투자증권 매크로·투자전략 조병현 / 시황분석 김지현] I. 주식전략 - Climb a little higher Q1. 인플레이션과 고금리, 주식시장은 버틸 수 있을까?",
    "post_url": "https://t.me/daolresearch/14343",
@@ -24097,7 +24132,6 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "유가와 인플레이션이 정점을 통과하면 금리는 완만히 낮아질 수 있으나, 하락 : AES 다소 더디게 진행될 가능성 존재, 결국 하반기 증시는 금리 부담을 이겨내는 성장 요인에 집중할 필요 02.",
     "유가와 인플레이션이 정점을 통과하면 금리는 완만히 낮아질 수 있으나, 하락 속도는 다소 더디게 진행될 가능성 존재."
    ],
    "title": "[2026년 하반기 주식시장 전망: Climb a little higher / 다올투자증권 매크로·투자전략 조병현 / 시황분석 김지현] I. 주식전략 - Climb a little higher Q1. 인플레이션과 고금리, 주식시장은 버틸 수 있을까?",
