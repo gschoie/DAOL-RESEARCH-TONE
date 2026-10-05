@@ -24,14 +24,19 @@ jobs:
           SOURCE='https://buly.kr/7QNr6Q3'   # 13778 로봇 커버리지 개시
           s=requests.Session(); s.headers.update(UA)
           s.get(BASE+'/research/article/common.jspx?rGubun=RALL', timeout=15)
-          r=s.post(BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
-                   data={'curPage':'1','rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
-                         'filepath':'','attaFileNm':'','startDate':'2026/03/13','endDate':'2026/03/18',
-                         'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
-                   headers={'Referer':BASE+'/research/article/common.jspx?rGubun=RALL',
-                            'X-Requested-With':'XMLHttpRequest'}, timeout=20)
-          rows=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"", r.text, re.S)
-          print(f'게시판 3/13~18 행 {len(rows)}건 (totCount={r.headers.get("totCount")})')
+          rows=[]
+          for page in range(1, 8):
+              r=s.post(BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
+                       data={'curPage':str(page),'rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
+                             'filepath':'','attaFileNm':'','startDate':'2026/03/13','endDate':'2026/03/18',
+                             'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
+                       headers={'Referer':BASE+'/research/article/common.jspx?rGubun=RALL',
+                                'X-Requested-With':'XMLHttpRequest'}, timeout=20)
+              found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"", r.text, re.S)
+              if not found: break
+              rows+=found
+              if len(found)<10: break
+          print(f'게시판 3/13~18 행 {len(rows)}건')
           for d,p,fn,t in rows: print(' ', d, t[:60])
           hit=[(p,fn,t) for d,p,fn,t in rows if '로봇' in t or '시연을 넘어' in t]
           if not hit:
