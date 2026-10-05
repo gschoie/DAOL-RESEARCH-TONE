@@ -126,7 +126,7 @@ def main():
     prime, seen = [], set()
     for r in flat_reports(load_json(HISTORY, {'months': []})):
         if r.get('report_type') != '산업자료' or not r.get('source_url'): continue
-        if not re.search(r'In-?Depth|인뎁스|Preview|프리뷰', r.get('title') or '', re.I): continue
+        if not re.search(r'In-?Depth|인뎁스|Preview|프리뷰|커버리지\s*개시|Initiation|전망', r.get('title') or '', re.I): continue
         url = r['source_url']
         direct = direct_of(url, cache.get(url) or {})
         if not direct or url in seen: continue

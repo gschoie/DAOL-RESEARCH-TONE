@@ -242,7 +242,7 @@ def build_bundled_records(records, pdf_cache, sector_map, summaries=None):
             for item in extract_bundled_tp(text, name_to_code):
                 synth.append(make(r, item, f"산업 인뎁스 종목 페이지에서 추출 ({r['title'][:60]})", False))
                 added = True
-        elif text and re.search(r'In-?Depth|인뎁스|Preview|프리뷰', r['title'], re.I):
+        elif text and re.search(r'In-?Depth|인뎁스|Preview|프리뷰|커버리지\s*개시|Initiation|전망', r['title'], re.I):
             # 인뎁스·프리뷰로 보이는데 TP 박스가 전혀 안 읽히면 조용히 넘기지 말고 경고를 남긴다
             # (현대차 7/6 사고: 프리뷰 PDF가 껍데기 텍스트로 캐시돼 종목별 TP 하향이 통째로 누락)
             print(f"::warning::산업자료에서 종목 TP 미검출(원문 부실 의심): {r['date']} {r['title'][:50]}")
