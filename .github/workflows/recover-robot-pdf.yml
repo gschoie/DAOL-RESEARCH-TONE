@@ -1,0 +1,63 @@
+name: 일회용 — 3/16 로봇 인뎁스 PDF 복구
+# 2026-03-16 오정하 '로봇 업종 커버리지 개시' 인뎁스: buly.kr 실패로 PDF 미수집.
+# 다올 게시판 과거 날짜 조회로 attach가 아직 살아있으면 받아서 캐시에 넣고 커밋한다.
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: 게시판 조회·다운로드·캐시 갱신
+        run: |
+          pip install -q requests pypdf pypdfium2
+          python3 - <<'PY'
+          import json, re, requests, sys
+          sys.path.insert(0, '.')
+          from build_daol_tone_dashboard import extract_text_from_pdf, _kr
+          UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'}
+          BASE='https://www.daolsecurities.com'
+          SOURCE='https://buly.kr/7QNr6Q3'   # 13778 로봇 커버리지 개시
+          s=requests.Session(); s.headers.update(UA)
+          s.get(BASE+'/research/article/common.jspx?rGubun=RALL', timeout=15)
+          r=s.post(BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
+                   data={'curPage':'1','rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
+                         'filepath':'','attaFileNm':'','startDate':'2026/03/13','endDate':'2026/03/18',
+                         'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
+                   headers={'Referer':BASE+'/research/article/common.jspx?rGubun=RALL',
+                            'X-Requested-With':'XMLHttpRequest'}, timeout=20)
+          rows=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"", r.text, re.S)
+          print(f'게시판 3/13~18 행 {len(rows)}건 (totCount={r.headers.get("totCount")})')
+          for d,p,fn,t in rows: print(' ', d, t[:60])
+          hit=[(p,fn,t) for d,p,fn,t in rows if '로봇' in t or '시연을 넘어' in t]
+          if not hit:
+              print('::warning::게시판에서 로봇 인뎁스 행을 못 찾음'); sys.exit(0)
+          path,fn,title=hit[0]
+          url=f"{BASE}/common/download.jspx?cmd=viewPDF&path={path}/{fn}"
+          rr=s.get(url, headers={'Referer':BASE+'/research/article/common.jspx?rGubun=RALL'}, timeout=40)
+          print('다운로드:', rr.status_code, len(rr.content), rr.content[:8])
+          if not rr.content.startswith(b'%PDF'):
+              print('::warning::PDF 아님 — attach 만료로 보임:', rr.content[:80]); sys.exit(0)
+          text=extract_text_from_pdf(rr.content)
+          boxes=len(re.findall(r'적정주가\s*[\d,]{3,9}\s+(?:[\d,]{3,9}\s+(?:상향|하향|유지)|신규)', text))
+          print(f'텍스트 {len(text)}자 · 한글 {_kr(text)} · TP박스 {boxes}개')
+          if len(text)<300 or _kr(text)<120:
+              print('::warning::추출 텍스트 부실 — 캐시 갱신 안 함'); sys.exit(0)
+          cache=json.load(open('data/daol_pdf_text_cache.json'))
+          cache[SOURCE]={'status':'pdf','final_url':url,'text':text,'error':''}
+          json.dump(cache, open('data/daol_pdf_text_cache.json','w'), ensure_ascii=False, separators=(',',':'))
+          print('캐시 갱신 완료')
+          PY
+      - name: 커밋백
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/daol_pdf_text_cache.json
+          git diff --cached --quiet && { echo "변경 없음 — 복구 실패"; exit 0; }
+          git commit -m "data: 3/16 로봇 인뎁스 PDF 게시판 직링크로 소급 복구"
+          for i in 1 2 3; do git pull --rebase --autostash origin main && git push origin main && exit 0; sleep 5; done
+          exit 1
