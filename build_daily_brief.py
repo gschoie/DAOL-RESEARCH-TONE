@@ -80,12 +80,76 @@ def call_gemini(prompt: str) -> str:
     return text
 
 
+QUESTION_DAYS = 7   # '오늘의 질문'이 참조하는 발간 범위 (지난 일주일)
+MAX_QUESTIONS = 5
+
+
+def fallback_questions(reports: list, events: list) -> list:
+    """AI 없이도 최근 이벤트·리포트에서 클릭할 만한 질문을 템플릿으로 만든다."""
+    out, seen = [], set()
+    for e in events:
+        comp, typ = e.get('company', ''), str(e.get('type', ''))
+        if not comp or comp in seen:
+            continue
+        if 'TP' in typ or '적정주가' in typ:
+            out.append(f"{comp} TP {'상향' if '상향' in typ else '하향' if '하향' in typ else '변경'} 이유가 뭐야?")
+        elif '의견' in typ:
+            out.append(f"{comp} 투자의견 바뀐 배경은?")
+        else:
+            out.append(f"{comp} 최근 다올 뷰 어때?")
+        seen.add(comp)
+        if len(out) >= MAX_QUESTIONS:
+            return out
+    for r in reports:
+        sec = r.get('sector', '')
+        if sec and sec not in seen:
+            out.append(f"{sec} 요즘 톤 어때?")
+            seen.add(sec)
+        if len(out) >= MAX_QUESTIONS:
+            break
+    return out
+
+
+def build_questions(reports: list, events: list) -> list:
+    """지난 일주일 발간분 기반 '오늘의 질문' 4~5개 — 챗봇 힌트 칩에 매일 교체 표시."""
+    if not reports and not events:
+        return []
+    prompt = f"""아래는 다올투자증권 리서치의 최근 {QUESTION_DAYS}일 발간 리포트와 변화 이벤트다.
+이 자료들로 답할 수 있는, 사용자가 클릭해서 바로 물어볼 짧은 한국어 질문 4~{MAX_QUESTIONS}개를 만들어라.
+
+규칙:
+- 각 질문 30자 이내, 물음표로 끝낼 것. 리포트에 실제 등장한 종목명/섹터명을 쓸 것.
+- 유형을 섞을 것: TP·의견 변경의 이유, 특정 기업 뷰, 섹터 톤, 실적 추정.
+- 데이터에 없는 종목·내용을 지어내지 말 것.
+- 출력은 JSON 문자열 배열만. 다른 텍스트·마크다운 금지. 예: ["질문1?","질문2?"]
+
+[변화 이벤트]
+{chr(10).join(_fmt_event(e) for e in events[:20]) or '(없음)'}
+
+[최신 리포트]
+{chr(10).join(_fmt_report(r) for r in reports[:25]) or '(없음)'}"""
+    try:
+        text = call_gemini(prompt).strip()
+        text = text[text.find('['):text.rfind(']') + 1]  # 코드펜스 등 군더더기 제거
+        qs = json.loads(text)
+        qs = [str(q).strip() for q in qs if isinstance(q, str) and 5 <= len(str(q).strip()) <= 40]
+        if qs:
+            return qs[:MAX_QUESTIONS]
+        raise RuntimeError('질문 0개')
+    except Exception as exc:
+        print(f'::warning::오늘의 질문 AI 생성 실패({exc!r}) — 템플릿 폴백 사용')
+        return fallback_questions(reports, events)
+
+
 def main() -> None:
     summary = json.loads((DATA / 'tone_summary.json').read_text(encoding='utf-8'))
     today = datetime.now(KST)
     cutoff = (today - timedelta(days=RECENT_DAYS)).strftime('%Y-%m-%d')
     reports = [r for r in summary.get('latest', []) if str(r.get('date', '')) >= cutoff]
     events = [e for e in summary.get('events', []) if str(e.get('date', '')) >= cutoff]
+    qcut = (today - timedelta(days=QUESTION_DAYS)).strftime('%Y-%m-%d')
+    q_reports = [r for r in summary.get('latest', []) if str(r.get('date', '')) >= qcut]
+    q_events = [e for e in summary.get('events', []) if str(e.get('date', '')) >= qcut]
 
     ai_used = False
     if not reports and not events:
@@ -120,6 +184,8 @@ def main() -> None:
         'report_count': len(reports),
         'event_count': len(events),
         'text': text,
+        # 챗봇 힌트 칩용 '오늘의 질문' — 지난 일주일 발간분 기반, 매일 교체
+        'questions': build_questions(q_reports, q_events),
     }
     (DATA / 'daily_brief.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
     print(f"daily_brief: {out['date']} ai={ai_used} reports={len(reports)} events={len(events)} chars={len(text)}")
