@@ -407,6 +407,17 @@ function renderRecentReports(){const box=$('#tone-events');if(!box)return;
  const rangeBar=`<div class="pub-range"><input type="date" id="rep-from" value="${from}" max="${today}"><span>~</span><input type="date" id="rep-to" value="${to}" max="${today}">${presets.map(([d,l])=>`<button type="button" class="pub-preset${!state.repFrom&&state.repDays===d?' on':''}" data-days="${d}">${l}</button>`).join('')}</div>`;
  const label=(state.repFrom?`${mmdd(from)}~${mmdd(to)}`:`${state.repDays||60}일`)+(q.length>=2?` · '${esc(q)}' 검색`:'');
  box.innerHTML=`<details class="tone-event-wrap" open><summary>📰 최근 발간 보고서 <em>${rows.length}건 · ${label}${rows.length>600?' · 최신 600건 표시':''}${state.repSort?' · 정렬됨':''}</em></summary>${rangeBar}<div class="pub-wrap"><table class="pub-table"><thead><tr><th title="산업 · 기업 · 전략 자료 구분">구분</th><th id="th-r-date" class="th-sort" title="날짜순(기본)">날짜</th><th>기업명</th><th>애널리스트</th><th>리포트 제목</th><th>리포트 설명</th><th id="th-r-tp" class="th-sort" title="적정주가 변경 우선 정렬">적정주가${ind('tp')}</th><th>적정주가 조정 논리</th><th id="th-r-earn" class="th-sort" title="실적추정 변경 우선">실적 조정${ind('earn')}</th><th id="th-r-pts" class="th-sort" title="투자포인트 변화 우선">투자포인트${ind('pts')}</th></tr></thead><tbody>${body}</tbody></table></div></details>`;
+ // 표 높이 = 최신 2개 발간일(오늘 + 직전 영업일) 행까지 보이는 만큼 — 매 렌더마다 실측.
+ // 정렬 모드(TP·실적·포인트순)에선 그 날짜들이 흩어지므로 CSS 기본 높이로 둔다.
+ const wrap=box.querySelector('.pub-wrap');
+ if(wrap&&!state.repSort&&rows.length){
+  const two=[...new Set(rows.map(r=>r.date))].sort().reverse().slice(0,2);
+  const trs=wrap.querySelectorAll('tbody tr');
+  let n=0;for(let i=0;i<Math.min(rows.length,trs.length);i++)if(two.includes(rows[i].date))n=i+1;
+  if(n){const last=trs[n-1];
+   const h=last.getBoundingClientRect().bottom-wrap.getBoundingClientRect().top+wrap.scrollTop+6;
+   wrap.style.maxHeight=Math.round(Math.max(200,Math.min(h,window.innerHeight*.82)))+'px'}
+ }else if(wrap){wrap.style.maxHeight=''}
  const rf=$('#rep-from'),rt=$('#rep-to');
  const applyRange=()=>{state.repFrom=rf.value;state.repTo=rt.value;renderRecentReports()};
  rf.onchange=applyRange;rt.onchange=applyRange;
