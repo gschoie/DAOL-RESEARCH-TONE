@@ -33,6 +33,7 @@
  "models/gemini-3.8-flash-tts",
  "models/gemini-flash-latest",
  "models/gemini-flash-lite-latest",
+ "models/gemini-nano-banana-2.1",
  "models/gemini-omni-1.1-flash",
  "models/gemini-omni-flash-preview",
  "models/gemini-pro-latest",
