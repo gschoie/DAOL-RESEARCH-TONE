@@ -121,16 +121,25 @@ def main():
         direct = v.get('final_url')
         return direct if direct and direct != url else None
 
+    from datetime import datetime as _dt, timedelta as _td, timezone as _tz
+    _cut = (_dt.now(_tz(_td(hours=9))).date() - _td(days=30)).isoformat()
     # 1순위: 인뎁스·프리뷰 산업자료인데 규칙 TP 추출이 빈손인 자료 — 글자 수가 충분해도
     # OCR 글자가 뭉개져 표를 못 읽는 유형(현대차 7/6 프리뷰)이 여기 잡힌다. 최신순(flat_reports).
+    # 제목 키워드가 없어도 OCR 경로 흔적([OCR 1-3p] 마커, 최근 30일)이 있으면 포함 — 폰트
+    # 깨진 PDF가 백필 OCR에 선점돼 status='pdf'로 승격되면 0순위(failed 전용)를 비껴가는
+    # 틈(10/7 은행 '조정을 끝낼 다음은' 프리뷰)을 막는다.
     prime, seen = [], set()
     for r in flat_reports(load_json(HISTORY, {'months': []})):
         if r.get('report_type') != '산업자료' or not r.get('source_url'): continue
-        if not re.search(r'In-?Depth|인뎁스|Preview|프리뷰|커버리지\s*개시|Initiation|전망', r.get('title') or '', re.I): continue
         url = r['source_url']
-        direct = direct_of(url, cache.get(url) or {})
+        entry = cache.get(url) or {}
+        if not (re.search(r'In-?Depth|인뎁스|Preview|프리뷰|커버리지\s*개시|Initiation|전망', r.get('title') or '', re.I)
+                or ('[OCR 1-3p]' in ((entry.get('text') if isinstance(entry, dict) else '') or '')
+                    and r.get('date', '') >= _cut)):
+            continue
+        direct = direct_of(url, entry)
         if not direct or url in seen: continue
-        if extract_bundled_tp((cache.get(url) or {}).get('text') or ''): continue
+        if extract_bundled_tp((entry.get('text') if isinstance(entry, dict) else '') or ''): continue
         seen.add(url)
         prime.append((r.get('date', ''), url, direct))
     # 2순위: 껍데기 캐시(한글<GARBAGE_KR) 전반 — 검색용 전사 확보. 최근 자료 우선.
@@ -143,10 +152,8 @@ def main():
         rest.append((dates.get(url, ''), url, direct))
     rest.sort(reverse=True)
     # 0순위: '추출 빈손(empty or scanned)' 실패 캐시 — 게시판 직링크는 뚫렸는데 폰트 깨짐/
-    # 스캔형이라 pypdf·OCR이 전부 빈손인 유형. 제목 키워드와 무관하게(10/7 은행 '조정을
-    # 끝낼 다음은' 프리뷰가 여기 해당) 최근 30일분을 Gemini 직판독으로 구제한다.
-    from datetime import datetime as _dt, timedelta as _td, timezone as _tz
-    _cut = (_dt.now(_tz(_td(hours=9))).date() - _td(days=30)).isoformat()
+    # 스캔형이라 pypdf·OCR이 전부 빈손인 유형. 제목 키워드와 무관하게 최근 30일분을
+    # Gemini 직판독으로 구제한다.
     broken = []
     for url, v in cache.items():
         if not isinstance(v, dict) or v.get('status') != 'failed': continue
