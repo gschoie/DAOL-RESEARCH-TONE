@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-06T22:15:41.330837+00:00",
+ "generated_at": "2026-10-06T22:48:44.759743+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1359,
+ "report_count": 1364,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31463,6 +31463,92 @@
    "title": "[전력기기(Overweight) | 다올 전력기기/철강금속 이정우] ★ 전력, 질주",
    "post_url": "https://t.me/daolresearch/15167",
    "source_url": "https://buly.kr/GP5h55q"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-07",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "조정을",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "그런데 4Q26 추가 주주환원 확대 예고와 현재 대비 주주환원율 상향 및 주주환원수익률 상승 가능성이 확인된다면, 은행주 주가 상승의 트리거로 작용할 가능성"
+   ],
+   "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 조정을 끝낼 다음은",
+   "post_url": "https://t.me/daolresearch/15174",
+   "source_url": "https://buly.kr/FAgOZhP"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-07",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "삼성중공업",
+   "code": "010140",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[삼성중공업(010140)/BUY(유지)/TP 41,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[삼성중공업(010140)/BUY(유지)/TP 41,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 삼성중공업(010140) : 3Q26 놀랍게도 증익, FDC 길을 열어다오",
+   "post_url": "https://t.me/daolresearch/15175",
+   "source_url": "https://bit.ly/SHI3Q26PRE"
+  },
+  {
+   "theme": "로봇/자동화",
+   "category": "산업테마",
+   "date": "2026-10-07",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Issue & Pitch: 수술로봇은 어떻게 시장이 되었나 (수술로봇 시리즈 ①)",
+    "교체 수요뿐만 아니라 추가 장비 증설과 복강경의 로봇 전환도 진입 경로."
+   ],
+   "title": "[의료기기(Overweight)/ 다올 박종현] ★ Issue & Pitch: 수술로봇은 어떻게 시장이 되었나 (수술로봇 시리즈 ①)",
+   "post_url": "https://t.me/daolresearch/15176",
+   "source_url": "https://buly.kr/1RHI4C2"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-10-07",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "코스맥스",
+   "code": "192820",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "투자의견 한국 법인 성장폭이 직전 가이던스를 상회하며 견조한 국내 K뷰티 업황과 수출 데이터를 반영."
+   ],
+   "title": "[코스맥스(192820)/ BUY(유지)/ TP 35만원(상향)/ 다올 화장품 박종현] ★ Max Speed",
+   "post_url": "https://t.me/daolresearch/15177",
+   "source_url": "https://buly.kr/B7cy13i"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-07",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "대덕전자",
+   "code": "353200",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ 실적 전망 - 3Q26 매출액 4,202억원, 영업이익 753억원(OPM 17.9%) 전망 - 전분기 수준의 고환율이 유지됐다면 OP 800억원을 상회할 수 있었던 업황."
+   ],
+   "title": "[대덕전자(353200) | BUY(유지) | TP 23만원(유지) | 다올투자증권 전기전자 김연미] ★ 대덕전자 3Q26 Preview - 더 큰 도약 전, 잠깐의 숨고르기",
+   "post_url": "https://t.me/daolresearch/15179",
+   "source_url": "https://buly.kr/6MuVXEH"
   }
  ],
  "cross_mentions": [
@@ -32505,105 +32591,105 @@
    "recent": 21,
    "total": 23,
    "sectors": 3,
-   "burst": 28.8
+   "burst": 29.2
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.2
+   "burst": 8.3
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 5.9
+   "burst": 6.0
   },
   {
    "term": "할인율",
    "recent": 8,
    "total": 13,
    "sectors": 3,
-   "burst": 5.5
-  },
-  {
-   "term": "기저가",
-   "recent": 9,
-   "total": 15,
-   "sectors": 5,
-   "burst": 5.3
+   "burst": 5.6
   },
   {
    "term": "Cloud",
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.9
-  },
-  {
-   "term": "부분이",
-   "recent": 6,
-   "total": 10,
-   "sectors": 7,
-   "burst": 4.9
-  },
-  {
-   "term": "저변",
-   "recent": 6,
-   "total": 10,
-   "sectors": 3,
-   "burst": 4.9
+   "burst": 5.0
   },
   {
    "term": "정체",
    "recent": 7,
    "total": 12,
    "sectors": 4,
-   "burst": 4.8
+   "burst": 4.9
   },
   {
    "term": "분쟁",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.8
+   "burst": 4.9
   },
   {
    "term": "방향",
    "recent": 7,
    "total": 13,
    "sectors": 7,
-   "burst": 4.1
+   "burst": 4.2
   },
   {
    "term": "독일",
    "recent": 9,
    "total": 17,
    "sectors": 4,
-   "burst": 4.1
+   "burst": 4.2
+  },
+  {
+   "term": "기저가",
+   "recent": 8,
+   "total": 15,
+   "sectors": 5,
+   "burst": 4.2
+  },
+  {
+   "term": "Mix",
+   "recent": 11,
+   "total": 21,
+   "sectors": 6,
+   "burst": 4.2
   },
   {
    "term": "일평균거래대금",
    "recent": 8,
    "total": 15,
    "sectors": 7,
-   "burst": 4.1
+   "burst": 4.2
   },
   {
    "term": "공급계약",
    "recent": 6,
    "total": 11,
    "sectors": 5,
-   "burst": 4.1
+   "burst": 4.2
   },
   {
    "term": "우선",
    "recent": 6,
    "total": 11,
    "sectors": 6,
-   "burst": 4.1
+   "burst": 4.2
+  },
+  {
+   "term": "원화",
+   "recent": 9,
+   "total": 18,
+   "sectors": 9,
+   "burst": 3.8
   }
  ]
 }
