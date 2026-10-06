@@ -142,8 +142,24 @@ def main():
         if _kr(v.get('text') or '') >= GARBAGE_KR: continue
         rest.append((dates.get(url, ''), url, direct))
     rest.sort(reverse=True)
-    targets = prime + rest
-    print(f'ai-rescue: 대상 {len(targets)}건 (TP미검출 인뎁스 {len(prime)} + 껍데기 {len(rest)}) — 이번 런 최대 {MAX_ITEMS}건/{BUDGET}s')
+    # 0순위: '추출 빈손(empty or scanned)' 실패 캐시 — 게시판 직링크는 뚫렸는데 폰트 깨짐/
+    # 스캔형이라 pypdf·OCR이 전부 빈손인 유형. 제목 키워드와 무관하게(10/7 은행 '조정을
+    # 끝낼 다음은' 프리뷰가 여기 해당) 최근 30일분을 Gemini 직판독으로 구제한다.
+    from datetime import datetime as _dt, timedelta as _td, timezone as _tz
+    _cut = (_dt.now(_tz(_td(hours=9))).date() - _td(days=30)).isoformat()
+    broken = []
+    for url, v in cache.items():
+        if not isinstance(v, dict) or v.get('status') != 'failed': continue
+        if 'empty or scanned' not in (v.get('error') or ''): continue
+        if v.get('ai_read') or url in seen: continue
+        direct = v.get('final_url')
+        if not direct or direct == url: continue
+        d = dates.get(url, '')
+        if d < _cut: continue
+        seen.add(url); broken.append((d, url, direct))
+    broken.sort(reverse=True)
+    targets = broken + prime + rest
+    print(f'ai-rescue: 대상 {len(targets)}건 (추출빈손 {len(broken)} + TP미검출 인뎁스 {len(prime)} + 껍데기 {len(rest)}) — 이번 런 최대 {MAX_ITEMS}건/{BUDGET}s')
 
     model_queue = gemini_model_queue()
     model_idx = 0
@@ -174,6 +190,7 @@ def main():
                 raise RuntimeError(f'전사 부실(한글 {_kr(transcript)}자) — 캐시 미갱신')
             tp = clean_tp_changes(raw.get('tp_changes'))
             v = cache[url]
+            v['status'] = 'pdf'  # 0순위(실패 캐시) 구제 시 상태 승격 — v1/v2가 본문·ai_tp를 소비
             v['text'] = transcript + '\n\n[AI판독: 텍스트 추출 실패 PDF를 Gemini가 직접 판독한 전사본]'
             v['ai_read'] = True
             v['ai_tp'] = tp
