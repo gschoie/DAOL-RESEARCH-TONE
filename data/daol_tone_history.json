@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:59:02.583799+00:00",
+  "generated_at": "2026-10-07T02:25:18.905892+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1364,
   "months": [
@@ -908,9 +908,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "장기지속형 Ne 도입과 적용 약물 확대에 나서면서, 관련 플랫폼 수요는 이어질 전망 경쟁력은 약물 탑재량과 방출 조절, 대량생산 역량에 따라 차별화될 전망. 경우 플랫폼의 WIS 확인할 수 있을 전망. 기술이전 전환 여부에 따라 종목별 차별화 예상",
-              "industry_conclusion": "장기지속형 Ne 도입과 적용 약물 확대에 나서면서, 관련 플랫폼 수요는 이어질 전망 경쟁력은 약물 탑재량과 방출 조절, 대량생산 역량에 따라 차별화될 전망. 경우 플랫폼의 WIS 확인할 수 있을 전망.",
-              "report_conclusion": "장기지속형 Ne 도입과 적용 약물 확대에 나서면서, 관련 플랫폼 수요는 이어질 전망 경쟁력은 약물 탑재량과 방출 조절, 대량생산 역량에 따라 차별화될 전망. 경우 플랫폼의 WIS 확인할 수 있을 전망.",
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1307,9 +1307,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "이에 전세대출은 향후에도 감소세 이어질 전망. 담대 확대 여부는 확인 필요하다고 판단. 예금은행 268 연평균 대출성장률 4.7% 전망 유지.",
-              "industry_conclusion": "이에 전세대출은 향후에도 감소세 이어질 전망. 예금은행 268 연평균 대출성장률 4.7% 전망 유지.",
-              "report_conclusion": "이에 전세대출은 향후에도 감소세 이어질 전망. 예금은행 268 연평균 대출성장률 4.7% 전망 유지.",
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1571,6 +1571,11 @@
               "source": "https://t.me/daolresearch/15003"
             },
             {
+              "text": "Top picks 에이피알, 한국콜마 유지.",
+              "date": "2026-09-11",
+              "source": "https://t.me/daolresearch/15061"
+            },
+            {
               "text": "의료기기/화장품 업종 선호 의견 유지 (Overweight)",
               "date": "2026-09-18",
               "source": "https://t.me/daolresearch/15097"
@@ -1782,13 +1787,17 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "Top picks 에이피알, 한국콜마 유지."
+              ],
+              "preferred_stocks": [
+                "Top picks 에이피알, 한국콜마 유지."
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Issue & Pitch | 화장품",
-              "industry_conclusion": "Issue & Pitch | 화장품",
-              "report_conclusion": "Issue & Pitch | 화장품",
+              "pitch": "ISSUE & PITCH 11 Sep 2026 다올투자증권 화장품(Overweight) 색조는 내주고, 기초를 취한다.",
+              "industry_conclusion": "결론: 색조는 경계, 기초는 기존 시각 유지.",
+              "report_conclusion": "결론: 색조는 경계, 기초는 기존 시각 유지.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1813,9 +1822,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Issue & Pitch | 의료기기/화장품",
-              "industry_conclusion": "Issue & Pitch | 의료기기/화장품",
-              "report_conclusion": "Issue & Pitch | 의료기기/화장품",
+              "pitch": "GLP-1 애프터케어 실수요 확인. GLP-1 애프터 케어 이후, 스킨부스터 및 저연령층 스킨케어로 관심도 확산 중. 업종 선호의견 유지.",
+              "industry_conclusion": "GLP-1 애프터케어 실수요 확인. GLP-1 애프터 케어 이후, 스킨부스터 및 저연령층 스킨케어로 관심도 확산 중. 업종 선호의견 유지.",
+              "report_conclusion": "GLP-1 애프터케어 실수요 확인. GLP-1 애프터 케어 이후, 스킨부스터 및 저연령층 스킨케어로 관심도 확산 중. 업종 선호의견 유지.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1840,9 +1849,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "> 재가속 판단 유보, 추세 레벨 유지 여부 확인 > 성장의 질 우위, 규모는 여전히 제한적 > 프로모션 주기 따른 변동, 추세 판단 보류 > 유럽 단일국 의존 지속, 미국 확산 지연",
-              "industry_conclusion": "> 재가속 판단 유보, 추세 레벨 유지 여부 확인 > 성장의 질 우위, 규모는 여전히 제한적 > 프로모션 주기 따른 변동, 추세 판단 보류 > 유럽 단일국 의존 지속, 미국 확산 지연",
-              "report_conclusion": "> 재가속 판단 유보, 추세 레벨 유지 여부 확인 > 성장의 질 우위, 규모는 여전히 제한적 > 프로모션 주기 따른 변동, 추세 판단 보류 > 유럽 단일국 의존 지속, 미국 확산 지연",
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -2028,11 +2037,6 @@
               "text": "24만원으로 상향하며, 2126 자동차 섹터 Top Pick 유지",
               "date": "2026-09-07",
               "source": "https://t.me/daolresearch/15033"
-            },
-            {
-              "text": "종목명 투자의견 적정주가 Top picks 전일 미국 교통부(201')에서 6010에 보낸 공개 서한으로 CATL 기술",
-              "date": "2026-09-10",
-              "source": "https://t.me/daolresearch/15054"
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
@@ -2161,13 +2165,16 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "기업가치 프리미엄으로 작용할 것으로 판단. 완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망. 예상되며, 기업가치 반등뿐 아니라 실제 완성차 생산현장 투입에 따른 현대차/기아의 남당할 것으로 예상돼, 로봇 양산 확대가 직접적인 실적 성장으로 연결될 가능성도",
-              "industry_conclusion": "완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망. |료에서 제시된 업종 투자의견은 시장 대비 업종의 조과수익를 수 2, 개별 종목에 대한 투자의견과 다를 수 있음",
-              "report_conclusion": "완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망. |료에서 제시된 업종 투자의견은 시장 대비 업종의 조과수익를 수 2, 개별 종목에 대한 투자의견과 다를 수 있음",
+              "pitch": "현대차는 연초 CES 2026에서 RMAC에 대해 처음 공개했으며, 9개월 후인 현재 Atlas 2에 해당되는 양산형 모델 생산이 가해짐에 따라 훈련이 본격화됨 공장 Access 보다 더 중요한, 얼마나 더 깊게 사용할 수 있는가 한편 Boston Dynamics가 갖는 완성차 생산 사이트는 기타 로봇 업체들 대비 강력한 기업가치 프리미엄으로 작용할 것으로 판단. 경쟁사의 공장 Access가 '고객과의 협업'이라면, 현대차그룹은 RMAC→HMGMA→글로벌 공장으로 이어지는 Captive 학습 시스템을 구축할 수 있다는 차이가 있음 자동차의 현재 이익에 로봇의 미래 가치를 더할 시점 금번 RMAC개소로 인한 BD Atlas의 훈련 시작은 지난 5월 이후 트랩에 갇힌 완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망. 완성차는 따라서 이익 전망치가 크게 변하지 않더라도, 로봇사업의 가시성 확대 만으로 적용 멀티플이 달라질 수 있는 구간에 진입. Boston Dynamics는 2027~2028년을 겨냥한 IPO가 예상되며, 기업가치 변동뿐 아니라 실제 완성차 현장 투입에 따른 현대차/기아의 원가 경쟁우위가 부각될 수 있음.",
+              "industry_conclusion": "경쟁사의 공장 Access가 '고객과의 협업'이라면, 현대차그룹은 RMAC→HMGMA→글로벌 공장으로 이어지는 Captive 학습 시스템을 구축할 수 있다는 차이가 있음 자동차의 현재 이익에 로봇의 미래 가치를 더할 시점 금번 RMAC개소로 인한 BD Atlas의 훈련 시작은 지난 5월 이후 트랩에 갇힌 완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망. 완성차는 따라서 이익 전망치가 크게 변하지 않더라도, 로봇사업의 가시성 확대 만으로 적용 멀티플이 달라질 수 있는 구간에 진입.",
+              "report_conclusion": "경쟁사의 공장 Access가 '고객과의 협업'이라면, 현대차그룹은 RMAC→HMGMA→글로벌 공장으로 이어지는 Captive 학습 시스템을 구축할 수 있다는 차이가 있음 자동차의 현재 이익에 로봇의 미래 가치를 더할 시점 금번 RMAC개소로 인한 BD Atlas의 훈련 시작은 지난 5월 이후 트랩에 갇힌 완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망. 완성차는 따라서 이익 전망치가 크게 변하지 않더라도, 로봇사업의 가시성 확대 만으로 적용 멀티플이 달라질 수 있는 구간에 진입.",
               "valuation": [
-                "완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망."
+                "경쟁사의 공장 Access가 '고객과의 협업'이라면, 현대차그룹은 RMAC→HMGMA→글로벌 공장으로 이어지는 Captive 학습 시스템을 구축할 수 있다는 차이가 있음 자동차의 현재 이익에 로봇의 미래 가치를 더할 시점 금번 RMAC개소로 인한 BD Atlas의 훈련 시작은 지난 5월 이후 트랩에 갇힌 완성차그룹 밸류에이션 반등을 이끌 새로운 변수로 작용할 전망.",
+                "완성차는 따라서 이익 전망치가 크게 변하지 않더라도, 로봇사업의 가시성 확대 만으로 적용 멀티플이 달라질 수 있는 구간에 진입."
               ],
-              "earnings_changes": [],
+              "earnings_changes": [
+                "완성차는 따라서 이익 전망치가 크게 변하지 않더라도, 로봇사업의 가시성 확대 만으로 적용 멀티플이 달라질 수 있는 구간에 진입."
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144670/1/20260923_B2510_jwyoo_671.pdf",
               "pdf_error": "",
@@ -2220,20 +2227,15 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [
-                "종목명 투자의견 적정주가 Top picks 전일 미국 교통부(201')에서 6010에 보낸 공개 서한으로 CATL 기술"
-              ],
-              "preferred_stocks": [
-                "종목명 투자의견 적정주가 Top picks 전일 미국 교통부(201')에서 6010에 보낸 공개 서한으로 CATL 기술"
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Companies on our radar Pitch ISSUE & PITCH | 이차전지",
-              "industry_conclusion": "종목명 투자의견 적정주가 Top picks 전일 미국 교통부(201')에서 6010에 보낸 공개 서한으로 CATL 기술 5: Ｌ06에너지솔루션 연간 ESS 매출액 추이 및 전망",
-              "report_conclusion": "종목명 투자의견 적정주가 Top picks 전일 미국 교통부(201')에서 6010에 보낸 공개 서한으로 CATL 기술 5: Ｌ06에너지솔루션 연간 ESS 매출액 추이 및 전망",
+              "pitch": "이차전지 (Overweight) LFP, 한국의 시간이 왔다. 발간일: 2026년 9월 10일, 애널리스트: 유지웅. 커버리지 기업: LG에너지솔루션(BUY, 620,000원), 삼성SDI(BUY, 900,000원), 엘앤에프(BUY, 220,000원). 미국 정부의 CATL 배터리 기술 사용 제한에 따른 한국업체 수혜 점검. 미국 LFP 밸류체인에 포함되며 금번 교도통부 발언에 대한 수혜가 예상되는 당사 커버리지 3개 업체에 대한 적정주가 상향. LG에너지솔루션 62만원, 삼성SDI 90만원, 엘앤에프 22만원으로 상향. 각국 기존의 물량에 대해서는 한국산 소재의 가치가 격상됨을 의미, 현재 LFP용 ESS공급 파이프라인이 형성되어 있는 LG에너지솔루션, 삼성SDI, 엘앤에프에 대해 적정주가를 상향. Ford의 CATL 기술 사용이 원천적으로 차단될 가능성이 높아진 것으로 판단. Ford의 LFP 배터리 제조기술 확보를 위해 CATL기술만 우위 수입하는 전략을 취해왔으나, 사용제재를 받은 이후부터는 LFP 공급구도는 한국 셀/소재 업체가 유일한 대안으로 부각될 전망. Ford의 ESS 주력 생산거점인 Kentucky와 EV와 혼류생산 중인 Marshall공장의 합산 Capa는 약 30GWh 수준. 국내 셀 및 LFP양극재 공급업체의 밸류에이션 프리미엄 확대 요인으로 작용할 것으로 판단. [AI판독: 텍스트 추출 실패 PDF를 Gemini가 직접 판독한 전사본]",
+              "industry_conclusion": "Ford의 LFP 배터리 제조기술 확보를 위해 CATL기술만 우위 수입하는 전략을 취해왔으나, 사용제재를 받은 이후부터는 LFP 공급구도는 한국 셀/소재 업체가 유일한 대안으로 부각될 전망.",
+              "report_conclusion": "Ford의 LFP 배터리 제조기술 확보를 위해 CATL기술만 우위 수입하는 전략을 취해왔으나, 사용제재를 받은 이후부터는 LFP 공급구도는 한국 셀/소재 업체가 유일한 대안으로 부각될 전망.",
               "valuation": [
-                "각각 NE] 적용 밸류에이션 멀티플에 대해 7~10%씩 상향조정",
-                "국내 셀 및 Ｌ1양극재 공급업체의 밸류에이션 프리미엄 확대 요인으로"
+                "국내 셀 및 LFP양극재 공급업체의 밸류에이션 프리미엄 확대 요인으로 작용할 것으로 판단."
               ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -2258,9 +2260,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "ISSUE & PITCH | 자동차",
-              "industry_conclusion": "장기화 및 검증비용 상승이 해외확장 과정의 추가부담으로 작용할 전망",
-              "report_conclusion": "장기화 및 검증비용 상승이 해외확장 과정의 추가부담으로 작용할 전망",
+              "pitch": "ISSUE & PITCH 다올투자증권 8 Sep. 2026 자동차 (Overweight) 중국 Peak-Out 징후 현실화 유지웅 자동차/이차전지 | jwyoo@daolfn.com Issue 8월 중국 판매데이터 해석: Peak-Out 가능성 확대 Pitch 중국 8월 자동차 소매판매는 YoY -19% 기록.",
+              "industry_conclusion": "2Q26에 BYD를 제외한 중국 NEV 성장기업인 Li-auto, Xpeng, Nio 등을 포함한 중국 OEM 입장에서는 향후 개발기간 장기화 및 검증비용 상승이 해외확장 과정의 추가부담으로 작용할 전망 종합적으로, 금번 기록한 NEV차량의 YoY -5%에 해당하는 도매판매 물량은 한편 중국의 자동차 생산이 Peak-Out 구간에 진입했음을 뚜렷하게 시사함. 추가로 EU 집행위원회에서 10월에 공론화될 수 있는 MIP(최저가격한도제도) 도입과 연말에 적용이 예상되는 IAA(산업가속화법) 등으로 중국의 과도한 수출 증가새도 제도적으로 제한되기 시작할 전망",
+              "report_conclusion": "2Q26에 BYD를 제외한 중국 NEV 성장기업인 Li-auto, Xpeng, Nio 등을 포함한 중국 OEM 입장에서는 향후 개발기간 장기화 및 검증비용 상승이 해외확장 과정의 추가부담으로 작용할 전망 종합적으로, 금번 기록한 NEV차량의 YoY -5%에 해당하는 도매판매 물량은 한편 중국의 자동차 생산이 Peak-Out 구간에 진입했음을 뚜렷하게 시사함. 추가로 EU 집행위원회에서 10월에 공론화될 수 있는 MIP(최저가격한도제도) 도입과 연말에 적용이 예상되는 IAA(산업가속화법) 등으로 중국의 과도한 수출 증가새도 제도적으로 제한되기 시작할 전망",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -3096,9 +3098,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "활용 역시 확대될 가능성이 높다고 판단한다. IP 라이선싱을 통한 추가 수익화 기히도 함께 확대될 수 있을 전망이다. 강화할 계획이라고 발표한만큼 향후 협업 대상 IP 및 상품 카테고리 역시 점차 확대될 가능성이 높다고 판단한다. 유통업체들의 K-POP IP 활용 역시 확대될 가능성이 높다고 판단한다.",
-              "industry_conclusion": "IP 라이선싱을 통한 추가 수익화 기히도 함께 확대될 수 있을 전망이다.",
-              "report_conclusion": "IP 라이선싱을 통한 추가 수익화 기히도 함께 확대될 수 있을 전망이다.",
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -3123,9 +3125,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "확대에 가장 가까운 IPS 판단. 그룹들의 성장세와 동연차 Eb 그룹들의 판매량을 감안 시 선방으로 판단. 멤버 이탈에 따른 우려 요인은 제한적이라 판단. 확장에 대해서는 가능성이 높다고 판단되며 APT] 앨범에서",
-              "industry_conclusion": "확대에 가장 가까운 IPS 판단. 그룹들의 성장세와 동연차 Eb 그룹들의 판매량을 감안 시 선방으로 판단. 멤버 이탈에 따른 우려 요인은 제한적이라 판단. 확장에 대해서는 가능성이 높다고 판단되며 APT] 앨범에서",
-              "report_conclusion": "확대에 가장 가까운 IPS 판단. 그룹들의 성장세와 동연차 Eb 그룹들의 판매량을 감안 시 선방으로 판단. 멤버 이탈에 따른 우려 요인은 제한적이라 판단. 확장에 대해서는 가능성이 높다고 판단되며 APT] 앨범에서",
+              "pitch": "",
+              "industry_conclusion": "산업 투자의견 Overweight.",
+              "report_conclusion": "산업 투자의견 Overweight.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -3596,15 +3598,11 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 로 추정되는 기업 이익 전망치 레벨 그리고 금리 인상 경로에 영향을 줄 수 있음 9월 회의 추가 인상 가능성이 높게 전망되고 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
-              "industry_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 로 추정되는 기업 이익 전망치 레벨 그리고 금리 인상 경로에 영향을 줄 수 있음 9월 회의 추가 인상 가능성이 높게 전망되고",
-              "report_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 로 추정되는 기업 이익 전망치 레벨 그리고 금리 인상 경로에 영향을 줄 수 있음 9월 회의 추가 인상 가능성이 높게 전망되고",
-              "valuation": [
-                "Source: Check Expert, 다올투자증권"
-              ],
-              "earnings_changes": [
-                "로 추정되는 기업 이익 전망치 레벨 그리고 금리 인상 경로에 영향을 줄 수 있음"
-              ],
+              "pitch": "이벤트 일정 & 증시 동향 및 전망: 9/15~16 미국 FOMC(기준금리 동결 3.50~3.75% 예상, 소수의견 3인 25bp 인상 등 관련 발언 주목), 9/17~18 일본 BOJ 금융정책위원회(정책금리 동결 예상, 엔/달러 환율 흐름 및 향후 금리 인상 가속화 가능성 점검). 차주 증시 전망(7,000pt선 회복 진행, 반도체를 중심으로 한 기대감과 고점 인식 고민, FOMC 경계감 존재, 6,000대 중반 시 반도체와 HW 관심 제고 가능, 은행 업종 방어적 대안).",
+              "industry_conclusion": "리서치본부 투자전략팀 조병헌, 홍록은. 이벤트 일정 & 증시 동향 및 전망: 9/15~16 미국 FOMC(기준금리 동결 3.50~3.75% 예상, 소수의견 3인 25bp 인상 등 관련 발언 주목), 9/17~18 일본 BOJ 금융정책위원회(정책금리 동결 예상, 엔/달러 환율 흐름 및 향후 금리 인상 가속화 가능성 점검). 차주 증시 전망(7,000pt선 회복 진행, 반도체를 중심으로 한 기대감과 고점 인식 고민, FOMC 경계감 존재, 6,000대 중반 시 반도체와 HW 관심 제고 가능, 은행 업종 방어적 대안).",
+              "report_conclusion": "리서치본부 투자전략팀 조병헌, 홍록은. 이벤트 일정 & 증시 동향 및 전망: 9/15~16 미국 FOMC(기준금리 동결 3.50~3.75% 예상, 소수의견 3인 25bp 인상 등 관련 발언 주목), 9/17~18 일본 BOJ 금융정책위원회(정책금리 동결 예상, 엔/달러 환율 흐름 및 향후 금리 인상 가속화 가능성 점검). 차주 증시 전망(7,000pt선 회복 진행, 반도체를 중심으로 한 기대감과 고점 인식 고민, FOMC 경계감 존재, 6,000대 중반 시 반도체와 HW 관심 제고 가능, 은행 업종 방어적 대안).",
+              "valuation": [],
+              "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144349/1/20260911_B_bhcho_302.pdf",
               "pdf_error": "",
