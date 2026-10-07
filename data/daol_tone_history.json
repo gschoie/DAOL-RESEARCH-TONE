@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07T19:11:45.958545+00:00",
+  "generated_at": "2026-10-07T22:12:53.608828+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1364,
+  "report_count": 1365,
   "months": [
     {
       "month": "2026-10",
@@ -865,8 +865,35 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15183,
+              "date": "2026-10-08",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "유한양행",
+              "code": "000100",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145107/1/20261008_000100_jislee_470.pdf",
+              "pdf_error": "",
+              "title": "[유한양행(000100) | BUY(유지) | TP 12만원(유지) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 3Q26 Preview: 본업은 탄탄, 다음은 처방",
+              "summary": "[유한양행(000100) | BUY(유지) | TP 12만원(유지) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 3Q26 Preview: 본업은 탄탄, 다음은 처방 ▶ 3Q26 매출액 6,087억원(+6.8% YoY), 영업이익 304억원(+38.3% YoY)으로 시장 기대치에 부합할 전망 ▶ 약품·생활유통사업부 성장과 라즈클루즈 로열티 증가가 유럽 출시 마일스톤 반영에 따른 기저효과를 상쇄할 것으로 예상. 라즈클루즈 로열티는 약 100억원 추정 ▶ WCLC에서 확인된 리브리반트 SC+라즈클루즈 병용요법의 장기 효능과 부작용 관리 가능성을 바탕으로 처방 확대 기대. 레시게르셉트(알레르기) 등 주요 파이프라인 임상 진전과 추가 기술이전에 따른 신약가치 재평가 가능성도 유효. 투자의견 BUY 및 적정주가 12만원 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/HSaFgSl >",
+              "post_url": "https://t.me/daolresearch/15183",
+              "source_url": "https://buly.kr/HSaFgSl"
+            },
             {
               "id": 15164,
               "date": "2026-10-06",
@@ -1023,7 +1050,7 @@
           ]
         }
       ],
-      "report_count": 16
+      "report_count": 17
     },
     {
       "month": "2026-09",

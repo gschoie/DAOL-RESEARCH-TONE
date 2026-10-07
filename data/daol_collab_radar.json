@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-07T19:12:49.716943+00:00",
+ "generated_at": "2026-10-07T22:15:00.167457+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1364,
+ "report_count": 1365,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32645,21 +32645,21 @@
    "recent": 21,
    "total": 23,
    "sectors": 3,
-   "burst": 29.2
+   "burst": 29.6
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.3
+   "burst": 8.5
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 6.0
+   "burst": 6.1
   },
   {
    "term": "할인율",
@@ -32673,7 +32673,7 @@
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 5.0
+   "burst": 5.1
   },
   {
    "term": "정체",
@@ -32704,13 +32704,6 @@
    "burst": 4.2
   },
   {
-   "term": "독일",
-   "recent": 9,
-   "total": 17,
-   "sectors": 4,
-   "burst": 4.2
-  },
-  {
    "term": "기저가",
    "recent": 8,
    "total": 15,
@@ -32722,13 +32715,6 @@
    "recent": 11,
    "total": 21,
    "sectors": 6,
-   "burst": 4.2
-  },
-  {
-   "term": "배당수익률",
-   "recent": 12,
-   "total": 23,
-   "sectors": 9,
    "burst": 4.2
   },
   {
@@ -32744,6 +32730,20 @@
    "total": 11,
    "sectors": 5,
    "burst": 4.2
+  },
+  {
+   "term": "우선",
+   "recent": 6,
+   "total": 11,
+   "sectors": 6,
+   "burst": 4.2
+  },
+  {
+   "term": "사용",
+   "recent": 7,
+   "total": 14,
+   "sectors": 7,
+   "burst": 3.7
   }
  ]
 }
