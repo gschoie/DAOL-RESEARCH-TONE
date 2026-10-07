@@ -1,10 +1,10 @@
 name: 아침 텔레그램 보고
 # 평일 아침 업데이트 결과(최신 런 성패 + PDF 수집 성적 + 오늘 보고서 수)를 텔레그램으로 1건 발송.
-# 시크릿 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID 가 없으면 조용히 스킵한다. 수동 실행(Run workflow)으로 테스트 가능.
+# 시크릿 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID 가 없으면 조용히 스킵한다.
+# schedule 크론은 GitHub 혼잡 시간대에 3시간씩 밀려(07:52 예약 → 10:50 도착) 제거했다 —
+# 평일 07:57 KST 루틴(클로드 세션)이 workflow_dispatch로 즉시 발사한다. 수동 실행도 가능.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "52 22 * * 0-4"   # KST 평일 07:52 — 07:45 런(~07:49 완료) 직후
 permissions:
   contents: read
   actions: read
