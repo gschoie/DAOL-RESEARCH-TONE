@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T23:32:51.564765+00:00",
+  "generated_at": "2026-10-07T01:02:53.553897+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1364,
   "months": [
@@ -76,7 +76,12 @@
           ],
           "top_picks": [
             {
-              "text": "Top-pick 금융 유지, 관심종목 우리금융지주 제시",
+              "text": "Top-pick KB금융 유지, 관심종목 우리금융지주 제시",
+              "date": "2026-10-07",
+              "source": "https://t.me/daolresearch/15174"
+            },
+            {
+              "text": "- Top-pick KB금융 유지한다.",
               "date": "2026-10-07",
               "source": "https://t.me/daolresearch/15174"
             }
@@ -97,18 +102,27 @@
               "report_type": "산업자료",
               "opinion": "비중확대",
               "top_picks": [
-                "Top-pick 금융 유지, 관심종목 우리금융지주 제시"
+                "Top-pick KB금융 유지, 관심종목 우리금융지주 제시",
+                "- Top-pick KB금융 유지한다."
               ],
               "preferred_stocks": [
-                "Top-pick 금융 유지, 관심종목 우리금융지주 제시"
+                "Top-pick KB금융 유지, 관심종목 우리금융지주 제시",
+                "- Top-pick KB금융 유지한다."
               ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "밸류 이점 및 다시 매수할 만한 7|회로 볼 수 있음",
-              "industry_conclusion": "3Q26E PreviewS} 업종 투자전략 AA 은행업 투자의견 Overweight 유지,",
-              "report_conclusion": "3Q26E PreviewS} 업종 투자전략 AA 은행업 투자의견 Overweight 유지,",
+              "pitch": "- 3Q26E 합산 지배순이익 6.4조원(YoY +5.4%, QoQ -2.0%) 전망하며, 대체로 컨센서스에 소폭 상회 및 부합하는 무난한 실적 예상 확인된다면 최근의 조정은 밸류 이점 및 다시 매수할 만한 기회로 볼 수 있음 - 은행주는 현재 추가 상승동력이 필요한 상황으로 판단한다. 수급 일부 분산 및 단기 모멘텀 둔화 현황상 최근 은행주 조정은 다시 매수할 만한 기회로 생각한다.",
+              "industry_conclusion": "3Q26E Preview와 업종 투자전략 점검 은행업 투자의견 Overweight 유지, - 3Q26E 합산 지배순이익 6.4조원(YoY +5.4%, QoQ -2.0%) 전망하며, 대체로 컨센서스에 소폭 상회 및 부합하는 무난한 실적 예상 [주요 종목별 적정주가 및 투자의견 요약] - 은행업종 투자의견은 Overweight을 유지한다.",
+              "report_conclusion": "3Q26E Preview와 업종 투자전략 점검 은행업 투자의견 Overweight 유지, - 3Q26E 합산 지배순이익 6.4조원(YoY +5.4%, QoQ -2.0%) 전망하며, 대체로 컨센서스에 소폭 상회 및 부합하는 무난한 실적 예상 [주요 종목별 적정주가 및 투자의견 요약] - 은행업종 투자의견은 Overweight을 유지한다.",
               "valuation": [],
-              "earnings_changes": [],
+              "earnings_changes": [
+                "- 3Q26E 합산 지배순이익 6.4조원(YoY +5.4%, QoQ -2.0%) 전망하며, 대체로 컨센서스에 소폭 상회 및 부합하는 무난한 실적 예상",
+                "[종합] 우려 대비 무난한 실적 예상",
+                "- 3Q26E 연결기준 영업이익 2조 2,284억원(YoY +14.0%, QoQ -10.0%), 지배순이익 1조 7,395억원(YoY +22.2%, QoQ -4.4%)으로 컨센서스를 상회하는 실적 전망.",
+                "분기 실적 예상과 종합하여 적정주가는 유지.",
+                "- 3Q26E 연결기준 영업이익 1,851억원(YoY +18.8%, QoQ +1.3%), 지배순이익 1,398억원(YoY +14.2%, QoQ flat)으로, 컨센서스를 하회하는 실적 전망.",
+                "- 3Q26E 연결기준 영업이익 3,096억원(YoY +10.1%, QoQ +1.3%), 지배순이익 2,244억원(YoY +7.8%, QoQ +2.2%)으로, 컨센서스를 소폭 상회하는 실적 예상"
+              ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145068/1/20261007_B4010_jiwonkim_255.pdf",
               "pdf_error": "",
@@ -131,9 +145,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "한편, 미국 단7] 국채 ETFS} Schwab 배당주\" 중심으로 순매수 규모는 확대",
-              "industry_conclusion": "한편, 미국 단7] 국채 ETFS} Schwab 배당주\" 중심으로 순매수 규모는 확대",
-              "report_conclusion": "한편, 미국 단7] 국채 ETFS} Schwab 배당주\" 중심으로 순매수 규모는 확대",
+              "pitch": "- 26E 예상 배당수익률 비교 (커버리지 증권사):",
+              "industry_conclusion": "산업 투자의견: Overweight (비중확대)",
+              "report_conclusion": "산업 투자의견: Overweight (비중확대)",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -159,8 +173,14 @@
               "source": "https://t.me/daolresearch/15165"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "top_picks": [
+            {
+              "text": "9월 실적이 약세였으나 구조적인 문제는 아니라고 판단하며 카지노 산업 Top-Pick 유지",
+              "date": "2026-10-06",
+              "source": "https://t.me/daolresearch/15165"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
           "report_count": 1,
@@ -175,13 +195,17 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "9월 실적이 약세였으나 구조적인 문제는 아니라고 판단하며 카지노 산업 Top-Pick 유지"
+              ],
+              "preferred_stocks": [
+                "9월 실적이 약세였으나 구조적인 문제는 아니라고 판단하며 카지노 산업 Top-Pick 유지"
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "10월 중국 국경절 연휴가 있으나 점진적으로 비수기에 돌입할 전망. 비수기에는 성장 모멘텀이 약해지기 때문에 주가도 동반 약세를 시현하기 쉬운 환경 - 다만 3사 모두 VIP 영업을 확대하고 있기 때문에 완만한 성장 기조는 유지할 가능성이 높다고 판단. 9월 실적이 약세였으나 구조적인 문제는 아니라고 판단하며 카지노 산업 Top-Pick 유지",
+              "industry_conclusion": "10월 중국 국경절 연휴가 있으나 점진적으로 비수기에 돌입할 전망.",
+              "report_conclusion": "10월 중국 국경절 연휴가 있으나 점진적으로 비수기에 돌입할 전망.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -367,8 +391,14 @@
               "source": "https://t.me/daolresearch/15177"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "top_picks": [
+            {
+              "text": "- 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick)",
+              "date": "2026-10-07",
+              "source": "https://t.me/daolresearch/15176"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
               "company": "코스메카코리아",
@@ -509,13 +539,17 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "- 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick)"
+              ],
+              "preferred_stocks": [
+                "- 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick)"
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "리브스메드 BUY gue] oe Pitch Issue & Pitch | 의료기기",
-              "industry_conclusion": "리브스메드 BUY gue] oe Pitch Issue & Pitch | 의료기기",
-              "report_conclusion": "리브스메드 BUY gue] oe Pitch Issue & Pitch | 의료기기",
+              "pitch": "da Vinci는 전립선절제술과 자궁절제술을 중심으로 시장을 키웠고 STARK 역시 첫 공략 술식이 상업화 핵심. 리브스메드 BUY, 적정주가 9만원 유지. ■",
+              "industry_conclusion": "산업 투자의견: 의료기기 Overweight (비중확대) - 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick) 당사는 2027년부터 STARK 매출을 추정치에 반영하고 있으며, 2027E 매출액 1,639억원 중 STARK 매출은 321억원으로 전망함. - 리브스메드에 대해 투자의견 BUY, 적정주가 9만원을 유지함.",
+              "report_conclusion": "산업 투자의견: 의료기기 Overweight (비중확대) - 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick) 당사는 2027년부터 STARK 매출을 추정치에 반영하고 있으며, 2027E 매출액 1,639억원 중 STARK 매출은 321억원으로 전망함. - 리브스메드에 대해 투자의견 BUY, 적정주가 9만원을 유지함.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -540,9 +574,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "- 업종: K-뷰티 수요 건조, 브랜드별 성장 모멘텀 확산 - 업종 수요는 건조한 가운데 브랜드별 성장 모멘텀 차별화 확대 - 성장 모멘텀의 중소형 브랜드 확산 확인, 단일 히어로 SKU 집중도 상승은 부담 요인 상대 모멘텀 개선 지속 및 후속 히어로 SKU 확보 여부 확인 필요.",
+              "industry_conclusion": "- 업종: K-뷰티 수요 건조, 브랜드별 성장 모멘텀 확산 - 업종 수요는 건조한 가운데 브랜드별 성장 모멘텀 차별화 확대 - 성장 모멘텀의 중소형 브랜드 확산 확인, 단일 히어로 SKU 집중도 상승은 부담 요인 상대 모멘텀 개선 지속 및 후속 히어로 SKU 확보 여부 확인 필요.",
+              "report_conclusion": "- 업종: K-뷰티 수요 건조, 브랜드별 성장 모멘텀 확산 - 업종 수요는 건조한 가운데 브랜드별 성장 모멘텀 차별화 확대 - 성장 모멘텀의 중소형 브랜드 확산 확인, 단일 히어로 SKU 집중도 상승은 부담 요인 상대 모멘텀 개선 지속 및 후속 히어로 SKU 확보 여부 확인 필요.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1145,9 +1179,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "AVS 28년 하반7| OFS 예상. SIAC] 대안으로 EMIB-T2] 중요도가 높아질 것으로 전망 Google TPUv8e(S2#=\"3} Humufish)ol] EMIB-T 적용이 확정됐으며, 21127 양산 예상. 것으로 판단 주요 GPU 업체 역시 28년 차세대 아키텍쳐에서 일부 물량의 EMIB",
-              "industry_conclusion": "SIAC] 대안으로 EMIB-T2] 중요도가 높아질 것으로 전망 공급사별 수율 개선 여부가 중요할 전망 시 기존 공급사의 Capa 증설뿐 아니라 신규 공급사 확보 필요성도 높아질 전망이다. 기판 공급사 입장에서는 초7| 낮은 수율에 따른 수익성 부담도 제한적일 전망이다. 00 트 (2H28E) (보수적전망)",
-              "report_conclusion": "SIAC] 대안으로 EMIB-T2] 중요도가 높아질 것으로 전망 공급사별 수율 개선 여부가 중요할 전망 시 기존 공급사의 Capa 증설뿐 아니라 신규 공급사 확보 필요성도 높아질 전망이다. 기판 공급사 입장에서는 초7| 낮은 수율에 따른 수익성 부담도 제한적일 전망이다. 00 트 (2H28E) (보수적전망)",
+              "pitch": "1. 대면적 AI 패키지 확대 → EMIB-T 채택 유인 증가 - 2027년 이후 GPU와 AI 가속기의 패키지 대면적화가 본격화되며 EMIB-T가 CoWoS-L 패키징의 대안으로 부각될 전망입니다. - CoWoS는 대면적화될수록 Warpage(휨 현상) 제어와 공정 복잡도가 증가하여, 차세대 패키징 방식인 CoPoS가 이를 보완할 수 있으나 본격 양산 시점은 2028년 하반기 이후로 예상됩니다. 이에 따라 CoPoS 상용화 이전 대면적 패키징 수요에 대응할 현실적인 대안으로 EMIB-T의 중요도가 높아질 것으로 전망됩니다.",
+              "industry_conclusion": "산업 투자의견: Overweight (비중확대) - 2027년 이후 GPU와 AI 가속기의 패키지 대면적화가 본격화되며 EMIB-T가 CoWoS-L 패키징의 대안으로 부각될 전망입니다. 이에 따라 CoPoS 상용화 이전 대면적 패키징 수요에 대응할 현실적인 대안으로 EMIB-T의 중요도가 높아질 것으로 전망됩니다. Humufish가 2H27 양산에 진입하기 위해서는 4Q26~1Q27 공급사별 수율 개선 여부가 중요할 전망입니다.",
+              "report_conclusion": "산업 투자의견: Overweight (비중확대) - 2027년 이후 GPU와 AI 가속기의 패키지 대면적화가 본격화되며 EMIB-T가 CoWoS-L 패키징의 대안으로 부각될 전망입니다. 이에 따라 CoPoS 상용화 이전 대면적 패키징 수요에 대응할 현실적인 대안으로 EMIB-T의 중요도가 높아질 것으로 전망됩니다. Humufish가 2H27 양산에 진입하기 위해서는 4Q26~1Q27 공급사별 수율 개선 여부가 중요할 전망입니다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1537,12 +1571,12 @@
               "source": "https://t.me/daolresearch/15003"
             },
             {
-              "text": "업종 선호 의견 +4] (Overweight)",
+              "text": "의료기기/화장품 업종 선호 의견 유지 (Overweight)",
               "date": "2026-09-18",
               "source": "https://t.me/daolresearch/15097"
             },
             {
-              "text": "20278 PER 17배, 14배, 11배 수준으로 3사 선호 의견 유지",
+              "text": "업종 선호 의견 유지(Overweight)",
               "date": "2026-09-18",
               "source": "https://t.me/daolresearch/15097"
             }
@@ -1710,20 +1744,24 @@
               "report_type": "산업자료",
               "opinion": "비중확대",
               "top_picks": [
-                "업종 선호 의견 +4] (Overweight)",
-                "20278 PER 17배, 14배, 11배 수준으로 3사 선호 의견 유지"
+                "의료기기/화장품 업종 선호 의견 유지 (Overweight)",
+                "업종 선호 의견 유지(Overweight)"
               ],
               "preferred_stocks": [
-                "업종 선호 의견 +4] (Overweight)",
-                "20278 PER 17배, 14배, 11배 수준으로 3사 선호 의견 유지"
+                "의료기기/화장품 업종 선호 의견 유지 (Overweight)",
+                "업종 선호 의견 유지(Overweight)"
               ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Issue & Pitch | 의료기기/화장품",
-              "industry_conclusion": "Issue & Pitch | 의료기기/화장품",
-              "report_conclusion": "Issue & Pitch | 의료기기/화장품",
+              "pitch": "원화 강세가 완화되는 흐름 속 의료기기/화장품 브랜드사 영업 현황 양호. 업종 선호 의견 유지(Overweight) 3.",
+              "industry_conclusion": "- 파마리서치: 투자의견 BUY, 적정주가 550,000원, 종가(2026-09-17) 329,500원, 2026E 매출액 7,04.6십억원, 영업이익 272.0십억원, PER 16.6배 - 에이피알: 투자의견 BUY, 적정주가 560,000원, 종가(2026-09-17) 353,000원, 2026E 매출액 3,087.3십억원, 영업이익 786.2십억원, PER 21.8배 - 달바글로벌: 투자의견 BUY, 적정주가 340,000원, 종가(2026-09-17) 172,700원, 2026E 매출액 749.6십억원, 영업이익 168.1십억원, PER 15.9배 - 아모레퍼시픽: 투자의견 BUY, 적정주가 180,000원, 종가(2026-09-17) 143,100원, 2026E 매출액 4,689.1십억원, 영업이익 495.3십억원, PER 23.9배",
+              "report_conclusion": "- 파마리서치: 투자의견 BUY, 적정주가 550,000원, 종가(2026-09-17) 329,500원, 2026E 매출액 7,04.6십억원, 영업이익 272.0십억원, PER 16.6배 - 에이피알: 투자의견 BUY, 적정주가 560,000원, 종가(2026-09-17) 353,000원, 2026E 매출액 3,087.3십억원, 영업이익 786.2십억원, PER 21.8배 - 달바글로벌: 투자의견 BUY, 적정주가 340,000원, 종가(2026-09-17) 172,700원, 2026E 매출액 749.6십억원, 영업이익 168.1십억원, PER 15.9배 - 아모레퍼시픽: 투자의견 BUY, 적정주가 180,000원, 종가(2026-09-17) 143,100원, 2026E 매출액 4,689.1십억원, 영업이익 495.3십억원, PER 23.9배",
               "valuation": [
-                "20278 PER 17배, 14배, 11배 수준으로 3사 선호 의견 유지"
+                "[주요 기업 밸류에이션 (Valuation Table)]",
+                "- 파마리서치: 투자의견 BUY, 적정주가 550,000원, 종가(2026-09-17) 329,500원, 2026E 매출액 7,04.6십억원, 영업이익 272.0십억원, PER 16.6배",
+                "- 에이피알: 투자의견 BUY, 적정주가 560,000원, 종가(2026-09-17) 353,000원, 2026E 매출액 3,087.3십억원, 영업이익 786.2십억원, PER 21.8배",
+                "- 달바글로벌: 투자의견 BUY, 적정주가 340,000원, 종가(2026-09-17) 172,700원, 2026E 매출액 749.6십억원, 영업이익 168.1십억원, PER 15.9배",
+                "- 아모레퍼시픽: 투자의견 BUY, 적정주가 180,000원, 종가(2026-09-17) 143,100원, 2026E 매출액 4,689.1십억원, 영업이익 495.3십억원, PER 23.9배"
               ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -2849,9 +2887,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "적극 활용하고, 단순 WM, SHE ATS Sin) 줄일 수 있을 전망. 현장 연구 경험과 TY 역량을 시에 제대로 점목하는 기업이 AVIS SET 전망. 기술이전 등 사업적 성과로 이어질 전망 당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실이 아래 종목투자의견은 향후 12개월간 SHES 종가대비 추전종목의 예상 기대수익률을",
-              "industry_conclusion": "적극 활용하고, 단순 WM, SHE ATS Sin) 줄일 수 있을 전망. 현장 연구 경험과 TY 역량을 시에 제대로 점목하는 기업이 AVIS SET 전망. 기술이전 등 사업적 성과로 이어질 전망 당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실이 아래 종목투자의견은 향후 12개월간 SHES 종가대비 추전종목의 예상 기대수익률을 당사는 상기 명시한 사항 외에 고지해야 하는 특별한 이해관계가 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 조과수익률 수준에",
-              "report_conclusion": "적극 활용하고, 단순 WM, SHE ATS Sin) 줄일 수 있을 전망. 현장 연구 경험과 TY 역량을 시에 제대로 점목하는 기업이 AVIS SET 전망. 기술이전 등 사업적 성과로 이어질 전망 당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실이 아래 종목투자의견은 향후 12개월간 SHES 종가대비 추전종목의 예상 기대수익률을 당사는 상기 명시한 사항 외에 고지해야 하는 특별한 이해관계가 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 조과수익률 수준에",
+              "pitch": "이를 통해 축적된 데이터를 연구에 적극 활용하고, 단순 반복 업무 시간을 크게 줄일 수 있을 전망. 결국, 오랫동안 쌓아온 현장 연구 경험과 실험 역량을 AI에 제대로 접목하는 기업이 시장을 주도할 전망. 결국 이러한 데이터 경쟁력이 글로벌 제휴와 기술이전 등 사업적 성과로 이어질 전망",
+              "industry_conclusion": "이를 통해 축적된 데이터를 연구에 적극 활용하고, 단순 반복 업무 시간을 크게 줄일 수 있을 전망. 결국, 오랫동안 쌓아온 현장 연구 경험과 실험 역량을 AI에 제대로 접목하는 기업이 시장을 주도할 전망. 결국 이러한 데이터 경쟁력이 글로벌 제휴와 기술이전 등 사업적 성과로 이어질 전망",
+              "report_conclusion": "이를 통해 축적된 데이터를 연구에 적극 활용하고, 단순 반복 업무 시간을 크게 줄일 수 있을 전망. 결국, 오랫동안 쌓아온 현장 연구 경험과 실험 역량을 AI에 제대로 접목하는 기업이 시장을 주도할 전망. 결국 이러한 데이터 경쟁력이 글로벌 제휴와 기술이전 등 사업적 성과로 이어질 전망",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
