@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T22:47:46.412557+00:00",
+ "generated_at": "2026-10-08T01:22:33.141022+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1370,
  "hits": [
@@ -32828,6 +32828,13 @@
    "burst": 4.8
   },
   {
+   "term": "일평균거래대금",
+   "recent": 9,
+   "total": 16,
+   "sectors": 7,
+   "burst": 4.7
+  },
+  {
    "term": "원화",
    "recent": 11,
    "total": 20,
@@ -32856,13 +32863,6 @@
    "burst": 4.2
   },
   {
-   "term": "일평균거래대금",
-   "recent": 8,
-   "total": 15,
-   "sectors": 7,
-   "burst": 4.2
-  },
-  {
    "term": "공급계약",
    "recent": 6,
    "total": 11,
@@ -32877,11 +32877,11 @@
    "burst": 4.2
   },
   {
-   "term": "사용",
-   "recent": 7,
-   "total": 14,
-   "sectors": 7,
-   "burst": 3.6
+   "term": "Target",
+   "recent": 9,
+   "total": 18,
+   "sectors": 6,
+   "burst": 3.7
   }
  ]
 }
