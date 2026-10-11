@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T22:47:24.187047+00:00",
+  "generated_at": "2026-10-11T23:16:12.736452+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1381,
+  "report_count": 1382,
   "months": [
     {
       "month": "2026-10",
@@ -1632,6 +1632,48 @@
           ]
         },
         {
+          "analyst": "임도영",
+          "sectors": [
+            "엔터"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15205,
+              "date": "2026-10-12",
+              "month": "2026-10",
+              "analyst": "임도영",
+              "sector": "엔터",
+              "company": "하이브",
+              "code": "352820",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145298/1/20261012_352820_dy.lim_49.pdf",
+              "pdf_error": "",
+              "title": "[하이브(352820) | 다올 엔터 임도영] ★ 3Q26 Preview: BTS가 끌고 5세대가 받친 실적",
+              "summary": "[하이브(352820) | 다올 엔터 임도영] ★ 3Q26 Preview: BTS가 끌고 5세대가 받친 실적 ▶ 저연차 성장세가 밸류에 반영되는 시점은 BTS의 실적 기여도가 낮아지는 동시에 저연차 IP들의 신규 투어 규모 확대가 확인될 2Q27로 예상. 기준 시점을 27년으로 변경, 가시성이 낮은 활동은 배제해 최대한 보수적으로 추정. 해당 시점까지 멀티플 역시 하향 조정하되 과거 대비 저연차 IP들의 성장 가시성이 높다는 점을 감안, 과거 저점인 27배 대비 10%를 할증해 적용하며 적정주가는 25.5만원으로 하향 ▶ 3Q26 매출액 1.5조원, 영업이익 1,665억원으로 전분기에 이어 콘텐츠 제외 전부문 호실적으로컨센서스 부합 전망 ▶ 음반원 매출 2,738억원 전망. 음반은 총 1,000만장 반영(일본반 포함). 코르티스는 2집 누적 450만장 돌파로 연내 500만장 달성 가능. 캣츠아이는 현재 30만장 이상 판매된 것으로 파악. 서구권 IP 특성상 장기간 구보 판매로 27년 누적 100만장 달성 전망 ▶ 공연 매출 7,380억원, 총 285만명(BTS 168만명)으로 역대 최대 공연 실적 경신 전망. 4Q 모객수는 3Q와 유사하나 북미/유럽 대비 ATP가 낮고 BTS 동남아 공연은 순매출 방식으로 진행, 공연 매출은 QoQ 감소 예상. 다만 공연 원가율 부담 역시 QoQ 개선 전망 ▶ MD 매출 3,397억원으로 QoQ 성장 전망. 전체 모객 수 증가와 BTS 투어 MD 오퍼레이션 개선 효과 기대. 4Q에도 남미 지역은 오퍼레이션 개선 효과는 감소하겠으나 BTS 2nd drop MD, 국중박 콜라보, SWIM 윈드 자켓 배송 반영과 남미/아시아 전용 MD 출시 등으로 MD 매출의 QoQ 급락 가능성은 낮다고 판단 ▶ 27년 데뷔 예정인 북미 보이/걸그룹의 성과 입증 시 현지화",
+              "post_url": "https://t.me/daolresearch/15205",
+              "source_url": "https://buly.kr/Chrof5N"
+            }
+          ]
+        },
+        {
           "analyst": "최광식",
           "sectors": [
             "조선/기계/방산"
@@ -1850,7 +1892,7 @@
           ]
         }
       ],
-      "report_count": 33
+      "report_count": 34
     },
     {
       "month": "2026-09",
