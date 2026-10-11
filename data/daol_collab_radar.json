@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-11T22:12:25.299083+00:00",
+ "generated_at": "2026-10-11T22:48:53.818735+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1372,
+ "report_count": 1381,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31879,6 +31879,301 @@
    "title": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린엔진(443060) : Goltens를 품고, 이제 남의 배도 탐한다",
    "post_url": "https://t.me/daolresearch/15193",
    "source_url": "https://bit.ly/HMS3Q26PRE"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "바이오시밀러",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Bevacizumab 점유율: Avastin 12.4%, Mvasi 57.5%, Zirabev 23.9%, Vegzelma 6.2% (수량 기준)",
+    "Avastin 11.2%, Mvasi 59.7%, Zirabev 22.5%, Vegzelma 6.5% (금액 기준)"
+   ],
+   "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 9월 미국 처방 실적",
+   "post_url": "https://t.me/daolresearch/15195",
+   "source_url": "https://buly.kr/1y1aoki"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "K뷰티 전문 서브 3곳의 구매처 언급 비중은 5월에서 9월 사이 YesStyle 4.5%→7.0%, 그 밖의 K뷰티 전문몰 2.0%→4.2%로 오르고 아마존은 2.3%→0.9%로 하락."
+   ],
+   "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue & Pitch: Reddit으로 본 K뷰티 AS-IS",
+   "post_url": "https://t.me/daolresearch/15196",
+   "source_url": "https://buly.kr/AlnTrhA"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "미국 최대 스킨케어 커뮤니티 r/SkincareAddiction에서 K뷰티 언급 글 비중은 5~9월 11~17%로 서양 더마 3강(17~24%)의 3분의 2 수준."
+   ],
+   "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue & Pitch: Reddit으로 본 K뷰티 AS-IS",
+   "post_url": "https://t.me/daolresearch/15196",
+   "source_url": "https://buly.kr/AlnTrhA"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-12",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "한국콜마",
+   "code": "161890",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "투자의견 관세청 기준 3Q26 기초와 기타 수출은 각각 YoY +34%, +66% 증가하며 K뷰티 수출 호조세를 입증."
+   ],
+   "title": "[한국콜마(161890)/ BUY(유지)/ TP 19만원(유지)/ 다올 화장품 박종현] ★ 한국 중심 성장 지속",
+   "post_url": "https://t.me/daolresearch/15197",
+   "source_url": "https://buly.kr/1RHJsSX"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "한국콜마",
+   "code": "161890",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "투자의견 관세청 기준 3Q26 기초와 기타 수출은 각각 YoY +34%, +66% 증가하며 K뷰티 수출 호조세를 입증."
+   ],
+   "title": "[한국콜마(161890)/ BUY(유지)/ TP 19만원(유지)/ 다올 화장품 박종현] ★ 한국 중심 성장 지속",
+   "post_url": "https://t.me/daolresearch/15197",
+   "source_url": "https://buly.kr/1RHJsSX"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "LG에너지솔루션",
+   "code": "373220",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "4Q26 ESS 수주 모멘텀(90GWh 가이던스 달성에 70GWh 필요)과 폴란드 공장 가동 증가에 따른 Non-AMPC 영업이익 BEP 돌파로 주가 재평가 가능성 공존",
+    "중대형 EV 매출은 유럽/아시아 출하 증가로 QoQ +10% 내외, ESS는 미시건과 테네시 JV 전환 본격화로 QoQ +50% 내외 증가 추정"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ LG에너지솔루션(373220) - 3Q26 잠정실적 발표: 매출 가속 시작",
+   "post_url": "https://t.me/daolresearch/15198",
+   "source_url": "https://buly.kr/9tDgxl9"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-12",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "LG에너지솔루션",
+   "code": "373220",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "4Q26 ESS 수주 모멘텀(90GWh 가이던스 달성에 70GWh 필요)과 폴란드 공장 가동 증가에 따른 Non-AMPC 영업이익 BEP 돌파로 주가 재평가 가능성 공존"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] ★ LG에너지솔루션(373220) - 3Q26 잠정실적 발표: 매출 가속 시작",
+   "post_url": "https://t.me/daolresearch/15198",
+   "source_url": "https://buly.kr/9tDgxl9"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-10-12",
+   "analyst": "김혜영",
+   "sector": "AI/인터넷/게임/레저",
+   "company": "카카오",
+   "code": "035720",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "NCT 127(94만 장)의 앨범 발매와 에스파, EXO, NCT WISH의 콘서트가 진행되었으나 전분기 대비로는 감소할 전망"
+   ],
+   "title": "[카카오(035720)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 인고의 시간 ★ 45,000원(유지), BUY(유지)",
+   "post_url": "https://t.me/daolresearch/15199",
+   "source_url": "https://buly.kr/EzlfPST"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "농심",
+   "code": "004370",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "3분기는 1) 국내 가격인상 후 가격저항에 따른 Q 감소, 2) 중동 지정학 사태 후 원부자재 가격 인상분 온기 반영, 3) 유류비 상승, 4) 원화 강세에 따른 환 효과 감소로 영업이익 기준 컨센서스에 부합하는 실적 기록 추정.",
+    "중국은 Sam’s Club과 간식점 위주 입점 진행되고 있으며, 원화 강세로 인한 환 효과 상쇄로 미국, 중국 법인 매출액 성장률은 각각 YoY +4%, +8% 추정."
+   ],
+   "title": "[농심(004370) | BUY(유지) | TP 55만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 증익폭은 3Q < 4Q",
+   "post_url": "https://t.me/daolresearch/15200",
+   "source_url": "https://buly.kr/DEc5ave"
+  },
+  {
+   "theme": "K푸드 수출",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "농심",
+   "code": "004370",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "이에 라면 내수, 스낵 내수 매출액으로 각각 YoY -3% 추정하나, 라면 수출 매출액이 YoY +20% 성장해 별도 매출액은 YoY +0.7% 성장 추정",
+    "미국 내 신라면 外 브랜드 판촉 강화 영향."
+   ],
+   "title": "[농심(004370) | BUY(유지) | TP 55만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 증익폭은 3Q < 4Q",
+   "post_url": "https://t.me/daolresearch/15200",
+   "source_url": "https://buly.kr/DEc5ave"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데웰푸드",
+   "code": "280360",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "다만 상반기부터 진행된 영업구조 개선 등 경영 효율화 활동 효과로 하반기 수익성 개선 가시성은 높으며, 최근 원화 강세도 수입 원재료 비중이 높은 동사에 긍정적으로 작용 중."
+   ],
+   "title": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 하반기 수익성 개선 흐름은 명확",
+   "post_url": "https://t.me/daolresearch/15201",
+   "source_url": "https://buly.kr/7QP5E0v"
+  },
+  {
+   "theme": "금/귀금속",
+   "category": "원자재",
+   "date": "2026-10-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데웰푸드",
+   "code": "280360",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "전년 4분기는 금값 상승으로 인한 장기종업원급여 비용 증가, 유통처 대손 충당금 설정, 카카오 등 원재료 가격 부담이 겹치며 영업적자를 기록."
+   ],
+   "title": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 하반기 수익성 개선 흐름은 명확",
+   "post_url": "https://t.me/daolresearch/15201",
+   "source_url": "https://buly.kr/7QP5E0v"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "company": "SK텔레콤",
+   "code": "017670",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Penguin Solutions 컨콜에서 언급된 한국 NeoCloud 고객사 - 미국 AI 인프라 기업 Penguin Solutions는 최근 실적발표에서 SK텔레콤으로 추정되는 NeoCloud의 수주를 언급 - 사명을 밝히진 않았으나, 기존 전략적 협력 관계와 사업 추진 일정을 고려하면 SK텔레콤일 가능성이 높다고 판단 - 1) 우선 양 사는 전략적 투자 관계이고, 2) Penguin이 SK텔레콤의 GPU Cluster 구축",
+    "SKT의 GPUaaS 현황 및 전망 - SK텔레콤은 ‘29년부터 5GW 규모 데이터센터 구축을 개시하고, ‘31년부터 순차적으로 오픈하겠다는 목표를 제시."
+   ],
+   "title": "[SK텔레콤(017670) | BUY(유지) | 14만원(유지) | 다올 통신/음식료 이다연] ★ GPUaaS 사업 현황 Comment (feat. Penguin Solutions 실적발표)",
+   "post_url": "https://t.me/daolresearch/15202",
+   "source_url": "https://buly.kr/7bJqCpz"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-10-12",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "company": "SK텔레콤",
+   "code": "017670",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "양사 간 전략적 협업 History - SK텔레콤은 ‘24년 7월 Penguin Solutions와 $200M 규모의 전환우선주 투자 계약을 체결했고, ‘24년 12월 투자를 완료 - 이후 Penguin Solutions는 SK텔레콤의 가산 AI DC 내 GPU Cluster ‘해인’의 설계•구축•시스템 통합을 맡아 ‘25년 7월경 구축을 완료함 - 한편 SK텔레콤은 ‘26년 7월 SK하이닉스의 100% 자회사 ‘SHIFTIX"
+   ],
+   "title": "[SK텔레콤(017670) | BUY(유지) | 14만원(유지) | 다올 통신/음식료 이다연] ★ GPUaaS 사업 현황 Comment (feat. Penguin Solutions 실적발표)",
+   "post_url": "https://t.me/daolresearch/15202",
+   "source_url": "https://buly.kr/7bJqCpz"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "제이에스링크",
+   "code": "127120",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[제이에스링크(127120)/Not Rated/다올 철강금속·전력기기 이정우]"
+   ],
+   "title": "[제이에스링크(127120)/Not Rated/다올 철강금속·전력기기 이정우] ★ NDR 후기: 방향성은 확실. 남은 건 속도뿐",
+   "post_url": "https://t.me/daolresearch/15203",
+   "source_url": "https://buly.kr/1GMYtsw"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "제이에스링크",
+   "code": "127120",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "나머지는 방산, 로봇, 풍력 등 타 산업으로 채울 것으로 예상"
+   ],
+   "title": "[제이에스링크(127120)/Not Rated/다올 철강금속·전력기기 이정우] ★ NDR 후기: 방향성은 확실. 남은 건 속도뿐",
+   "post_url": "https://t.me/daolresearch/15203",
+   "source_url": "https://buly.kr/1GMYtsw"
+  },
+  {
+   "theme": "로봇/자동화",
+   "category": "산업테마",
+   "date": "2026-10-12",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "제이에스링크",
+   "code": "127120",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "제품 수주 확대 기조는 명확 북미 로봇관련 기업과 논의하고 있는 납품 물량은 100톤으로 25톤은 스펙 및 가격(4.5억원) 확정, 75톤은 스펙 확정 후 가격",
+    "레시피 확정 8개 등급 중 N50, 45UH는 한국재료연구원 품질 검증까지 종료되면서 자동차 모터, 로봇 액추에이터용 영구자석 등 타겟 제품군의 대부분을 커버 가능한 라인업 확보."
+   ],
+   "title": "[제이에스링크(127120)/Not Rated/다올 철강금속·전력기기 이정우] ★ NDR 후기: 방향성은 확실. 남은 건 속도뿐",
+   "post_url": "https://t.me/daolresearch/15203",
+   "source_url": "https://buly.kr/1GMYtsw"
   }
  ],
  "cross_mentions": [
@@ -32937,22 +33232,34 @@
    "evidence": "공격 대상은 319.5k-DWT 탱커 VL Prosperity(2015년 건조)로, DB상 한국 글로벌마린피앤아이 선주·HMM오션서비스 기술 관리이며 실소유/운영은 현대글로비스로 언급됨",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15192"
+  },
+  {
+   "company": "카카오",
+   "code": "035720",
+   "owner_analyst": "김혜영",
+   "owner_sector": "인터넷/게임/레저",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "date": "2026-10-12",
+   "evidence": "전년 4분기는 금값 상승으로 인한 장기종업원급여 비용 증가, 유통처 대손 충당금 설정, 카카오 등 원재료 가격 부담이 겹치며 영업적자를 기록.",
+   "title": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 하반기 수익성 개선 흐름은 명확",
+   "post_url": "https://t.me/daolresearch/15201"
   }
  ],
  "candidates": [
   {
    "term": "통신",
-   "recent": 21,
-   "total": 23,
+   "recent": 23,
+   "total": 26,
    "sectors": 3,
-   "burst": 29.2
+   "burst": 24.0
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.4
+   "burst": 8.3
   },
   {
    "term": "관건",
@@ -32990,9 +33297,16 @@
    "burst": 4.9
   },
   {
+   "term": "우선",
+   "recent": 7,
+   "total": 12,
+   "sectors": 7,
+   "burst": 4.9
+  },
+  {
    "term": "원화",
-   "recent": 11,
-   "total": 20,
+   "recent": 12,
+   "total": 22,
    "sectors": 9,
    "burst": 4.6
   },
@@ -33011,31 +33325,10 @@
    "burst": 4.2
   },
   {
-   "term": "Mix",
-   "recent": 11,
-   "total": 21,
-   "sectors": 6,
-   "burst": 4.2
-  },
-  {
-   "term": "우선",
-   "recent": 6,
-   "total": 11,
-   "sectors": 6,
-   "burst": 4.2
-  },
-  {
    "term": "남미",
    "recent": 9,
    "total": 18,
    "sectors": 4,
-   "burst": 3.8
-  },
-  {
-   "term": "Target",
-   "recent": 9,
-   "total": 18,
-   "sectors": 6,
    "burst": 3.8
   },
   {
@@ -33044,6 +33337,20 @@
    "total": 14,
    "sectors": 7,
    "burst": 3.7
+  },
+  {
+   "term": "일평균거래대금",
+   "recent": 8,
+   "total": 16,
+   "sectors": 7,
+   "burst": 3.7
+  },
+  {
+   "term": "뷰티",
+   "recent": 20,
+   "total": 43,
+   "sectors": 3,
+   "burst": 3.5
   }
  ]
 }
