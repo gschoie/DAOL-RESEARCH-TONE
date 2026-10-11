@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T02:05:20.362443+00:00",
+  "generated_at": "2026-10-11T17:53:59.368001+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1370,
+  "report_count": 1372,
   "months": [
     {
       "month": "2026-10",
@@ -1321,6 +1321,11 @@
               "value": "중립",
               "date": "2026-10-05",
               "source": "https://t.me/daolresearch/15159"
+            },
+            {
+              "value": "중립",
+              "date": "2026-10-11",
+              "source": "https://t.me/daolresearch/15192"
             }
           ],
           "top_picks": [
@@ -1338,8 +1343,76 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 3,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 15193,
+              "date": "2026-10-11",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "HD현대마린솔루션",
+              "code": "443060",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "Scaled-ISP 시장규모 3.9십억달러(2035년 전망) Note: 부문별 영업이익은 미공표여서, 과거실적도 당사 예상치 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 ㆍNeutral: 해당 업종 수익률이 향후 12개월 동안 KOSPI 수익률과 유사할 것으로 예상하는 경우",
+              "industry_conclusion": "",
+              "report_conclusion": "Scaled-ISP 시장규모 3.9십억달러(2035년 전망) 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음 투자의견 BUY BUY BUY BUY HOLD BUY",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 32.2 28.9 23.3",
+                "PBR(배) 10.5 10.1 8.4",
+                "EV/EBITDA(배) 22.4 22.7 16.0",
+                "Performance 1M 6M 12M YTD",
+                "양도인 Kasper Family Holdings LLC 외 2개 지주회사"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145270/1/20261011_443060_gs.choie_598.pdf",
+              "pdf_error": "",
+              "title": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린엔진(443060) : Goltens를 품고, 이제 남의 배도 탐한다",
+              "summary": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린엔진(443060) : Goltens를 품고, 이제 남의 배도 탐한다 ▶ Issue: 3Q26 프리뷰. Goltens 인수의 의미 ▶ Pitch: > 첫 대형 M&A를 통해 본 업의 사업영역 및 경쟁력 확대를 도모 > 힘센엔진의 미국 DC 진출에 따른 성장 기울기에, M&A는 또 얼마나 보태질는지 기대 ▶ Rationale 일부 > 3Q26는 매출액 5,528억원(YoY +8%, QoQ -5%), 영업이익 924억원(-1%, -5%), AM솔루션 매출 2,681억원(+10%, 3%)으로 환율 영향을 반영해서 낮춤 > Goltens 인수 - 유통 채널을 통해 동사의 부품•친환경 개조•디지털 솔루션을 교차판매하고, - HD현대 그룹의 기존 선박•엔진 고객에게 정비 서비스를 제공하는 양방향 시너지가 기대 - 특히 HD현대 그룹 밖의 타사 엔진•기자재까지 대응하는 Goltens를 통해 Non-captive 선박 시장으로 확장을 기대 - 또한 육상발전 O&M과 AI 데이터센터 발전설비 MRO도 새로운 성장축으로 제시 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/HMS3Q26PRE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15193",
+              "source_url": "https://bit.ly/HMS3Q26PRE"
+            },
+            {
+              "id": 15192,
+              "date": "2026-10-11",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "다올",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "Line 2척으로 4분기 수주했지만, 협상건들 다수가 2027년으로 이연 될 것이라는 시장 전망도 제시됩니다. 가스선 △ 말련 Petronas CEO, 중동과 에너지 위기는 2027년까지 혼란 지속 전망 ✅ ▲ JP Morgan, 삼성중공업에 신조선 추가 발주하며 잔고 확대 해양/디펜스 ✅ △ Golar LNG, 4번째 FLNG 개조할 LNG선 인수 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 HD한국조선해양 (1년 누적 매수, 억원)",
+              "industry_conclusion": "",
+              "report_conclusion": "Line 2척으로 4분기 수주했지만, 협상건들 다수가 2027년으로 이연 될 것이라는 시장 전망도 제시됩니다. 가스선 △ 말련 Petronas CEO, 중동과 에너지 위기는 2027년까지 혼란 지속 전망 ✅ ▲ JP Morgan, 삼성중공업에 신조선 추가 발주하며 잔고 확대 해양/디펜스 ✅ △ Golar LNG, 4번째 FLNG 개조할 LNG선 인수 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 당초 2027년 1월 발효 예정이던 2단계(현장 메탄 배출에 대한 제3자 물리적 검증 증빙 제출 의무) 일정도 순연될 전망 장기 수요 전망: 신규 액화 프로젝트 물량 유입에 따라 낙관적",
+              "valuation": [
+                "▶ 한국 조선5사 Perf orm ance",
+                "Ocean Alliance, Gemini Cooperation, MSC에 이어 마지막으로 복귀하며 아시아-유럽 항로 운임 하락 압력 가중",
+                "Trafigura의 Pertamina Prime(796,000달러/일)과 Koch의 Nissos Nikouria(846,000달러/일)는 남미-중국 항로 Petrobras 재용선 계약 체결",
+                "중국 CIMC Raffles Yantai 조선소에서 개조 중인 3.5MTPA급 FLNG Esperanza 대비 저장 용량이 약 20% 커 추가 오프로딩 유연성 확보 가능",
+                "1단계 Luiperd 개발 후 Brulpadda 및 인근 잠재 구조로 확장 구상",
+                "공격 대상은 319.5k-DWT 탱커 VL Prosperity(2015년 건조)로, DB상 한국 글로벌마린피앤아이 선주·HMM오션서비스 기술 관리이며 실소유/운영은 현대글로비스로 언급됨"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145267/1/20261011_B2040_gs.choie_596.pdf",
+              "pdf_error": "",
+              "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+              "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 △ 울트라막스 컨선 5주 연속 하락, 중고선가지수는 또 1P 상승 ▲ 24년 선령 VLCC 73백만달러 매각. 2025년 초 대비 3배 상승 ▶ 그린쉽 ▲ HD현대중공업, SMR 추진 사용화 위해 11개 기관과 사업 착수 ▶ LNG △ 2026년 1~9월 LNG선 발주 73척 달성 △ QatarEnergy의 NFE 1번 train 곧 가동 △ 호르무즈 해협 LNG선 21건으로, 전쟁 이후 최고치 △ BW LNG와 Marubeni, 스팀터빈 LNG선 폐선 ▶ 가스선 △ 말련 Petronas CEO, 중동과 에너지 위기는 2027년까지 혼란 지속 전망 ▶ 컨테이너 △ Premier Alliance 수에즈 운하 및 홍해 항로 복귀를 결정 ▶ 탱커 △ 그리스 Carlova, 일본 이마바리에 아프라막스 탱커 2척 발주 ▲ VLCC TEC가 937,767달러/일로 사상 최고치 경신 ▲ VLCC 운임 급등으로, 중소형 탱커 수요 증가 ▶ 해양/디펜스/바람 △ Golar LNG, 4번째 FLNG 개조할 LNG선 인수 △ Seatrium은 Excelerate Energy로부터 LNG-FSRU 개조 2건 수주 ▽ 싱가포르 Seatrium이 Karpowership의 FSRU 개조 수주. 9척 LOI 중 2번째 계약 ▶ 기타 △ HD현대, 이상균 HD현대중공업 부회장을 조선 총괄 부회장으로 선임 < ☞ https://bit.ly/DOS843 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15192",
+              "source_url": "https://bit.ly/DOS843"
+            },
             {
               "id": 15187,
               "date": "2026-10-08",
@@ -1456,7 +1529,7 @@
           ]
         }
       ],
-      "report_count": 22
+      "report_count": 24
     },
     {
       "month": "2026-09",

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-11T02:05:24.728735+00:00",
+ "generated_at": "2026-10-11T17:57:12.178271+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1370,
+ "report_count": 1372,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31741,6 +31741,144 @@
    "title": "[LG전자(066570) | BUY(유지) | TP 27만원(상향) | 다올투자증권 전기전자 김연미] ★ LG전자 3Q26 잠정실적 Review - 오히려 뚜렷해진 27년 방향성",
    "post_url": "https://t.me/daolresearch/15189",
    "source_url": "https://buly.kr/APxwSJh"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "LNG △ 2026년 1~9월 LNG선 발주 73척 달성 △ QatarEnergy의 NFE 1번 train 곧 가동 △ 호르무즈 해협 LNG선 21건으로, 전쟁 이후 최고치 △ BW LNG와 Marubeni, 스팀터빈 LNG선 폐선"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15192",
+   "source_url": "https://bit.ly/DOS843"
+  },
+  {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "그린쉽 ▲ HD현대중공업, SMR 추진 사용화 위해 11개 기관과 사업 착수"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15192",
+   "source_url": "https://bit.ly/DOS843"
+  },
+  {
+   "theme": "해운 운임",
+   "category": "원자재",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "탱커 △ 그리스 Carlova, 일본 이마바리에 아프라막스 탱커 2척 발주 ▲ VLCC TEC가 937,767달러/일로 사상 최고치 경신 ▲ VLCC 운임 급등으로, 중소형 탱커 수요 증가",
+    "Ocean Alliance, Gemini Cooperation, MSC에 이어 마지막으로 복귀하며 아시아-유럽 항로 운임 하락 압력 가중"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15192",
+   "source_url": "https://bit.ly/DOS843"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15192",
+   "source_url": "https://bit.ly/DOS843"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 6,
+   "evidences": [
+    "가스선 △ 말련 Petronas CEO, 중동과 에너지 위기는 2027년까지 혼란 지속 전망 ✅ ▲ JP Morgan, 삼성중공업에 신조선 추가 발주하며 잔고 확대 해양/디펜스 ✅ △ Golar LNG, 4번째 FLNG 개조할 LNG선 인수 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 HD한국조선해양 (1년 누적 매수, 억원)",
+    "가스선 △ 말련 Petronas CEO, 중동과 에너지 위기는 2027년까지 혼란 지속 전망 ✅ ▲ JP Morgan, 삼성중공업에 신조선 추가 발주하며 잔고 확대 해양/디펜스 ✅ △ Golar LNG, 4번째 FLNG 개조할 LNG선 인수 △ Wood Mackenzie, 공급 업체 부족 속 FLNG 시장 신규 진입 기회 확대 전망 당초 2027년 1월 발효 예정이던 2단계(현장 메탄 배출에 대한 제3자 물리적 검증 증빙 제출"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15192",
+   "source_url": "https://bit.ly/DOS843"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD현대마린솔루션",
+   "code": "443060",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "Rationale 일부 > 3Q26는 매출액 5,528억원(YoY +8%, QoQ -5%), 영업이익 924억원(-1%, -5%), AM솔루션 매출 2,681억원(+10%, 3%)으로 환율 영향을 반영해서 낮춤 > Goltens 인수 - 유통 채널을 통해 동사의 부품•친환경 개조•디지털 솔루션을 교차판매하고, - HD현대 그룹의 기존 선박•엔진 고객에게 정비 서비스를 제공하는 양방향 시너지가 기대 - 특히 HD현대 그룹 밖의 "
+   ],
+   "title": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린엔진(443060) : Goltens를 품고, 이제 남의 배도 탐한다",
+   "post_url": "https://t.me/daolresearch/15193",
+   "source_url": "https://bit.ly/HMS3Q26PRE"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD현대마린솔루션",
+   "code": "443060",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "Rationale 일부 > 3Q26는 매출액 5,528억원(YoY +8%, QoQ -5%), 영업이익 924억원(-1%, -5%), AM솔루션 매출 2,681억원(+10%, 3%)으로 환율 영향을 반영해서 낮춤 > Goltens 인수 - 유통 채널을 통해 동사의 부품•친환경 개조•디지털 솔루션을 교차판매하고, - HD현대 그룹의 기존 선박•엔진 고객에게 정비 서비스를 제공하는 양방향 시너지가 기대 - 특히 HD현대 그룹 밖의 "
+   ],
+   "title": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린엔진(443060) : Goltens를 품고, 이제 남의 배도 탐한다",
+   "post_url": "https://t.me/daolresearch/15193",
+   "source_url": "https://bit.ly/HMS3Q26PRE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-11",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD현대마린솔루션",
+   "code": "443060",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린엔진(443060) : Goltens를 품고, 이제 남의 배도 탐한다",
+   "post_url": "https://t.me/daolresearch/15193",
+   "source_url": "https://bit.ly/HMS3Q26PRE"
   }
  ],
  "cross_mentions": [
@@ -32775,6 +32913,30 @@
    "evidence": "104: NAVER 주가 프리미엄/디스카운트 Note: 3개사는 카카오, 삼성에스디에스, LG씨엔에스 Source: Quantiwise, 다올투자증권 50 100 150 200",
    "title": "[건설/AI·인터넷 데이터센터 콜라보｜다올 건설·부동산 박영도 ☎️ 2184-2548/다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 대세 는 데 이터 센 터 ★ NAVER (035420): TP 400,000원, BUY, Top-Pick -",
    "post_url": "https://t.me/daolresearch/15147"
+  },
+  {
+   "company": "HMM",
+   "code": "011200",
+   "owner_analyst": "오정하",
+   "owner_sector": "운송/로봇",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "date": "2026-10-11",
+   "evidence": "공격 대상은 319.5k-DWT 탱커 VL Prosperity(2015년 건조)로, DB상 한국 글로벌마린피앤아이 선주·HMM오션서비스 기술 관리이며 실소유/운영은 현대글로비스로 언급됨",
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15192"
+  },
+  {
+   "company": "현대글로비스",
+   "code": "086280",
+   "owner_analyst": "오정하",
+   "owner_sector": "운송/로봇",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "date": "2026-10-11",
+   "evidence": "공격 대상은 319.5k-DWT 탱커 VL Prosperity(2015년 건조)로, DB상 한국 글로벌마린피앤아이 선주·HMM오션서비스 기술 관리이며 실소유/운영은 현대글로비스로 언급됨",
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 스팟운임 신고가 경신, Karpowership의 FSRU 개조 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15192"
   }
  ],
  "candidates": [
@@ -32783,14 +32945,14 @@
    "recent": 21,
    "total": 23,
    "sectors": 3,
-   "burst": 29.1
+   "burst": 29.2
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.3
+   "burst": 8.4
   },
   {
    "term": "관건",
@@ -32804,14 +32966,14 @@
    "recent": 8,
    "total": 13,
    "sectors": 3,
-   "burst": 5.5
+   "burst": 5.6
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.5
+   "burst": 5.6
   },
   {
    "term": "Cloud",
@@ -32825,14 +32987,7 @@
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.8
-  },
-  {
-   "term": "일평균거래대금",
-   "recent": 9,
-   "total": 16,
-   "sectors": 7,
-   "burst": 4.7
+   "burst": 4.9
   },
   {
    "term": "원화",
@@ -32863,13 +33018,6 @@
    "burst": 4.2
   },
   {
-   "term": "공급계약",
-   "recent": 6,
-   "total": 11,
-   "sectors": 5,
-   "burst": 4.2
-  },
-  {
    "term": "우선",
    "recent": 6,
    "total": 11,
@@ -32877,10 +33025,24 @@
    "burst": 4.2
   },
   {
+   "term": "남미",
+   "recent": 9,
+   "total": 18,
+   "sectors": 4,
+   "burst": 3.8
+  },
+  {
    "term": "Target",
    "recent": 9,
    "total": 18,
    "sectors": 6,
+   "burst": 3.8
+  },
+  {
+   "term": "사용",
+   "recent": 7,
+   "total": 14,
+   "sectors": 7,
    "burst": 3.7
   }
  ]
