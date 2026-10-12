@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T03:40:02.974541+00:00",
+  "generated_at": "2026-10-12T21:32:09.398832+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1382,
+  "report_count": 1383,
   "months": [
     {
       "month": "2026-10",
@@ -585,11 +585,6 @@
               "text": "- 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick)",
               "date": "2026-10-07",
               "source": "https://t.me/daolresearch/15176"
-            },
-            {
-              "text": "종목명 투자의견 {3 7=7 Top picks",
-              "date": "2026-10-12",
-              "source": "https://t.me/daolresearch/15196"
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
@@ -758,17 +753,13 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [
-                "종목명 투자의견 {3 7=7 Top picks"
-              ],
-              "preferred_stocks": [
-                "종목명 투자의견 {3 7=7 Top picks"
-              ],
+              "top_picks": [],
+              "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Issue & Pitch | F_SECNM",
-              "industry_conclusion": "종목명 투자의견 {3 7=7 Top picks",
-              "report_conclusion": "종목명 투자의견 {3 7=7 Top picks",
+              "pitch": "미국 스킨케어 커뮤니티에서 K뷰티는 기초 루틴의 기본값으로 정착. 색조 기기는 존재감이 약하고 구매는 아마존에서 K뷰티 전문몰로 이동 중. 남은 과제는 신뢰 관리.",
+              "industry_conclusion": "미국 스킨케어 커뮤니티에서 K뷰티는 기초 루틴의 기본값으로 정착. 색조 기기는 존재감이 약하고 구매는 아마존에서 K뷰티 전문몰로 이동 중. 남은 과제는 신뢰 관리.",
+              "report_conclusion": "미국 스킨케어 커뮤니티에서 K뷰티는 기초 루틴의 기본값으로 정착. 색조 기기는 존재감이 약하고 구매는 아마존에서 K뷰티 전문몰로 이동 중. 남은 과제는 신뢰 관리.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1526,9 +1517,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "밀러 선호 정책이 유지되고 있어 추세 전환으로 Be 이르다고 판단.",
-              "industry_conclusion": "밀러 선호 정책이 유지되고 있어 추세 전환으로 Be 이르다고 판단.",
-              "report_conclusion": "밀러 선호 정책이 유지되고 있어 추세 전환으로 Be 이르다고 판단.",
+              "pitch": "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
+              "industry_conclusion": "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
+              "report_conclusion": "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1695,10 +1686,72 @@
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
-          "tp_changes": [],
+          "tp_changes": [
+            {
+              "company": "한화엔진",
+              "direction": "하향",
+              "old": null,
+              "new": 65000,
+              "display": "65,000원 (하향)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "적용 멀티플 조정"
+              ],
+              "evidence": "• 2027~2029년 OPM을 2.0%p 안팎 낮추는데, 이는 1) SEAM(전기추진, 전력자동화)에 PPA 상각 100억원(연간), 2) 한화에어로스페이스로부터 양도받은 ESS 사업의 R&D 100억원(연간) 때문에 1%p대 원가율 상승 불가피, 또한 3) 보기엔진 랩프업 과정에서 주기엔진만큼의 수익성을 기대할 수는 없음 • 실적을 낮추고, 적정PER을 기존 AI 투자 기대를 반영했던 30배에서 20배(DC로 피어그룹 15배보다 높음)로 낮추어 적정주가를 65,000원으로 하향 • 그러나 8월말에 준공한 보기엔진은 CAPA 180대(선박 45척에 공급 가능한 규모)에서 0.3조원 매출 추가. 향후 AI DC 시장에 진입할 경우, 추가 증설이 필요. 이미 후속 증설을 감안한 터와 구조를 잡아서 시간과 돈이 크게 들지 않음. 보기엔진은 박용 4MW를 중심으로 10MW급까지 소화 가능한 형태. 400MW급 DC를 소화할 경우 또 매출이 0.4조원 덧붙음 • 올해 수주(전자공시 기준)에서 중국은 0.33조원(비중 19%)",
+              "date": "2026-10-12",
+              "source": "https://t.me/daolresearch/15212"
+            }
+          ],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 6,
           "reports": [
+            {
+              "id": 15212,
+              "date": "2026-10-12",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "한화엔진",
+              "code": "082740",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "한화엔진",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 65000,
+                  "display": "65,000원 (하향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "적용 멀티플 조정"
+                  ],
+                  "evidence": "• 2027~2029년 OPM을 2.0%p 안팎 낮추는데, 이는 1) SEAM(전기추진, 전력자동화)에 PPA 상각 100억원(연간), 2) 한화에어로스페이스로부터 양도받은 ESS 사업의 R&D 100억원(연간) 때문에 1%p대 원가율 상승 불가피, 또한 3) 보기엔진 랩프업 과정에서 주기엔진만큼의 수익성을 기대할 수는 없음 • 실적을 낮추고, 적정PER을 기존 AI 투자 기대를 반영했던 30배에서 20배(DC로 피어그룹 15배보다 높음)로 낮추어 적정주가를 65,000원으로 하향 • 그러나 8월말에 준공한 보기엔진은 CAPA 180대(선박 45척에 공급 가능한 규모)에서 0.3조원 매출 추가. 향후 AI DC 시장에 진입할 경우, 추가 증설이 필요. 이미 후속 증설을 감안한 터와 구조를 잡아서 시간과 돈이 크게 들지 않음. 보기엔진은 박용 4MW를 중심으로 10MW급까지 소화 가능한 형태. 400MW급 DC를 소화할 경우 또 매출이 0.4조원 덧붙음 • 올해 수주(전자공시 기준)에서 중국은 0.33조원(비중 19%)"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 ㆍNeutral: 해당 업종 수익률이 향후 12개월 동안 KOSPI 수익률과 유사할 것으로 예상하는 경우 ㆍUnderweight: 해당 업종 수익률이 향후 12개월 동안 KOSPI 수익률을 하회할 것으로 예상 경우 본 자료는 고객의 투자 판단을 돕기 위한 정보제공을 목적으로 작성된 참고용 자료입니다.",
+              "industry_conclusion": "",
+              "report_conclusion": "아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음 투자의견 BUY BUY BUY BUY BUY BUY",
+              "valuation": [
+                "SEAM 인수 및 ESS 사업 양수로 2027~2029년 마진 낮추고, 적정 PER도",
+                "• 실적을 낮추고, 적정PER을 기존 AI 투자 기대를 반영했던 30배에서",
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 20.6 18.8 16.0",
+                "PBR(배) 6.4 4.4 3.5",
+                "EV/EBITDA(배) 22.3 13.1 8.4"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145312/1/20261013_082740_gs.choie_599.pdf",
+              "pdf_error": "",
+              "title": "[한화엔진(082740)/BUY(유지)/TP 65,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화엔진(082740) 쌍발 엔진 점화: 중국, 미국 DC 진입",
+              "summary": "[한화엔진(082740)/BUY(유지)/TP 65,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화엔진(082740) 쌍발 엔진 점화: 중국, 미국 DC 진입 ▶ Issue: 3Q26 프리뷰. 보기엔진 준비 상황, 중국 엔진 수요 강세 ▶ Pitch: > SEAM 인수 및 ESS 사업 양수로 2027~2029년 마진 낮추고, > 적정 PER도 20배로 낮춰 적정주가 조정. 그러나 ① 중국 조선사들의 호황에 따른 엔진 인콰이어리 강세 → (중국 수요를 담는 CAPEX를 바탕으로 한) 실적 턴어라운드 펀더멘탈 굳건 ② 미국 DC 엔진 개시를 기다림 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/HE3Q26PRE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15212",
+              "source_url": "https://bit.ly/HE3Q26PRE"
+            },
             {
               "id": 15193,
               "date": "2026-10-11",
@@ -1883,7 +1936,7 @@
           ]
         }
       ],
-      "report_count": 34
+      "report_count": 35
     },
     {
       "month": "2026-09",

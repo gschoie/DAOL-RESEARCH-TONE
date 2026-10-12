@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-12T03:42:40.936917+00:00",
+ "generated_at": "2026-10-12T21:33:29.206659+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1382,
+ "report_count": 1383,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -31888,11 +31888,11 @@
    "sector": "제약/바이오",
    "company": "바이오시밀러",
    "code": "",
-   "direction": "중립",
-   "score": 0,
+   "direction": "수혜",
+   "score": 1,
    "evidences": [
-    "Bevacizumab 점유율: Avastin 12.4%, Mvasi 57.5%, Zirabev 23.9%, Vegzelma 6.2% (수량 기준)",
-    "Avastin 11.2%, Mvasi 59.7%, Zirabev 22.5%, Vegzelma 6.5% (금액 기준)"
+    "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
+    "Bevacizumab 점유율: Avastin 12.4%, Mvasi 57.5%, Zirabev 23.9%, Vegzelma 6.2% (수량 기준)"
    ],
    "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 9월 미국 처방 실적",
    "post_url": "https://t.me/daolresearch/15195",
@@ -31926,7 +31926,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "미국 최대 스킨케어 커뮤니티 r/SkincareAddiction에서 K뷰티 언급 글 비중은 5~9월 11~17%로 서양 더마 3강(17~24%)의 3분의 2 수준."
+    "미국 최대 스킨케어 커뮤니티 r/SkincareAddiction에서 K뷰티 언급 글 비중은 5~9월 11~17%로 서양 더마 3강(17~24%)의 3분의 2 수준.",
+    "미국 스킨케어 커뮤니티에서 K뷰티는 기초 루틴의 기본값으로 정착."
    ],
    "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue & Pitch: Reddit으로 본 K뷰티 AS-IS",
    "post_url": "https://t.me/daolresearch/15196",
@@ -32192,6 +32193,76 @@
    "title": "[하이브(352820) | 다올 엔터 임도영] ★ 3Q26 Preview: BTS가 끌고 5세대가 받친 실적",
    "post_url": "https://t.me/daolresearch/15205",
    "source_url": "https://buly.kr/Chrof5N"
+  },
+  {
+   "theme": "중국 경기/부양",
+   "category": "매크로",
+   "date": "2026-10-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "한화엔진",
+   "code": "082740",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "그러나 ① 중국 조선사들의 호황에 따른 엔진 인콰이어리 강세 → (중국 수요를 담는 CAPEX를 바탕으로 한) 실적 턴어라운드 펀더멘탈 굳건 ② 미국 DC 엔진 개시를 기다림"
+   ],
+   "title": "[한화엔진(082740)/BUY(유지)/TP 65,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화엔진(082740) 쌍발 엔진 점화: 중국, 미국 DC 진입",
+   "post_url": "https://t.me/daolresearch/15212",
+   "source_url": "https://bit.ly/HE3Q26PRE"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "한화엔진",
+   "code": "082740",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "그러나 ① 중국 조선사들의 호황에 따른 엔진 인콰이어리 강세 → (중국 수요를 담는 CAPEX를 바탕으로 한) 실적 턴어라운드 펀더멘탈 굳건 ② 미국 DC 엔진 개시를 기다림",
+    "• 실적을 낮추고, 적정PER을 기존 AI 투자 기대를 반영했던 30배에서"
+   ],
+   "title": "[한화엔진(082740)/BUY(유지)/TP 65,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화엔진(082740) 쌍발 엔진 점화: 중국, 미국 DC 진입",
+   "post_url": "https://t.me/daolresearch/15212",
+   "source_url": "https://bit.ly/HE3Q26PRE"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "한화엔진",
+   "code": "082740",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Pitch: > SEAM 인수 및 ESS 사업 양수로 2027~2029년 마진 낮추고, > 적정 PER도 20배로 낮춰 적정주가 조정.",
+    "SEAM 인수 및 ESS 사업 양수로 2027~2029년 마진 낮추고, 적정 PER도"
+   ],
+   "title": "[한화엔진(082740)/BUY(유지)/TP 65,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화엔진(082740) 쌍발 엔진 점화: 중국, 미국 DC 진입",
+   "post_url": "https://t.me/daolresearch/15212",
+   "source_url": "https://bit.ly/HE3Q26PRE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "한화엔진",
+   "code": "082740",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[한화엔진(082740)/BUY(유지)/TP 65,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[한화엔진(082740)/BUY(유지)/TP 65,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화엔진(082740) 쌍발 엔진 점화: 중국, 미국 DC 진입",
+   "post_url": "https://t.me/daolresearch/15212",
+   "source_url": "https://bit.ly/HE3Q26PRE"
   }
  ],
  "cross_mentions": [
@@ -33270,7 +33341,7 @@
    "recent": 23,
    "total": 26,
    "sectors": 3,
-   "burst": 23.9
+   "burst": 23.8
   },
   {
    "term": "보합",
@@ -33333,21 +33404,21 @@
    "recent": 10,
    "total": 19,
    "sectors": 4,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "방향",
    "recent": 7,
    "total": 13,
    "sectors": 7,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "기저가",
    "recent": 8,
    "total": 15,
    "sectors": 5,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "일평균거래대금",
