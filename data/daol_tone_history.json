@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T23:16:12.736452+00:00",
+  "generated_at": "2026-10-12T00:46:57.736083+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1382,
   "months": [
@@ -348,14 +348,21 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "3Q26E 매출액과 영업이익 모두 컨센서스에 부합할 전망. Earnings 유지 영업이익은 2.412억원(+16.0% YoY, -12.9% QoQ) 예상. 영업이익 모두 시장 컨센서스에 부합할 전망 시가종액 143,089억원 개편 효과도 BIE) 때문에 전년 동7| 대비 상승 예상.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "3Q26E 매출액과 영업이익 모두 컨센서스에 부합할 전망. 투자의견 BUY BUY 유지 Rationale 영업이익 모두 시장 컨센서스에 부합할 전망 el 0255 비수기이기 때문에 전분기 대비로는 소폭 하락할 전망 52주 최저가 / 최고가 32,300 - 67,700원 © [Sas 기타] 5,791억원(+16.3% YoY, -1.3% QoQ) 전망.",
+              "valuation": [
+                "Valuation wide 2025 20266 2027",
+                "PER(HH) 541 27.0 148 [영업 1-2] 1 7,602 el( 6.3% YoY, 3.4% QoQ) 예상.",
+                "PBR(HH) 44 17 15 기조 지속",
+                "EV/EBITDA(HH) 126 30 28 -",
+                "Performance 14 6M 124 YID AN ESTE 퀴해서는 주가착인 서비스 SPOT EE 전진적으로",
+                "1: 카카오 Valuation Table"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145295/1/20261012_035720_hyyy_217.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[카카오(035720)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 인고의 시간 ★ 45,000원(유지), BUY(유지)",
               "summary": "[카카오(035720)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 인고의 시간 ★ 45,000원(유지), BUY(유지) ▶ 3Q26E 연결 매출액은 2조 15억원(-4.1%% YoY, -4.6% QoQ), 영업이익은 2,412억원(+16.0% YoY, -12.9% QoQ) 예상. 매출액과 영업이익 모두 시장 컨센서스에 부합할 전망 ▶ [톡비즈] 6,117억원(+8.9% YoY, -4.9% QoQ)으로 추정. 3Q25에 민생지원금 메시지 발송이 있었기 때문에 기저부담이 있으나 카카오톡 개편 효과도 반영되기 때문에 전년 동기 대비 상승 예상. 다만 광고 비수기이기 때문에 전분기 대비로는 소폭 하락할 전망 ▶ [플랫폼 기타] 5,791억원(+16.3% YoY, -1.3% QoQ) 전망. 카카오페이는 증권 거래 감소로 인해 전분기 대비 소폭 하락 전망. 카카오모빌리티도 추석 연휴 영향으로 성장이 소폭 둔화될 전망 ▶ [뮤직] 5,033억원(-11.0% YoY, -9.9% QoQ)으로 추정. NCT 127(94만 장)의 앨범 발매와 에스파, EXO, NCT WISH의 콘서트가 진행되었으나 전분기 대비로는 감소할 전망 ▶ [영업비용] 1조 7,602억원(-6.3% YoY, -3.4% QoQ) 예상. 비용 통제 기조 지속 ▶ 10월부터 월 4,900원 멤버십 서비스 개시. 기존 이모티콘 플러스나 톡클라우드를 이용하던 사용자들에게는 가입 유인이 있겠으나 그 외 사용자들을 모객하기 위해서는 추가적인 서비스 확장이 필요. 점진적으로 확대할 계획 ▶ 인적분할 승인 임시주주총회가 12/17(목)로 예정되어 있어 불확실성이 잔존하고 있으며 Agentic AI 사업 확장이 더디기 때문에 연말까지 주가 상승은 제한적일 전망 ♣ 보고서 원문 및 Compliance No",
               "post_url": "https://t.me/daolresearch/15199",
@@ -578,6 +585,11 @@
               "text": "- 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick)",
               "date": "2026-10-07",
               "source": "https://t.me/daolresearch/15176"
+            },
+            {
+              "text": "종목명 투자의견 {3 7=7 Top picks",
+              "date": "2026-10-12",
+              "source": "https://t.me/daolresearch/15196"
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
@@ -639,19 +651,6 @@
               "evidence": "03 31.9 변경 우 Az 2026.09(E) 122.0 224 13.6 2026.09(E 118.5 22.7 137 1.2) 18.4 19.1 (0.8) 75 0.9 157 2.7 8.5 11.1 11.6 (0.5) 17 (0.6) 11.5 (0.4) 5.6 변경 vs | vs Chg| Ee 용기사 위주의 발주 BYE 기대. 이번 302687} 계절성이 희석되는 첫 분기라는 점이 고무적. 적정 PER 기준 변경(00268 > 20270)으로 적정주가 8.6만원으로 상향, 투자의견 BUY 유지 시장 써스. 2026.09(E 전년 nz 2025,09(A 977 15.3 11.2 VS | vs Con| Fig. 7; 펌텍코리아 PER Valuation 2021 2022 2023 2024 2025 EPS(2) 1,430 1,543 2,177 2,637 2,778 YOY 8% 41% 21% 5% 적정 PIER 16 HH 18 HH 20 HH Source: 다올투자증권 Fig. 2 펌텍코리아 12M Fwd PER 밴드 (원 ",
               "date": "2026-10-08",
               "source": "https://t.me/daolresearch/15186"
-            },
-            {
-              "company": "한국콜마",
-              "direction": "유지",
-              "old": null,
-              "new": 190000,
-              "display": "190,000원 (유지)",
-              "reasons": [
-                "본문상 명시 배경 추가 확인 필요"
-              ],
-              "evidence": "[한국콜마(161890)/ BUY(유지)/ TP 19만원(유지)/ 다올 화장품 박종현] ★ 한국 중심 성장 지속 ▶ Preview 3Q26E 매출액 8,447억원(YoY +24%, QoQ -2%), 영업이익 906억원(YoY +55%, QoQ -18%)으로 컨센서스 부합 전망. OPM 10.7%로 QoQ -2.1%p. 해외 3개 법인(미국·중국·캐나다) 영업손익이 2Q26 흑자 34억원에서 3Q26E 적자 42억원으로 돌아서며 QoQ 감익 197억원 중 76억원을 차지. 기존 추정 대비 매출액 207억원, 영업이익 16억원 하향 [중국] 매출액 306억원(YoY -4%, QoQ -47%), 영업적자 20억원으로 적자 전환. 기존 추정 525억원 대비 매출액을 크게 낮추고 적자폭도 10억원에서 20억원으로 확대 반영. [캐나다] 매출액 88억원, 영업적자 9억원으로 부진 지속. [미국] 영업적자 13억원으",
-              "date": "2026-10-12",
-              "source": "https://t.me/daolresearch/15197"
             }
           ],
           "tp_raises": [
@@ -728,28 +727,22 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "한국콜마",
-                  "direction": "유지",
-                  "old": null,
-                  "new": 190000,
-                  "display": "190,000원 (유지)",
-                  "reasons": [
-                    "본문상 명시 배경 추가 확인 필요"
-                  ],
-                  "evidence": "[한국콜마(161890)/ BUY(유지)/ TP 19만원(유지)/ 다올 화장품 박종현] ★ 한국 중심 성장 지속 ▶ Preview 3Q26E 매출액 8,447억원(YoY +24%, QoQ -2%), 영업이익 906억원(YoY +55%, QoQ -18%)으로 컨센서스 부합 전망. OPM 10.7%로 QoQ -2.1%p. 해외 3개 법인(미국·중국·캐나다) 영업손익이 2Q26 흑자 34억원에서 3Q26E 적자 42억원으로 돌아서며 QoQ 감익 197억원 중 76억원을 차지. 기존 추정 대비 매출액 207억원, 영업이익 16억원 하향 [중국] 매출액 306억원(YoY -4%, QoQ -47%), 영업적자 20억원으로 적자 전환. 기존 추정 525억원 대비 매출액을 크게 낮추고 적자폭도 10억원에서 20억원으로 확대 반영. [캐나다] 매출액 88억원, 영업적자 9억원으로 부진 지속. [미국] 영업적자 13억원으"
-                }
-              ],
+              "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "30268 영업이익 컨센서스 부합 전망. +61%, QoQ -15%)을 전망.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "30268 영업이익 컨센서스 부합 전망. +61%, QoQ -15%)을 전망.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(#H) 11.7 16.4 13.7",
+                "PBR(HH) 1.6 3.0 25",
+                "EV/EBITDA(HH) 6.9 9.0 76",
+                "Performance 1M 6M 12M YTD"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145292/1/20261012_161890_alex.park_628.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[한국콜마(161890)/ BUY(유지)/ TP 19만원(유지)/ 다올 화장품 박종현] ★ 한국 중심 성장 지속",
               "summary": "[한국콜마(161890)/ BUY(유지)/ TP 19만원(유지)/ 다올 화장품 박종현] ★ 한국 중심 성장 지속 ▶ Preview 3Q26E 매출액 8,447억원(YoY +24%, QoQ -2%), 영업이익 906억원(YoY +55%, QoQ -18%)으로 컨센서스 부합 전망. OPM 10.7%로 QoQ -2.1%p. 해외 3개 법인(미국·중국·캐나다) 영업손익이 2Q26 흑자 34억원에서 3Q26E 적자 42억원으로 돌아서며 QoQ 감익 197억원 중 76억원을 차지. 기존 추정 대비 매출액 207억원, 영업이익 16억원 하향 [중국] 매출액 306억원(YoY -4%, QoQ -47%), 영업적자 20억원으로 적자 전환. 기존 추정 525억원 대비 매출액을 크게 낮추고 적자폭도 10억원에서 20억원으로 확대 반영. [캐나다] 매출액 88억원, 영업적자 9억원으로 부진 지속. [미국] 영업적자 13억원으로 YoY 적자폭은 줄었으나 신규 고객 매출의 손익 기여는 아직. [한국] 매출액 4,338억원, OPM 15.1%로 견조 ▶ 투자의견 관세청 기준 3Q26 기초와 기타 수출은 각각 YoY +34%, +66% 증가하며 K뷰티 수출 호조세를 입증. 상고하저의 계절성을 희석하며 성장 입증 해외 법인이 이익의 변동성을 키우는 구간이나 연결 이익의 중심은 한국 별도. 3Q26E 한국 영업이익 655억원이 연결 영업이익의 72%. 적정주가 19만원·투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1RHJsSX > * 텔레그램 채널 링크 < https://t.me/alexppark >",
               "post_url": "https://t.me/daolresearch/15197",
@@ -765,18 +758,22 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "비중확대",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "종목명 투자의견 {3 7=7 Top picks"
+              ],
+              "preferred_stocks": [
+                "종목명 투자의견 {3 7=7 Top picks"
+              ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Reddit으로 본 K뷰티 AS-IS ▶ 미국 최대 스킨케어 커뮤니티 r/SkincareAddiction에서 K뷰티 언급 글 비중은 5~9월 11~17%로 서양 더마 3강(17~24%)의 3분의 2 수준. 월별 등락 방향이 서양 더마 3강과 같고 격차도 유지돼, 확산보다 정착 국면으로 판단 ▶ 대형 서브 K뷰티 언급 글 1,784건 중 보습·장벽 77%, 클렌징 55%, 선케어 53%가 함께 언급된 반면 색조 7%, 기기 4%에 그침. K뷰티의 자리는 기초 루틴의 한 칸이고, 여드름 같은 치료 영역의 정답은 여전히 처방약과 서양 더마 브랜드 ▶ K뷰티 전문 서브 3곳의 구매처 언급 비중은 5월에서 9월 사이 YesStyle 4.5%→7.0%, 그 밖의 K뷰티 전문몰 2.0%→4.2%로 오르고 아마존은 2.3%→0.9%로 하락. 9월 미국 Olive Young 글로벌몰 이용 제한 글과 Sephora 매장 Olive Young 곤돌라 입점이 겹치며 채널 재편 진행 ▶ Aestura(아모레퍼시픽)는 장벽 크림 추천으로 가장 긍정적, medicube(에이피알)는 인지도 대비 광고 피로·기기 CS 불만이 부담. 9월 PDRN 회의론·표기 논란은 아직 대화 전체로 번지지 않았으나 K뷰티 공동의 관리 과제 * 보고서 원문 및 컴플라이언스 < https://buly.kr/AlnTrhA > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "industry_conclusion": "Reddit으로 본 K뷰티 AS-IS ▶ 미국 최대 스킨케어 커뮤니티 r/SkincareAddiction에서 K뷰티 언급 글 비중은 5~9월 11~17%로 서양 더마 3강(17~24%)의 3분의 2 수준. 월별 등락 방향이 서양 더마 3강과 같고 격차도 유지돼, 확산보다 정착 국면으로 판단 ▶ 대형 서브 K뷰티 언급 글 1,784건 중 보습·장벽 77%, 클렌징 55%, 선케어 53%가 함께 언급된 반면 색조 7%, 기기 4%에 그침. K뷰티의 자리는 기초 루틴의 한 칸이고, 여드름 같은 치료 영역의 정답은 여전히 처방약과 서양 더마 브랜드 ▶ K뷰티 전문 서브 3곳의 구매처 언급 비중은 5월에서 9월 사이 YesStyle 4.5%→7.0%, 그 밖의 K뷰티 전문몰 2.0%→4.2%로 오르고 아마존은 2.3%→0.9%로 하락. 9월 미국 Olive Young 글로벌몰 이용 제한 글과 Sephora 매장 Olive Young 곤돌라 입점이 겹치며 채널 재편 진행 ▶ Aestura(아모레퍼시픽)는 장벽 크림 추천으로 가장 긍정적, medicube(에이피알)는 인지도 대비 광고 피로·기기 CS 불만이 부담. 9월 PDRN 회의론·표기 논란은 아직 대화 전체로 번지지 않았으나 K뷰티 공동의 관리 과제 * 보고서 원문 및 컴플라이언스 < https://buly.kr/AlnTrhA > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "report_conclusion": "Reddit으로 본 K뷰티 AS-IS ▶ 미국 최대 스킨케어 커뮤니티 r/SkincareAddiction에서 K뷰티 언급 글 비중은 5~9월 11~17%로 서양 더마 3강(17~24%)의 3분의 2 수준. 월별 등락 방향이 서양 더마 3강과 같고 격차도 유지돼, 확산보다 정착 국면으로 판단 ▶ 대형 서브 K뷰티 언급 글 1,784건 중 보습·장벽 77%, 클렌징 55%, 선케어 53%가 함께 언급된 반면 색조 7%, 기기 4%에 그침. K뷰티의 자리는 기초 루틴의 한 칸이고, 여드름 같은 치료 영역의 정답은 여전히 처방약과 서양 더마 브랜드 ▶ K뷰티 전문 서브 3곳의 구매처 언급 비중은 5월에서 9월 사이 YesStyle 4.5%→7.0%, 그 밖의 K뷰티 전문몰 2.0%→4.2%로 오르고 아마존은 2.3%→0.9%로 하락. 9월 미국 Olive Young 글로벌몰 이용 제한 글과 Sephora 매장 Olive Young 곤돌라 입점이 겹치며 채널 재편 진행 ▶ Aestura(아모레퍼시픽)는 장벽 크림 추천으로 가장 긍정적, medicube(에이피알)는 인지도 대비 광고 피로·기기 CS 불만이 부담. 9월 PDRN 회의론·표기 논란은 아직 대화 전체로 번지지 않았으나 K뷰티 공동의 관리 과제 * 보고서 원문 및 컴플라이언스 < https://buly.kr/AlnTrhA > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "pitch": "Issue & Pitch | F_SECNM",
+              "industry_conclusion": "종목명 투자의견 {3 7=7 Top picks",
+              "report_conclusion": "종목명 투자의견 {3 7=7 Top picks",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145291/1/20261012_B3020_alex.park_627.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[화장품(Overweight)/ 다올 박종현] ★ Issue & Pitch: Reddit으로 본 K뷰티 AS-IS",
               "summary": "[화장품(Overweight)/ 다올 박종현] ★ Issue & Pitch: Reddit으로 본 K뷰티 AS-IS ▶ 미국 최대 스킨케어 커뮤니티 r/SkincareAddiction에서 K뷰티 언급 글 비중은 5~9월 11~17%로 서양 더마 3강(17~24%)의 3분의 2 수준. 월별 등락 방향이 서양 더마 3강과 같고 격차도 유지돼, 확산보다 정착 국면으로 판단 ▶ 대형 서브 K뷰티 언급 글 1,784건 중 보습·장벽 77%, 클렌징 55%, 선케어 53%가 함께 언급된 반면 색조 7%, 기기 4%에 그침. K뷰티의 자리는 기초 루틴의 한 칸이고, 여드름 같은 치료 영역의 정답은 여전히 처방약과 서양 더마 브랜드 ▶ K뷰티 전문 서브 3곳의 구매처 언급 비중은 5월에서 9월 사이 YesStyle 4.5%→7.0%, 그 밖의 K뷰티 전문몰 2.0%→4.2%로 오르고 아마존은 2.3%→0.9%로 하락. 9월 미국 Olive Young 글로벌몰 이용 제한 글과 Sephora 매장 Olive Young 곤돌라 입점이 겹치며 채널 재편 진행 ▶ Aestura(아모레퍼시픽)는 장벽 크림 추천으로 가장 긍정적, medicube(에이피알)는 인지도 대비 광고 피로·기기 CS 불만이 부담. 9월 PDRN 회의론·표기 논란은 아직 대화 전체로 번지지 않았으나 K뷰티 공동의 관리 과제 * 보고서 원문 및 컴플라이언스 < https://buly.kr/AlnTrhA > * 텔레그램 채널 링크 < https://t.me/alexppark >",
               "post_url": "https://t.me/daolresearch/15196",
@@ -1158,8 +1155,14 @@
           "sectors": [
             "자동차/이차전지"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-10-12",
+              "source": "https://t.me/daolresearch/15198"
+            }
+          ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
@@ -1175,19 +1178,19 @@
               "company": "LG에너지솔루션",
               "code": "373220",
               "report_type": "기업자료",
-              "opinion": "",
+              "opinion": "비중확대",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "증가에 기인하고 있는 것으로 판단 155의 경우 QoQ +50% 내외로 매출 급등 추정. 이를 감안한 연간 ESS 매출액 규모는 2026년 10조원 > 2027년 15조원 예상 예상되는 885전환 사이트가 없어 본업 이익마진 개선세가 EBS] 것으로 예 아래 종목투자의견은 향후 12개월간 주천기준일 종가대비 SASS] 예상 기대수익률을",
               "industry_conclusion": "",
-              "report_conclusion": "",
+              "report_conclusion": "투자의견 Buy 및 적정주가 62만원 유지. 아래 종목투자의견은 향후 12개월간 주천기준일 종가대비 SASS] 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145293/1/20261012_373220_jwyoo_675.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[다올투자증권 자동차/이차전지 유지웅] ★ LG에너지솔루션(373220) - 3Q26 잠정실적 발표: 매출 가속 시작",
               "summary": "[다올투자증권 자동차/이차전지 유지웅] ★ LG에너지솔루션(373220) - 3Q26 잠정실적 발표: 매출 가속 시작 ▶ 투자의견 BUY 및 적정주가 62만원 유지. 4Q26 ESS 수주 모멘텀(90GWh 가이던스 달성에 70GWh 필요)과 폴란드 공장 가동 증가에 따른 Non-AMPC 영업이익 BEP 돌파로 주가 재평가 가능성 공존 ▶ 3Q26 매출액 및 영업이익은 각각 9.6조원(YoY +59%, QoQ +27%), 7,560억원 기록. 당사 추정치 2,570억원 대비 큰 폭 상회 ▶ AMPC 제외 영업이익은 3,391억원, 역산 시 AMPC 약 4,170억원 인식 추정. 4천억원 이상 추정되는 일회성 OEM발 보상금 포함, 이를 제외한 Non-AMPC 영업이익은 -1천억원 내외 추정(vs 2Q26 -1,280억원) ▶ 중대형 EV 매출은 유럽/아시아 출하 증가로 QoQ +10% 내외, ESS는 미시건과 테네시 JV 전환 본격화로 QoQ +50% 내외 증가 추정 ▶ 3Q26 ESS 매출액 약 3.1조원(YoY +600%) 추정. 연말 기준 5개 사이트에서 ESS 생산 예정, 연간 ESS 매출 ‘26년 10조원, ‘27년 15조원 예상 ▶ ‘27년부터 추가 고정비 발생하는 ESS 전환 사이트가 없어 본업 이익마진 개선세 뚜렷할 전망 ★ 보고서원문 및 컴플라이언스 → https://buly.kr/9tDgxl9",
               "post_url": "https://t.me/daolresearch/15198",
@@ -1218,19 +1221,6 @@
               "evidence": "DAOL 다올투자증권 271560 | 64(유지) | TP 180,000원(유지) 오리온 P/E SHH, 배당수익률 4%대, 저점 매수 유효 이다연 * 8월 잠정 실적 요약 음식료/통신 ㅣ dayeonlee@daolfn.com 8월 잠정 법인 르보\" 매출액 YoY +8.7%(이하 YoY), 한국 +5.2%, 중국 +13.3%(원회), 남 -5.4%(원화), -5.8%(로컬), 러시아 +21.2%(원화), +20.8%(로컬) . 베트남 역성장 AGL 7월 내부 시스템 eyo wie} 8월 출고 예정 물량 일부가 기록 물량 7월 선출고되었7| 때문이며 7-8월 합산 매출액은 761 +9.3%로 NE 추이를 이어감. 중국 법인은 간식점 YoY+41%, 편의점 YoY +12% 매출액 성장 나타나며 신성장채널 중심 성장 지속. 러시아는 현지 주요 유통채널 '텐더 내 파이-비스킷 제품 진열 확대 효과가 주효했음. WS 흐름",
               "date": "2026-10-01",
               "source": "https://t.me/daolresearch/15148"
-            },
-            {
-              "company": "농심",
-              "direction": "유지",
-              "old": null,
-              "new": 550000,
-              "display": "550,000원 (유지)",
-              "reasons": [
-                "본문상 명시 배경 추가 확인 필요"
-              ],
-              "evidence": "[농심(004370) | BUY(유지) | TP 55만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 증익폭은 3Q < 4Q ▶ 3Q26E 연결 매출액 9,192억원(YoY +5.5%), 영업이익 611억원(OPM 6.6%, YoY +12.3%)으로 시장 기대치 부합 추정 ▶ 국내는 지난 8월 진행한 가격 인상 후 가격 저항으로 판매 부진, 스낵도 유의미한 신제품 성과 없었음. 이에 라면 내수, 스낵 내수 매출액으로 각각 YoY -3% 추정하나, 라면 수출 매출액이 YoY +20% 성장해 별도 매출액은 YoY +0.7% 성장 추정 ▶ 3분기 미국 지역 판매량은 YoY (+) 기록 추정. 미국 내 신라면 外 브랜드 판촉 강화 영향. 중국은 Sam’s Club과 간식점 위주 입점 진행되고 있으며, 원화 강세로 인한 환 효과 상쇄로 미국, 중국 법인 매출액 성장률은 각각 YoY +4%,",
-              "date": "2026-10-12",
-              "source": "https://t.me/daolresearch/15200"
             }
           ],
           "tp_raises": [],
@@ -1250,14 +1240,21 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "5텔레콤일 가능성이 높다고 판단. e 51<1의 GPUaaS 현황 및 전망 이 중 대부분은 코로케이션 물량이 될 가능성이 높다고 판단",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "e 51<1의 GPUaaS 현황 및 전망",
+              "valuation": [
+                "formed by SKT to consummate the Investment (the “SPV™), 200.000 convertible preferred shares, par value $0.03 per share, of the Company (the",
+                "“CPS”), at a purchase price of $1 100 per share or an aparcgate purchase pice of $200 mulion (the “Tnvestment’).",
+                "Aholder of the CPS may convert such holder’s CPS into ordinary shares, par value $0.03 per share.",
+                "the Closing upon which the volume-weighted average price of the Ordinary Shares for any fifteen consecutive trading day period equals or exceeds",
+                "The CPS are convertible into Ordinary Shares at an initial conversion price of $32.80784 per Ordinary",
+                "The CPS entitle the holder to receive dividends of six (6)% per annum, cumulative, and payable quarterly in-kind or in cash at the Company's option,"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145289/1/20261012_017670_lizzy_105.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[SK텔레콤(017670) | BUY(유지) | 14만원(유지) | 다올 통신/음식료 이다연] ★ GPUaaS 사업 현황 Comment (feat. Penguin Solutions 실적발표)",
               "summary": "[SK텔레콤(017670) | BUY(유지) | 14만원(유지) | 다올 통신/음식료 이다연] ★ GPUaaS 사업 현황 Comment (feat. Penguin Solutions 실적발표) ▶ Penguin Solutions 컨콜에서 언급된 한국 NeoCloud 고객사 - 미국 AI 인프라 기업 Penguin Solutions는 최근 실적발표에서 SK텔레콤으로 추정되는 NeoCloud의 수주를 언급 - 사명을 밝히진 않았으나, 기존 전략적 협력 관계와 사업 추진 일정을 고려하면 SK텔레콤일 가능성이 높다고 판단 - 1) 우선 양 사는 전략적 투자 관계이고, 2) Penguin이 SK텔레콤의 GPU Cluster 구축을 담당한 이력이 있으며, 3) 최근 SK텔레콤이 ‘27년 서비스 개시 목표로 AI Factory 사업을 준비하고 있다고 밝혔기 때문 ▶ 양사 간 전략적 협업 History - SK텔레콤은 ‘24년 7월 Penguin Solutions와 $200M 규모의 전환우선주 투자 계약을 체결했고, ‘24년 12월 투자를 완료 - 이후 Penguin Solutions는 SK텔레콤의 가산 AI DC 내 GPU Cluster ‘해인’의 설계•구축•시스템 통합을 맡아 ‘25년 7월경 구축을 완료함 - 한편 SK텔레콤은 ‘26년 7월 SK하이닉스의 100% 자회사 ‘SHIFTIX1’와 보유 중인 Penguin Solutions 전환우선주 20만주 전량을 $380M에 양도하는 계약을 체결 ▶ SKT의 GPUaaS 현황 및 전망 - SK텔레콤은 ‘29년부터 5GW 규모 데이터센터 구축을 개시하고, ‘31년부터 순차적으로 오픈하겠다는 목표를 제시. 이 중 대부분은 코로케이션 물량이 될 가능성이 높다고 판단 - 현재 동사의 GPUaaS 관련 확인 가능한 부분은 NVIDIA와의 협력을 바탕으로 준비",
               "post_url": "https://t.me/daolresearch/15202",
@@ -1302,28 +1299,22 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "농심",
-                  "direction": "유지",
-                  "old": null,
-                  "new": 550000,
-                  "display": "550,000원 (유지)",
-                  "reasons": [
-                    "본문상 명시 배경 추가 확인 필요"
-                  ],
-                  "evidence": "[농심(004370) | BUY(유지) | TP 55만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 증익폭은 3Q < 4Q ▶ 3Q26E 연결 매출액 9,192억원(YoY +5.5%), 영업이익 611억원(OPM 6.6%, YoY +12.3%)으로 시장 기대치 부합 추정 ▶ 국내는 지난 8월 진행한 가격 인상 후 가격 저항으로 판매 부진, 스낵도 유의미한 신제품 성과 없었음. 이에 라면 내수, 스낵 내수 매출액으로 각각 YoY -3% 추정하나, 라면 수출 매출액이 YoY +20% 성장해 별도 매출액은 YoY +0.7% 성장 추정 ▶ 3분기 미국 지역 판매량은 YoY (+) 기록 추정. 미국 내 신라면 外 브랜드 판촉 강화 영향. 중국은 Sam’s Club과 간식점 위주 입점 진행되고 있으며, 원화 강세로 인한 환 효과 상쇄로 미국, 중국 법인 매출액 성장률은 각각 YoY +4%,"
-                }
-              ],
+              "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "예상 주가상승률 38.4% YoY +0.7% 성장 추정 BH) VAS 별도 증 증익폭 확 전망. EV/EBITDA(HH) 58 45 3.8 sol) BM) 낌 |폭 확대 전망.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "투자의견 BUY BUY 유계 ㆍ30260 연결 매출액 9,192억원(6? PER(HHi) 15.5 11.2 11.0 ㆍ[투자의견] 4Q26= 1) 국내 가격 인상 효과 27] 반영, 2) 전년동7| 대ㅁ BH) VAS 별도 증 증익폭 확 전망. EV/EBITDA(HH) 58 45 3.8 sol) BM) 낌 |폭 확대 전망.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E 과 감소로 영업익 기문 1스에 부합하 석 기록 추정",
+                "PER(HHi) 15.5 11.2 11.0 ㆍ[투자의견] 4Q26= 1) 국내 가격 인상 효과 27] 반영, 2) 전년동7| 대ㅁ",
+                "EV/EBITDA(HH) 58 45 3.8 sol) BM) 낌 |폭 확대 전망.",
+                "Performance 1M 6M 124 YTD 10% 말 예정돼 있는 녹산 수출 공장 가동과 함께 유럽 법인 성장 가속화,",
+                "Fig.2: 농심 P/E Valuation"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145288/1/20261012_004370_lizzy_103.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[농심(004370) | BUY(유지) | TP 55만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 증익폭은 3Q < 4Q",
               "summary": "[농심(004370) | BUY(유지) | TP 55만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 증익폭은 3Q < 4Q ▶ 3Q26E 연결 매출액 9,192억원(YoY +5.5%), 영업이익 611억원(OPM 6.6%, YoY +12.3%)으로 시장 기대치 부합 추정 ▶ 국내는 지난 8월 진행한 가격 인상 후 가격 저항으로 판매 부진, 스낵도 유의미한 신제품 성과 없었음. 이에 라면 내수, 스낵 내수 매출액으로 각각 YoY -3% 추정하나, 라면 수출 매출액이 YoY +20% 성장해 별도 매출액은 YoY +0.7% 성장 추정 ▶ 3분기 미국 지역 판매량은 YoY (+) 기록 추정. 미국 내 신라면 外 브랜드 판촉 강화 영향. 중국은 Sam’s Club과 간식점 위주 입점 진행되고 있으며, 원화 강세로 인한 환 효과 상쇄로 미국, 중국 법인 매출액 성장률은 각각 YoY +4%, +8% 추정. 일본은 편의점 채널 내 신라면 브랜드 위주로 성장 시현 중이며, 유럽은 신규 채널 입점 확대로 고성장 지속 추정 ▶ 3분기는 1) 국내 가격인상 후 가격저항에 따른 Q 감소, 2) 중동 지정학 사태 후 원부자재 가격 인상분 온기 반영, 3) 유류비 상승, 4) 원화 강세에 따른 환 효과 감소로 영업이익 기준 컨센서스에 부합하는 실적 기록 추정. ▶ [투자의견] 4Q26는 1) 국내 가격 인상 효과 온기 반영, 2) 전년동기 대비 광고비•판촉비 감소로 별도 증익폭 확대 전망. 3) 해외법인의 경우 ‘25년 하반기 ‘케데헌’ 마케팅, 타임스퀘어 광고 등으로 마케팅비용 부담이 컸던 만큼, 해당 비용 부담 완화와 함께 수익성 개선 흐름을 이어갈 것. 4) 또한 10월 말 예정돼 있는 녹산 수출 공장 가동과 함께 유럽 법인 성장 가속화, ‘26년 6월 설립된 러시아 판매법인 내 매",
               "post_url": "https://t.me/daolresearch/15200",
@@ -1535,14 +1526,14 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶ Ustekinumab 점유율: Stelara SC 74.8% Stelara IV 1.2%, Wezlana 1.5%, Steqeyma 5.9%, Pyzchiva 2.8%, Selarsdi 4.0%, Yesintek 9.2%, Imuldosa 0.1%, Otulfi 0.5% (금액 기준)",
-              "report_conclusion": "▶ Ustekinumab 점유율: Stelara SC 74.8% Stelara IV 1.2%, Wezlana 1.5%, Steqeyma 5.9%, Pyzchiva 2.8%, Selarsdi 4.0%, Yesintek 9.2%, Imuldosa 0.1%, Otulfi 0.5% (금액 기준)",
+              "pitch": "밀러 선호 정책이 유지되고 있어 추세 전환으로 Be 이르다고 판단.",
+              "industry_conclusion": "밀러 선호 정책이 유지되고 있어 추세 전환으로 Be 이르다고 판단.",
+              "report_conclusion": "밀러 선호 정책이 유지되고 있어 추세 전환으로 Be 이르다고 판단.",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145290/1/20261012_B3510_jislee_471.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 9월 미국 처방 실적",
               "summary": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 9월 미국 처방 실적 ▶ Infliximab 점유율(IV시장 기준): Remicade 47.0%, Inflectra 30.6%, Renflexis 10.8%, Avsola 11.7% (수량 기준) ▶ Remicade 52.6%, Inflectra 32.0%, Renflexis 9.0%, Avsola 6.5% (금액 기준) *Institutional 기준으로 retail은 제외한 수치 ▶ Rituximab 점유율: Rituxan 23.3%, Truxima 39.1%, Ruxience 32.4%, Riabni 5.2% (수량 기준) ▶ Rituxan 26.7%, Truxima 40.3%, Ruxience 28.4%, Riabni 4.5% (금액 기준) ▶ Trastuzumab 점유율: Herceptin 9.4%, Kanjinti 33.7% Ogivri 21.5%, Trazimera 24.7%, Herzuma 7.3%, Ontruzant 3.4% (수량 기준) ▶ Herceptin 12.7%, Kanjinti 39.8%, Ogivri 17.5% Trazimera 19.1%, Herzuma 6.9%, Ontruzant 3.9% (금액 기준) ▶ Bevacizumab 점유율: Avastin 12.4%, Mvasi 57.5%, Zirabev 23.9%, Vegzelma 6.2% (수량 기준) ▶ Avastin 11.2%, Mvasi 59.7%, Zirabev 22.5%, Vegzelma 6.5% (금액 기준) ▶ Adalimumab 점유율: Humira 0.0%, Humira CF 41.7%, Hadlima 19.0% Hyrimoz 14.5%, Amjevita 4.2%, Clytezo 7.3%",
               "post_url": "https://t.me/daolresearch/15195",

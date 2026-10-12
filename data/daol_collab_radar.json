@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T23:16:27.961578+00:00",
+ "generated_at": "2026-10-12T00:47:02.847233+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1382,
  "hits": [
@@ -31975,7 +31975,7 @@
    "company": "LG에너지솔루션",
    "code": "373220",
    "direction": "수혜",
-   "score": 5,
+   "score": 6,
    "evidences": [
     "4Q26 ESS 수주 모멘텀(90GWh 가이던스 달성에 70GWh 필요)과 폴란드 공장 가동 증가에 따른 Non-AMPC 영업이익 BEP 돌파로 주가 재평가 가능성 공존",
     "중대형 EV 매출은 유럽/아시아 출하 증가로 QoQ +10% 내외, ESS는 미시건과 테네시 JV 전환 본격화로 QoQ +50% 내외 증가 추정"
