@@ -41,6 +41,29 @@ def recent_codes(history, cutoff):
     return codes
 
 
+def bundled_codes(cutoff):
+    """직전 빌드 v2 산출물의 합성(bundled) 레코드 종목코드 — 인뎁스 종목 페이지로만
+    커버되는 종목(예: 은행주)은 history에 기업자료가 없어 recent_codes에 안 잡히고,
+    그러면 상세 모달의 종가 오버레이 차트가 비게 된다. 이 스크립트가 v2 빌드보다
+    먼저 돌아 전 런 산출물을 읽으므로 신규 종목은 최악 1런 지연으로 채워진다."""
+    try:
+        v2 = json.loads((DATA_DIR / 'daol_tone_v2.json').read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+    out = {}
+    stack = [v2]
+    while stack:
+        o = stack.pop()
+        if isinstance(o, dict):
+            code = o.get('code') or ''
+            if o.get('bundled') and re.fullmatch(r'[0-9]{6}', code) and o.get('date', '') >= cutoff:
+                out[code] = max(out.get(code, ''), o['date'])
+            stack.extend(o.values())
+        elif isinstance(o, list):
+            stack.extend(o)
+    return out
+
+
 def fetch_closes(code, start, end, session):
     url = PRICE_API.format(code=code, s=start.strftime('%Y%m%d'), e=end.strftime('%Y%m%d'))
     txt = session.get(url, headers=UA, timeout=10).text.strip()
@@ -60,6 +83,8 @@ def refresh(max_codes=200):
     history = load_json(HISTORY, {'months': []})
     cache = load_json(CACHE, {})
     codes = recent_codes(history, cutoff)
+    for code, d in bundled_codes(cutoff).items():
+        codes[code] = max(codes.get(code, ''), d)
     session = requests.Session()
     fetched = errors = 0
     for code in sorted(codes)[:max_codes]:

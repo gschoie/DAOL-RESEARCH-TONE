@@ -147,6 +147,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .ta-comps{max-width:230px}.ta-tp{max-width:260px}
 .ta-last{max-width:220px}.ta-last small{color:var(--muted);margin-right:4px}.ta-last a{color:#2563eb;text-decoration:none}.ta-last a:hover{text-decoration:underline}
 .mini-badge{display:inline-block;background:#f3f4f6;color:#4b5563;border-radius:10px;padding:2px 8px;font-size:11.5px;white-space:nowrap}
+.naver-chart-link{display:inline-block;border:1px solid #ededeb;border-radius:6px;padding:1.5px 8px;font-size:11.5px;color:#2383e2;text-decoration:none;white-space:nowrap;background:#fff}
+.naver-chart-link:hover{background:rgba(35,131,226,.06)}
 .mini-badge.up{background:#dcfce7;color:#15803d}.mini-badge.down{background:#fee2e2;color:#dc2626}
 .tone-badge{display:inline-flex;gap:5px;align-items:center;border-radius:10px;padding:2px 8px;font-size:11.5px;background:#eff6ff}
 .tone-badge.t-strong{background:#dcfce7;color:#15803d}.tone-badge.t-pos{background:#f0fdf4;color:#166534}.tone-badge.t-dry{background:#f3f4f6;color:#6b7280}.tone-badge.t-cau{background:#fef3c7;color:#b45309}.tone-badge.t-neg{background:#fee2e2;color:#dc2626}
@@ -613,6 +615,31 @@ function tpPriceChart(points,closes,{w=560,h=150,color='#b45309'}={}){
   `<text x="64" y="${h-6}" class="ax">${mmdd(d10(t0))}</text><text x="${w-14}" y="${h-6}" class="ax" text-anchor="end">${mmdd(d10(t1))}</text>`+
   `<polyline points="${priceLine}" fill="none" stroke="#93c5fd" stroke-width="1.4" opacity=".95"><title>종가 ${mmdd(px[0][0])}~${mmdd(lastPx[0])} · 최근 ${fmt(lastPx[1])}원</title></polyline>`+
   `<polyline points="${tpLine}" fill="none" stroke="${color}" stroke-width="2"/>${ext}${dots}</svg>`}
+// 확신도(1~5) 추이 위에 일별 종가를 겹쳐 그린다 — 톤 변화와 주가 흐름의 동행/괴리가 보이게.
+// 왼쪽 축은 확신도(1~5 고정 눈금), 종가는 자체 스케일(오른쪽 연한 라벨). 종가 없으면 기존 차트 폴백.
+function convPriceChart(points,closes,{w=560,h=150,color='#2563eb'}={}){
+ const pts=points.filter(p=>p.v!=null);
+ const px=(closes||[]).filter(c=>c&&c[1]!=null);
+ if(px.length<2||pts.length<2)return lineChart(points,{color,fmt:v=>v});
+ const fmt=v=>Number(v).toLocaleString();
+ const t=s=>new Date(s).getTime();
+ const t0=Math.min(t(pts[0].date),t(px[0][0])),t1=Math.max(t(pts[pts.length-1].date),t(px[px.length-1][0]));
+ const X=d=>64+(t(d)-t0)*(w-78)/((t1-t0)||1);
+ const lo=0.55,hi=5.45,Y=v=>h-24-(v-lo)*(h-38)/(hi-lo);
+ const pv=px.map(c=>c[1]),pmin=Math.min(...pv),pmax=Math.max(...pv),ppad=(pmax-pmin)*0.08||pmax*0.05||1;
+ const PY=v=>h-24-(v-(pmin-ppad))*(h-38)/((pmax+ppad)-(pmin-ppad));
+ const priceLine=px.map(c=>`${X(c[0]).toFixed(1)},${PY(c[1]).toFixed(1)}`).join(' ');
+ const line=pts.map(p=>`${X(p.date).toFixed(1)},${Y(p.v).toFixed(1)}`).join(' ');
+ const dots=pts.map(p=>`<circle cx="${X(p.date).toFixed(1)}" cy="${Y(p.v).toFixed(1)}" r="${p.c?3.5:3}" fill="${p.c||color}"><title>${mmdd(p.date)} · 확신도 ${p.v}${p.note?` · ${esc(p.note)}`:''}</title></circle>`).join('');
+ const d10=ms=>new Date(ms).toISOString().slice(0,10);
+ const lastPx=px[px.length-1];
+ return `<svg class="tone-chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">`+
+  [5,4,3,2,1].map(v=>`<text x="4" y="${Y(v)+4}" class="ax">${v}</text>`).join('')+
+  `<text x="${w-2}" y="${PY(pmax)+4}" class="ax" text-anchor="end" style="fill:#93c5fd">${fmt(pmax)}</text>`+
+  `<text x="${w-2}" y="${PY(pmin)+4}" class="ax" text-anchor="end" style="fill:#93c5fd">${fmt(pmin)}</text>`+
+  `<text x="64" y="${h-6}" class="ax">${mmdd(d10(t0))}</text><text x="${w-14}" y="${h-6}" class="ax" text-anchor="end">${mmdd(d10(t1))}</text>`+
+  `<polyline points="${priceLine}" fill="none" stroke="#93c5fd" stroke-width="1.4" opacity=".95"><title>종가 ${mmdd(px[0][0])}~${mmdd(lastPx[0])} · 최근 ${fmt(lastPx[1])}원</title></polyline>`+
+  `<polyline points="${line}" fill="none" stroke="${color}" stroke-width="2"/>${dots}</svg>`}
 let modalStack=[],currentModalKey=null;
 function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?.[key];if(!entry)return;
  if(!fromBack&&currentModalKey&&currentModalKey!==key)modalStack.push(currentModalKey);
@@ -654,9 +681,9 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
  // 확신도 점수의 '이유' — 최근 3건의 AI 한줄 요약을 차트 밑에 살짝
  const convNotes=timeline.filter(r=>r.conviction!=null&&r.one_line).slice(-3).reverse()
   .map(r=>`<div class="conv-note"><small>${mmdd(r.date)}</small><b>${'●'.repeat(r.conviction)}</b><span>${esc(r.one_line)}</span></div>`).join('');
- const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)</h4>${lineChart(convPoints,{color:'#2563eb',fmt:v=>v})}${convNotes?`<div class="conv-notes">${convNotes}</div>`:''}</div></div>`;
+ const charts=`<div class="drill-charts">${leftPanel}<div><h4>AI 확신도 추이 (1~5)${priceCloses&&priceCloses.length>1&&convPoints.length>1?` <small style="font-weight:400;color:#93c5fd">─ 종가</small>`:''}</h4>${convPriceChart(convPoints,priceCloses)}${convNotes?`<div class="conv-notes">${convNotes}</div>`:''}</div></div>`;
  const indBtn=(!key.startsWith('IND:')&&entry.sector&&state.tone2?.companies?.['IND:'+entry.sector])?`<button type="button" class="tone-ck modal-ind" data-ck="IND:${esc(entry.sector)}" title="${esc(entry.sector)} 산업자료 톤·의견 보기">${esc(entry.sector)} 산업 뷰 →</button>`:'';
- $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span></div></header>${charts}${(()=>{const rev=timeline.slice().reverse();
+ $('#tone-modal-body').innerHTML=`${indBtn}${modalStack.length?`<button type="button" id="tone-modal-back" class="modal-back">← ${esc((state.tone2?.companies?.[modalStack[modalStack.length-1]]||{}).name||'뒤로')}</button>`:''}<header class="drill-header"><h3>${esc(entry.name)}${entry.code?` <small>(${esc(entry.code)})</small>`:''}</h3><div class="drill-meta"><span class="mini-badge">${esc(entry.sector)}</span><span class="mini-badge">${(entry.analysts||[]).map(esc).join(' · ')}</span><span class="mini-badge">${entry.report_count}건 · ${esc(entry.timeline[0]?.date||'')} ~ ${esc(entry.last_date||'')}</span>${entry.code?`<a class="naver-chart-link" href="https://finance.naver.com/item/fchart.naver?code=${esc(entry.code)}" target="_blank" rel="noopener" title="네이버 금융 ${esc(entry.name)} 차트 새 탭에서 보기">📈 네이버 차트 ↗</a>`:''}</div></header>${charts}${(()=>{const rev=timeline.slice().reverse();
   // 산업 모달(전략·시황 제외)의 위클리는 접이식 — 최신 1건만 펼침
   const collapsible=key.startsWith('IND:')&&entry.sector!=='전략·시황';
   const isWk=r=>/Weekly|위클리|주간\s*(모니터링|동향)/i.test(r.title||'');
