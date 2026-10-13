@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-13T22:46:28.725553+00:00",
+ "generated_at": "2026-10-13T23:08:28.898529+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1393,
+ "report_count": 1394,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32402,6 +32402,75 @@
    "title": "[JP Morgan Chase( JPM.US )/Not Rated]｜다올 금융 김지원 ☎ 2184-2306] ★ 3Q26 Review: 달라진 자본배치와 고ROE 전략 지속",
    "post_url": "https://t.me/daolresearch/15230",
    "source_url": "https://buly.kr/BTSWVin"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-14",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "배터리",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Non-PFE 자격, 세계는 한국을 주목한다 - 대중국 관세와 Non-PFE 규제가 배터리 공급망 재편 촉진 - ESS 세액공제 적격 비율 2026년 55% → 2030년 75%로 강화 - 관세,세액공제 합산 정책 효과 최대 122달러/kWh 분석"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅, 철강금속/전력기기 이정우] ★ 배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공",
+   "post_url": "https://t.me/daolresearch/15233",
+   "source_url": "https://buly.kr/8847slZ"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-14",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "배터리",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "몰려오는 전력 수요, 시선은 ESS로 - AI 데이터센터 증설과 전력망 병목으로 ESS 수요 구조적 확대 - NVIDIA DSX Ready 인증 도입, Tesla Megapack 증설 본격화 - 미국 ESS 연간 수요 2030년 120GWh 전망"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅, 철강금속/전력기기 이정우] ★ 배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공",
+   "post_url": "https://t.me/daolresearch/15233",
+   "source_url": "https://buly.kr/8847slZ"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-14",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "배터리",
+   "code": "",
+   "direction": "수혜",
+   "score": 6,
+   "evidences": [
+    "EV 회복이 더해지는 2027년 - ESS가 북미 배터리 공장 가동률 회복을 선도후 EV로 넘어가는 길목의 시작 - 2027년 Toyota·Rivian 등 신차 출시로 EV 판매 반등 기대 - ESS 성장과 EV 회복이 맞물리는 배터리 업황 개선 전망",
+    "배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅, 철강금속/전력기기 이정우] ★ 배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공",
+   "post_url": "https://t.me/daolresearch/15233",
+   "source_url": "https://buly.kr/8847slZ"
+  },
+  {
+   "theme": "이차전지 메탈",
+   "category": "원자재",
+   "date": "2026-10-14",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "배터리",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "포스코그룹, 자격을 갖춘 수직계열 염호·광석 리튬에서 흑연·양·음극재까지 그룹 내 밸류체인 완성."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅, 철강금속/전력기기 이정우] ★ 배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공",
+   "post_url": "https://t.me/daolresearch/15233",
+   "source_url": "https://buly.kr/8847slZ"
   }
  ],
  "cross_mentions": [
@@ -33480,7 +33549,7 @@
    "recent": 23,
    "total": 26,
    "sectors": 3,
-   "burst": 23.7
+   "burst": 23.6
   },
   {
    "term": "보합",
@@ -33494,7 +33563,7 @@
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "할인율",
