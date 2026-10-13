@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:20:05.606924+00:00",
+  "generated_at": "2026-10-13T23:29:51.308572+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1394,
   "months": [
@@ -876,9 +876,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "리브스메드 BUY 9만원 _@ Pitch Issue & Pitch | 의료기기",
-              "industry_conclusion": "리브스메드 BUY 9만원 _@ Pitch Issue & Pitch | 의료기기",
-              "report_conclusion": "리브스메드 BUY 9만원 _@ Pitch Issue & Pitch | 의료기기",
+              "pitch": "da Vinci의 장기 성장은 시술당 상승보다 설치 기반 확대와 장비당 시술 증가에서 발생. STARK 역시 설치 목표보다 설치 이후 사용량 확대가 핵심.",
+              "industry_conclusion": "da Vinci의 장기 성장은 시술당 상승보다 설치 기반 확대와 장비당 시술 증가에서 발생. STARK 역시 설치 목표보다 설치 이후 사용량 확대가 핵심.",
+              "report_conclusion": "da Vinci의 장기 성장은 시술당 상승보다 설치 기반 확대와 장비당 시술 증가에서 발생. STARK 역시 설치 목표보다 설치 이후 사용량 확대가 핵심.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1409,8 +1409,14 @@
               "source": "https://t.me/daolresearch/15198"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "top_picks": [
+            {
+              "text": "Top Picks: 삼성SDI, 포스코퓨처엠, 포스코인터내셔널.",
+              "date": "2026-10-14",
+              "source": "https://t.me/daolresearch/15233"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
           "report_count": 2,
@@ -1425,8 +1431,12 @@
               "code": "",
               "report_type": "산업자료",
               "opinion": "",
-              "top_picks": [],
-              "preferred_stocks": [],
+              "top_picks": [
+                "Top Picks: 삼성SDI, 포스코퓨처엠, 포스코인터내셔널."
+              ],
+              "preferred_stocks": [
+                "Top Picks: 삼성SDI, 포스코퓨처엠, 포스코인터내셔널."
+              ],
               "tp_changes": [],
               "tp_raises": [],
               "pitch": "",
