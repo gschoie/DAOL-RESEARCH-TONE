@@ -416,6 +416,15 @@ def analyze(messages, pdf_since='2025-05'):
         # 종목별 TP는 v2가 인뎁스 합성 레코드로 각 종목 타임라인에 주입한다.
         if len(set(re.findall(r'\((\d{6})\)\s*[:：]\s*(?:TP|적정주가)',t[:1500],re.I)))>=2:
             is_industry=True;company,code='산업/기타',''
+        # 크로스섹터 콜라보 헤더: 선두 대괄호에 '…섹터 이름, 섹터 이름' 꼴로 애널리스트가
+        # 2명 나열되면 산업자료다 ('[다올 자동차/이차전지 유지웅, 철강금속/전력기기 이정우]').
+        # '★ 배터리:' 같은 본제목이 company_name에서 기업명으로 오인되는 것을 막는다.
+        # 쉼표 뒤에 섹터+이름 두 단어를 요구해 같은 섹터 공동저자('고영민, 김연미')는 제외하고,
+        # 헤더에 종목코드가 있으면(기업자료) 건드리지 않는다. 금액의 숫자 쉼표는 [가-힣], 조건에 안 걸린다.
+        hdr_m=re.match(r'^\[([^\]]*)\]',t)
+        if (hdr_m and not re.search(r'\(\d{6}\)',hdr_m.group(1))
+                and re.search(r'[가-힣]\s*,\s*[가-힣A-Za-z/·&]+\s+[가-힣]{2,4}\s*(?:☎|$)',hdr_m.group(1))):
+            is_industry=True;company,code='산업/기타',''
         source=source_link(m);analysis_text=t;analysis_source='텔레그램 요약';final_url=source;pdf_error=''
         details={'pitch':report_pitch(t),'conclusion':industry_conclusion(t) if is_industry else '',
                  'valuation':detail_lines(t,r'Valuation|밸류에이션|적정주가\s*산출|PER|PBR|EV/EBITDA|WACC|DCF|적용\s*(?:배수|멀티플)',4),

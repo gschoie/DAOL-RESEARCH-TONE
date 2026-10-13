@@ -561,7 +561,7 @@ def timeline_events(key, name, timeline):
 SECTOR_MAP_FILE = DATA_DIR / 'krx_sectors.json'
 # 종목코드가 없거나 매핑에 없는 리포트(산업자료 등)는 제목·헤더 키워드로 분류한다. 순서 = 우선순위.
 SECTOR_KEYWORDS = [
-    (r'로봇', '로봇'), (r'2차전지|이차전지', '2차전지'),
+    (r'로봇', '로봇'), (r'2차전지|이차전지|배터리', '2차전지'),
     (r'조선|선박|신조|탱커|컨테이너선|LNG선', '조선'),
     (r'방산|防産|항공우주|무기|국방', '방산'),
     (r'건설기계|굴착기|공작기계|기계', '기계'),
@@ -612,6 +612,12 @@ def resolve_sector(record, sector_map):
     # 선두 대괄호에 '콜라보'가 명시된 크로스섹터 자료는 키워드 우선순위('건설' 등)에
     # 걸리기 전에 콜라보 버킷으로 — 종목별 내용은 합성 레코드가 각 섹터로 간다.
     if hdr and '콜라보' in hdr.group(1):
+        return '콜라보'
+    # 크로스섹터 공동 자료('…자동차/이차전지 유지웅, 철강금속/전력기기 이정우') — 쉼표 뒤
+    # 섹터+이름 두 단어 요구로 같은 섹터 공동저자('고영민, 김연미')는 제외. v1의 콜라보
+    # 헤더 감지와 같은 규칙이다.
+    if (hdr and not re.search(r'\(\d{6}\)', hdr.group(1))
+            and re.search(r'[가-힣]\s*,\s*[가-힣A-Za-z/·&]+\s+[가-힣]{2,4}\s*(?:☎|$)', hdr.group(1))):
         return '콜라보'
     if hdr and hdr.group(1).count('/') >= 2:
         topic = record['title'][hdr.end():][:160]

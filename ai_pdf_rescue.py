@@ -133,9 +133,12 @@ def main():
         if r.get('report_type') != '산업자료' or not r.get('source_url'): continue
         url = r['source_url']
         entry = cache.get(url) or {}
+        txt = (entry.get('text') if isinstance(entry, dict) else '') or ''
+        # 글리프 깨짐('•' 떡칠): 폰트 매핑이 깨진 PDF는 추출이 '성공'하되 글자가 불릿으로
+        # 뭉개진다(10/14 배터리×철강 콜라보 — 한글 703자라 껍데기 기준도 통과해 전부 비껴감).
+        garbled = txt.count('•') >= 150 and txt.count('•') >= len(txt) * 0.05
         if not (re.search(r'In-?Depth|인뎁스|Preview|프리뷰|커버리지\s*개시|Initiation|전망', r.get('title') or '', re.I)
-                or ('[OCR 1-3p]' in ((entry.get('text') if isinstance(entry, dict) else '') or '')
-                    and r.get('date', '') >= _cut)):
+                or (r.get('date', '') >= _cut and ('[OCR 1-3p]' in txt or garbled))):
             continue
         direct = direct_of(url, entry)
         if not direct or url in seen: continue
