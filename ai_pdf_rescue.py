@@ -27,6 +27,9 @@ DATA = Path(__file__).resolve().parent / 'data'
 CACHE_FILE = DATA / 'daol_pdf_text_cache.json'
 MAX_ITEMS = int(os.getenv('AI_RESCUE_MAX', '15'))
 BUDGET = int(os.getenv('AI_RESCUE_BUDGET_SECONDS', '420'))
+# 전사 최소 품질(한글 자수) — 리포트 PDF를 제대로 읽었다면 핵심 전사만으로도 수백 자가
+# 나온다. 150자였을 땐 flash-lite의 뭉갠 요약이 턱걸이 통과해 ai_read가 박혀버렸다.
+MIN_KR = int(os.getenv('AI_RESCUE_MIN_KR', '400'))
 DIRECTIONS = ['상향', '하향', '유지', '신규']
 
 PROMPT = '''이 PDF는 한국 증권사(다올투자증권) 리서치 보고서인데, 폰트 문제로 텍스트 추출이 실패해
@@ -123,12 +126,31 @@ def main():
 
     from datetime import datetime as _dt, timedelta as _td, timezone as _tz
     _cut = (_dt.now(_tz(_td(hours=9))).date() - _td(days=30)).isoformat()
+    dates = report_dates()
+    # 자가 치유: 과거 런이 남긴 부실 전사(한글<MIN_KR — flash-lite가 50쪽 인뎁스를 153자로
+    # 요약하고 TP 0건으로 끝낸 10/14 배터리×철강 콜라보 유형)는 ai_read를 풀고 직접 재판독
+    # 대상에 넣는다(정크 전사가 원문을 덮어 키워드·글리프 판별이 더는 안 통하므로).
+    # 최근 30일분만 — 좋은 전사(한글≥MIN_KR)가 들어오면 조건을 벗어나 무한 재시도는 안 된다.
+    healed, seen = [], set()
+    for url, v in cache.items():
+        if not isinstance(v, dict) or not v.get('ai_read'): continue
+        t = v.get('text') or ''
+        if '[AI판독' not in t or _kr(t) >= MIN_KR: continue
+        if dates.get(url, '') < _cut: continue
+        v['ai_read'] = False
+        direct = v.get('final_url')
+        if direct and direct != url and url not in seen:
+            seen.add(url)
+            healed.append((dates.get(url, ''), url, direct))
+    healed.sort(reverse=True)
+    if healed:
+        print(f'ai-rescue: 부실 전사 {len(healed)}건 ai_read 리셋 — 재판독 대상')
     # 1순위: 인뎁스·프리뷰 산업자료인데 규칙 TP 추출이 빈손인 자료 — 글자 수가 충분해도
     # OCR 글자가 뭉개져 표를 못 읽는 유형(현대차 7/6 프리뷰)이 여기 잡힌다. 최신순(flat_reports).
     # 제목 키워드가 없어도 OCR 경로 흔적([OCR 1-3p] 마커, 최근 30일)이 있으면 포함 — 폰트
     # 깨진 PDF가 백필 OCR에 선점돼 status='pdf'로 승격되면 0순위(failed 전용)를 비껴가는
     # 틈(10/7 은행 '조정을 끝낼 다음은' 프리뷰)을 막는다.
-    prime, seen = [], set()
+    prime = []
     for r in flat_reports(load_json(HISTORY, {'months': []})):
         if r.get('report_type') != '산업자료' or not r.get('source_url'): continue
         url = r['source_url']
@@ -146,7 +168,6 @@ def main():
         seen.add(url)
         prime.append((r.get('date', ''), url, direct))
     # 2순위: 껍데기 캐시(한글<GARBAGE_KR) 전반 — 검색용 전사 확보. 최근 자료 우선.
-    dates = report_dates()
     rest = []
     for url, v in cache.items():
         direct = direct_of(url, v)
@@ -168,10 +189,13 @@ def main():
         if d < _cut: continue
         seen.add(url); broken.append((d, url, direct))
     broken.sort(reverse=True)
-    targets = broken + prime + rest
-    print(f'ai-rescue: 대상 {len(targets)}건 (추출빈손 {len(broken)} + TP미검출 인뎁스 {len(prime)} + 껍데기 {len(rest)}) — 이번 런 최대 {MAX_ITEMS}건/{BUDGET}s')
+    targets = broken + healed + prime + rest
+    print(f'ai-rescue: 대상 {len(targets)}건 (추출빈손 {len(broken)} + 재판독 {len(healed)} + TP미검출 인뎁스 {len(prime)} + 껍데기 {len(rest)}) — 이번 런 최대 {MAX_ITEMS}건/{BUDGET}s')
 
-    model_queue = gemini_model_queue()
+    # PDF 직판독은 표 읽기 품질이 생명 — flash-lite가 50쪽 인뎁스를 153자로 뭉개고 TP를
+    # 통째로 놓친 전례가 있어, 텍스트 분석기와 달리 lite 계열을 큐 맨 뒤로 보낸다.
+    base_queue = gemini_model_queue()
+    model_queue = [m for m in base_queue if 'lite' not in m] + [m for m in base_queue if 'lite' in m]
     model_idx = 0
     started = time.monotonic()
     done = fail = 0
@@ -196,7 +220,7 @@ def main():
                         continue
                     raise
             transcript = str(raw.get('transcript') or '').strip()[:8000]
-            if _kr(transcript) < 150:
+            if _kr(transcript) < MIN_KR:
                 raise RuntimeError(f'전사 부실(한글 {_kr(transcript)}자) — 캐시 미갱신')
             tp = clean_tp_changes(raw.get('tp_changes'))
             v = cache[url]

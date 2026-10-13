@@ -383,6 +383,14 @@ def merge_report(report, ai_entry):
     # 첫 종목의 기업자료로 뒤집지 않는다 — 제목은 잘릴 수 있어 요약까지 본다.
     is_collab = len(set(re.findall(r'\((\d{6})\)\s*[:：]\s*(?:TP|적정주가)',
                                    f"{report.get('title') or ''} {report.get('summary') or ''}", re.I))) >= 2
+    # 크로스섹터 공동 헤더('…자동차/이차전지 유지웅, 철강금속/전력기기 이정우')도 콜라보다.
+    # 아래에서 선두 '[다올…]' 대괄호를 떼어내므로 원제목에서 지금 판정해 플래그로 남긴다
+    # (resolve_sector가 이 플래그로 '콜라보' 섹터 귀속). 같은 섹터 공동저자('고영민, 김연미')는
+    # 쉼표 뒤 섹터+이름 두 단어 요구로 제외, 종목코드 있는 기업 헤더도 제외.
+    hdr_raw = re.match(r'^\[([^\]]*)\]', report.get('title') or '')
+    if (hdr_raw and not re.search(r'\(\d{6}\)', hdr_raw.group(1))
+            and re.search(r'[가-힣]\s*,\s*[가-힣A-Za-z/·&]+\s+[가-힣]{2,4}\s*(?:☎|$)', hdr_raw.group(1))):
+        is_collab = True
     if ai:
         # 정규식이 기업을 못 잡았거나(산업/기타), 코드 없이 산업자료로 오인한 경우
         # (제목 조각 '조선' 따위가 company로 들어옴) AI 귀속으로 보정한다.
@@ -418,6 +426,7 @@ def merge_report(report, ai_entry):
         'opinion': '' if re.search(r'Weekly|위클리|주간\s*(모니터링|동향)', report.get('title') or '', re.I)
                    else ((ai and ai['opinion'] not in ('', '없음') and ai['opinion']) or report.get('opinion') or ''),
         'ai': bool(ai),
+        'collab': is_collab,
     }
     if ai:
         tp = ai['tp']
@@ -592,6 +601,10 @@ COMPANY_SECTOR_OVERRIDES = {'리브스메드': '의료기기', '실리콘투': '
 
 
 def resolve_sector(record, sector_map):
+    # 콜라보(크로스섹터 공동 자료) — merge_report가 원제목 헤더에서 판정한 플래그.
+    # 선두 '[다올…]' 대괄호가 병합 과정에서 떼어지므로 여기서 제목을 다시 보면 늦는다.
+    if record.get('collab') and record['report_type'] == '산업자료':
+        return '콜라보'
     if record['company'] in COMPANY_SECTOR_OVERRIDES:
         return COMPANY_SECTOR_OVERRIDES[record['company']]
     # 박종현은 의료기기·화장품 담당 — 커버 종목(대웅제약 등)이 코드 매핑상 제약·바이오라도
