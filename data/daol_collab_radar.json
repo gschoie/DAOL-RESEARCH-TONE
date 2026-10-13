@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T22:48:00.999950+00:00",
+ "generated_at": "2026-10-13T02:46:53.469532+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1389,
  "hits": [
@@ -33507,6 +33507,13 @@
    "burst": 4.0
   },
   {
+   "term": "배당수익률",
+   "recent": 12,
+   "total": 24,
+   "sectors": 9,
+   "burst": 3.8
+  },
+  {
    "term": "사용",
    "recent": 7,
    "total": 14,
@@ -33518,13 +33525,6 @@
    "recent": 10,
    "total": 21,
    "sectors": 6,
-   "burst": 3.5
-  },
-  {
-   "term": "배당수익률",
-   "recent": 11,
-   "total": 23,
-   "sectors": 9,
    "burst": 3.5
   }
  ]
