@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T19:43:56.709224+00:00",
+  "generated_at": "2026-10-13T22:13:12.418141+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1389,
+  "report_count": 1393,
   "months": [
     {
       "month": "2026-10",
@@ -239,7 +239,7 @@
               "source": "https://t.me/daolresearch/15174"
             },
             {
-              "text": "Top-pick 한국금융지주를 유지한다.",
+              "text": "업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시.",
               "date": "2026-10-13",
               "source": "https://t.me/daolresearch/15219"
             }
@@ -247,8 +247,35 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 3,
+          "report_count": 4,
           "reports": [
+            {
+              "id": 15230,
+              "date": "2026-10-14",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "3Q26",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145370/1/20261014_B4010_jiwonkim_258.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[JP Morgan Chase( JPM.US )/Not Rated]｜다올 금융 김지원 ☎ 2184-2306] ★ 3Q26 Review: 달라진 자본배치와 고ROE 전략 지속",
+              "summary": "[JP Morgan Chase( JPM.US )/Not Rated]｜다올 금융 김지원 ☎ 2184-2306] ★ 3Q26 Review: 달라진 자본배치와 고ROE 전략 지속 ▶ 3Q26 순이익 153억달러(YoY+6.3%, QoQ-27.7%)으로, 컨센서스를 -5.8% 하회 ▶ 금리 변동성 확대에 기타비이자이익 감소에 기인 ▶ CET1비율도 하락 지속. 기업 수요 대응한 대출자산 증가에 비례한 RWA 증가 영향 ▶ 자본배치 방향 달라짐. 현금배당 상향은 예고대로 유지하나, 자사주 매입규모 축소 ▶ 고ROE 추구 전략 강화. 주주환원 외에 ROE 방어력도 밸류 측면에서 부각 함의 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/BTSWVin > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15230",
+              "source_url": "https://buly.kr/BTSWVin"
+            },
             {
               "id": 15219,
               "date": "2026-10-13",
@@ -260,24 +287,20 @@
               "report_type": "산업자료",
               "opinion": "비중확대",
               "top_picks": [
-                "Top-pick 한국금융지주를 유지한다."
+                "업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시."
               ],
               "preferred_stocks": [
-                "Top-pick 한국금융지주를 유지한다."
+                "업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시."
               ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Overweight 유지; 컨센서스 하회 예상되나 그럼에도 불구하고 업종의 3026 AAS 대체로 컨센서스를 하회할 전망이다. 반영해 2026년 일평균 Adda 전망치를 하향 조정했다. 수익구조 기여도와 높은 배당수익률 예상된다.",
-              "industry_conclusion": "업종의 3026 AAS 대체로 컨센서스를 하회할 전망이다. 반영해 2026년 일평균 Adda 전망치를 하향 조정했다.",
-              "report_conclusion": "업종의 3026 AAS 대체로 컨센서스를 하회할 전망이다. 반영해 2026년 일평균 Adda 전망치를 하향 조정했다.",
-              "valuation": [
-                "린주들의 #0#와 PBR 간의 관계는 여전히",
-                "일본 증권주들은 반대로 ROES PBR] 역(-) 관계성을 보인다.",
-                "높은 ROE 대비 PBR Wo] 크고, 높은 IB 및 WM",
-                "3: SAMS 및 커버리지 종목 PBR 동향",
-                "배) 25년말 = St4PBR 0선행ㅁ8ㅁ"
+              "pitch": "증권 업종 (Overweight) - 부진할 전망, 그럼에도 불구하고. 3Q26E 실적은 대체로 컨센서스 하회 전망. 환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향. 그럼에도 업종 투자의견 유지: (1) 선행 ROE 하향 조정에도 평균 COE 대비 크게 상회 중 현 주가는 하반기 감익 우려를 충분히 반영 중으로 판단 (2) 손익변동성 확대를 완충할 타 부문 기여 작용을 기대 (3) 업종 내 높은 배당수익률로 하방지지력 보유 종목 다수.",
+              "industry_conclusion": "증권 업종 (Overweight) - 부진할 전망, 그럼에도 불구하고. 3Q26 Preview 및 업종 투자전략 점검. 업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시. 3Q26E 실적은 대체로 컨센서스 하회 전망. 환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향.",
+              "report_conclusion": "증권 업종 (Overweight) - 부진할 전망, 그럼에도 불구하고. 3Q26 Preview 및 업종 투자전략 점검. 업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시. 3Q26E 실적은 대체로 컨센서스 하회 전망. 환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향.",
+              "valuation": [],
+              "earnings_changes": [
+                "환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향."
               ],
-              "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145331/1/20261013_B4030_jiwonkim_257.pdf",
               "pdf_error": "",
@@ -688,6 +711,11 @@
               "value": "비중확대",
               "date": "2026-10-12",
               "source": "https://t.me/daolresearch/15196"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-10-14",
+              "source": "https://t.me/daolresearch/15229"
             }
           ],
           "top_picks": [
@@ -832,8 +860,35 @@
               "source": "https://t.me/daolresearch/15186"
             }
           ],
-          "report_count": 12,
+          "report_count": 13,
           "reports": [
+            {
+              "id": 15229,
+              "date": "2026-10-14",
+              "month": "2026-10",
+              "analyst": "박종현",
+              "sector": "의료기기/화장품",
+              "company": "Issue",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "설치대수보다 중요한 것: 수술 건수와 반복 매출 (수술로봇 시리즈 ②) ▶ 2009~2025년 설치 기반은 1,395대에서 11,106대, 연간 시술은 약 20.5만 건에서 약 315.3만 건, 매출은 1.1십억달러에서 10.1십억달러로 확대 ▶ 시술당 I&A 매출은 약 1,800~2,000달러로 장기간 큰 변화가 없었던 반면, 연말 장비 1대당 연간 시술은 147건에서 284건으로 증가(당사 계산) ▶ 전립선·부인과에 이어 일반외과가 세 번째 성장축(2025년 미국 약 125만 건). 2012~2014년 시스템 판매 둔화 구간에도 I&A 매출은 증가 ▶ 운용리스 비중이 2018년 25%에서 2025년 51%로 높아져 시스템 매출만으로는 수요 판단이 어려움. STARK도 설치 이후 사용량이 핵심. 리브스메드 BUY, 적정주가 9만원 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/2Jr7VHJ > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "industry_conclusion": "설치대수보다 중요한 것: 수술 건수와 반복 매출 (수술로봇 시리즈 ②) ▶ 2009~2025년 설치 기반은 1,395대에서 11,106대, 연간 시술은 약 20.5만 건에서 약 315.3만 건, 매출은 1.1십억달러에서 10.1십억달러로 확대 ▶ 시술당 I&A 매출은 약 1,800~2,000달러로 장기간 큰 변화가 없었던 반면, 연말 장비 1대당 연간 시술은 147건에서 284건으로 증가(당사 계산) ▶ 전립선·부인과에 이어 일반외과가 세 번째 성장축(2025년 미국 약 125만 건). 2012~2014년 시스템 판매 둔화 구간에도 I&A 매출은 증가 ▶ 운용리스 비중이 2018년 25%에서 2025년 51%로 높아져 시스템 매출만으로는 수요 판단이 어려움. STARK도 설치 이후 사용량이 핵심. 리브스메드 BUY, 적정주가 9만원 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/2Jr7VHJ > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "report_conclusion": "설치대수보다 중요한 것: 수술 건수와 반복 매출 (수술로봇 시리즈 ②) ▶ 2009~2025년 설치 기반은 1,395대에서 11,106대, 연간 시술은 약 20.5만 건에서 약 315.3만 건, 매출은 1.1십억달러에서 10.1십억달러로 확대 ▶ 시술당 I&A 매출은 약 1,800~2,000달러로 장기간 큰 변화가 없었던 반면, 연말 장비 1대당 연간 시술은 147건에서 284건으로 증가(당사 계산) ▶ 전립선·부인과에 이어 일반외과가 세 번째 성장축(2025년 미국 약 125만 건). 2012~2014년 시스템 판매 둔화 구간에도 I&A 매출은 증가 ▶ 운용리스 비중이 2018년 25%에서 2025년 51%로 높아져 시스템 매출만으로는 수요 판단이 어려움. STARK도 설치 이후 사용량이 핵심. 리브스메드 BUY, 적정주가 9만원 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/2Jr7VHJ > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145369/1/20261014_B3510_alex.park_631.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[의료기기(Overweight)/ 다올 박종현] ★ Issue & Pitch: 설치대수보다 중요한 것: 수술 건수와 반복 매출 (수술로봇 시리즈 ②)",
+              "summary": "[의료기기(Overweight)/ 다올 박종현] ★ Issue & Pitch: 설치대수보다 중요한 것: 수술 건수와 반복 매출 (수술로봇 시리즈 ②) ▶ 2009~2025년 설치 기반은 1,395대에서 11,106대, 연간 시술은 약 20.5만 건에서 약 315.3만 건, 매출은 1.1십억달러에서 10.1십억달러로 확대 ▶ 시술당 I&A 매출은 약 1,800~2,000달러로 장기간 큰 변화가 없었던 반면, 연말 장비 1대당 연간 시술은 147건에서 284건으로 증가(당사 계산) ▶ 전립선·부인과에 이어 일반외과가 세 번째 성장축(2025년 미국 약 125만 건). 2012~2014년 시스템 판매 둔화 구간에도 I&A 매출은 증가 ▶ 운용리스 비중이 2018년 25%에서 2025년 51%로 높아져 시스템 매출만으로는 수요 판단이 어려움. STARK도 설치 이후 사용량이 핵심. 리브스메드 BUY, 적정주가 9만원 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/2Jr7VHJ > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/15229",
+              "source_url": "https://buly.kr/2Jr7VHJ"
+            },
             {
               "id": 15218,
               "date": "2026-10-13",
@@ -1701,8 +1756,62 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 7,
           "reports": [
+            {
+              "id": 15228,
+              "date": "2026-10-14",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "한미약품",
+              "code": "128940",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145368/1/20261014_128940_jislee_474.pdf",
+              "pdf_error": "",
+              "title": "[한미약품(128940) | BUY(유지) | TP 72만원(유지) | 다올 제약/바이오 이지수] ★ 3Q26 Preview: 이연된 실적, 개화하는 비만 모멘텀",
+              "summary": "[한미약품(128940) | BUY(유지) | TP 72만원(유지) | 다올 제약/바이오 이지수] ★ 3Q26 Preview: 이연된 실적, 개화하는 비만 모멘텀 ▶ 3Q26 연결 매출액 3,792억원(+4.6% YoY, -18.8% QoQ), 영업이익 377억원(-31.6% YoY, -71.3% QoQ; OPM 9.9%)으로 시장 기대치를 하회할 전망 ▶ 로슈향 HM17321(LA-UCN2) 계약금 인식이 4분기로 이연되고, 앱토즈 연결 편입에 따른 연구개발비·운영비 증가가 수익성 부담으로 작용할 전망. 다만 로수젯·코프로모션 품목 중심의 본업 성장은 지속되고, 북경한미는 QoQ 회복, 한미정밀화학은 CDMO 매출 확대가 기대됨 ▶ 4분기 로슈향 계약금 일부 인식과 에페글레나타이드 국내 출시로 실적 개선 전망. 에페글레나타이드는 11월 공급 개시가 예상되며, MASH 임상 데이터 발표와 HM15275(LA-TRIA) 추가 기술이전 기대도 유효. 연간 실적 추정치는 하향하나 밸류에이션 기준 시점을 27년으로 변경해 적정주가 72만원 및 투자의견 BUY 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/GEAyzbo >",
+              "post_url": "https://t.me/daolresearch/15228",
+              "source_url": "https://buly.kr/GEAyzbo"
+            },
+            {
+              "id": 15227,
+              "date": "2026-10-14",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "동아쏘시오홀딩스",
+              "code": "000640",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145367/1/20261014_000640_jislee_473.pdf",
+              "pdf_error": "",
+              "title": "[동아쏘시오홀딩스(000640) | BUY(유지) | TP 15만원(유지) | 다올 제약/바이오 이지수] ★ 3Q26 Preview: 동아제약을 품고 다음 단계로",
+              "summary": "[동아쏘시오홀딩스(000640) | BUY(유지) | TP 15만원(유지) | 다올 제약/바이오 이지수] ★ 3Q26 Preview: 동아제약을 품고 다음 단계로 ▶ 3Q26 연결 매출액 4,230억원(+10.6% YoY, +2.6% QoQ), 영업이익 318억원(-4.5% YoY, -18.3% QoQ; OPM 7.5%)으로 비티젠 공급 일정 영향에 시장 기대치 하회 전망 ▶ 동아제약은 박카스·피부외용제·오펠라 도입품목 중심으로 성장하고, 용마로지스는 물동량 증가와 신규 화주 유치로 외형 확대 전망. 비티젠 공급은 4분기에 집중돼 실적 개선에 기여할 것으로 예상 ▶ 동아제약 흡수합병으로 현금창출력 내재화와 자본배분 효율성 제고 기대. 동아제약을 자회사 할인 없이 영업가치로 반영해 적정주가 15만원 및 투자의견 BUY 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/1xGkXs >",
+              "post_url": "https://t.me/daolresearch/15227",
+              "source_url": "https://buly.kr/1xGkXs"
+            },
             {
               "id": 15213,
               "date": "2026-10-13",
@@ -2190,7 +2299,7 @@
           ]
         }
       ],
-      "report_count": 41
+      "report_count": 45
     },
     {
       "month": "2026-09",
