@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T17:45:54.993366+00:00",
+  "generated_at": "2026-10-14T22:12:23.932732+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1394,
+  "report_count": 1395,
   "months": [
     {
       "month": "2026-10",
@@ -1516,8 +1516,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 4,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 15237,
+              "date": "2026-10-15",
+              "month": "2026-10",
+              "analyst": "이다연",
+              "sector": "음식료/통신",
+              "company": "KT&G",
+              "code": "033780",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145387/1/20261015_033780_lizzy_110.pdf",
+              "pdf_error": "",
+              "title": "[KT&G(033780) | BUY(유지) | TP 25만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 이번에도 호실적",
+              "summary": "[KT&G(033780) | BUY(유지) | TP 25만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 이번에도 호실적 ▶ 3Q26E 연결 매출액 1조 9,146억원(YoY +4.8%), 영업이익 5,080억원(YoY +9.2%, OPM 26.5%)으로 컨센서스 부합 추정 ▶ 동사는 지난 9월 소각을 전제로 한 3,600억원 규모의 자사주 매입을 발표. 연간 DPS로 8,000원 가정할 시 해당 자사주 매입·소각분을 포함한 ‘26년 총주주환원액은 1조 1,781억원(상반기 기취득분 소각은 제외해 추산 ) ▶ ‘27년부터 적용될 신규 주주환원 정책은 3Q26 잠정실적 공시를 전후로 발표될 예정. 신규 정책은 배당 강화를 기본 방향으로 하며, 1) 해외 궐련 성장 및 NGP 직접사업 확대에 따른 점진적 EBITDA 증가, 2) 카자흐스탄, 인니 신공장 투자 완료에 따른 CapEx 감소(‘27년부터 연 2,000~3,000억원 예상), 3) 전략적 레버리지 활용 등을 통해 배당 재원을 확보할 수 있을 전망 ▶ 환율 가정 변경으로 4Q26E 실적 추정치를 하향했으나, 동사가 2Q26 실적 발표 당시 상향한 가이던스는 충족 가능하다고 판단. 현재주가 기준 당사 추정 ‘26년 배당수익률은 4.4%이며, 향후 배당 확대 기조에 따라 배당수익률 매력도는 더욱 높아질 것. 투자의견 BUY, 적정주가 25만원 의견 유지 *보고서 원문 및 Compliance Notice: https://buly.kr/FLbCS2i",
+              "post_url": "https://t.me/daolresearch/15237",
+              "source_url": "https://buly.kr/FLbCS2i"
+            },
             {
               "id": 15202,
               "date": "2026-10-12",
@@ -2345,7 +2372,7 @@
           ]
         }
       ],
-      "report_count": 46
+      "report_count": 47
     },
     {
       "month": "2026-09",
