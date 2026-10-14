@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14T22:47:27.983456+00:00",
+ "generated_at": "2026-10-14T22:59:26.050162+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1398,
+ "report_count": 1399,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32558,6 +32558,24 @@
    "title": "[한국항공우주(047810)/BUY(유지)/TP 210,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한국항공우주(047810) : 강력해진 FA-50, 강력해질 KF-21 블록3",
    "post_url": "https://t.me/daolresearch/15240",
    "source_url": "https://bit.ly/KAI3Q26PRE"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-10-15",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "특히 지난 9월 연준 인상 결정을 뒷받침했던 근원 CPI의 MoM 상승률이 전월 0.29%에서 0.33%로 확대",
+    "11월 FOMC 회의가 부재한 상황에서 높은 불확실성을 감수하기 보다는 선제적 인상의 효과를 극대화 하고자 10월 인상을 단행하는 편이 연준 입장에서 합리적일수 있음"
+   ],
+   "title": "[Macro Issue / 다올투자증권 박영찬 연구원, 매크로·투자전략 조병현] ★ 미국 9월 CPI Review: 인상이 다시 테이블 위로",
+   "post_url": "https://t.me/daolresearch/15242",
+   "source_url": "https://buly.kr/FhQiQSC"
   }
  ],
  "cross_mentions": [
@@ -33648,14 +33666,14 @@
    "recent": 24,
    "total": 27,
    "sectors": 3,
-   "burst": 24.5
+   "burst": 24.4
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.2
+   "burst": 8.1
   },
   {
    "term": "관건",
@@ -33669,7 +33687,7 @@
    "recent": 15,
    "total": 25,
    "sectors": 9,
-   "burst": 5.6
+   "burst": 5.5
   },
   {
    "term": "할인율",
@@ -33690,7 +33708,7 @@
    "recent": 9,
    "total": 15,
    "sectors": 7,
-   "burst": 5.3
+   "burst": 5.2
   },
   {
    "term": "Cloud",
@@ -33704,7 +33722,7 @@
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "남미",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T22:46:54.931521+00:00",
+  "generated_at": "2026-10-14T22:59:12.650539+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1398,
+  "report_count": 1399,
   "months": [
     {
       "month": "2026-10",
@@ -2177,6 +2177,48 @@
           ]
         },
         {
+          "analyst": "조병현",
+          "sectors": [
+            "투자전략"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "전월 대비 유지",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15242,
+              "date": "2026-10-15",
+              "month": "2026-10",
+              "analyst": "조병현",
+              "sector": "투자전략",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 한편, 10월 인상은 속도의 문제이고, 연내 1회 인상 전망 자체는 변하지는 않을 것으로 판단.",
+              "report_conclusion": "▶ 한편, 10월 인상은 속도의 문제이고, 연내 1회 인상 전망 자체는 변하지는 않을 것으로 판단.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145392/1/20261015_B_bhcho_305.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[Macro Issue / 다올투자증권 박영찬 연구원, 매크로·투자전략 조병현] ★ 미국 9월 CPI Review: 인상이 다시 테이블 위로",
+              "summary": "[Macro Issue / 다올투자증권 박영찬 연구원, 매크로·투자전략 조병현] ★ 미국 9월 CPI Review: 인상이 다시 테이블 위로 ▶ 미국 9월 헤드라인 CPI는 MoM 0.6%, YoY 3.7% 상승. YoY 기준 시장 컨센서스(3.6%) 상회한 가운데, 하반기 들어 처음으로 전월 대비 반등 ▶ 근원 CPI 역시 MOM 0.3%, YOY 2.6% 상승하며 시장 컨센(0.2%/2.5%)을 상회. 특히 지난 9월 연준 인상 결정을 뒷받침했던 근원 CPI의 MoM 상승률이 전월 0.29%에서 0.33%로 확대 ▶ 휘발유 가격이 9.1% 급등하며 9월 헤드라인 CPI의 절반 이상을 설명. 일회성 요인 소멸에도 서비스 물가 상승세는 확대되었고, 주요 항목 대부분에서 가격 상승이 관찰. 상품 물가 역시 동반 상승 ▶ 당사는 10월 추가 인상이 가능한 시나리오라고 판단. 11월 FOMC 회의가 부재한 상황에서 높은 불확실성을 감수하기 보다는 선제적 인상의 효과를 극대화 하고자 10월 인상을 단행하는 편이 연준 입장에서 합리적일수 있음 ▶ 한편, 10월 인상은 속도의 문제이고, 연내 1회 인상 전망 자체는 변하지는 않을 것으로 판단. 동결한다면 고용 지표 부진에 대한 고민을 반영한 결정일 것 ♣ 보고서 원문 및 Compliance Notice : https://buly.kr/FhQiQSC",
+              "post_url": "https://t.me/daolresearch/15242",
+              "source_url": "https://buly.kr/FhQiQSC"
+            }
+          ]
+        },
+        {
           "analyst": "최광식",
           "sectors": [
             "조선/기계/방산"
@@ -2491,7 +2533,7 @@
           ]
         }
       ],
-      "report_count": 50
+      "report_count": 51
     },
     {
       "month": "2026-09",
