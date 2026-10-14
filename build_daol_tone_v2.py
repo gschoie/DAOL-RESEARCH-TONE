@@ -228,8 +228,25 @@ def build_bundled_records(records, pdf_cache, sector_map, summaries=None):
         # 폰트 깨진 PDF는 ai_pdf_rescue가 Gemini로 직접 판독해 ai_tp를 남긴다 — 그게 있으면 우선
         # (규칙 추출이 불가능했던 자료이므로 extract_bundled_tp와 겹치지 않는다)
         if entry.get('ai_tp'):
-            seen = set()
+            # 같은 종목 항목이 여럿이면 Gemini가 'TP 변경 이력 표'를 통째로 읽은 것
+            # (10/14 의료기기 Issue&Pitch: 리브스메드 신규140→하향120→하향90).
+            # value가 다른 행의 prior로 등장하는 과거 행은 걷어내고, 사슬이 있던 종목은
+            # 마지막 값을 '유지'로 강등한다 — 표의 마지막 변경은 과거 사건이지 이 자료의
+            # 조정이 아니다(진짜 조정이면 텔레그램 헤더·AI 본문 분석에도 잡힌다).
+            by_code = {}
             for item in entry['ai_tp']:
+                c = item.get('code') or name_to_code.get(item.get('company') or '', '')
+                by_code.setdefault(c, []).append(item)
+            cleaned = []
+            for c, its in by_code.items():
+                if not c or len(its) == 1:
+                    cleaned.extend(its); continue
+                priors = {it.get('prior') for it in its if it.get('prior')}
+                tail = [it for it in its if it['value'] not in priors]
+                pick = (tail or its)[-1]
+                cleaned.append({**pick, 'prior': None, 'direction': '유지'})
+            seen = set()
+            for item in cleaned:
                 code = item.get('code') or name_to_code.get(item.get('company') or '', '')
                 if not code or code in seen: continue  # 커버 밖 종목·코드 미상은 스킵
                 seen.add(code)
@@ -391,11 +408,17 @@ def merge_report(report, ai_entry):
     if (hdr_raw and not re.search(r'\(\d{6}\)', hdr_raw.group(1))
             and re.search(r'[가-힣]\s*,\s*[가-힣A-Za-z/·&]+\s+[가-힣]{2,4}\s*(?:☎|$)', hdr_raw.group(1))):
         is_collab = True
+    # 산업의견 등급이 달린 헤더('[의료기기(Overweight)]')는 산업자료 선언이다 — AI가
+    # 본문 비중이 큰 종목(리브스메드 Issue&Pitch 등)을 보고 '기업'으로 뒤집지 못하게
+    # 막는다. 단, 제목에 그 기업명이 직접 등장하면('[음식료(OW): 오리온 Comment]')
+    # 진짜 단일 기업 꼭지이므로 플립을 허용한다.
+    ind_hdr = bool(re.search(r'\((?:Overweight|Neutral|Underweight)\)', (report.get('title') or '')[:160], re.I))
     if ai:
         # 정규식이 기업을 못 잡았거나(산업/기타), 코드 없이 산업자료로 오인한 경우
         # (제목 조각 '조선' 따위가 company로 들어옴) AI 귀속으로 보정한다.
         if not is_collab and ai['report_scope'] == '기업' and ai['company'] and (
-                company in ('', '산업/기타') or (scope == '산업자료' and not code)):
+                company in ('', '산업/기타') or (scope == '산업자료' and not code)) and (
+                not ind_hdr or ai['company'] in (report.get('title') or '')):
             company, code = ai['company'], ai['code'] or code
             scope = '기업자료'
         elif ai['report_scope'] == '산업' and not report.get('code'):
@@ -636,6 +659,13 @@ def resolve_sector(record, sector_map):
         topic = record['title'][hdr.end():][:160]
         for pattern, label in SECTOR_KEYWORDS:
             if re.search(pattern, topic, re.I):
+                return label
+    # 단일 섹터 헤더('[의료기기(Overweight)]')는 그 자체가 섹터 선언 — 본제목 키워드보다
+    # 먼저 본다. 키워드는 리스트 순서로 매칭되므로 '수술로봇' 같은 본문 단어가 헤더의
+    # '의료기기'를 이기고 로봇 섹터로 새던 문제(10/14 Issue&Pitch)를 막는다.
+    if hdr:
+        for pattern, label in SECTOR_KEYWORDS:
+            if re.search(pattern, hdr.group(1), re.I):
                 return label
     for pattern, label in SECTOR_KEYWORDS:
         if re.search(pattern, record['title'][:160], re.I):
