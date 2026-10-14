@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:29:51.308572+00:00",
+  "generated_at": "2026-10-14T00:38:30.078498+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1394,
   "months": [
@@ -239,7 +239,12 @@
               "source": "https://t.me/daolresearch/15174"
             },
             {
-              "text": "업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시.",
+              "text": "Pitch: 증권업 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시.",
+              "date": "2026-10-13",
+              "source": "https://t.me/daolresearch/15219"
+            },
+            {
+              "text": "Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시.",
               "date": "2026-10-13",
               "source": "https://t.me/daolresearch/15219"
             }
@@ -287,19 +292,23 @@
               "report_type": "산업자료",
               "opinion": "비중확대",
               "top_picks": [
-                "업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시."
+                "Pitch: 증권업 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시.",
+                "Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시."
               ],
               "preferred_stocks": [
-                "업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시."
+                "Pitch: 증권업 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시.",
+                "Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시."
               ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "증권 업종 (Overweight) - 부진할 전망, 그럼에도 불구하고. 3Q26E 실적은 대체로 컨센서스 하회 전망. 환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향. 그럼에도 업종 투자의견 유지: (1) 선행 ROE 하향 조정에도 평균 COE 대비 크게 상회 중 현 주가는 하반기 감익 우려를 충분히 반영 중으로 판단 (2) 손익변동성 확대를 완충할 타 부문 기여 작용을 기대 (3) 업종 내 높은 배당수익률로 하방지지력 보유 종목 다수.",
-              "industry_conclusion": "증권 업종 (Overweight) - 부진할 전망, 그럼에도 불구하고. 3Q26 Preview 및 업종 투자전략 점검. 업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시. 3Q26E 실적은 대체로 컨센서스 하회 전망. 환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향.",
-              "report_conclusion": "증권 업종 (Overweight) - 부진할 전망, 그럼에도 불구하고. 3Q26 Preview 및 업종 투자전략 점검. 업종 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시. 3Q26E 실적은 대체로 컨센서스 하회 전망. 환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향.",
+              "pitch": "증권업 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시.",
+              "industry_conclusion": "DAOL 다올투자증권 EARNINGS PREVIEW 13.Oct.2026 증권 (Overweight) 부진할 전망, 그럼에도 불구하고. Issue: 3Q26E Preview와 업종 투자전략 점검. Pitch: 증권업 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시. Rationale: 3Q26E 실적은 대체로 컨센서스 하회 전망 (시장 일평균 거래대금 감소, 리테일 관련 수수료수익 감소 전환, 증시 조정으로 비우호적 운용 환경, 손익변동성 확대 이유). 현황을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향.",
+              "report_conclusion": "DAOL 다올투자증권 EARNINGS PREVIEW 13.Oct.2026 증권 (Overweight) 부진할 전망, 그럼에도 불구하고. Issue: 3Q26E Preview와 업종 투자전략 점검. Pitch: 증권업 투자의견 Overweight, Top-pick 한국금융지주 유지, 관심종목 NH투자증권 제시. Rationale: 3Q26E 실적은 대체로 컨센서스 하회 전망 (시장 일평균 거래대금 감소, 리테일 관련 수수료수익 감소 전환, 증시 조정으로 비우호적 운용 환경, 손익변동성 확대 이유). 현황을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향.",
               "valuation": [],
               "earnings_changes": [
-                "환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향."
+                "현황을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향.",
+                "주요 실적 추정 (단위: 원, 십억원, %, %p): 미래에셋증권(006800) 지배주주순이익 2026.09(E) -416, 변경 전 208, vs Chg -300, 시장 컨센서스 2026.09(E) -12, vs Con -3,282, 전년 동기 2025.09(A) 340, YOY 적전, 전분기 2026.06(A) 1,896, QoQ 적전.",
+                "업종 전체 이익전망치 하향 조정과 적정주가 하향."
               ],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145331/1/20261013_B4030_jiwonkim_257.pdf",
@@ -876,9 +885,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "da Vinci의 장기 성장은 시술당 상승보다 설치 기반 확대와 장비당 시술 증가에서 발생. STARK 역시 설치 목표보다 설치 이후 사용량 확대가 핵심.",
-              "industry_conclusion": "da Vinci의 장기 성장은 시술당 상승보다 설치 기반 확대와 장비당 시술 증가에서 발생. STARK 역시 설치 목표보다 설치 이후 사용량 확대가 핵심.",
-              "report_conclusion": "da Vinci의 장기 성장은 시술당 상승보다 설치 기반 확대와 장비당 시술 증가에서 발생. STARK 역시 설치 목표보다 설치 이후 사용량 확대가 핵심.",
+              "pitch": "da Vinci의 장기 성장은 시술당 매출 상승보다 설치 기반 확대와 장비당 시술 증가에서 발생. STARK 역시 설치 목표보다 설치 이후 사용량 확대가 핵심.",
+              "industry_conclusion": "산업 투자의견: 의료기기 (overweight). 기업 투자의견: 리브스메드 BUY, 적정주가 9만원 유지. 투자의견 BUY, 적정주가 9만원을 유지한다.",
+              "report_conclusion": "산업 투자의견: 의료기기 (overweight). 기업 투자의견: 리브스메드 BUY, 적정주가 9만원 유지. 투자의견 BUY, 적정주가 9만원을 유지한다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1411,7 +1420,7 @@
           ],
           "top_picks": [
             {
-              "text": "Top Picks: 삼성SDI, 포스코퓨처엠, 포스코인터내셔널.",
+              "text": "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다.",
               "date": "2026-10-14",
               "source": "https://t.me/daolresearch/15233"
             }
@@ -1432,16 +1441,16 @@
               "report_type": "산업자료",
               "opinion": "",
               "top_picks": [
-                "Top Picks: 삼성SDI, 포스코퓨처엠, 포스코인터내셔널."
+                "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다."
               ],
               "preferred_stocks": [
-                "Top Picks: 삼성SDI, 포스코퓨처엠, 포스코인터내셔널."
+                "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다."
               ],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다. AI 데이터센터 전력 수요는 2030년까지 183.2GW로 2024년 대비 3.6배 확대될 것으로 예상된다. Tesla Energy의 연간 설치량은 2025년 47GWh, 2026E 80GWh, 2028E 120GWh로 전망된다. 삼성SDI는 2029년 물량까지 확보했으며, 2026년 말 북미 ESS 생산능력은 20GWh로 예상된다.",
+              "industry_conclusion": "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다. Tesla Energy의 연간 설치량은 2025년 47GWh, 2026E 80GWh, 2028E 120GWh로 전망된다. LG에너지솔루션의 AMPC 인식액은 2026E 1,000십억원, 2027E 2,500십억원, 2028E 5,000십억원으로 전망된다. 희토류 전 주기 밸류체인 구축 계획에 따라 1단계 4.8천t(2028년), 2단계 8.7천t(2030년~) 생산을 목표로 한다.종목별 투자의견은 다음과 같다.",
+              "report_conclusion": "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다. Tesla Energy의 연간 설치량은 2025년 47GWh, 2026E 80GWh, 2028E 120GWh로 전망된다. LG에너지솔루션의 AMPC 인식액은 2026E 1,000십억원, 2027E 2,500십억원, 2028E 5,000십억원으로 전망된다. 희토류 전 주기 밸류체인 구축 계획에 따라 1단계 4.8천t(2028년), 2단계 8.7천t(2030년~) 생산을 목표로 한다.종목별 투자의견은 다음과 같다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1890,9 +1899,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
-              "industry_conclusion": "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
-              "report_conclusion": "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
+              "pitch": "오리지널 Humira M/S는 일시적으로 반등했으나 PBM의 시밀러 선호 정책 유지로 추세 전환은 어렵다고 판단된다. 다올투자증권의 투자등급 비율은 BUY 93.5%, HOLD 6.5%, SELL 0.0%이며, 업종 투자의견은 Overweight로 KOSPI 수익률을 상회할 것으로 예상한다.",
+              "industry_conclusion": "다올투자증권의 투자등급 비율은 BUY 93.5%, HOLD 6.5%, SELL 0.0%이며, 업종 투자의견은 Overweight로 KOSPI 수익률을 상회할 것으로 예상한다.",
+              "report_conclusion": "다올투자증권의 투자등급 비율은 BUY 93.5%, HOLD 6.5%, SELL 0.0%이며, 업종 투자의견은 Overweight로 KOSPI 수익률을 상회할 것으로 예상한다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1971,9 +1980,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "이는 관련 플랫폼 기술 수요 증가로 이어질 전망이다.",
+              "industry_conclusion": "산업 투자의견은 제약/바이오 Overweight. 이는 관련 플랫폼 기술 수요 증가로 이어질 전망이다.",
+              "report_conclusion": "산업 투자의견은 제약/바이오 Overweight. 이는 관련 플랫폼 기술 수요 증가로 이어질 전망이다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -4411,9 +4420,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
+              "pitch": "채널별 주력 상품에 따라 기존 의류 중심에서 뷰티, F&B, 생활용품 등 카테고리 확장도 가능하며, 공동 상품 개발 및 IP 라이선싱을 통한 추가 수익화 기회도 확대될 전망이다.GS25는 보이넥스트도어의 <HOME(6/8)> 앨범과 함께 앨범 아트워크 적용 간식, 멤버별 랜덤씰, 멤버별 음성이 담긴 골전도 캔디 등을 출시했다.",
+              "industry_conclusion": "산업 투자의견은 Overweight이다.K-POP 음반과 MD 판매 채널이 기존 팬 플랫폼 중심에서 편의점, 올리브영, 퀵커머스 등 소비자의 일상 동선과 밀접한 유통채널로 확대되고 있다. 채널별 주력 상품에 따라 기존 의류 중심에서 뷰티, F&B, 생활용품 등 카테고리 확장도 가능하며, 공동 상품 개발 및 IP 라이선싱을 통한 추가 수익화 기회도 확대될 전망이다.GS25는 보이넥스트도어의 <HOME(6/8)> 앨범과 함께 앨범 아트워크 적용 간식, 멤버별 랜덤씰, 멤버별 음성이 담긴 골전도 캔디 등을 출시했다.",
+              "report_conclusion": "산업 투자의견은 Overweight이다.K-POP 음반과 MD 판매 채널이 기존 팬 플랫폼 중심에서 편의점, 올리브영, 퀵커머스 등 소비자의 일상 동선과 밀접한 유통채널로 확대되고 있다. 채널별 주력 상품에 따라 기존 의류 중심에서 뷰티, F&B, 생활용품 등 카테고리 확장도 가능하며, 공동 상품 개발 및 IP 라이선싱을 통한 추가 수익화 기회도 확대될 전망이다.GS25는 보이넥스트도어의 <HOME(6/8)> 앨범과 함께 앨범 아트워크 적용 간식, 멤버별 랜덤씰, 멤버별 음성이 담긴 골전도 캔디 등을 출시했다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",

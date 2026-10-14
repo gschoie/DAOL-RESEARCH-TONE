@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T23:39:08.312420+00:00",
+ "generated_at": "2026-10-14T00:38:34.889801+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1394,
  "hits": [
@@ -30755,7 +30755,7 @@
    "company": "일상",
    "code": "",
    "direction": "수혜",
-   "score": 7,
+   "score": 8,
    "evidences": [
     "특히 최근 확대되고 있는 이런 일상 채널들은 팝업 중심의 협업이 먼저 확대되었던 백화점 대비 점포 수, 접근성 측면에서 우위가 있으며 팬들의 연계소비도 발생하기 쉬운 채널이기에 성과가 확인될수록 K-POP IP 활용 역시 확대될 가능성이 높다고 판단",
     "엔터사 또한 별도의 대규모 투자 없이 유통 업체의 점포망을 활용한 판매 접점 확대를 통해 팬들의 구매 접근성을 높이는 동시에 기존 팬덤 외 소비자에게 K-POP 상품 노출 기회를 확대시킬 수 있음."
@@ -31891,7 +31891,7 @@
    "direction": "수혜",
    "score": 1,
    "evidences": [
-    "오리지널 Humira M/S도 일시적으로 반등했으나 주요 PBM의 시밀러 선호 정책이 유지되고 있어 추세 전환으로 보기는 이르다고 판단.",
+    "오리지널 Humira M/S는 일시적으로 반등했으나 PBM의 시밀러 선호 정책 유지로 추세 전환은 어렵다고 판단된다.",
     "Bevacizumab 점유율: Avastin 12.4%, Mvasi 57.5%, Zirabev 23.9%, Vegzelma 6.2% (수량 기준)"
    ],
    "title": "[제약/바이오(Overweight) | 다올 제약/바이오 이지수 ☎ 2184-2363] ★ 바이오시밀러 9월 미국 처방 실적",
@@ -32316,23 +32316,6 @@
    "source_url": "https://buly.kr/A48SIm2"
   },
   {
-   "theme": "환율/원화",
-   "category": "매크로",
-   "date": "2026-10-13",
-   "analyst": "김지원",
-   "sector": "금융",
-   "company": "부진할",
-   "code": "",
-   "direction": "피해",
-   "score": -6,
-   "evidences": [
-    "환율을 반영해 업종 전체 이익전망치 하향 조정과 적정주가 하향."
-   ],
-   "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 부진할 전망, 그럼에도 불구하고",
-   "post_url": "https://t.me/daolresearch/15219",
-   "source_url": "https://buly.kr/58VEq2T"
-  },
-  {
    "theme": "K콘텐츠",
    "category": "산업테마",
    "date": "2026-10-13",
@@ -32428,9 +32411,10 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 1,
+   "score": 2,
    "evidences": [
-    "몰려오는 전력 수요, 시선은 ESS로 - AI 데이터센터 증설과 전력망 병목으로 ESS 수요 구조적 확대 - NVIDIA DSX Ready 인증 도입, Tesla Megapack 증설 본격화 - 미국 ESS 연간 수요 2030년 120GWh 전망"
+    "몰려오는 전력 수요, 시선은 ESS로 - AI 데이터센터 증설과 전력망 병목으로 ESS 수요 구조적 확대 - NVIDIA DSX Ready 인증 도입, Tesla Megapack 증설 본격화 - 미국 ESS 연간 수요 2030년 120GWh 전망",
+    "AI 데이터센터 전력 수요는 2030년까지 183.2GW로 2024년 대비 3.6배 확대될 것으로 예상된다."
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅, 철강금속/전력기기 이정우] ★ 배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공",
    "post_url": "https://t.me/daolresearch/15233",
@@ -32445,7 +32429,7 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 6,
+   "score": 10,
    "evidences": [
     "EV 회복이 더해지는 2027년 - ESS가 북미 배터리 공장 가동률 회복을 선도후 EV로 넘어가는 길목의 시작 - 2027년 Toyota·Rivian 등 신차 출시로 EV 판매 반등 기대 - ESS 성장과 EV 회복이 맞물리는 배터리 업황 개선 전망",
     "배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공"
@@ -33549,7 +33533,7 @@
    "analyst": "유지웅",
    "sector": "자동차/이차전지",
    "date": "2026-10-14",
-   "evidence": "Top Picks: 삼성SDI, 포스코퓨처엠, 포스코인터내셔널.",
+   "evidence": "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다.",
    "title": "[다올투자증권 자동차/이차전지 유지웅, 철강금속/전력기기 이정우] ★ 배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공",
    "post_url": "https://t.me/daolresearch/15233"
   }
@@ -33654,10 +33638,10 @@
    "burst": 3.5
   },
   {
-   "term": "Mix",
-   "recent": 10,
-   "total": 21,
-   "sectors": 6,
+   "term": "구축",
+   "recent": 15,
+   "total": 32,
+   "sectors": 10,
    "burst": 3.4
   }
  ]
