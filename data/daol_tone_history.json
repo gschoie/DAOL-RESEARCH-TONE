@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T22:47:15.678626+00:00",
+  "generated_at": "2026-10-15T23:01:11.865248+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1403,
+  "report_count": 1404,
   "months": [
     {
       "month": "2026-10",
@@ -2680,9 +2680,59 @@
               "source_url": "https://bit.ly/DOS842"
             }
           ]
+        },
+        {
+          "analyst": "투자전략팀",
+          "sectors": [
+            "투자전략"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-10-16",
+              "source": "https://t.me/daolresearch/15251"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "전월 대비 유지",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15251,
+              "date": "2026-10-16",
+              "month": "2026-10",
+              "analyst": "투자전략팀",
+              "sector": "투자전략",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶️ Key Chart & 핵심지표 -금리와 반도체주 수급 간의 관계 부호가 달라지기 시작 -적어도 단기적으로는 고점 영역에 도달한 듯한 금리 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/6tepk54",
+              "report_conclusion": "▶️ Key Chart & 핵심지표 -금리와 반도체주 수급 간의 관계 부호가 달라지기 시작 -적어도 단기적으로는 고점 영역에 도달한 듯한 금리 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/6tepk54",
+              "valuation": [
+                "지수 하단은 25년 연말 지수 정체기 지수 하단 역할을 했던 TTM PBR 1.3배를 적용한 5,210pt로 추정"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145412/1/20261016_B_bhcho_306.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)]",
+              "summary": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)] ▶️ 금주 증시 동향 (10/08~10/15) -KOSPI(-16.2%), KOSDAQ(-14.7%) 하락. KOSPI는 필수소비재(+3.0%), 운송(+2.1%), 미디어,교육(+0.3%) 업종이 상승한 가운데 IT하드웨어(-24.2%), 반도체(-22.4%), 기계(-19.0%) 업종 하락. 코스피는 지난 연휴 중 전해진 오픈AI 매출 논란에 하락 출발. 이어 CXMT 기술 진전 소식에 따른 메모리 경쟁 심화 우려로 반도체주 중심의 하락세 지속. 주중 미국 CPI 예상치 상회, 중동 리스크 지속, 코어위브발 AI 기업 신용 리스크 등 악재가 겹친 가운데, 매수 주체 부재 속 외국인 대규모 매도세 출회되는 모습. 주 후반 매도 사이드카와 서킷브레이커가 동반 발동되며 급락 마감 -DOW(+1.0%) 상승, S&P500(-0.9%), NASDAQ(-2.4%) 하락. CXMT발 반도체 경쟁 심화 우려, 높은 수준의 CPI, 코어위브발 AI 신용 리스크 등이 겹치며 기술주 중심으로 약세 매물 출회되었으나, 엔비디아 CEO의 낙관 발언에 하락분 일부 만회하며 3대 지수 혼조 마감 ▶️ 차주 증시 전망 (10/19~10/23) -금주 급락은 미국채 금리 하락과 함께 발생. 고금리나 AI 불확실성 만으로 설명하기엔 개연성이 부족. 발단은 미국채 10년물의 5.3% 상한 인식. CPI 발표 직후 5.30%까지 반등했던 금리는 이후 매수 우위가 이어지며 5.10%대로 하락. 단기기대 수익률에 2회 가량 금리 인상 전망이 반영되고, 텀프리미엄 단기 고점이 형성되며 채권 투자자 입장에서 '사볼 만 하다'는 판단이 형성된 것으로 추측. 블랙락의 6년 만의 미국채 비중 확대 등도 이를 뒷받침. 이러한 배경하에 A",
+              "post_url": "https://t.me/daolresearch/15251",
+              "source_url": "https://buly.kr/6tepk54"
+            }
+          ]
         }
       ],
-      "report_count": 55
+      "report_count": 56
     },
     {
       "month": "2026-09",

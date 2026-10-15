@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-15T22:47:39.142508+00:00",
+ "generated_at": "2026-10-15T23:01:25.174916+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1403,
+ "report_count": 1404,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32731,6 +32731,57 @@
    "title": "[넷마블(251270)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 휴지기치고 무난한 실적 ★ 50,000원(하향), BUY(유지)",
    "post_url": "https://t.me/daolresearch/15249",
    "source_url": "https://buly.kr/C0CoBKQ"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-10-16",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "단기기대 수익률에 2회 가량 금리 인상 전망이 반영되고, 텀프리미엄 단기 고점이 형성되며 채권 투자자 입장에서 '사볼 만 하다'는 판단이 형성된 것으로 추측."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)]",
+   "post_url": "https://t.me/daolresearch/15251",
+   "source_url": "https://buly.kr/6tepk54"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-10-16",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "주중 미국 CPI 예상치 상회, 중동 리스크 지속, 코어위브발 AI 기업 신용 리스크 등 악재가 겹친 가운데, 매수 주체 부재 속 외국인 대규모 매도세 출회되는 모습."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)]",
+   "post_url": "https://t.me/daolresearch/15251",
+   "source_url": "https://buly.kr/6tepk54"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-16",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "CXMT발 반도체 경쟁 심화 우려, 높은 수준의 CPI, 코어위브발 AI 신용 리스크 등이 겹치며 기술주 중심으로 약세 매물 출회되었으나, 엔비디아 CEO의 낙관 발언에 하락분 일부 만회하며 3대 지수 혼조 마감"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)]",
+   "post_url": "https://t.me/daolresearch/15251",
+   "source_url": "https://buly.kr/6tepk54"
   }
  ],
  "cross_mentions": [
@@ -33821,7 +33872,7 @@
    "recent": 25,
    "total": 28,
    "sectors": 3,
-   "burst": 25.1
+   "burst": 25.0
   },
   {
    "term": "보합",
@@ -33870,7 +33921,7 @@
    "recent": 9,
    "total": 15,
    "sectors": 7,
-   "burst": 5.2
+   "burst": 5.1
   },
   {
    "term": "Cloud",
