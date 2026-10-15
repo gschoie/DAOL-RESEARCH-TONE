@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T22:59:26.050162+00:00",
+ "generated_at": "2026-10-15T00:09:26.081677+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1399,
  "hits": [
@@ -32519,6 +32519,23 @@
    "score": 1,
    "evidences": [
     "OPM 38.7%(QoQ -3.0%p)로 원화 강세에 GPM도 2Q26 대비 하락."
+   ],
+   "title": "[클래시스(214150)/ BUY(유지)/ TP 4만원(하향)/ 다올 의료기기 박종현] ★ 미씽 링크",
+   "post_url": "https://t.me/daolresearch/15238",
+   "source_url": "https://buly.kr/Nmn50Y"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-10-15",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "클래시스",
+   "code": "214150",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Note: 글로벌 화장품 평균 PER 적용"
    ],
    "title": "[클래시스(214150)/ BUY(유지)/ TP 4만원(하향)/ 다올 의료기기 박종현] ★ 미씽 링크",
    "post_url": "https://t.me/daolresearch/15238",
