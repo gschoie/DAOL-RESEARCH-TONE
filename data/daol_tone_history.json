@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:01:11.865248+00:00",
+  "generated_at": "2026-10-15T23:55:28.773823+00:00",
   "source": "https://t.me/daolresearch",
   "report_count": 1404,
   "months": [
@@ -273,14 +273,14 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
-              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "pitch": "예금은행 268 연평균 대출성장률 4.7% 전망 유지.",
+              "industry_conclusion": "예금은행 268 연평균 대출성장률 4.7% 전망 유지.",
+              "report_conclusion": "예금은행 268 연평균 대출성장률 4.7% 전망 유지.",
               "valuation": [],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145409/1/20261016_B4010_jiwonkim_259.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (9월) 은행 여수신 동향: 기업 수요에 따라 변동",
               "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (9월) 은행 여수신 동향: 기업 수요에 따라 변동 ▶ 여신: 가계대출 증가폭 축소, 기업대출 증가폭 확대. 전월과 유사 ▶ 여신 증감폭: 가계대출 +0.6조원(vs. 26년 8월 +3.5조원), 기업대출 +10.7조원(vs. 26년 8월 +5.3조원) ▶ 전세대출과 집단대출 취급 감소. 예상대로 8월 이후 주택 거래량도 급감. 시차 두고 대출취급액으로 나타날 가능성 ▶ 수신: 큰 폭 증가. 분기말 결산 앞둔 기업자금의 일시적 예치 증가 ▶ 수신 증감폭: +29.1조원(vs. 26년 8월 +0.1조원) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/DPWs1hD > ▶ 개별 채널 https://t.me/jiwonkimfin",
               "post_url": "https://t.me/daolresearch/15248",
@@ -473,14 +473,21 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "3Q26E 매출액은 컨센서스에 부합하고 영업이익은 컨센서스에 하회할 전망. 700억원(-22.9% YoY, -12.6% QoQ) 예상. Stock Information 부합하고 영업이익은 컨센서스에 하회할 전망 이 ee ㆍ [소셜 카지노] 1,943억원(+3.3% YoY, -9.3% QoQ) 예상.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
-              "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "report_conclusion": "3Q26E 매출액은 컨센서스에 부합하고 영업이익은 컨센서스에 하회할 전망. 현재 직전 변동 투자의견 BUYS 유지하나 실적 추정치를 하향함에 따라 적정주가는 투자의견 BUY BUY 유지 50,000원으로 변경 Stock Information 부합하고 영업이익은 컨센서스에 하회할 전망 ㆍ[영업비용] 6,265억원(-22.9% YoY, -6.4% 000))으로 전망.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E <뱀피르> 일본 지역 확장 외에 신작이 Hxysh7] 때문에 전분7| 대비 감소",
+                "EV/EBITDA(HH)) 99 72 50 반영되며 지급수수료가 상승하여 전체 비용 하락 폭은 제한적",
+                "Performance 1M 6M 12M YTD 일수는 크지 않을 전망",
+                "7: 넷마블 Valuation Table"
+              ],
+              "earnings_changes": [
+                "현재 직전 변동 투자의견 BUYS 유지하나 실적 추정치를 하향함에 따라 적정주가는"
+              ],
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145410/1/20261016_251270_hyyy_220.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[넷마블(251270)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 휴지기치고 무난한 실적 ★ 50,000원(하향), BUY(유지)",
               "summary": "[넷마블(251270)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 휴지기치고 무난한 실적 ★ 50,000원(하향), BUY(유지) ▶ 3Q26E 연결 매출액은 6,965억원(+0.1% YoY, -7.0% QoQ), 영업이익은 700억원(-22.9% YoY, -12.6% QoQ) 예상. 매출액은 컨센서스에 부합하고 영업이익은 컨센서스에 하회할 전망 ▶ [소셜 카지노] 1,943억원(+3.3% YoY, -9.3% QoQ) 예상. Lotsa Slots과 Cash Frenzy의 3Q26 미국 매출 순위는 각각 35위와 43위로 2Q26 32위, 40위 대비 소폭 하락. 3Q26 평균 환율은 1,418원으로 2Q26 1,502원 대비 5.6% 하락. 환율과 계절성으로 인해 매출이 전분기 대비 감소할 전망 ▶ [MCOC] 492억원(+1.0% YoY, -27.0% QoQ) 예상. 3Q26 매출 순위는 78위 기록. 비수기 영향으로 2Q26 74위 대비 하락 ▶ [SOL: enchant] 875억원(+289.2% QoQ) 예상. 3Q26 구글 플레이 평균 매출 순위는 3위로 2Q26 1위 대비 하락하였으나 여전히 견조 ▶ [영업비용] 6,265억원(-22.9% YoY, -6.4% QoQ)으로 전망. 3Q26에 <뱀피르> 일본 지역 확장 외에 신작이 부재했기 때문에 전분기 대비 감소 전망. 다만 외부 퍼블리싱 게임인 <SOL: enchant>의 매출이 온기 반영되며 지급수수료가 상승하여 전체 비용 하락 폭은 제한적 ▶ 동사는 연내 <나 혼자만 레벨업: KARMA>를 포함하여 3종의 게임을 출시할 예정이지만 아직 출시일이 확정되지 않았기 때문에 매출 반영 일수는 크지 않을 전망 ▶ 동사는 다작 전략을 유지하고 있으나 기존 게임의 하향 안정화와 일부 신작의 ",
               "post_url": "https://t.me/daolresearch/15249",
@@ -910,19 +917,6 @@
               "evidence": ",042억원은 가이던스 하단을 | 추정. 가이던스 눈높이를 보수적 +18% ~ 10) tL, 145A2\\(YoY +23%, les tt 수 는 -ㄴ7 판단 2025년까지 업종은 시술 침투율 오 오리지널 EBD- 스킨부 신제품ㆍ 라인업 ]업 정비, 모색, 중국 허가는 신규 30% 할인 적용, 추정치 BUY 유지 2026년은 SAKE 홈뷰티 신사업, CEO-CTO-CCO 2 돌파구 업사이드. 글로벌 소비재 업체 20268 PER 대비 하향에 따라 적정주가 4만원으로 하향, 투자의견 연이 ㅇ교 경입으로 (단위: 십억원, %, %p) 시장 = 전년 시 해 전분 30266)| 15 Con, 2026(A) QoQ 1143 sil 194 -8.0 50.0 37.6 439| -ㄱ146 40.1 33.0 28.4 -8.8 438%| -5.1%p 45.3%| -6.6%p 41.6%| -3.0%p 35.1% | -8.4%p 39.8% | -13.1%p 26.9% | -0.2%p EARNINGS PREVIEW | 클래시스 Fig. 1: 클",
               "date": "2026-10-15",
               "source": "https://t.me/daolresearch/15238"
-            },
-            {
-              "company": "달바글로벌",
-              "direction": "하향",
-              "old": null,
-              "new": 310000,
-              "display": "310,000원 (하향)",
-              "reasons": [
-                "본문상 명시 배경 추가 확인 필요"
-              ],
-              "evidence": "국 틱톡샵 10월 1~10일 일평균 GMV는 3Q 대비 +61%, 프라임 빅딜 데이 아마존 뷰티 Top 100 내 상품은 스페인·독일 각 4개로 성수기 진입 확인 ▶ 투자의견 2027년 매출 1조원, 2028년 OPM 25% 장기 목표는 유지. 당사 2027E 매출액 1조 117억원(YoY +40%), OPM 23.9%로 추정. 주력 제품 리뉴얼과 달바 시그니처(4Q26), 헤어 프로페셔널(1Q27) 전문 브랜드화가 다음 성장축. 2027E 추정치 조정에 따라 적정주가 31만원으로 하향, 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/8eoPXX4 > * 텔레그램 채널 링크 < https://t.me/alexppark >",
-              "date": "2026-10-16",
-              "source": "https://t.me/daolresearch/15246"
             }
           ],
           "tp_raises": [
@@ -999,28 +993,23 @@
               "opinion": "",
               "top_picks": [],
               "preferred_stocks": [],
-              "tp_changes": [
-                {
-                  "company": "달바글로벌",
-                  "direction": "하향",
-                  "old": null,
-                  "new": 310000,
-                  "display": "310,000원 (하향)",
-                  "reasons": [
-                    "본문상 명시 배경 추가 확인 필요"
-                  ],
-                  "evidence": "국 틱톡샵 10월 1~10일 일평균 GMV는 3Q 대비 +61%, 프라임 빅딜 데이 아마존 뷰티 Top 100 내 상품은 스페인·독일 각 4개로 성수기 진입 확인 ▶ 투자의견 2027년 매출 1조원, 2028년 OPM 25% 장기 목표는 유지. 당사 2027E 매출액 1조 117억원(YoY +40%), OPM 23.9%로 추정. 주력 제품 리뉴얼과 달바 시그니처(4Q26), 헤어 프로페셔널(1Q27) 전문 브랜드화가 다음 성장축. 2027E 추정치 조정에 따라 적정주가 31만원으로 하향, 투자의견 BUY 유지 * 보고서 원문 및 컴플라이언스 < https://buly.kr/8eoPXX4 > * 텔레그램 채널 링크 < https://t.me/alexppark >"
-                }
-              ],
+              "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
+              "pitch": "QoQ -289%)으로 컨센서스 소쪽 상회 전망. 389억원(0 +52%, QoQ +15%)을 전망.",
               "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [],
+              "report_conclusion": "QoQ -289%)으로 컨센서스 소쪽 상회 전망. 389억원(0 +52%, QoQ +15%)을 전망.",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027",
+                "PER(HH) 23.1 15.0 10.7",
+                "PBR(HH) 9.2 6.8 45",
+                "EV/EBITDA(HH) 16.8 10.7 6.8",
+                "Performance 1M 6M 12M YID",
+                "7 달바글로벌 PER Valuation"
+              ],
               "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145408/1/20261016_483650_alex.park_633.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[달바글로벌(483650)/ BUY(유지)/ TP 31만원(하향)/ 다올 의료기기 박종현] ★ 불리한 환에도 효율화 지속",
               "summary": "[달바글로벌(483650)/ BUY(유지)/ TP 31만원(하향)/ 다올 의료기기 박종현] ★ 불리한 환에도 효율화 지속 ▶ Preview 3Q26E 매출액 1,633억원(YoY +43%, QoQ -13%), 영업이익 339억원(YoY +104%, QoQ -28%)으로 컨센서스 소폭 상회 전망. 매출액은 원화 강세로 컨센서스 대비 -6%. 반면 OPM 20.8%(YoY +6.2%p)로 회사 가이던스 17% 상회. 특히나, 광고선전비율 19.5%로 효율화되고 외화 비용이 환율을 자연 헤지. 운반비율 14.0%(QoQ +1.8%p)는 2Q 관세 환급 기저와 서양권 운임 상승 영향 [러시아] 151억원(YoY +30%, QoQ +23%)으로 골드애플 발주 회복. [아세안] 223억원(YoY +55%, QoQ +1%)으로 베트남 세컨드 히어로 안착. [북미] 282억원(YoY +60%, QoQ -19%), [유럽] 180억원(YoY +190%, QoQ -12%)은 프라임데이 부재와 원화 강세 영향. [일본] 270억원(YoY +47%, QoQ -25%)은 2Q 메가와리 기저 ▶ 전망 4Q26E 매출액 1,988억원(YoY +22%, QoQ +22%), 영업이익 389억원(YoY +52%, QoQ +15%)을 전망. 당사 집계 미국 틱톡샵 10월 1~10일 일평균 GMV는 3Q 대비 +61%, 프라임 빅딜 데이 아마존 뷰티 Top 100 내 상품은 스페인·독일 각 4개로 성수기 진입 확인 ▶ 투자의견 2027년 매출 1조원, 2028년 OPM 25% 장기 목표는 유지. 당사 2027E 매출액 1조 117억원(YoY +40%), OPM 23.9%로 추정. 주력 제품 리뉴얼과 달바 시그니처(4Q26), 헤어 프로페셔널(1Q27) 전문 브랜드화가 다음 성장축. 2027E 추정치 조정에 따라 적정주가",
               "post_url": "https://t.me/daolresearch/15246",
@@ -2714,16 +2703,18 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "▶️ Key Chart & 핵심지표 -금리와 반도체주 수급 간의 관계 부호가 달라지기 시작 -적어도 단기적으로는 고점 영역에 도달한 듯한 금리 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/6tepk54",
-              "report_conclusion": "▶️ Key Chart & 핵심지표 -금리와 반도체주 수급 간의 관계 부호가 달라지기 시작 -적어도 단기적으로는 고점 영역에 도달한 듯한 금리 ♣️ 보고서 원문 및 Compliance Notice: https://buly.kr/6tepk54",
+              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 되었다는 것이 확인될 경우 이익 전망치에 대한 긍성적인 기대로 연결될 개연성이 있음 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
+              "industry_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 되었다는 것이 확인될 경우 이익 전망치에 대한 긍성적인 기대로 연결될 개연성이 있음",
+              "report_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40 되었다는 것이 확인될 경우 이익 전망치에 대한 긍성적인 기대로 연결될 개연성이 있음",
               "valuation": [
-                "지수 하단은 25년 연말 지수 정체기 지수 하단 역할을 했던 TTM PBR 1.3배를 적용한 5,210pt로 추정"
+                "Source: Refinitiv, CHS =A}S7 Source: Check Expert, 다올투자증권"
               ],
-              "earnings_changes": [],
-              "analysis_source": "텔레그램 요약",
+              "earnings_changes": [
+                "되었다는 것이 확인될 경우 이익 전망치에 대한 긍성적인 기대로 연결될 개연성이 있음"
+              ],
+              "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145412/1/20261016_B_bhcho_306.pdf",
-              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "pdf_error": "",
               "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)]",
               "summary": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)] ▶️ 금주 증시 동향 (10/08~10/15) -KOSPI(-16.2%), KOSDAQ(-14.7%) 하락. KOSPI는 필수소비재(+3.0%), 운송(+2.1%), 미디어,교육(+0.3%) 업종이 상승한 가운데 IT하드웨어(-24.2%), 반도체(-22.4%), 기계(-19.0%) 업종 하락. 코스피는 지난 연휴 중 전해진 오픈AI 매출 논란에 하락 출발. 이어 CXMT 기술 진전 소식에 따른 메모리 경쟁 심화 우려로 반도체주 중심의 하락세 지속. 주중 미국 CPI 예상치 상회, 중동 리스크 지속, 코어위브발 AI 기업 신용 리스크 등 악재가 겹친 가운데, 매수 주체 부재 속 외국인 대규모 매도세 출회되는 모습. 주 후반 매도 사이드카와 서킷브레이커가 동반 발동되며 급락 마감 -DOW(+1.0%) 상승, S&P500(-0.9%), NASDAQ(-2.4%) 하락. CXMT발 반도체 경쟁 심화 우려, 높은 수준의 CPI, 코어위브발 AI 신용 리스크 등이 겹치며 기술주 중심으로 약세 매물 출회되었으나, 엔비디아 CEO의 낙관 발언에 하락분 일부 만회하며 3대 지수 혼조 마감 ▶️ 차주 증시 전망 (10/19~10/23) -금주 급락은 미국채 금리 하락과 함께 발생. 고금리나 AI 불확실성 만으로 설명하기엔 개연성이 부족. 발단은 미국채 10년물의 5.3% 상한 인식. CPI 발표 직후 5.30%까지 반등했던 금리는 이후 매수 우위가 이어지며 5.10%대로 하락. 단기기대 수익률에 2회 가량 금리 인상 전망이 반영되고, 텀프리미엄 단기 고점이 형성되며 채권 투자자 입장에서 '사볼 만 하다'는 판단이 형성된 것으로 추측. 블랙락의 6년 만의 미국채 비중 확대 등도 이를 뒷받침. 이러한 배경하에 A",
               "post_url": "https://t.me/daolresearch/15251",
