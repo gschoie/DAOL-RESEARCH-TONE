@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T22:12:11.289877+00:00",
+  "generated_at": "2026-10-15T22:47:15.678626+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1401,
+  "report_count": 1403,
   "months": [
     {
       "month": "2026-10",
@@ -225,6 +225,11 @@
               "value": "비중확대",
               "date": "2026-10-13",
               "source": "https://t.me/daolresearch/15219"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-10-16",
+              "source": "https://t.me/daolresearch/15248"
             }
           ],
           "top_picks": [
@@ -252,8 +257,35 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 4,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 15248,
+              "date": "2026-10-16",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145409/1/20261016_B4010_jiwonkim_259.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (9월) 은행 여수신 동향: 기업 수요에 따라 변동",
+              "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (9월) 은행 여수신 동향: 기업 수요에 따라 변동 ▶ 여신: 가계대출 증가폭 축소, 기업대출 증가폭 확대. 전월과 유사 ▶ 여신 증감폭: 가계대출 +0.6조원(vs. 26년 8월 +3.5조원), 기업대출 +10.7조원(vs. 26년 8월 +5.3조원) ▶ 전세대출과 집단대출 취급 감소. 예상대로 8월 이후 주택 거래량도 급감. 시차 두고 대출취급액으로 나타날 가능성 ▶ 수신: 큰 폭 증가. 분기말 결산 앞둔 기업자금의 일시적 예치 증가 ▶ 수신 증감폭: +29.1조원(vs. 26년 8월 +0.1조원) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/DPWs1hD > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15248",
+              "source_url": "https://buly.kr/DPWs1hD"
+            },
             {
               "id": 15230,
               "date": "2026-10-14",
@@ -425,8 +457,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 4,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 15249,
+              "date": "2026-10-16",
+              "month": "2026-10",
+              "analyst": "김혜영",
+              "sector": "AI·인터넷·게임·레저",
+              "company": "넷마블",
+              "code": "251270",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145410/1/20261016_251270_hyyy_220.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[넷마블(251270)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 휴지기치고 무난한 실적 ★ 50,000원(하향), BUY(유지)",
+              "summary": "[넷마블(251270)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 휴지기치고 무난한 실적 ★ 50,000원(하향), BUY(유지) ▶ 3Q26E 연결 매출액은 6,965억원(+0.1% YoY, -7.0% QoQ), 영업이익은 700억원(-22.9% YoY, -12.6% QoQ) 예상. 매출액은 컨센서스에 부합하고 영업이익은 컨센서스에 하회할 전망 ▶ [소셜 카지노] 1,943억원(+3.3% YoY, -9.3% QoQ) 예상. Lotsa Slots과 Cash Frenzy의 3Q26 미국 매출 순위는 각각 35위와 43위로 2Q26 32위, 40위 대비 소폭 하락. 3Q26 평균 환율은 1,418원으로 2Q26 1,502원 대비 5.6% 하락. 환율과 계절성으로 인해 매출이 전분기 대비 감소할 전망 ▶ [MCOC] 492억원(+1.0% YoY, -27.0% QoQ) 예상. 3Q26 매출 순위는 78위 기록. 비수기 영향으로 2Q26 74위 대비 하락 ▶ [SOL: enchant] 875억원(+289.2% QoQ) 예상. 3Q26 구글 플레이 평균 매출 순위는 3위로 2Q26 1위 대비 하락하였으나 여전히 견조 ▶ [영업비용] 6,265억원(-22.9% YoY, -6.4% QoQ)으로 전망. 3Q26에 <뱀피르> 일본 지역 확장 외에 신작이 부재했기 때문에 전분기 대비 감소 전망. 다만 외부 퍼블리싱 게임인 <SOL: enchant>의 매출이 온기 반영되며 지급수수료가 상승하여 전체 비용 하락 폭은 제한적 ▶ 동사는 연내 <나 혼자만 레벨업: KARMA>를 포함하여 3종의 게임을 출시할 예정이지만 아직 출시일이 확정되지 않았기 때문에 매출 반영 일수는 크지 않을 전망 ▶ 동사는 다작 전략을 유지하고 있으나 기존 게임의 하향 안정화와 일부 신작의 ",
+              "post_url": "https://t.me/daolresearch/15249",
+              "source_url": "https://buly.kr/C0CoBKQ"
+            },
             {
               "id": 15239,
               "date": "2026-10-15",
@@ -2623,7 +2682,7 @@
           ]
         }
       ],
-      "report_count": 53
+      "report_count": 55
     },
     {
       "month": "2026-09",

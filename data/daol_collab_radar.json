@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-15T22:14:15.206131+00:00",
+ "generated_at": "2026-10-15T22:47:39.142508+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1401,
+ "report_count": 1403,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32713,6 +32713,24 @@
    "title": "[통신서비스(Overweight) | 다올 통신/음식료 이다연] ★ 최근 통신3사 주가 차별화 이유 해석하기",
    "post_url": "https://t.me/daolresearch/15247",
    "source_url": "https://buly.kr/BeNIDLe"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-16",
+   "analyst": "김혜영",
+   "sector": "AI/인터넷/게임/레저",
+   "company": "넷마블",
+   "code": "251270",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "환율과 계절성으로 인해 매출이 전분기 대비 감소할 전망",
+    "3Q26 평균 환율은 1,418원으로 2Q26 1,502원 대비 5.6% 하락."
+   ],
+   "title": "[넷마블(251270)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 휴지기치고 무난한 실적 ★ 50,000원(하향), BUY(유지)",
+   "post_url": "https://t.me/daolresearch/15249",
+   "source_url": "https://buly.kr/C0CoBKQ"
   }
  ],
  "cross_mentions": [
@@ -33803,28 +33821,28 @@
    "recent": 25,
    "total": 28,
    "sectors": 3,
-   "burst": 25.2
+   "burst": 25.1
   },
   {
    "term": "보합",
    "recent": 6,
    "total": 8,
    "sectors": 3,
-   "burst": 8.1
+   "burst": 8.0
   },
   {
    "term": "자사",
    "recent": 6,
    "total": 8,
    "sectors": 7,
-   "burst": 8.1
+   "burst": 8.0
   },
   {
    "term": "원화",
    "recent": 16,
    "total": 26,
    "sectors": 9,
-   "burst": 5.9
+   "burst": 5.8
   },
   {
    "term": "관건",
@@ -33838,14 +33856,14 @@
    "recent": 8,
    "total": 13,
    "sectors": 3,
-   "burst": 5.4
+   "burst": 5.3
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.4
+   "burst": 5.3
   },
   {
    "term": "방향",
