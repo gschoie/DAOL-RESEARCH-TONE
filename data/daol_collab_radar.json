@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-15T17:36:08.313956+00:00",
+ "generated_at": "2026-10-15T22:14:15.206131+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1399,
+ "report_count": 1401,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32593,6 +32593,126 @@
    "title": "[Macro Issue / 다올투자증권 박영찬 연구원, 매크로·투자전략 조병현] ★ 미국 9월 CPI Review: 인상이 다시 테이블 위로",
    "post_url": "https://t.me/daolresearch/15242",
    "source_url": "https://buly.kr/FhQiQSC"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-16",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "달바글로벌",
+   "code": "483650",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "매출액은 원화 강세로 컨센서스 대비 -6%.",
+    "[북미] 282억원(YoY +60%, QoQ -19%), [유럽] 180억원(YoY +190%, QoQ -12%)은 프라임데이 부재와 원화 강세 영향."
+   ],
+   "title": "[달바글로벌(483650)/ BUY(유지)/ TP 31만원(하향)/ 다올 의료기기 박종현] ★ 불리한 환에도 효율화 지속",
+   "post_url": "https://t.me/daolresearch/15246",
+   "source_url": "https://buly.kr/8eoPXX4"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-16",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "달바글로벌",
+   "code": "483650",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "운반비율 14.0%(QoQ +1.8%p)는 2Q 관세 환급 기저와 서양권 운임 상승 영향 [러시아] 151억원(YoY +30%, QoQ +23%)으로 골드애플 발주 회복."
+   ],
+   "title": "[달바글로벌(483650)/ BUY(유지)/ TP 31만원(하향)/ 다올 의료기기 박종현] ★ 불리한 환에도 효율화 지속",
+   "post_url": "https://t.me/daolresearch/15246",
+   "source_url": "https://buly.kr/8eoPXX4"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-10-16",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "달바글로벌",
+   "code": "483650",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "당사 집계 미국 틱톡샵 10월 1~10일 일평균 GMV는 3Q 대비 +61%, 프라임 빅딜 데이 아마존 뷰티 Top 100 내 상품은 스페인·독일 각 4개로 성수기 진입 확인"
+   ],
+   "title": "[달바글로벌(483650)/ BUY(유지)/ TP 31만원(하향)/ 다올 의료기기 박종현] ★ 불리한 환에도 효율화 지속",
+   "post_url": "https://t.me/daolresearch/15246",
+   "source_url": "https://buly.kr/8eoPXX4"
+  },
+  {
+   "theme": "금/귀금속",
+   "category": "원자재",
+   "date": "2026-10-16",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "달바글로벌",
+   "code": "483650",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "운반비율 14.0%(QoQ +1.8%p)는 2Q 관세 환급 기저와 서양권 운임 상승 영향 [러시아] 151억원(YoY +30%, QoQ +23%)으로 골드애플 발주 회복."
+   ],
+   "title": "[달바글로벌(483650)/ BUY(유지)/ TP 31만원(하향)/ 다올 의료기기 박종현] ★ 불리한 환에도 효율화 지속",
+   "post_url": "https://t.me/daolresearch/15246",
+   "source_url": "https://buly.kr/8eoPXX4"
+  },
+  {
+   "theme": "해운 운임",
+   "category": "원자재",
+   "date": "2026-10-16",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "달바글로벌",
+   "code": "483650",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "운반비율 14.0%(QoQ +1.8%p)는 2Q 관세 환급 기저와 서양권 운임 상승 영향 [러시아] 151억원(YoY +30%, QoQ +23%)으로 골드애플 발주 회복."
+   ],
+   "title": "[달바글로벌(483650)/ BUY(유지)/ TP 31만원(하향)/ 다올 의료기기 박종현] ★ 불리한 환에도 효율화 지속",
+   "post_url": "https://t.me/daolresearch/15246",
+   "source_url": "https://buly.kr/8eoPXX4"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-16",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "company": "최근",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "이와 같은 주가 차별화의 배경은 1) AI DC 방향성 차이에 따른 향후 현금흐름 부담 우려 정도, 2) 자사주 매입에 따른 수급 효과에 있다고 판단"
+   ],
+   "title": "[통신서비스(Overweight) | 다올 통신/음식료 이다연] ★ 최근 통신3사 주가 차별화 이유 해석하기",
+   "post_url": "https://t.me/daolresearch/15247",
+   "source_url": "https://buly.kr/BeNIDLe"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-16",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "company": "최근",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "특이한 점은 SK하이퍼 설립과 함께 SK브로드밴드에서 DC 및 해저케이블 사업을 인적분할해 데이터센터 운영 자회사(‘SK호라이즌’)를 별개로 설립했다는 점."
+   ],
+   "title": "[통신서비스(Overweight) | 다올 통신/음식료 이다연] ★ 최근 통신3사 주가 차별화 이유 해석하기",
+   "post_url": "https://t.me/daolresearch/15247",
+   "source_url": "https://buly.kr/BeNIDLe"
   }
  ],
  "cross_mentions": [
@@ -33680,10 +33800,10 @@
  "candidates": [
   {
    "term": "통신",
-   "recent": 24,
-   "total": 27,
+   "recent": 25,
+   "total": 28,
    "sectors": 3,
-   "burst": 24.4
+   "burst": 25.2
   },
   {
    "term": "보합",
@@ -33693,18 +33813,25 @@
    "burst": 8.1
   },
   {
-   "term": "관건",
-   "recent": 13,
-   "total": 21,
+   "term": "자사",
+   "recent": 6,
+   "total": 8,
+   "sectors": 7,
+   "burst": 8.1
+  },
+  {
+   "term": "원화",
+   "recent": 16,
+   "total": 26,
    "sectors": 9,
    "burst": 5.9
   },
   {
-   "term": "원화",
-   "recent": 15,
-   "total": 25,
+   "term": "관건",
+   "recent": 13,
+   "total": 21,
    "sectors": 9,
-   "burst": 5.5
+   "burst": 5.8
   },
   {
    "term": "할인율",
@@ -33732,7 +33859,7 @@
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.9
+   "burst": 4.8
   },
   {
    "term": "분쟁",
@@ -33742,46 +33869,39 @@
    "burst": 4.7
   },
   {
+   "term": "뷰티",
+   "recent": 24,
+   "total": 47,
+   "sectors": 4,
+   "burst": 4.0
+  },
+  {
    "term": "남미",
    "recent": 10,
    "total": 19,
    "sectors": 4,
-   "burst": 4.1
-  },
-  {
-   "term": "뷰티",
-   "recent": 23,
-   "total": 46,
-   "sectors": 4,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "배당수익률",
    "recent": 12,
    "total": 24,
    "sectors": 9,
-   "burst": 3.8
+   "burst": 3.7
   },
   {
    "term": "프리뷰",
    "recent": 9,
    "total": 18,
    "sectors": 5,
-   "burst": 3.7
-  },
-  {
-   "term": "사용",
-   "recent": 7,
-   "total": 14,
-   "sectors": 7,
    "burst": 3.6
   },
   {
-   "term": "우선",
-   "recent": 6,
-   "total": 12,
-   "sectors": 7,
-   "burst": 3.5
+   "term": "독일",
+   "recent": 9,
+   "total": 18,
+   "sectors": 4,
+   "burst": 3.6
   }
  ]
 }
