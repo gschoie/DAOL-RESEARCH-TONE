@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-18T22:47:32.543420+00:00",
+ "generated_at": "2026-10-18T22:50:10.367738+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1408,
+ "report_count": 1409,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32940,6 +32940,41 @@
    "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ Spot Issue: 음식료 주가 좋은데 뭘 살까?",
    "post_url": "https://t.me/daolresearch/15258",
    "source_url": "https://buly.kr/8pjBbvV"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-19",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "데이터센터용 엔진까지 대응하기 어렵다는 판단."
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 한화시스템의 조선 철수, 위성 올인 배경",
+   "post_url": "https://t.me/daolresearch/15259",
+   "source_url": "https://bit.ly/4io1jI2"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-19",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "방산",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "Pitch 한화시스템 조선에서 철수하면서 현금 3조원대 확보 그리고 2040년까지, 51조원 투자(한화시스템 23조원) 투자 내역 브레이크다운 투자 일정 각 시스템 기대 효과 리스크: 자본 조달 우려 0) 한화시스템의 한화오션, 한화필리 지분 양도 1) 자체 수익 2) 선 구축 - 후 국책 사업/구독 3) 장기공급계약의 프로젝트 파이낸싱 4) 방산 호황으로 미래 수익도 양호할 것",
+    "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 한화시스템의 조선 철수, 위성 올인 배경",
+   "post_url": "https://t.me/daolresearch/15259",
+   "source_url": "https://bit.ly/4io1jI2"
   }
  ],
  "cross_mentions": [
@@ -34042,7 +34077,7 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 27.1
+   "burst": 27.0
   },
   {
    "term": "자사",
@@ -34056,7 +34091,7 @@
    "recent": 18,
    "total": 28,
    "sectors": 9,
-   "burst": 6.6
+   "burst": 6.5
   },
   {
    "term": "관건",
@@ -34084,7 +34119,7 @@
    "recent": 9,
    "total": 15,
    "sectors": 7,
-   "burst": 5.2
+   "burst": 5.1
   },
   {
    "term": "Cloud",
@@ -34129,17 +34164,17 @@
    "burst": 3.6
   },
   {
+   "term": "구축",
+   "recent": 16,
+   "total": 33,
+   "sectors": 10,
+   "burst": 3.6
+  },
+  {
    "term": "프리뷰",
    "recent": 9,
    "total": 18,
    "sectors": 5,
-   "burst": 3.6
-  },
-  {
-   "term": "독일",
-   "recent": 9,
-   "total": 18,
-   "sectors": 4,
    "burst": 3.6
   }
  ]

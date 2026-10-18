@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T22:46:58.864531+00:00",
+  "generated_at": "2026-10-18T22:49:58.243201+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1408,
+  "report_count": 1409,
   "months": [
     {
       "month": "2026-10",
@@ -2485,7 +2485,7 @@
           "sectors": [
             "조선/기계/방산"
           ],
-          "opinion": "중립",
+          "opinion": "비중확대",
           "opinion_history": [
             {
               "value": "중립",
@@ -2501,6 +2501,11 @@
               "value": "중립",
               "date": "2026-10-18",
               "source": "https://t.me/daolresearch/15254"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-10-19",
+              "source": "https://t.me/daolresearch/15259"
             }
           ],
           "top_picks": [
@@ -2533,8 +2538,39 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 8,
+          "report_count": 9,
           "reports": [
+            {
+              "id": 15259,
+              "date": "2026-10-19",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "방산",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "데이터센터용 엔진까지 대응하기 어렵다는 판단. 9월 11일에 나온 셀온(Sell-On)은 3~4년 전의 방산 수주 셀온과 유사하다고 판단 2030년에는 후속 수주가 따라질 경우 3GW 납품에, 실적 예상에 매출 3조원을 덧붙여야 함. CAPA에서 시장확대에 따라 후속 증설이 잇따를 수 있을 것으로 판단",
+              "industry_conclusion": "아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음",
+              "report_conclusion": "아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음",
+              "valuation": [
+                "지난 4월 Aperion(684MW, 0.6조원, 20MW급)과 8월 Corban(1GW, 1조원, 10MW급)"
+              ],
+              "earnings_changes": [
+                "2030년에는 후속 수주가 따라질 경우 3GW 납품에, 실적 예상에 매출 3조원을 덧붙여야 함."
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.ktb.co.kr/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144350/1/20260911_B2040_gs.choie_587.pdf",
+              "pdf_error": "",
+              "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 한화시스템의 조선 철수, 위성 올인 배경",
+              "summary": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 한화시스템의 조선 철수, 위성 올인 배경 ▶ Issue: 한화시스템 샵 투어 후기 ▶ Pitch 한화시스템 조선에서 철수하면서 현금 3조원대 확보 그리고 2040년까지, 51조원 투자(한화시스템 23조원) 투자 내역 브레이크다운 투자 일정 각 시스템 기대 효과 리스크: 자본 조달 우려 0) 한화시스템의 한화오션, 한화필리 지분 양도 1) 자체 수익 2) 선 구축 - 후 국책 사업/구독 3) 장기공급계약의 프로젝트 파이낸싱 4) 방산 호황으로 미래 수익도 양호할 것 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/4io1jI2 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15259",
+              "source_url": "https://bit.ly/4io1jI2"
+            },
             {
               "id": 15254,
               "date": "2026-10-18",
@@ -2889,7 +2925,7 @@
           ]
         }
       ],
-      "report_count": 60
+      "report_count": 61
     },
     {
       "month": "2026-09",
