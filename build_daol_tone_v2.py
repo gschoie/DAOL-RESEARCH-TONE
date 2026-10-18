@@ -599,7 +599,7 @@ SECTOR_KEYWORDS = [
     (r'건설기계|굴착기|공작기계|기계', '기계'),
     (r'건설|부동산|주택|분양', '건설'),
     (r'(?<![가-힣])은행|은행지주', '금융-은행지주'), (r'(?<!투자)증권', '금융-증권'), (r'보험', '금융-보험'), (r'카드|캐피탈', '금융-카드기타'),
-    (r'소부장', '반도체소부장'), (r'반도체|HBM|파운드리', '반도체'),
+    (r'반도체/소부장|소부장', '반도체소부장'), (r'반도체|HBM|파운드리', '반도체'),
     (r'전기전자|전자부품|디스플레이|MLCC', '전기전자'),
     (r'자동차|타이어|모빌리티', '자동차'),
     (r'운송|물류|항공|해상운임|해운|벌크선|택배', '운송·물류'),
@@ -621,6 +621,19 @@ EXCLUDED_ANALYSTS = {'김지현'}
 # 키워드가 엉뚱하게 매기는 기업의 수동 교정(기업명 기준). 예: 리브스메드는 수술기구 = 의료기기.
 COMPANY_SECTOR_OVERRIDES = {'리브스메드': '의료기기', '실리콘투': '화장품', 'HL홀딩스': '자동차',
                             '오리온홀딩스': '음식료', 'Meta Platforms': '인터넷/AI'}
+
+
+def _first_sector(text):
+    """SECTOR_KEYWORDS를 '텍스트 등장 위치' 기준으로 매칭한다(동률이면 더 긴 매칭 우선).
+    리스트 순서 매칭은 본문 뒤쪽 키워드가 제목 맨 앞의 섹터 선언을 이기는 사고를 낸다
+    (10/19 '★ 방산 – 한화시스템의 조선 철수'가 '조선'으로, Issue&Pitch '수술로봇'이
+    '로봇'으로 새던 유형). '반도체/소부장'은 긴 매칭 우선으로 '반도체'를 이긴다."""
+    best = None
+    for pattern, label in SECTOR_KEYWORDS:
+        m = re.search(pattern, text, re.I)
+        if m and (best is None or (m.start(), -len(m.group(0))) < (best[0], -best[1])):
+            best = (m.start(), len(m.group(0)), label)
+    return best[2] if best else None
 
 
 def resolve_sector(record, sector_map):
@@ -656,20 +669,18 @@ def resolve_sector(record, sector_map):
             and re.search(r'[가-힣]\s*,\s*[가-힣A-Za-z/·&]+\s+[가-힣]{2,4}\s*(?:☎|$)', hdr.group(1))):
         return '콜라보'
     if hdr and hdr.group(1).count('/') >= 2:
-        topic = record['title'][hdr.end():][:160]
-        for pattern, label in SECTOR_KEYWORDS:
-            if re.search(pattern, topic, re.I):
-                return label
+        topic = _first_sector(record['title'][hdr.end():][:160])
+        if topic:
+            return topic
     # 단일 섹터 헤더('[의료기기(Overweight)]')는 그 자체가 섹터 선언 — 본제목 키워드보다
-    # 먼저 본다. 키워드는 리스트 순서로 매칭되므로 '수술로봇' 같은 본문 단어가 헤더의
-    # '의료기기'를 이기고 로봇 섹터로 새던 문제(10/14 Issue&Pitch)를 막는다.
+    # 먼저 본다 (본문 '수술로봇'이 헤더의 '의료기기'를 이기고 로봇 섹터로 새던 문제 방지).
     if hdr:
-        for pattern, label in SECTOR_KEYWORDS:
-            if re.search(pattern, hdr.group(1), re.I):
-                return label
-    for pattern, label in SECTOR_KEYWORDS:
-        if re.search(pattern, record['title'][:160], re.I):
+        label = _first_sector(hdr.group(1))
+        if label:
             return label
+    label = _first_sector(record['title'][:160])
+    if label:
+        return label
     for segment in re.split(r'[/·,|]+', record['sector'] or ''):
         for pattern, label in SECTOR_KEYWORDS:
             if re.search(pattern, segment, re.I):
