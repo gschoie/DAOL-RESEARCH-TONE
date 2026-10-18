@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-18T22:14:00.901075+00:00",
+ "generated_at": "2026-10-18T22:47:32.543420+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1405,
+ "report_count": 1408,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32852,6 +32852,94 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLGC 수주 랠리 계속. FLNG 베네수엘라와 브라질로 확대 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15254",
    "source_url": "https://bit.ly/DOS844"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-19",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "파마리서치",
+   "code": "214450",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "원화 강세에 따른 외국인 구매력 하락으로 판단하며, 원화 강세 안정과 함께 9월 피부과 소비는 1,286억원(MoM +12%)으로 반등 [화장품] 626억원(YoY +78%, QoQ +4%) 전망.",
+    "수출 454억원(YoY +107%)으로 일회성 물량 소멸에도 성장 지속, 환율 영향을 빼면 양호."
+   ],
+   "title": "[파마리서치(214450)/ BUY(유지)/ TP 45만원(하향)/ 다올 의료기기 박종현] ★ 3Q26보다 4Q26을 볼 때",
+   "post_url": "https://t.me/daolresearch/15256",
+   "source_url": "https://buly.kr/9tDjUmo"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-10-19",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "파마리서치",
+   "code": "214450",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "10월 아마존 판매량이 9월 말 대비 2배 이상 늘었고 아시아 오프라인 입점도 더해져 화장품 수출 499억원(QoQ +10%) 전망.",
+    "글로벌 화장품 피어 가중평균 PER을 20% 할인한 23.7배 적용."
+   ],
+   "title": "[파마리서치(214450)/ BUY(유지)/ TP 45만원(하향)/ 다올 의료기기 박종현] ★ 3Q26보다 4Q26을 볼 때",
+   "post_url": "https://t.me/daolresearch/15256",
+   "source_url": "https://buly.kr/9tDjUmo"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-19",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "삼양식품",
+   "code": "003230",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "원가율 상승 사유는 1) 영업일수 감소에 의한 QoQ 생산량 감소, 2) 유럽 수출 제품 사용 팜유를 ESG 인증 원료로 변경하는 과정에서 발생한 원가 부담, 3) 운임비(보험료) 상승, 4) 원화 강세로 인한 P 효과 상쇄 때문.",
+    "원화 강세로 P 효과가 감소했으나 Q 성장이 이를 상쇄했음."
+   ],
+   "title": "[삼양식품(003230) | BUY(유지) | TP 190만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 기우였네요",
+   "post_url": "https://t.me/daolresearch/15257",
+   "source_url": "https://buly.kr/H6kniEF"
+  },
+  {
+   "theme": "K푸드 수출",
+   "category": "미국공략",
+   "date": "2026-10-19",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "삼양식품",
+   "code": "003230",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "향후 중국향 라면 수출액 감소 속"
+   ],
+   "title": "[삼양식품(003230) | BUY(유지) | TP 190만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Preview: 기우였네요",
+   "post_url": "https://t.me/daolresearch/15257",
+   "source_url": "https://buly.kr/H6kniEF"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-19",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "Spot",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "주주환원: 업종 내 KT&G, 오리온의 배당수익률 매력도가 높음."
+   ],
+   "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ Spot Issue: 음식료 주가 좋은데 뭘 살까?",
+   "post_url": "https://t.me/daolresearch/15258",
+   "source_url": "https://buly.kr/8pjBbvV"
   }
  ],
  "cross_mentions": [
@@ -33951,10 +34039,10 @@
  "candidates": [
   {
    "term": "통신",
-   "recent": 25,
-   "total": 28,
+   "recent": 27,
+   "total": 30,
    "sectors": 3,
-   "burst": 25.0
+   "burst": 27.1
   },
   {
    "term": "자사",
@@ -33965,10 +34053,10 @@
   },
   {
    "term": "원화",
-   "recent": 16,
-   "total": 26,
+   "recent": 18,
+   "total": 28,
    "sectors": 9,
-   "burst": 5.8
+   "burst": 6.6
   },
   {
    "term": "관건",
@@ -33996,7 +34084,7 @@
    "recent": 9,
    "total": 15,
    "sectors": 7,
-   "burst": 5.1
+   "burst": 5.2
   },
   {
    "term": "Cloud",
@@ -34020,18 +34108,18 @@
    "burst": 4.0
   },
   {
-   "term": "남미",
-   "recent": 10,
-   "total": 19,
-   "sectors": 4,
+   "term": "사용",
+   "recent": 8,
+   "total": 15,
+   "sectors": 7,
    "burst": 4.0
   },
   {
    "term": "배당수익률",
-   "recent": 12,
-   "total": 24,
+   "recent": 13,
+   "total": 25,
    "sectors": 9,
-   "burst": 3.7
+   "burst": 4.0
   },
   {
    "term": "보수적",
