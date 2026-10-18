@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-18T01:25:16.959569+00:00",
+ "generated_at": "2026-10-18T16:21:06.416557+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1404,
+ "report_count": 1405,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32817,6 +32817,41 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 3주차)]",
    "post_url": "https://t.me/daolresearch/15251",
    "source_url": "https://buly.kr/6tepk54"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-18",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLGC 수주 랠리 계속. FLNG 베네수엘라와 브라질로 확대 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15254",
+   "source_url": "https://bit.ly/DOS844"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-18",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "선가, 실적, 캐파 △ LNG선 신조선가 또 하락, 울트라막스 컨테이너선 6주 연속 하락, 탱커 중고선가 또 급등 △ 22년된 수에즈막스 60백만달러에 매각해서 1년만에 100% 수익",
+    "LNG ▲ TotalEnergies, Mozambique LNG의 2단계 패스트트랙 추진 검토 ▼ 말련 MISC는 Petronas 용선 기반으로, 중국 후동중화에 LNG선 5척 추가 발주 협의 △ 러시아 Navatek은 MOL이 건조한 Arc4 내빙 LNG선 4척 매입."
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLGC 수주 랠리 계속. FLNG 베네수엘라와 브라질로 확대 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15254",
+   "source_url": "https://bit.ly/DOS844"
   }
  ],
  "cross_mentions": [
@@ -33899,6 +33934,18 @@
    "evidence": "Top Picks는 삼성SDI, 포스코퓨처엠, 포스코인터내셔널이다.미국 ESS 연간 설치량은 2025년 51.0GWh에서 2030년 120.0GWh 이상으로 확대될 전망이다.",
    "title": "[다올투자증권 자동차/이차전지 유지웅, 철강금속/전력기기 이정우] ★ 배터리: 자격의 시대 AI가 만든 ESS 성장, Non-PFE가 결정할 공급의 주인공",
    "post_url": "https://t.me/daolresearch/15233"
+  },
+  {
+   "company": "HMM",
+   "code": "011200",
+   "owner_analyst": "오정하",
+   "owner_sector": "운송/로봇",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "date": "2026-10-18",
+   "evidence": "컨테이너 ▲ HMM 13,000-TEU 8척 발주 결정",
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLGC 수주 랠리 계속. FLNG 베네수엘라와 브라질로 확대 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15254"
   }
  ],
  "candidates": [
@@ -33908,13 +33955,6 @@
    "total": 28,
    "sectors": 3,
    "burst": 25.0
-  },
-  {
-   "term": "보합",
-   "recent": 6,
-   "total": 8,
-   "sectors": 3,
-   "burst": 8.0
   },
   {
    "term": "자사",
@@ -33992,6 +34032,13 @@
    "total": 24,
    "sectors": 9,
    "burst": 3.7
+  },
+  {
+   "term": "보수적",
+   "recent": 9,
+   "total": 18,
+   "sectors": 6,
+   "burst": 3.6
   },
   {
    "term": "프리뷰",

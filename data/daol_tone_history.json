@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T01:25:12.087266+00:00",
+  "generated_at": "2026-10-18T16:19:53.048729+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1404,
+  "report_count": 1405,
   "months": [
     {
       "month": "2026-10",
@@ -2372,6 +2372,11 @@
               "value": "중립",
               "date": "2026-10-11",
               "source": "https://t.me/daolresearch/15192"
+            },
+            {
+              "value": "중립",
+              "date": "2026-10-18",
+              "source": "https://t.me/daolresearch/15254"
             }
           ],
           "top_picks": [
@@ -2404,8 +2409,44 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 7,
+          "report_count": 8,
           "reports": [
+            {
+              "id": 15254,
+              "date": "2026-10-18",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "다올",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "가스선 ▲ HD현대중공업, BGN으로부터 VLGC 4척 추가 수주 △ 말련 Petronas CEO, 중동과 에너지 위기는 2027년까지 혼란 지속 전망 예상 규모 미공개 Perla FLNG 약 1.2 MTPA급 HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원)",
+              "industry_conclusion": "",
+              "report_conclusion": "가스선 ▲ HD현대중공업, BGN으로부터 VLGC 4척 추가 수주 △ 말련 Petronas CEO, 중동과 에너지 위기는 2027년까지 혼란 지속 전망 - Iino Lines와의 파트너십을 통해 LPG 및 에너지 운송 시장 내 사업 확장 강화 전망 서아프리카발 수요 감소와 중동 선박의 대서양 유입으로 단기 하방 압력 발생 전망 현장 인력은 현재 10,000명 수준이며 2027년 중반 약 15,000명으로 정점 도달 전망 ▷ 러시아 Novatek, 2027년 초 역풍 전망 속에서도 3분기 가스 생산량 증가 기록 발표",
+              "valuation": [
+                "해양/디펜스 ▲ 베네수엘라 Perla FLNG EOI 발송.",
+                "⑧ Eni와 Repsol이 운영하는 베네수엘라 Perla 프로젝트가 FLNG 도입을 위한",
+                "현 단계 2026.10 RFI (시장 탐색, 사양 미공개) Perla FLNG 확정 합의(2031년 말 수출 목표),",
+                "예상 규모 미공개 Perla FLNG 약 1.2 MTPA급",
+                "▶ 한국 조선5사 Perf orm ance",
+                "싱가포르 연안 FSU로 활용 중인 297.4k-DWT VLCC Southern Emperor(2004년 건조)가 110백만달러에 매각됨"
+              ],
+              "earnings_changes": [
+                "3분기 전체 선대 평균 TCE는 141,300달러/일로 기존 보수적 전망을 상회하는 실적 예상"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145467/1/20261018_B2040_gs.choie_601.pdf",
+              "pdf_error": "",
+              "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLGC 수주 랠리 계속. FLNG 베네수엘라와 브라질로 확대 ⚓ 주시 뉴스",
+              "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLGC 수주 랠리 계속. FLNG 베네수엘라와 브라질로 확대 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 △ LNG선 신조선가 또 하락, 울트라막스 컨테이너선 6주 연속 하락, 탱커 중고선가 또 급등 △ 22년된 수에즈막스 60백만달러에 매각해서 1년만에 100% 수익 ▶ 그린쉽 △ HD한국조선해양은 Siemens와 부산에 글로벌 오션 센터 개소. 디지털 조선 플랫폼 운영 ▶ LNG ▲ TotalEnergies, Mozambique LNG의 2단계 패스트트랙 추진 검토 ▼ 말련 MISC는 Petronas 용선 기반으로, 중국 후동중화에 LNG선 5척 추가 발주 협의 △ 러시아 Navatek은 MOL이 건조한 Arc4 내빙 LNG선 4척 매입. 한화오션 Arc7 3척은? △ 한화오션-포스코 벙커링 화물창에 고망간강 확대 MOU ▶ 가스선 ▲ HD현대중공업, BGN으로부터 VLGC 4척 추가 수주 ▶ 컨테이너 ▲ HMM 13,000-TEU 8척 발주 결정 ▶ 탱커 ▽ 그리스 Chemnav, 중국 Penglai에 수에즈막스 탱커 2척 추가 발주 ▽ 그리스 Liquimar, 수에즈막스 탱커 3척 발주. 20년만의 신조 투자, 첫 중국 △ 사우디 Bahri, WS 900대 초고가 운임 지급 ▶ 해양/디펜스/바람 ▲ 베네수엘라 Perla FLNG EOI 발송. 운영사는 Eni와 Repsol △ 브라질 FLNG 도입 위한 RFI 발행 △ ExxonMobil Papua LNG 프로젝트 운영사로 교체. 기존 TotalEnergies ▶ 기타 △ HD한국조선해양 CLdN으로부터 RoRo 2척 수주. CLdN은 Stena에 중고선 매각 < ☞ https://bit.ly/DOS844 > * 텔레그램 공개 채널 htt",
+              "post_url": "https://t.me/daolresearch/15254",
+              "source_url": "https://bit.ly/DOS844"
+            },
             {
               "id": 15240,
               "date": "2026-10-15",
@@ -2724,7 +2765,7 @@
           ]
         }
       ],
-      "report_count": 56
+      "report_count": 57
     },
     {
       "month": "2026-09",
