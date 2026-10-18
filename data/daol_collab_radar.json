@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T23:06:30.661300+00:00",
+ "generated_at": "2026-10-18T23:42:45.347435+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1409,
  "hits": [
@@ -32925,6 +32925,23 @@
    "source_url": "https://buly.kr/H6kniEF"
   },
   {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-19",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "Spot",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "- 해외 매출 비중이 80%, 연결 매출 내 달러 Exposure가 40%에 달해 원화 강세에 따른 실적 훼손 우려가 상존했으나, 이에 따른 3Q26 실적 추정치 하향폭은 미미함."
+   ],
+   "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ Spot Issue: 음식료 주가 좋은데 뭘 살까?",
+   "post_url": "https://t.me/daolresearch/15258",
+   "source_url": "https://buly.kr/8pjBbvV"
+  },
+  {
    "theme": "밸류업/주주환원",
    "category": "매크로",
    "date": "2026-10-19",
@@ -32935,7 +32952,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "주주환원: 업종 내 KT&G, 오리온의 배당수익률 매력도가 높음."
+    "주주환원: 업종 내 KT&G, 오리온의 배당수익률 매력도가 높음.",
+    "3,600억원 규모의 자사주 매입이 현재 진행 중이며, '26년 KT&G의 총주주환원액으로 1조 1,781억원 전망."
    ],
    "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ Spot Issue: 음식료 주가 좋은데 뭘 살까?",
    "post_url": "https://t.me/daolresearch/15258",
@@ -34069,6 +34087,18 @@
    "evidence": "컨테이너 ▲ HMM 13,000-TEU 8척 발주 결정",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: VLGC 수주 랠리 계속. FLNG 베네수엘라와 브라질로 확대 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15254"
+  },
+  {
+   "company": "카카오",
+   "code": "035720",
+   "owner_analyst": "김혜영",
+   "owner_sector": "인터넷/게임/레저",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "date": "2026-10-19",
+   "evidence": "- 3Q26부터 카카오 투입원가가 YoY 하락하는 가운데, 상반기부터 진행 중인 경영구조 효율화 효과가 원가율 개선에 기여할 전망.",
+   "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ Spot Issue: 음식료 주가 좋은데 뭘 살까?",
+   "post_url": "https://t.me/daolresearch/15258"
   }
  ],
  "candidates": [
@@ -34088,10 +34118,10 @@
   },
   {
    "term": "원화",
-   "recent": 18,
-   "total": 28,
+   "recent": 19,
+   "total": 29,
    "sectors": 9,
-   "burst": 6.5
+   "burst": 6.9
   },
   {
    "term": "관건",
