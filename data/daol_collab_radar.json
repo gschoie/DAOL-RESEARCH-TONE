@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-19T01:32:29.541904+00:00",
+ "generated_at": "2026-10-19T18:59:37.993998+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1409,
+ "report_count": 1410,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -32993,6 +32993,41 @@
    "title": "[조선/기계/방산(Overweight)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 방산(Overweight) – 한화시스템의 조선 철수, 위성 올인 배경",
    "post_url": "https://t.me/daolresearch/15259",
    "source_url": "https://bit.ly/4io1jI2"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-10-19",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "현대로템",
+   "code": "064350",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "잘 나옴 > 2026-2027 방산은 수출 비중 감소로 감익 우려 - 방산 매출 유지, 수출 감소 - 그러나 K2PL 현지 생산을 2H27로 앞당기겠다는 주장."
+   ],
+   "title": "[현대로템(064350)/BUY(유지)/TP 210,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 현대로템(064350) : 2026-2027 감익-증익의 벼랑끝, 전선",
+   "post_url": "https://t.me/daolresearch/15266",
+   "source_url": "https://bit.ly/ROTEM3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-19",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "현대로템",
+   "code": "064350",
+   "direction": "피해",
+   "score": -5,
+   "evidences": [
+    "잘 나옴 > 2026-2027 방산은 수출 비중 감소로 감익 우려 - 방산 매출 유지, 수출 감소 - 그러나 K2PL 현지 생산을 2H27로 앞당기겠다는 주장.",
+    "[현대로템(064350)/BUY(유지)/TP 210,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[현대로템(064350)/BUY(유지)/TP 210,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 현대로템(064350) : 2026-2027 감익-증익의 벼랑끝, 전선",
+   "post_url": "https://t.me/daolresearch/15266",
+   "source_url": "https://bit.ly/ROTEM3Q26RE"
   }
  ],
  "cross_mentions": [
@@ -34107,7 +34142,21 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 27.0
+   "burst": 26.9
+  },
+  {
+   "term": "낮추고",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 23.9
+  },
+  {
+   "term": "감익",
+   "recent": 6,
+   "total": 8,
+   "sectors": 6,
+   "burst": 8.0
   },
   {
    "term": "자사",
@@ -34163,7 +34212,7 @@
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "뷰티",
@@ -34191,20 +34240,6 @@
    "recent": 9,
    "total": 18,
    "sectors": 6,
-   "burst": 3.6
-  },
-  {
-   "term": "구축",
-   "recent": 16,
-   "total": 33,
-   "sectors": 10,
-   "burst": 3.6
-  },
-  {
-   "term": "프리뷰",
-   "recent": 9,
-   "total": 18,
-   "sectors": 5,
    "burst": 3.6
   }
  ]
