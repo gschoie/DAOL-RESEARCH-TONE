@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-19T22:47:55.545903+00:00",
+ "generated_at": "2026-10-19T22:59:33.309599+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1416,
+ "report_count": 1417,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33150,6 +33150,59 @@
    "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 3Q26 Preview: 3Q보다는 가시성이 확보된 27년에 주목",
    "post_url": "https://t.me/daolresearch/15274",
    "source_url": "https://buly.kr/CsmcXYL"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-20",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "8월 자동차 강판과 조선향 후판의 협상가격 인상으로 판매가격이 4Q26부터 본격적으로 반영되며, 철광석 가격 하락과 원/달러 환율 하락으로 원가 부담도 완화되어 스프레드 개선 기대 * 보고서 원문 및 컴플라이언스 < https://buly.kr/FhQkEYa >",
+    "원화 약세와 더불어 연료탄 가격 상승도 3Q26E 스프레드 악화에 영향 줬을 것으로 판단."
+   ],
+   "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시점이 늦춰졌을뿐",
+   "post_url": "https://t.me/daolresearch/15276",
+   "source_url": "https://buly.kr/FhQkEYa"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-20",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강금속/전력기기 이정우]"
+   ],
+   "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시점이 늦춰졌을뿐",
+   "post_url": "https://t.me/daolresearch/15276",
+   "source_url": "https://buly.kr/FhQkEYa"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-10-20",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "8월 자동차 강판과 조선향 후판의 협상가격 인상으로 판매가격이 4Q26부터 본격적으로 반영되며, 철광석 가격 하락과 원/달러 환율 하락으로 원가 부담도 완화되어 스프레드 개선 기대 * 보고서 원문 및 컴플라이언스 < https://buly.kr/FhQkEYa >",
+    "다만, 철광석 가격은 2026.04월부터 하락 중이며 10월에는 90달러로 하락해 연료탄 가격 상승 부담을 일정 부분 상쇄 가능"
+   ],
+   "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시점이 늦춰졌을뿐",
+   "post_url": "https://t.me/daolresearch/15276",
+   "source_url": "https://buly.kr/FhQkEYa"
   }
  ],
  "cross_mentions": [
@@ -34264,7 +34317,7 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.7
+   "burst": 26.6
   },
   {
    "term": "감익",
@@ -34282,10 +34335,10 @@
   },
   {
    "term": "원화",
-   "recent": 19,
-   "total": 29,
-   "sectors": 9,
-   "burst": 6.8
+   "recent": 20,
+   "total": 30,
+   "sectors": 10,
+   "burst": 7.2
   },
   {
    "term": "할인율",
@@ -34313,7 +34366,7 @@
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.3
+   "burst": 5.2
   },
   {
    "term": "바스켓",
@@ -34348,21 +34401,21 @@
    "recent": 8,
    "total": 15,
    "sectors": 7,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "배당수익률",
    "recent": 13,
    "total": 25,
    "sectors": 9,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "우선",
    "recent": 7,
    "total": 13,
    "sectors": 8,
-   "burst": 4.0
+   "burst": 3.9
   }
  ]
 }
