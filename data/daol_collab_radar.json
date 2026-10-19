@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-19T22:15:00.764428+00:00",
+ "generated_at": "2026-10-19T22:47:55.545903+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1412,
+ "report_count": 1416,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33028,6 +33028,128 @@
    "title": "[현대로템(064350)/BUY(유지)/TP 210,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 현대로템(064350) : 2026-2027 감익-증익의 벼랑끝, 전선",
    "post_url": "https://t.me/daolresearch/15266",
    "source_url": "https://bit.ly/ROTEM3Q26RE"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-20",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "ESS 시장 반사이익: 중국 업체의 미국 철수 검토 및 관세 부담으로 국내 배터리 3사의 수주 기회 확대."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
+   "post_url": "https://t.me/daolresearch/15271",
+   "source_url": "https://buly.kr/H6ko4o8"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-20",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "주요 고객사의 데이터센터 수요 급증으로 중장기 수혜 전망"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
+   "post_url": "https://t.me/daolresearch/15271",
+   "source_url": "https://buly.kr/H6ko4o8"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-20",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "ESS 시장 반사이익: 중국 업체의 미국 철수 검토 및 관세 부담으로 국내 배터리 3사의 수주 기회 확대.",
+    "3Q26 LG에너지솔루션을 시작으로 4Q26 삼성SDI의 ESS 매출 급성장 기대"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
+   "post_url": "https://t.me/daolresearch/15271",
+   "source_url": "https://buly.kr/H6ko4o8"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-20",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "LFP 라인 전환 투자비가 1천억 내외로 제한적이어서 양극재 업체 중 수주 모멘텀이 가장 돋보일 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/H6ko4o8 > * 텔레그램 채널 < https://t.me/auto_revolution >"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
+   "post_url": "https://t.me/daolresearch/15271",
+   "source_url": "https://buly.kr/H6ko4o8"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-20",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "디어유",
+   "code": "376300",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "다만 로열티율이 상대적으로 더 낮은 C-POP 중심의구독자 수 성장과 환율을 감안 시 로열티 매출은 구독자 수 증가폭보다는 소폭 적을 것으로 추정.",
+    "유의미한 입점 IP 부재 속 상반기 긍정적으로 작용했던 환율 효과가 부정적으로 작용"
+   ],
+   "title": "[디어유(376300) | 다올 엔터 임도영] ★ 3Q26 Preview: 별다른 이벤트 부재와 환율의 콜라보",
+   "post_url": "https://t.me/daolresearch/15273",
+   "source_url": "https://buly.kr/5fFYK5x"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-10-20",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "디어유",
+   "code": "376300",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "최근 공연 연계 도시별 팝업 개최가 확대되고 있는 가운데 버블 북미 하우스"
+   ],
+   "title": "[디어유(376300) | 다올 엔터 임도영] ★ 3Q26 Preview: 별다른 이벤트 부재와 환율의 콜라보",
+   "post_url": "https://t.me/daolresearch/15273",
+   "source_url": "https://buly.kr/5fFYK5x"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-10-20",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "에스엠",
+   "code": "041510",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "컴백 비수기에 따른 팝업 개최 건수와 공연 모객 수 QoQ 감소로 MD 매출은 감소 전망.",
+    "음반원 매출 610억원 전망."
+   ],
+   "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 3Q26 Preview: 3Q보다는 가시성이 확보된 27년에 주목",
+   "post_url": "https://t.me/daolresearch/15274",
+   "source_url": "https://buly.kr/CsmcXYL"
   }
  ],
  "cross_mentions": [
@@ -34142,49 +34264,49 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 27.0
+   "burst": 26.7
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 8.0
+   "burst": 7.9
   },
   {
    "term": "자사",
    "recent": 6,
    "total": 8,
    "sectors": 7,
-   "burst": 8.0
+   "burst": 7.9
   },
   {
    "term": "원화",
    "recent": 19,
    "total": 29,
    "sectors": 9,
-   "burst": 6.9
+   "burst": 6.8
   },
   {
    "term": "할인율",
    "recent": 9,
    "total": 14,
    "sectors": 3,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 5.8
+   "burst": 5.7
   },
   {
    "term": "방향",
    "recent": 10,
    "total": 16,
    "sectors": 7,
-   "burst": 5.7
+   "burst": 5.6
   },
   {
    "term": "정체",
@@ -34198,28 +34320,28 @@
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "Cloud",
    "recent": 6,
    "total": 10,
    "sectors": 4,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "분쟁",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "뷰티",
    "recent": 25,
    "total": 48,
    "sectors": 4,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "사용",
@@ -34236,11 +34358,11 @@
    "burst": 4.0
   },
   {
-   "term": "보수적",
-   "recent": 9,
-   "total": 18,
-   "sectors": 6,
-   "burst": 3.6
+   "term": "우선",
+   "recent": 7,
+   "total": 13,
+   "sectors": 8,
+   "burst": 4.0
   }
  ]
 }
