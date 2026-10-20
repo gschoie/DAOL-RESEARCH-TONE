@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T22:59:33.309599+00:00",
+ "generated_at": "2026-10-20T00:44:14.775930+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1417,
  "hits": [
@@ -33082,6 +33082,23 @@
    "source_url": "https://buly.kr/H6ko4o8"
   },
   {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-20",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "전방산업에서의 Catalysta0] 다수 확인되며 소재업체들의 밸류에이션 re-rating 선행"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
+   "post_url": "https://t.me/daolresearch/15271",
+   "source_url": "https://buly.kr/H6ko4o8"
+  },
+  {
    "theme": "조선 사이클",
    "category": "산업테마",
    "date": "2026-10-20",
@@ -33107,7 +33124,7 @@
    "company": "디어유",
    "code": "376300",
    "direction": "수혜",
-   "score": 3,
+   "score": 4,
    "evidences": [
     "다만 로열티율이 상대적으로 더 낮은 C-POP 중심의구독자 수 성장과 환율을 감안 시 로열티 매출은 구독자 수 증가폭보다는 소폭 적을 것으로 추정.",
     "유의미한 입점 IP 부재 속 상반기 긍정적으로 작용했던 환율 효과가 부정적으로 작용"
