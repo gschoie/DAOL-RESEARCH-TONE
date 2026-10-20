@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T22:12:07.986368+00:00",
+  "generated_at": "2026-10-20T22:47:15.094151+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1418,
+  "report_count": 1421,
   "months": [
     {
       "month": "2026-10",
@@ -497,8 +497,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 6,
           "reports": [
+            {
+              "id": 15281,
+              "date": "2026-10-21",
+              "month": "2026-10",
+              "analyst": "김혜영",
+              "sector": "AI·인터넷·게임·레저",
+              "company": "시프트업",
+              "code": "462870",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145573/1/20261021_462870_hyyy_221.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[시프트업(462870)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 갈고 닦는 시기 ★ 40,000원(유지), BUY(유지)",
+              "summary": "[시프트업(462870)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 갈고 닦는 시기 ★ 40,000원(유지), BUY(유지) ▶ 3Q26E 연결 매출액은 481억원(-36.2% YoY, -13.6% QoQ), 영업이익은 253억원(-48.9% YoY, -9.9% QoQ) 예상. 매출액과 영업이익 모두 컨센서스에 부합할 전망. 동사는 스텔라블레이드 중국 지역을 제외하고 순매출로 정산받는 구조이며 월말 평균 환율로 매출을 인식. 3Q26 원달러 평균 환율은 1,383원으로 2Q26 1,510원 대비 8.4% 하락. 이에 따라 전분기 매출이 감소할 전망 ▶ [승리의 여신: 니케] 377억원(-15.2% YoY, -13.6% QoQ)으로 추정. 니케 일본 3Q26 평균 매출 순위(Google Play)는 13위로 2Q26 12위와 비슷한 수준. 다만 중국에서 주요 이벤트가 부재했기 때문에 전분기 대비 매출 하락 예상 ▶ [스텔라 블레이드] 65억원(-76.4% YoY, -25.9% QoQ) 예상. 콘솔 및 PC의 판매량 자연 감소 지속 ▶ 4Q26에 <니케>의 4주년 이벤트와 <스텔라 블레이드>의 닌텐도 스위치 2 출시가 예정되어 있기 때문에 매출 반등 가능. 이로 인한 주가 반등은 기대하기 어려우나 신작의 부재가 이미 주가에 반영되어 있기 때문에 추가적인 주가 하락도 제한적이라고 판단 ▶ 2028년부터 <프로젝트 위치스>, <스텔라 블레이드: 블러드 레인> 등의 신작이 준비되어 있고, 2027년부터 점진적으로 정보가 공개될 전망. 파이프라인을 탄탄히 다지는 시기이기 때문에 투자의견 BUY 및 적정주가 40,000원 유지 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/28wP48U >",
+              "post_url": "https://t.me/daolresearch/15281",
+              "source_url": "https://buly.kr/28wP48U"
+            },
             {
               "id": 15249,
               "date": "2026-10-16",
@@ -1773,6 +1800,11 @@
               "value": "비중확대",
               "date": "2026-10-20",
               "source": "https://t.me/daolresearch/15271"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-10-21",
+              "source": "https://t.me/daolresearch/15282"
             }
           ],
           "top_picks": [
@@ -1785,8 +1817,35 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 3,
+          "report_count": 4,
           "reports": [
+            {
+              "id": 15282,
+              "date": "2026-10-21",
+              "month": "2026-10",
+              "analyst": "유지웅",
+              "sector": "자동차/이차전지",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 소형차·EV 중심의 현대기아 수혜: 10월 소형차(YoY +5.6%)와 EV(YoY +6.8%)가 가격 상승을 주도.",
+              "report_conclusion": "▶ 소형차·EV 중심의 현대기아 수혜: 10월 소형차(YoY +5.6%)와 EV(YoY +6.8%)가 가격 상승을 주도.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145571/1/20261021_B2510_jwyoo_679.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 미국 자동차: 중고차 가격 반등이 보내는 신호",
+              "summary": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 미국 자동차: 중고차 가격 반등이 보내는 신호 ▶ 10월 중고차 가격 반등: 맨하임 지수가 207.4(YoY +2.2%)를 기록하며 7개월 만에 반등. 재고 조정 완료 및 인센티브 하락에 따른 신차가격 회복으로 현대차·기아의 중장기 실적 개선 가시성 확보 ▶ 수급 불일치에 따른 가격 상승 지속: 미국 현지 생산 부진과 친환경차 전환 병목, 관세 부과 등이 맞물려 공급 부족 심화. 당분간 중고차 및 신차 가격의 강세 흐름 지속 전망 ▶ 소형차·EV 중심의 현대기아 수혜: 10월 소형차(YoY +5.6%)와 EV(YoY +6.8%)가 가격 상승을 주도. 소형 라인업이 부족한 미국 3사 대비 현대차·기아의 M/S 반등 모멘텀 부각 * 보고서 원문 및 컴플라이언스 < https://buly.kr/2fgg0U3 > * 텔레그램 채널 < https://t.me/auto_revolution >",
+              "post_url": "https://t.me/daolresearch/15282",
+              "source_url": "https://buly.kr/2fgg0U3"
+            },
             {
               "id": 15271,
               "date": "2026-10-20",
@@ -2729,16 +2788,50 @@
         {
           "analyst": "조병현",
           "sectors": [
+            "매크로·투자전략",
             "투자전략"
           ],
-          "opinion": "명시 없음",
-          "opinion_history": [],
+          "opinion": "중립",
+          "opinion_history": [
+            {
+              "value": "중립",
+              "date": "2026-10-21",
+              "source": "https://t.me/daolresearch/15280"
+            }
+          ],
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15280,
+              "date": "2026-10-21",
+              "month": "2026-10",
+              "analyst": "조병현",
+              "sector": "매크로·투자전략",
+              "company": "만성적",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "미국 선거 체계와 2026 중간선거 선출 대상 이번 선거는 정권 심판의 성격이 더욱 강할 것으로 예상  의석 수에 대한 여론조사 결과에서는 대부분의 여론조사에서 민주당이 하원 다수당을 무난히 확보할 것으로 전망되고 있음. 상원 다수당 지위를 회복할 것으로 전망 중 2026 중간선거 상,하원 의석 전망 1년 사이 지지율 격차가 확대 주요 여론조사 기관에서 민주당 지지율 우위",
+              "industry_conclusion": "",
+              "report_conclusion": "조병현 투자전략 bhcho@daolfn.com  의석 수에 대한 여론조사 결과에서는 대부분의 여론조사에서 민주당이 하원 다수당을 무난히 확보할 것으로 전망되고 있음. 상원 다수당 지위를 회복할 것으로 전망 중 2026 중간선거 상,하원 의석 전망 1년 사이 지지율 격차가 확대 주요 여론조사 기관에서 민주당 지지율 우위 컨센서스 전망 48 47 5 (경합)",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145572/1/20261021_B_bhcho_309.pdf",
+              "pdf_error": "",
+              "title": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현] ★ 만성적 리스크 변수가 된 정치: 미국 중간선거와 프랑스 재정 리스크 점검 I. 미국 중간선거 현황과 향후 주안점 및 시나리오 점검",
+              "summary": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현] ★ 만성적 리스크 변수가 된 정치: 미국 중간선거와 프랑스 재정 리스크 점검 I. 미국 중간선거 현황과 향후 주안점 및 시나리오 점검 ▶ 대통령 임기 전반부에 대한 평가 의미를 가지는 중간선거. 현재 양원 공화당 우위지만, 주요 여론조사 결과는 양원 모두 민주당 우위 전망 ▶ 11월 미국 중간선거 결과에 따른 시나리오 점검: 금리 관점에서는 분점, 주식은 공화당 스윕 시나리오가 우호적 ▶ 선거 후 이슈 점검, 대선 이후 당장 직면한 건 임시예산 종료 문제. 연말~연초 사이 도래할 부채한도 문제도 존재 ▶ 선거 전후 금융시장 영향 및 극단적인 케이스에 대한 예습 II. 프랑스 재정위기 문제 부각, 주요 쟁점 사항 및 향후 일정 ▶ 뉴스를 통해 전해진 프랑스 정치 불안, 금리 급등으로 금융시장의 경계 확산 ▶ 기저에 있는 것은 만성적인 재정적자와 누적되는 정부부채. 의회 3분할 구도도 합의가 어려운 이유 ▶ 대선 전까지 예산안 통과가 중요. 대선 이후에는 과반 의회 형성이 포인트 ▶ 유로존의 안전망 중 프랑스에 바로 쓸 수 있는 수단은 제한적. 직접적인 유동성 지원이 가능한 TPI 역시 즉각 발동보다 구두 개입 활용 기대 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/Aasm9CA",
+              "post_url": "https://t.me/daolresearch/15280",
+              "source_url": "https://buly.kr/Aasm9CA"
+            },
             {
               "id": 15242,
               "date": "2026-10-15",
@@ -3276,7 +3369,7 @@
           ]
         }
       ],
-      "report_count": 70
+      "report_count": 73
     },
     {
       "month": "2026-09",

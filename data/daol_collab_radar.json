@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-20T22:14:03.085029+00:00",
+ "generated_at": "2026-10-20T22:47:49.974932+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1418,
+ "report_count": 1421,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33239,6 +33239,58 @@
    "title": "[의료기기(Overweight)/ 다올 박종현] ★ Issue & Pitch: 구조·기구·교육이 만드는 진입장벽 (수술로봇 시리즈 ③)",
    "post_url": "https://t.me/daolresearch/15279",
    "source_url": "https://buly.kr/15RrAoz"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-21",
+   "analyst": "김혜영",
+   "sector": "AI/인터넷/게임/레저",
+   "company": "시프트업",
+   "code": "462870",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "동사는 스텔라블레이드 중국 지역을 제외하고 순매출로 정산받는 구조이며 월말 평균 환율로 매출을 인식.",
+    "3Q26 원달러 평균 환율은 1,383원으로 2Q26 1,510원 대비 8.4% 하락."
+   ],
+   "title": "[시프트업(462870)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Preview: 갈고 닦는 시기 ★ 40,000원(유지), BUY(유지)",
+   "post_url": "https://t.me/daolresearch/15281",
+   "source_url": "https://buly.kr/28wP48U"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-21",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "수급 불일치에 따른 가격 상승 지속: 미국 현지 생산 부진과 친환경차 전환 병목, 관세 부과 등이 맞물려 공급 부족 심화."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 미국 자동차: 중고차 가격 반등이 보내는 신호",
+   "post_url": "https://t.me/daolresearch/15282",
+   "source_url": "https://buly.kr/2fgg0U3"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-10-21",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "수급 불일치에 따른 가격 상승 지속: 미국 현지 생산 부진과 친환경차 전환 병목, 관세 부과 등이 맞물려 공급 부족 심화."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 미국 자동차: 중고차 가격 반등이 보내는 신호",
+   "post_url": "https://t.me/daolresearch/15282",
+   "source_url": "https://buly.kr/2fgg0U3"
   }
  ],
  "cross_mentions": [
@@ -34353,28 +34405,28 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.7
+   "burst": 26.4
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "자사",
    "recent": 6,
    "total": 8,
    "sectors": 7,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "원화",
    "recent": 20,
    "total": 30,
    "sectors": 10,
-   "burst": 7.2
+   "burst": 7.1
   },
   {
    "term": "방향",
@@ -34402,7 +34454,7 @@
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.3
+   "burst": 5.2
   },
   {
    "term": "바스켓",
@@ -34430,7 +34482,7 @@
    "recent": 9,
    "total": 16,
    "sectors": 7,
-   "burst": 4.5
+   "burst": 4.4
   },
   {
    "term": "뷰티",
@@ -34444,14 +34496,14 @@
    "recent": 13,
    "total": 25,
    "sectors": 9,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "우선",
    "recent": 7,
    "total": 13,
    "sectors": 8,
-   "burst": 4.0
+   "burst": 3.9
   }
  ]
 }
