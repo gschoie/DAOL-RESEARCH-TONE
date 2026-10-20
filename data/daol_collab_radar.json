@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-20T17:47:00.800670+00:00",
+ "generated_at": "2026-10-20T22:14:03.085029+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1417,
+ "report_count": 1418,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33072,10 +33072,10 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 2,
+   "score": 5,
    "evidences": [
     "ESS 시장 반사이익: 중국 업체의 미국 철수 검토 및 관세 부담으로 국내 배터리 3사의 수주 기회 확대.",
-    "3Q26 LG에너지솔루션을 시작으로 4Q26 삼성SDI의 ESS 매출 급성장 기대"
+    "전일 Digitimes 중국 ESS업체 보도로 이차전지 업종 모멘텀 가속화 - 국내 배터리 업체들 중 셀 3사의 즉각적인 수혜가 예상되며, 2026년 국내 셀 업체들의 미국내 ESS M/S가 30%를 밑돌고 있어, 중장기적으로도 수혜가 구조적으로 커질 것으로 기대."
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
    "post_url": "https://t.me/daolresearch/15271",
@@ -33092,7 +33092,7 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "전방산업에서의 Catalysta0] 다수 확인되며 소재업체들의 밸류에이션 re-rating 선행"
+    "- 전방산업에서의 Catalyst들이 다수 확인되며 소재업체들의 밸류에이션 re-rating 선행 가능성에 무게."
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
    "post_url": "https://t.me/daolresearch/15271",
@@ -33107,9 +33107,10 @@
    "company": "산업/기타",
    "code": "",
    "direction": "수혜",
-   "score": 1,
+   "score": 2,
    "evidences": [
-    "LFP 라인 전환 투자비가 1천억 내외로 제한적이어서 양극재 업체 중 수주 모멘텀이 가장 돋보일 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/H6ko4o8 > * 텔레그램 채널 < https://t.me/auto_revolution >"
+    "LFP 라인 전환 투자비가 1천억 내외로 제한적이어서 양극재 업체 중 수주 모멘텀이 가장 돋보일 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/H6ko4o8 > * 텔레그램 채널 < https://t.me/auto_revolution >",
+    "- 포스코퓨처엠의 경우 소성공정인 하공정 위주의 라인전환이 이뤄지고 있어, 5개/10만톤 라인전환에 따른 투자비가 1천억 내외로 제한적이어서 수주속도가 가빠르게 나타나고 있어 양극재 업체 중 수주모멘텀이 가장 부각될 것으로 예상."
    ],
    "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 이차전지(Overweight) - Non-PFE, 중국의 철수 시작",
    "post_url": "https://t.me/daolresearch/15271",
@@ -33220,6 +33221,24 @@
    "title": "[현대제철(004020)/ BUY(유지)/ TP 4.6만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시점이 늦춰졌을뿐",
    "post_url": "https://t.me/daolresearch/15276",
    "source_url": "https://buly.kr/FhQkEYa"
+  },
+  {
+   "theme": "로봇/자동화",
+   "category": "산업테마",
+   "date": "2026-10-21",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "Issue",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Issue & Pitch: 구조·기구·교육이 만드는 진입장벽 (수술로봇 시리즈 ③)",
+    "모듈형 구조 자체보다 기존 다관절 기구 사용 경험을 로봇 기구·교육·워크플로로 얼마나 연결할 수 있는지가 초기 채택의 핵심."
+   ],
+   "title": "[의료기기(Overweight)/ 다올 박종현] ★ Issue & Pitch: 구조·기구·교육이 만드는 진입장벽 (수술로봇 시리즈 ③)",
+   "post_url": "https://t.me/daolresearch/15279",
+   "source_url": "https://buly.kr/15RrAoz"
   }
  ],
  "cross_mentions": [
@@ -34334,7 +34353,7 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.6
+   "burst": 26.7
   },
   {
    "term": "감익",
@@ -34358,6 +34377,13 @@
    "burst": 7.2
   },
   {
+   "term": "방향",
+   "recent": 11,
+   "total": 17,
+   "sectors": 7,
+   "burst": 6.2
+  },
+  {
    "term": "할인율",
    "recent": 9,
    "total": 14,
@@ -34372,18 +34398,11 @@
    "burst": 5.7
   },
   {
-   "term": "방향",
-   "recent": 10,
-   "total": 16,
-   "sectors": 7,
-   "burst": 5.6
-  },
-  {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.2
+   "burst": 5.3
   },
   {
    "term": "바스켓",
@@ -34407,6 +34426,13 @@
    "burst": 4.6
   },
   {
+   "term": "사용",
+   "recent": 9,
+   "total": 16,
+   "sectors": 7,
+   "burst": 4.5
+  },
+  {
    "term": "뷰티",
    "recent": 25,
    "total": 48,
@@ -34414,25 +34440,18 @@
    "burst": 4.1
   },
   {
-   "term": "사용",
-   "recent": 8,
-   "total": 15,
-   "sectors": 7,
-   "burst": 3.9
-  },
-  {
    "term": "배당수익률",
    "recent": 13,
    "total": 25,
    "sectors": 9,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "우선",
    "recent": 7,
    "total": 13,
    "sectors": 8,
-   "burst": 3.9
+   "burst": 4.0
   }
  ]
 }
