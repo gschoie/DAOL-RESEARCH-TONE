@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-20T22:47:49.974932+00:00",
+ "generated_at": "2026-10-20T22:59:52.208727+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1421,
+ "report_count": 1422,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33291,6 +33291,24 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 미국 자동차: 중고차 가격 반등이 보내는 신호",
    "post_url": "https://t.me/daolresearch/15282",
    "source_url": "https://buly.kr/2fgg0U3"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-10-21",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "JYP Ent.",
+   "code": "035900",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "스키즈 서구권 판매분 반영을 감안하더라도 음반원 매출의 YoY 감소폭은 3Q 대비 확대될 전망",
+    "스키즈 공연 개시로 QoQ는 성장."
+   ],
+   "title": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Preview: 불확실성 해소 필요",
+   "post_url": "https://t.me/daolresearch/15284",
+   "source_url": "https://buly.kr/58VHkKA"
   }
  ],
  "cross_mentions": [
@@ -34405,7 +34423,7 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.4
+   "burst": 26.3
   },
   {
    "term": "감익",
@@ -34433,7 +34451,7 @@
    "recent": 11,
    "total": 17,
    "sectors": 7,
-   "burst": 6.2
+   "burst": 6.1
   },
   {
    "term": "할인율",
@@ -34447,7 +34465,7 @@
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 5.7
+   "burst": 5.6
   },
   {
    "term": "정체",

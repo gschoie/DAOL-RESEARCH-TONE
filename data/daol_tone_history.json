@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T22:47:15.094151+00:00",
+  "generated_at": "2026-10-20T22:59:37.035049+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1421,
+  "report_count": 1422,
   "months": [
     {
       "month": "2026-10",
@@ -2667,8 +2667,35 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 4,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 15284,
+              "date": "2026-10-21",
+              "month": "2026-10",
+              "analyst": "임도영",
+              "sector": "엔터",
+              "company": "JYP Ent.",
+              "code": "035900",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145575/1/20261021_035900_dy.lim_53.pdf",
+              "pdf_error": "",
+              "title": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Preview: 불확실성 해소 필요",
+              "summary": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Preview: 불확실성 해소 필요 ▶ 업종 내 가장 밸류가 낮지만 스키즈의 군입대 방식 구체화 또는 저연차의 가파른 성장 곡선 확인을 통한 28년 이후 실적에 대한 가시성이 확보되기 전까지는 리레이팅 여지도 제한적. 중장기 성장 불확실성을 반영해 멀티플을 하향 조정하며 적정주가 하향 ▶ 3Q26 매출액 2,302억원(YoY-1.0%, QoQ+25.7%), 영업이익 411억원(YoY+0.8%, QoQ+32.7%; OPM 17.9%)으로 컨센 소폭 하회 예상 ▶ 음반원 매출 774억원 전망. 스키즈 앨범의 서구권 판매분은 판매 시점에 따라 3~4Q에 걸쳐서 반영. 트와이스 단체 앨범 부재로 YoY 감소 전망. 4Q는 스키즈 글로벌 컴백이 부재한 가운데 킥플립 제외 50만장 미만 판매가 예상됨. 스키즈 서구권 판매분 반영을 감안하더라도 음반원 매출의 YoY 감소폭은 3Q 대비 확대될 전망 ▶ 공연 매출 456억원 전망. 총 61만명 모객. 스키즈 유럽 및 트와이스 일본 투어가 함께 반영됐던 전년 동기 기저가 높아 YoY 감소 불가피. 스키즈 공연 개시로 QoQ는 성장. 스키즈 자체 페스티벌 수익은 순매출 방식으로 출연료 계정에 반영 예정 ▶ MD 매출 575억원 전망. 스키즈 팬미팅 MD 온라인 판매분 반영 예상. 전체 모객 수는 YoY 감소했지만 스키즈의 모객수는 유사. 스키즈는 팬덤 구매력이 높은 일본 투어 비중이 높고 공연 MD 강화 및 투어 연계 도시별 팝업 진행. 단 가장 규모가 큰 도쿄 팝업은 4Q 반영 예정. MD 는 QoQ, YoY 모두 성장 가능할 전망 ▶ 트와이스는 28년 단체 활동 예상. 27년까지는 스키즈 활동 집중으로 성장이 가능하겠으나 27년말부터 시작되는 군입대 방식에 대한 구체화 전까지는 중",
+              "post_url": "https://t.me/daolresearch/15284",
+              "source_url": "https://buly.kr/58VHkKA"
+            },
             {
               "id": 15274,
               "date": "2026-10-20",
@@ -3369,7 +3396,7 @@
           ]
         }
       ],
-      "report_count": 73
+      "report_count": 74
     },
     {
       "month": "2026-09",
