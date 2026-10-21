@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-21T22:46:40.854197+00:00",
+ "generated_at": "2026-10-21T22:59:47.732758+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1423,
+ "report_count": 1424,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33361,6 +33361,93 @@
    "title": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(유지) | 다올 제약/바이오 이지수] ★ 실적은 확인, 이제는 수주가 답할 때",
    "post_url": "https://t.me/daolresearch/15288",
    "source_url": "https://buly.kr/BIXoQg5"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-22",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "LS ELECTRIC",
+   "code": "010120",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "수주잔고의 큰 변화는 없어 보이지만 원/달러 환율 하락으로 인한 영향이며, 잔고 물량 자체는 증가."
+   ],
+   "title": "[LS ELECTRIC(010120)/ BUY(유지)/ TP 25만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시장 눈높이 상회. 강한 DC 수요 지속",
+   "post_url": "https://t.me/daolresearch/15290",
+   "source_url": "https://buly.kr/5JQ35IW"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-22",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "LS ELECTRIC",
+   "code": "010120",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "특이사항으로는 중국 법인 구조조정 비용 인식이 있었으나 미국 관세 환입으로 해당 손실을 상쇄"
+   ],
+   "title": "[LS ELECTRIC(010120)/ BUY(유지)/ TP 25만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시장 눈높이 상회. 강한 DC 수요 지속",
+   "post_url": "https://t.me/daolresearch/15290",
+   "source_url": "https://buly.kr/5JQ35IW"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-22",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "LS ELECTRIC",
+   "code": "010120",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "3Q26 신규 수주에서 데이터 센터 관련된 계약이 차지하는 규모는 약 50%이며, 2026.10월 북미 데이터센터 전력설비 공급하는 3,540억원 규모 수주를 공시하며 데이터센터 관련 견조한 수요 지속되고 있는 중"
+   ],
+   "title": "[LS ELECTRIC(010120)/ BUY(유지)/ TP 25만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시장 눈높이 상회. 강한 DC 수요 지속",
+   "post_url": "https://t.me/daolresearch/15290",
+   "source_url": "https://buly.kr/5JQ35IW"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-22",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "LS ELECTRIC",
+   "code": "010120",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "전력기기와 배전반의 수주잔고와 매출이 증가하는 추이를 고려했을 시 교대근무 확대를 통한 생산능력",
+    "전력기기와 배전반 사업 호조도 지속 중."
+   ],
+   "title": "[LS ELECTRIC(010120)/ BUY(유지)/ TP 25만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시장 눈높이 상회. 강한 DC 수요 지속",
+   "post_url": "https://t.me/daolresearch/15290",
+   "source_url": "https://buly.kr/5JQ35IW"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-22",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "LS ELECTRIC",
+   "code": "010120",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "전력기기와 배전반의 수주잔고와 매출이 증가하는 추이를 고려했을 시 교대근무 확대를 통한 생산능력",
+    "수주잔고의 큰 변화는 없어 보이지만 원/달러 환율 하락으로 인한 영향이며, 잔고 물량 자체는 증가."
+   ],
+   "title": "[LS ELECTRIC(010120)/ BUY(유지)/ TP 25만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시장 눈높이 상회. 강한 DC 수요 지속",
+   "post_url": "https://t.me/daolresearch/15290",
+   "source_url": "https://buly.kr/5JQ35IW"
   }
  ],
  "cross_mentions": [
@@ -34475,7 +34562,7 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.7
+   "burst": 26.6
   },
   {
    "term": "감익",
@@ -34496,7 +34583,7 @@
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.6
+   "burst": 7.5
   },
   {
    "term": "방향",
@@ -34545,7 +34632,7 @@
    "recent": 9,
    "total": 16,
    "sectors": 7,
-   "burst": 4.5
+   "burst": 4.4
   },
   {
    "term": "뷰티",
@@ -34559,21 +34646,21 @@
    "recent": 13,
    "total": 25,
    "sectors": 9,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "우선",
    "recent": 7,
    "total": 13,
    "sectors": 8,
-   "burst": 4.0
+   "burst": 3.9
   },
   {
    "term": "보수적",
    "recent": 9,
    "total": 18,
    "sectors": 6,
-   "burst": 3.6
+   "burst": 3.5
   }
  ]
 }
