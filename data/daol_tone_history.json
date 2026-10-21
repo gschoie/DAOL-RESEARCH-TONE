@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T17:52:16.711864+00:00",
+  "generated_at": "2026-10-21T22:12:29.385388+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1422,
+  "report_count": 1423,
   "months": [
     {
       "month": "2026-10",
@@ -1087,9 +1087,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "종목명 투자의견 적정주가100 picks Pitch Issue & Pitch | 의료기기",
-              "industry_conclusion": "종목명 투자의견 적정주가100 picks Pitch",
-              "report_conclusion": "종목명 투자의견 적정주가100 picks Pitch",
+              "pitch": "다올투자증권 ISSUE & PITCH (2026.10.21)",
+              "industry_conclusion": "산업 투자의견: 의료기기 (Overweight) - 리브스메드 (491000): 투자의견 BUY, 적정주가 90,000원 유지 (직전 적정주가 90,000원)",
+              "report_conclusion": "산업 투자의견: 의료기기 (Overweight) - 리브스메드 (491000): 투자의견 BUY, 적정주가 90,000원 유지 (직전 적정주가 90,000원)",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -1117,9 +1117,7 @@
               "pitch": "",
               "industry_conclusion": "",
               "report_conclusion": "",
-              "valuation": [
-                "Amazon 가격 동국제약 Centellian24 CENTELLIAN 24 Expert Mad 가격 +49% $22.91 $34.09"
-              ],
+              "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145527/1/20261020_B3020_alex.park_635.pdf",
@@ -2445,8 +2443,35 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 8,
+          "report_count": 9,
           "reports": [
+            {
+              "id": 15288,
+              "date": "2026-10-22",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "삼성바이오로직스",
+              "code": "207940",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145627/1/20261022_207940_jislee_481.pdf",
+              "pdf_error": "",
+              "title": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(유지) | 다올 제약/바이오 이지수] ★ 실적은 확인, 이제는 수주가 답할 때",
+              "summary": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(유지) | 다올 제약/바이오 이지수] ★ 실적은 확인, 이제는 수주가 답할 때 ▶ 3Q26 매출액 1조 4,903억원(+18.5% YoY, +12.8% QoQ), 영업이익 6,401억원(+1.1% YoY, +9.1% QoQ; OPM 43.0%)으로 시장 기대치 상회 ▶ 1~4공장 풀가동과 미국 록빌 공장 매출 인식(986억원), 5공장 램프업이 외형 성장을 견인. 다만 신규공장 초기 가동 비용과 제품 믹스 영향으로 OPM은 QoQ 1.4%p 하락 ▶ 4Q에는 기존 공장 풀가동과 5공장 램프업에도 원화 강세 영향으로 매출액 QoQ 감소 예상. 다만 신규 공장 매출 기여 확대로 연간 매출액 5.5조원(+20.9% YoY), 영업이익 2.4조원(+18.2% YoY)을 기록하며 상향된 매출 가이던스 달성 전망. 3Q 약 3억달러 신규 수주를 확보한 가운데, 관세·파업 불확실성으로 위축됐던 고객사 문의도 회복세. 연말~27년 신규 수주 확대와 6공장 착공이 향후 모멘텀으로 작용할 전망. 투자의견 BUY 및 적정주가 200만원 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/BIXoQg5 >",
+              "post_url": "https://t.me/daolresearch/15288",
+              "source_url": "https://buly.kr/BIXoQg5"
+            },
             {
               "id": 15269,
               "date": "2026-10-20",
@@ -3405,7 +3430,7 @@
           ]
         }
       ],
-      "report_count": 74
+      "report_count": 75
     },
     {
       "month": "2026-09",

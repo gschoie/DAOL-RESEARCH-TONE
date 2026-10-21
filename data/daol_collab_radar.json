@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-21T17:54:26.823913+00:00",
+ "generated_at": "2026-10-21T22:14:23.331171+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1422,
+ "report_count": 1423,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33327,6 +33327,40 @@
    "title": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Preview: 불확실성 해소 필요",
    "post_url": "https://t.me/daolresearch/15284",
    "source_url": "https://buly.kr/58VHkKA"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-22",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "삼성바이오로직스",
+   "code": "207940",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "4Q에는 기존 공장 풀가동과 5공장 램프업에도 원화 강세 영향으로 매출액 QoQ 감소 예상."
+   ],
+   "title": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(유지) | 다올 제약/바이오 이지수] ★ 실적은 확인, 이제는 수주가 답할 때",
+   "post_url": "https://t.me/daolresearch/15288",
+   "source_url": "https://buly.kr/BIXoQg5"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-22",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "삼성바이오로직스",
+   "code": "207940",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "3Q 약 3억달러 신규 수주를 확보한 가운데, 관세·파업 불확실성으로 위축됐던 고객사 문의도 회복세."
+   ],
+   "title": "[삼성바이오로직스(207940) | BUY(유지) | TP 200만원(유지) | 다올 제약/바이오 이지수] ★ 실적은 확인, 이제는 수주가 답할 때",
+   "post_url": "https://t.me/daolresearch/15288",
+   "source_url": "https://buly.kr/BIXoQg5"
   }
  ],
  "cross_mentions": [
@@ -34441,35 +34475,35 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.3
+   "burst": 26.7
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "자사",
    "recent": 6,
    "total": 8,
    "sectors": 7,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "원화",
-   "recent": 20,
-   "total": 30,
-   "sectors": 10,
-   "burst": 7.1
+   "recent": 21,
+   "total": 31,
+   "sectors": 11,
+   "burst": 7.6
   },
   {
    "term": "방향",
    "recent": 11,
    "total": 17,
    "sectors": 7,
-   "burst": 6.1
+   "burst": 6.2
   },
   {
    "term": "할인율",
@@ -34483,27 +34517,20 @@
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 5.6
+   "burst": 5.7
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.2
+   "burst": 5.3
   },
   {
    "term": "바스켓",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.7
-  },
-  {
-   "term": "Cloud",
-   "recent": 6,
-   "total": 10,
-   "sectors": 4,
    "burst": 4.7
   },
   {
@@ -34518,7 +34545,7 @@
    "recent": 9,
    "total": 16,
    "sectors": 7,
-   "burst": 4.4
+   "burst": 4.5
   },
   {
    "term": "뷰티",
@@ -34532,14 +34559,21 @@
    "recent": 13,
    "total": 25,
    "sectors": 9,
-   "burst": 3.9
+   "burst": 4.0
   },
   {
    "term": "우선",
    "recent": 7,
    "total": 13,
    "sectors": 8,
-   "burst": 3.9
+   "burst": 4.0
+  },
+  {
+   "term": "보수적",
+   "recent": 9,
+   "total": 18,
+   "sectors": 6,
+   "burst": 3.6
   }
  ]
 }
