@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22T22:48:01.670590+00:00",
+ "generated_at": "2026-10-22T22:59:55.147087+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1429,
+ "report_count": 1430,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33483,6 +33483,41 @@
    "title": "[삼성E&A(028050)/BUY(유지)/TP 76,000원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자",
    "post_url": "https://t.me/daolresearch/15297",
    "source_url": "https://buly.kr/BpI5jgE"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-23",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "삼성전자, SK하이닉스의 자사주 매입 종료 후 뚜렷한 매수 주체가 부재한 상황에서 외국인 수급이 매수와 매도를 오가며 지수 방향성을 좌우하는 모습 -DOW(+1.7%), S&P500(+0.1%) 상승, NASDAQ(-0.5%) 하락."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
+   "post_url": "https://t.me/daolresearch/15300",
+   "source_url": "https://buly.kr/D3hObxx"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-23",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "국내증시는 반등 연속성을 담보해 줄 주도적인 수급세력이 부재하다는 점도 부담 -AI 투자와 성장에 대한 기대가 완전히 꺾인 상황이라면 주식에서 채권으로 추세적 이동이 나타나겠지만, 현재는 금리도 추세적인 하락을 전망하기 어려움.",
+    "AI 인프라 기업의 부채 및 수익성 우려로 기술주 중심 급락 출발."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
+   "post_url": "https://t.me/daolresearch/15300",
+   "source_url": "https://buly.kr/D3hObxx"
   }
  ],
  "cross_mentions": [
@@ -34597,7 +34632,7 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.7
+   "burst": 26.6
   },
   {
    "term": "감익",
@@ -34618,7 +34653,7 @@
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.6
+   "burst": 7.5
   },
   {
    "term": "방향",
@@ -34653,7 +34688,7 @@
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "분쟁",
@@ -34663,18 +34698,18 @@
    "burst": 4.6
   },
   {
-   "term": "사용",
-   "recent": 9,
-   "total": 16,
-   "sectors": 7,
-   "burst": 4.5
-  },
-  {
    "term": "우선",
    "recent": 8,
    "total": 14,
    "sectors": 8,
    "burst": 4.5
+  },
+  {
+   "term": "사용",
+   "recent": 9,
+   "total": 16,
+   "sectors": 7,
+   "burst": 4.4
   },
   {
    "term": "뷰티",
