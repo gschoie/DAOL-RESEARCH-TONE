@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T17:50:52.256587+00:00",
+  "generated_at": "2026-10-22T22:12:28.750984+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1425,
+  "report_count": 1427,
   "months": [
     {
       "month": "2026-10",
@@ -295,10 +295,65 @@
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
-          "tp_changes": [],
+          "tp_changes": [
+            {
+              "company": "한화생명",
+              "direction": "하향",
+              "old": null,
+              "new": 6000,
+              "display": "6,000원 (하향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "[한화생명(088350)/BUY(유지)/TP 6,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 과거와 미래 그리고 긴 호흡적 접근 ▶ 3Q26E Preview. 당기순손실 399억원(YoY 적전, QoQ 적전)으로 부진한 실적 전망 ▶ 미실현이익 성장력은 양호. CSM 잔액 증가 전망. (1) 신계약 CSM 증가, (2) 특이점 없는 경상적 수준 CSM 조정 예상 ▶ 보험이익(YoY 흑전) 전망, 투자손실 1,899억원 전망. 투자부문이 실적 변수 가능성. 시장 변동성 확대 속 헤지수단 한계와 오픈 포지션 기인. 금리 상승에 보험 본업적 수익성 개선 긍정적이나, 투자손익 변동성 감내해야 함 ▶ 해약환급금준비금 제도 개선 이후 배당 재개 시점 대기와 더불어, 긴 호흡적 접근 필요 판단 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/2JrAlZq > ▶",
+              "date": "2026-10-23",
+              "source": "https://t.me/daolresearch/15296"
+            }
+          ],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 6,
           "reports": [
+            {
+              "id": 15296,
+              "date": "2026-10-23",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "한화생명",
+              "code": "088350",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "한화생명",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 6000,
+                  "display": "6,000원 (하향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "[한화생명(088350)/BUY(유지)/TP 6,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 과거와 미래 그리고 긴 호흡적 접근 ▶ 3Q26E Preview. 당기순손실 399억원(YoY 적전, QoQ 적전)으로 부진한 실적 전망 ▶ 미실현이익 성장력은 양호. CSM 잔액 증가 전망. (1) 신계약 CSM 증가, (2) 특이점 없는 경상적 수준 CSM 조정 예상 ▶ 보험이익(YoY 흑전) 전망, 투자손실 1,899억원 전망. 투자부문이 실적 변수 가능성. 시장 변동성 확대 속 헤지수단 한계와 오픈 포지션 기인. 금리 상승에 보험 본업적 수익성 개선 긍정적이나, 투자손익 변동성 감내해야 함 ▶ 해약환급금준비금 제도 개선 이후 배당 재개 시점 대기와 더불어, 긴 호흡적 접근 필요 판단 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/2JrAlZq > ▶"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [
+                "당기순손실 399억원(YoY 적전, QoQ 적전)으로 부진한 실적 전망"
+              ],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145648/1/20261023_088350_jiwonkim_260.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[한화생명(088350)/BUY(유지)/TP 6,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 과거와 미래 그리고 긴 호흡적 접근",
+              "summary": "[한화생명(088350)/BUY(유지)/TP 6,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 과거와 미래 그리고 긴 호흡적 접근 ▶ 3Q26E Preview. 당기순손실 399억원(YoY 적전, QoQ 적전)으로 부진한 실적 전망 ▶ 미실현이익 성장력은 양호. CSM 잔액 증가 전망. (1) 신계약 CSM 증가, (2) 특이점 없는 경상적 수준 CSM 조정 예상 ▶ 보험이익(YoY 흑전) 전망, 투자손실 1,899억원 전망. 투자부문이 실적 변수 가능성. 시장 변동성 확대 속 헤지수단 한계와 오픈 포지션 기인. 금리 상승에 보험 본업적 수익성 개선 긍정적이나, 투자손익 변동성 감내해야 함 ▶ 해약환급금준비금 제도 개선 이후 배당 재개 시점 대기와 더불어, 긴 호흡적 접근 필요 판단 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/2JrAlZq > ▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15296",
+              "source_url": "https://buly.kr/2JrAlZq"
+            },
             {
               "id": 15248,
               "date": "2026-10-16",
@@ -1838,11 +1893,11 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "산업의 재고조정이 최근 5~6개월간 이뤄지며 나타난 결과로 판단하며, 판단하며, 특히 8\\차량들에 대한 인센티브 하향도 일 당사는 본 ABS 기관투자가 등 제 3자에게 사전 제공한 사실이 아래 종목투자의견은 향후 12개월간 추전기준일 종가대비 추천종목의 예상 기대수익률을 어떠한 외부 압력이나 예상하는 경우",
-              "industry_conclusion": "당사는 본 ABS 기관투자가 등 제 3자에게 사전 제공한 사실이 아래 종목투자의견은 향후 12개월간 추전기준일 종가대비 추천종목의 예상 기대수익률을 당사는 상기 명시한 사항 외에 고지해야 하는 특별한 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 본 자료를 작성한 애널리스트 및 그 배우자는 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음",
-              "report_conclusion": "당사는 본 ABS 기관투자가 등 제 3자에게 사전 제공한 사실이 아래 종목투자의견은 향후 12개월간 추전기준일 종가대비 추천종목의 예상 기대수익률을 당사는 상기 명시한 사항 외에 고지해야 하는 특별한 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 본 자료를 작성한 애널리스트 및 그 배우자는 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음",
+              "pitch": "- 금번 수치는 미국 자동차 산업의 재고조정이 최근 5~6개월간 이뤄지며 나타난 결과로 판단하며, 특히 신차시장에서도 인센티브 하락기조가 9월부터 다소 뚜렷해진 점을 감안시 미국내 자동차 업체들의 수익성 개선 가능성을 시사. - 이는 자동차 업체들이 대대적으로 친환경차 전환이 가빠라지면서 신차생산에 대한 병목현상 본격화에서 발단한 것으로 판단하며, 특히 EV차량들에 대한 인센티브 하향도 일조할 것으로 기대.",
+              "industry_conclusion": "[산업 투자의견] 자동차 Overweight (비중확대)",
+              "report_conclusion": "[산업 투자의견] 자동차 Overweight (비중확대)",
               "valuation": [
-                "2/가 각각 6.604, 4.75] 수준으로 밸류에이션 메리트는"
+                "현대차와 기아의 2026년 P/E가 각각 6.6배, 4.7배 수준으로 밸류에이션 메리트는 충분히 뚜렷함."
               ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -2479,8 +2534,35 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 9,
+          "report_count": 10,
           "reports": [
+            {
+              "id": 15295,
+              "date": "2026-10-23",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "셀트리온",
+              "code": "068270",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145647/1/20261023_068270_jislee_482.pdf",
+              "pdf_error": "",
+              "title": "[셀트리온(068270) | BUY(유지) | TP 29만원(상향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ WAC 2026: 일본의 봄을 노린다",
+              "summary": "[셀트리온(068270) | BUY(유지) | TP 29만원(상향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ WAC 2026: 일본의 봄을 노린다 ▶ WAC 2026에서 옴리클로의 만성 자발성 두드러기(CSU) 환자 대상 3상에서 오리지널 졸레어와의 동등성 확인. 일본인 대상 약동학적 동등성 자료도 확보하며, 일본 의료진의 제품 채택 및 처방 확대 기대 ▶ 일본 시장은 화분증(꽃가루 알레르기 비염)이 중요. 일본 국민 약 40%가 앓는 화분증은 잠재 수요가 크지만, 졸레어 처방은 기존 치료로 조절되지 않는 중증 환자로 제한돼 시장 침투율은 낮은 수준. 옴리클로는 오리지널 대비 약 30% 낮은 약가로 신규 처방 수요 확대 기대 ▶ 27년 화분증 출시를 시작으로 두드러기·천식 등 연중 치료가 필요한 적응증으로 처방 확대 추진 계획. 기존 바이오시밀러 사업으로 구축한 일본 도매상 네트워크, 공급 이력으로 초기 시장 안착에 긍정적인 영향을 줄 전망. 옴리클로 중심의 실적 추정치 상향을 반영해 적정주가 29만원으로 상향하며, 대형주 Top Pick 제시 ★보고서원문 및 컴플라이언스 → < https://buly.kr/EdwDQaf >",
+              "post_url": "https://t.me/daolresearch/15295",
+              "source_url": "https://buly.kr/EdwDQaf"
+            },
             {
               "id": 15288,
               "date": "2026-10-22",
@@ -3500,7 +3582,7 @@
           ]
         }
       ],
-      "report_count": 77
+      "report_count": 79
     },
     {
       "month": "2026-09",

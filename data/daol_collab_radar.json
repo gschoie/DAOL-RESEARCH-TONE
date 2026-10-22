@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22T17:52:35.019991+00:00",
+ "generated_at": "2026-10-22T22:14:45.865684+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1425,
+ "report_count": 1427,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34579,105 +34579,105 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.5
+   "burst": 26.9
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 7.9
+   "burst": 8.0
   },
   {
    "term": "자사",
    "recent": 6,
    "total": 8,
    "sectors": 7,
-   "burst": 7.9
+   "burst": 8.0
   },
   {
    "term": "원화",
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.5
+   "burst": 7.6
   },
   {
    "term": "방향",
    "recent": 11,
    "total": 17,
    "sectors": 7,
-   "burst": 6.2
+   "burst": 6.3
   },
   {
    "term": "할인율",
    "recent": 9,
    "total": 14,
    "sectors": 3,
-   "burst": 5.9
+   "burst": 6.0
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 5.7
+   "burst": 5.8
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.2
+   "burst": 5.3
   },
   {
    "term": "바스켓",
    "recent": 6,
    "total": 10,
    "sectors": 3,
-   "burst": 4.7
+   "burst": 4.8
   },
   {
    "term": "분쟁",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "우선",
    "recent": 8,
    "total": 14,
    "sectors": 8,
-   "burst": 4.5
+   "burst": 4.6
   },
   {
    "term": "사용",
    "recent": 9,
    "total": 16,
    "sectors": 7,
-   "burst": 4.4
+   "burst": 4.5
   },
   {
    "term": "뷰티",
    "recent": 25,
    "total": 48,
    "sectors": 4,
-   "burst": 4.1
-  },
-  {
-   "term": "배당수익률",
-   "recent": 13,
-   "total": 25,
-   "sectors": 9,
-   "burst": 3.9
+   "burst": 4.2
   },
   {
    "term": "보수적",
    "recent": 9,
    "total": 18,
    "sectors": 6,
-   "burst": 3.5
+   "burst": 3.6
+  },
+  {
+   "term": "독일",
+   "recent": 9,
+   "total": 18,
+   "sectors": 4,
+   "burst": 3.6
   }
  ]
 }
