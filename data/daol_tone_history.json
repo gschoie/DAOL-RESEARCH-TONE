@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T01:43:09.404418+00:00",
+  "generated_at": "2026-10-22T17:50:52.256587+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1424,
+  "report_count": 1425,
   "months": [
     {
       "month": "2026-10",
@@ -2894,14 +2894,48 @@
               "value": "중립",
               "date": "2026-10-21",
               "source": "https://t.me/daolresearch/15280"
+            },
+            {
+              "value": "중립",
+              "date": "2026-10-22",
+              "source": "https://t.me/daolresearch/15293"
             }
           ],
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15293,
+              "date": "2026-10-22",
+              "month": "2026-10",
+              "analyst": "조병현",
+              "sector": "매크로·투자전략",
+              "company": "10월",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "우선, 먼저 공개된 통방문에서는 성장 및 물가 전망의 상향 내년도 물가 전망 또한 상향 조정이 시사. 채찍과 당근을 연이어 소회했지만 BIOs 현재 전망 경로에 프레드 등)을 깜안하면 선제적인 시중금리의 정점 통과를 7]대해 볼 수도 있지만, 예상외의 강한 성장과 인플레이션에 대한",
+              "industry_conclusion": "",
+              "report_conclusion": "우선, 먼저 공개된 통방문에서는 성장 및 물가 전망의 상향 내년도 물가 전망 또한 상향 조정이 시사. 채찍과 당근을 연이어 소회했지만 BIOs 현재 전망 경로에 즉, 국고채 3년물 금리가 당장 3.7%대 이하 영역으로 진입하기는 어려울 것으로 전망. 과도 더해질 수 있을 것으로 전망.",
+              "valuation": [
+                "ms SC gs as SLtTPRw Tk wpeRE KP"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145641/1/20261022_B_bhcho_310.pdf",
+              "pdf_error": "",
+              "title": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현] ★ 10월 금통위 Review: 호미질 끝에 채찍과 당근",
+              "summary": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현] ★ 10월 금통위 Review: 호미질 끝에 채찍과 당근 ▶ 10월 금통위 기준금리 동결(3.00%), 만장일치 결정 ▶ 인상의 파급영향을 점검할 필요가 있고, 연속 인상으로 정책 여력도 확보된 상태 ▶ 통방문 매파적. 올해 및 내년 성장률, 내년 물가 상승률 전망치 상향 조정을 시사 ▶ 기자회견 비교적 완화적. 물가 목표(2%)를 당장 달성해야 하는 것은 아니라며 가파른 인상의 필요성에 대해서는 부인 ▶ 결국 채찍과 당근이 공존했던 10월 금통위. 국고채 금리는 금통위 중 상승 이후 재차 상승 폭을 축소. 결과적으로 현재 전망 경로에 대한 즉각적인 수정을 필요로 하지는 않는 중립적인 이벤트로 해석했다는 판단 ▶ 당사는 1) 올해의 높은 성장 및 수출 기저, 2) 누적된 긴축의 효과, 3) 한국 경제에서 수출이 차지하는 절대성과 선행성까지 감안, ‘27년 1분기가 금리를 올릴 마지막 시기라고 판단 ▶ 11월 1회 추가 인상(+25bp) 후, 내년 1분기 중 추가 +25bp 인상 카드를 조율해 활용할 것으로 전망. 최종 금리 3.50% 도달 이후 동결이라는 기존의 전망을 유지하며, 시장 금리는 ‘27년 1분기 전후로 의미 있는 고점 형성을 모색할 것으로 예상 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/FhQl5RK",
+              "post_url": "https://t.me/daolresearch/15293",
+              "source_url": "https://buly.kr/FhQl5RK"
+            },
             {
               "id": 15280,
               "date": "2026-10-21",
@@ -3466,7 +3500,7 @@
           ]
         }
       ],
-      "report_count": 76
+      "report_count": 77
     },
     {
       "month": "2026-09",

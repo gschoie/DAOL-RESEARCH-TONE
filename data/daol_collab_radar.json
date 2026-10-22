@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22T01:43:14.913191+00:00",
+ "generated_at": "2026-10-22T17:52:35.019991+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1424,
+ "report_count": 1425,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33448,6 +33448,23 @@
    "title": "[LS ELECTRIC(010120)/ BUY(유지)/ TP 25만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 시장 눈높이 상회. 강한 DC 수요 지속",
    "post_url": "https://t.me/daolresearch/15290",
    "source_url": "https://buly.kr/5JQ35IW"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-10-22",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "10월",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "10월 금통위 기준금리 동결(3.00%), 만장일치 결정"
+   ],
+   "title": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현] ★ 10월 금통위 Review: 호미질 끝에 채찍과 당근",
+   "post_url": "https://t.me/daolresearch/15293",
+   "source_url": "https://buly.kr/FhQl5RK"
   }
  ],
  "cross_mentions": [
@@ -34562,7 +34579,7 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.6
+   "burst": 26.5
   },
   {
    "term": "감익",
@@ -34611,7 +34628,7 @@
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.3
+   "burst": 5.2
   },
   {
    "term": "바스켓",
@@ -34626,6 +34643,13 @@
    "total": 12,
    "sectors": 5,
    "burst": 4.6
+  },
+  {
+   "term": "우선",
+   "recent": 8,
+   "total": 14,
+   "sectors": 8,
+   "burst": 4.5
   },
   {
    "term": "사용",
@@ -34646,13 +34670,6 @@
    "recent": 13,
    "total": 25,
    "sectors": 9,
-   "burst": 3.9
-  },
-  {
-   "term": "우선",
-   "recent": 7,
-   "total": 13,
-   "sectors": 8,
    "burst": 3.9
   },
   {
