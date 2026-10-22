@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T22:12:28.750984+00:00",
+  "generated_at": "2026-10-22T22:47:36.804699+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1427,
+  "report_count": 1429,
   "months": [
     {
       "month": "2026-10",
@@ -552,8 +552,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 6,
+          "report_count": 7,
           "reports": [
+            {
+              "id": 15299,
+              "date": "2026-10-23",
+              "month": "2026-10",
+              "analyst": "김혜영",
+              "sector": "AI·인터넷·게임·레저",
+              "company": "Meta Platforms",
+              "code": "META US",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145650/1/20261023_B4530_hyyy_222.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[Meta Platforms(META US) | 다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Review: MUSE의 확장을 위한 효율화 강조 ★ Not Rated",
+              "summary": "[Meta Platforms(META US) | 다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Review: MUSE의 확장을 위한 효율화 강조 ★ Not Rated ▶ 일회성 비용을 제외하면 견조한 실적 - 3Q26 매출액은 646억 달러(+26.1% YoY, +6.2% QoQ)로 컨센서스(635억 달러)에 부합. 영업이익은 130억 달러(-36.8% YoY, -41.9% QoQ)로 컨센서스(210억 달러)에 하회 - 8월에 미국의 주(州) 법무장관들과 기만·불공정 행위 혐의 및 COPPA(Children’s Online Privacy Protection Act) 위반 혐의에 대해 합의하며 3Q26에 98.9억 달러를 비용으로 반영. 법률 비용을 제외하면 영업이익은 컨센서스에 소폭 상회하는 수치 - Family of Apps 부문은 광고 노출 수가 10%, 광고 단가가 14% 증가하며 견조한 매출 지속 - Reality Labs 부문은 영업 손실 지속. 2027년 영업손실 가이던스 150억 달러를 예상하며 그 후 흑자 전환 전망 제시 ▶ MUSE가 보여주는 이상적인 AI Agent - 현재 MUSE는 미국·캐나다에서만 출시된 상태. 약 6주 만에 가입자 1,000만 명을 돌파하였고, 앱스토어 1위를 유지 중. 가입자의 약 25%가 매일 사용해 Threads 초기의 2배 이상 수준. 향후 몇 년 내 10억 명 이상을 수용할 수 있는 용량을 구축할 계획 - 다만 현재는 컴퓨팅 비용 부담으로 글로벌 출시는 미정. 오프피크/유휴 컴퓨트 활용, 소형 모델, 추론 최적화를 통해 1년 내 비용 효율을 10배 이상 개선할 계획 - 최다 사용처는 쇼핑으로 사용자 25% 이상이 이용하며 평균 결제액은 200달러 이상. 거래 수수료, 비즈니스 구독, 엔터프라이즈로 이어지는 수익",
+              "post_url": "https://t.me/daolresearch/15299",
+              "source_url": "https://buly.kr/7bJuCNA"
+            },
             {
               "id": 15281,
               "date": "2026-10-21",
@@ -772,6 +799,7 @@
         {
           "analyst": "박영도",
           "sectors": [
+            "건설/부동산",
             "건설·부동산"
           ],
           "opinion": "비중확대",
@@ -809,7 +837,7 @@
               "source": "https://t.me/daolresearch/15147"
             }
           ],
-          "top_pick_change": "해당 기간 최초 명시",
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
               "company": "산업/기타",
@@ -824,6 +852,19 @@
               "evidence": "신설해 GS건설(시공), GS EPS, E&R(발전), GS칼텍스(냉각)를 결합. 전력과 냉각을 그룹 내에서 조달할 수 있는 구조로, 발주처가 요구하는 PUE 기준 대응에 유리. • 동해 캠퍼스. GS 그룹이 추진 중인 AI 데이터센터 캠퍼스가 구체화될 경우 수주 규모 확대 가능. 주택시황 개선에 더해 데이터센터가 매출 공백을 빠르게 메울 것으로 예상. • Captive성 발주의 높은 신뢰도를 감안하여 적정주가 적용 EPS를 2028e로 변경하여 적정주가를 48,000원으로 상향하고 투자의견 Buy 유지. GS건설 (006360) BUY 현재 직전 변동 투자의견 BUY BUY 유지 적정주가 48,000 38,000 상향 Earnings Stock Information 현재가 (9/30) 33,950원 예상 주가상승률 41.4% 시가총액 29,055억원 비중(KOSPI내) 0.05% 발행주식수 85,581천주 52주 최저가 / 최고가 18,110 - 43,100원 3개월 일평균거래대금 846억원 외국인 지분율 19.5%",
               "date": "2026-10-01",
               "source": "https://t.me/daolresearch/15147"
+            },
+            {
+              "company": "삼성E&A",
+              "direction": "상향",
+              "old": null,
+              "new": 76000,
+              "display": "76,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 큰 폭 상회. 충당부채 환입, 인센티브, 준공정산 등 효과 컸으나 이를 제외한 GPM도 13~14%로 견조 - 연간 가이던스를 수주 19조원, 매출 11조원, 영업이익 1.4조원으로 상향 - 호실적에 기반하여 약 7,800억원 자사주 매입 특별주주환원 단행. 적정주가 76,000원으로 상향하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/BpI5jgE",
+              "date": "2026-10-23",
+              "source": "https://t.me/daolresearch/15297"
             }
           ],
           "tp_raises": [
@@ -840,10 +881,74 @@
               "evidence": "신설해 GS건설(시공), GS EPS, E&R(발전), GS칼텍스(냉각)를 결합. 전력과 냉각을 그룹 내에서 조달할 수 있는 구조로, 발주처가 요구하는 PUE 기준 대응에 유리. • 동해 캠퍼스. GS 그룹이 추진 중인 AI 데이터센터 캠퍼스가 구체화될 경우 수주 규모 확대 가능. 주택시황 개선에 더해 데이터센터가 매출 공백을 빠르게 메울 것으로 예상. • Captive성 발주의 높은 신뢰도를 감안하여 적정주가 적용 EPS를 2028e로 변경하여 적정주가를 48,000원으로 상향하고 투자의견 Buy 유지. GS건설 (006360) BUY 현재 직전 변동 투자의견 BUY BUY 유지 적정주가 48,000 38,000 상향 Earnings Stock Information 현재가 (9/30) 33,950원 예상 주가상승률 41.4% 시가총액 29,055억원 비중(KOSPI내) 0.05% 발행주식수 85,581천주 52주 최저가 / 최고가 18,110 - 43,100원 3개월 일평균거래대금 846억원 외국인 지분율 19.5%",
               "date": "2026-10-01",
               "source": "https://t.me/daolresearch/15147"
+            },
+            {
+              "company": "삼성E&A",
+              "direction": "상향",
+              "old": null,
+              "new": 76000,
+              "display": "76,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 큰 폭 상회. 충당부채 환입, 인센티브, 준공정산 등 효과 컸으나 이를 제외한 GPM도 13~14%로 견조 - 연간 가이던스를 수주 19조원, 매출 11조원, 영업이익 1.4조원으로 상향 - 호실적에 기반하여 약 7,800억원 자사주 매입 특별주주환원 단행. 적정주가 76,000원으로 상향하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/BpI5jgE",
+              "date": "2026-10-23",
+              "source": "https://t.me/daolresearch/15297"
             }
           ],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15297,
+              "date": "2026-10-23",
+              "month": "2026-10",
+              "analyst": "박영도",
+              "sector": "건설/부동산",
+              "company": "삼성E&A",
+              "code": "028050",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "삼성E&A",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 76000,
+                  "display": "76,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 큰 폭 상회. 충당부채 환입, 인센티브, 준공정산 등 효과 컸으나 이를 제외한 GPM도 13~14%로 견조 - 연간 가이던스를 수주 19조원, 매출 11조원, 영업이익 1.4조원으로 상향 - 호실적에 기반하여 약 7,800억원 자사주 매입 특별주주환원 단행. 적정주가 76,000원으로 상향하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/BpI5jgE"
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "삼성E&A",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 76000,
+                  "display": "76,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 큰 폭 상회. 충당부채 환입, 인센티브, 준공정산 등 효과 컸으나 이를 제외한 GPM도 13~14%로 견조 - 연간 가이던스를 수주 19조원, 매출 11조원, 영업이익 1.4조원으로 상향 - 호실적에 기반하여 약 7,800억원 자사주 매입 특별주주환원 단행. 적정주가 76,000원으로 상향하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/BpI5jgE"
+                }
+              ],
+              "pitch": "- 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 큰 폭 상회. 충당부채 환입, 인센티브, 준공정산 등 효과 컸으나 이를 제외한 GPM도 13~14%로 견조 - 연간 가이던스를 수주 19조원, 매출 11조원, 영업이익 1.4조원으로 상향 - 호실적에 기반하여 약 7,800억원 자사주 매입 특별주주환원 단행. 적정주가 76,000원으로 상향하고 투자의견 Buy 유지",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145649/1/20261023_028050_ypark_117.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[삼성E&A(028050)/BUY(유지)/TP 76,000원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자",
+              "summary": "[삼성E&A(028050)/BUY(유지)/TP 76,000원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 당사추정치와 컨센서스 큰 폭 상회. 충당부채 환입, 인센티브, 준공정산 등 효과 컸으나 이를 제외한 GPM도 13~14%로 견조 - 연간 가이던스를 수주 19조원, 매출 11조원, 영업이익 1.4조원으로 상향 - 호실적에 기반하여 약 7,800억원 자사주 매입 특별주주환원 단행. 적정주가 76,000원으로 상향하고 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/BpI5jgE",
+              "post_url": "https://t.me/daolresearch/15297",
+              "source_url": "https://buly.kr/BpI5jgE"
+            },
             {
               "id": 15147,
               "date": "2026-10-01",
@@ -3582,7 +3687,7 @@
           ]
         }
       ],
-      "report_count": 79
+      "report_count": 81
     },
     {
       "month": "2026-09",

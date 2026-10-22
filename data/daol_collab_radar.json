@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22T22:14:45.865684+00:00",
+ "generated_at": "2026-10-22T22:48:01.670590+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1427,
+ "report_count": 1429,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33465,6 +33465,24 @@
    "title": "[Macro Issue / 다올투자증권 매크로·투자전략 조병현] ★ 10월 금통위 Review: 호미질 끝에 채찍과 당근",
    "post_url": "https://t.me/daolresearch/15293",
    "source_url": "https://buly.kr/FhQl5RK"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-23",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "삼성E&A",
+   "code": "028050",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "충당부채 환입, 인센티브, 준공정산 등 효과 컸으나 이를 제외한 GPM도 13~14%로 견조 - 연간 가이던스를 수주 19조원, 매출 11조원, 영업이익 1.4조원으로 상향 - 호실적에 기반하여 약 7,800억원 자사주 매입 특별주주환원 단행.",
+    "3Q26 Review: 실적, 전망, 주주환원 삼박자"
+   ],
+   "title": "[삼성E&A(028050)/BUY(유지)/TP 76,000원(상향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 실적, 전망, 주주환원 삼박자",
+   "post_url": "https://t.me/daolresearch/15297",
+   "source_url": "https://buly.kr/BpI5jgE"
   }
  ],
  "cross_mentions": [
@@ -34579,21 +34597,21 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.9
+   "burst": 26.7
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 8.0
+   "burst": 7.9
   },
   {
    "term": "자사",
    "recent": 6,
    "total": 8,
    "sectors": 7,
-   "burst": 8.0
+   "burst": 7.9
   },
   {
    "term": "원화",
@@ -34607,21 +34625,21 @@
    "recent": 11,
    "total": 17,
    "sectors": 7,
-   "burst": 6.3
+   "burst": 6.2
   },
   {
    "term": "할인율",
    "recent": 9,
    "total": 14,
    "sectors": 3,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 21,
    "sectors": 9,
-   "burst": 5.8
+   "burst": 5.7
   },
   {
    "term": "정체",
@@ -34642,13 +34660,6 @@
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.7
-  },
-  {
-   "term": "우선",
-   "recent": 8,
-   "total": 14,
-   "sectors": 8,
    "burst": 4.6
   },
   {
@@ -34659,11 +34670,18 @@
    "burst": 4.5
   },
   {
+   "term": "우선",
+   "recent": 8,
+   "total": 14,
+   "sectors": 8,
+   "burst": 4.5
+  },
+  {
    "term": "뷰티",
    "recent": 25,
    "total": 48,
    "sectors": 4,
-   "burst": 4.2
+   "burst": 4.1
   },
   {
    "term": "보수적",
