@@ -50,6 +50,11 @@ jobs:
                    f"오늘 보고서 {n}건 반영 · 런 {run['conclusion']}"]
           if pdf: lines.append(pdf)
           if allfail: lines.append("⚠️ PDF 수집 전패 — 수집 경로 점검 필요")
+          # 미러 트리거는 실패해도 경고만 남기고 런은 성공 처리된다 — 여기서라도 드러낸다
+          mm = re.search(r'미러 트리거 실패\(HTTP (\d+)\)', log)
+          if mm:
+              lines.append(f"⚠️ 외부 공유 미러 동기화 실패(HTTP {mm.group(1)}) — "
+                           + ("MIRROR_PAT 토큰 만료/폐기, 재발급 필요" if mm.group(1) == '401' else "미러 저장소 확인 필요"))
           lines.append("https://gschoie.github.io/DAOL-RESEARCH-TONE/")
           data = urllib.parse.urlencode({'chat_id': os.environ['TG_CHAT'], 'text': '\n'.join(lines),
                                          'disable_web_page_preview': 'true'}).encode()
