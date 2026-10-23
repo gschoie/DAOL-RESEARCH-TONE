@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:15:46.634141+00:00",
+ "generated_at": "2026-10-23T00:12:18.483601+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1430,
  "hits": [
@@ -33509,11 +33509,28 @@
    "sector": "전략/시황",
    "company": "산업/기타",
    "code": "",
-   "direction": "피해",
-   "score": -1,
+   "direction": "중립",
+   "score": 0,
    "evidences": [
     "국내증시는 반등 연속성을 담보해 줄 주도적인 수급세력이 부재하다는 점도 부담 -AI 투자와 성장에 대한 기대가 완전히 꺾인 상황이라면 주식에서 채권으로 추세적 이동이 나타나겠지만, 현재는 금리도 추세적인 하락을 전망하기 어려움.",
     "AI 인프라 기업의 부채 및 수익성 우려로 기술주 중심 급락 출발."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
+   "post_url": "https://t.me/daolresearch/15300",
+   "source_url": "https://buly.kr/D3hObxx"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-10-23",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "이벤트 일정 & 증시 동향 및 전망 (4p) 일반적으로 GDP 같은 최상위 수위의 지표들은 적시성 측면에서 약점을 가지고 있지만, 고금리, 고유가 지속이 심각한 부담 요인으로 인식되고 있는 현 시점에서는 총량 관점의 성장이 비용 요소들이 주는 부담을 극복하고 있다는 확인을 할 수 있다는 관점에서 중요도가 높을 것으로 판단."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
    "post_url": "https://t.me/daolresearch/15300",
