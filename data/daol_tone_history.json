@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T16:57:08.401756+00:00",
+  "generated_at": "2026-10-25T22:11:51.277186+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1431,
+  "report_count": 1432,
   "months": [
     {
       "month": "2026-10",
@@ -270,6 +270,11 @@
               "value": "비중확대",
               "date": "2026-10-16",
               "source": "https://t.me/daolresearch/15248"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-10-26",
+              "source": "https://t.me/daolresearch/15305"
             }
           ],
           "top_picks": [
@@ -311,8 +316,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 6,
+          "report_count": 7,
           "reports": [
+            {
+              "id": 15305,
+              "date": "2026-10-26",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "하나금융지주",
+              "code": "086790",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145708/1/20261026_086790_jiwonkim_262.pdf",
+              "pdf_error": "",
+              "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 하나금융지주(086790): 무난했고, 다음은 안정성과 주주환원 확대",
+              "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 하나금융지주(086790): 무난했고, 다음은 안정성과 주주환원 확대 ▶ 3Q26 Review. 연결 순이익 1조 2,214억원(YoY+7.9%, QoQ+2.4%). 컨센서스와 당사 추정치 부합 ▶ 이자이익은 복합. NIM 하락에도 대출 양적 성장과 생명 변액보험 보험금융비용 관련 계정대체 효과 반영 ▶ 비이자이익은 외화환산이익에도 감소. 회계적 상쇄작용 제외하고 수익구조 안정성과 다변화 여부 확인 필요 판단 ▶ 예상수준의 4Q26 자사주 매입소각 규모 발표. 27년 총주주환원율 50% 달성 기대 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/6156S7a > ★ 우리금융지주(316140): 시너지 기반 체력 중요, 주주환원 주목 ▶ 3Q26 Review. 연결 순이익 1조 492억원(YoY-15.7%, QoQ+4.4%)으로, 컨센서스와 당사 추정치 상회 ▶ 우려 대비 무난한 이자이익. 은행 이자이익은 감소했고, 비은행 자회사 이자이익 증가로 방어한 모습 ▶ 기타비이자이익에 변동성 존재. 향후 비이자이익에 수수료부문 체력이 중요 판단 ▶ 높아진 자본비율과 자본여력. 연말 비과세배당과 27년 총주주환원율 큰 폭 확대의 주주환원 모멘텀 유효 ▶ 은행업종 관심종목 유지 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/GP5oKFN > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15305",
+              "source_url": "https://buly.kr/GP5oKFN"
+            },
             {
               "id": 15296,
               "date": "2026-10-23",
@@ -3780,7 +3812,7 @@
           ]
         }
       ],
-      "report_count": 83
+      "report_count": 84
     },
     {
       "month": "2026-09",
