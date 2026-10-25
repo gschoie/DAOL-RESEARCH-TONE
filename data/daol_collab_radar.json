@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-25T01:28:08.889971+00:00",
+ "generated_at": "2026-10-25T16:58:42.318136+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1430,
+ "report_count": 1431,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33535,6 +33535,58 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
    "post_url": "https://t.me/daolresearch/15300",
    "source_url": "https://buly.kr/D3hObxx"
+  },
+  {
+   "theme": "해운 운임",
+   "category": "원자재",
+   "date": "2026-10-25",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "탱커 △ VLCC 스팟 운임 하락세로 시장 주도권이 차터러 측으로 이동 중이나 선물 운임은 견고하게 유지 ▽ 2027년 5월 인도 조건의 VLCC 매각에서는 선가 크게 하락"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국 MISC LNG선, Maersk 컨선 수주. 그러나 돌파구 FLNG 등 업데이트 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15303",
+   "source_url": "https://bit.ly/DOS845"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-25",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국 MISC LNG선, Maersk 컨선 수주. 그러나 돌파구 FLNG 등 업데이트 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15303",
+   "source_url": "https://bit.ly/DOS845"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-25",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "LNG ▼ MISC, 중국 Hudong-Zhonghua에 신조 LNG선 옵션 5척 행사하며 발주량 2배 확대 △ Shell의 LNG Canada 2단계에서, 스페인 업체 EPCM 서비스 계약 체결 △ 미국 Cheniere → 카타르 QatarEnergy, 4MTPA 규모 장기공급계약 체결 △ QatarEnergy ’다크 LNG선대‘ 운항 확대",
+    "첨단 산업 대비 노동집약적 특성으로 사양 산업 평가가 있으나, 국가 핵심 산업으로서 수십 년간 생존할 것으로 전망 Cheniere는 미국 내 시장 리더십을 공고히 하고, QatarEnergy는 지정학적 충격 속 글로벌 공급 안정성 및 트레이딩 역량 제고 전망 대규모 신조 인도와 운임 약세 지속으로 2026년 스팀터빈 등 노후 LNG선 폐선이 20척 이상으로 급증할 전망 현재 운영 선대는 68척(LNG선 66척, VLGC 1척,"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국 MISC LNG선, Maersk 컨선 수주. 그러나 돌파구 FLNG 등 업데이트 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15303",
+   "source_url": "https://bit.ly/DOS845"
   }
  ],
  "cross_mentions": [
@@ -34641,6 +34693,18 @@
    "evidence": "- 3Q26부터 카카오 투입원가가 YoY 하락하는 가운데, 상반기부터 진행 중인 경영구조 효율화 효과가 원가율 개선에 기여할 전망.",
    "title": "[음식료(Overweight) | 다올 음식료/통신 이다연] ★ Spot Issue: 음식료 주가 좋은데 뭘 살까?",
    "post_url": "https://t.me/daolresearch/15258"
+  },
+  {
+   "company": "HMM",
+   "code": "011200",
+   "owner_analyst": "오정하",
+   "owner_sector": "운송/로봇",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "date": "2026-10-25",
+   "evidence": "컨테이너 ▼ AP Moller-Maersk는 최대 24척(5.5십억달러) 컨테이너선 발주 후보를 중국 조선소 2곳으로 압축 ▲ HMM, HD현대중공업에 네오파나막스 컨테이너선 8척 1.5십억달러 규모 발주",
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국 MISC LNG선, Maersk 컨선 수주. 그러나 돌파구 FLNG 등 업데이트 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15303"
   }
  ],
  "candidates": [
@@ -34649,20 +34713,13 @@
    "recent": 27,
    "total": 30,
    "sectors": 3,
-   "burst": 26.6
+   "burst": 26.7
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 7.9
-  },
-  {
-   "term": "자사",
-   "recent": 6,
-   "total": 8,
-   "sectors": 7,
    "burst": 7.9
   },
   {
@@ -34748,6 +34805,13 @@
    "total": 18,
    "sectors": 4,
    "burst": 3.6
+  },
+  {
+   "term": "구축",
+   "recent": 16,
+   "total": 33,
+   "sectors": 10,
+   "burst": 3.5
   }
  ]
 }

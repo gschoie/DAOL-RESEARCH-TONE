@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T01:28:04.530228+00:00",
+  "generated_at": "2026-10-25T16:57:08.401756+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1430,
+  "report_count": 1431,
   "months": [
     {
       "month": "2026-10",
@@ -3211,7 +3211,7 @@
           "sectors": [
             "조선/기계/방산"
           ],
-          "opinion": "비중확대",
+          "opinion": "중립",
           "opinion_history": [
             {
               "value": "중립",
@@ -3232,6 +3232,11 @@
               "value": "비중확대",
               "date": "2026-10-19",
               "source": "https://t.me/daolresearch/15259"
+            },
+            {
+              "value": "중립",
+              "date": "2026-10-25",
+              "source": "https://t.me/daolresearch/15303"
             }
           ],
           "top_picks": [
@@ -3278,8 +3283,42 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 10,
+          "report_count": 11,
           "reports": [
+            {
+              "id": 15303,
+              "date": "2026-10-25",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "다올",
+              "code": "",
+              "report_type": "기업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "조선업 주가 하락은 짧은 수급 흐름 및 중국의 공격적 M/S 및 사업 확대에 대한 기우로 판단합니다. ▽ EU의 중국차 견제에도, PCTC 시장 강세 전망 강화 △ ExxonMobil Papua LNG 프로젝트 운영사로 교체. HD한국조선해양 (1년 누적 매수, 억원) 한화오션 (1년 누적 매수, 억원)",
+              "industry_conclusion": "",
+              "report_conclusion": "▽ EU의 중국차 견제에도, PCTC 시장 강세 전망 강화 △ ExxonMobil Papua LNG 프로젝트 운영사로 교체. 첨단 산업 대비 노동집약적 특성으로 사양 산업 평가가 있으나, 국가 핵심 산업으로서 수십 년간 생존할 것으로 전망 Cheniere는 미국 내 시장 리더십을 공고히 하고, QatarEnergy는 지정학적 충격 속 글로벌 공급 안정성 및 트레이딩 역량 제고 전망 대규모 신조 인도와 운임 약세 지속으로 2026년 스팀터빈 등 노후 LNG선 폐선이 20척 이상으로 급증할 전망 현재 운영 선대는 68척(LNG선 66척, VLGC 1척, FSRU 1척)이며, 신조선 인도 완료 시 107척으로 확대될 전망",
+              "valuation": [
+                "⑦ Eni가 Perla 가스전 개발 및 수출용 FLNG 계획서를 정부에 제출합니다.",
+                "해양/디펜스 ❔ ▲ Eni의 베네수엘라 Perla FLNG 사업 계획서 정부 제출 ` ❔ ▲ 베네수엘라 Perla FLNG EOI 발송.",
+                "▶ 한국 조선5사 Perf orm ance",
+                "최근 22년 차 VLCC Southern Emperor가 110백만달러에 매각되는 등 노후 대형 탱커의 고가 거래 지속",
+                "▲ Eni의 베네수엘라 Perla FLNG 사업 계획서 정부 제출",
+                "Eni는 베네수엘라 Falcon 분지 Cardon IV 광구 Perla 가스전 개발 및 FLNG 수출 계획서를 정부에 제출함"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145687/1/20261025_B2040_gs.choie_604.pdf",
+              "pdf_error": "",
+              "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국 MISC LNG선, Maersk 컨선 수주. 그러나 돌파구 FLNG 등 업데이트 ⚓ 주시 뉴스",
+              "summary": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국 MISC LNG선, Maersk 컨선 수주. 그러나 돌파구 FLNG 등 업데이트 ⚓ 주시 뉴스 ▶ 선가, 실적, 캐파 ▽ LNG선 신조선가가 245백만달러로 또 하락. 중고선가지수는 5주 연속 상승 ▷ 일본 2035년까지 신조 CAPA 18백만-GT로 2배 확대 추진 ▶ 그린쉽 ▲ EPS가 세계 최초 암모니아 D/F VLAC 명명식 울산에서 진행 ▶ LNG ▼ MISC, 중국 Hudong-Zhonghua에 신조 LNG선 옵션 5척 행사하며 발주량 2배 확대 △ Shell의 LNG Canada 2단계에서, 스페인 업체 EPCM 서비스 계약 체결 △ 미국 Cheniere → 카타르 QatarEnergy, 4MTPA 규모 장기공급계약 체결 △ QatarEnergy ’다크 LNG선대‘ 운항 확대 ▶ 가스선 △ Maersk Tankers, 암모니아 연료 적용 준비 ▶ 컨테이너 ▼ AP Moller-Maersk는 최대 24척(5.5십억달러) 컨테이너선 발주 후보를 중국 조선소 2곳으로 압축 ▲ HMM, HD현대중공업에 네오파나막스 컨테이너선 8척 1.5십억달러 규모 발주 ▶ 탱커 △ VLCC 스팟 운임 하락세로 시장 주도권이 차터러 측으로 이동 중이나 선물 운임은 견고하게 유지 ▽ 2027년 5월 인도 조건의 VLCC 매각에서는 선가 크게 하락 ▶ 해양/디펜스/바람 ▲ Eni의 베네수엘라 Perla FLNG 사업 계획서 정부 제출 △ 카타르 North Field 서부 확장 사업(NFW) 해양 패키지 입찰 제안서 수령 ▶ 기타 ▽ EU의 중국차 견제에도, PCTC 시장 강세 전망 강화 < ☞ https://bit.ly/DOS845 > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15303",
+              "source_url": "https://bit.ly/DOS845"
+            },
             {
               "id": 15266,
               "date": "2026-10-19",
@@ -3741,7 +3780,7 @@
           ]
         }
       ],
-      "report_count": 82
+      "report_count": 83
     },
     {
       "month": "2026-09",
