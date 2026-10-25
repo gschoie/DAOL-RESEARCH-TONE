@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-25T22:23:41.171378+00:00",
+ "generated_at": "2026-10-25T22:46:42.534515+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1433,
+ "report_count": 1435,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33605,6 +33605,23 @@
    "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 하나금융지주(086790): 무난했고, 다음은 안정성과 주주환원 확대",
    "post_url": "https://t.me/daolresearch/15305",
    "source_url": "https://buly.kr/GP5oKFN"
+  },
+  {
+   "theme": "중국 경기/부양",
+   "category": "매크로",
+   "date": "2026-10-26",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "현대차·기아 반사이익: 중국 시장 노출도가 낮아 다운사이클 영향을 피하며 연내 글로벌 M/S 8%대 복귀 기대."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 중국 10월 판매 부진 예고",
+   "post_url": "https://t.me/daolresearch/15308",
+   "source_url": "https://buly.kr/Csmei27"
   }
  ],
  "cross_mentions": [
@@ -34731,14 +34748,14 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.3
+   "burst": 21.2
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 8.2
+   "burst": 8.1
   },
   {
    "term": "원화",
@@ -34766,14 +34783,14 @@
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.5
+   "burst": 5.4
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
-   "burst": 5.3
+   "burst": 5.2
   },
   {
    "term": "바스켓",
@@ -34794,7 +34811,7 @@
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "사용",
@@ -34808,7 +34825,14 @@
    "recent": 25,
    "total": 48,
    "sectors": 4,
-   "burst": 4.3
+   "burst": 4.2
+  },
+  {
+   "term": "배당수익률",
+   "recent": 13,
+   "total": 26,
+   "sectors": 9,
+   "burst": 3.8
   },
   {
    "term": "보수적",
@@ -34823,13 +34847,6 @@
    "total": 18,
    "sectors": 4,
    "burst": 3.7
-  },
-  {
-   "term": "구축",
-   "recent": 16,
-   "total": 33,
-   "sectors": 10,
-   "burst": 3.6
   }
  ]
 }
