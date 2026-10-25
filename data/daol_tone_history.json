@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T22:17:56.372445+00:00",
+  "generated_at": "2026-10-25T22:21:21.765133+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1432,
+  "report_count": 1433,
   "months": [
     {
       "month": "2026-10",
@@ -1092,9 +1092,10 @@
           "sectors": [
             "의료기기",
             "의료기기/화장품",
-            "화장품"
+            "화장품",
+            "화장품/의료기기"
           ],
-          "opinion": "비중확대",
+          "opinion": "중립",
           "opinion_history": [
             {
               "value": "비중확대",
@@ -1120,6 +1121,11 @@
               "value": "비중확대",
               "date": "2026-10-21",
               "source": "https://t.me/daolresearch/15279"
+            },
+            {
+              "value": "중립",
+              "date": "2026-10-26",
+              "source": "https://t.me/daolresearch/15306"
             }
           ],
           "top_picks": [
@@ -1129,7 +1135,7 @@
               "source": "https://t.me/daolresearch/15176"
             }
           ],
-          "top_pick_change": "전월과 문구/구성 변경",
+          "top_pick_change": "해당 기간 최초 명시",
           "tp_changes": [
             {
               "company": "코스메카코리아",
@@ -1290,8 +1296,35 @@
               "source": "https://t.me/daolresearch/15186"
             }
           ],
-          "report_count": 18,
+          "report_count": 19,
           "reports": [
+            {
+              "id": 15306,
+              "date": "2026-10-26",
+              "month": "2026-10",
+              "analyst": "박종현",
+              "sector": "화장품/의료기기",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "중립",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "본자료는고객의투자판단을 돋기우해작성된참고용자료입니다. @점수는0…100(50=중립).수근=외국인:기관 5일 순매수의 시가종액 대비 강도지속성, 기술=20'60일 추세:돌파-거래량65| 주정=당사 기 공표추정치기준 12개월 선행 영업이익:매출 순이익의 3개월 변화, SO REST 3개월 전 비교추정치가 없는 종목\"3\\/ 변경 YS’ WINS 수근-기술 두 항목으로 판정.",
+              "industry_conclusion": "투자의견4/『ㆍ수급-기술 2항목으로 판정 4 당사가기 공표한조사분석자료의 추정치 3개월 변화를 정해진 산식으로점수화한규칙 [BE | ALTO), OOIEY 표시는하당종목의 투자의견및 목표주가를의미하지 않으며 향후 주가를예측하는 지표가이님 @본자료는기공표한조사분석자료의 추정치와시장데이터를정하진산식으로수치화한것으로, 새모운투자의견이나목표주가를제시하지않음.",
+              "report_conclusion": "투자의견4/『ㆍ수급-기술 2항목으로 판정 4 당사가기 공표한조사분석자료의 추정치 3개월 변화를 정해진 산식으로점수화한규칙 [BE | ALTO), OOIEY 표시는하당종목의 투자의견및 목표주가를의미하지 않으며 향후 주가를예측하는 지표가이님 @본자료는기공표한조사분석자료의 추정치와시장데이터를정하진산식으로수치화한것으로, 새모운투자의견이나목표주가를제시하지않음.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145710/1/20261026_B3510_alex.park_637.pdf",
+              "pdf_error": "",
+              "title": "[다올 화장품/의료기기 박종현] - 주간 모멘텀 체크: 알렉스 빡 다방 (10/26)",
+              "summary": "[다올 화장품/의료기기 박종현] - 주간 모멘텀 체크: 알렉스 빡 다방 (10/26) ▶ Implication 24종목 중 모멘텀 개선 2종목(펌텍코리아·아이센스), 둔화 2종목(LG생활건강·대웅제약) 펌텍코리아·아이센스는 수급·기술·추정 지표 동반 개선. 리브스메드(+30.5%)·엘앤씨바이오(+29.5%)는 최근 20일 주가 강세 에이피알은 추정치 하향에도 Amazon·TikTok 지표 개선 * 보고서 원문 및 컴플라이언스 < https://buly.kr/Csmei5W > * 텔레그램 채널 https://t.me/alexppark",
+              "post_url": "https://t.me/daolresearch/15306",
+              "source_url": "https://buly.kr/Csmei5W"
+            },
             {
               "id": 15279,
               "date": "2026-10-21",
@@ -3812,7 +3845,7 @@
           ]
         }
       ],
-      "report_count": 84
+      "report_count": 85
     },
     {
       "month": "2026-09",

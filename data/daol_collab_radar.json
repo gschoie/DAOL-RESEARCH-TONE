@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-25T22:18:00.373010+00:00",
+ "generated_at": "2026-10-25T22:23:41.171378+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1432,
+ "report_count": 1433,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34731,7 +34731,7 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.4
+   "burst": 21.3
   },
   {
    "term": "감익",
@@ -34745,21 +34745,21 @@
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "방향",
    "recent": 11,
    "total": 17,
    "sectors": 7,
-   "burst": 6.5
+   "burst": 6.4
   },
   {
    "term": "할인율",
    "recent": 9,
    "total": 14,
    "sectors": 3,
-   "burst": 6.2
+   "burst": 6.1
   },
   {
    "term": "정체",
@@ -34818,18 +34818,18 @@
    "burst": 3.7
   },
   {
-   "term": "구축",
-   "recent": 16,
-   "total": 33,
-   "sectors": 10,
-   "burst": 3.7
-  },
-  {
    "term": "독일",
    "recent": 9,
    "total": 18,
    "sectors": 4,
    "burst": 3.7
+  },
+  {
+   "term": "구축",
+   "recent": 16,
+   "total": 33,
+   "sectors": 10,
+   "burst": 3.6
   }
  ]
 }
