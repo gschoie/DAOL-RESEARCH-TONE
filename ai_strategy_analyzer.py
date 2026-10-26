@@ -225,7 +225,9 @@ def main():
     model_idx, done, errors, started = 0, 0, 0, time.monotonic()
     delay = float(os.getenv('AI_CALL_DELAY', '6.5'))
     try:
-        for r in pending[:args.max]:
+        todo = pending[:args.max]; i = 0
+        while i < len(todo):
+            r = todo[i]
             if time.monotonic() - started > args.budget_seconds:
                 print('예산 소진 — 다음 런에서 계속'); break
             try:
@@ -233,15 +235,17 @@ def main():
                 cache[str(r['id'])] = {'v': SCHEMA_VERSION, 'model': queue[model_idx],
                                        'analyzed_at': datetime.now(timezone.utc).isoformat(),
                                        'result': normalize(raw)}
-                done += 1
+                done += 1; i += 1
             except QuotaExhaustedError as exc:
-                if done == 0 and model_idx + 1 < len(queue):
-                    model_idx += 1; print(f'::warning::모델 전환 → {queue[model_idx]}'); continue
+                # 일일 한도는 모델별로 따로다(3.6-flash는 무료 티어 RPD가 작아 런당 1~13건에서
+                # 끊겼다) — 성공 여부와 무관하게 다음 모델로 내려가 같은 자료를 다시 시도한다.
+                if model_idx + 1 < len(queue):
+                    model_idx += 1; print(f'::warning::모델 한도 소진 → {queue[model_idx]}로 전환'); continue
                 print(f'::warning::{str(exc)[:200]}'); break
             except Exception as exc:
                 if done == 0 and ('404' in str(exc) or '400' in str(exc)) and model_idx + 1 < len(queue):
                     model_idx += 1; print(f'::warning::모델 전환 → {queue[model_idx]}'); continue
-                errors += 1
+                errors += 1; i += 1
                 print(f"::warning::전략 {r['id']} 구조화 실패: {str(exc)[:160]}")
                 if errors >= 6: break
             time.sleep(delay)
