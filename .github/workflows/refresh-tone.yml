@@ -183,7 +183,15 @@ jobs:
             git add data/ site/daol_collab_radar.html
             git diff --cached --quiet || git commit -m "chore(data): 톤 데이터 갱신 $(TZ=Asia/Seoul date +%F)"
             for attempt in 1 2 3; do
-              git pull --rebase --autostash origin main && git push origin main && exit 0
+              if git pull --rebase --autostash origin main; then git push origin main && exit 0; fi
+              # 리베이스 충돌(다른 런과 겹침): 캐시 JSON은 양쪽 합집합, 재생성 산출물은 이 런 결과로
+              # 해결한다 — 10/27 아침 런과 푸시 런이 겹쳐 전략 구조화 16건이 통째로 유실된 사고 방지.
+              if git status --porcelain | grep -q '^\(UU\|AA\|DU\|UD\)'; then
+                if python merge_data_conflicts.py && GIT_EDITOR=true git rebase --continue; then
+                  git push origin main && exit 0
+                fi
+                git rebase --abort
+              fi
               echo "--- push attempt $attempt failed, retrying ---"
               sleep 5
             done

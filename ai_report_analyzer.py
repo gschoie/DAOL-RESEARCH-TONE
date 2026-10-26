@@ -121,8 +121,10 @@ def _post_json(url, body, headers, timeout=90):
         return json.loads(response.read().decode('utf-8'))
 
 
+# 모델별로 무료 일일 한도가 따로라 후보가 많을수록 하루 처리량이 는다. gemini-2.0-flash는
+# 2026-10 폐기(404)돼 제외 — 목록은 런마다 data/ai_models.json에 덤프되니 거기서 확인.
 GEMINI_CANDIDATES = ['gemini-flash-lite-latest', 'gemini-3.6-flash', 'gemini-3.5-flash',
-                     'gemini-2.5-flash', 'gemini-2.0-flash']
+                     'gemini-2.5-flash', 'gemini-3.1-flash-lite', 'gemini-2.5-flash-lite']
 
 
 def gemini_model_queue():

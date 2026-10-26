@@ -243,7 +243,8 @@ def main():
                     model_idx += 1; print(f'::warning::모델 한도 소진 → {queue[model_idx]}로 전환'); continue
                 print(f'::warning::{str(exc)[:200]}'); break
             except Exception as exc:
-                if done == 0 and ('404' in str(exc) or '400' in str(exc)) and model_idx + 1 < len(queue):
+                # 폐기된 모델(404)·요청 거부(400)는 자료가 아니라 모델 문제 — 성공 여부와 무관하게 다음 모델로
+                if ('404' in str(exc) or '400' in str(exc)) and model_idx + 1 < len(queue):
                     model_idx += 1; print(f'::warning::모델 전환 → {queue[model_idx]}'); continue
                 errors += 1; i += 1
                 print(f"::warning::전략 {r['id']} 구조화 실패: {str(exc)[:160]}")
