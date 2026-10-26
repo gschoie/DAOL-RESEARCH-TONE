@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T01:31:55.225847+00:00",
+  "generated_at": "2026-10-26T14:48:38.878064+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1435,
+  "report_count": 1436,
   "months": [
     {
       "month": "2026-10",
@@ -3396,7 +3396,7 @@
           "sectors": [
             "조선/기계/방산"
           ],
-          "opinion": "중립",
+          "opinion": "비중확대",
           "opinion_history": [
             {
               "value": "중립",
@@ -3422,6 +3422,11 @@
               "value": "중립",
               "date": "2026-10-25",
               "source": "https://t.me/daolresearch/15303"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-10-26",
+              "source": "https://t.me/daolresearch/15314"
             }
           ],
           "top_picks": [
@@ -3468,8 +3473,42 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 11,
+          "report_count": 12,
           "reports": [
+            {
+              "id": 15314,
+              "date": "2026-10-26",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "HD현대마린솔루션",
+              "code": "443060",
+              "report_type": "기업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "• 동사를 중장기 투자하자고 제안 드려온 투자포인트는 1) 서비스 대상",
+              "industry_conclusion": "",
+              "report_conclusion": "Scaled-ISP 시장규모 3.9십억달러(2035년 전망) 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음 투자의견 BUY BUY BUY HOLD BUY BUY",
+              "valuation": [
+                "할 성장이 기다리고 있기 때문, 동사는 첫 AI DC향 발주처 Aperion Energy와",
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 32.2 25.1 18.0",
+                "PBR(배) 10.5 8.1 6.6",
+                "EV/EBITDA(배) 22.4 17.2 12.1",
+                "Performance 1M 6M 12M YTD"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145725/1/20261026_B2040_gs.choie_605.pdf",
+              "pdf_error": "",
+              "title": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린솔루션(443060) : 일회성 비용, 환율 영향 빼면 서프라이즈",
+              "summary": "[HD현대마린솔루션(443060)/BUY(유지)/TP 310,000원(유지)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대마린솔루션(443060) : 일회성 비용, 환율 영향 빼면 서프라이즈 ▶ Issue: 3Q26 영업이익 Goltens 일회성 빼면 서프라이즈. 연말~연초에 2030년의 실적을 대폭 상향 가능 ▶ Pitch: > 3Q26 영업이익단 당사 예상에 부합, - Goltens 인수 일회성(90억원)을 제거할 경우 서프라이즈 - 환율 하락 영향도 130억원 > 장기 투자로 추천드리는 배경인 1) 캡티브 선대 확대에 따른 YoY 성장을 계속 확인하는 가운데, 2) 2030년대에는 힘센엔진 미국 진출의 AM를 담당하며 성장폭이 더 가팔라질 예정, - 첫 Aperion과의 O&M 협의 중인데, 공급계약(0.6조원)에서 3년마다 5%, 5%, 25%로 - 3년에 1/3, 10년마다 공급계약 규모만큼의 리커링 AM 매출 발생! 대박 구조 3) Goltens 시너지: 논캡티브로 시장 확대 4) FDC 개조 또는 이를 위한 FSRU 개조 사업도 기다림 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/HMS3Q26RE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15314",
+              "source_url": "https://bit.ly/HMS3Q26RE"
+            },
             {
               "id": 15303,
               "date": "2026-10-25",
@@ -3965,7 +4004,7 @@
           ]
         }
       ],
-      "report_count": 87
+      "report_count": 88
     },
     {
       "month": "2026-09",
