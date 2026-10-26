@@ -22,6 +22,8 @@ AI_CACHE = DATA_DIR / 'daol_ai_analysis.json'
 OUT = DATA_DIR / 'daol_tone_v2.json'
 PRICE_CACHE = DATA_DIR / 'price_close_cache.json'
 PDF_TEXT_CACHE = DATA_DIR / 'daol_pdf_text_cache.json'
+STRATEGY_AI = DATA_DIR / 'daol_strategy_ai.json'
+STRATEGY_ANALYSTS = {'투자전략팀', '조병현', '허정인'}
 KED_STREET = DATA_DIR / 'ked_street.json'
 
 # v1 정규식 배경 문구 → v2 4분류(실적추정/멀티플/방법론/시점롤포워드/기타)
@@ -858,10 +860,20 @@ def build():
                 if base:
                     tp_ev['upside'] = round((tp_ev['value'] / base - 1) * 100)
 
+    # 전략 보드: 전략·매크로·채권 자료 + 전용 구조화(ai_strategy_analyzer) 결과. 별도 파일로
+    # 빼지 않고 v2에 싣는 이유 — 외부 공유 미러가 고정 파일 목록만 복사하기 때문.
+    strat_ai = load_json(STRATEGY_AI, {})
+    strat_items = [{'id': r['id'], 'date': r['date'], 'analyst': r['analyst'], 'title': r['title'],
+                    'post_url': r['post_url'], 'pdf_url': r['pdf_url'],
+                    'ai': (strat_ai.get(str(r['id'])) or {}).get('result')}
+                   for r in sorted(records, key=lambda x: (x['date'], x['id']), reverse=True)
+                   if not r.get('bundled') and (r['sector'] == '전략·시황'
+                                                or (r['analyst'] in STRATEGY_ANALYSTS and r['report_type'] == '산업자료'))]
     data = {'generated_at': datetime.now(timezone.utc).isoformat(),
             'report_count': len(records), 'ai_analyzed': sum(1 for r in records if r['ai']),
             'count_window': {'from': window_month, 'label': window_label},
-            'sectors': sectors, 'companies': companies, 'events': events, 'steady': steady}
+            'sectors': sectors, 'companies': companies, 'events': events, 'steady': steady,
+            'strategy': {'items': strat_items, 'pending': sum(1 for x in strat_items if not x['ai'])}}
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     # 대시보드 overview 패널용 경량 요약(수십 KB) — 전체 v2(1MB+)를 끌어오지 않게 별도 파일로.
     latest = sorted(records, key=lambda x: (x['date'], x['id']), reverse=True)[:20]

@@ -109,6 +109,20 @@ def refresh(max_codes=200):
             if errors >= 10:
                 break
         time.sleep(0.25)
+    # 코스피 지수 — 전략 보드 '지수 전망 vs 실제' 차트용. 전략 자료가 2025-05부터라 종목보다
+    # 길게(약 1.5년) 보관한다. 실패해도 차트에 실제 지수 선만 빠진다.
+    try:
+        entry = cache.get('KOSPI') or {}
+        if entry.get('updated') != today.isoformat():
+            have = {d: c for d, c in entry.get('closes', [])}
+            start = date(2025, 5, 1) if not have else date.fromisoformat(max(have)) - timedelta(days=3)
+            for d, c in fetch_closes('KOSPI', start, today, session):
+                have[d] = c
+            floor = (today - timedelta(days=560)).isoformat()
+            cache['KOSPI'] = {'updated': today.isoformat(),
+                              'closes': sorted([d, c] for d, c in have.items() if d >= floor)}
+    except Exception as exc:
+        print(f'::warning::코스피 지수 조회 실패: {str(exc)[:100]}')
     # 커버가 끝난 종목의 캐시는 자연 유지(무해) — 파일 크기만 정리 목적이면 codes 밖 항목 제거
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print(json.dumps({'codes': len(codes), 'fetched': fetched, 'errors': errors,

@@ -132,6 +132,15 @@ jobs:
           AI_BUDGET_SECONDS: "1800"
         run: python ai_report_analyzer.py
 
+      # 전략·매크로·채권 자료 전용 구조화(코스피 밴드·섹터 콜·금리·환율·시장 변수·멀티플) —
+      # 전략 보드 재료. 캐시(daol_strategy_ai.json) 증분, 빠른 런은 신규 몇 건만.
+      - name: AI 전략 자료 구조화 (증분)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_STRATEGY_MAX: ${{ env.FAST == 'true' && '10' || '80' }}
+          AI_STRATEGY_BUDGET: ${{ env.FAST == 'true' && '150' || '900' }}
+        run: python ai_strategy_analyzer.py || echo "::warning::전략 구조화 실패"
+
       - name: 톤 v2 빌드 (타임라인·이벤트·요약)
         run: python build_daol_tone_v2.py
 
