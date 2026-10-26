@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T19:00:28.006419+00:00",
+  "generated_at": "2026-10-26T22:14:30.234546+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1436,
+  "report_count": 1439,
   "months": [
     {
       "month": "2026-10",
@@ -316,8 +316,62 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 7,
+          "report_count": 9,
           "reports": [
+            {
+              "id": 15317,
+              "date": "2026-10-27",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "NH투자증권",
+              "code": "005940",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145748/1/20261027_005940_jiwonkim_263.pdf",
+              "pdf_error": "",
+              "title": "[NH투자증권(005940)/BUY(유지)/TP 45,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ 조정장에 다시 안정성 그리고 주주환원",
+              "summary": "[NH투자증권(005940)/BUY(유지)/TP 45,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ 조정장에 다시 안정성 그리고 주주환원 ▶ 3Q26 Review. 연결 순이익 3,836억원(YoY+35.5%, QoQ-21.6%)으로, 컨센서스와 당사 추정치 모두 상회 ▶ Fee 수익은 아쉬웠음. 시장 현황과 거래대금 변동성에 영향 ▶ 반면, 북 활용 수익은 예상보다 양호. 이자이익 버퍼와 운용기조 보수성 근거해 수익구조 안정성 부각 가능 ▶ 업종 내 높은 배당수익률 이점도 부각. 26E 배당수익률 8.4% 전망. 증권업종 관심종목 유지 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/CWx96p8 > ▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15317",
+              "source_url": "https://buly.kr/CWx96p8"
+            },
+            {
+              "id": 15316,
+              "date": "2026-10-27",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "BNK금융지주",
+              "code": "138930",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145749/1/20261027_138930_jiwonkim_264.pdf",
+              "pdf_error": "",
+              "title": "[BNK금융지주(138930)/BUY(유지)/TP 21,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 아쉬운 변동성 확인 이후 남은 것은",
+              "summary": "[BNK금융지주(138930)/BUY(유지)/TP 21,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 아쉬운 변동성 확인 이후 남은 것은 ▶ 3Q26 Review. 연결 순이익 2,105억원(YoY-37.0%, QoQ+1.7%)으로 어닝쇼크 기록 ▶ 예상보다 부진한 비이자이익. 그룹 자회사 보유 유가증권 전반적 평가손 발생. 완전 헤지 미수행 및 일부 노출도 변동성 확대 이유 ▶ 적정주가 하향. 비이자이익 변동성 존재. 마진 개선 기반의 은행 본업적 체력 회복과 대손비용 안정성 중요 판단 ▶ 최근 주가 조정에 오히려 업종 내 가장 높은 배당수익률 전망. 주주환원 매력 큰 편 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/Cs6RjB > ▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15316",
+              "source_url": "https://buly.kr/Cs6RjB"
+            },
             {
               "id": 15305,
               "date": "2026-10-26",
@@ -1221,6 +1275,11 @@
               "text": "- 리브스메드: 투자의견 BUY, 적정주가 9만원 (Top pick)",
               "date": "2026-10-07",
               "source": "https://t.me/daolresearch/15176"
+            },
+            {
+              "text": "에이피알(BUY, TP 50만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 50만원)은 메디큐브 TikTok $5.80M(직전 4주 평균 대비 -9%), 감소분 $2.50M 중 신제품 2개가 $1.32M, 아마존 US 15.6%(직전 4주 평균 대비 -19%)·UK 18.3%(4주 기준선 대비 -33%).",
+              "date": "2026-10-27",
+              "source": "https://t.me/daolresearch/15318"
             }
           ],
           "top_pick_change": "해당 기간 최초 명시",
@@ -1384,8 +1443,39 @@
               "source": "https://t.me/daolresearch/15186"
             }
           ],
-          "report_count": 19,
+          "report_count": 20,
           "reports": [
+            {
+              "id": 15318,
+              "date": "2026-10-27",
+              "month": "2026-10",
+              "analyst": "박종현",
+              "sector": "화장품",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [
+                "에이피알(BUY, TP 50만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 50만원)은 메디큐브 TikTok $5.80M(직전 4주 평균 대비 -9%), 감소분 $2.50M 중 신제품 2개가 $1.32M, 아마존 US 15.6%(직전 4주 평균 대비 -19%)·UK 18.3%(4주 기준선 대비 -33%)."
+              ],
+              "preferred_stocks": [
+                "에이피알(BUY, TP 50만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 50만원)은 메디큐브 TikTok $5.80M(직전 4주 평균 대비 -9%), 감소분 $2.50M 중 신제품 2개가 $1.32M, 아마존 US 15.6%(직전 4주 평균 대비 -19%)·UK 18.3%(4주 기준선 대비 -33%)."
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ Implication TikTok 추적 바스켓 합계 $12.60M(직전 4주 평균 대비 -9%), 메디큐브 신제품 PDRN 선스틱 7일 GMV가 $0.93M → $0.03M, 괄사 넥크림이 $0.68M → $0.26M로 2주 만에 축소.",
+              "report_conclusion": "▶ Implication TikTok 추적 바스켓 합계 $12.60M(직전 4주 평균 대비 -9%), 메디큐브 신제품 PDRN 선스틱 7일 GMV가 $0.93M → $0.03M, 괄사 넥크림이 $0.68M → $0.26M로 2주 만에 축소.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145750/1/20261027_B3020_alex.park_638.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~10/26)",
+              "summary": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly(~10/26) ▶ Implication TikTok 추적 바스켓 합계 $12.60M(직전 4주 평균 대비 -9%), 메디큐브 신제품 PDRN 선스틱 7일 GMV가 $0.93M → $0.03M, 괄사 넥크림이 $0.68M → $0.26M로 2주 만에 축소. 아마존 메디큐브 US Weighted MS 15.6%(직전 4주 평균 대비 -19%)로 10월 고점 이전 수준, 유럽 3개국도 1주차 하락. 에이피알(BUY, TP 50만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 50만원)은 메디큐브 TikTok $5.80M(직전 4주 평균 대비 -9%), 감소분 $2.50M 중 신제품 2개가 $1.32M, 아마존 US 15.6%(직전 4주 평균 대비 -19%)·UK 18.3%(4주 기준선 대비 -33%). 신제품 효과가 빠진 뒤 기존 제품 체력 확인 단계 아모레퍼시픽(BUY, TP 18만원)은 라네즈 TikTok $177K(4주 기준선 대비 +100%, 3주 연속 +30% 상회), COSRX 아마존 스네일 뮤신 -14%·6X 펩타이드 -30% 프로모션 10/26 개시. 할인 이후 순위 반응이 다음 확인 지점 달바글로벌(BUY, TP 31만원)은 TikTok $230K(4주 기준선 대비 +50%, 1주차), 아마존 ES 13.6%·캐나다 Top100 SKU 3개(직전 4주 평균 2.0개). TikTok 2주차 충족 여부 확인 * 보고서 원문 및 컴플라이언스 < https://buly.kr/HSaMZhf > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/15318",
+              "source_url": "https://buly.kr/HSaMZhf"
+            },
             {
               "id": 15306,
               "date": "2026-10-26",
@@ -4004,7 +4094,7 @@
           ]
         }
       ],
-      "report_count": 88
+      "report_count": 91
     },
     {
       "month": "2026-09",
