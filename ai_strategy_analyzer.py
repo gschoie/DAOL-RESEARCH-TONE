@@ -109,7 +109,11 @@ def _num(x, lo=None, hi=None):
     return v
 
 
-def _s(x, n): return str(x or '').strip()[:n]
+# 모델이 "없음"을 빈 문자열 대신 말로 적는 경우가 많다("언급없음 · 언급없음" 줄이 화면에 남는다)
+NOISE = {'언급없음', '없음', '해당없음', '해당 없음', '언급 없음', 'n/a', 'na', 'null', 'none', '-', '—'}
+def _s(x, n):
+    t = str(x or '').strip()
+    return '' if t.lower() in NOISE else t[:n]
 def _enum(x, allowed, default): return x if x in allowed else default
 def _list(xs, n=4, w=16): return [_s(x, w) for x in (xs or []) if str(x or '').strip()][:n]
 
@@ -170,6 +174,9 @@ def gemini_strategy(user_text, model):
                 raise QuotaExhaustedError(f'Gemini daily quota exhausted: {detail[:600]}') from exc
             if exc.code == 429 and attempt < 2:
                 time.sleep(30); continue
+            # 500/503(혼잡)은 일시적 — 실패로 세지 말고 잠시 쉬었다 재시도(첫 백필 런에서 5건을 날렸다)
+            if exc.code in (500, 502, 503) and attempt < 2:
+                time.sleep(20); continue
             raise RuntimeError(f'Gemini API error {exc.code}: {detail[:300]}') from exc
         except (TimeoutError, urllib.error.URLError) as exc:
             if attempt < 2:

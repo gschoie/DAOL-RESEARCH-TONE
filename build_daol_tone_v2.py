@@ -863,9 +863,16 @@ def build():
     # 전략 보드: 전략·매크로·채권 자료 + 전용 구조화(ai_strategy_analyzer) 결과. 별도 파일로
     # 빼지 않고 v2에 싣는 이유 — 외부 공유 미러가 고정 파일 목록만 복사하기 때문.
     strat_ai = load_json(STRATEGY_AI, {})
+    _noise = {'언급없음', '없음', '해당없음', '해당 없음', '언급 없음', 'n/a', 'null', 'none', '-', '—'}
+    _enum_keys = {'kind', 'market_view', 'direction', 'policy', 'effect'}  # '언급없음'이 정식 값인 열거형 필드
+    def _clean(o, key=None):  # 초기 캐시의 '언급없음' 문자열 잔재 정리(이후 분석기는 정규화 단계에서 제거)
+        if isinstance(o, dict): return {k: _clean(v, k) for k, v in o.items()}
+        if isinstance(o, list): return [_clean(v, key) for v in o]
+        if isinstance(o, str) and key not in _enum_keys and o.strip().lower() in _noise: return ''
+        return o
     strat_items = [{'id': r['id'], 'date': r['date'], 'analyst': r['analyst'], 'title': r['title'],
                     'post_url': r['post_url'], 'pdf_url': r['pdf_url'],
-                    'ai': (strat_ai.get(str(r['id'])) or {}).get('result')}
+                    'ai': _clean((strat_ai.get(str(r['id'])) or {}).get('result'))}
                    for r in sorted(records, key=lambda x: (x['date'], x['id']), reverse=True)
                    if not r.get('bundled') and (r['sector'] == '전략·시황'
                                                 or (r['analyst'] in STRATEGY_ANALYSTS and r['report_type'] == '산업자료'))]
