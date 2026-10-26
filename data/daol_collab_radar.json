@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-26T22:15:39.456712+00:00",
+ "generated_at": "2026-10-26T22:49:28.186286+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1439,
+ "report_count": 1442,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33708,6 +33708,109 @@
    "title": "[NH투자증권(005940)/BUY(유지)/TP 45,000원(유지)]｜다올 금융 김지원 ☎ 2184-2306] ★ 조정장에 다시 안정성 그리고 주주환원",
    "post_url": "https://t.me/daolresearch/15317",
    "source_url": "https://buly.kr/CWx96p8"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-27",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "기가비스",
+   "code": "420770",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "전량 검사장비(AOI) 물량으로 파악 - 수리장비(AOR) 및 FA(검사·수리 시스템화) 장비는 별도 발주 예정으로, 연말까지 동일 고객사향 추가 수주 기대 - 3Q26 말 수주잔고는 약 1,800억원으로 추정(2Q26 말 653억원).",
+    "금번 신규수주 반영 시 현재 수주잔고는 2,200억원을 상회하는 수준 → 현재 수주잔고만으로 27년 실적 가시성 확보"
+   ],
+   "title": "[기가비스(420770) | BUY(유지) | TP 18만원(하향) | 다올투자증권 전기전자 김연미] ★ 기가비스 3Q26 Preview - 조정된 기대, 유효한 성장",
+   "post_url": "https://t.me/daolresearch/15321",
+   "source_url": "https://buly.kr/4QqHzkc"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-27",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아베스틸지주",
+   "code": "001430",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "최근 산업부는 중국산 특수강 봉강에 대한 반덤핑 예비판정에서 덤핑률 25.08%~27.96%로 반덤핑 잠정관세 부과 건의를 결정해 동사가 반사 수혜 기대."
+   ],
+   "title": "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 잠시 쉬어갑니다. 신사업 기대는 유지",
+   "post_url": "https://t.me/daolresearch/15322",
+   "source_url": "https://buly.kr/AasoKKA"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-27",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아베스틸지주",
+   "code": "001430",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(유지)/ 다올 철강금속/전력기기 이정우]"
+   ],
+   "title": "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 잠시 쉬어갑니다. 신사업 기대는 유지",
+   "post_url": "https://t.me/daolresearch/15322",
+   "source_url": "https://buly.kr/AasoKKA"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-10-27",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아베스틸지주",
+   "code": "001430",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "열연과 후판의 반덤핑 판정 이후 중국산 재고가 소진된 기간을 감안하면 2Q27E부터 판매량 증가가 두드러질 것으로 판단"
+   ],
+   "title": "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 잠시 쉬어갑니다. 신사업 기대는 유지",
+   "post_url": "https://t.me/daolresearch/15322",
+   "source_url": "https://buly.kr/AasoKKA"
+  },
+  {
+   "theme": "이차전지 메탈",
+   "category": "원자재",
+   "date": "2026-10-27",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아베스틸지주",
+   "code": "001430",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "직전 분기 가파르게 상승했던 철 스크랩과 니켈 가격이 판가 인상으로 이어졌지만 3Q26 다시 하락하면서 판가 하락이 동반되었을 것으로 예상."
+   ],
+   "title": "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 잠시 쉬어갑니다. 신사업 기대는 유지",
+   "post_url": "https://t.me/daolresearch/15322",
+   "source_url": "https://buly.kr/AasoKKA"
+  },
+  {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-10-27",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아베스틸지주",
+   "code": "001430",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "한빛원전의 사용후 핵연료는 4,810다발을 담을 수 있는 CASK 총 130기가 필요하며, 고리원전과 한울원전은 각각 3,885다발, 2,886다발을 저장할 건식저장시설이 필요."
+   ],
+   "title": "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 잠시 쉬어갑니다. 신사업 기대는 유지",
+   "post_url": "https://t.me/daolresearch/15322",
+   "source_url": "https://buly.kr/AasoKKA"
   }
  ],
  "cross_mentions": [
@@ -34834,14 +34937,14 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.3
+   "burst": 21.1
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 8.2
+   "burst": 8.1
   },
   {
    "term": "원화",
@@ -34869,28 +34972,28 @@
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.5
+   "burst": 5.4
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
-   "burst": 5.3
+   "burst": 5.2
   },
   {
    "term": "분쟁",
    "recent": 7,
    "total": 12,
    "sectors": 5,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "할인율",
    "recent": 8,
    "total": 14,
    "sectors": 3,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "사용",
@@ -34904,7 +35007,7 @@
    "recent": 15,
    "total": 28,
    "sectors": 9,
-   "burst": 4.4
+   "burst": 4.3
   },
   {
    "term": "뷰티",
