@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-27T22:47:41.409812+00:00",
+ "generated_at": "2026-10-27T23:00:02.285959+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1454,
+ "report_count": 1455,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34004,6 +34004,59 @@
    "title": "[한화시스템(272210)/BUY(유지)/TP 73,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한화시스템(272210) : 조선 투자 회수가, 위성 투자의 시작",
    "post_url": "https://t.me/daolresearch/15337",
    "source_url": "https://bit.ly/HS3Q26RE"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-28",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "HD현대일렉트릭",
+   "code": "267260",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "추가적으로 전력변압기, 고압차단기, 회전기기 등 광범위한 제품군의 추가 CAPEX 검토 중"
+   ],
+   "title": "[HD현대일렉트릭(267260)/ BUY(유지)/ TP 100만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 다시 한번 증설",
+   "post_url": "https://t.me/daolresearch/15339",
+   "source_url": "https://buly.kr/8pjEsfg"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-28",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "HD현대일렉트릭",
+   "code": "267260",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "초고압 변압기 위주의 매출에서 배전 포트폴리오 확대 과정에 있으며 수주잔고, 증설, 빅테크 계약 등 성장 스",
+    "배전변압기 제품 생산능력 확대이며 2029.06월 완료 예정."
+   ],
+   "title": "[HD현대일렉트릭(267260)/ BUY(유지)/ TP 100만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 다시 한번 증설",
+   "post_url": "https://t.me/daolresearch/15339",
+   "source_url": "https://buly.kr/8pjEsfg"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-28",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "HD현대일렉트릭",
+   "code": "267260",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "초고압 변압기 위주의 매출에서 배전 포트폴리오 확대 과정에 있으며 수주잔고, 증설, 빅테크 계약 등 성장 스",
+    "수주잔고는 88.4억달러(QoQ +4.2%)로 증가했으며, 그 중 북미 비중은 68.1%"
+   ],
+   "title": "[HD현대일렉트릭(267260)/ BUY(유지)/ TP 100만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 다시 한번 증설",
+   "post_url": "https://t.me/daolresearch/15339",
+   "source_url": "https://buly.kr/8pjEsfg"
   }
  ],
  "cross_mentions": [
@@ -35130,7 +35183,7 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.0
+   "burst": 20.9
   },
   {
    "term": "낮추고",
@@ -35217,17 +35270,17 @@
    "burst": 4.0
   },
   {
+   "term": "철강금속",
+   "recent": 9,
+   "total": 17,
+   "sectors": 3,
+   "burst": 4.0
+  },
+  {
    "term": "구축",
    "recent": 16,
    "total": 33,
    "sectors": 10,
-   "burst": 3.6
-  },
-  {
-   "term": "철강금속",
-   "recent": 8,
-   "total": 16,
-   "sectors": 3,
    "burst": 3.6
   }
  ]
