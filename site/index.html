@@ -160,6 +160,21 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Pretendard
 .ind-pick:hover{background:#d3e9fd}
 .st-open{display:block;width:100%;text-align:left;border:1px solid #d3e5f8;background:#e7f3fe;color:#1d6fc4;font:inherit;font-size:13.5px;font-weight:600;border-radius:8px;padding:9px 14px;margin:0 0 10px;cursor:pointer}
 .st-open:hover{background:#d3e9fd}
+.st-side{margin:0 0 12px}
+.st-side h4{margin:0 0 6px}
+.st-side-latest{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;font-size:14px;line-height:1.5}
+.st-side-latest b{font-size:15px}
+.st-side-latest small{color:#9ca3af;font-size:11.5px;width:100%}
+.st-side-q{margin:4px 0 0;font-size:12.5px;color:#6b7280;border-left:3px solid #e3e2de;padding-left:8px}
+.st-side-hist>summary{cursor:pointer;list-style:none;font-size:12px;color:#2383e2;margin:4px 0 2px}
+.st-side-hist>summary::-webkit-details-marker{display:none}
+.st-side-hist>summary::before{content:'▸ ';color:#9ca3af}
+.st-side-hist[open]>summary::before{content:'▾ '}
+.st-side-row{display:flex;gap:7px;align-items:baseline;padding:4px 0;border-bottom:1px solid #f1f1ef;font-size:12.5px;line-height:1.5}
+.st-side-row small{color:#9ca3af;flex:0 0 36px}
+.st-side-row span:not(.st-badge):not(.st-who):not(.st-sec){flex:1;min-width:0}
+.st-side-row a{color:#2383e2;text-decoration:none}
+.st-side-row.muted{color:#9ca3af}
 .st-filter{border:1px solid #ededeb;background:#fff;color:#37352f;font:inherit;font-size:12px;border-radius:4px;padding:2px 8px;cursor:pointer}
 .st-filter i{font-style:normal;color:#9ca3af;margin-left:2px}
 .st-filter.on{background:#37352f;color:#fff;border-color:#37352f}.st-filter.on i{color:#d1d5db}
@@ -673,6 +688,33 @@ async function openStratBoard(){
  modalStack=[];currentModalKey='__strat__';
  renderStratBoard();
  $('#tone-modal').hidden=false;document.body.style.overflow='hidden'}
+// 전략·시황 산업 모달의 왼쪽 패널: 커버 종목 TP가 없는 전략 자료는 코스피 밴드·금리·추천 섹터의
+// '가장 최근 + 이력'을 보여준다(재료는 v2.strategy — ai_strategy_analyzer 구조화 결과).
+function stratSidePanel(){
+ const ai=(state.tone2?.strategy?.items||[]).filter(x=>x.ai);
+ if(!ai.length)return '<div class="tone-empty">전략 구조화 데이터가 아직 없습니다.</div>';
+ const pt=v=>v==null?'—':Math.round(v).toLocaleString();
+ const who=x=>`<span class="st-who">${esc(x.analyst)}</span>`;
+ const link=(x,t)=>`<a href="${esc(x.pdf_url||x.post_url)}" target="_blank" rel="noopener" title="${esc(x.title)}">${t}</a>`;
+ const block=(title,latest,hist)=>`<div class="st-side"><h4>${title}</h4>${latest}${hist?`<details class="st-side-hist"><summary>이력 보기</summary>${hist}</details>`:''}</div>`;
+ // ① 코스피 밴드
+ const calls=ai.filter(x=>x.ai.kospi.low||x.ai.kospi.high||x.ai.kospi.target);
+ const kTxt=k=>[k.low&&`하단 ${pt(k.low)}`,k.high&&`상단 ${pt(k.high)}`,k.target&&`목표 ${pt(k.target)}`].filter(Boolean).join(' · ');
+ const kLatest=calls.length?`<div class="st-side-latest" title="${esc(calls[0].ai.kospi.quote)}"><b>${kTxt(calls[0].ai.kospi)}</b>${calls[0].ai.kospi.basis?`<span class="muted"> (${esc(calls[0].ai.kospi.basis)})</span>`:''}${stratBadge(calls[0].ai.kospi.direction,'dir')}<small>${mmdd(calls[0].date)} ${esc(calls[0].analyst)}</small></div>`:'<div class="tone-empty">밴드·목표 제시 없음</div>';
+ const kHist=calls.slice(1,9).map(x=>`<div class="st-side-row" title="${esc(x.ai.kospi.quote)}"><small>${mmdd(x.date)}</small><span>${kTxt(x.ai.kospi)}${x.ai.kospi.basis?` <i class="muted">(${esc(x.ai.kospi.basis)})</i>`:''}</span>${who(x)}${link(x,'↗')}</div>`).join('');
+ // ② 금리(미국·한국) — 정책 방향 + 경로
+ const rate=side=>ai.filter(x=>{const r=x.ai.rates[side];return r.policy!=='언급없음'||r.path||r.yield});
+ const rLine=(x,side,flag)=>{const r=x.ai.rates[side];return `<div class="st-side-row" title="${esc(r.quote)}"><small>${mmdd(x.date)}</small>${flag}${stratBadge(r.policy,'pol')}<span>${esc([r.path,r.yield].filter(Boolean).join(' · ')||'—')}</span>${who(x)}</div>`};
+ const us=rate('us'),kr=rate('kr');
+ const rLatest=`${us.length?rLine(us[0],'us','🇺🇸'):'<div class="st-side-row muted">🇺🇸 언급 없음</div>'}${kr.length?rLine(kr[0],'kr','🇰🇷'):'<div class="st-side-row muted">🇰🇷 언급 없음</div>'}`;
+ const rHist=[...us.slice(1,6).map(x=>({d:x.date,h:rLine(x,'us','🇺🇸')})),...kr.slice(1,6).map(x=>({d:x.date,h:rLine(x,'kr','🇰🇷')}))].sort((a,b)=>b.d.localeCompare(a.d)).map(o=>o.h).join('');
+ // ③ 추천 섹터/종목 — 주도·선호·비선호
+ const chips=x=>[...x.ai.sectors.leading.map(s=>`<span class="st-sec lead">${esc(s)}</span>`),...x.ai.sectors.prefer.filter(s=>!x.ai.sectors.leading.includes(s)).map(s=>`<span class="st-sec">${esc(s)}</span>`),...x.ai.sectors.avoid.map(s=>`<span class="st-sec avoid">${esc(s)}</span>`)].join('');
+ const sc=ai.filter(x=>x.ai.sectors.leading.length||x.ai.sectors.prefer.length||x.ai.sectors.avoid.length);
+ const sLatest=sc.length?`<div class="st-side-latest" title="${esc(sc[0].ai.sectors.quote)}">${chips(sc[0])}<small>${mmdd(sc[0].date)} ${esc(sc[0].analyst)}</small></div>${sc[0].ai.sectors.quote?`<p class="st-side-q">${esc(sc[0].ai.sectors.quote)}</p>`:''}`:'<div class="tone-empty">섹터 판단 명시 없음</div>';
+ const sHist=sc.slice(1,9).map(x=>`<div class="st-side-row" title="${esc(x.ai.sectors.quote)}"><small>${mmdd(x.date)}</small><span>${chips(x)}</span>${who(x)}</div>`).join('');
+ return block('📊 코스피 밴드',kLatest,kHist)+block('💵 금리 (Fed · 한은)',rLatest,rHist)+block('🏭 추천 섹터 <small class="muted">보라=주도 · 파랑=선호 · 빨강=비선호</small>',sLatest,sHist)+
+  `<button type="button" class="st-open" onclick="openStratBoard()" style="margin-top:8px">🧭 전략 보드 전체 보기 →</button>`}
 function stratBadge(v,kind){
  const map={view:{'강세':'up','약세':'down'},pol:{'인상':'hike','인하':'cut'},dir:{'상향':'up','하향':'down','원화강세':'up','원화약세':'down'}}[kind]||{};
  const arrow=kind==='pol'?({'인상':'▲ ','인하':'▼ ','동결':'● '}[v]||''):'';
@@ -708,7 +750,7 @@ function renderStratBoard(){
   row('코스피',kp?`<span class="ind-sum-txt">${kpTxt}</span><small class="ind-sum-date">${mmdd(kp.date)}</small>`:'<span class="ind-sum-txt muted">밴드·목표 제시 없음</span>')+
   row('미국 금리',rateTxt(us,'us'))+row('한국 금리',rateTxt(kr,'kr'))+
   (fx?row('원/달러',`${stratBadge(fx.ai.fx.direction,'dir')}<span class="ind-sum-txt">${esc(fx.ai.fx.usdkrw)}</span><small class="ind-sum-date">${mmdd(fx.date)}</small>`):'')+
-  row('선호 섹터',sc?[...sc.ai.sectors.leading.map(s=>`<span class="st-sec lead">${esc(s)}</span>`),...sc.ai.sectors.prefer.map(s=>`<span class="st-sec">${esc(s)}</span>`)].join('')+`<small class="ind-sum-date">${mmdd(sc.date)}</small>`:'<span class="ind-sum-txt muted">—</span>')+
+  row('선호 섹터',sc?[...sc.ai.sectors.leading.map(s=>`<span class="st-sec lead">${esc(s)}</span>`),...sc.ai.sectors.prefer.filter(s=>!sc.ai.sectors.leading.includes(s)).map(s=>`<span class="st-sec">${esc(s)}</span>`)].join('')+`<small class="ind-sum-date">${mmdd(sc.date)}</small>`:'<span class="ind-sum-txt muted">—</span>')+
   row('주요 변수',topVars.length?topVars.map(([l,o])=>`<span class="st-var ${o.neg>o.pos?'neg':o.pos>o.neg?'pos':''}" title="최근 30일 ${o.n}회 언급 · 긍정 ${o.pos} / 부정 ${o.neg}">${esc(l)} <i>${o.n}</i></span>`).join('')+'<small class="ind-sum-date">최근 30일</small>':'<span class="ind-sum-txt muted">—</span>')+
   `</div>`:'';
  // ② 코스피 전망 vs 실제
@@ -872,6 +914,9 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
    pickChips=keep.length?keep.map(h=>`<button type="button" class="tone-ck ind-pick" data-ck="${esc(h.c.key)}" title="${esc(txt)}">${esc(h.c.name)}</button>`).join('')
     :`<span class="ind-sum-txt" title="${esc(txt)}">${esc(pickRec.top_picks[0].replace(/^[•\s]+/,'').slice(0,90))}</span>`;
    pickChips+=`<small class="ind-sum-date">${mmdd(pickRec.date)} 자료 기준</small>`}
+  if(!pickChips&&entry.sector==='전략·시황'){
+   const sc=(state.tone2?.strategy?.items||[]).find(x=>x.ai&&(x.ai.sectors.leading.length||x.ai.sectors.prefer.length));
+   if(sc)pickChips=[...sc.ai.sectors.leading.map(s=>`<span class="st-sec lead" title="${esc(sc.ai.sectors.quote)}">${esc(s)}</span>`),...sc.ai.sectors.prefer.filter(s=>!sc.ai.sectors.leading.includes(s)).map(s=>`<span class="st-sec" title="${esc(sc.ai.sectors.quote)}">${esc(s)}</span>`)].join('')+`<small class="ind-sum-date">${mmdd(sc.date)} ${esc(sc.analyst)}</small>`}
   const lastRec=[...timeline].reverse().find(r=>r.one_line)||timeline[timeline.length-1];
   const ground=[...timeline].reverse().find(r=>(r.strong_phrases||[]).length);
   const lastTxt=lastRec?(lastRec.one_line||(lastRec.title||'').replace(/^\[[^\]]*\]\s*/,'')):'';
@@ -883,7 +928,7 @@ function openToneCompany(key,fromBack=false){const entry=state.tone2?.companies?
   const comps=Object.values(state.tone2?.companies||{}).filter(c=>!c.key.startsWith('IND:')&&c.sector===entry.sector);
   const rows=comps.map(c=>{const t=[...c.timeline].reverse().find(r=>r.tp_event&&r.tp_event.value);return t?{c,r:t,tp:t.tp_event,last:c.timeline[c.timeline.length-1].date}:null}).filter(Boolean)
    .sort((a,b)=>b.last.localeCompare(a.last)||b.r.date.localeCompare(a.r.date));
-  leftPanel=`<div><h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)" title="인뎁스 수록 기업분석 포함, TP 언급 여부와 무관하게 그 종목의 가장 최근 보고서 날짜 순. TP 값은 마지막으로 TP가 표기된 보고서 기준">최근 보고서순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>TP ${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}${x.last!==x.r.date?` · 최근 보고서 ${mmdd(x.last)}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
+  leftPanel=entry.sector==='전략·시황'?`<div>${stratSidePanel()}</div>`:`<div><h4>커버 종목 TP 현황 <small style="font-weight:400;color:var(--muted)" title="인뎁스 수록 기업분석 포함, TP 언급 여부와 무관하게 그 종목의 가장 최근 보고서 날짜 순. TP 값은 마지막으로 TP가 표기된 보고서 기준">최근 보고서순</small></h4>${rows.length?`<div class="cov-tp">${rows.map(x=>`<button type="button" class="cov-row tone-ck" data-ck="${esc(x.c.key)}"><b>${esc(x.c.name)}</b><span class="cov-val ${x.tp.direction==='상향'?'up':x.tp.direction==='하향'?'down':''}">${x.tp.direction==='상향'?'▲':x.tp.direction==='하향'?'▼':'●'} ${esc(x.tp.display)}</span><small>TP ${mmdd(x.r.date)}${(x.tp.reasons||[]).length?` · ${x.tp.reasons.join('·')}`:''}${x.last!==x.r.date?` · 최근 보고서 ${mmdd(x.last)}`:''}</small></button>`).join('')}</div>`:'<div class="tone-empty">TP 표기 종목 없음</div>'}</div>`;
  }
  // 확신도 점수의 '이유' — 최근 3건의 AI 한줄 요약을 차트 밑에 살짝
  const convNotes=timeline.filter(r=>r.conviction!=null&&r.one_line).slice(-3).reverse()
