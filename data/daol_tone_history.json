@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27T18:33:19.315545+00:00",
+  "generated_at": "2026-10-27T22:13:22.877084+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1442,
+  "report_count": 1448,
   "months": [
     {
       "month": "2026-10",
@@ -312,6 +312,11 @@
               "value": "비중확대",
               "date": "2026-10-26",
               "source": "https://t.me/daolresearch/15305"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-10-28",
+              "source": "https://t.me/daolresearch/15326"
             }
           ],
           "top_picks": [
@@ -353,8 +358,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 9,
+          "report_count": 10,
           "reports": [
+            {
+              "id": 15326,
+              "date": "2026-10-28",
+              "month": "2026-10",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "신한지주",
+              "code": "055550",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145788/1/20261028_055550_jiwonkim_265.pdf",
+              "pdf_error": "",
+              "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 신한지주(055550): 성장력 확보를 위한 숨 고르기",
+              "summary": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 신한지주(055550): 성장력 확보를 위한 숨 고르기 ▶ 3Q26 Review. 연결 순이익 1조 5,846억원(YoY+11.3%, QoQ-12.9%)으로 컨센서스와 당사 추정치 하회 ▶ 올해 이자이익 성장 제한적일 전망. 연말 물량 경향성과 대출금리 리프라이싱 주기는 27년부터일 듯 ▶ 비이자이익 변동성. 증시에 연동되는 은행과 증권 관련 수익. 라이프 보험금융이익 발생 상쇄작용은 있었음 ▶ 롯데손보 인수가 보험이익 양적 확대라면 정당성 존재. 확인 포인트들과 인수시점 확인 후 리레이팅 판단 가능 ▶ 그 외 연말 추가 자사주 매입소각 규모는 예상범위. 중장기적 관점의 접근 권고 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/8Iyxvb8 > ★ iM금융지주(139130): 검증 필요, 그러나 주주환원 기대감 유효 ▶ 3Q26 Review. 연결 순이익 1,207억원(YoY-1.4%, QoQ-14.5%)으로, 컨센서스와 당사 추정치 모두 하회 ▶ 이자이익 크게 증가. PRM 영업 기반 중소기업 대출 외에도 대기업 우량 여신 중심으로 성장 ▶ 비이자이익 감소는 아쉬우나, 은행 방카슈랑스와 증권 IB 수수료수익 증가 확인. 변동성 축소 구조화 관건 ▶ 주주환원 모멘텀이 존재. 높은 실질 배당수익률과 추가 자사주 매입 및 새로운 밸류업계획 발표 예고 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/AF3Iiav > ★ JB금융지주(175330): 개선될 이익체력 고려하면 저평가 구간 ▶ 3Q26 Review. 연결 순이익 2,100억원(YoY flat, QoQ -4.4%)으로 컨센서스 부합 ▶ 높은 대출 양적 성장 시현. 4Q26 마진 개선",
+              "post_url": "https://t.me/daolresearch/15326",
+              "source_url": "https://buly.kr/7x9Rxzi"
+            },
             {
               "id": 15317,
               "date": "2026-10-27",
@@ -1014,6 +1046,19 @@
               "evidence": "원 | jinyeong.kim@daolfn.com Issue 3Q26 Review Pitch 매출액 당사추정치와 컨센서스 부합、영업이익 당사추성치와 컨센서스 상회. 현재 직전 aS 외주주택 seo \" a ] 19.9%로 한 단계 더 올라서며 영업이익률 15.3% 기록. 투자의견 BUY BUY 유지 PEE 327] 3.6조원으로 회복, 사측은 연간 가이던스 6.5조원 조과달성에 강한 적정주가 39,000 31,000 상향 AMI. 수익성 on 반영하여 적정주가 39,000원으로 상향하고 투자의견 Buy Earni 유지. 주택 밸류에이션에 «last 시장을 인정하더라도 배당수익률 arnings 5.9%(FY26)°l] PER 28배(276 EPS)*= 극심한 저평가 Stock Information ： 현재가 (10/23) 21.950원 Rationale 예상 주가상승률 77.7% © 3분7| 매출액 1조 821억원, 영업이익 1,658억원. 매출액 당사주성치 4.0% 4906 t) nates 하회, 컨센서스 4.0% 상회",
               "date": "2026-10-26",
               "source": "https://t.me/daolresearch/15307"
+            },
+            {
+              "company": "대우건설",
+              "direction": "유지",
+              "old": null,
+              "new": 24000,
+              "display": "24,000원 (유지)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 대손을 삼킨 주택 고마진 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 하회, 영업이익 당사추정치와 컨센서스 상회. - 주택건축 예정원가율 변경과 준공정산 이익이 지방 준공 후 미분양 대손충당금을 상회하며 매출 부진에도 양호한 영업이익 달성 - 정산이익 제외한 주택건축 베이스 매출이익률을 16% 중후반으로 제시. 연간 수주 목표 27조원 달성은 연내 대형 계약 체결 시점에 좌우. 적정주가 24,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/15RtiG4",
+              "date": "2026-10-28",
+              "source": "https://t.me/daolresearch/15331"
             }
           ],
           "tp_raises": [
@@ -1061,8 +1106,47 @@
               "source": "https://t.me/daolresearch/15307"
             }
           ],
-          "report_count": 3,
+          "report_count": 4,
           "reports": [
+            {
+              "id": 15331,
+              "date": "2026-10-28",
+              "month": "2026-10",
+              "analyst": "박영도",
+              "sector": "건설/부동산",
+              "company": "대우건설",
+              "code": "047040",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "대우건설",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 24000,
+                  "display": "24,000원 (유지)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 대손을 삼킨 주택 고마진 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 하회, 영업이익 당사추정치와 컨센서스 상회. - 주택건축 예정원가율 변경과 준공정산 이익이 지방 준공 후 미분양 대손충당금을 상회하며 매출 부진에도 양호한 영업이익 달성 - 정산이익 제외한 주택건축 베이스 매출이익률을 16% 중후반으로 제시. 연간 수주 목표 27조원 달성은 연내 대형 계약 체결 시점에 좌우. 적정주가 24,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/15RtiG4"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "- 매출액 당사추정치와 컨센서스 하회, 영업이익 당사추정치와 컨센서스 상회. - 주택건축 예정원가율 변경과 준공정산 이익이 지방 준공 후 미분양 대손충당금을 상회하며 매출 부진에도 양호한 영업이익 달성 - 정산이익 제외한 주택건축 베이스 매출이익률을 16% 중후반으로 제시. 연간 수주 목표 27조원 달성은 연내 대형 계약 체결 시점에 좌우. 적정주가 24,000원과 투자의견 Buy 유지",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145794/1/20261028_047040_ypark_121.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 대손을 삼킨 주택 고마진",
+              "summary": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 대손을 삼킨 주택 고마진 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 하회, 영업이익 당사추정치와 컨센서스 상회. - 주택건축 예정원가율 변경과 준공정산 이익이 지방 준공 후 미분양 대손충당금을 상회하며 매출 부진에도 양호한 영업이익 달성 - 정산이익 제외한 주택건축 베이스 매출이익률을 16% 중후반으로 제시. 연간 수주 목표 27조원 달성은 연내 대형 계약 체결 시점에 좌우. 적정주가 24,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/15RtiG4",
+              "post_url": "https://t.me/daolresearch/15331",
+              "source_url": "https://buly.kr/15RtiG4"
+            },
             {
               "id": 15307,
               "date": "2026-10-26",
@@ -3005,8 +3089,116 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 11,
+          "report_count": 15,
           "reports": [
+            {
+              "id": 15330,
+              "date": "2026-10-28",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "동아에스티",
+              "code": "170900",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145793/1/20261028_170900_jislee_487.pdf",
+              "pdf_error": "",
+              "title": "[동아에스티(170900) | BUY(유지) | TP 6만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 좋았던 실적, 다음은 데이터",
+              "summary": "[동아에스티(170900) | BUY(유지) | TP 6만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 좋았던 실적, 다음은 데이터 ▶ 3Q26 별도 매출액 2,065억원(+4.1% YoY, -0.6% QoQ), 영업이익 214억원(+27.7% YoY, +97.0% QoQ; OPM 10.4%)으로 시장 기대치 상회 ▶ 자큐보·디페렐린 등 도입 신약 성장으로 ETC 매출액 1,559억원(+7.3% YoY) 기록. 그로트로핀도 경쟁 심화에도 안정적 매출 유지. 반면 박카스 수출 감소로 해외 사업부 매출액은 392억원(-3.9% YoY) 기록. R&D 비용 집행 이연과 판관비 효율화로 수익성 개선 ▶ 4Q에는 ETC 성장과 하이카디 M350 출시에도 이연된 R&D 비용 집행으로 수익성 둔화 전망. 11월 엑스코프리 출시와 4Q DA-1726(비만) 1상 16주 데이터 발표 예정. 앞서 48mg 투여군에서 8주차 체중 9.1% 감량을 확인한 만큼 추가 감량폭 및 내약성이 핵심 관전 포인트. 임상 성과에 따른 신약 가치 재평가 기대 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/BpI7Xxv >",
+              "post_url": "https://t.me/daolresearch/15330",
+              "source_url": "https://buly.kr/BpI7Xxv"
+            },
+            {
+              "id": 15329,
+              "date": "2026-10-28",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "에스티팜",
+              "code": "237690",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145791/1/20261028_237690_jislee_485.pdf",
+              "pdf_error": "",
+              "title": "[에스티팜(237690) | BUY(유지) | TP 16만원(하향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 눈높이는 낮추고, 다음 성장을 보다",
+              "summary": "[에스티팜(237690) | BUY(유지) | TP 16만원(하향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 눈높이는 낮추고, 다음 성장을 보다 ▶ 3Q26 연결 매출액 976억원(+19.1% YoY, -10.1% QoQ), 영업이익 157억원(+6.6% YoY, -14.3% QoQ; OPM 16.1%)으로 시장 기대치 하회 ▶ 올리고 매출액은 690억원(+0.6% YoY)으로 상업화 품목 비중 72%. 상업화 품목 중심의 매출 성장에도 환율 하락과 저마진 제네릭 제품 비중 증가로 수익성 부진 ▶ 4Q 올리고 공급 집중으로 매출 반등 예상되나 환율 및 원가 부담으로 이익 개선폭은 제한적일 전망. 펠라카르센 3상 실패로 후속 수주 불확실성 존재하나, 기존 상업화 품목 공급 확대와 신규 대형 계약 논의, 제2올리고동 램프업으로 중장기 성장 기대. 실적 추정치 하향과 밸류에이션 방식 변경(DCF → EV/EBITDA)을 반영해 적정주가 16만원으로 하향 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/5fFbDOc >",
+              "post_url": "https://t.me/daolresearch/15329",
+              "source_url": "https://buly.kr/5fFbDOc"
+            },
+            {
+              "id": 15328,
+              "date": "2026-10-28",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "한미약품",
+              "code": "128940",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145792/1/20261028_128940_jislee_486.pdf",
+              "pdf_error": "",
+              "title": "[한미약품(128940) | BUY(유지) | TP 70만원(하향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 비만 시장의 문을 열다",
+              "summary": "[한미약품(128940) | BUY(유지) | TP 70만원(하향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 비만 시장의 문을 열다 ▶ 3Q26 연결 매출액 3,774억원(+4.2% YoY, -19.2% QoQ), 영업이익 378억원(-31.3% YoY, -71.2% QoQ; OPM 10.0%)으로 당사 추정치 부합 ▶ 로수젯·다파론패밀리 등 주요 품목 성장으로 별도 매출액 2,915억원(+8.3% YoY) 기록. 반면 북경한미는 집중구매제도 영향과 OTC 공급 조정, 대손충당금 반영으로 매출액 -15.8% YoY, 영업이익 -75.1% YoY 기록. 앱토즈 편입 비용도 수익성에 부담 ▶ 4Q에는 로슈향 HM17321 계약금 인식과 에페글레나타이드 출시로 실적 개선 전망. 에페글레나타이드는 10월 말 공급 개시 예정으로 출시 1년차 매출 1,000억원 목표. 1H27 HM17321 1상 및 HM15275 2상 완료, MASH 치료제 후속 데이터 발표 등 신약 모멘텀 유효. 다만, 27년 실적 추정치 하향을 반영해 적정주가 70만원으로 하향, BUY 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/1RHPfnW >",
+              "post_url": "https://t.me/daolresearch/15328",
+              "source_url": "https://buly.kr/1RHPfnW"
+            },
+            {
+              "id": 15327,
+              "date": "2026-10-28",
+              "month": "2026-10",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "셀트리온",
+              "code": "068270",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145790/1/20261028_068270_jislee_484.pdf",
+              "pdf_error": "",
+              "title": "[셀트리온(068270) | BUY(유지) | TP 29만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 확인된 성장, 넓어지는 무대",
+              "summary": "[셀트리온(068270) | BUY(유지) | TP 29만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 확인된 성장, 넓어지는 무대 ▶ 3Q26 연결 매출액 1조 5,755억원(+53.1% YoY, +13.0% QoQ), 영업이익 5,253억원(+74.3% YoY, +16.3% QoQ; OPM 33.3%)으로 시장 기대치 상회 ▶ 신제품 매출 성장(+74% YoY)으로 바이오시밀러 내 신제품 비중 67%까지 확대. 스토보클로·오센벨트와 옴리클로는 각각 1,122억원, 1,321억원으로 분기 매출 1,000억원 돌파. 다만 짐펜트라는 PBM·도매상 정산 영향으로 매출 감소 ▶ 4Q에는 옴리클로·아이덴젤트 미국 출시와 짐펜트라 매출 정상화로 신제품 매출 비중 70%대 진입 전망. 코센틱스·키트루다 BS 허가 신청 완료에 이어 연내 CT-G32(비만) 전임상 결과 및 CT-P77(FcRn치료제) IND 신청, 27년 ADC 후보물질 2종의 임상 탑라인 발표 예정으로 신약 가치 부각 기대 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/FhQn7s2 >",
+              "post_url": "https://t.me/daolresearch/15327",
+              "source_url": "https://buly.kr/FhQn7s2"
+            },
             {
               "id": 15319,
               "date": "2026-10-27",
@@ -4185,7 +4377,7 @@
           ]
         }
       ],
-      "report_count": 94
+      "report_count": 100
     },
     {
       "month": "2026-09",

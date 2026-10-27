@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-27T18:34:35.133359+00:00",
+ "generated_at": "2026-10-27T22:14:36.609550+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1442,
+ "report_count": 1448,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -33811,6 +33811,42 @@
    "title": "[세아베스틸지주(001430)/ BUY(유지)/ TP 6.4만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 잠시 쉬어갑니다. 신사업 기대는 유지",
    "post_url": "https://t.me/daolresearch/15322",
    "source_url": "https://buly.kr/AasoKKA"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-28",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "신한지주",
+   "code": "055550",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "주주환원 모멘텀이 존재.",
+    "그 외 연말 추가 자사주 매입소각 규모는 예상범위."
+   ],
+   "title": "[은행(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 신한지주(055550): 성장력 확보를 위한 숨 고르기",
+   "post_url": "https://t.me/daolresearch/15326",
+   "source_url": "https://buly.kr/7x9Rxzi"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-28",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "에스티팜",
+   "code": "237690",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "상업화 품목 중심의 매출 성장에도 환율 하락과 저마진 제네릭 제품 비중 증가로 수익성 부진",
+    "4Q 올리고 공급 집중으로 매출 반등 예상되나 환율 및 원가 부담으로 이익 개선폭은 제한적일 전망."
+   ],
+   "title": "[에스티팜(237690) | BUY(유지) | TP 16만원(하향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 눈높이는 낮추고, 다음 성장을 보다",
+   "post_url": "https://t.me/daolresearch/15329",
+   "source_url": "https://buly.kr/5fFbDOc"
   }
  ],
  "cross_mentions": [
@@ -34937,63 +34973,63 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.1
+   "burst": 21.4
+  },
+  {
+   "term": "낮추고",
+   "recent": 6,
+   "total": 7,
+   "sectors": 4,
+   "burst": 12.3
   },
   {
    "term": "감익",
    "recent": 6,
    "total": 8,
    "sectors": 6,
-   "burst": 8.1
+   "burst": 8.2
   },
   {
    "term": "원화",
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.8
+   "burst": 7.9
   },
   {
    "term": "방향",
    "recent": 11,
    "total": 17,
    "sectors": 7,
-   "burst": 6.4
+   "burst": 6.5
   },
   {
    "term": "바스켓",
    "recent": 7,
    "total": 11,
    "sectors": 3,
-   "burst": 5.7
+   "burst": 5.8
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.4
+   "burst": 5.5
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
-   "burst": 5.2
-  },
-  {
-   "term": "분쟁",
-   "recent": 7,
-   "total": 12,
-   "sectors": 5,
-   "burst": 4.7
+   "burst": 5.3
   },
   {
    "term": "할인율",
    "recent": 8,
    "total": 14,
    "sectors": 3,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "사용",
@@ -35003,11 +35039,18 @@
    "burst": 4.6
   },
   {
+   "term": "관건",
+   "recent": 12,
+   "total": 22,
+   "sectors": 9,
+   "burst": 4.5
+  },
+  {
    "term": "배당수익률",
    "recent": 15,
    "total": 28,
    "sectors": 9,
-   "burst": 4.3
+   "burst": 4.4
   },
   {
    "term": "뷰티",
@@ -35017,25 +35060,18 @@
    "burst": 4.1
   },
   {
-   "term": "관건",
-   "recent": 11,
-   "total": 21,
-   "sectors": 9,
-   "burst": 4.1
-  },
-  {
-   "term": "보수적",
-   "recent": 9,
-   "total": 18,
-   "sectors": 6,
-   "burst": 3.7
-  },
-  {
    "term": "구축",
    "recent": 16,
    "total": 33,
    "sectors": 10,
-   "burst": 3.6
+   "burst": 3.7
+  },
+  {
+   "term": "철강금속",
+   "recent": 8,
+   "total": 16,
+   "sectors": 3,
+   "burst": 3.7
   }
  ]
 }
