@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T22:17:28.325730+00:00",
+ "generated_at": "2026-10-28T22:47:01.599330+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1459,
+ "report_count": 1461,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34212,6 +34212,57 @@
    "title": "[SK하이닉스(000660) | 다올투자증권 반도체/디스플레이 남대종] ★ 되돌림이 필요한 시기",
    "post_url": "https://t.me/daolresearch/15346",
    "source_url": "https://buly.kr/74ZfQMy"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD현대중공업",
+   "code": "329180",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    ": 1) 적정PER 15배로 하향 및 2) 환율 하락을 반영해 2027~2029 실적 하향"
+   ],
+   "title": "[HD현대중공업(329180)/BUY(유지)/TP 630,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대중공업(329180) : 2026-2030 힘센 증익 기울기 보임",
+   "post_url": "https://t.me/daolresearch/15348",
+   "source_url": "https://bit.ly/HHI3Q26RE"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD현대중공업",
+   "code": "329180",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "FDC 사업 진출, 미국 진출(HD한국조선해양 자료 참조)으로 실적 상향 가능"
+   ],
+   "title": "[HD현대중공업(329180)/BUY(유지)/TP 630,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대중공업(329180) : 2026-2030 힘센 증익 기울기 보임",
+   "post_url": "https://t.me/daolresearch/15348",
+   "source_url": "https://bit.ly/HHI3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD현대중공업",
+   "code": "329180",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[HD현대중공업(329180)/BUY(유지)/TP 630,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[HD현대중공업(329180)/BUY(유지)/TP 630,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대중공업(329180) : 2026-2030 힘센 증익 기울기 보임",
+   "post_url": "https://t.me/daolresearch/15348",
+   "source_url": "https://bit.ly/HHI3Q26RE"
   }
  ],
  "cross_mentions": [
@@ -35806,14 +35857,14 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.3
+   "burst": 21.2
   },
   {
    "term": "낮추고",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 14.4
+   "burst": 14.3
   },
   {
    "term": "감익",
@@ -35841,14 +35892,14 @@
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.5
+   "burst": 5.4
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
-   "burst": 5.3
+   "burst": 5.2
   },
   {
    "term": "방향",
