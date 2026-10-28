@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28T02:31:35.824603+00:00",
+  "generated_at": "2026-10-28T18:38:40.576083+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1455,
+  "report_count": 1456,
   "months": [
     {
       "month": "2026-10",
@@ -4004,8 +4004,44 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 14,
+          "report_count": 15,
           "reports": [
+            {
+              "id": 15342,
+              "date": "2026-10-28",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "HD한국조선해양",
+              "code": "009540",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "3Q26보다 HD한국조선해양의 투자포인트는 1) 배당 수익률 10%대의",
+              "industry_conclusion": "",
+              "report_conclusion": "것으로 전망하며, 충남급 상세설계 및 선도함 건조사임을 강조 지분율 HD현대 50% 이상 전망 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 13.3 4.5 3.6",
+                "PBR(배) 2.2 1.1 0.9",
+                "EV/EBITDA(배) 5.3 1.3 0.4",
+                "Performance 1M 6M 12M YTD",
+                "SOTP Valuation 2022년 2023년 2024년 2025년 2026년 2027년 2028년"
+              ],
+              "earnings_changes": [
+                "5: HD한국조선해양 실적 예상 (십억원)"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145816/1/20261028_009540_gs.choie_608.pdf",
+              "pdf_error": "",
+              "title": "[HD한국조선해양(009540)/BUY(유지)/TP 380,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD한국조선해양(009540) : 브리지를 건너, 미국에서 배 짓는다",
+              "summary": "[HD한국조선해양(009540)/BUY(유지)/TP 380,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD한국조선해양(009540) : 브리지를 건너, 미국에서 배 짓는다 ▶ Issue: 3Q26 리뷰. HD한국조선해양의 미국 진출 선포 ▶ Pitch: > 적정주가는 SOTP의 종속사 기업가치, 멀티플 하락으로 내림 > HD한국조선해양의 투자포인트는 1) 배당 수익률 10%대의 매력과 막 발표된 2) MASGA 관련 미국 투자 및 진출 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/KSOE3Q26RE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15342",
+              "source_url": "https://bit.ly/KSOE3Q26RE"
+            },
             {
               "id": 15337,
               "date": "2026-10-28",
@@ -4608,7 +4644,7 @@
           ]
         }
       ],
-      "report_count": 107
+      "report_count": 108
     },
     {
       "month": "2026-09",

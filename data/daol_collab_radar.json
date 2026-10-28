@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T02:31:41.119971+00:00",
+ "generated_at": "2026-10-28T18:40:17.964023+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1455,
+ "report_count": 1456,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34091,6 +34091,58 @@
    "title": "[HD현대일렉트릭(267260)/ BUY(유지)/ TP 100만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 다시 한번 증설",
    "post_url": "https://t.me/daolresearch/15339",
    "source_url": "https://buly.kr/8pjEsfg"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-10-28",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD한국조선해양",
+   "code": "009540",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "HD한국조선해양의 미국 진출 선포",
+    "Pitch: > 적정주가는 SOTP의 종속사 기업가치, 멀티플 하락으로 내림 > HD한국조선해양의 투자포인트는 1) 배당 수익률 10%대의 매력과 막 발표된 2) MASGA 관련 미국 투자 및 진출"
+   ],
+   "title": "[HD한국조선해양(009540)/BUY(유지)/TP 380,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD한국조선해양(009540) : 브리지를 건너, 미국에서 배 짓는다",
+   "post_url": "https://t.me/daolresearch/15342",
+   "source_url": "https://bit.ly/KSOE3Q26RE"
+  },
+  {
+   "theme": "미 함정 MRO/조선협력",
+   "category": "미국공략",
+   "date": "2026-10-28",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD한국조선해양",
+   "code": "009540",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Pitch: > 적정주가는 SOTP의 종속사 기업가치, 멀티플 하락으로 내림 > HD한국조선해양의 투자포인트는 1) 배당 수익률 10%대의 매력과 막 발표된 2) MASGA 관련 미국 투자 및 진출"
+   ],
+   "title": "[HD한국조선해양(009540)/BUY(유지)/TP 380,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD한국조선해양(009540) : 브리지를 건너, 미국에서 배 짓는다",
+   "post_url": "https://t.me/daolresearch/15342",
+   "source_url": "https://bit.ly/KSOE3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-28",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD한국조선해양",
+   "code": "009540",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[HD한국조선해양(009540)/BUY(유지)/TP 380,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[HD한국조선해양(009540)/BUY(유지)/TP 380,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD한국조선해양(009540) : 브리지를 건너, 미국에서 배 짓는다",
+   "post_url": "https://t.me/daolresearch/15342",
+   "source_url": "https://bit.ly/KSOE3Q26RE"
   }
  ],
  "cross_mentions": [
@@ -35217,14 +35269,14 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 20.9
+   "burst": 20.8
   },
   {
    "term": "낮추고",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 14.1
+   "burst": 14.0
   },
   {
    "term": "감익",
@@ -35238,7 +35290,7 @@
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.7
+   "burst": 7.6
   },
   {
    "term": "방향",
@@ -35259,14 +35311,14 @@
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.4
+   "burst": 5.3
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
-   "burst": 5.2
+   "burst": 5.1
   },
   {
    "term": "관건",
