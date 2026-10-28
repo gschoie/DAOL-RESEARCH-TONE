@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T18:40:17.964023+00:00",
+ "generated_at": "2026-10-28T22:17:28.325730+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1456,
+ "report_count": 1459,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34143,9 +34143,90 @@
    "title": "[HD한국조선해양(009540)/BUY(유지)/TP 380,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD한국조선해양(009540) : 브리지를 건너, 미국에서 배 짓는다",
    "post_url": "https://t.me/daolresearch/15342",
    "source_url": "https://bit.ly/KSOE3Q26RE"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-29",
+   "analyst": "남대종",
+   "sector": "반도체/소부장",
+   "company": "SK하이닉스",
+   "code": "000660",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "️ 3Q26에 이어 4Q26도 실적 서프라이즈 전망 - 3Q26 매출액 104.6조원(+32%, 이하 QoQ), 영업이익 83.3조원(+38%)으로 컨센서스(OP 77.0조원) 상회 - 달러원 환율 하락에도 매출액이 증가한 원인은 DRAM·NAND ASP가 20% 중후반 QoQ 상승했기 때문 - 4Q26 매출액 128.8조원(+23%), 영업이익 101.0조원(+21%) 전망."
+   ],
+   "title": "[SK하이닉스(000660) | 다올투자증권 반도체/디스플레이 남대종] ★ 되돌림이 필요한 시기",
+   "post_url": "https://t.me/daolresearch/15346",
+   "source_url": "https://buly.kr/74ZfQMy"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-29",
+   "analyst": "남대종",
+   "sector": "반도체/소부장",
+   "company": "SK하이닉스",
+   "code": "000660",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ 주주 환원에 대한 소고 - 2026년 임직원 성과급 및 주주환원 규모 약 100조원 제시 - 현금배당 30조원(3Q26 14조원, 4Q26 16조원), 기존 40조원 외 추가 자사주 매입·소각 20조원 계획 - Kioxia 투자 수익에 기반한 현금배당은 3Q26 7조원, 4Q26 최소 9조원으로 추정"
+   ],
+   "title": "[SK하이닉스(000660) | 다올투자증권 반도체/디스플레이 남대종] ★ 되돌림이 필요한 시기",
+   "post_url": "https://t.me/daolresearch/15346",
+   "source_url": "https://buly.kr/74ZfQMy"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-10-29",
+   "analyst": "남대종",
+   "sector": "반도체/소부장",
+   "company": "SK하이닉스",
+   "code": "000660",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ Valuation 관점에서의 해석 - 현 주가는 2027년 예상 실적 기준 PER 2.4X, PBR 1.7X로 현저한 저평가 상태 - 유가 상승에 따른 인플레이션 및 금리 상승 우려 지속 - 최근 주가 하락은 과거 메모리 다운사이클 당시 ASP 하락폭(-50~60% YoY)을 이미 반영한 수준 - 반면 실제 메모리 ASP 하락은 나타나지 않고 있으며, 출하량은 예상보다 큰 폭으로 증가 - 현 시점에서 탄탄한 메모리 수요를 "
+   ],
+   "title": "[SK하이닉스(000660) | 다올투자증권 반도체/디스플레이 남대종] ★ 되돌림이 필요한 시기",
+   "post_url": "https://t.me/daolresearch/15346",
+   "source_url": "https://buly.kr/74ZfQMy"
+  },
+  {
+   "theme": "HBM/AI반도체",
+   "category": "산업테마",
+   "date": "2026-10-29",
+   "analyst": "남대종",
+   "sector": "반도체/소부장",
+   "company": "SK하이닉스",
+   "code": "000660",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "️ 3Q26에 이어 4Q26도 실적 서프라이즈 전망 - 3Q26 매출액 104.6조원(+32%, 이하 QoQ), 영업이익 83.3조원(+38%)으로 컨센서스(OP 77.0조원) 상회 - 달러원 환율 하락에도 매출액이 증가한 원인은 DRAM·NAND ASP가 20% 중후반 QoQ 상승했기 때문 - 4Q26 매출액 128.8조원(+23%), 영업이익 101.0조원(+21%) 전망.",
+    "컨센서스(OP 87.0조원)를 상회할 것으로 예상 - 4Q 실적 견인 요인은 20% 중반 증가를 예고한 DRAM Bit Growth에 기인"
+   ],
+   "title": "[SK하이닉스(000660) | 다올투자증권 반도체/디스플레이 남대종] ★ 되돌림이 필요한 시기",
+   "post_url": "https://t.me/daolresearch/15346",
+   "source_url": "https://buly.kr/74ZfQMy"
   }
  ],
  "cross_mentions": [
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-05-29",
+   "evidence": "SK하이닉스, 와이씨켐, 주성엔지니어링, 에스티아이 최선호주 의견을 유지합니다.\"",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체/소부장 - [엔비디아 FY1Q26] B2B AI로 19년처럼",
+   "post_url": "https://t.me/daolresearch/11679"
+  },
   {
    "company": "팬오션",
    "code": "028670",
@@ -34159,6 +34240,18 @@
    "post_url": "https://t.me/daolresearch/11687"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-06-12",
+   "evidence": "6~7월은 사는 달 이라는 기존 의견 및 HBM4에서도 견고한 경쟁력이 확인될 SK하이닉스와 와이씨켐, 주성엔지니어링, 에스티아이 최선호주 의견 을 유지합니다.\"",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체/소부장 - 클라우드 캐파의 강한 숏티지 재확인",
+   "post_url": "https://t.me/daolresearch/11746"
+  },
+  {
    "company": "팬오션",
    "code": "028670",
    "owner_analyst": "오정하",
@@ -34169,6 +34262,18 @@
    "evidence": "탱커 ▲ HD현대중공업, 팬오션으로부터 VLCC 2척 수주(전자공시) ▽ 인도 국영 정유 3사, PC선 10척 공동 발주 계획.",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 LNG선 저가 공세 vs 한국의 차세대 LNG선 디자인 제시 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/11755"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-06-26",
+   "evidence": "️ 업종 투자전략 - AI 2라운드로 넘어가는 단서 축적되는 중 - AI 제품 관련 경쟁력이 차별적으로 유지되는 SK하이닉스 비중확대 의견 및 최선호주 의견 유지 - 1차 도달 가능 적정주가 35만원 📑 자료: https://buly.kr/GE8Cnui *컴플라이언스 승인이 이뤄진 내용입니다.",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체/소부장 - [마이크론 FY3Q25] AI 2라운드 진입 준비",
+   "post_url": "https://t.me/daolresearch/11825"
   },
   {
    "company": "HMM",
@@ -34277,6 +34382,18 @@
    "evidence": "그린쉽 △ 일본 Itochu Corp는 암모니아 벙커링 탱커 신조 발주 ▲ 현대글로비스, 세계 최초 AI 기반 자율운항 PCTC 선대 구축 목표.",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 아프리카에 4번째 해외 생산거점을 준비하는 HD현대 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/11994"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-07-25",
+   "evidence": "[다올투자증권 반도체/소부장 고영민, 김연미] SK하이닉스(2Q25 리뷰) - 디펜딩 챔피언",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] SK하이닉스(2Q25 리뷰) - 디펜딩 챔피언",
+   "post_url": "https://t.me/daolresearch/12029"
   },
   {
    "company": "현대차",
@@ -34399,6 +34516,18 @@
    "post_url": "https://t.me/daolresearch/12215"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-08-18",
+   "evidence": "핵심 주제 & 아이디어 요약 \"SK하이닉스 M15X향 소재 공급이 1Q26부터 본격 시작됩니다.",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 와이씨켐(2Q25 리뷰) - 26년 환골탈태, 이상 무",
+   "post_url": "https://t.me/daolresearch/12242"
+  },
+  {
    "company": "현대글로비스",
    "code": "086280",
    "owner_analyst": "오정하",
@@ -34409,6 +34538,18 @@
    "evidence": "향후 2~2.5년 안에 걸쳐 정의선 회장이 보유한 현대글로비스 또는 보스턴다이나믹스의 지분 활용 가능성이 보다 선명해짐",
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 2차 상법개정안 통과: 큰 놈이 온다",
    "post_url": "https://t.me/daolresearch/12307"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-08-28",
+   "evidence": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(NVIDIA FY2Q26 리뷰) - SK하이닉스 레벨 콜",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(NVIDIA FY2Q26 리뷰) - SK하이닉스 레벨 콜",
+   "post_url": "https://t.me/daolresearch/12324"
   },
   {
    "company": "파마리서치",
@@ -34471,6 +34612,18 @@
    "post_url": "https://t.me/daolresearch/12381"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-09-08",
+   "evidence": "Rubin 지연 우려 해소 이후 SK하이닉스의 레벨 콜 구간에 도달했습니다.",
+   "title": "작년 24년 9월 3일은 '피크아웃 우려 정면돌파' 라는 자료를 썼는데, 올 해 9월은 HBM 우려 관련 자료를 쓰게 됐습니다.",
+   "post_url": "https://t.me/daolresearch/12385"
+  },
+  {
    "company": "현대글로비스",
    "code": "086280",
    "owner_analyst": "오정하",
@@ -34481,6 +34634,18 @@
    "evidence": "현대모비스와 현대글로비스의 일시적 주가 변동성 전개.",
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★주간 업종 리뷰: 질주하는 Tesla와 현대차의 하이브리드",
    "post_url": "https://t.me/daolresearch/12462"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-09-22",
+   "evidence": "이에 대해 세부적으로 검증했을 때, 특징적인 부분은 기존 양상과 달리 최근 수요는 Solidigm으로의 집중이 아닌 삼성전자와 SK하이닉스(본사)로의 집중 이라는 것입니다.",
+   "title": "대형주 3분기 프리뷰를 겸해 최근 기대감이 강하게 형성되고 있는 범용(레거시) 수요의 정체를 고민해보는 미니 인뎁스 자료 를 작성했습니다.",
+   "post_url": "https://t.me/daolresearch/12472"
   },
   {
    "company": "HMM",
@@ -34543,6 +34708,18 @@
    "post_url": "https://t.me/daolresearch/12682"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-10-27",
+   "evidence": "️ 향후 2년의 정해진 미래 - 건물을 짓고, 장비를 채우고 ①인프라 확충 - 최악의 22년 Down-Cycle을 지나는 과정에서 생산업체들의 사전적 인프라(Fab) 확충 타이밍 Miss → DRAM 기준 유휴 공간(증설 가능 공간)은 삼성전자 80K, SK하이닉스 50K = 역대 최저 수준 도달 ②전공정 투자 - 공급사들의 DRAM 재고 4주 수준으로 하락(강한 숏티지) - HBM 캐파 잠식 등 단기 숏티지 해소에 어려움 존",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 소부장 3Q25 Preview - 결핍에 집중하면 답이 보인다",
+   "post_url": "https://t.me/daolresearch/12686"
+  },
+  {
    "company": "포스코퓨처엠",
    "code": "003670",
    "owner_analyst": "유지웅",
@@ -34553,6 +34730,42 @@
    "evidence": "포스코퓨처엠의 양극재 판매 호조와 더불어 리튬가격 상승으로 인한 포스코 아르헨티나와 P-PLS에서의 재고평가손실 환입이 주효.",
    "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 45만원(상향)/ 다올 철강 이정우] ★ 이번에도 철강은 이익 개선폭 증가",
    "post_url": "https://t.me/daolresearch/12700"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2025-10-31",
+   "evidence": "미중 무역합의 및 한미 관세협상 타결 기대감, 그리고 SK하이닉스의 사상 최대 실적 발표 등에 힘입어 4,000선을 돌파하며 사상 최고치 경신, 이후 단기 급등 부담에 따른 차익실현 매물과 FOMC의 '매파적 인하' 스탠스 등으로 상승폭을 소폭 반납하며 4,080포인트대에서 마감 - DOW(-0.2%) 하락, S&P500(+1.2%), NASDAQ(+2.7%) 상승.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
+   "post_url": "https://t.me/daolresearch/12763"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-11-06",
+   "evidence": "따라서, 편안하게 타율 좋을 1H26까지 반도체 업종에 대한 적극적 비중확대 전략이 유효하며 대형주 최선호 SK하이닉스, 차선호 삼성전자, 소부장 최선호 브이엠, 에스티아이 의견 유지합니다.",
+   "title": "26년 연간전망 자료 작성했습니다.",
+   "post_url": "https://t.me/daolresearch/12811"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2025-11-06",
+   "evidence": "하락 요인은 1) 팔란티어 실적 발표 이후 셀온, 마이클 버리의 팔란티어, 엔비디아 숏포지션 공개 등 AI 버블 우려 자극, 2) SK하이닉스 투자주의 지정 이후 거래정지 불안감에 차익실현, 3) 빅이벤트 주간 이후 모멘텀 공백, 4) 달러 강세 전환으로 인한 원화 1,450원대 추가 약세 등이 맞물린 결과.",
+   "title": "[다올 시황 김지현] ★ 셧다운 종료 시 유동성 압박은 일차적으로 해소 가능",
+   "post_url": "https://t.me/daolresearch/12818"
   },
   {
    "company": "하이브",
@@ -34589,6 +34802,18 @@
    "evidence": "LNG ▲ 현대글로비스는 HD현대중공업, 한화오션과 LNG선 발주 협상 ▲ Mitsui & Co, Venture Global과 20년 장기 LNG 계약 체결 ▲Alaska LNG 프로젝트, Baker Hughes와 장비 공급•투자 계약 체결",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커까지 발주 강세와 선가 상승! 한-미 팩트시트? ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/12907"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2025-11-20",
+   "evidence": "메모리의 장기 호황 속 1H26 말까지 주가의 부정적인 변수는 제한적 이라는 점을 주목하며, SK하이닉스, 삼성전자에 대한 적극 비중확대 유효 구간으로 판단합니다.",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(NVIDIA FY3Q26 리뷰) - [엔비디아 FY3Q26] 반등 변곡점 제조기",
+   "post_url": "https://t.me/daolresearch/12946"
   },
   {
    "company": "HMM",
@@ -34663,6 +34888,18 @@
    "post_url": "https://t.me/daolresearch/13099"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2025-12-12",
+   "evidence": "12월 FOMC 경계감 속에서도 LG에너지솔루션 수주 호재와 SK하이닉스 미국 상장 기대감 등에 힘입어 4,150pt선을 상회.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (12월 2주차)]",
+   "post_url": "https://t.me/daolresearch/13099"
+  },
+  {
    "company": "현대차",
    "code": "005380",
    "owner_analyst": "유지웅",
@@ -34685,6 +34922,30 @@
    "evidence": "마이크론 실적 기대감에 반도체 업종이 반등하며 4,000선을 일시 회복했으나, 오라클 데이터센터 프로젝트 핵심 투자자(블루아울캐피털) 이탈로 AI 과잉투자 우려가 심화되고, LG에너지솔루션의 공급계약 해지 소식에 2차전지 업종이 급락하며 3,994pt에서 마감 - DOW(-1.0%), NASDAQ(-0.8%), S&P500(-0.8%) 하락.",
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (12월 3주차)]",
    "post_url": "https://t.me/daolresearch/13153"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-01-02",
+   "evidence": "️ SK하이닉스, 삼성전자 적정주가 Up!",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(대형주 4Q25 Preview) - 알고 있음에도 놀랄 준비 완료",
+   "post_url": "https://t.me/daolresearch/13193"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2026-01-07",
+   "evidence": "12개월 선행 PER 현재 10.3배로 5,000pt는 11.5배에 해당 - 삼성전자 26년 영업이익 추정치 12월 말 대비 상향된 100조원, 상단 133조원, SK하이닉스 26년 영업이익 추정치 85조원, 상단 108조원 - 컨센서스 대비 20% 상향 시 코스피 전체 영업이익 전망치 약 8% 상승분에 해당하며 밸류에이션 부담 없이 5,",
+   "title": "[다올 시황 김지현] ★ 머지않은 5,000pt",
+   "post_url": "https://t.me/daolresearch/13230"
   },
   {
    "company": "현대차",
@@ -34747,6 +35008,30 @@
    "post_url": "https://t.me/daolresearch/13272"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-01-12",
+   "evidence": "투자의견 및 적정주가 요약 - 현대차: TP 47만원(BUY) - 현대모비스: TP 55만원(BUY)_상향 - SK하이닉스: TP 95만원(BUY) - 삼성전자: TP 16만원(BUY) - 로보티즈: TP Not Rated - 에스피지: TP Not Rated ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr/CB5wkEB >",
+   "title": "[CES 2026 참관기 | 다올투자증권 자동차 유지웅, 반도체 고영민, 로봇 오정하] ★ CES 2026 참관기: From Imagination to Reality",
+   "post_url": "https://t.me/daolresearch/13272"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2026-01-21",
+   "evidence": "해당 변곡점은 1/29 SK하이닉스, 애플, 아마존 실적 발표 전후 예상 ➡️ 밸류에이션 상으로 코스피 5,000pt 달성 가능하나 12일 연속 상승에 대한 단기 과열 해소 필요, 5,000pt 이후 수급상 숨고르기 국면에 진입할 가능성 염두",
+   "title": "[다올 시황 김지현] ★ 1/21 Derivative Market Point",
+   "post_url": "https://t.me/daolresearch/13360"
+  },
+  {
    "company": "HMM",
    "code": "011200",
    "owner_analyst": "오정하",
@@ -34769,6 +35054,30 @@
    "evidence": "주 후반 SK하이닉스의 호실적과 주주환원, 현대차의 올해 개발 계획 발표 등 호재가 잇따르며 5,200선에서 마감 - DOW(-0.3%) 하락, NASDAQ(+0.4%), S&P500(+0.3%) 상승.",
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (1월 5주차)]",
    "post_url": "https://t.me/daolresearch/13448"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-01-30",
+   "evidence": "활성화 정책 기대로 코스닥은 급등세를 보인 가운데, 코스피는 주초 삼성전자·SK하이닉스 실적발표를 앞두고 차익 매물이 출회되며 5,000선을 일시 하회.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (1월 5주차)]",
+   "post_url": "https://t.me/daolresearch/13448"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-02-10",
+   "evidence": "️ 26E OP / 삼성전자 209조원, SK하이닉스 167조원(상향)",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체/소부장 - 메모리 모멘텀 주간, 또 올라갈 눈높이",
+   "post_url": "https://t.me/daolresearch/13555"
   },
   {
    "company": "LG전자",
@@ -34807,6 +35116,30 @@
    "post_url": "https://t.me/daolresearch/13605"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-02-26",
+   "evidence": "삼성전자, SK하이닉스에 대한 비중확대 의견과 함께 소부장은 신성이엔지, 브이엠, 에스티아이, 주성엔지니어링 선호 의견을 유지합니다.\"",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체/소부장 - [엔비디아 FY4Q26] 한 것보다 할 게 많다",
+   "post_url": "https://t.me/daolresearch/13672"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2026-03-17",
+   "evidence": "위험자산 조정받는 가운데 예탁금 및 거래대금 감소하며 대형주, 특히 기존 주도주였던 삼성전자, SK하이닉스, 금융주 비중 축소 진행.",
+   "title": "[다올 시황 김지현] ★ 시장 변수는 여전히 유가, 하락 시 반도체 랠리 재개 가능",
+   "post_url": "https://t.me/daolresearch/13788"
+  },
+  {
    "company": "HMM",
    "code": "011200",
    "owner_analyst": "오정하",
@@ -34817,6 +35150,30 @@
    "evidence": "컨테이너 ▲ HD현대중공업, HMM으로부터 피더 컨테이너선 10척 수주",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: FLNG- 모잠비크 3번째, 아르헨티나 3개, 베네수엘라에도! ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/13814"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2026-03-26",
+   "evidence": "삼성전자, SK하이닉스 7~8%대 강세로 코스피 지수 5,900pt에 도달, 코스피200 선물지수 5% 이상 급등하며 매수 사이드카가 발동되었던 3/18 1.7조원 선물 순매수 기록한 이후 처음으로 유의미한 규모.",
+   "title": "[다올 시황/파생 김지현] ★ 3/26 Derivative Market Point",
+   "post_url": "https://t.me/daolresearch/13839"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-04-01",
+   "evidence": "삼성전자, SK하이닉스에 대한 비중확대 의견 유지합니다.\"",
+   "title": "최근 업종 주가 하락 과정에 대해 구글 터보퀀트 등 바텀업 요인들이 주된 배경으로 해석이 많이 되는 분위기 이지만, 기술 관점으로 분석할수록 실질적 영향이 제한적 이라는 것이 명확합니다.",
+   "post_url": "https://t.me/daolresearch/13866"
   },
   {
    "company": "팬오션",
@@ -34831,6 +35188,18 @@
    "post_url": "https://t.me/daolresearch/13899"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2026-04-09",
+   "evidence": "➡️ 주식선물 월물 만기일 앞두고 삼성전자 4월물 미결제약정 11만 계약 감소, 5월물 23만 계약 증가, SK하이닉스 4월물 30만 계약 감소, 5월물 48만 계약 증가.",
+   "title": "[다올 시황/파생 김지현] ★ 4/9 Derivative Market Point",
+   "post_url": "https://t.me/daolresearch/13944"
+  },
+  {
    "company": "현대로템",
    "code": "064350",
    "owner_analyst": "최광식",
@@ -34841,6 +35210,30 @@
    "evidence": "매각 대상은 주 고객사인 현대로템으로, 연말 거래 완료를 목표로 하는 것으로 파악",
    "title": "[다올투자증권 자동차/이차전지 유지웅] ★ 현대위아(011210) - 방산사업 매각 추진, 사업재편 가속화",
    "post_url": "https://t.me/daolresearch/13988"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-04-24",
+   "evidence": "[다올투자증권 반도체/소부장 고영민, 김연미] SK하이닉스(1Q26 Review) - 마르지 않는 상승여력",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] SK하이닉스(1Q26 Review) - 마르지 않는 상승여력",
+   "post_url": "https://t.me/daolresearch/14048"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-04-24",
+   "evidence": "미국 증시가 기술주 중심으로 강세를 보인 가운데 SK하이닉스의 실적이 역대 최대를 기록하며 매수 유입, KOSPI는 사상 첫 6,500선 돌파 - DOW(-0.3%), S&P500(-0.3%), NASDAQ(-0.1%) 하락.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (4월 4주차)]",
+   "post_url": "https://t.me/daolresearch/14050"
   },
   {
    "company": "Alphabet",
@@ -34865,6 +35258,18 @@
    "evidence": "지배주주당기순이익은 2,097억원(+177.5% YoY, 흑전 QoQ)으로 지난 2월 하이브 주식 88만 주(3,208억원)에 대해 체결한 주가수익스왑 계약금액이 반영되어 컨센서스에 크게 상회",
    "title": "[넷마블(251270)｜다올 인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 1Q26 Review: 구조적 개선은 지속 ★ 70,000원(하향), BUY(유지)",
    "post_url": "https://t.me/daolresearch/14162"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-05-08",
+   "evidence": "글로벌 반도체 랠리가 국내로 확산되며 삼성전자, SK하이닉스 등 반도체 대형주로 매수세 집중, 코스피는 사상 최초 7,500선과 시총 6,000조원을 돌파하며 강한 상승장을 이어감.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (5월 2주차)]",
+   "post_url": "https://t.me/daolresearch/14164"
   },
   {
    "company": "Alphabet",
@@ -34903,6 +35308,18 @@
    "post_url": "https://t.me/daolresearch/14207"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2026-05-14",
+   "evidence": "5월 이후 개인은 코스피 19조원(SK하이닉스 8조원, 삼성전자 6조원), 지수 ETF 1,000억원, 반도체 ETF 6,700억원 순매수.",
+   "title": "[다올 시황/파생 김지현] ★ 5/14 Derivative Market Point",
+   "post_url": "https://t.me/daolresearch/14218"
+  },
+  {
    "company": "팬오션",
    "code": "028670",
    "owner_analyst": "오정하",
@@ -34927,6 +35344,18 @@
    "post_url": "https://t.me/daolresearch/14297"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "김지현",
+   "sector": "전략/시황",
+   "date": "2026-05-28",
+   "evidence": "이 중 레버리지 상품은 총 14종목으로 SK하이닉스, 삼성전자 각각 7개 상품 상장.",
+   "title": "[다올 시황/파생 김지현] ★ 5/28 Derivative Market Point",
+   "post_url": "https://t.me/daolresearch/14299"
+  },
+  {
    "company": "HMM",
    "code": "011200",
    "owner_analyst": "오정하",
@@ -34939,6 +35368,18 @@
    "post_url": "https://t.me/daolresearch/14313"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-06-19",
+   "evidence": "SK하이닉스는 ADR 상장, 주주환원 기대감, HBM4E 샘플 공급 등 연속 호재로 신고가 달성하며 코스피 상승을 주도.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (6월 3주차)]",
+   "post_url": "https://t.me/daolresearch/14422"
+  },
+  {
    "company": "팬오션",
    "code": "028670",
    "owner_analyst": "오정하",
@@ -34949,6 +35390,30 @@
    "evidence": "탱커 ▲ 한화오션, 팬오션으로부터 VLCC 4척 수주 ▲ HD현대중공업 그리스 Metrostar로부터 MR 2척 수주 △ K조선, 그리스 Sea World로부터 PC선 3척 추가 수주",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 탱커 수주, 한화오션의 FLNG 진출, 태국 호위함 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/14424"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-06-23",
+   "evidence": "️ 적정주가 상향(삼성전자 58.5만원, SK하이닉스 420만원)",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(대형주 2Q26 Preview) - 돌아온 바텀업 구간(3월 말~4월 말 재현)",
+   "post_url": "https://t.me/daolresearch/14431"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-06-25",
+   "evidence": "삼성전자, SK하이닉스를 비롯한 소부장 전반의 비중확대 전략이 유효하며, 소부장 내에서는 브이엠 최선호주 의견 유지합니다.\"",
+   "title": "[다올투자증권 반도체/소부장 고영민, 김연미] 반도체(마이크론 FY3Q26 Review) - 실적 시즌의 힘",
+   "post_url": "https://t.me/daolresearch/14452"
   },
   {
    "company": "HMM",
@@ -34987,6 +35452,18 @@
    "post_url": "https://t.me/daolresearch/14502"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-07-13",
+   "evidence": "삼성전자, SK하이닉스, 브이엠에 대한 적극 비중확대 의견 유지합니다.",
+   "title": "지난 4월 터보퀀트 이슈가 불거졌을 때 썼던 '반도체는 잘못이 없다'의 2번째 시리즈 자료를 작성했습니다.",
+   "post_url": "https://t.me/daolresearch/14558"
+  },
+  {
    "company": "현대건설",
    "code": "000720",
    "owner_analyst": "박영도",
@@ -34997,6 +35474,18 @@
    "evidence": "2: HD현대건설기계 PER: 실적 올려 10배에 불과 Fig.",
    "title": "[HD건설기계(267270)/BUY(유지)/TP 270,000원(상향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD건설기계(267270) : 자원국 폭증도, 엔진도 모두 AI 사이클",
    "post_url": "https://t.me/daolresearch/14694"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-07-31",
+   "evidence": "SK하이닉스 실적이 시장 예상을 하회한 데 이어 급락 이후 반등 실패에 투매성 매물 출회되며 코스피 5,600대로 하락.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (7월 5주차)]",
+   "post_url": "https://t.me/daolresearch/14730"
   },
   {
    "company": "팬오션",
@@ -35011,6 +35500,18 @@
    "post_url": "https://t.me/daolresearch/14738"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "고영민",
+   "sector": "반도체/소부장",
+   "date": "2026-08-05",
+   "evidence": "️ 박스권 상단 산출 → 삼성전자 26.9~28.5만원, SK하이닉스 172~212만원",
+   "title": "[다올투자증권 반도체/소부장 고영민] 반도체(8월 전략) - 박스권 상단 레벨 테스트",
+   "post_url": "https://t.me/daolresearch/14778"
+  },
+  {
    "company": "카카오",
    "code": "035720",
    "owner_analyst": "김혜영",
@@ -35021,6 +35522,18 @@
    "evidence": "30)에1 aha 일평균거라대금 96억원 일부 1『들의 투어 개시 속 주요 들의 글로벌 대신 일본 컴백이 집중됩어 age 은 22 따라 음반원 매출은 QoQ 감소가 불가피할 전망 주요주주지분율(%) 카카오 (의 10인) 41.8 ㆍ [공연] 매출 416억원.",
    "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 2Q26 Review: 무난한 실적 속 MD 매출 호조",
    "post_url": "https://t.me/daolresearch/14798"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-08-21",
+   "evidence": "이후 SK하이닉스 대규모 주주환원 발표와 미 국채금리 안정을 재료로 저가매수가 유입, 급반등하며 낙폭 만회.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (8월 3주차)]",
+   "post_url": "https://t.me/daolresearch/14931"
   },
   {
    "company": "삼성중공업",
@@ -35215,6 +35728,18 @@
    "post_url": "https://t.me/daolresearch/15201"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "date": "2026-10-12",
+   "evidence": "양사 간 전략적 협업 History - SK텔레콤은 ‘24년 7월 Penguin Solutions와 $200M 규모의 전환우선주 투자 계약을 체결했고, ‘24년 12월 투자를 완료 - 이후 Penguin Solutions는 SK텔레콤의 가산 AI DC 내 GPU Cluster ‘해인’의 설계•구축•시스템 통합을 맡아 ‘25년 7월경 구축을 완료함 - 한편 SK텔레콤은 ‘26년 7월 SK하이닉스의 100% 자회사 ‘SHIFTIX",
+   "title": "[SK텔레콤(017670) | BUY(유지) | 14만원(유지) | 다올 통신/음식료 이다연] ★ GPUaaS 사업 현황 Comment (feat. Penguin Solutions 실적발표)",
+   "post_url": "https://t.me/daolresearch/15202"
+  },
+  {
    "company": "포스코인터내셔널",
    "code": "047050",
    "owner_analyst": "이정우",
@@ -35251,6 +35776,18 @@
    "post_url": "https://t.me/daolresearch/15258"
   },
   {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-10-23",
+   "evidence": "삼성전자, SK하이닉스의 자사주 매입 종료 후 뚜렷한 매수 주체가 부재한 상황에서 외국인 수급이 매수와 매도를 오가며 지수 방향성을 좌우하는 모습 -DOW(+1.7%), S&P500(+0.1%) 상승, NASDAQ(-0.5%) 하락.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 4주차)]",
+   "post_url": "https://t.me/daolresearch/15300"
+  },
+  {
    "company": "HMM",
    "code": "011200",
    "owner_analyst": "오정하",
@@ -35269,55 +35806,55 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 20.8
+   "burst": 21.3
   },
   {
    "term": "낮추고",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 14.0
+   "burst": 14.4
   },
   {
    "term": "감익",
    "recent": 8,
    "total": 10,
    "sectors": 6,
-   "burst": 10.7
+   "burst": 10.9
   },
   {
    "term": "원화",
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.6
-  },
-  {
-   "term": "방향",
-   "recent": 11,
-   "total": 17,
-   "sectors": 7,
-   "burst": 6.3
+   "burst": 7.8
   },
   {
    "term": "바스켓",
    "recent": 7,
    "total": 11,
    "sectors": 3,
-   "burst": 5.6
+   "burst": 5.7
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.3
+   "burst": 5.5
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
+   "burst": 5.3
+  },
+  {
+   "term": "방향",
+   "recent": 10,
+   "total": 17,
+   "sectors": 7,
    "burst": 5.1
   },
   {
@@ -35325,42 +35862,42 @@
    "recent": 13,
    "total": 23,
    "sectors": 10,
-   "burst": 4.7
+   "burst": 4.8
   },
   {
    "term": "할인율",
    "recent": 8,
    "total": 14,
    "sectors": 3,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "배당수익률",
    "recent": 16,
    "total": 29,
    "sectors": 9,
-   "burst": 4.6
+   "burst": 4.7
   },
   {
    "term": "사용",
    "recent": 9,
    "total": 16,
    "sectors": 7,
-   "burst": 4.5
+   "burst": 4.6
   },
   {
    "term": "뷰티",
    "recent": 25,
    "total": 49,
    "sectors": 4,
-   "burst": 4.0
+   "burst": 4.1
   },
   {
    "term": "철강금속",
    "recent": 9,
    "total": 17,
    "sectors": 3,
-   "burst": 4.0
+   "burst": 4.1
   },
   {
    "term": "구축",
