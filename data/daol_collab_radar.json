@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T22:47:01.599330+00:00",
+ "generated_at": "2026-10-28T23:00:43.123523+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1461,
+ "report_count": 1463,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34263,6 +34263,42 @@
    "title": "[HD현대중공업(329180)/BUY(유지)/TP 630,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD현대중공업(329180) : 2026-2030 힘센 증익 기울기 보임",
    "post_url": "https://t.me/daolresearch/15348",
    "source_url": "https://bit.ly/HHI3Q26RE"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-29",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "삼성전기",
+   "code": "009150",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "️ 3Q26 Review - 3Q26 매출액 3조 7,633억원(+9%,이하 QoQ), 영업이익 6,910억원(+57%, OPM 18.4%) 기록 - 높은 가동률로 출하 확대 여력이 제한적인 상황에서도 매출 성장률을 크게 상회하는 이익 증가 시현 - 1) AI 데이터센터향 고부가 제품 중심의 생산능력 배분과, 2) 공급 부족 심화에 따른 가격 인상이 이익 성장 견인",
+    "️ 투자의견 및 Valuation: 주가와 펀더멘털의 괴리 - 투자의견 BUY 유지, 적정주가 240만원으로 기존 대비 14% 하향 - 이비덴, 무라타의 최근 주가 등락 구간 멀티플 수준을 반영해 28E 적정 P/E를 43배에서 35배로 조정 - AI 인프라 확산에 따라 MLCC와 기판 모두 28년까지 이익 성장 방향성 유효 - 반면 주가는 6월 조정 이후 박스권 하단에 위치."
+   ],
+   "title": "[삼성전기(009150) | BUY(유지) | TP 240만원(하향) | 다올투자증권 전기전자 김연미] ★ 삼성전기 3Q26 Review - 쉼표는 주가에만",
+   "post_url": "https://t.me/daolresearch/15349",
+   "source_url": "https://buly.kr/FsLYTnE"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-10-29",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "10월",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "연준의 긴축 의지 및 정책 적시성에 대한 우려가 잔존하게 된 만큼 향후 확인되는 인플레이션 지표들에 따라 다소 민감한 금리 변동성이 발생할 수 있을 것.",
+    "10월 FOMC Review: 예상된 동결에도 하방은 제약"
+   ],
+   "title": "[다올투자증권 매크로/투자전략 조병현] ★ 10월 FOMC Review: 예상된 동결에도 하방은 제약",
+   "post_url": "https://t.me/daolresearch/15351",
+   "source_url": "https://buly.kr/1GMf4Ii"
   }
  ],
  "cross_mentions": [
@@ -35857,28 +35893,28 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.2
+   "burst": 21.0
   },
   {
    "term": "낮추고",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 14.3
+   "burst": 14.2
   },
   {
    "term": "감익",
    "recent": 8,
    "total": 10,
    "sectors": 6,
-   "burst": 10.9
+   "burst": 10.8
   },
   {
    "term": "원화",
    "recent": 21,
    "total": 31,
    "sectors": 11,
-   "burst": 7.8
+   "burst": 7.7
   },
   {
    "term": "바스켓",
@@ -35920,14 +35956,7 @@
    "recent": 8,
    "total": 14,
    "sectors": 3,
-   "burst": 4.7
-  },
-  {
-   "term": "배당수익률",
-   "recent": 16,
-   "total": 29,
-   "sectors": 9,
-   "burst": 4.7
+   "burst": 4.6
   },
   {
    "term": "사용",
@@ -35937,18 +35966,25 @@
    "burst": 4.6
   },
   {
+   "term": "배당수익률",
+   "recent": 16,
+   "total": 29,
+   "sectors": 9,
+   "burst": 4.6
+  },
+  {
    "term": "뷰티",
    "recent": 25,
    "total": 49,
    "sectors": 4,
-   "burst": 4.1
+   "burst": 4.0
   },
   {
    "term": "철강금속",
    "recent": 9,
    "total": 17,
    "sectors": 3,
-   "burst": 4.1
+   "burst": 4.0
   },
   {
    "term": "구축",
