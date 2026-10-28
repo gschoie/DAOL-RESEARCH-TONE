@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T23:00:02.285959+00:00",
+ "generated_at": "2026-10-28T00:48:49.941115+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1455,
  "hits": [
@@ -33849,6 +33849,23 @@
    "source_url": "https://buly.kr/5fFbDOc"
   },
   {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-10-28",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "대우건설",
+   "code": "047040",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "he 명확하나 NEW 원전 등 성장 동력으로 인해 밸류에이션이 확상되어"
+   ],
+   "title": "[대우건설(047040)/BUY(유지)/TP 24,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 대손을 삼킨 주택 고마진",
+   "post_url": "https://t.me/daolresearch/15331",
+   "source_url": "https://buly.kr/15RtiG4"
+  },
+  {
    "theme": "로봇/자동화",
    "category": "산업테마",
    "date": "2026-10-28",
@@ -33857,7 +33874,7 @@
    "company": "Issue",
    "code": "",
    "direction": "수혜",
-   "score": 2,
+   "score": 1,
    "evidences": [
     "원천 특허 만료, FDA 신규 기기 유형 도입, Medtronic·J&J의 자체 로봇과 Stryker의 CMR 투자, 중국·인도 플랫폼의 해외 진출로 경쟁 확대.",
     "Issue & Pitch: 진짜 사용할 것인가: STARK에 남은 질문 (수술로봇 시리즈 ④)"
@@ -33913,6 +33930,23 @@
    "score": 0,
    "evidences": [
     "27년 노트북 CPU·네트워크·전장용 제품의 신규 공급 본격화 - 28년 서버 CPU·AI 가속기 등 AI 서버향 고부가 제품으로 포트폴리오 확장 예정 - 빅테크 고객사와의 LTA 논"
+   ],
+   "title": "[LG이노텍(011070) | BUY(유지) | TP 60만원(하향) | 다올투자증권 전기전자 김연미] ★ LG이노텍 3Q26 Review - 흐린 단기 전망, 긴 호흡이 필요한 시점",
+   "post_url": "https://t.me/daolresearch/15335",
+   "source_url": "https://buly.kr/jcNkvp"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-28",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "LG이노텍",
+   "code": "011070",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "현재 Ts 변동 부담이 지속되며, 27년 역시 스마트폰 업황 ESS 감안하면 이익 하향"
    ],
    "title": "[LG이노텍(011070) | BUY(유지) | TP 60만원(하향) | 다올투자증권 전기전자 김연미] ★ LG이노텍 3Q26 Review - 흐린 단기 전망, 긴 호흡이 필요한 시점",
    "post_url": "https://t.me/daolresearch/15335",
@@ -35235,10 +35269,24 @@
    "burst": 5.2
   },
   {
+   "term": "관건",
+   "recent": 13,
+   "total": 23,
+   "sectors": 10,
+   "burst": 4.7
+  },
+  {
    "term": "할인율",
    "recent": 8,
    "total": 14,
    "sectors": 3,
+   "burst": 4.6
+  },
+  {
+   "term": "배당수익률",
+   "recent": 16,
+   "total": 29,
+   "sectors": 9,
    "burst": 4.6
   },
   {
@@ -35247,20 +35295,6 @@
    "total": 16,
    "sectors": 7,
    "burst": 4.5
-  },
-  {
-   "term": "관건",
-   "recent": 12,
-   "total": 22,
-   "sectors": 9,
-   "burst": 4.4
-  },
-  {
-   "term": "배당수익률",
-   "recent": 15,
-   "total": 28,
-   "sectors": 9,
-   "burst": 4.3
   },
   {
    "term": "뷰티",
