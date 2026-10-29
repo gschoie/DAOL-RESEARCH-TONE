@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-29 10:17",
- "window_days": 14,
+ "generated": "2026-10-29 10:32",
+ "window_days": 7,
  "analysts": [
   "조병현",
   "허정인"
  ],
  "combined": {
-  "file": "macro_daol/macro_daol_2w.md",
-  "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/macro_daol_2w.md",
-  "count": 4,
-  "chars": 29565
+  "file": "macro_daol/macro_daol_1w.md",
+  "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/macro_daol_1w.md",
+  "count": 2,
+  "chars": 9240
  },
  "items": [
   {
@@ -63,7 +63,7 @@
    "post_url": "https://t.me/daolresearch/15280",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145572/1/20261021_B_bhcho_309.pdf",
    "generated": "2026-10-29 09:59",
-   "in_window": true,
+   "in_window": false,
    "final": true
   },
   {
@@ -81,7 +81,7 @@
    "post_url": "https://t.me/daolresearch/15242",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145392/1/20261015_B_bhcho_305.pdf",
    "generated": "2026-10-29 10:01",
-   "in_window": true,
+   "in_window": false,
    "final": true
   }
  ],
