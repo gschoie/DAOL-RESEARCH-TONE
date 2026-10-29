@@ -9,7 +9,7 @@ import json, subprocess, sys
 MERGE_CACHES = {
     'data/daol_ai_analysis.json', 'data/daol_strategy_ai.json', 'data/daol_pdf_text_cache.json',
     'data/naver_consensus_cache.json', 'data/price_close_cache.json', 'data/naver_fundamentals.json',
-    'data/valuation_history.json', 'data/ked_street.json',
+    'data/valuation_history.json', 'data/ked_street.json', 'data/daol_macro_brief.json',
 }
 
 

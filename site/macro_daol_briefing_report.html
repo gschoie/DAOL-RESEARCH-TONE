@@ -1,0 +1,66 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>매크로.다올.브리핑 — 낭독용 원고</title>
+<style>
+:root{--ink:#172033;--muted:#687386;--line:#dce2ea;--blue:#eaf2fb;--green:#dff3e6;--gold:#fff3d6;--red:#fde7e7}
+*{box-sizing:border-box}body{margin:0;background:#f4f6f9;color:var(--ink);font:14px/1.6 system-ui,"Noto Sans KR",sans-serif}
+.wrap{max-width:1100px;margin:auto;padding:20px 16px 60px}
+.hero{background:linear-gradient(120deg,#12324f,#1f6f9f);color:#fff;padding:22px 24px;border-radius:18px}
+.hero h1{margin:0 0 4px;font-size:24px}.hero p{margin:4px 0 0;opacity:.9;font-size:13px}
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.stat{background:#ffffff22;border-radius:10px;padding:6px 12px;font-size:12.5px}.stat b{font-size:17px;display:block}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 6px}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--ink);font:inherit;font-size:13px;cursor:pointer;text-decoration:none}
+.btn.primary{background:#1f6f9f;color:#fff;border-color:#1f6f9f}.btn:hover{filter:brightness(.97)}
+.btn.sm{padding:5px 10px;font-size:12px;border-radius:8px}
+.note{font-size:12.5px;color:var(--muted);margin:6px 0 14px}
+h2.sec{margin:22px 0 10px;font-size:17px}h2.sec small{color:var(--muted);font-weight:400;margin-left:8px;font-size:12.5px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;box-shadow:0 3px 13px #20304a0c}
+.card header{padding:13px 16px;display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap}
+.card .meta{font-size:12.5px;color:var(--muted)}.card .meta b{color:var(--ink)}
+.card h3{margin:2px 0 6px;font-size:15.5px;flex:1 1 100%}
+.chip{padding:2px 9px;border-radius:999px;background:var(--blue);font-size:11.5px;font-weight:600}
+.chip.pdf{background:var(--green)}.chip.text{background:var(--blue)}.chip.telegram{background:var(--gold)}.chip.wait{background:var(--red)}
+.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center;flex:1 1 100%}
+.row a.lnk{font-size:12.5px;color:#1767aa;text-decoration:none;margin-left:4px}.row a.lnk:hover{text-decoration:underline}
+.body{display:none;padding:4px 20px 18px;border-top:1px solid var(--line);font-size:14.5px;line-height:1.8}
+.body.open{display:block}.body h1{font-size:19px;margin:14px 0 4px}.body h2{font-size:16px;margin:16px 0 4px;color:#12324f}.body h3{font-size:15px;margin:12px 0 4px}
+.body p{margin:6px 0}.body ul{padding-left:20px}.body hr{border:0;border-top:1px dashed var(--line);margin:12px 0}
+.empty{color:var(--muted);padding:14px 4px}
+details.arch summary{cursor:pointer;color:#1767aa;font-size:13.5px;margin:12px 0}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#172033;color:#fff;padding:9px 16px;border-radius:999px;font-size:13px;opacity:0;transition:.25s;pointer-events:none}.toast.on{opacity:1}
+@media(max-width:600px){.hero{padding:18px}.hero h1{font-size:20px}}
+</style></head><body><div class="wrap">
+<div class="hero"><h1>📈 매크로.다올.브리핑</h1><p>다올 전략·매크로 자료(조병현·허정인)의 본문 전체를 오디오북용 낭독 원고(MD)로 옮긴 것. 표·각주·컴플라이언스는 빼고 본문 순서대로.</p>
+<div class="stats" id="stats"></div></div>
+<div class="actions" id="top-actions"></div>
+<div class="note">합본은 최근 <span id="days">14</span>일치가 최신순으로 한 파일에 들어 있습니다. 건별 파일은 창을 벗어나도 아래 아카이브에 남습니다. 텔레그램 요약본(임시)은 원문 PDF를 아직 못 받은 경우로, 다음 수집 때 다시 시도합니다.</div>
+<h2 class="sec">최근 2주 <small id="win-count"></small></h2><div id="list"></div>
+<div id="pending"></div>
+<details class="arch"><summary>지난 아카이브 펼치기 <span id="arch-count"></span></summary><div id="archive"></div></details>
+</div><div class="toast" id="toast"></div>
+<script>
+window.MACRO_NOTION_URL='https://www.notion.so/2bd47d3e991d4233a2dde5b43710118a';/* Notion 「매크로.다올.브리핑」 DB (W.Dashboard) */
+const $=s=>document.querySelector(s);const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const SRC={pdf:'PDF 전사',text:'추출 텍스트 기반',telegram:'텔레그램 요약본(임시)'};
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');setTimeout(()=>t.classList.remove('on'),1800)}
+function md2html(md){const lines=md.split('\n');let h='',inList=false;const inline=s=>esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\*(.+?)\*/g,'<i>$1</i>');
+ for(const raw of lines){const l=raw.trimEnd();if(/^\s*[-*] /.test(l)){if(!inList){h+='<ul>';inList=true}h+='<li>'+inline(l.replace(/^\s*[-*] /,''))+'</li>';continue}if(inList){h+='</ul>';inList=false}
+  if(!l.trim())continue;const m=l.match(/^(#{1,3})\s+(.*)/);if(m){h+=`<h${m[1].length}>${inline(m[2])}</h${m[1].length}>`;continue}if(/^---+$/.test(l.trim())){h+='<hr>';continue}h+='<p>'+inline(l)+'</p>'}
+ if(inList)h+='</ul>';return h}
+async function copyUrl(url,label){try{const r=await fetch(url,{cache:'no-store'});const t=await r.text();await navigator.clipboard.writeText(t);toast(`${label} 복사됨 (${t.length.toLocaleString()}자)`)}catch(e){toast('복사 실패 — 다운로드를 이용하세요')}}
+function card(i){const d=i.date+(i.weekday?`(${i.weekday})`:'');const cls=i.src||'wait';
+ return `<article class="card" data-id="${esc(i.id)}"><header><div class="meta"><b>${esc(d)}</b> · ${esc(i.analyst)}</div><span class="chip ${cls}">${esc(SRC[i.src]||i.src)}</span><span class="chip">${(i.chars||0).toLocaleString()}자</span>
+ <h3>${esc(i.title)}</h3><div class="row"><button class="btn sm" data-view="${esc(i.file)}">📖 보기</button><a class="btn sm" href="${esc(i.file)}" download>⬇ MD</a><button class="btn sm" data-copy="${esc(i.file)}">📋 복사</button>${i.pdf_url?`<a class="lnk" href="${esc(i.pdf_url)}" target="_blank" rel="noopener">PDF 원문</a>`:''}${i.post_url?`<a class="lnk" href="${esc(i.post_url)}" target="_blank" rel="noopener">텔레그램</a>`:''}</div></header><div class="body"></div></article>`}
+async function main(){let idx;try{idx=await (await fetch('macro_daol/index.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){$('#list').innerHTML='<p class="empty">아직 원고가 생성되지 않았습니다. 첫 수집 런이 끝나면 여기에 나타납니다.</p>';return}
+ const win=idx.items.filter(i=>i.in_window),arch=idx.items.filter(i=>!i.in_window);$('#days').textContent=idx.window_days;
+ $('#stats').innerHTML=`<div class="stat"><b>${win.length}</b>최근 ${idx.window_days}일</div><div class="stat"><b>${idx.items.length}</b>아카이브 전체</div><div class="stat"><b>${(idx.combined.chars||0).toLocaleString()}</b>합본 글자수</div><div class="stat"><b>${esc(idx.generated)}</b>마지막 갱신(KST)</div>`;
+ $('#top-actions').innerHTML=`<a class="btn primary" href="${esc(idx.combined.file)}" download>⬇ 2주 합본 MD 다운로드</a><button class="btn" id="copy-all">📋 합본 전체 복사</button><a class="btn" href="index.html#strat" target="_blank" rel="noopener">🧭 전략 보드</a>${window.MACRO_NOTION_URL?`<a class="btn" href="${window.MACRO_NOTION_URL}" target="_blank" rel="noopener">📝 Notion 아카이브</a>`:''}`;
+ $('#copy-all').onclick=()=>copyUrl(idx.combined.file,'합본');
+ $('#win-count').textContent=`${win.length}건`;$('#arch-count').textContent=`(${arch.length}건)`;
+ $('#list').innerHTML=win.length?win.map(card).join(''):'<p class="empty">최근 2주에 해당 자료가 없습니다.</p>';
+ $('#archive').innerHTML=arch.length?arch.map(card).join(''):'<p class="empty">아직 없음</p>';
+ if(idx.pending&&idx.pending.length)$('#pending').innerHTML=`<h2 class="sec">원고 생성 대기 <small>${idx.pending.length}건 — 다음 수집 런에서 처리</small></h2>`+idx.pending.map(p=>`<article class="card"><header><div class="meta"><b>${esc(p.date)}</b> · ${esc(p.analyst)}</div><span class="chip wait">대기</span><h3>${esc(p.title)}</h3></header></article>`).join('');
+ document.body.addEventListener('click',async e=>{const v=e.target.closest('[data-view]');if(v){const body=v.closest('.card').querySelector('.body');if(body.classList.contains('open')){body.classList.remove('open');v.textContent='📖 보기';return}
+   if(!body.innerHTML){body.innerHTML='<p class="empty">불러오는 중…</p>';try{body.innerHTML=md2html(await (await fetch(v.dataset.view+'?t='+Date.now(),{cache:'no-store'})).text())}catch(err){body.innerHTML='<p class="empty">원고를 불러오지 못했습니다.</p>'}}
+   body.classList.add('open');v.textContent='📖 접기';return}
+  const c=e.target.closest('[data-copy]');if(c)copyUrl(c.dataset.copy,'원고')})}
+main();
+</script></body></html>

@@ -157,6 +157,15 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python build_daily_brief.py || echo "::warning::브리핑 생성 실패"
 
+      # 매크로.다올.브리핑 — 조병현·허정인 전략/경제 자료를 오디오북용 낭독 원고(MD)로 전사(트레일링 2주).
+      # PDF 원본을 Gemini에 직접 읽혀 본문 전체를 옮긴다(건당 1회, 캐시). 실패해도 파이프라인 계속.
+      - name: 매크로 브리핑 낭독 원고 생성
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MACRO_BRIEF_MAX: ${{ env.FAST == 'true' && '3' || '6' }}
+          MACRO_BRIEF_BUDGET: ${{ env.FAST == 'true' && '240' || '480' }}
+        run: python build_macro_brief.py || echo "::warning::매크로 브리핑 생성 실패"
+
       - name: 배포 사이트 조립
         run: |
           mkdir -p _site
@@ -164,6 +173,9 @@ jobs:
           cp site/chat.html _site/ 2>/dev/null || true
           cp site/keylock.html _site/ 2>/dev/null || true
           cp site/daol_collab_radar.html _site/ 2>/dev/null || true
+          # 매크로.다올.브리핑(낭독 원고 MD + 목록 페이지) — 없으면 페이지만 빈 상태로 배포
+          cp site/macro_daol_briefing_report.html _site/ 2>/dev/null || true
+          if [ -d site/macro_daol ]; then cp -r site/macro_daol _site/; fi
           cp data/daol_tone_v2.json data/tone_summary.json data/daol_tone_history.json data/ked_street.json _site/
           # 웹 챗봇의 PDF 원문 검색용 (없어도 배포는 계속 — 챗봇의 원문 도구만 비활성)
           cp data/daol_pdf_text_cache.json data/daol_messages.json _site/ 2>/dev/null || true
@@ -181,6 +193,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/ site/daol_collab_radar.html
+            [ -d site/macro_daol ] && git add site/macro_daol
             git diff --cached --quiet || git commit -m "chore(data): 톤 데이터 갱신 $(TZ=Asia/Seoul date +%F)"
             for attempt in 1 2 3; do
               if git pull --rebase --autostash origin main; then git push origin main && exit 0; fi
