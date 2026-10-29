@@ -1,0 +1,89 @@
+{
+ "generated": "2026-10-29 09:37",
+ "window_days": 14,
+ "analysts": [
+  "조병현",
+  "허정인"
+ ],
+ "combined": {
+  "file": "macro_daol/macro_daol_2w.md",
+  "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/macro_daol_2w.md",
+  "count": 4,
+  "chars": 39571
+ },
+ "items": [
+  {
+   "id": "15351",
+   "date": "2026-10-29",
+   "weekday": "목",
+   "analyst": "조병현",
+   "title": "10월 FOMC Review: 예상된 동결에도 하방은 제약",
+   "file": "macro_daol/2026-10-29_15351.md",
+   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-29_15351.md",
+   "src": "pdf",
+   "kr": 2595,
+   "chars": 4063,
+   "model": "gemini-flash-lite-latest",
+   "post_url": "https://t.me/daolresearch/15351",
+   "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145836/1/20261029_B_bhcho_312.pdf",
+   "generated": "2026-10-29 09:36",
+   "in_window": true,
+   "final": true
+  },
+  {
+   "id": "15293",
+   "date": "2026-10-22",
+   "weekday": "목",
+   "analyst": "조병현",
+   "title": "10월 금통위 Review: 호미질 끝에 채찍과 당근",
+   "file": "macro_daol/2026-10-22_15293.md",
+   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-22_15293.md",
+   "src": "pdf",
+   "kr": 2768,
+   "chars": 4289,
+   "model": "gemini-flash-lite-latest",
+   "post_url": "https://t.me/daolresearch/15293",
+   "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145641/1/20261022_B_bhcho_310.pdf",
+   "generated": "2026-10-29 09:36",
+   "in_window": true,
+   "final": true
+  },
+  {
+   "id": "15280",
+   "date": "2026-10-21",
+   "weekday": "수",
+   "analyst": "조병현",
+   "title": "만성적 리스크 변수가 된 정치: 미국 중간선거와 프랑스 재정 리스크 점검",
+   "file": "macro_daol/2026-10-21_15280.md",
+   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-21_15280.md",
+   "src": "pdf",
+   "kr": 18104,
+   "chars": 27852,
+   "model": "gemini-flash-lite-latest",
+   "post_url": "https://t.me/daolresearch/15280",
+   "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145572/1/20261021_B_bhcho_309.pdf",
+   "generated": "2026-10-29 09:36",
+   "in_window": true,
+   "final": true
+  },
+  {
+   "id": "15242",
+   "date": "2026-10-15",
+   "weekday": "목",
+   "analyst": "조병현",
+   "title": "미국 9월 CPI Review: 인상이 다시 테이블 위로",
+   "file": "macro_daol/2026-10-15_15242.md",
+   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-15_15242.md",
+   "src": "pdf",
+   "kr": 1991,
+   "chars": 3203,
+   "model": "gemini-flash-lite-latest",
+   "post_url": "https://t.me/daolresearch/15242",
+   "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145392/1/20261015_B_bhcho_305.pdf",
+   "generated": "2026-10-29 09:37",
+   "in_window": true,
+   "final": true
+  }
+ ],
+ "pending": []
+}
