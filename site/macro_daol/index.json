@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29 09:37",
+ "generated": "2026-10-29 10:01",
  "window_days": 14,
  "analysts": [
   "조병현",
@@ -9,7 +9,7 @@
   "file": "macro_daol/macro_daol_2w.md",
   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/macro_daol_2w.md",
   "count": 4,
-  "chars": 39571
+  "chars": 29565
  },
  "items": [
   {
@@ -21,12 +21,12 @@
    "file": "macro_daol/2026-10-29_15351.md",
    "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-29_15351.md",
    "src": "pdf",
-   "kr": 2595,
-   "chars": 4063,
-   "model": "gemini-flash-lite-latest",
+   "kr": 2558,
+   "chars": 3753,
+   "model": "gemini-3.6-flash",
    "post_url": "https://t.me/daolresearch/15351",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145836/1/20261029_B_bhcho_312.pdf",
-   "generated": "2026-10-29 09:36",
+   "generated": "2026-10-29 09:53",
    "in_window": true,
    "final": true
   },
@@ -39,12 +39,12 @@
    "file": "macro_daol/2026-10-22_15293.md",
    "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-22_15293.md",
    "src": "pdf",
-   "kr": 2768,
-   "chars": 4289,
-   "model": "gemini-flash-lite-latest",
+   "kr": 3705,
+   "chars": 5340,
+   "model": "gemini-3.6-flash",
    "post_url": "https://t.me/daolresearch/15293",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145641/1/20261022_B_bhcho_310.pdf",
-   "generated": "2026-10-29 09:36",
+   "generated": "2026-10-29 09:54",
    "in_window": true,
    "final": true
   },
@@ -57,12 +57,12 @@
    "file": "macro_daol/2026-10-21_15280.md",
    "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-21_15280.md",
    "src": "pdf",
-   "kr": 18104,
-   "chars": 27852,
-   "model": "gemini-flash-lite-latest",
+   "kr": 11822,
+   "chars": 17736,
+   "model": "gemini-3.6-flash",
    "post_url": "https://t.me/daolresearch/15280",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145572/1/20261021_B_bhcho_309.pdf",
-   "generated": "2026-10-29 09:36",
+   "generated": "2026-10-29 09:59",
    "in_window": true,
    "final": true
   },
@@ -75,12 +75,12 @@
    "file": "macro_daol/2026-10-15_15242.md",
    "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-10-15_15242.md",
    "src": "pdf",
-   "kr": 1991,
-   "chars": 3203,
-   "model": "gemini-flash-lite-latest",
+   "kr": 1550,
+   "chars": 2572,
+   "model": "gemini-3.6-flash",
    "post_url": "https://t.me/daolresearch/15242",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145392/1/20261015_B_bhcho_305.pdf",
-   "generated": "2026-10-29 09:37",
+   "generated": "2026-10-29 10:01",
    "in_window": true,
    "final": true
   }
