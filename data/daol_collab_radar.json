@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29T02:42:25.376203+00:00",
+ "generated_at": "2026-10-29T18:48:26.562614+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1463,
+ "report_count": 1466,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34316,6 +34316,143 @@
    "title": "[다올투자증권 매크로/투자전략 조병현] ★ 10월 FOMC Review: 예상된 동결에도 하방은 제약",
    "post_url": "https://t.me/daolresearch/15351",
    "source_url": "https://buly.kr/1GMf4Ii"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "두산밥캣",
+   "code": "241560",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "Pitch: > 주가 트리거는 북미 주택 시장이지만, 실제 판매는 미국의 경제성장에 달려있음을 입증하는 견조한 실적 > 그러나 주식 모멘텀을 위해 ① 금리 인하, 미국 주택시장 회복을 기다림 또한 ② 막 가동을 시작한 멕시코 공장에 대한 미국-멕시코 관세 협상이 잘 풀리기를 기대"
+   ],
+   "title": "[두산밥캣(241560)/BUY(유지)/TP 89,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 두산밥캣(241560) : 실적은 미국 경제, 주가는 북미 주택",
+   "post_url": "https://t.me/daolresearch/15354",
+   "source_url": "https://bit.ly/Bobcat3Q26RE"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "두산밥캣",
+   "code": "241560",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "환율 하락으로 원화 실적을 내리면서 적정주가 하향"
+   ],
+   "title": "[두산밥캣(241560)/BUY(유지)/TP 89,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 두산밥캣(241560) : 실적은 미국 경제, 주가는 북미 주택",
+   "post_url": "https://t.me/daolresearch/15354",
+   "source_url": "https://bit.ly/Bobcat3Q26RE"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "두산밥캣",
+   "code": "241560",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "Pitch: > 주가 트리거는 북미 주택 시장이지만, 실제 판매는 미국의 경제성장에 달려있음을 입증하는 견조한 실적 > 그러나 주식 모멘텀을 위해 ① 금리 인하, 미국 주택시장 회복을 기다림 또한 ② 막 가동을 시작한 멕시코 공장에 대한 미국-멕시코 관세 협상이 잘 풀리기를 기대"
+   ],
+   "title": "[두산밥캣(241560)/BUY(유지)/TP 89,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 두산밥캣(241560) : 실적은 미국 경제, 주가는 북미 주택",
+   "post_url": "https://t.me/daolresearch/15354",
+   "source_url": "https://bit.ly/Bobcat3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "두산밥캣",
+   "code": "241560",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[두산밥캣(241560)/BUY(유지)/TP 89,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[두산밥캣(241560)/BUY(유지)/TP 89,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 두산밥캣(241560) : 실적은 미국 경제, 주가는 북미 주택",
+   "post_url": "https://t.me/daolresearch/15354",
+   "source_url": "https://bit.ly/Bobcat3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-10-29",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "삼성중공업",
+   "code": "010140",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[삼성중공업(010140)/BUY(유지)/TP 29,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[삼성중공업(010140)/BUY(유지)/TP 29,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 삼성중공업(010140) : 실적 차별화 지속, FLNG 지속, FDC 지속",
+   "post_url": "https://t.me/daolresearch/15355",
+   "source_url": "https://bit.ly/SHI3Q26RE"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-29",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "삼성SDI",
+   "code": "006400",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "수주 모멘텀: 데이터센터 수요와 Non-PFE 수요가 더해져 연초 이후 확보한 60GWh를 넘는 대규모 ESS 수주가 단기간에 몰릴 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/jcOL2M > * 텔레그램 채널 < https://t.me/auto_revolution >"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 [삼성SDI(006400)/BUY(유지)/TP 1,100,000원(상향)] - 3Q26 Review: 이제 더 앞으로",
+   "post_url": "https://t.me/daolresearch/15356",
+   "source_url": "https://buly.kr/jcOL2M"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-10-29",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "삼성SDI",
+   "code": "006400",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "ESS 고성장: 4Q26 ESS 매출액 QoQ +55% 이상으로 EV 부진을 상쇄할 전망.",
+    "4026 ESS 매출 이은 QoQ +55% 이상 증가세가 예상되며, EV/EBITDA(HH) 81.5 176 10.9 8사업의 부진을 상쇄할 전망임."
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 [삼성SDI(006400)/BUY(유지)/TP 1,100,000원(상향)] - 3Q26 Review: 이제 더 앞으로",
+   "post_url": "https://t.me/daolresearch/15356",
+   "source_url": "https://buly.kr/jcOL2M"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-10-29",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "삼성SDI",
+   "code": "006400",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "수주 모멘텀: 데이터센터 수요와 Non-PFE 수요가 더해져 연초 이후 확보한 60GWh를 넘는 대규모 ESS 수주가 단기간에 몰릴 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/jcOL2M > * 텔레그램 채널 < https://t.me/auto_revolution >"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 [삼성SDI(006400)/BUY(유지)/TP 1,100,000원(상향)] - 3Q26 Review: 이제 더 앞으로",
+   "post_url": "https://t.me/daolresearch/15356",
+   "source_url": "https://buly.kr/jcOL2M"
   }
  ],
  "cross_mentions": [
@@ -35910,70 +36047,70 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.0
+   "burst": 20.8
   },
   {
    "term": "낮추고",
    "recent": 7,
    "total": 8,
    "sectors": 4,
-   "burst": 14.2
+   "burst": 14.0
   },
   {
    "term": "감익",
    "recent": 8,
    "total": 10,
    "sectors": 6,
-   "burst": 10.8
+   "burst": 10.7
   },
   {
    "term": "원화",
-   "recent": 22,
-   "total": 32,
+   "recent": 23,
+   "total": 33,
    "sectors": 12,
-   "burst": 8.1
+   "burst": 8.4
   },
   {
    "term": "바스켓",
    "recent": 7,
    "total": 11,
    "sectors": 3,
-   "burst": 5.7
+   "burst": 5.6
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.4
+   "burst": 5.3
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
-   "burst": 5.2
+   "burst": 5.1
   },
   {
    "term": "방향",
    "recent": 10,
    "total": 17,
    "sectors": 7,
-   "burst": 5.1
+   "burst": 5.0
   },
   {
    "term": "사전",
    "recent": 6,
    "total": 10,
    "sectors": 7,
-   "burst": 4.9
+   "burst": 4.8
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 23,
    "sectors": 10,
-   "burst": 4.8
+   "burst": 4.7
   },
   {
    "term": "할인율",
@@ -35983,18 +36120,18 @@
    "burst": 4.6
   },
   {
-   "term": "사용",
-   "recent": 9,
-   "total": 16,
-   "sectors": 7,
-   "burst": 4.6
-  },
-  {
    "term": "배당수익률",
    "recent": 16,
    "total": 29,
    "sectors": 9,
    "burst": 4.6
+  },
+  {
+   "term": "사용",
+   "recent": 9,
+   "total": 16,
+   "sectors": 7,
+   "burst": 4.5
   },
   {
    "term": "뷰티",

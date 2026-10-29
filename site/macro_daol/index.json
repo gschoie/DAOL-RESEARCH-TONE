@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29 11:43",
+ "generated": "2026-10-30 03:48",
  "window_days": 7,
  "analysts": [
   "조병현",
@@ -8,8 +8,8 @@
  "combined": {
   "file": "macro_daol/macro_daol_1w.md",
   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/macro_daol_1w.md",
-  "count": 2,
-  "chars": 9240
+  "count": 1,
+  "chars": 3892
  },
  "items": [
   {
@@ -45,7 +45,7 @@
    "post_url": "https://t.me/daolresearch/15293",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145641/1/20261022_B_bhcho_310.pdf",
    "generated": "2026-10-29 09:54",
-   "in_window": true,
+   "in_window": false,
    "final": true
   },
   {

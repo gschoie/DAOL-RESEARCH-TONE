@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T02:42:19.514197+00:00",
+  "generated_at": "2026-10-29T18:46:41.045639+00:00",
   "source": "https://t.me/daolresearch",
-  "report_count": 1463,
+  "report_count": 1466,
   "months": [
     {
       "month": "2026-10",
@@ -2705,10 +2705,195 @@
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
-          "tp_changes": [],
-          "tp_raises": [],
-          "report_count": 5,
+          "tp_changes": [
+            {
+              "company": "삼성SDI",
+              "direction": "상향",
+              "old": 900000,
+              "new": 1100000,
+              "display": "900,000원 → 1,100,000원",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "29 Oct. 2026 (~ ㅎ 유지 자동차/이차전지 ㅣ jwyoo@daolfn.com DAOL 다올투자증권 AFAIS DI (006400) 3Q26 Review: 이제 더 앞으로 Issue 3Q26 실적 리뷰 및 향후 투자전략 BUY ee 투자의견 BUYS 유지하며, 적정주가는 기존 90만원에서 110만원으로 상향. 금번 3026 실적을 NALS 외형/손익 불확실성이 We 연재 직전 변동 개선되었고, 수주 BME IRIS 반영해 ATS 적정주가 AV 투자의견 Buy BUY 유지 적정주가에 반영한 2027년 EPSE 기존대비 14.8% 상향했으며, 적정 적정주가 1,100,000 900,000 ft P/ES 40배를 ASS. 이차전지 업종 최선호주 Earnings Rationale e 축액 및 영엄이임으 가가 조우 0 ae Stock Information 3Q26 매출액 및 영업이익은 각각 4.7조원 (YoY +52.6%), 4,078억원 현재가 (10/29) 538,000원 (YoY 흑자전환)을 기록했으며, 영업이익",
+              "date": "2026-10-29",
+              "source": "https://t.me/daolresearch/15356"
+            },
+            {
+              "company": "Valuation",
+              "direction": "상향",
+              "old": null,
+              "new": 11100000,
+              "display": "11,100,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "026,09(P)| 2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Se",
+              "date": "2026-10-29",
+              "source": "https://t.me/daolresearch/15356"
+            },
+            {
+              "company": "삼성SDI",
+              "direction": "상향",
+              "old": null,
+              "new": 11100000,
+              "display": "11,100,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Securities | ",
+              "date": "2026-10-29",
+              "source": "https://t.me/daolresearch/15356"
+            }
+          ],
+          "tp_raises": [
+            {
+              "company": "삼성SDI",
+              "direction": "상향",
+              "old": 900000,
+              "new": 1100000,
+              "display": "900,000원 → 1,100,000원",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "29 Oct. 2026 (~ ㅎ 유지 자동차/이차전지 ㅣ jwyoo@daolfn.com DAOL 다올투자증권 AFAIS DI (006400) 3Q26 Review: 이제 더 앞으로 Issue 3Q26 실적 리뷰 및 향후 투자전략 BUY ee 투자의견 BUYS 유지하며, 적정주가는 기존 90만원에서 110만원으로 상향. 금번 3026 실적을 NALS 외형/손익 불확실성이 We 연재 직전 변동 개선되었고, 수주 BME IRIS 반영해 ATS 적정주가 AV 투자의견 Buy BUY 유지 적정주가에 반영한 2027년 EPSE 기존대비 14.8% 상향했으며, 적정 적정주가 1,100,000 900,000 ft P/ES 40배를 ASS. 이차전지 업종 최선호주 Earnings Rationale e 축액 및 영엄이임으 가가 조우 0 ae Stock Information 3Q26 매출액 및 영업이익은 각각 4.7조원 (YoY +52.6%), 4,078억원 현재가 (10/29) 538,000원 (YoY 흑자전환)을 기록했으며, 영업이익",
+              "date": "2026-10-29",
+              "source": "https://t.me/daolresearch/15356"
+            },
+            {
+              "company": "Valuation",
+              "direction": "상향",
+              "old": null,
+              "new": 11100000,
+              "display": "11,100,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "026,09(P)| 2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Se",
+              "date": "2026-10-29",
+              "source": "https://t.me/daolresearch/15356"
+            },
+            {
+              "company": "삼성SDI",
+              "direction": "상향",
+              "old": null,
+              "new": 11100000,
+              "display": "11,100,000원 (상향)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Securities | ",
+              "date": "2026-10-29",
+              "source": "https://t.me/daolresearch/15356"
+            }
+          ],
+          "report_count": 6,
           "reports": [
+            {
+              "id": 15356,
+              "date": "2026-10-29",
+              "month": "2026-10",
+              "analyst": "유지웅",
+              "sector": "자동차/이차전지",
+              "company": "삼성SDI",
+              "code": "006400",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "삼성SDI",
+                  "direction": "상향",
+                  "old": 900000,
+                  "new": 1100000,
+                  "display": "900,000원 → 1,100,000원",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "29 Oct. 2026 (~ ㅎ 유지 자동차/이차전지 ㅣ jwyoo@daolfn.com DAOL 다올투자증권 AFAIS DI (006400) 3Q26 Review: 이제 더 앞으로 Issue 3Q26 실적 리뷰 및 향후 투자전략 BUY ee 투자의견 BUYS 유지하며, 적정주가는 기존 90만원에서 110만원으로 상향. 금번 3026 실적을 NALS 외형/손익 불확실성이 We 연재 직전 변동 개선되었고, 수주 BME IRIS 반영해 ATS 적정주가 AV 투자의견 Buy BUY 유지 적정주가에 반영한 2027년 EPSE 기존대비 14.8% 상향했으며, 적정 적정주가 1,100,000 900,000 ft P/ES 40배를 ASS. 이차전지 업종 최선호주 Earnings Rationale e 축액 및 영엄이임으 가가 조우 0 ae Stock Information 3Q26 매출액 및 영업이익은 각각 4.7조원 (YoY +52.6%), 4,078억원 현재가 (10/29) 538,000원 (YoY 흑자전환)을 기록했으며, 영업이익"
+                },
+                {
+                  "company": "Valuation",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 11100000,
+                  "display": "11,100,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "026,09(P)| 2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Se"
+                },
+                {
+                  "company": "삼성SDI",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 11100000,
+                  "display": "11,100,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Securities | "
+                }
+              ],
+              "tp_raises": [
+                {
+                  "company": "삼성SDI",
+                  "direction": "상향",
+                  "old": 900000,
+                  "new": 1100000,
+                  "display": "900,000원 → 1,100,000원",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "29 Oct. 2026 (~ ㅎ 유지 자동차/이차전지 ㅣ jwyoo@daolfn.com DAOL 다올투자증권 AFAIS DI (006400) 3Q26 Review: 이제 더 앞으로 Issue 3Q26 실적 리뷰 및 향후 투자전략 BUY ee 투자의견 BUYS 유지하며, 적정주가는 기존 90만원에서 110만원으로 상향. 금번 3026 실적을 NALS 외형/손익 불확실성이 We 연재 직전 변동 개선되었고, 수주 BME IRIS 반영해 ATS 적정주가 AV 투자의견 Buy BUY 유지 적정주가에 반영한 2027년 EPSE 기존대비 14.8% 상향했으며, 적정 적정주가 1,100,000 900,000 ft P/ES 40배를 ASS. 이차전지 업종 최선호주 Earnings Rationale e 축액 및 영엄이임으 가가 조우 0 ae Stock Information 3Q26 매출액 및 영업이익은 각각 4.7조원 (YoY +52.6%), 4,078억원 현재가 (10/29) 538,000원 (YoY 흑자전환)을 기록했으며, 영업이익"
+                },
+                {
+                  "company": "Valuation",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 11100000,
+                  "display": "11,100,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "026,09(P)| 2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Se"
+                },
+                {
+                  "company": "삼성SDI",
+                  "direction": "상향",
+                  "old": null,
+                  "new": 11100000,
+                  "display": "11,100,000원 (상향)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "2026.0906 2026096)| 5 000| 2025.09. 매출액 21.2 16.0 영업이익 34.1 113.2 지배주주순이익 (20.5) (54.0) OPM 7.9%| 0.8%0 47%| 4.0%p -19.4%| 28.1%p NIM 9.6%| -3.3%0 15.9%| -9.6%p 1.6%| 4.7%p Note: K-IFRS 연결 기준 Source: 다올투자증권 EARNINGS REVIEW | 삼성5미 Fig. 1: A&SSDI Valuation: 적정주가 11100,000원으로 상향 신규 비고 2,128 20278 E 기준 26,403 ESS 및 소형 부분에서의 실적 가시성 확인 40.7 anne 가세를 반영 108,853 80,586 1,100,000 535,000 105.6 20 21 22 23 24 25 266 27E 28E 20 21 22 23 24 25 26E 27E 28E Source: SDI, 다올투자증권 Source: 삼성5미, 다올투자증권 DAOL Investment & Securities | "
+                }
+              ],
+              "pitch": "PBR(HH) 11 18 17 진입할 전망. 4026 ESS 매출 이은 QoQ +55% 이상 증가세가 예상되며, EV/EBITDA(HH) 81.5 176 10.9 8사업의 부진을 상쇄할 전망임. 주가상승률 (%) 53 (244) 625 99.6 대규모 수주가 단기간 내에 집중적으로 발생할 전망.",
+              "industry_conclusion": "",
+              "report_conclusion": "3Q26 실적 리뷰 및 향후 투자전략 투자의견 BUYS 유지하며, 적정주가는 기존 90만원에서 110만원으로 투자의견 Buy BUY 유지 적정주가에 반영한 2027년 EPSE 기존대비 14.8% 상향했으며, 적정 PBR(HH) 11 18 17 진입할 전망. EV/EBITDA(HH) 81.5 176 10.9 8사업의 부진을 상쇄할 전망임.",
+              "valuation": [
+                "Valuation wide 2025 20266 2027 = =",
+                "PBR(HH) 11 18 17 진입할 전망.",
+                "EV/EBITDA(HH) 81.5 176 10.9 8사업의 부진을 상쇄할 전망임.",
+                "Performance 14 6M 124 YID 858사업의 경우, YTD 기준 확보한 60OGWhe] 수주규모를 넘어서는",
+                "1: A&SSDI Valuation: 적정주가 11100,000원으로 상향"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145854/1/20261029_006400_jwyoo_681.pdf",
+              "pdf_error": "",
+              "title": "[다올투자증권 자동차/이차전지 유지웅] 🔋 [삼성SDI(006400)/BUY(유지)/TP 1,100,000원(상향)] - 3Q26 Review: 이제 더 앞으로",
+              "summary": "[다올투자증권 자동차/이차전지 유지웅] 🔋 [삼성SDI(006400)/BUY(유지)/TP 1,100,000원(상향)] - 3Q26 Review: 이제 더 앞으로 ▶ 적정주가 상향: 적정주가 90만원 → 110만원. 2027년 EPS 14.8% 상향, P/E 40배 적용. 이차전지 업종 최선호주 ▶ 3Q26 서프라이즈: 매출액 4.7조원(YoY +52.6%), 영업이익 4,078억원(흑자전환)으로 기대치를 1천억원 이상 웃돎. 일회성 보상금을 빼도 매출액은 YoY +39% 안팎으로 추정 ▶ 적자 축소 본격화: AMPC와 보상금을 빼면 영업적자 약 1천억원 안팎. 상반기 2천억원대 이상이던 적자가 줄기 시작 ▶ ESS 고성장: 4Q26 ESS 매출액 QoQ +55% 이상으로 EV 부진을 상쇄할 전망. 4Q26 영업이익 3,430억원 추정 ▶ 수주 모멘텀: 데이터센터 수요와 Non-PFE 수요가 더해져 연초 이후 확보한 60GWh를 넘는 대규모 ESS 수주가 단기간에 몰릴 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/jcOL2M > * 텔레그램 채널 < https://t.me/auto_revolution >",
+              "post_url": "https://t.me/daolresearch/15356",
+              "source_url": "https://buly.kr/jcOL2M"
+            },
             {
               "id": 15308,
               "date": "2026-10-26",
@@ -4247,6 +4432,11 @@
               "text": "억울한 주가와 멀티플(2028 PER 6.5배), 선호주 견지",
               "date": "2026-10-08",
               "source": "https://t.me/daolresearch/15187"
+            },
+            {
+              "text": "3Q26 EPS 서프라이즈, 선호주 견지 배경 1) FDC, 2) 2026-2027 증익",
+              "date": "2026-10-29",
+              "source": "https://t.me/daolresearch/15355"
             }
           ],
           "top_pick_change": "전월과 문구/구성 변경",
@@ -4281,8 +4471,80 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 16,
+          "report_count": 18,
           "reports": [
+            {
+              "id": 15355,
+              "date": "2026-10-29",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "삼성중공업",
+              "code": "010140",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [
+                "3Q26 EPS 서프라이즈, 선호주 견지 배경 1) FDC, 2) 2026-2027 증익"
+              ],
+              "preferred_stocks": [
+                "3Q26 EPS 서프라이즈, 선호주 견지 배경 1) FDC, 2) 2026-2027 증익"
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "2027년 LNG와 FLNG 시장에 대한 긍정 전망 공유, 그리고 FDC 곧 개시 • FLNG: 연말까지 Delfin 2를 마무리해서 올해 수주 150억달러 달성 전망. 증가, 모잠비크 LNG 재개 등으로 2027년에 수주 강세를 전망 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기",
+              "industry_conclusion": "",
+              "report_conclusion": "2027년 LNG와 FLNG 시장에 대한 긍정 전망 공유, 그리고 FDC 곧 개시 • FLNG: 연말까지 Delfin 2를 마무리해서 올해 수주 150억달러 달성 전망. 증가, 모잠비크 LNG 재개 등으로 2027년에 수주 강세를 전망 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에",
+              "valuation": [
+                "• 조선업 공통 적정PER을 15배로 낮춰 적정주가를 2.9만원으로 내리지만,",
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 38.9 12.3 9.5",
+                "PBR(배) 5.1 2.5 2.0",
+                "EV/EBITDA(배) 20.0 8.3 5.3",
+                "Performance 1M 6M 12M YTD"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145853/1/20261029_010140_gs.choie_611.pdf",
+              "pdf_error": "",
+              "title": "[삼성중공업(010140)/BUY(유지)/TP 29,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 삼성중공업(010140) : 실적 차별화 지속, FLNG 지속, FDC 지속",
+              "summary": "[삼성중공업(010140)/BUY(유지)/TP 29,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 삼성중공업(010140) : 실적 차별화 지속, FLNG 지속, FDC 지속 ▶ Issue: 3Q26 EPS 서프라이즈, 선호주 견지 배경 1) FDC, 2) 2026-2027 이익 증가가 상대적으로 큼 ▶ Pitch: > 환헤지와 빈티지 효과로 조선업종에서 3Q에 나홀로 증익, 그리고 > 2026-2027 영업이익 증가폭이 가장 크다는 투자 매력 > 2027년 LNG와 FLNG 시장에 대한 긍정 전망 공유, > 그리고 FDC 곧 개시 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/SHI3Q26RE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15355",
+              "source_url": "https://bit.ly/SHI3Q26RE"
+            },
+            {
+              "id": 15354,
+              "date": "2026-10-29",
+              "month": "2026-10",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "두산밥캣",
+              "code": "241560",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "공장의 경쟁력이 투자포인트가 될 수도 있을 것",
+              "industry_conclusion": "",
+              "report_conclusion": "아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음 투자의견 BUY HOLD BUY BUY BUY BUY",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 13.7 8.5 8.0",
+                "PBR(배) 0.8 0.6 0.6",
+                "EV/EBITDA(배) 5.2 2.8 2.9",
+                "Performance 1M 6M 12M YTD",
+                "PER VALUATION 2020년 2021년 2022년 2023년 2024년 2025년 2026년 2027년"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145852/1/20261029_241560_gs.choie_610.pdf",
+              "pdf_error": "",
+              "title": "[두산밥캣(241560)/BUY(유지)/TP 89,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 두산밥캣(241560) : 실적은 미국 경제, 주가는 북미 주택",
+              "summary": "[두산밥캣(241560)/BUY(유지)/TP 89,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 두산밥캣(241560) : 실적은 미국 경제, 주가는 북미 주택 ▶ Issue: 3Q26 컨센서스 부합. 환율 하락으로 원화 실적을 내리면서 적정주가 하향 ▶ Pitch: > 주가 트리거는 북미 주택 시장이지만, 실제 판매는 미국의 경제성장에 달려있음을 입증하는 견조한 실적 > 그러나 주식 모멘텀을 위해 ① 금리 인하, 미국 주택시장 회복을 기다림 또한 ② 막 가동을 시작한 멕시코 공장에 대한 미국-멕시코 관세 협상이 잘 풀리기를 기대 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/Bobcat3Q26RE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15354",
+              "source_url": "https://bit.ly/Bobcat3Q26RE"
+            },
             {
               "id": 15348,
               "date": "2026-10-29",
@@ -4958,7 +5220,7 @@
           ]
         }
       ],
-      "report_count": 115
+      "report_count": 118
     },
     {
       "month": "2026-09",
