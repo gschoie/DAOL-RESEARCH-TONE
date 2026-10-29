@@ -28,11 +28,11 @@ details.arch summary{cursor:pointer;color:#1767aa;font-size:13.5px;margin:12px 0
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#172033;color:#fff;padding:9px 16px;border-radius:999px;font-size:13px;opacity:0;transition:.25s;pointer-events:none}.toast.on{opacity:1}
 @media(max-width:600px){.hero{padding:18px}.hero h1{font-size:20px}}
 </style></head><body><div class="wrap">
-<div class="hero"><h1>📈 매크로.다올.브리핑</h1><p>다올 전략·매크로 자료(조병현·허정인)의 본문 전체를 오디오북용 낭독 원고(MD)로 옮긴 것. 표·각주·컴플라이언스는 빼고 본문 순서대로.</p>
+<div class="hero"><h1>📈 매크로.다올.브리핑</h1><p>다올 전략·매크로 자료(조병현·허정인)의 본문 전체를 오디오북용 낭독 원고(MD)로 옮긴 것. 표·각주·컴플라이언스는 빼고 본문 순서대로. 합본은 최근 1주치.</p>
 <div class="stats" id="stats"></div></div>
 <div class="actions" id="top-actions"></div>
-<div class="note">합본은 최근 <span id="days">14</span>일치가 최신순으로 한 파일에 들어 있습니다. 건별 파일은 창을 벗어나도 아래 아카이브에 남습니다. 텔레그램 요약본(임시)은 원문 PDF를 아직 못 받은 경우로, 다음 수집 때 다시 시도합니다.</div>
-<h2 class="sec">최근 2주 <small id="win-count"></small></h2><div id="list"></div>
+<div class="note">합본은 최근 <span id="days">7</span>일치가 최신순으로 한 파일에 들어 있습니다. 건별 파일은 창을 벗어나도 아래 아카이브에 남습니다. 텔레그램 요약본(임시)은 원문 PDF를 아직 못 받은 경우로, 다음 수집 때 다시 시도합니다.</div>
+<h2 class="sec">최근 1주 <small id="win-count"></small></h2><div id="list"></div>
 <div id="pending"></div>
 <details class="arch"><summary>지난 아카이브 펼치기 <span id="arch-count"></span></summary><div id="archive"></div></details>
 </div><div class="toast" id="toast"></div>
@@ -52,10 +52,10 @@ function card(i){const d=i.date+(i.weekday?`(${i.weekday})`:'');const cls=i.src|
 async function main(){let idx;try{idx=await (await fetch('macro_daol/index.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){$('#list').innerHTML='<p class="empty">아직 원고가 생성되지 않았습니다. 첫 수집 런이 끝나면 여기에 나타납니다.</p>';return}
  const win=idx.items.filter(i=>i.in_window),arch=idx.items.filter(i=>!i.in_window);$('#days').textContent=idx.window_days;
  $('#stats').innerHTML=`<div class="stat"><b>${win.length}</b>최근 ${idx.window_days}일</div><div class="stat"><b>${idx.items.length}</b>아카이브 전체</div><div class="stat"><b>${(idx.combined.chars||0).toLocaleString()}</b>합본 글자수</div><div class="stat"><b>${esc(idx.generated)}</b>마지막 갱신(KST)</div>`;
- $('#top-actions').innerHTML=`<a class="btn primary" href="${esc(idx.combined.file)}" download>⬇ 2주 합본 MD 다운로드</a><button class="btn" id="copy-all">📋 합본 전체 복사</button><a class="btn" href="index.html#strat" target="_blank" rel="noopener">🧭 전략 보드</a>${window.MACRO_NOTION_URL?`<a class="btn" href="${window.MACRO_NOTION_URL}" target="_blank" rel="noopener">📝 Notion 아카이브</a>`:''}`;
+ $('#top-actions').innerHTML=`<a class="btn primary" href="${esc(idx.combined.file)}" download>⬇ 1주 합본 MD 다운로드</a><button class="btn" id="copy-all">📋 합본 전체 복사</button><a class="btn" href="index.html#strat" target="_blank" rel="noopener">🧭 전략 보드</a>${window.MACRO_NOTION_URL?`<a class="btn" href="${window.MACRO_NOTION_URL}" target="_blank" rel="noopener">📝 Notion 아카이브</a>`:''}`;
  $('#copy-all').onclick=()=>copyUrl(idx.combined.file,'합본');
  $('#win-count').textContent=`${win.length}건`;$('#arch-count').textContent=`(${arch.length}건)`;
- $('#list').innerHTML=win.length?win.map(card).join(''):'<p class="empty">최근 2주에 해당 자료가 없습니다.</p>';
+ $('#list').innerHTML=win.length?win.map(card).join(''):'<p class="empty">최근 1주에 해당 자료가 없습니다.</p>';
  $('#archive').innerHTML=arch.length?arch.map(card).join(''):'<p class="empty">아직 없음</p>';
  if(idx.pending&&idx.pending.length)$('#pending').innerHTML=`<h2 class="sec">원고 생성 대기 <small>${idx.pending.length}건 — 다음 수집 런에서 처리</small></h2>`+idx.pending.map(p=>`<article class="card"><header><div class="meta"><b>${esc(p.date)}</b> · ${esc(p.analyst)}</div><span class="chip wait">대기</span><h3>${esc(p.title)}</h3></header></article>`).join('');
  document.body.addEventListener('click',async e=>{const v=e.target.closest('[data-view]');if(v){const body=v.closest('.card').querySelector('.body');if(body.classList.contains('open')){body.classList.remove('open');v.textContent='📖 보기';return}

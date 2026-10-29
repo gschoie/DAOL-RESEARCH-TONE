@@ -1,7 +1,7 @@
-"""매크로.다올.브리핑 — 조병현·허정인 전략/경제 자료의 낭독용 MD 생성(트레일링 2주).
+"""매크로.다올.브리핑 — 조병현·허정인 전략/경제 자료의 낭독용 MD 생성(트레일링 1주).
 
 목적: 리서치톤이 잡은 다올 전략·매크로 자료(조병현·허정인)의 본문 전체를 오디오북 제작용
-낭독 원고(MD)로 만들어 대시보드에서 내려받고(건별 + 2주 합본), Notion에도 쌓는다.
+낭독 원고(MD)로 만들어 대시보드에서 내려받고(건별 + 1주 합본), Notion에도 쌓는다.
 
 왜 PDF를 다시 읽나: 조병현 자료는 PDF 폰트가 깨져 텍스트 추출이 뭉개지는 경우가 많다
 (10/22 금통위 리뷰 — 4,186자 중 한글 1,733자가 전부 깨진 글자). 텔레그램 요약은 400자
@@ -11,11 +11,11 @@
 산출물
   data/daol_macro_brief.json               건별 캐시(id → md 등). 재생성 방지, 머지 캐시에 포함.
   site/macro_daol/<date>_<id>.md           건별 낭독 원고(아카이브 — 창을 벗어나도 남는다)
-  site/macro_daol/macro_daol_2w.md         트레일링 2주 합본(최신 먼저)
+  site/macro_daol/macro_daol_1w.md         트레일링 1주 합본(최신 먼저)
   site/macro_daol/index.json               대시보드 페이지·Notion 적재용 목록(creation/sync 상태)
 창 밖의 옛 자료는 삭제하지 않는다. 윈도 안에서 원문 확보 실패분은 다음 런에 다시 시도(최대 4회).
 
-환경변수: GEMINI_API_KEY(필수), MACRO_BRIEF_DAYS(기본 14), MACRO_BRIEF_MAX(런당 AI 호출 상한,
+환경변수: GEMINI_API_KEY(필수), MACRO_BRIEF_DAYS(기본 7), MACRO_BRIEF_MAX(런당 AI 호출 상한,
 기본 6), MACRO_BRIEF_BUDGET(초, 기본 480), MACRO_BRIEF_ANALYSTS(쉼표, 기본 조병현,허정인).
 """
 import base64
@@ -40,7 +40,7 @@ OUT_DIR = ROOT / 'site' / 'macro_daol'
 SITE_BASE = 'https://gschoie.github.io/DAOL-RESEARCH-TONE/'
 
 KST = timezone(timedelta(hours=9))
-DAYS = int(os.getenv('MACRO_BRIEF_DAYS', '14'))
+DAYS = int(os.getenv('MACRO_BRIEF_DAYS', '7'))
 MAX_AI = int(os.getenv('MACRO_BRIEF_MAX', '6'))
 BUDGET = int(os.getenv('MACRO_BRIEF_BUDGET', '480'))
 ANALYSTS = {a.strip() for a in os.getenv('MACRO_BRIEF_ANALYSTS', '조병현,허정인').split(',') if a.strip()}
@@ -195,11 +195,12 @@ def write_outputs(cache, selected):
     for i in window:
         md = cache[i['id']]['md']
         parts.append('\n\n---\n\n' + md.strip() + '\n')
-    (OUT_DIR / 'macro_daol_2w.md').write_text(''.join(parts), encoding='utf-8')
+    (OUT_DIR / 'macro_daol_1w.md').write_text(''.join(parts), encoding='utf-8')
+    (OUT_DIR / 'macro_daol_2w.md').unlink(missing_ok=True)   # 1주로 바꾸기 전 합본 파일명
     pending = [{'id': str(r['id']), 'date': r['date'], 'analyst': r['analyst'], 'title': clean_title(r['title'])}
                for r in selected if not (cache.get(str(r['id'])) or {}).get('md')]
     index = {'generated': stamp, 'window_days': DAYS, 'analysts': sorted(ANALYSTS),
-             'combined': {'file': 'macro_daol/macro_daol_2w.md', 'url': SITE_BASE + 'macro_daol/macro_daol_2w.md',
+             'combined': {'file': 'macro_daol/macro_daol_1w.md', 'url': SITE_BASE + 'macro_daol/macro_daol_1w.md',
                           'count': len(window), 'chars': sum(len(p) for p in parts)},
              'items': items, 'pending': pending}
     (OUT_DIR / 'index.json').write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding='utf-8')

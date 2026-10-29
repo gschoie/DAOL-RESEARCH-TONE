@@ -157,7 +157,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python build_daily_brief.py || echo "::warning::브리핑 생성 실패"
 
-      # 매크로.다올.브리핑 — 조병현·허정인 전략/경제 자료를 오디오북용 낭독 원고(MD)로 전사(트레일링 2주).
+      # 매크로.다올.브리핑 — 조병현·허정인 전략/경제 자료를 오디오북용 낭독 원고(MD)로 전사(트레일링 1주).
       # PDF 원본을 Gemini에 직접 읽혀 본문 전체를 옮긴다(건당 1회, 캐시). 실패해도 파이프라인 계속.
       - name: 매크로 브리핑 낭독 원고 생성
         env:
