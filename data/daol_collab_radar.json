@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29T22:48:19.089926+00:00",
+ "generated_at": "2026-10-29T23:00:24.818823+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1471,
+ "report_count": 1473,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34629,6 +34629,94 @@
    "title": "[삼성전자(005930) | 다올투자증권 반도체/디스플레이 남대종] ★ 4Q26 주주 환원에서의 힌트",
    "post_url": "https://t.me/daolresearch/15363",
    "source_url": "https://buly.kr/FhQnrGT"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-10-30",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "company": "현대차",
+   "code": "005380",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "기말환율 강세로 판매보증비용이 줄어든 효과가 주요인"
+   ],
+   "title": "🚘 [현대차(005380)/BUY(유지)/TP 640,000원(유지)] - 3Q26 Review: 기대치 상회",
+   "post_url": "https://t.me/daolresearch/15364",
+   "source_url": "https://buly.kr/EdwFyVe"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-10-30",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "주초 중동 긴장 재고조와 FOMC·빅테크 실적 발표를 앞둔 경계 심리에 약세 출발.",
+    "이후 FOMC 금리 동결과 워시의 완화적 발언으로 상승 흐름을 지속."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
+   "post_url": "https://t.me/daolresearch/15366",
+   "source_url": "https://buly.kr/C0CtGVl"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-10-30",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "이후 앤트로픽 IPO 기대와 메타의 유상증자 흥행으로 AI 투자 의구심이 완화되며 급반등, SK하이닉스의 장기공급계약 확대 및 대규모 주주환원책 발표가 이어지며 이틀 연속 매수 사이드카 발동.",
+    "다만 주 후반 삼성전자가 구체적인 주주환원 방안 발표를 미루며 실망 매물이 출회되는 등 반도체 대형주 간 차별화가 진행 -DOW(+0.2%), S&P500(+1.3%), NASDAQ(+0.9%) 상승."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
+   "post_url": "https://t.me/daolresearch/15366",
+   "source_url": "https://buly.kr/C0CtGVl"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-10-30",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "주초 중동 긴장 재고조와 FOMC·빅테크 실적 발표를 앞둔 경계 심리에 약세 출발."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
+   "post_url": "https://t.me/daolresearch/15366",
+   "source_url": "https://buly.kr/C0CtGVl"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-10-30",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 3,
+   "evidences": [
+    "이후 앤트로픽 IPO 기대와 메타의 유상증자 흥행으로 AI 투자 의구심이 완화되며 급반등, SK하이닉스의 장기공급계약 확대 및 대규모 주주환원책 발표가 이어지며 이틀 연속 매수 사이드카 발동.",
+    "소재 측면에서 AI 투자와 관련해 긍정적인 소재들이 등장하고 있는 것은 고무적."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
+   "post_url": "https://t.me/daolresearch/15366",
+   "source_url": "https://buly.kr/C0CtGVl"
   }
  ],
  "cross_mentions": [
@@ -36767,6 +36855,30 @@
    "evidence": "컨테이너 ▼ AP Moller-Maersk는 최대 24척(5.5십억달러) 컨테이너선 발주 후보를 중국 조선소 2곳으로 압축 ▲ HMM, HD현대중공업에 네오파나막스 컨테이너선 8척 1.5십억달러 규모 발주",
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국 MISC LNG선, Maersk 컨선 수주. 그러나 돌파구 FLNG 등 업데이트 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15303"
+  },
+  {
+   "company": "SK하이닉스",
+   "code": "000660",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-10-30",
+   "evidence": "이후 앤트로픽 IPO 기대와 메타의 유상증자 흥행으로 AI 투자 의구심이 완화되며 급반등, SK하이닉스의 장기공급계약 확대 및 대규모 주주환원책 발표가 이어지며 이틀 연속 매수 사이드카 발동.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
+   "post_url": "https://t.me/daolresearch/15366"
+  },
+  {
+   "company": "삼성전자",
+   "code": "005930",
+   "owner_analyst": "남대종",
+   "owner_sector": "반도체/소부장",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "date": "2026-10-30",
+   "evidence": "다만 주 후반 삼성전자가 구체적인 주주환원 방안 발표를 미루며 실망 매물이 출회되는 등 반도체 대형주 간 차별화가 진행 -DOW(+0.2%), S&P500(+1.3%), NASDAQ(+0.9%) 상승.",
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (10월 5주차)]",
+   "post_url": "https://t.me/daolresearch/15366"
   }
  ],
  "candidates": [
@@ -36775,14 +36887,14 @@
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.5
+   "burst": 21.4
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.6
+   "burst": 16.5
   },
   {
    "term": "감익",
@@ -36797,6 +36909,13 @@
    "total": 34,
    "sectors": 12,
    "burst": 9.0
+  },
+  {
+   "term": "되돌림",
+   "recent": 6,
+   "total": 9,
+   "sectors": 3,
+   "burst": 6.2
   },
   {
    "term": "바스켓",
@@ -36824,27 +36943,27 @@
    "recent": 10,
    "total": 17,
    "sectors": 7,
-   "burst": 5.2
+   "burst": 5.1
   },
   {
    "term": "사용",
    "recent": 10,
    "total": 17,
    "sectors": 8,
-   "burst": 5.2
-  },
-  {
-   "term": "사전",
-   "recent": 6,
-   "total": 10,
-   "sectors": 7,
-   "burst": 5.0
+   "burst": 5.1
   },
   {
    "term": "관건",
    "recent": 13,
    "total": 23,
    "sectors": 10,
+   "burst": 4.9
+  },
+  {
+   "term": "사전",
+   "recent": 6,
+   "total": 10,
+   "sectors": 7,
    "burst": 4.9
   },
   {
@@ -36867,13 +36986,6 @@
    "total": 49,
    "sectors": 4,
    "burst": 3.8
-  },
-  {
-   "term": "구축",
-   "recent": 16,
-   "total": 33,
-   "sectors": 10,
-   "burst": 3.7
   }
  ]
 }
