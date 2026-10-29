@@ -54,7 +54,8 @@ PROMPT_PDF = '''이 PDF는 다올투자증권 매크로·투자전략 리서치 
 [포함]
 - 본문 전체를 원문 순서대로 빠짐없이 옮긴다. 요약·축약 금지. 단락 구조와 소제목(##)을 살린다.
 - 표는 그 표가 말하려는 핵심 수치를 문장으로 풀어 쓴다(행·열 나열 금지).
-- 그림·차트는 캡션이 전달하는 메시지를 한 문장으로 적는다. 축 눈금·범례는 적지 않는다.
+- 그림·차트는 본문에 없는 정보를 담고 있을 때만 그 메시지를 한 문장으로 적고, 단순 추이 차트는
+  생략한다. "Fig 1: ~ 차트다" 식의 목록 나열은 하지 않는다.
 - 첫 줄은 "# 자료 제목", 둘째 줄은 "발간일 YYYY년 M월 D일 · 애널리스트 이름" 한 줄.
 
 [제외]
@@ -211,12 +212,18 @@ def main():
     messages = {str(m['id']): m for m in load_json(MSG_FILE, [])}
     cache = load_json(CACHE_FILE, {})
     selected = select_reports(history)
-    todo = [r for r in selected
-            if (cache.get(str(r['id'])) or {}).get('src') in (None, 'telegram')
-            and (cache.get(str(r['id'])) or {}).get('attempts', 0) < MAX_ATTEMPTS]
+    def needs_work(e):
+        if e.get('src') in (None, 'telegram'):
+            return e.get('attempts', 0) < MAX_ATTEMPTS
+        return 'lite' in (e.get('model') or '') and not e.get('upgraded')
+    todo = [r for r in selected if needs_work(cache.get(str(r['id'])) or {})]
     print(f'매크로 브리핑: 창 {DAYS}일 대상 {len(selected)}건, 이번 런 생성 필요 {len(todo)}건 (상한 {MAX_AI})')
     has_key = bool(os.getenv('GEMINI_API_KEY', '').strip())
-    models = gemini_model_queue()
+    # 낭독 원고는 오독이 그대로 귀에 들어오므로 품질 우선 — flash-lite는 맨 뒤(첫 런의 lite 원고에
+    # '통상문'(통방문)·'급리'(금리) 류 오독). lite로 만든 원고는 상위 모델로 한 번 다시 전사한다.
+    queue = gemini_model_queue()
+    models = [m for m in queue if 'lite' not in m] + [m for m in queue if 'lite' in m]
+    strong = [m for m in models if 'lite' not in m]
     started = time.time()
     done = 0
     for r in todo:
@@ -232,9 +239,12 @@ def main():
         print(f'  [{rid}] {r["date"]} {r["analyst"]} {entry["title"][:50]}')
         good_text, tg = source_text(r, pdf_cache, messages)
         md, src, model_used = '', '', ''
-        if has_key:
+        upgrading = bool(prev.get('md')) and prev.get('src') != 'telegram'
+        if upgrading:
+            entry['upgraded'] = True   # 상위 모델 재전사는 1회만 시도(실패하면 lite 원고 유지)
+        if has_key and (strong or not upgrading):
             pdf = fetch_pdf(r)
-            for model in models:
+            for model in (strong if upgrading else models):
                 if not pdf and not good_text:
                     break
                 try:
