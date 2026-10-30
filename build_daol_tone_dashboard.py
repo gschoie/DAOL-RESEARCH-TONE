@@ -75,14 +75,21 @@ def _daol_board_rows(days=40):
     try:
         s=requests.Session();s.headers.update(UA)
         start=(kst_today()-timedelta(days=days)).strftime('%Y/%m/%d');end=kst_today().strftime('%Y/%m/%d')
-        for page in range(1,13):
-            r=s.post(_BOARD_BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
-                     data={'curPage':str(page),'rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
-                           'filepath':'','attaFileNm':'','startDate':start,'endDate':end,
-                           'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
-                     headers={'Referer':_BOARD_BASE+'/research/article/common.jspx?rGubun=RALL',
-                              'X-Requested-With':'XMLHttpRequest'},timeout=15)
-            found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"",r.text,re.S)
+        # 게시판은 같은 요청에도 산발적으로 404(오류 페이지)를 돌려준다(10/30 진단: 6회 중 3회).
+        # 페이지마다 3회까지 재시도하고, 세 번 다 비면 끝으로 본다. 페이지당 10행·브리프류 포함이라
+        # 40일 창을 채우려면 30페이지는 넘겨야 한다(12페이지=약 1주치뿐이었음).
+        for page in range(1,31):
+            found=[]
+            for attempt in range(3):
+                r=s.post(_BOARD_BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
+                         data={'curPage':str(page),'rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
+                               'filepath':'','attaFileNm':'','startDate':start,'endDate':end,
+                               'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
+                         headers={'Referer':_BOARD_BASE+'/research/article/common.jspx?rGubun=RALL',
+                                  'X-Requested-With':'XMLHttpRequest'},timeout=15)
+                found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"",r.text,re.S) if r.status_code==200 else []
+                if found:break
+                time.sleep(0.6)
             if not found:break
             for d,path,fn,title in found:
                 row={'date':d.replace('/','-'),'title':_html.unescape(title),'file':fn,
@@ -90,7 +97,7 @@ def _daol_board_rows(days=40):
                 # 게시글 번호(첨부 경로 /attach_file/RESEARCH/{번호}/1)와 파일명 규칙
                 # YYYYMMDD_{종목코드|B섹터코드|B}_{로그인ID}_{연번}.pdf 에서 종류·담당자를 읽는다.
                 rid=re.search(r'/RESEARCH/(\d+)/',path);row['rid']=rid.group(1) if rid else ''
-                fm=re.match(r'(\d{8})_([A-Za-z0-9]+)_([a-z0-9.]+)_(\d+)\.pdf$',fn)
+                fm=re.match(r'(\d{8})_([A-Za-z0-9]+)_([a-z0-9.]+)_(\d+)\.pdf(?:\.pdf)?$',fn)   # '…682.pdf.pdf' 같은 이중 확장자도
                 if fm:
                     tok,login=fm.group(2),fm.group(3)
                     row.update(login=login,code=tok if re.fullmatch(r'\d{6}',tok) else '',
@@ -117,7 +124,8 @@ LOGIN_ROSTER={'alex.park':('박종현','의료기기/화장품'),'bhcho':('조�
               'jiwonkim':('김지원','금융'),'junghao':('오정하','운송'),'jungwoo':('이정우','철강금속'),
               'jwyoo':('유지웅','자동차/이차전지'),'lizzy':('이다연','음식료'),'ym.kim':('김연미','전기전자'),
               'ym.ko':('고영민','반도체/소부장'),'ypark':('박영도','건설/부동산')}
-BOARD_SKIP_TITLE=re.compile(r'데일리|Daily|Morning\s*Brief|모닝\s*브리프|캘린더|관세\s*업데이트',re.I)
+BOARD_SKIP_TITLE=re.compile(r'데일리|Daily|Morning\s*Brief|모닝\s*브리프|캘린더|관세\s*업데이트|TARIFFS|Bond\s*Morning',re.I)
+BOARD_SKIP_LOGIN={'ktbsec3','aimhigh'}   # 모닝브리프·관세 업데이트 등 리서치 리포트가 아닌 게시 계정
 
 def _code_names_from_history():
     """종목코드 → 가장 최근 기업명(이력 기반). 게시판 행에는 기업명이 없고 파일명에 코드만 있다."""
@@ -158,17 +166,22 @@ def board_supplement(tg_messages, cache):
     today=kst_today();now_h=datetime.now(KST).hour;sameday_ok=now_h>=int(os.getenv('BOARD_SAMEDAY_AFTER_HOUR','9'))
     names=_code_names_from_history();out={};new=0
     for row in rows:
-        if BOARD_SKIP_TITLE.search(row['title']):continue
+        if BOARD_SKIP_TITLE.search(row['title']) or row['login'] in BOARD_SKIP_LOGIN:continue
         if row['date']==today.isoformat() and not sameday_ok:continue
         mid=f"B{row['rid']}"
         if covered(row):
             prev.pop(mid,None);continue   # 텔레그램에 (나중에라도) 올라왔으면 게시판판은 내린다
         if mid in prev:out[mid]=prev.pop(mid);continue
         name,sector=LOGIN_ROSTER.get(row['login'],('미분류','미분류'))
-        company=names.get(row['code'],'') if row.get('kind')=='company' else ''
+        # 기업명: 게시판 제목이 '삼성중공업(010140) - …' 꼴이라 제목에서 먼저, 없으면 이력에서
+        company=''
+        if row.get('kind')=='company':
+            tm=re.match(r'\s*([가-힣A-Za-z0-9&.\- ]{1,40}?)\s*\(\s*'+row['code']+r'\s*\)',row['title'])
+            company=clean(tm.group(1)) if tm else names.get(row['code'],'')
         head=f"[다올투자증권 {sector} {name}]"
         if row.get('kind')=='company':
-            text=f"{head} ★ {company+' ' if company else ''}({row['code']}) {row['title']} ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조"
+            body=re.sub(r'^\s*[가-힣A-Za-z0-9&.\- ]{1,40}?\s*\(\s*\d{6}\s*\)\s*[-–:]?\s*','',row['title']) if company else row['title']
+            text=f"{head} ★ {company+' ' if company else ''}({row['code']}) {body} ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조"
         else:
             text=f"{head} ★ {row['title']} ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조"
         out[mid]={'id':mid,'date':f"{row['date']}T00:00:00+09:00",'text':text,'links':[row['url']],'post_url':row['url'],
