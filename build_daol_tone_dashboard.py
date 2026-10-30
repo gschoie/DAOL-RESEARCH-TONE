@@ -137,7 +137,8 @@ LOGIN_ROSTER={'alex.park':('박종현','의료기기/화장품'),'bhcho':('조�
               'jeehyun':('김지현','시황'),'jeongin':('허정인','채권분석'),'jislee':('이지수','제약/바이오'),
               'jiwonkim':('김지원','금융'),'junghao':('오정하','운송'),'jungwoo':('이정우','철강금속'),
               'jwyoo':('유지웅','자동차/이차전지'),'lizzy':('이다연','음식료'),'ym.kim':('김연미','전기전자'),
-              'ym.ko':('고영민','반도체/소부장'),'ypark':('박영도','건설/부동산')}
+              'ym.ko':('고영민','반도체/소부장'),'ypark':('박영도','건설/부동산'),
+              'ktbsec2':('리서치센터','공지')}   # 커버리지 제외 안내 등 센터 명의 게시(9/30 운송 5종목)
 BOARD_SKIP_TITLE=re.compile(r'데일리|Daily|Morning\s*Brief|모닝\s*브리프|캘린더|관세\s*업데이트|TARIFFS|Bond\s*Morning',re.I)
 BOARD_SKIP_LOGIN={'ktbsec3','aimhigh'}   # 모닝브리프·관세 업데이트 등 리서치 리포트가 아닌 게시 계정
 
@@ -185,7 +186,12 @@ def board_supplement(tg_messages, cache):
         mid=f"B{row['rid']}"
         if covered(row):
             prev.pop(mid,None);continue   # 텔레그램에 (나중에라도) 올라왔으면 게시판판은 내린다
-        if mid in prev:out[mid]=prev.pop(mid);continue
+        if mid in prev:
+            x=prev.pop(mid)   # 기존 합성분: 로스터가 갱신됐으면 담당자·섹터 표기를 따라 바꾼다
+            nm,sc=LOGIN_ROSTER.get(row['login'],('미분류','미분류'))
+            if (x['board'].get('analyst'),x['board'].get('sector'))!=(nm,sc):
+                x['text']=re.sub(r'^\[다올투자증권 [^\]]*\]',f"[다올투자증권 {sc} {nm}]",x['text'],1);x['board'].update(analyst=nm,sector=sc)
+            out[mid]=x;continue
         name,sector=LOGIN_ROSTER.get(row['login'],('미분류','미분류'))
         # 기업명: 게시판 제목이 '삼성중공업(010140) - …' 꼴이라 제목에서 먼저, 없으면 이력에서
         company=''
