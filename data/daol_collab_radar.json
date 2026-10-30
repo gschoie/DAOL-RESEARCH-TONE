@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30T01:04:52.574601+00:00",
+ "generated_at": "2026-10-30T01:25:13.229532+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1473,
+ "report_count": 1480,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34147,6 +34147,23 @@
   {
    "theme": "밸류업/주주환원",
    "category": "매크로",
+   "date": "2026-10-28",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "iM금융지주",
+   "code": "139130",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "iM금융지주 (139130) 검증 필요, 그러나 주주환원 기대감 유효"
+   ],
+   "title": "[다올투자증권 금융 김지원] ★ iM금융지주 (139130) 검증 필요, 그러나 주주환원 기대감 유효",
+   "post_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145787/1/20261028_139130_jiwonkim_266.pdf",
+   "source_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145787/1/20261028_139130_jiwonkim_266.pdf"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
    "date": "2026-10-29",
    "analyst": "박영도",
    "sector": "건설/부동산",
@@ -36884,109 +36901,109 @@
  ],
  "candidates": [
   {
+   "term": "기관투자가",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 32.1
+  },
+  {
+   "term": "자에게",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 32.1
+  },
+  {
+   "term": "압력이나",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.1
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.1
+  },
+  {
    "term": "통신",
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 21.4
+   "burst": 20.9
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.5
+   "burst": 16.1
   },
   {
    "term": "감익",
    "recent": 8,
    "total": 10,
    "sectors": 6,
-   "burst": 11.0
+   "burst": 10.7
+  },
+  {
+   "term": "등록",
+   "recent": 8,
+   "total": 10,
+   "sectors": 3,
+   "burst": 10.7
+  },
+  {
+   "term": "PDF",
+   "recent": 9,
+   "total": 12,
+   "sectors": 5,
+   "burst": 9.0
   },
   {
    "term": "원화",
    "recent": 24,
    "total": 34,
    "sectors": 12,
-   "burst": 9.0
+   "burst": 8.8
+  },
+  {
+   "term": "사전",
+   "recent": 11,
+   "total": 15,
+   "sectors": 8,
+   "burst": 8.8
   },
   {
    "term": "되돌림",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 6.2
+   "burst": 6.0
   },
   {
    "term": "바스켓",
    "recent": 7,
    "total": 11,
    "sectors": 3,
-   "burst": 5.8
-  },
-  {
-   "term": "사전",
-   "recent": 7,
-   "total": 11,
-   "sectors": 7,
-   "burst": 5.8
+   "burst": 5.6
   },
   {
    "term": "정체",
    "recent": 8,
    "total": 13,
    "sectors": 4,
-   "burst": 5.5
+   "burst": 5.4
   },
   {
    "term": "우선",
    "recent": 9,
    "total": 15,
    "sectors": 8,
-   "burst": 5.3
-  },
-  {
-   "term": "방향",
-   "recent": 10,
-   "total": 17,
-   "sectors": 7,
-   "burst": 5.1
-  },
-  {
-   "term": "사용",
-   "recent": 10,
-   "total": 17,
-   "sectors": 8,
-   "burst": 5.1
-  },
-  {
-   "term": "관건",
-   "recent": 13,
-   "total": 23,
-   "sectors": 10,
-   "burst": 4.9
-  },
-  {
-   "term": "할인율",
-   "recent": 8,
-   "total": 14,
-   "sectors": 3,
-   "burst": 4.7
-  },
-  {
-   "term": "배당수익률",
-   "recent": 16,
-   "total": 30,
-   "sectors": 9,
-   "burst": 4.4
-  },
-  {
-   "term": "뷰티",
-   "recent": 24,
-   "total": 49,
-   "sectors": 4,
-   "burst": 3.8
+   "burst": 5.2
   }
  ]
 }
