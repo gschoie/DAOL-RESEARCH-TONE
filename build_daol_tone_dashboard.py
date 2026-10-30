@@ -85,13 +85,102 @@ def _daol_board_rows(days=40):
             found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"",r.text,re.S)
             if not found:break
             for d,path,fn,title in found:
-                _BOARD_ROWS.append({'date':d.replace('/','-'),'title':_html.unescape(title),'file':fn,
-                                    'url':f"{_BOARD_BASE}/common/download.jspx?cmd=viewPDF&path={path}/{fn}"})
+                row={'date':d.replace('/','-'),'title':_html.unescape(title),'file':fn,
+                     'url':f"{_BOARD_BASE}/common/download.jspx?cmd=viewPDF&path={path}/{fn}"}
+                # 게시글 번호(첨부 경로 /attach_file/RESEARCH/{번호}/1)와 파일명 규칙
+                # YYYYMMDD_{종목코드|B섹터코드|B}_{로그인ID}_{연번}.pdf 에서 종류·담당자를 읽는다.
+                rid=re.search(r'/RESEARCH/(\d+)/',path);row['rid']=rid.group(1) if rid else ''
+                fm=re.match(r'(\d{8})_([A-Za-z0-9]+)_([a-z0-9.]+)_(\d+)\.pdf$',fn)
+                if fm:
+                    tok,login=fm.group(2),fm.group(3)
+                    row.update(login=login,code=tok if re.fullmatch(r'\d{6}',tok) else '',
+                               kind='company' if re.fullmatch(r'\d{6}',tok) else ('strategy' if tok=='B' else 'industry'))
+                _BOARD_ROWS.append(row)
             if len(found)<10:break
         print(f"다올 게시판 목록 {len(_BOARD_ROWS)}건 로드 (buly.kr 폴백용)")
     except Exception as e:
         print(f"::warning::다올 게시판 목록 조회 실패: {type(e).__name__}: {e}")
     return _BOARD_ROWS
+
+# ── 게시판 보강(하이브리드 수집) ─────────────────────────────────────────────
+# 텔레그램 채널에 게시되지 않은 리서치(게시판에만 있는 자료)를 놓치지 않기 위해 게시판 목록을
+# 2차 소스로 쓴다. 게시판 행이 텔레그램 리포트와 (±1일 안에) 파일명·종목코드·제목으로 매칭되면
+# 텔레그램 쪽을 쓰고(요약 전문이 있으니), 매칭이 없으면 게시판 행으로 합성 레코드를 만든다.
+# 합성 메시지는 data/daol_board_messages.json 에 따로 쌓아 게시판 목록 창(40일)을 벗어나도 남긴다.
+# 당일 행은 09시 이후 런에서만 보강한다 — 텔레그램 게시가 보통 몇 분 뒤따르므로, 아침 런에서
+# 먼저 잡아 중복(게시판판→텔레그램판) 깜빡임을 만들지 않기 위함.
+BOARD_MSG_FILE=DATA_DIR/'daol_board_messages.json'
+# 파일명 로그인ID → (이름, 담당 섹터). 이력 1,333건의 파일명-애널리스트 교차표로 만든 표.
+LOGIN_ROSTER={'alex.park':('박종현','의료기기/화장품'),'bhcho':('조병현','투자전략'),'djnam06':('남대종','반도체/디스플레이'),
+              'dy.lim':('임도영','엔터'),'gs.choie':('최광식','조선/기계/방산'),'hyyy':('김혜영','인터넷·게임·레저'),
+              'jeehyun':('김지현','시황'),'jeongin':('허정인','채권분석'),'jislee':('이지수','제약/바이오'),
+              'jiwonkim':('김지원','금융'),'junghao':('오정하','운송'),'jungwoo':('이정우','철강금속'),
+              'jwyoo':('유지웅','자동차/이차전지'),'lizzy':('이다연','음식료'),'ym.kim':('김연미','전기전자'),
+              'ym.ko':('고영민','반도체/소부장'),'ypark':('박영도','건설/부동산')}
+BOARD_SKIP_TITLE=re.compile(r'데일리|Daily|Morning\s*Brief|모닝\s*브리프|캘린더|관세\s*업데이트',re.I)
+
+def _code_names_from_history():
+    """종목코드 → 가장 최근 기업명(이력 기반). 게시판 행에는 기업명이 없고 파일명에 코드만 있다."""
+    out={}
+    try:
+        h=json.loads(HISTORY.read_text(encoding='utf-8'))
+        for m in h.get('months',[]):
+            for g in m.get('analysts',[]):
+                for r in g.get('reports',[]):
+                    c=r.get('code') or ''
+                    if re.fullmatch(r'\d{6}',c) and r.get('company') and r['company']!='산업/기타' and (c not in out or r['date']>out[c][0]):
+                        out[c]=(r['date'],r['company'])
+    except Exception:pass
+    return {c:v[1] for c,v in out.items()}
+
+def board_supplement(tg_messages, cache):
+    """텔레그램에 없는 게시판 글을 합성 메시지로 돌려준다(기존 합성분 포함, 텔레그램 등장분은 제거)."""
+    rows=[r for r in _daol_board_rows() if r.get('rid') and r.get('login')]
+    if not rows:
+        return json.loads(BOARD_MSG_FILE.read_text(encoding='utf-8')) if BOARD_MSG_FILE.exists() else []
+    toks=lambda s:{w for w in re.split(r'[^0-9A-Za-z가-힣]+',(s or '').lower()) if len(w)>=2}
+    # 텔레그램 리포트의 매칭 키: 날짜별 (PDF 파일명, 헤더 종목코드, 제목 토큰)
+    tg=defaultdict(list)
+    for m in tg_messages:
+        if not is_report(m):continue
+        t=m['text'];src=source_link(m);final=(cache.get(src) or {}).get('final_url') or ''
+        tg[kst_dt(m['date']).date()].append({'file':final.rsplit('/',1)[-1],'codes':set(re.findall(r'\((\d{6})\)',t[:400])),'toks':toks(report_title(t))})
+    def covered(row):
+        d=datetime.fromisoformat(row['date']).date()
+        for day in (d-timedelta(days=1),d,d+timedelta(days=1)):
+            for k in tg.get(day,[]):
+                if k['file'] and k['file']==row['file']:return True
+                if row.get('code') and row['code'] in k['codes'] and day==d:return True
+                bt=toks(row['title'])
+                if bt and len(bt&k['toks'])/len(bt)>=0.55:return True
+        return False
+    prev={x['id']:x for x in (json.loads(BOARD_MSG_FILE.read_text(encoding='utf-8')) if BOARD_MSG_FILE.exists() else [])}
+    today=kst_today();now_h=datetime.now(KST).hour;sameday_ok=now_h>=int(os.getenv('BOARD_SAMEDAY_AFTER_HOUR','9'))
+    names=_code_names_from_history();out={};new=0
+    for row in rows:
+        if BOARD_SKIP_TITLE.search(row['title']):continue
+        if row['date']==today.isoformat() and not sameday_ok:continue
+        mid=f"B{row['rid']}"
+        if covered(row):
+            prev.pop(mid,None);continue   # 텔레그램에 (나중에라도) 올라왔으면 게시판판은 내린다
+        if mid in prev:out[mid]=prev.pop(mid);continue
+        name,sector=LOGIN_ROSTER.get(row['login'],('미분류','미분류'))
+        company=names.get(row['code'],'') if row.get('kind')=='company' else ''
+        head=f"[다올투자증권 {sector} {name}]"
+        if row.get('kind')=='company':
+            text=f"{head} ★ {company+' ' if company else ''}({row['code']}) {row['title']} ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조"
+        else:
+            text=f"{head} ★ {row['title']} ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조"
+        out[mid]={'id':mid,'date':f"{row['date']}T00:00:00+09:00",'text':text,'links':[row['url']],'post_url':row['url'],
+                  'board':{'kind':row.get('kind'),'code':row.get('code',''),'company':company,'analyst':name,'sector':sector,'file':row['file']}}
+        new+=1
+    # 게시판 창(40일) 밖으로 밀려난 옛 합성분은 그대로 보존
+    for mid,x in prev.items():
+        if datetime.fromisoformat(x['date']).date()<today-timedelta(days=35):out[mid]=x
+    items=sorted(out.values(),key=lambda x:x['date'])
+    BOARD_MSG_FILE.write_text(json.dumps(items,ensure_ascii=False,indent=1),encoding='utf-8')
+    print(f"게시판 보강: 신규 {new}건 · 누적 {len(items)}건 (텔레그램 미게시 자료)")
+    return items
 
 def board_pdf_url(day, text, code):
     """게시판에서 이 리포트의 직링크를 찾는다: ①같은 날짜+파일명 안의 종목코드,
@@ -411,6 +500,10 @@ def analyze(messages, pdf_since='2025-05'):
         t=m['text']; analyst,sector=analyst_sector(t); company,code=company_name(t); dt=kst_dt(m['date'])
         day=dt.date().isoformat()
         month=dt.strftime('%Y-%m');is_industry=company in ('산업/기타',sector) or bool(re.search(r'\((?:Overweight|Neutral|Underweight)\)',t[:300],re.I))
+        if m.get('board'):   # 게시판 합성 레코드: 파일명에서 읽은 담당자·종류가 정규식 추정보다 정확하다
+            b=m['board'];analyst,sector=b['analyst'],b['sector']
+            if b.get('kind')=='company' and b.get('code'):company,code=(b.get('company') or company),b['code'];is_industry=False
+            else:company,code='산업/기타','';is_industry=True
         # 콜라보/인뎁스 묶음: 서두에 '종목 (6자리): TP' 페어가 2개 이상이면 산업자료다.
         # 첫 종목만 company로 잡으면 묶음 자료가 그 종목의 기업자료로 오인되므로 비운다 —
         # 종목별 TP는 v2가 인뎁스 합성 레코드로 각 종목 타임라인에 주입한다.
@@ -499,8 +592,14 @@ def main():
     ap=argparse.ArgumentParser();ap.add_argument('--refresh',action='store_true');ap.add_argument('--backfill-days',type=int,default=0);ap.add_argument('--pdf-since',default='2025-05');args=ap.parse_args()
     messages=bootstrap_messages(args.backfill_days) if args.backfill_days else (json.loads(MSG_FILE.read_text(encoding='utf-8')) if MSG_FILE.exists() else bootstrap_messages())
     if args.refresh:messages=refresh_messages(messages)
+    # 하이브리드: 게시판에만 있는 자료를 합성 메시지로 덧붙인다(텔레그램판이 있으면 그쪽 우선)
+    try:
+        cache=json.loads(PDF_CACHE.read_text(encoding='utf-8')) if PDF_CACHE.exists() else {}
+        messages=messages+board_supplement(messages,cache)
+    except Exception as e:
+        print(f"::warning::게시판 보강 실패: {type(e).__name__}: {e}")
     reports=analyze(messages,args.pdf_since);months=monthly_summary(reports)
-    HISTORY.parent.mkdir(exist_ok=True);data={'generated_at':datetime.now(timezone.utc).isoformat(),'source':'https://t.me/daolresearch','report_count':len(reports),'months':months}
+    HISTORY.parent.mkdir(exist_ok=True);data={'generated_at':datetime.now(timezone.utc).isoformat(),'source':'https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판','report_count':len(reports),'months':months}
     HISTORY.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8');render(data)
     print(json.dumps({'html':str(OUT),'history':str(HISTORY),'reports':len(reports),'months':[x['month'] for x in months]},ensure_ascii=False))
 if __name__=='__main__':main()

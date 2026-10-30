@@ -50,6 +50,9 @@ jobs:
                    f"오늘 보고서 {n}건 반영 · 런 {run['conclusion']}"]
           if pdf: lines.append(pdf)
           if allfail: lines.append("⚠️ PDF 수집 전패 — 수집 경로 점검 필요")
+          bm = re.search(r'게시판 보강: 신규 (\d+)건 · 누적 (\d+)건', log)
+          if bm and int(bm.group(1)) > 0:
+              lines.append(f"📋 게시판에만 있는 자료 {bm.group(1)}건 보강 (누적 {bm.group(2)}건)")
           # 미러 트리거는 실패해도 경고만 남기고 런은 성공 처리된다 — 여기서라도 드러낸다
           mm = re.search(r'미러 트리거 실패\(HTTP (\d+)\)', log)
           if mm:
