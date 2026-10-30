@@ -567,7 +567,7 @@ def analyze(messages, pdf_since='2025-05'):
     print(f"PDF 수집: 신규시도 {pdf_tried} · 성공 {pdf_ok} · 실패 {pdf_tried-pdf_ok}")
     if pdf_tried>=2 and pdf_ok==0:
         print(f"::warning::이번 런 PDF 수집 전패({pdf_tried}건) — buly.kr 차단 + 게시판 폴백 실패 의심, 수집 경로 점검 필요")
-    return sorted(reports,key=lambda x:(x['date'],x['id']))
+    return sorted(reports,key=lambda x:(x['date'],str(x['id'])))
 
 def monthly_summary(reports):
     grouped=defaultdict(lambda:defaultdict(lambda:{'sectors':set(),'opinions':[],'top_picks':[],'tp_changes':[],'reports':[]}))
@@ -588,7 +588,7 @@ def monthly_summary(reports):
             elif current and prior:change='전월과 문구/구성 변경'
             else:change='해당 월 명시 없음'
             if current:previous[(name,','.join(sorted(g['sectors'])))]=current
-            reports_latest=sorted(g['reports'],key=lambda x:(x['date'],x['id']),reverse=True)
+            reports_latest=sorted(g['reports'],key=lambda x:(x['date'],str(x['id'])),reverse=True)
             analysts.append({'analyst':name,'sectors':sorted(g['sectors']),'opinion':g['opinions'][-1]['value'] if g['opinions'] else '명시 없음','opinion_history':g['opinions'],'top_picks':g['top_picks'],'top_pick_change':change,'tp_changes':g['tp_changes'],'tp_raises':[x for x in g['tp_changes'] if x['direction']=='상향'],'report_count':len(reports_latest),'reports':reports_latest})
         result.append({'month':month,'analysts':analysts,'report_count':sum(x['report_count'] for x in analysts)})
     return list(reversed(result))

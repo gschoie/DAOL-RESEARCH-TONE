@@ -186,7 +186,7 @@ def write_outputs(cache, selected):
                       'post_url': e.get('post_url', ''), 'pdf_url': e.get('pdf_url', ''),
                       'generated': e.get('ts', ''), 'in_window': e['date'] >= cutoff,
                       'final': e['src'] != 'telegram'})
-    items.sort(key=lambda x: (x['date'], x['id']), reverse=True)
+    items.sort(key=lambda x: (x['date'], str(x['id'])), reverse=True)
     window = [i for i in items if i['in_window']]
     stamp = now_kst().strftime('%Y-%m-%d %H:%M')
     parts = [f"# 매크로.다올.브리핑 — 최근 {DAYS}일 합본\n갱신 {stamp} KST · {len(window)}건 · "

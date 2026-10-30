@@ -729,7 +729,7 @@ def build():
 
     all_events = []
     for key, entry in companies.items():
-        entry['timeline'].sort(key=lambda x: (x['date'], x['id']))
+        entry['timeline'].sort(key=lambda x: (x['date'], str(x['id'])))
         fill_tp_priors(entry['timeline'])
         attach_point_diffs(entry['timeline'])
         all_events.extend(timeline_events(key, entry['name'], entry['timeline']))
@@ -753,7 +753,7 @@ def build():
         by_analyst[(record['sector'], record['analyst'])].append(record)
     sectors_map = defaultdict(list)
     for (sector, analyst), items in by_analyst.items():
-        items.sort(key=lambda x: (x['date'], x['id']))
+        items.sort(key=lambda x: (x['date'], str(x['id'])))
         latest = items[-1]
         # '산업의견' 칼럼이므로 산업자료에서 명시된 의견만 쓴다(기업 BUY가 섞이지 않게)
         opinions = [x for x in items if x['opinion'] and x['report_type'] == '산업자료']
@@ -873,7 +873,7 @@ def build():
     strat_items = [{'id': r['id'], 'date': r['date'], 'analyst': r['analyst'], 'title': r['title'],
                     'post_url': r['post_url'], 'pdf_url': r['pdf_url'],
                     'ai': _clean((strat_ai.get(str(r['id'])) or {}).get('result'))}
-                   for r in sorted(records, key=lambda x: (x['date'], x['id']), reverse=True)
+                   for r in sorted(records, key=lambda x: (x['date'], str(x['id'])), reverse=True)
                    if not r.get('bundled') and (r['sector'] == '전략·시황'
                                                 or (r['analyst'] in STRATEGY_ANALYSTS and r['report_type'] == '산업자료'))]
     data = {'generated_at': datetime.now(timezone.utc).isoformat(),
@@ -883,7 +883,7 @@ def build():
             'strategy': {'items': strat_items, 'pending': sum(1 for x in strat_items if not x['ai'])}}
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     # 대시보드 overview 패널용 경량 요약(수십 KB) — 전체 v2(1MB+)를 끌어오지 않게 별도 파일로.
-    latest = sorted(records, key=lambda x: (x['date'], x['id']), reverse=True)[:20]
+    latest = sorted(records, key=lambda x: (x['date'], str(x['id'])), reverse=True)[:20]
     summary = {'generated_at': data['generated_at'], 'report_count': data['report_count'],
                'ai_analyzed': data['ai_analyzed'],
                'events': events[:20],

@@ -83,7 +83,7 @@ def flatten_reports(history):
         for a in month.get('analysts', []):
             for r in a.get('reports', []):
                 seen[r['id']] = r
-    return sorted(seen.values(), key=lambda x: (x['date'], x['id']))
+    return sorted(seen.values(), key=lambda x: (x['date'], str(x['id'])))
 
 def report_blob(r):
     parts = [r.get('title', ''), r.get('summary', ''), r.get('pitch', ''), r.get('report_conclusion', '')]
