@@ -78,19 +78,30 @@ def _daol_board_rows(days=40):
         # 게시판은 같은 요청에도 산발적으로 404(오류 페이지)를 돌려준다(10/30 진단: 6회 중 3회).
         # 페이지마다 3회까지 재시도하고, 세 번 다 비면 끝으로 본다. 페이지당 10행·브리프류 포함이라
         # 40일 창을 채우려면 30페이지는 넘겨야 한다(12페이지=약 1주치뿐이었음).
+        # 404가 몰려서 올 때가 있어(10/30 10:02 런: 3회 연속) 간격을 늘려 5회까지, 3회째부터는 세션을
+        # 새로 연다. 그래도 비면 다음 페이지를 한 번 더 시도하고(한 페이지 유실 감수) 두 페이지 연속 비면 끝.
+        empty_streak=0
         for page in range(1,31):
             found=[]
-            for attempt in range(3):
-                r=s.post(_BOARD_BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
-                         data={'curPage':str(page),'rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
-                               'filepath':'','attaFileNm':'','startDate':start,'endDate':end,
-                               'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
-                         headers={'Referer':_BOARD_BASE+'/research/article/common.jspx?rGubun=RALL',
-                                  'X-Requested-With':'XMLHttpRequest'},timeout=15)
-                found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"",r.text,re.S) if r.status_code==200 else []
+            for attempt,wait in enumerate((0.8,1.5,2.5,4,6)):
+                if attempt>=2:s=requests.Session();s.headers.update(UA)
+                try:
+                    r=s.post(_BOARD_BASE+'/research/article/common.jspx?cmd=list&templet-bypass=true',
+                             data={'curPage':str(page),'rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'',
+                                   'filepath':'','attaFileNm':'','startDate':start,'endDate':end,
+                                   'searchSelect':'0','searchNm1':'','searchNm2':'M01'},
+                             headers={'Referer':_BOARD_BASE+'/research/article/common.jspx?rGubun=RALL',
+                                      'X-Requested-With':'XMLHttpRequest'},timeout=15)
+                    found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"",r.text,re.S) if r.status_code==200 else []
+                except Exception:
+                    found=[]
                 if found:break
-                time.sleep(0.6)
-            if not found:break
+                time.sleep(wait)
+            if not found:
+                empty_streak+=1
+                if empty_streak>=2:break
+                continue
+            empty_streak=0
             for d,path,fn,title in found:
                 row={'date':d.replace('/','-'),'title':_html.unescape(title),'file':fn,
                      'url':f"{_BOARD_BASE}/common/download.jspx?cmd=viewPDF&path={path}/{fn}"}
@@ -104,7 +115,10 @@ def _daol_board_rows(days=40):
                                kind='company' if re.fullmatch(r'\d{6}',tok) else ('strategy' if tok=='B' else 'industry'))
                 _BOARD_ROWS.append(row)
             if len(found)<10:break
+        # 중복 제거(재시도·페이지 건너뛰기로 같은 행이 두 번 들어올 수 있다)
+        seen=set();_BOARD_ROWS=[r for r in _BOARD_ROWS if not (r['url'] in seen or seen.add(r['url']))]
         print(f"다올 게시판 목록 {len(_BOARD_ROWS)}건 로드 (buly.kr 폴백용)")
+        if len(_BOARD_ROWS)<30:print("::warning::게시판 목록이 짧다(404 연속 의심) — 보강은 이번 런에 잡힌 범위만")
     except Exception as e:
         print(f"::warning::다올 게시판 목록 조회 실패: {type(e).__name__}: {e}")
     return _BOARD_ROWS
