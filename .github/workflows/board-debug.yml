@@ -1,0 +1,38 @@
+name: 게시판 목록 진단 (일회성)
+# 회사 리서치 게시판 목록 AJAX의 페이지네이션·행 구조를 러너에서 확인한다(샌드박스는 게시판 접속 불가).
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python -m pip install requests
+      - name: 목록 1~3페이지 조회
+        run: |
+          python - <<'PY'
+          import re, html, requests
+          from datetime import date, timedelta
+          UA={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36'}
+          B='https://www.daolsecurities.com'
+          s=requests.Session(); s.headers.update(UA)
+          start=(date.today()-timedelta(days=40)).strftime('%Y/%m/%d'); end=date.today().strftime('%Y/%m/%d')
+          for page in (1,2,3):
+              for extra in ({}, {'pageIndex':str(page),'page':str(page),'pageNo':str(page)}):
+                  data={'curPage':str(page),'rGubun':'RALL','sctrGubun':'','web':'','hts':'','bbSeq':'','filepath':'','attaFileNm':'',
+                        'startDate':start,'endDate':end,'searchSelect':'0','searchNm1':'','searchNm2':'M01', **extra}
+                  r=s.post(B+'/research/article/common.jspx?cmd=list&templet-bypass=true',data=data,
+                           headers={'Referer':B+'/research/article/common.jspx?rGubun=RALL','X-Requested-With':'XMLHttpRequest'},timeout=20)
+                  found=re.findall(r"<td>(\d{4}/\d{2}/\d{2})</td>.*?fn_download_before\('([^']+)',\s*'([^']+)',\s*'\d+'\);\"[^>]*title=\"([^\"]+)\"",r.text,re.S)
+                  dates=re.findall(r'<td>(\d{4}/\d{2}/\d{2})</td>',r.text)
+                  print(f"=== page {page} extra={list(extra)} status={r.status_code} len={len(r.text)} regex_rows={len(found)} date_cells={len(dates)} first={dates[:2]} last={dates[-2:]}")
+                  for d,path,fn,title in found[:3]: print('   ', d, fn, '|', html.unescape(title)[:60])
+              if page==2:
+                  txt=re.sub(r'\s+',' ',r.text)
+                  i=txt.find('<tr'); print('--- page2 raw head ---'); print(txt[:1500]); print('--- page2 first rows ---'); print(txt[i:i+2500])
+                  m=re.search(r'(paging|pagination|curPage|totalCount|totCnt)[^<]{0,200}',txt,re.I); print('--- paging hint ---', m.group(0)[:300] if m else None)
+          PY
