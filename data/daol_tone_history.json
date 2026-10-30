@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:30:14.642589+00:00",
+  "generated_at": "2026-10-30T01:02:49.538138+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
   "report_count": 1473,
   "months": [
@@ -5390,12 +5390,17 @@
           "sectors": [
             "투자전략"
           ],
-          "opinion": "비중확대",
+          "opinion": "중립",
           "opinion_history": [
             {
               "value": "비중확대",
               "date": "2026-10-16",
               "source": "https://t.me/daolresearch/15251"
+            },
+            {
+              "value": "중립",
+              "date": "2026-10-30",
+              "source": "https://t.me/daolresearch/15366"
             }
           ],
           "top_picks": [],
@@ -5413,16 +5418,16 @@
               "company": "산업/기타",
               "code": "",
               "report_type": "산업자료",
-              "opinion": "",
+              "opinion": "중립",
               "top_picks": [],
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "Il, 이벤트 일정 & 증시 동향 및 전망 40 부진한 고용 상왕의 HSS 27년 금리 경로에 대한 예상치에 SAS 줄 수 있음 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치",
-              "industry_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
-              "report_conclusion": "연 투자전략 | bhcho@daolfn.com 투자전략 8&& | hongre@daolfn.com Il, 이벤트 일정 & 증시 동향 및 전망 40",
+              "pitch": "이벤트 일정 & 증시 동향 및 전망 - 주요 지표 예상치: 한국 10월 수출/입 (%yoy 89.4/39.9), 중국 10월 레이팅독 제조업 PMI (52.0), 미국 10월 ISM 제조업 PMI (54.7), 한국 10월 소비자물가지수 (%yoy 2.8), 미국 10월 비농업 고용 변동 (55천건), 실업률 (4.2%). 공화당/민주당 승패보다 트럼프 행정부 정책 추진력 유지 여부와 재정확대 전망 변화가 핵심. - 차주 증시 전망: 한국 증시가 선행 PER 4배대의 극단적 저평가 상태 도달.",
+              "industry_conclusion": "리서치본부 투자전략팀 조병현, 홍록은 이벤트 일정 & 증시 동향 및 전망 공화당/민주당 승패보다 트럼프 행정부 정책 추진력 유지 여부와 재정확대 전망 변화가 핵심. - 차주 증시 전망: 한국 증시가 선행 PER 4배대의 극단적 저평가 상태 도달.",
+              "report_conclusion": "리서치본부 투자전략팀 조병현, 홍록은 이벤트 일정 & 증시 동향 및 전망 공화당/민주당 승패보다 트럼프 행정부 정책 추진력 유지 여부와 재정확대 전망 변화가 핵심. - 차주 증시 전망: 한국 증시가 선행 PER 4배대의 극단적 저평가 상태 도달.",
               "valuation": [
-                "Source: Check Expert, 다올투자증권"
+                "- 차주 증시 전망: 한국 증시가 선행 PER 4배대의 극단적 저평가 상태 도달."
               ],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
