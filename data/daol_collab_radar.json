@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-01T18:15:56.298127+00:00",
+ "generated_at": "2026-11-01T22:16:07.974451+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1484,
+ "report_count": 1490,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34906,6 +34906,94 @@
    "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스",
    "post_url": "https://t.me/daolresearch/15371",
    "source_url": "https://bit.ly/DOS846"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-11-02",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "키움증권",
+   "code": "039490",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "부진했으나 과도한 급락과 주주환원 기대",
+    "주주환원 모멘텀은 기대."
+   ],
+   "title": "[키움증권(039490)/BUY(유지)/TP 460,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 부진했으나 과도한 급락과 주주환원 기대",
+   "post_url": "https://t.me/daolresearch/15373",
+   "source_url": "https://buly.kr/5qAO0Uh"
+  },
+  {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-11-02",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "현대건설",
+   "code": "000720",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "원전, 해상풍력 등 에너지와 정비사업 중심 포트폴리오로 성장 - 주택 원가율 정상화 확인되고 정비사업, 그룹공사 등 수주 확보.",
+    "이미 밸류에이션이 높은 상황에서 원전 EPC 계약 확인 등 재평가 적용할 기반 필요."
+   ],
+   "title": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 양호",
+   "post_url": "https://t.me/daolresearch/15376",
+   "source_url": "https://buly.kr/2JrEOGp"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-02",
+   "analyst": "박영도",
+   "sector": "건설/부동산",
+   "company": "GS건설",
+   "code": "006360",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "회사는 올해까지 비용 반영을 마무리하고 2027년 이익 정상화를 목표 - 주택 사이클이 돌아오고 있고, 그룹사 데이터센터 사업이 실적 개선 전망."
+   ],
+   "title": "[GS건설(006360)/BUY(유지)/TP 48,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 견조, 해외 비용반영",
+   "post_url": "https://t.me/daolresearch/15377",
+   "source_url": "https://buly.kr/HHfdlbW"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-02",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "에이피알",
+   "code": "278470",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "투자의견 소비재 주가는 이익률 개선과 추정치 상향이 이어지는 구간에서 높은 멀티플을 받는데, 원화 강세와 운반비 부담으로 이익 레버리지가 꺾이며 추정치 하향 국면에 진입했다는 점에서 기로에 선 분기.",
+    "원화 강세로 외화 매출채권 평가손실(OPM -1.9%p)과 원화 환산 매출 감소(OPM -1.7%p)가 겹치며 278억원 감익, 운반비율도 약 9%로 부담 지속."
+   ],
+   "title": "[에이피알(278470)/ BUY(유지)/ TP 48만원(하향)/ 다올 화장품 박종현] ★ 영웅출현을 기다리며",
+   "post_url": "https://t.me/daolresearch/15378",
+   "source_url": "https://buly.kr/58VM5N8"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-11-02",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "에이피알",
+   "code": "278470",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "[유럽] 1,778억원(YoY +738%, QoQ +23%), 주요 5개국 아마존 뷰티 Top 100 진입 제품 수는 국가별 평균 7개에서 17개로 확대."
+   ],
+   "title": "[에이피알(278470)/ BUY(유지)/ TP 48만원(하향)/ 다올 화장품 박종현] ★ 영웅출현을 기다리며",
+   "post_url": "https://t.me/daolresearch/15378",
+   "source_url": "https://buly.kr/58VM5N8"
   }
  ],
  "cross_mentions": [
@@ -37088,14 +37176,14 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.8
+   "burst": 31.9
   },
   {
    "term": "기관투자가",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.8
+   "burst": 31.9
   },
   {
    "term": "간섭",
@@ -37127,10 +37215,10 @@
   },
   {
    "term": "감익",
-   "recent": 8,
-   "total": 10,
+   "recent": 9,
+   "total": 11,
    "sectors": 6,
-   "burst": 10.6
+   "burst": 11.9
   },
   {
    "term": "등록",
@@ -37141,10 +37229,10 @@
   },
   {
    "term": "원화",
-   "recent": 25,
-   "total": 35,
+   "recent": 26,
+   "total": 36,
    "sectors": 12,
-   "burst": 9.0
+   "burst": 9.4
   },
   {
    "term": "PDF",
@@ -37155,10 +37243,10 @@
   },
   {
    "term": "사전",
-   "recent": 11,
+   "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 8.8
+   "burst": 6.6
   },
   {
    "term": "정체",

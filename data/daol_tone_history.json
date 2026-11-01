@@ -1,11 +1,332 @@
 {
-  "generated_at": "2026-11-01T18:14:35.968451+00:00",
+  "generated_at": "2026-11-01T22:12:33.336587+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1484,
+  "report_count": 1490,
   "months": [
     {
       "month": "2026-11",
       "analysts": [
+        {
+          "analyst": "김지원",
+          "sectors": [
+            "금융"
+          ],
+          "opinion": "비중확대",
+          "opinion_history": [
+            {
+              "value": "비중확대",
+              "date": "2026-11-02",
+              "source": "https://t.me/daolresearch/15372"
+            }
+          ],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 2,
+          "reports": [
+            {
+              "id": 15373,
+              "date": "2026-11-02",
+              "month": "2026-11",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "키움증권",
+              "code": "039490",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145948/1/20261102_039490_jiwonkim_270.pdf",
+              "pdf_error": "",
+              "title": "[키움증권(039490)/BUY(유지)/TP 460,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 부진했으나 과도한 급락과 주주환원 기대",
+              "summary": "[키움증권(039490)/BUY(유지)/TP 460,000원(하향)]｜다올 금융 김지원 ☎ 2184-2306] ★ 부진했으나 과도한 급락과 주주환원 기대 ▶ 3Q26 Review. 연결 순이익 2,386억원(YoY-25.9%, QoQ-64.9%)으로 어닝쇼크 기록 ▶ PI 투자 주식 평가손실 발생, 전분기 법인세 과소계상분 수정으로 추론되는 법인세 일회성 증분 존재 영향 ▶ 증시 동향 및 국내외 거래대금 회복 확인 필요. 실적 반영 및 이익전망치 하향하며 적정주가 하향 ▶ 다만, 전일 주가 급락은 과도하다고 판단. 선행 평균 ROE 18%인데 현 PBR 0.7배 수준으로 낮음 ▶ 주주환원 모멘텀은 기대. 높은 배당수익률 전망 그리고 27년 감액배당 예고 및 현 PBR상 자사주 소각 검토 가능성 열어둠 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/5qAO0Uh > ▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15373",
+              "source_url": "https://buly.kr/5qAO0Uh"
+            },
+            {
+              "id": 15372,
+              "date": "2026-11-02",
+              "month": "2026-11",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145947/1/20261102_B4030_jiwonkim_269.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (9월) 자본시장: 회복 대기 속 차별화 시간",
+              "summary": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ (9월) 자본시장: 회복 대기 속 차별화 시간 ▶ 증권사 리테일 기반 변동성 존재. IB 딜 파이프라인도 확인 필요. 유동성 축소에 회사별 차별점 부각 국면 ▶ 국내주식 일평균거래대금: (9월) 38.2조원, (10월) 34.5조원 ▶ 국내 ETF 일평균거래대금: (9월) 15.8조원, (10월) 18.5조원 ▶ 주식 발행실적: 3,853억원(YoY+4.2%, MoM-15.3%) ▶ 회사채 발행실적: 28.2조원(YoY-1.8%, MoM+77.5%) ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/CsmhF7L > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15372",
+              "source_url": "https://buly.kr/CsmhF7L"
+            }
+          ]
+        },
+        {
+          "analyst": "박영도",
+          "sectors": [
+            "건설/부동산"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "전월 대비 유지",
+          "tp_changes": [
+            {
+              "company": "DL이앤씨",
+              "direction": "하향",
+              "old": null,
+              "new": 80000,
+              "display": "80,000원 (하향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": ". 주택건축 GPM 20% 수준 지속, 토목도 두자릿수 GPM 유지. 플랜트는 일부 현장 비용 반영으로 GPM 8.1%로 부진 - 환손실 960억원과 X-energy 평가손실 310억원 반영으로 당기순이익 -267억원 적자전환. 누적 수주 7.2조원으로 가이던스 58% 달성 - 보수적 경영기조로 탑라인 둔화 아쉽지만 저리스크, 고수익성과 양호한 재무안정성 보유. 밸류에이션 낮은 만큼 수주/착공이 받쳐준다면 높은 업사이드 가능. 매출감소에 따른 수익추정 하향으로 적정주가 80,000원으로 하향, 투자의견은 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6158zPJ",
+              "date": "2026-11-02",
+              "source": "https://t.me/daolresearch/15375"
+            },
+            {
+              "company": "현대건설",
+              "direction": "유지",
+              "old": null,
+              "new": 155000,
+              "display": "155,000원 (유지)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 양호 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 하회, 영업이익 부합. 건축주택 GPM 12.3%로 2개 분기 연속 두 자릿수로 개선 확인. 토목 싱가포르 도로 약 800억원, 플랜트 솔로몬제도 수력발전 430억원 등 해외 현장 비용 반영 지속 - 누적 수주 28.9조원으로 연간 가이던스의 86.5% 달성. 원전, 해상풍력 등 에너지와 정비사업 중심 포트폴리오로 성장 - 주택 원가율 정상화 확인되고 정비사업, 그룹공사 등 수주 확보. 이미 밸류에이션이 높은 상황에서 원전 EPC 계약 확인 등 재평가 적용할 기반 필요. 적정주가 155,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice",
+              "date": "2026-11-02",
+              "source": "https://t.me/daolresearch/15376"
+            },
+            {
+              "company": "GS건설",
+              "direction": "유지",
+              "old": null,
+              "new": 48000,
+              "display": "48,000원 (유지)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "[GS건설(006360)/BUY(유지)/TP 48,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 견조, 해외 비용반영 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 하회. 건축주택 GPM 15.6%로 정산이익 없이도 15% 중반 유지, 2분기와 같은 대규모 대손 없이 판관비 감소 - 반면 호주 토목, 사우디 플랜트 현장 비용 반영으로 인프라, 플랜트 이익률 부진. 회사는 올해까지 비용 반영을 마무리하고 2027년 이익 정상화를 목표 - 주택 사이클이 돌아오고 있고, 그룹사 데이터센터 사업이 실적 개선 전망. 이니마 매각 확정 시 현금 유입은 추가 개선 요인. 적정주가 48,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/HHfdlbW",
+              "date": "2026-11-02",
+              "source": "https://t.me/daolresearch/15377"
+            }
+          ],
+          "tp_raises": [],
+          "report_count": 3,
+          "reports": [
+            {
+              "id": 15377,
+              "date": "2026-11-02",
+              "month": "2026-11",
+              "analyst": "박영도",
+              "sector": "건설/부동산",
+              "company": "GS건설",
+              "code": "006360",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "GS건설",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 48000,
+                  "display": "48,000원 (유지)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "[GS건설(006360)/BUY(유지)/TP 48,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 견조, 해외 비용반영 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 하회. 건축주택 GPM 15.6%로 정산이익 없이도 15% 중반 유지, 2분기와 같은 대규모 대손 없이 판관비 감소 - 반면 호주 토목, 사우디 플랜트 현장 비용 반영으로 인프라, 플랜트 이익률 부진. 회사는 올해까지 비용 반영을 마무리하고 2027년 이익 정상화를 목표 - 주택 사이클이 돌아오고 있고, 그룹사 데이터센터 사업이 실적 개선 전망. 이니마 매각 확정 시 현금 유입은 추가 개선 요인. 적정주가 48,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/HHfdlbW"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "- 매출액 당사추정치와 컨센서스 부합, 영업이익 하회. 건축주택 GPM 15.6%로 정산이익 없이도 15% 중반 유지, 2분기와 같은 대규모 대손 없이 판관비 감소 - 반면 호주 토목, 사우디 플랜트 현장 비용 반영으로 인프라, 플랜트 이익률 부진. 회사는 올해까지 비용 반영을 마무리하고 2027년 이익 정상화를 목표 - 주택 사이클이 돌아오고 있고, 그룹사 데이터센터 사업이 실적 개선 전망. 이니마 매각 확정 시 현금 유입은 추가 개선 요인. 적정주가 48,000원과 투자의견 Buy 유지",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145950/1/20261102_006360_ypark_124.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[GS건설(006360)/BUY(유지)/TP 48,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 견조, 해외 비용반영",
+              "summary": "[GS건설(006360)/BUY(유지)/TP 48,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 견조, 해외 비용반영 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 부합, 영업이익 하회. 건축주택 GPM 15.6%로 정산이익 없이도 15% 중반 유지, 2분기와 같은 대규모 대손 없이 판관비 감소 - 반면 호주 토목, 사우디 플랜트 현장 비용 반영으로 인프라, 플랜트 이익률 부진. 회사는 올해까지 비용 반영을 마무리하고 2027년 이익 정상화를 목표 - 주택 사이클이 돌아오고 있고, 그룹사 데이터센터 사업이 실적 개선 전망. 이니마 매각 확정 시 현금 유입은 추가 개선 요인. 적정주가 48,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/HHfdlbW",
+              "post_url": "https://t.me/daolresearch/15377",
+              "source_url": "https://buly.kr/HHfdlbW"
+            },
+            {
+              "id": 15376,
+              "date": "2026-11-02",
+              "month": "2026-11",
+              "analyst": "박영도",
+              "sector": "건설/부동산",
+              "company": "현대건설",
+              "code": "000720",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "현대건설",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 155000,
+                  "display": "155,000원 (유지)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 양호 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 하회, 영업이익 부합. 건축주택 GPM 12.3%로 2개 분기 연속 두 자릿수로 개선 확인. 토목 싱가포르 도로 약 800억원, 플랜트 솔로몬제도 수력발전 430억원 등 해외 현장 비용 반영 지속 - 누적 수주 28.9조원으로 연간 가이던스의 86.5% 달성. 원전, 해상풍력 등 에너지와 정비사업 중심 포트폴리오로 성장 - 주택 원가율 정상화 확인되고 정비사업, 그룹공사 등 수주 확보. 이미 밸류에이션이 높은 상황에서 원전 EPC 계약 확인 등 재평가 적용할 기반 필요. 적정주가 155,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "- 매출액 당사추정치와 컨센서스 하회, 영업이익 부합. 건축주택 GPM 12.3%로 2개 분기 연속 두 자릿수로 개선 확인. 토목 싱가포르 도로 약 800억원, 플랜트 솔로몬제도 수력발전 430억원 등 해외 현장 비용 반영 지속 - 누적 수주 28.9조원으로 연간 가이던스의 86.5% 달성. 원전, 해상풍력 등 에너지와 정비사업 중심 포트폴리오로 성장 - 주택 원가율 정상화 확인되고 정비사업, 그룹공사 등 수주 확보. 이미 밸류에이션이 높은 상황에서 원전 EPC 계약 확인 등 재평가 적용할 기반 필요. 적정주가 155,000원과 투자의견 Buy 유지",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [
+                "이미 밸류에이션이 높은 상황에서 원전 EPC 계약 확인 등 재평가 적용할 기반 필요."
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145951/1/20261102_000720_ypark_125.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 양호",
+              "summary": "[현대건설(000720)/BUY(유지)/TP 155,000원(유지)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 주택 양호 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액 당사추정치와 컨센서스 하회, 영업이익 부합. 건축주택 GPM 12.3%로 2개 분기 연속 두 자릿수로 개선 확인. 토목 싱가포르 도로 약 800억원, 플랜트 솔로몬제도 수력발전 430억원 등 해외 현장 비용 반영 지속 - 누적 수주 28.9조원으로 연간 가이던스의 86.5% 달성. 원전, 해상풍력 등 에너지와 정비사업 중심 포트폴리오로 성장 - 주택 원가율 정상화 확인되고 정비사업, 그룹공사 등 수주 확보. 이미 밸류에이션이 높은 상황에서 원전 EPC 계약 확인 등 재평가 적용할 기반 필요. 적정주가 155,000원과 투자의견 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/2JrEOGp",
+              "post_url": "https://t.me/daolresearch/15376",
+              "source_url": "https://buly.kr/2JrEOGp"
+            },
+            {
+              "id": 15375,
+              "date": "2026-11-02",
+              "month": "2026-11",
+              "analyst": "박영도",
+              "sector": "건설/부동산",
+              "company": "DL이앤씨",
+              "code": "375500",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "DL이앤씨",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 80000,
+                  "display": "80,000원 (하향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": ". 주택건축 GPM 20% 수준 지속, 토목도 두자릿수 GPM 유지. 플랜트는 일부 현장 비용 반영으로 GPM 8.1%로 부진 - 환손실 960억원과 X-energy 평가손실 310억원 반영으로 당기순이익 -267억원 적자전환. 누적 수주 7.2조원으로 가이던스 58% 달성 - 보수적 경영기조로 탑라인 둔화 아쉽지만 저리스크, 고수익성과 양호한 재무안정성 보유. 밸류에이션 낮은 만큼 수주/착공이 받쳐준다면 높은 업사이드 가능. 매출감소에 따른 수익추정 하향으로 적정주가 80,000원으로 하향, 투자의견은 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6158zPJ"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "- 매출액, 영업이익 당사추정치와 컨센서스 하회. 매출 감소가 실적 하회 주 원인. 수익률은 양호. 주택건축 GPM 20% 수준 지속, 토목도 두자릿수 GPM 유지. 플랜트는 일부 현장 비용 반영으로 GPM 8.1%로 부진 - 환손실 960억원과 X-energy 평가손실 310억원 반영으로 당기순이익 -267억원 적자전환. 누적 수주 7.2조원으로 가이던스 58% 달성 - 보수적 경영기조로 탑라인 둔화 아쉽지만 저리스크, 고수익성과 양호한 재무안정성 보유. 밸류에이션 낮은 만큼 수주/착공이 받쳐준다면 높은 업사이드 가능. 매출감소에 따른 수익추정 하향으로 적정주가 80,000원으로 하향, 투자의견은 Buy 유지",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [
+                "밸류에이션 낮은 만큼 수주/착공이 받쳐준다면 높은 업사이드 가능."
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145949/1/20261102_375500_ypark_126.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[DL이앤씨(375500)/BUY(유지)/TP 80,000원(하향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 고수익성 유지, 탑라인 회복 확인 필요",
+              "summary": "[DL이앤씨(375500)/BUY(유지)/TP 80,000원(하향)/다올 건설•부동산 박영도 ☎ 2184-2548] ★ 3Q26 Review: 고수익성 유지, 탑라인 회복 확인 필요 ▶ Issue: - 3Q26 Review ▶ Pitch: - 매출액, 영업이익 당사추정치와 컨센서스 하회. 매출 감소가 실적 하회 주 원인. 수익률은 양호. 주택건축 GPM 20% 수준 지속, 토목도 두자릿수 GPM 유지. 플랜트는 일부 현장 비용 반영으로 GPM 8.1%로 부진 - 환손실 960억원과 X-energy 평가손실 310억원 반영으로 당기순이익 -267억원 적자전환. 누적 수주 7.2조원으로 가이던스 58% 달성 - 보수적 경영기조로 탑라인 둔화 아쉽지만 저리스크, 고수익성과 양호한 재무안정성 보유. 밸류에이션 낮은 만큼 수주/착공이 받쳐준다면 높은 업사이드 가능. 매출감소에 따른 수익추정 하향으로 적정주가 80,000원으로 하향, 투자의견은 Buy 유지 ♣ 보고서 원문 및 Compliance Notice: https://buly.kr/6158zPJ",
+              "post_url": "https://t.me/daolresearch/15375",
+              "source_url": "https://buly.kr/6158zPJ"
+            }
+          ]
+        },
+        {
+          "analyst": "박종현",
+          "sectors": [
+            "화장품"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "전월 대비 유지",
+          "tp_changes": [
+            {
+              "company": "에이피알",
+              "direction": "하향",
+              "old": null,
+              "new": 480000,
+              "display": "480,000원 (하향)",
+              "reasons": [
+                "본문상 명시 배경 추가 확인 필요"
+              ],
+              "evidence": "[에이피알(278470)/ BUY(유지)/ TP 48만원(하향)/ 다올 화장품 박종현] ★ 영웅출현을 기다리며 ▶ Review 3Q26P 매출액 7,731억원(YoY +100%, QoQ +1%), 영업이익 1,767억원(YoY +84%, QoQ -5%)으로 당사 추정치 소폭 하회(IFRS 18 적용 전 기준, 적용 후 1,606억원). 원화 강세로 외화 매출채권 평가손실(OPM -1.9%p)과 원화 환산 매출 감소(OPM -1.7%p)가 겹치며 278억원 감익, 운반비율도 약 9%로 부담 지속. [화장품/뷰티] 6,823억원(YoY +151%)으로 7개 분기 연속 세 자릿수 성장 [북미] 3,556억원(YoY +118%, QoQ -6%)으로 대형 프로모션 공백을 오프라인이 메움. 셀인 우려와 달리 셀스루가 올라 리오더 지속, 얼타·타겟 스킨케어 상위 5위권 유지. [유럽] 1,778억원(YoY +738%",
+              "date": "2026-11-02",
+              "source": "https://t.me/daolresearch/15378"
+            }
+          ],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15378,
+              "date": "2026-11-02",
+              "month": "2026-11",
+              "analyst": "박종현",
+              "sector": "화장품",
+              "company": "에이피알",
+              "code": "278470",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "에이피알",
+                  "direction": "하향",
+                  "old": null,
+                  "new": 480000,
+                  "display": "480,000원 (하향)",
+                  "reasons": [
+                    "본문상 명시 배경 추가 확인 필요"
+                  ],
+                  "evidence": "[에이피알(278470)/ BUY(유지)/ TP 48만원(하향)/ 다올 화장품 박종현] ★ 영웅출현을 기다리며 ▶ Review 3Q26P 매출액 7,731억원(YoY +100%, QoQ +1%), 영업이익 1,767억원(YoY +84%, QoQ -5%)으로 당사 추정치 소폭 하회(IFRS 18 적용 전 기준, 적용 후 1,606억원). 원화 강세로 외화 매출채권 평가손실(OPM -1.9%p)과 원화 환산 매출 감소(OPM -1.7%p)가 겹치며 278억원 감익, 운반비율도 약 9%로 부담 지속. [화장품/뷰티] 6,823억원(YoY +151%)으로 7개 분기 연속 세 자릿수 성장 [북미] 3,556억원(YoY +118%, QoQ -6%)으로 대형 프로모션 공백을 오프라인이 메움. 셀인 우려와 달리 셀스루가 올라 리오더 지속, 얼타·타겟 스킨케어 상위 5위권 유지. [유럽] 1,778억원(YoY +738%"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [
+                "▶ 투자의견 소비재 주가는 이익률 개선과 추정치 상향이 이어지는 구간에서 높은 멀티플을 받는데, 원화 강세와 운반비 부담으로 이익 레버리지가 꺾이며 추정치 하향 국면에 진입했다는 점에서 기로에 선 분기."
+              ],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145952/1/20261102_278470_alex.park_642.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[에이피알(278470)/ BUY(유지)/ TP 48만원(하향)/ 다올 화장품 박종현] ★ 영웅출현을 기다리며",
+              "summary": "[에이피알(278470)/ BUY(유지)/ TP 48만원(하향)/ 다올 화장품 박종현] ★ 영웅출현을 기다리며 ▶ Review 3Q26P 매출액 7,731억원(YoY +100%, QoQ +1%), 영업이익 1,767억원(YoY +84%, QoQ -5%)으로 당사 추정치 소폭 하회(IFRS 18 적용 전 기준, 적용 후 1,606억원). 원화 강세로 외화 매출채권 평가손실(OPM -1.9%p)과 원화 환산 매출 감소(OPM -1.7%p)가 겹치며 278억원 감익, 운반비율도 약 9%로 부담 지속. [화장품/뷰티] 6,823억원(YoY +151%)으로 7개 분기 연속 세 자릿수 성장 [북미] 3,556억원(YoY +118%, QoQ -6%)으로 대형 프로모션 공백을 오프라인이 메움. 셀인 우려와 달리 셀스루가 올라 리오더 지속, 얼타·타겟 스킨케어 상위 5위권 유지. [유럽] 1,778억원(YoY +738%, QoQ +23%), 주요 5개국 아마존 뷰티 Top 100 진입 제품 수는 국가별 평균 7개에서 17개로 확대. [기타] 773억원(YoY +311%)은 중남미가 견인 ▶ 전망 4Q26E 매출액 9,115억원(YoY +66%, QoQ +18%), 영업이익 1,859억원(YoY +43%, QoQ +5%) 전망. 성수기 진입에 메디큐브 미국 틱톡샵 일평균 GMV는 10월 1~24일 3Q 평균 대비 +62% 기록. 환율 가정 반영해 2026E·2027E 영업이익 각각 3%, 1% 하향 ▶ 투자의견 소비재 주가는 이익률 개선과 추정치 상향이 이어지는 구간에서 높은 멀티플을 받는데, 원화 강세와 운반비 부담으로 이익 레버리지가 꺾이며 추정치 하향 국면에 진입했다는 점에서 기로에 선 분기. 다만, 미국 틱톡샵 내 바디, 헤어 등 스킨 외 매출 비중이 ’25.10 13%에서 ‘26.09 44%로",
+              "post_url": "https://t.me/daolresearch/15378",
+              "source_url": "https://buly.kr/58VM5N8"
+            }
+          ]
+        },
         {
           "analyst": "최광식",
           "sectors": [
@@ -62,7 +383,7 @@
           ]
         }
       ],
-      "report_count": 1
+      "report_count": 7
     },
     {
       "month": "2026-10",
