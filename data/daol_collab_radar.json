@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-01T02:29:02.553578+00:00",
+ "generated_at": "2026-11-01T18:15:56.298127+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1483,
+ "report_count": 1484,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -34803,6 +34803,109 @@
    "title": "🚘 [HL만도(204320)/BUY(유지)/TP 50,000원(하향)] - 3Q26 Review: 부진한 실적 ▸ 적정주가 하향: BUY 유지, 적정주가 7.5만원 → 5만원(P/E 21.7%, 2027년 EPS 13.5% 하향).",
    "post_url": "https://t.me/daolresearch/15370",
    "source_url": "https://buly.kr/7bJwx18"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-11-01",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "탱커 ▽ 이란, 장금상선과 MSC에 법적 조치 및 거래 중단 경고 ▽ Vyron Vasileiadis, Hengli Heavy Industry에서 VLCC 첫 진입"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15371",
+   "source_url": "https://bit.ly/DOS846"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-11-01",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "탱커 ▽ 이란, 장금상선과 MSC에 법적 조치 및 거래 중단 경고 ▽ Vyron Vasileiadis, Hengli Heavy Industry에서 VLCC 첫 진입"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15371",
+   "source_url": "https://bit.ly/DOS846"
+  },
+  {
+   "theme": "미국 현지생산/리쇼어링",
+   "category": "미국공략",
+   "date": "2026-11-01",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15371",
+   "source_url": "https://bit.ly/DOS846"
+  },
+  {
+   "theme": "미 함정 MRO/조선협력",
+   "category": "미국공략",
+   "date": "2026-11-01",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "▲ Bureau Veritas 수장, \"조선업 슈퍼사이클 쉽게 끝나지 않는다\"… 2030년 이후까지 호황 전망 ▷ 일본 2035년까지 신조 CAPA 18백만-GT로 2배 확대 추진 △ Hanwha Defense USA, 미 해군 수주 추진 위해 한화필리조선소 지배지분 인수 ▽ EU의 중국차 견제에도, PCTC 시장 강세 전망 강화 HD한국조선해양 (1년 누적 매수, 억원)",
+    "▲ Bureau Veritas 수장, \"조선업 슈퍼사이클 쉽게 끝나지 않는다\"… 2030년 이후까지 호황 전망 ▷ 일본 2035년까지 신조 CAPA 18백만-GT로 2배 확대 추진 △ Hanwha Defense USA, 미 해군 수주 추진 위해 한화필리조선소 지배지분 인수 ▽ EU의 중국차 견제에도, PCTC 시장 강세 전망 강화 ▽ BRS, 중국 조선 생산능력 확장 지속… 시장 침체 시에도 상위 조선소 입지 유지 전망 향후 "
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15371",
+   "source_url": "https://bit.ly/DOS846"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-01",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15371",
+   "source_url": "https://bit.ly/DOS846"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-11-01",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "LNG △ 한화오션 계류 Arc7 LNG선 활용 가능성 제기 △ Technip Energies, QatarEnergy NFE 프로젝트 2번째 LNG train 시운전 착수 △ 세계 최고령 LNG선, 해체 매각 추진 △ 2번째 FSRU 도입 중인 싱가포르, 3번째 LNG 터미널 건설 검토"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 중국의 컨테이너 수주 랠리, 그래도 한국은 VLGC 선별수주, 미국 진출 중 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15371",
+   "source_url": "https://bit.ly/DOS846"
   }
  ],
  "cross_mentions": [
@@ -36995,14 +37098,14 @@
    "burst": 31.8
   },
   {
-   "term": "압력이나",
+   "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
    "burst": 23.9
   },
   {
-   "term": "간섭",
+   "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
@@ -37048,14 +37151,14 @@
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 8.9
+   "burst": 9.0
   },
   {
    "term": "사전",
    "recent": 11,
    "total": 15,
    "sectors": 8,
-   "burst": 8.7
+   "burst": 8.8
   },
   {
    "term": "정체",
