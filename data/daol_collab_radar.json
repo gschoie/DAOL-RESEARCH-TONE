@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-01T22:47:09.745237+00:00",
+ "generated_at": "2026-11-01T23:01:03.557033+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1491,
+ "report_count": 1494,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35011,6 +35011,145 @@
    "title": "[대덕전자(353200) | BUY(유지) | TP 23만원(유지) | 다올투자증권 전기전자 김연미] ★ 대덕전자 3Q26 Review - 생산능력 제약을 넘어선 이익 체력",
    "post_url": "https://t.me/daolresearch/15380",
    "source_url": "https://buly.kr/884EleR"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "환율 하락으로 해외법인 재고에 대한 미실현이익 제거분이 환입되며 연결 영업이익 개선",
+    "판매량의 계절적 회복, 판가 인상 효과 누적, 환율 하락과 원료가 안정화로 스프레드 개선 기대."
+   ],
+   "title": "[현대제철(004020) | BUY(유지) | TP 4.6만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15382",
+   "source_url": "https://buly.kr/1RHRUrr"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "주주환원 정책 발표는 연기됐으나 본업 회복 가시화 구간 진입에 주목 * 보고서 원문 및 컴플라이언스 < https://buly.kr/1RHRUrr >"
+   ],
+   "title": "[현대제철(004020) | BUY(유지) | TP 4.6만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15382",
+   "source_url": "https://buly.kr/1RHRUrr"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[현대제철(004020) | BUY(유지) | TP 4.6만원(유지) | 다올 철강금속/전력기기 이정우]"
+   ],
+   "title": "[현대제철(004020) | BUY(유지) | TP 4.6만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15382",
+   "source_url": "https://buly.kr/1RHRUrr"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "현대제철",
+   "code": "004020",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "미국 내 철강 가격 상승으로 미국향 수출 확대 가능성도 존재.",
+    "원료는 원료탄 하락 전환, 철광석 90달러 내외 유지."
+   ],
+   "title": "[현대제철(004020) | BUY(유지) | TP 4.6만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15382",
+   "source_url": "https://buly.kr/1RHRUrr"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "효성중공업",
+   "code": "298040",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "당 분기 하이퍼스케일러 직발주 765/345kV 변압기에 더해 765kV 그리드 안정화용 STATCOM 3,000억원 신규 확보."
+   ],
+   "title": "[효성중공업(298040) | BUY(유지) | TP 400만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15383",
+   "source_url": "https://buly.kr/CsmhFrV"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "효성중공업",
+   "code": "298040",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "송전망 투자가 지속되고 있어 관련 제품 수주 확대될 수 있는 기회 존재 • 투자의견 BUY, 적정주가 400만원, 전력기기 업종 내 최선호주 의견 유지.",
+    "[효성중공업(298040) | BUY(유지) | TP 400만원(유지) | 다올 철강금속/전력기기 이정우]"
+   ],
+   "title": "[효성중공업(298040) | BUY(유지) | TP 400만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15383",
+   "source_url": "https://buly.kr/CsmhFrV"
+  },
+  {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "효성중공업",
+   "code": "298040",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "태풍으로 미국 원전향 GIS 1.06억달러, 중동향 매출 물류 문제 지속되면서 700~800억원, 영국 지역 사이트 미비로 500억원 등이 인도 지연되었고, 2) 건설 특정 현장 원가 정산 약 225억원 발생"
+   ],
+   "title": "[효성중공업(298040) | BUY(유지) | TP 400만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15383",
+   "source_url": "https://buly.kr/CsmhFrV"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-11-02",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "효성중공업",
+   "code": "298040",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "신규수주는 3.23조원(YoY +122%), 수주잔고는 18.9조원(YoY +71%) 으로 역대 최고치 경신."
+   ],
+   "title": "[효성중공업(298040) | BUY(유지) | TP 400만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
+   "post_url": "https://t.me/daolresearch/15383",
+   "source_url": "https://buly.kr/CsmhFrV"
   }
  ],
  "cross_mentions": [
@@ -37193,70 +37332,70 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.8
+   "burst": 31.4
   },
   {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.8
-  },
-  {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 23.8
+   "burst": 31.4
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.8
+   "burst": 23.6
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 23.6
   },
   {
    "term": "통신",
    "recent": 26,
    "total": 30,
    "sectors": 3,
-   "burst": 20.6
+   "burst": 20.4
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 15.9
+   "burst": 15.7
   },
   {
    "term": "감익",
    "recent": 9,
    "total": 11,
    "sectors": 6,
-   "burst": 11.9
+   "burst": 11.8
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.6
+   "burst": 10.5
   },
   {
    "term": "원화",
    "recent": 26,
    "total": 36,
    "sectors": 12,
-   "burst": 9.4
+   "burst": 9.3
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 8.9
+   "burst": 8.8
   },
   {
    "term": "사전",
@@ -37270,21 +37409,21 @@
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "되돌림",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "바스켓",
    "recent": 7,
    "total": 11,
    "sectors": 3,
-   "burst": 5.6
+   "burst": 5.5
   },
   {
    "term": "우선",
