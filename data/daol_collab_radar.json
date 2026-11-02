@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-02T22:11:19.496444+00:00",
+ "generated_at": "2026-11-02T22:47:05.761609+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1496,
+ "report_count": 1497,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -37328,32 +37328,32 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 32.0
-  },
-  {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.0
+   "burst": 31.9
+  },
+  {
+   "term": "기관투자가",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 31.9
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.0
+   "burst": 23.9
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.0
+   "burst": 23.9
   },
   {
    "term": "낮추고",
@@ -37381,14 +37381,14 @@
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.7
+   "burst": 10.6
   },
   {
    "term": "원화",
    "recent": 26,
    "total": 36,
    "sectors": 12,
-   "burst": 9.5
+   "burst": 9.4
   },
   {
    "term": "PDF",
@@ -37405,6 +37405,13 @@
    "burst": 6.7
   },
   {
+   "term": "바스켓",
+   "recent": 8,
+   "total": 12,
+   "sectors": 3,
+   "burst": 6.4
+  },
+  {
    "term": "정체",
    "recent": 9,
    "total": 14,
@@ -37417,13 +37424,6 @@
    "total": 9,
    "sectors": 3,
    "burst": 6.0
-  },
-  {
-   "term": "바스켓",
-   "recent": 7,
-   "total": 11,
-   "sectors": 3,
-   "burst": 5.6
   },
   {
    "term": "우선",

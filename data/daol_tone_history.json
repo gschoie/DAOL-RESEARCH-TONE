@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02T22:06:11.190543+00:00",
+  "generated_at": "2026-11-02T22:46:59.856473+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1496,
+  "report_count": 1497,
   "months": [
     {
       "month": "2026-11",
@@ -120,9 +120,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "AMES ETF 매수 확대 영향으로 추론 증시 대|자금과개인 중심 매수여력 축소. 전반 혹은 특정 업종 이익성장률 상승 여부 확인이 중요 판단",
-              "industry_conclusion": "AMES ETF 매수 확대 영향으로 추론 증시 대|자금과개인 중심 매수여력 축소. 전반 혹은 특정 업종 이익성장률 상승 여부 확인이 중요 판단",
-              "report_conclusion": "AMES ETF 매수 확대 영향으로 추론 증시 대|자금과개인 중심 매수여력 축소. 전반 혹은 특정 업종 이익성장률 상승 여부 확인이 중요 판단",
+              "pitch": "특히, 미국 반도체 레버리지 ETF 중심 저가매수세 확대 영향. 9월 통계 집계 예상되는 주식 발행 건 (IPO): 네오사피엔스 공모가 10,000원, 공모액 20십억원, 발행액 20십억원 (대신증권 100%). 9월 통계 집계 예상되는 주식 발행 건 (유상증자): 퓨처켐 공모가 5,910원, 발행액 20십억원 (한국투자증권 100%).",
+              "industry_conclusion": "산업 투자의견: 증권 Overweight.",
+              "report_conclusion": "산업 투자의견: 증권 Overweight.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -293,12 +293,49 @@
               "source": "https://t.me/daolresearch/15381"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "전월 대비 유지",
+          "top_picks": [
+            {
+              "text": "아마존 메디큐브 US Weighted MS 11.9%(직전 4주 평균 대비 -40%), UK·DE는 4주 기준선 대비 2주 연속 하락, 에이피알(BUY, TP 48만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 48만원)은 메디큐브 TikTok $5.39M(직전 4주 평균 대비 -19%), 바디케어 세트 $1.25M 유지·신제품 2개와 머드 마스크가 $0.48M 감소, 아마존 US 11.9%(직전 4주 평균 대비 -40%)·UK -47%·DE -79%(4주 기준선 대비, 2주 연속).",
+              "date": "2026-11-03",
+              "source": "https://t.me/daolresearch/15394"
+            }
+          ],
+          "top_pick_change": "해당 기간 최초 명시",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15394,
+              "date": "2026-11-03",
+              "month": "2026-11",
+              "analyst": "박종현",
+              "sector": "화장품",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [
+                "아마존 메디큐브 US Weighted MS 11.9%(직전 4주 평균 대비 -40%), UK·DE는 4주 기준선 대비 2주 연속 하락, 에이피알(BUY, TP 48만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 48만원)은 메디큐브 TikTok $5.39M(직전 4주 평균 대비 -19%), 바디케어 세트 $1.25M 유지·신제품 2개와 머드 마스크가 $0.48M 감소, 아마존 US 11.9%(직전 4주 평균 대비 -40%)·UK -47%·DE -79%(4주 기준선 대비, 2주 연속)."
+              ],
+              "preferred_stocks": [
+                "아마존 메디큐브 US Weighted MS 11.9%(직전 4주 평균 대비 -40%), UK·DE는 4주 기준선 대비 2주 연속 하락, 에이피알(BUY, TP 48만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 48만원)은 메디큐브 TikTok $5.39M(직전 4주 평균 대비 -19%), 바디케어 세트 $1.25M 유지·신제품 2개와 머드 마스크가 $0.48M 감소, 아마존 US 11.9%(직전 4주 평균 대비 -40%)·UK -47%·DE -79%(4주 기준선 대비, 2주 연속)."
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ Implication TikTok 추적 바스켓 합계 $11.88M(직전 4주 평균 대비 -15%), 메디큐브 $5.39M(-19%) 감소분은 로즈마리 PDRN 두피 케어·괄사 넥크림·머드 마스크 3개에 몰리고 바디케어 세트·제로 모공 패드는 전주 수준 유지.",
+              "report_conclusion": "▶ Implication TikTok 추적 바스켓 합계 $11.88M(직전 4주 평균 대비 -15%), 메디큐브 $5.39M(-19%) 감소분은 로즈마리 PDRN 두피 케어·괄사 넥크림·머드 마스크 3개에 몰리고 바디케어 세트·제로 모공 패드는 전주 수준 유지.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145991/1/20261103_B3020_alex.park_645.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly (~11/2)",
+              "summary": "[다올 화장품 박종현] - K-뷰티 Sell-Through weekly (~11/2) ▶ Implication TikTok 추적 바스켓 합계 $11.88M(직전 4주 평균 대비 -15%), 메디큐브 $5.39M(-19%) 감소분은 로즈마리 PDRN 두피 케어·괄사 넥크림·머드 마스크 3개에 몰리고 바디케어 세트·제로 모공 패드는 전주 수준 유지. 아마존 메디큐브 US Weighted MS 11.9%(직전 4주 평균 대비 -40%), UK·DE는 4주 기준선 대비 2주 연속 하락, 에이피알(BUY, TP 48만원) 중심 화장품 업종 선호 의견 유지 에이피알(BUY, TP 48만원)은 메디큐브 TikTok $5.39M(직전 4주 평균 대비 -19%), 바디케어 세트 $1.25M 유지·신제품 2개와 머드 마스크가 $0.48M 감소, 아마존 US 11.9%(직전 4주 평균 대비 -40%)·UK -47%·DE -79%(4주 기준선 대비, 2주 연속). 핵심 제품 유지 여부와 아마존 미국 2주차 확인 아모레퍼시픽(BUY, TP 18만원)은 라네즈 TikTok $103K(직전 4주 평균 대비 -34%), 미드나잇 미니 세트 $96K → $33K, COSRX 아마존 스네일 뮤신 할인 11/1 종료·할인 기간 US Top100 미진입. 홀리데이 세트 감소 이후 레벨 확인 달바글로벌(BUY, TP 31만원)은 TikTok $206K(직전 4주 평균 대비 +10%, 4주 기준선 대비 +19%로 2주차 미충족), 아마존 ES 16.0%·캐나다 Top100 SKU 3개(직전 4주 평균 2.3개). 증가 폭 축소, 레벨은 기준선 위 다음 주는 TikTok 메디큐브 바디케어 세트·제로 모공 패드 7일 GMV 유지 여부 · 아마존 메디큐브 US·ES 4주 기준선 대비 -30% 2주 연속 여부 · TikTok 바이",
+              "post_url": "https://t.me/daolresearch/15394",
+              "source_url": "https://buly.kr/Ga0cCwz"
+            },
             {
               "id": 15381,
               "date": "2026-11-02",
@@ -313,9 +350,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "수근=외국인-기관 5일순매수의시2",
-              "industry_conclusion": "투자의견//『ㅁㆍ수급-기술 2항목 )해진산식으로수치화한것으로,새모운투자의견이나목표주가를 제시하:",
-              "report_conclusion": "투자의견//『ㅁㆍ수급-기술 2항목 )해진산식으로수치화한것으로,새모운투자의견이나목표주가를 제시하:",
+              "pitch": "다올투자증권 주간 모멘텀 체크 알렉스. 종목별 모멘텀 및 지표 현황: 펌텍코리아 모멘텀 개선, 수급 56, 기술 47, 추정 91, 수급 5D/1주 +0.2%, 20일 수익률 -7.9%, 시총 수익률 +4.7%, 당사 추정 3M RSI 48, OP +12.8%, 플래그: 추정가격 엇갈림. 인바디 모멘텀 둔화, 수급 64, 기술 18, 추정 26, 수급 5D/1주 +0.2%, 20일 수익률 -1.1%, 시총 수익률 -11.5%, 당사 추정 3M RSI 36, OP -7.4%. 휴젤 모멘텀 둔화, 수급 58, 기술 48, 추정 22, 수급 5D/1주 +0.2%, 20일 수익률 -0.2%, 시총 수익률 +0.1%, 당사 추정 3M RSI 40, OP -11.5%, 보조지표: 통관 톡신 +10% 3M YoY, 통관 필러 -1% 3M YOY, 플래그: 대체 추정 엇갈림 (보조).",
+              "industry_conclusion": "투자의견 N/R 종목: 루닛 모멘텀 강, 수급 76, 기술 88, 수급 5D/1주 +0.6%, 20일 수익률 +38.8%, 시총 수익률 +44.1%, 당사 추정 3M RSI 71, 플래그: 수급가격 일치.",
+              "report_conclusion": "투자의견 N/R 종목: 루닛 모멘텀 강, 수급 76, 기술 88, 수급 5D/1주 +0.6%, 20일 수익률 +38.8%, 시총 수익률 +44.1%, 당사 추정 3M RSI 71, 플래그: 수급가격 일치.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -591,7 +628,7 @@
           ]
         }
       ],
-      "report_count": 13
+      "report_count": 14
     },
     {
       "month": "2026-10",
