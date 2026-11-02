@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-02T22:47:05.761609+00:00",
+ "generated_at": "2026-11-02T23:00:45.228323+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1497,
+ "report_count": 1501,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35150,6 +35150,127 @@
    "title": "[효성중공업(298040) | BUY(유지) | TP 400만원(유지) | 다올 철강금속/전력기기 이정우] ★ 다방면 일회성에도 지켜낸 중공업 수익성",
    "post_url": "https://t.me/daolresearch/15383",
    "source_url": "https://buly.kr/CsmhFrV"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-03",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "포스코인터내셔널",
+   "code": "047050",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "반면 철강, 소재바이오, 무역법인은 환율 변동성에 따른 환손실 부담"
+   ],
+   "title": "[포스코인터내셔널(047050)/ BUY(유지)/ TP 8.2만원(유지)/ 다올 철강금속 이정우] ★ 실망시키는 법이 없다",
+   "post_url": "https://t.me/daolresearch/15396",
+   "source_url": "https://buly.kr/GkvNCI5"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-11-03",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "포스코인터내셔널",
+   "code": "047050",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "당 분기에는 유가연동 LNG 액화터미널향 매출비중 증가로 판가 상승 효과도 반영."
+   ],
+   "title": "[포스코인터내셔널(047050)/ BUY(유지)/ TP 8.2만원(유지)/ 다올 철강금속 이정우] ★ 실망시키는 법이 없다",
+   "post_url": "https://t.me/daolresearch/15396",
+   "source_url": "https://buly.kr/GkvNCI5"
+  },
+  {
+   "theme": "원전/우라늄",
+   "category": "원자재",
+   "date": "2026-11-03",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "포스코인터내셔널",
+   "code": "047050",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "발전은 국내 원전•석탄 발전 비중 확대로 이용률 27%까지 하락했으나 SMP 상승으로 영업이익 852억원(YoY +21.9%) 기록."
+   ],
+   "title": "[포스코인터내셔널(047050)/ BUY(유지)/ TP 8.2만원(유지)/ 다올 철강금속 이정우] ★ 실망시키는 법이 없다",
+   "post_url": "https://t.me/daolresearch/15396",
+   "source_url": "https://buly.kr/GkvNCI5"
+  },
+  {
+   "theme": "이차전지 메탈",
+   "category": "원자재",
+   "date": "2026-11-03",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "POSCO홀딩스",
+   "code": "005490",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "리튬 3사 영업손실 170억원으로 부진한 실적 기록(재고평가손 290억원 포함).",
+    "리튬 가격 하락세 감안 시 염호 완전가동 계획은 85~87% 수준으로 하향 조정."
+   ],
+   "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 다시 찾아온 기다림의 시기",
+   "post_url": "https://t.me/daolresearch/15397",
+   "source_url": "https://buly.kr/1y1inlR"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-11-03",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "company": "포스코퓨처엠",
+   "code": "003670",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "기초소재도 유가 상승에 따른 스프레드 개선으로 이익 서프라이즈에 기여 ▸ 양극재 물량 회복: 3Q26 출하량 약 1.1만톤으로 QoQ +15% 이상 증가."
+   ],
+   "title": "🔋 [포스코퓨처엠(003670)/BUY(유지)/TP 290,000원(유지)] 3Q26 Review: 일회성 외에도 나타나는 긍정적 변화들 ▸ 최선호주 유지: BUY 유지, 적정주가 29만원 유지.",
+   "post_url": "https://t.me/daolresearch/15398",
+   "source_url": "https://buly.kr/jcPvx8"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-03",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD건설기계",
+   "code": "267270",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Pitch: > 환율 하락으로 영업이익도 부진했고, 순이익은 더 부진 > 하반기 및 내년 전망은 ME/AF가 2027년에 좋아질 일만 남았고, 자원국 강세 계속 > 그러나 4Q26은 기조 그대로 실적 밋밋 > 다만 엔진 때문에 1Q27부터 기대 - 10월에 수주한 0.4조원 가스엔진 때문에 1Q27부터 YoY 증익 기대 - 군산 가동으로 DC 설치에 늘 함께하는 비상발전 엔진 성장에 더 힘이 실릴 예정",
+    "회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 1: 실적 예상 변경: 환율 영향을 전반적으로 반영 (십억원)"
+   ],
+   "title": "[HD건설기계(267270)/BUY(유지)/TP 170,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD건설기계(267270) : 올 아이즈 온 엔진. 2027년 1월부터 깜딱",
+   "post_url": "https://t.me/daolresearch/15399",
+   "source_url": "https://bit.ly/HCE3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-03",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "HD건설기계",
+   "code": "267270",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[HD건설기계(267270)/BUY(유지)/TP 170,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[HD건설기계(267270)/BUY(유지)/TP 170,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD건설기계(267270) : 올 아이즈 온 엔진. 2027년 1월부터 깜딱",
+   "post_url": "https://t.me/daolresearch/15399",
+   "source_url": "https://bit.ly/HCE3Q26RE"
   }
  ],
  "cross_mentions": [
@@ -37324,106 +37445,130 @@
    "evidence": "현재 P/E 10배 이상으로 밸류에이션 부담이 있으나, 4Q26 현대차그룹 생산 정상화가 주가 반등의 핵심 촉매가 될 전망 ▸ 3Q26 기대치 하회: 매출액 2.32조원(YoY -0.7%), 영업이익 515억원(YoY -42.6%), 당기순손실 425억원.",
    "title": "🚘 [HL만도(204320)/BUY(유지)/TP 50,000원(하향)] - 3Q26 Review: 부진한 실적 ▸ 적정주가 하향: BUY 유지, 적정주가 7.5만원 → 5만원(P/E 21.7%, 2027년 EPS 13.5% 하향).",
    "post_url": "https://t.me/daolresearch/15370"
+  },
+  {
+   "company": "포스코퓨처엠",
+   "code": "003670",
+   "owner_analyst": "유지웅",
+   "owner_sector": "자동차/이차전지",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "date": "2026-11-03",
+   "evidence": "포스코퓨처엠 영업이익 821억원(YoY +23.1%)으로 컨센서스 상회했으며, 포스코인터내셔널 4,007억원(YoY +24.0%), 포스코이앤씨 480억원으로 예상 대비 견조한 실적 시현",
+   "title": "[POSCO홀딩스(005490)/ BUY(유지)/ TP 46만원(유지)/ 다올 철강금속 이정우] ★ 다시 찾아온 기다림의 시기",
+   "post_url": "https://t.me/daolresearch/15397"
+  },
+  {
+   "company": "현대차",
+   "code": "005380",
+   "owner_analyst": "유지웅",
+   "owner_sector": "자동차/이차전지",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "date": "2026-11-03",
+   "evidence": "현대차향 N87·포드향 N65 판매 재개가 회복을 이끌었고, 현대차그룹향은 출하 이연 효과로 QoQ 약 +80% ▸ 4Q26 증가세 가속: 양극재 판매량 1.5만톤(QoQ +40%) 추정.",
+   "title": "🔋 [포스코퓨처엠(003670)/BUY(유지)/TP 290,000원(유지)] 3Q26 Review: 일회성 외에도 나타나는 긍정적 변화들 ▸ 최선호주 유지: BUY 유지, 적정주가 29만원 유지.",
+   "post_url": "https://t.me/daolresearch/15398"
   }
  ],
  "candidates": [
-  {
-   "term": "자에게",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 31.9
-  },
   {
    "term": "기관투자가",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.9
+   "burst": 31.5
+  },
+  {
+   "term": "자에게",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 31.5
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.9
+   "burst": 23.6
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.9
+   "burst": 23.6
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.0
+   "burst": 15.8
   },
   {
    "term": "통신",
    "recent": 24,
    "total": 30,
    "sectors": 3,
-   "burst": 13.7
+   "burst": 13.5
   },
   {
    "term": "감익",
-   "recent": 9,
-   "total": 11,
-   "sectors": 6,
-   "burst": 12.0
+   "recent": 10,
+   "total": 12,
+   "sectors": 7,
+   "burst": 13.1
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.6
+   "burst": 10.5
   },
   {
    "term": "원화",
    "recent": 26,
    "total": 36,
    "sectors": 12,
-   "burst": 9.4
+   "burst": 9.3
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.0
+   "burst": 8.9
   },
   {
    "term": "사전",
    "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 6.7
+   "burst": 6.6
   },
   {
    "term": "바스켓",
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.4
+   "burst": 6.3
   },
   {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "되돌림",
    "recent": 6,
    "total": 9,
    "sectors": 3,
-   "burst": 6.0
+   "burst": 5.9
   },
   {
    "term": "우선",
