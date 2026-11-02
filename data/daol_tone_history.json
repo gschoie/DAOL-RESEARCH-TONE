@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02T02:42:54.651770+00:00",
+  "generated_at": "2026-11-02T22:06:11.190543+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1494,
+  "report_count": 1496,
   "months": [
     {
       "month": "2026-11",
@@ -462,6 +462,80 @@
           ]
         },
         {
+          "analyst": "이지수",
+          "sectors": [
+            "제약/바이오"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 2,
+          "reports": [
+            {
+              "id": 15393,
+              "date": "2026-11-03",
+              "month": "2026-11",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "한미약품",
+              "code": "128940",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "6 2 파브리병 치료제 시장 전망",
+              "industry_conclusion": "",
+              "report_conclusion": "6 2 파브리병 치료제 시장 전망",
+              "valuation": [
+                "규모에 따라 10~13%, 임상 성공률 30%, WACC 9.05%를 적용해 HM15421 신약)",
+                "nfilbra PERIDOT 3상에서 통증 관련 14}"
+              ],
+              "earnings_changes": [
+                "것으로 가정해 2026년 실적 추정치에 반영."
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145990/1/20261103_128940_jislee_491.pdf",
+              "pdf_error": "",
+              "title": "[한미약품(128940) | BUY(유지) | TP 71만원(상향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 올해 세 번째 L/O, 이번엔 파브리병",
+              "summary": "[한미약품(128940) | BUY(유지) | TP 71만원(상향) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 올해 세 번째 L/O, 이번엔 파브리병 ▶ 10/29 녹십자와 공동개발 중인 파브리병 치료제 HM15421을 바이오마린에 최대 4.75억달러 규모로 기술이전. 6월 릴리, 8월 제넨텍에 이은 올해 세 번째 기술이전으로 R&D 경쟁력 재확인 ▶ HM15421은 기존 2주 1회 정맥주사를 월 1회 피하주사로 개선한 장기지속형 효소대체요법 치료제. 전임상에서 신장 기능 개선 가능성 확인. 현재 임상1/2상 진행 중이며 2032년 상용화 예상. ▶ 바이오마린의 희귀질환 상업화 역량과 기존 파브리병 치료제 갈라폴드와의 시너지 기대. HM15421 신약가치 1,958억원 신규 반영해 적정주가 71만원으로 상향. 투자의견 BUY 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/15RvsvJ >",
+              "post_url": "https://t.me/daolresearch/15393",
+              "source_url": "https://buly.kr/15RvsvJ"
+            },
+            {
+              "id": 15392,
+              "date": "2026-11-03",
+              "month": "2026-11",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "녹십자",
+              "code": "006280",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145989/1/20261103_006280_jislee_490.pdf",
+              "pdf_error": "",
+              "title": "[녹십자(006280) | BUY(유지) | TP 20만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 실적 회복에 신약가치까지 더해졌다",
+              "summary": "[녹십자(006280) | BUY(유지) | TP 20만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 실적 회복에 신약가치까지 더해졌다 ▶ 3Q26 연결 매출액 5,221억원(-14.3% YoY, +24.0% QoQ), 영업이익 492억원(+68.4% YoY, +2,744.5% QoQ; OPM 9.4%)으로 시장 기대치 상회 ▶ 독감백신 이연 매출 반영과 알리글로 성장에 따른 제품 믹스 개선, 미국 자회사 ABO플라즈마 적자 축소가 실적 견인. 4Q에는 헌터라제 수출 확대와 알리글로 처방 증가, 바이오마린 기술이전 계약금 약 3,500만달러 반영으로 호실적 예상. 2026년 영업이익은 1,235억원(+78.5% YoY) 전망 ▶ 장기지속형 파브리병 치료제 GC1134A는 바이오마린에 총 4억 7,500만달러 규모로 기술이전. 월 1회 피하주사로 투약 편의성을 개선한 Best-in-class 신약으로, 신약가치 1,958억원 신규 반영. 2027년 20% SCIG 임상3상 신청 등 중장기 성장 동력 유효. 투자의견 BUY 및 적정주가 20만원 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/AwiMobA >",
+              "post_url": "https://t.me/daolresearch/15392",
+              "source_url": "https://buly.kr/AwiMobA"
+            }
+          ]
+        },
+        {
           "analyst": "최광식",
           "sectors": [
             "조선/기계/방산"
@@ -517,7 +591,7 @@
           ]
         }
       ],
-      "report_count": 11
+      "report_count": 13
     },
     {
       "month": "2026-10",
