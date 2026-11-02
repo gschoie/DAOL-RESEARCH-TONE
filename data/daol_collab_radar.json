@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T02:34:22.873850+00:00",
+ "generated_at": "2026-11-02T02:42:59.204736+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1494,
  "hits": [
@@ -37342,14 +37342,14 @@
    "burst": 31.4
   },
   {
-   "term": "압력이나",
+   "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
    "burst": 23.6
   },
   {
-   "term": "간섭",
+   "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
