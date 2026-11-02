@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T01:24:16.934390+00:00",
+ "generated_at": "2026-11-02T01:36:41.192781+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1494,
  "hits": [
@@ -37328,14 +37328,14 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
+   "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
    "burst": 31.4
   },
   {
-   "term": "자에게",
+   "term": "기관투자가",
    "recent": 8,
    "total": 8,
    "sectors": 4,
