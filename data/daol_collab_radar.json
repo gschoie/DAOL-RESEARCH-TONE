@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T23:00:45.228323+00:00",
+ "generated_at": "2026-11-03T03:08:07.636093+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1501,
  "hits": [
@@ -37543,6 +37543,13 @@
    "burst": 8.9
   },
   {
+   "term": "Data",
+   "recent": 6,
+   "total": 8,
+   "sectors": 4,
+   "burst": 7.9
+  },
+  {
    "term": "사전",
    "recent": 10,
    "total": 15,
@@ -37569,13 +37576,6 @@
    "total": 9,
    "sectors": 3,
    "burst": 5.9
-  },
-  {
-   "term": "우선",
-   "recent": 9,
-   "total": 15,
-   "sectors": 8,
-   "burst": 5.1
   }
  ]
 }
