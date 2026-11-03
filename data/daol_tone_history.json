@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03T22:46:41.943884+00:00",
+  "generated_at": "2026-11-03T22:59:58.552008+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1506,
+  "report_count": 1508,
   "months": [
     {
       "month": "2026-11",
@@ -226,6 +226,11 @@
               "value": "비중확대",
               "date": "2026-11-03",
               "source": "https://t.me/daolresearch/15398"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-11-04",
+              "source": "https://t.me/daolresearch/15412"
             }
           ],
           "top_picks": [
@@ -236,10 +241,65 @@
             }
           ],
           "top_pick_change": "해당 기간 최초 명시",
-          "tp_changes": [],
+          "tp_changes": [
+            {
+              "company": "LG에너지솔루션",
+              "direction": "유지",
+              "old": null,
+              "new": 620000,
+              "display": "620,000원 (유지)",
+              "reasons": [
+                "어닝/실적 추정 상향",
+                "밸류에이션 기준연도/방법 변경"
+              ],
+              "evidence": "🔋 [LG에너지솔루션(373220)/BUY(유지)/TP 620,000원(유지)] - 3Q26 Review: 고성장 사이클 시작을 알리다 ▸ BUY·적정주가 62만원 유지: 2027년 EPS에 P/E 63배 적용. 3Q26을 기점으로 외형성장이 가속화되고 ESS 의구심이 AMPC 손익으로 해소되기 시작. 2027년 본업 개선과 자동차사업 턴어라운드를 겨냥한 비중확대 추천 ▸ 3Q26 ESS가 실적 견인: 매출액 9.6조원(YoY +59%), 영업이익 7,560억원(YoY +25.7%). AMPC(4,170억원)와 고객사 비용회수를 제외하면 소폭 적자. 신규 사이트 ESS 전환 고정비로 마진 개선은 4Q26까지 지연 ▸ 4Q26 고성장 지속: 매출액 10.1조원(YoY +57%), 영업이익 4,671억원(흑자전환), AMPC 5,400억원 추정. GM EV용 리스타킹으로 북미 출하 중 EV 비중 15% 이상 예상 ▸ ES",
+              "date": "2026-11-04",
+              "source": "https://t.me/daolresearch/15412"
+            }
+          ],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15412,
+              "date": "2026-11-04",
+              "month": "2026-11",
+              "analyst": "미분류",
+              "sector": "미분류",
+              "company": "LG에너지솔루션",
+              "code": "373220",
+              "report_type": "기업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "LG에너지솔루션",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 620000,
+                  "display": "620,000원 (유지)",
+                  "reasons": [
+                    "어닝/실적 추정 상향",
+                    "밸류에이션 기준연도/방법 변경"
+                  ],
+                  "evidence": "🔋 [LG에너지솔루션(373220)/BUY(유지)/TP 620,000원(유지)] - 3Q26 Review: 고성장 사이클 시작을 알리다 ▸ BUY·적정주가 62만원 유지: 2027년 EPS에 P/E 63배 적용. 3Q26을 기점으로 외형성장이 가속화되고 ESS 의구심이 AMPC 손익으로 해소되기 시작. 2027년 본업 개선과 자동차사업 턴어라운드를 겨냥한 비중확대 추천 ▸ 3Q26 ESS가 실적 견인: 매출액 9.6조원(YoY +59%), 영업이익 7,560억원(YoY +25.7%). AMPC(4,170억원)와 고객사 비용회수를 제외하면 소폭 적자. 신규 사이트 ESS 전환 고정비로 마진 개선은 4Q26까지 지연 ▸ 4Q26 고성장 지속: 매출액 10.1조원(YoY +57%), 영업이익 4,671억원(흑자전환), AMPC 5,400억원 추정. GM EV용 리스타킹으로 북미 출하 중 EV 비중 15% 이상 예상 ▸ ES"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146032/1/20261104_373220_jwyoo_687.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "🔋 [LG에너지솔루션(373220)/BUY(유지)/TP 620,000원(유지)] - 3Q26 Review: 고성장 사이클 시작을 알리다 ▸ BUY·적정주가 62만원 유지: 2027년 EPS에 P/E 63배 적용.",
+              "summary": "🔋 [LG에너지솔루션(373220)/BUY(유지)/TP 620,000원(유지)] - 3Q26 Review: 고성장 사이클 시작을 알리다 ▸ BUY·적정주가 62만원 유지: 2027년 EPS에 P/E 63배 적용. 3Q26을 기점으로 외형성장이 가속화되고 ESS 의구심이 AMPC 손익으로 해소되기 시작. 2027년 본업 개선과 자동차사업 턴어라운드를 겨냥한 비중확대 추천 ▸ 3Q26 ESS가 실적 견인: 매출액 9.6조원(YoY +59%), 영업이익 7,560억원(YoY +25.7%). AMPC(4,170억원)와 고객사 비용회수를 제외하면 소폭 적자. 신규 사이트 ESS 전환 고정비로 마진 개선은 4Q26까지 지연 ▸ 4Q26 고성장 지속: 매출액 10.1조원(YoY +57%), 영업이익 4,671억원(흑자전환), AMPC 5,400억원 추정. GM EV용 리스타킹으로 북미 출하 중 EV 비중 15% 이상 예상 ▸ ESS 외형과 턴어라운드 시점에 주목: 북미 ESS 출하 37GWh → 55GWh, 매출 9.2조원 → 12.2조원(YoY +39%) 추정. 수익성 턴어라운드는 1Q27, 외형 2차 가속은 2H27로 예상 ▸ 미국 EV 수요 회복: 10월부터 미국 EV 판매가 YoY 증가로 전환한 것으로 추정. 토요타·리비안 중심의 수요 회복과 소형 EV 시장 형성이 주가 재평가의 핵심 변수 * 보고서 원문 및 컴플라이언스 < https://buly.kr/GkvNYmm > * 텔레그램 채널 < https://t.me/auto_revolution >",
+              "post_url": "https://t.me/daolresearch/15412",
+              "source_url": "https://buly.kr/GkvNYmm"
+            },
             {
               "id": 15398,
               "date": "2026-11-03",
@@ -911,6 +971,48 @@
           ]
         },
         {
+          "analyst": "임도영",
+          "sectors": [
+            "엔터"
+          ],
+          "opinion": "명시 없음",
+          "opinion_history": [],
+          "top_picks": [],
+          "top_pick_change": "해당 월 명시 없음",
+          "tp_changes": [],
+          "tp_raises": [],
+          "report_count": 1,
+          "reports": [
+            {
+              "id": 15411,
+              "date": "2026-11-04",
+              "month": "2026-11",
+              "analyst": "임도영",
+              "sector": "엔터",
+              "company": "하이브",
+              "code": "352820",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146034/1/20261104_352820_dy.lim_54.pdf",
+              "pdf_error": "",
+              "title": "[하이브(352820) | 다올 엔터 임도영] ★ 3Q26 Review: BTS 우려는 점차 완화, 저연차는 기대치 상회",
+              "summary": "[하이브(352820) | 다올 엔터 임도영] ★ 3Q26 Review: BTS 우려는 점차 완화, 저연차는 기대치 상회 ▶ 4Q에는 다소 심심한 실적 예상. 다만 BTS 추가 투어 일정의 경우 빠르면 12월, 늦어도 27년초에는 공개될 것으로 예상되는 만큼 추가 투어 규모와 하반기 활동 방식 구체화가 감익폭 완화의 핵심 변수. 현재 실적 추정치에 이를 보수적으로 반영하고 있어 향후 추정치 상향 가능성 유효. 그 외 서구권 IP 데뷔 등 기대요인 존재 ▶ 전부문 호실적으로 영업이익 컨센서스 상회, 순이익은 외화자산 평가손실이 크게 반영된 영향 ▶ 부문별 매출에 특이사항은 부재. 공연 매출은 역대 최대 실적 경신. 4Q에는 BTS 남미/아시아 투어 진행. 모객 수는 유사하나 낮은 ATP와 아시아 지역 순매출 인식으로 QoQ 하락 예상. 캣츠아이는 예상 대비 빠른 아시아 투어 개최와 페스티벌 등 전지역 입지 확장 중. 코르티스도 27년 아레나 규모의 월드투어가 예상되는 만큼 주요 저연차 IP들의 공연 규모 확대는 순항 중 ▶ MD 매출은 환 영향에도 불구 모객 수 증가 및 오퍼레이션 개선 효과로 QoQ+8%. 지역별 맞춤형 MD와 품목 확대로 투어 초반 매출이 집중되던 경향에서 탈피. 긍정적인 점은 3Q MD 매출 내 BTS외 IP 기여도가 50% 이상(모객 수 기준 BTS 59%). 엔하이픈, 캣츠아이도 투어 MD가 매진되며 수요 견조. 4Q는 구매력이 낮은 지역 중심으로 QoQ 하락은 불가피, 기획 MD 매출 반영으로 일부 상쇄 예상 ▶ 그 외 콘텐츠는 4Q 시즌그리팅 및 BTS 투어 DVD, 캣츠아이 다큐 디플 공개 등으로 재차 900억원 이상의 호실적 전망 * 보고서 원문 및 컴플라이언스 < https://buly.kr/DaRjuBL > * 텔레그램 채널 < https://t.me",
+              "post_url": "https://t.me/daolresearch/15411",
+              "source_url": "https://buly.kr/DaRjuBL"
+            }
+          ]
+        },
+        {
           "analyst": "최광식",
           "sectors": [
             "조선/기계/방산"
@@ -1077,7 +1179,7 @@
           ]
         }
       ],
-      "report_count": 23
+      "report_count": 25
     },
     {
       "month": "2026-10",

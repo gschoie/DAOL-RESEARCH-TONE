@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T22:47:15.205136+00:00",
+ "generated_at": "2026-11-03T23:00:22.273520+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1506,
+ "report_count": 1508,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35392,6 +35392,42 @@
    "title": "[풍산(103140)/ BUY(유지)/ TP 9만원(하향)/ 다올 철강금속/전력기기 이정우] ★ 내년의 성장을 기대",
    "post_url": "https://t.me/daolresearch/15410",
    "source_url": "https://buly.kr/4FvZul5"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-11-04",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "하이브",
+   "code": "352820",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "공연 매출은 역대 최대 실적 경신.",
+    "코르티스도 27년 아레나 규모의 월드투어가 예상되는 만큼 주요 저연차 IP들의 공연 규모 확대는 순항 중"
+   ],
+   "title": "[하이브(352820) | 다올 엔터 임도영] ★ 3Q26 Review: BTS 우려는 점차 완화, 저연차는 기대치 상회",
+   "post_url": "https://t.me/daolresearch/15411",
+   "source_url": "https://buly.kr/DaRjuBL"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-04",
+   "analyst": "미분류",
+   "sector": "미분류",
+   "company": "LG에너지솔루션",
+   "code": "373220",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "2027년 본업 개선과 자동차사업 턴어라운드를 겨냥한 비중확대 추천 ▸ 3Q26 ESS가 실적 견인: 매출액 9.6조원(YoY +59%), 영업이익 7,560억원(YoY +25.7%).",
+    "신규 사이트 ESS 전환 고정비로 마진 개선은 4Q26까지 지연 ▸ 4Q26 고성장 지속: 매출액 10.1조원(YoY +57%), 영업이익 4,671억원(흑자전환), AMPC 5,400억원 추정."
+   ],
+   "title": "🔋 [LG에너지솔루션(373220)/BUY(유지)/TP 620,000원(유지)] - 3Q26 Review: 고성장 사이클 시작을 알리다 ▸ BUY·적정주가 62만원 유지: 2027년 EPS에 P/E 63배 적용.",
+   "post_url": "https://t.me/daolresearch/15412",
+   "source_url": "https://buly.kr/GkvNYmm"
   }
  ],
  "cross_mentions": [
@@ -37594,53 +37630,53 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 31.9
-  },
-  {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.9
+   "burst": 31.7
   },
   {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 23.9
+   "term": "기관투자가",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 31.7
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.9
+   "burst": 23.8
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 23.8
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 15.9
+   "burst": 15.8
   },
   {
    "term": "감익",
    "recent": 11,
    "total": 13,
    "sectors": 7,
-   "burst": 14.6
+   "burst": 14.5
   },
   {
    "term": "통신",
    "recent": 24,
    "total": 30,
    "sectors": 3,
-   "burst": 13.7
+   "burst": 13.6
   },
   {
    "term": "등록",
@@ -37661,14 +37697,14 @@
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.0
+   "burst": 8.9
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.0
+   "burst": 7.9
   },
   {
    "term": "사전",
@@ -37682,21 +37718,21 @@
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.4
+   "burst": 6.3
   },
   {
    "term": "우선",
    "recent": 11,
    "total": 17,
    "sectors": 8,
-   "burst": 6.3
+   "burst": 6.2
   },
   {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 6.0
+   "burst": 5.9
   }
  ]
 }
