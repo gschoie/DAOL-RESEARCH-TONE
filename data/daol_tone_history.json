@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03T03:59:53.320826+00:00",
+  "generated_at": "2026-11-03T19:56:54.346946+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1501,
+  "report_count": 1502,
   "months": [
     {
       "month": "2026-11",
@@ -721,8 +721,14 @@
               "source": "https://t.me/daolresearch/15371"
             }
           ],
-          "top_picks": [],
-          "top_pick_change": "해당 월 명시 없음",
+          "top_picks": [
+            {
+              "text": "비록 적정주가를 내리지만, 선호주로 상향.",
+              "date": "2026-11-03",
+              "source": "https://t.me/daolresearch/15404"
+            }
+          ],
+          "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [
             {
               "company": "HD건설기계",
@@ -740,8 +746,48 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15404,
+              "date": "2026-11-03",
+              "month": "2026-11",
+              "analyst": "최광식",
+              "sector": "조선/기계/방산",
+              "company": "한국항공우주",
+              "code": "047810",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [
+                "비록 적정주가를 내리지만, 선호주로 상향."
+              ],
+              "preferred_stocks": [
+                "비록 적정주가를 내리지만, 선호주로 상향."
+              ],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "투자에서 미래 이익 성장을 더 중요하게 보겠다는 판단. 연말까지의 LAH 3차 양산, KF-21 인니도 단기 모멘텀 LAH 11월 납품 재개로 또 성장 전망 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기",
+              "industry_conclusion": "",
+              "report_conclusion": "LAH 11월 납품 재개로 또 성장 전망 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 초과수익률 수준에 근거한 것으로, 개별 종목에 대한 투자의견과 다를 수 있음 투자의견 BUY BUY BUY HOLD BUY BUY",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 60.0 53.3 24.4",
+                "PBR(배) 6.1 4.7 4.1",
+                "EV/EBITDA(배) 34.9 28.6 18.1",
+                "Performance 1M 6M 12M YTD",
+                "PER VALUATION 2021년 2022년 2023년 2024년 2025년 2026년 2027년 2028년 2029년"
+              ],
+              "earnings_changes": [
+                "4: 한국항공우주 실적 조정: 이라크 장기화 등으로 이익 예상치는 낮춤 (십억원)"
+              ],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146016/1/20261103_047810_gs.choie_615.pdf",
+              "pdf_error": "",
+              "title": "[한국항공우주(047810)/BUY(유지)/TP 190,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한국항공우주(047810) : 2026-2028, 양산 40대에서 80대까지",
+              "summary": "[한국항공우주(047810)/BUY(유지)/TP 190,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한국항공우주(047810) : 2026-2028, 양산 40대에서 80대까지 ▶ Issue: 3Q26 나홀로 증익, 양산 증가로 2026-2028 가파른 성장. 선호주 추천 ▶ Pitch: > 비록 적정주가를 내리지만, 선호주로 상향. > 수주를 알 수 없는 방위산업 투자에서 미래 이익 성장을 더 중요하게 보겠다는 판단. - 2026-2028 양산이 40대에서 80대로 늘면서 가장 가파른 증익 기대. > 갑작스런 1.45조원 수주와 연말까지의 LAH 3차 양산, KF-21 인니도 단기 모멘텀 ▶ Rationale: 보고서 참조 ▶ 보고서 원문 및 컴플라이언스 노티스: < https://bit.ly/KAI3Q26RE > * 텔레그램 공개 채널 https://t.me/HI_GS",
+              "post_url": "https://t.me/daolresearch/15404",
+              "source_url": "https://bit.ly/KAI3Q26RE"
+            },
             {
               "id": 15399,
               "date": "2026-11-03",
@@ -829,7 +875,7 @@
           ]
         }
       ],
-      "report_count": 18
+      "report_count": 19
     },
     {
       "month": "2026-10",

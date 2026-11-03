@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T03:59:57.027916+00:00",
+ "generated_at": "2026-11-03T20:00:41.133035+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1501,
+ "report_count": 1502,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35271,6 +35271,24 @@
    "title": "[HD건설기계(267270)/BUY(유지)/TP 170,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ HD건설기계(267270) : 올 아이즈 온 엔진. 2027년 1월부터 깜딱",
    "post_url": "https://t.me/daolresearch/15399",
    "source_url": "https://bit.ly/HCE3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-03",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "한국항공우주",
+   "code": "047810",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "[한국항공우주(047810)/BUY(유지)/TP 190,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]",
+    "> 수주를 알 수 없는 방위산업 투자에서 미래 이익 성장을 더 중요하게 보겠다는 판단."
+   ],
+   "title": "[한국항공우주(047810)/BUY(유지)/TP 190,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한국항공우주(047810) : 2026-2028, 양산 40대에서 80대까지",
+   "post_url": "https://t.me/daolresearch/15404",
+   "source_url": "https://bit.ly/KAI3Q26RE"
   }
  ],
  "cross_mentions": [
@@ -37477,35 +37495,35 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.5
+   "burst": 31.4
   },
   {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.5
-  },
-  {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 23.6
+   "burst": 31.4
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.6
+   "burst": 23.5
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 23.5
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 15.8
+   "burst": 15.7
   },
   {
    "term": "통신",
@@ -37540,21 +37558,21 @@
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 8.9
+   "burst": 8.8
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 7.9
+   "burst": 7.8
   },
   {
    "term": "사전",
    "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 6.6
+   "burst": 6.5
   },
   {
    "term": "바스켓",
