@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03T19:56:54.346946+00:00",
+  "generated_at": "2026-11-03T22:12:20.410087+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1502,
+  "report_count": 1503,
   "months": [
     {
       "month": "2026-11",
@@ -71,14 +71,46 @@
               "value": "비중확대",
               "date": "2026-11-02",
               "source": "https://t.me/daolresearch/15372"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-11-04",
+              "source": "https://t.me/daolresearch/15406"
             }
           ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15406,
+              "date": "2026-11-04",
+              "month": "2026-11",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "에스원",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "report_conclusion": "▶ 개별 채널 https://t.me/jiwonkimfin",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146027/1/20261104_B4020_jiwonkim_271.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[보험(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 에스원 지분 처분 맥락 확인",
+              "summary": "[보험(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 에스원 지분 처분 맥락 확인 ▶ 에스원 주주환원 계획에 따른 자사주 공개매수. 우선 생명이 보통주 136,646주 처분으로 참여 ▶ 현재까지 공시 기반 지분율 변동 체크. 추가 참여 주체 관련 공시는 확인 필요 ▶ 에스원 지분이 삼성 금융 계열사들에 운용 관점의 핵심 자산은 아닐 가능성 ▶ 삼성 금융 계열사들의 에스원 지분 완전 매각은 가능성이 낮을 듯 ▶ 보고서 원문 및 Compliance Notice < https://buly.kr/FWW4gPq > ▶ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15406",
+              "source_url": "https://buly.kr/FWW4gPq"
+            },
             {
               "id": 15373,
               "date": "2026-11-02",
@@ -378,12 +410,10 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "",
-              "industry_conclusion": "",
-              "report_conclusion": "",
-              "valuation": [
-                "/02 Amazon 판매량 에이블씨앤씨 _ MISSHA MISSHA M Perfect Cover 8 월판매 구간 At 10,000-20,000"
-              ],
+              "pitch": "투자 의견은 향후 12개월간 추천기준일 종가 대비 예상 목표수익률을 의미하며, BUY는 +15% 이상, HOLD는 -15% 이상 ~ +15% 미만, SELL은 -15% 미만을 예상합니다.",
+              "industry_conclusion": "투자 의견은 향후 12개월간 추천기준일 종가 대비 예상 목표수익률을 의미하며, BUY는 +15% 이상, HOLD는 -15% 이상 ~ +15% 미만, SELL은 -15% 미만을 예상합니다.",
+              "report_conclusion": "투자 의견은 향후 12개월간 추천기준일 종가 대비 예상 목표수익률을 의미하며, BUY는 +15% 이상, HOLD는 -15% 이상 ~ +15% 미만, SELL은 -15% 미만을 예상합니다.",
+              "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
               "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145991/1/20261103_B3020_alex.park_645.pdf",
@@ -875,7 +905,7 @@
           ]
         }
       ],
-      "report_count": 19
+      "report_count": 20
     },
     {
       "month": "2026-10",

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T20:00:41.133035+00:00",
+ "generated_at": "2026-11-03T22:12:34.507558+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1502,
+ "report_count": 1503,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35289,6 +35289,23 @@
    "title": "[한국항공우주(047810)/BUY(유지)/TP 190,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 한국항공우주(047810) : 2026-2028, 양산 40대에서 80대까지",
    "post_url": "https://t.me/daolresearch/15404",
    "source_url": "https://bit.ly/KAI3Q26RE"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-11-04",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "에스원",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "에스원 주주환원 계획에 따른 자사주 공개매수."
+   ],
+   "title": "[보험(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 에스원 지분 처분 맥락 확인",
+   "post_url": "https://t.me/daolresearch/15406",
+   "source_url": "https://buly.kr/FWW4gPq"
   }
  ],
  "cross_mentions": [
@@ -37495,105 +37512,105 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.4
+   "burst": 32.2
   },
   {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.4
-  },
-  {
-   "term": "압력이나",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 23.5
+   "burst": 32.2
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.5
+   "burst": 24.2
+  },
+  {
+   "term": "압력이나",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.2
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 15.7
+   "burst": 16.1
   },
   {
    "term": "통신",
    "recent": 24,
    "total": 30,
    "sectors": 3,
-   "burst": 13.5
+   "burst": 13.8
   },
   {
    "term": "감익",
    "recent": 10,
    "total": 12,
    "sectors": 7,
-   "burst": 13.1
+   "burst": 13.4
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.5
+   "burst": 10.7
   },
   {
    "term": "원화",
    "recent": 26,
    "total": 36,
    "sectors": 12,
-   "burst": 9.3
+   "burst": 9.5
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 8.8
+   "burst": 9.1
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 7.8
+   "burst": 8.1
   },
   {
    "term": "사전",
    "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 6.5
+   "burst": 6.7
   },
   {
    "term": "바스켓",
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.3
+   "burst": 6.4
   },
   {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 5.9
+   "burst": 6.0
   },
   {
-   "term": "되돌림",
-   "recent": 6,
-   "total": 9,
-   "sectors": 3,
-   "burst": 5.9
+   "term": "우선",
+   "recent": 10,
+   "total": 16,
+   "sectors": 8,
+   "burst": 5.8
   }
  ]
 }
