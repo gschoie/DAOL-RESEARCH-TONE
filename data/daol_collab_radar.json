@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T22:12:34.507558+00:00",
+ "generated_at": "2026-11-03T22:47:15.205136+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1503,
+ "report_count": 1506,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35306,6 +35306,92 @@
    "title": "[보험(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 에스원 지분 처분 맥락 확인",
    "post_url": "https://t.me/daolresearch/15406",
    "source_url": "https://buly.kr/FWW4gPq"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-11-04",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "LG생활건강",
+   "code": "051900",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "QoQ 둔화는 2Q 일회성 관세 환입 소멸과 중동발 원부자재 부담 영향."
+   ],
+   "title": "[LG생활건강(051900)/ HOLD(유지)/ TP 23만원(하향)/ 다올 화장품 박종현] ★ 다이어트는 평생의 적",
+   "post_url": "https://t.me/daolresearch/15407",
+   "source_url": "https://buly.kr/FsLaeDb"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-04",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "풍산",
+   "code": "103140",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "환율 하락으로 신동 메탈로스 지속되며, H사 차질로 납품이 밀린 가운데 저수익 품목을 우선 납품하면서 방산 믹스 악화 예상."
+   ],
+   "title": "[풍산(103140)/ BUY(유지)/ TP 9만원(하향)/ 다올 철강금속/전력기기 이정우] ★ 내년의 성장을 기대",
+   "post_url": "https://t.me/daolresearch/15410",
+   "source_url": "https://buly.kr/4FvZul5"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-11-04",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "풍산",
+   "code": "103140",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "중동 분쟁에 따른 일부 선적 이연, 관급자재 공급 차질 속에서도 내수 수주물량 실현과 북미 스포츠탄 수출 호조."
+   ],
+   "title": "[풍산(103140)/ BUY(유지)/ TP 9만원(하향)/ 다올 철강금속/전력기기 이정우] ★ 내년의 성장을 기대",
+   "post_url": "https://t.me/daolresearch/15410",
+   "source_url": "https://buly.kr/4FvZul5"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-04",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "풍산",
+   "code": "103140",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[풍산(103140)/ BUY(유지)/ TP 9만원(하향)/ 다올 철강금속/전력기기 이정우]"
+   ],
+   "title": "[풍산(103140)/ BUY(유지)/ TP 9만원(하향)/ 다올 철강금속/전력기기 이정우] ★ 내년의 성장을 기대",
+   "post_url": "https://t.me/daolresearch/15410",
+   "source_url": "https://buly.kr/4FvZul5"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-04",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "풍산",
+   "code": "103140",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "신동 판매량 감소와 메탈 효과 축소에도 방산은 수출 비중 확대",
+    "2027E 방산 사업계획 약 1.4조원과 신동 고부가 비중 40% 등 구조적 개선 방향은 유효해 성장가능성에 주목할 필요 * 보고서 원문 및 컴플라이언스"
+   ],
+   "title": "[풍산(103140)/ BUY(유지)/ TP 9만원(하향)/ 다올 철강금속/전력기기 이정우] ★ 내년의 성장을 기대",
+   "post_url": "https://t.me/daolresearch/15410",
+   "source_url": "https://buly.kr/4FvZul5"
   }
  ],
  "cross_mentions": [
@@ -37512,84 +37598,84 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.2
+   "burst": 31.9
   },
   {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.2
+   "burst": 31.9
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.2
+   "burst": 23.9
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.2
+   "burst": 23.9
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.1
+   "burst": 15.9
+  },
+  {
+   "term": "감익",
+   "recent": 11,
+   "total": 13,
+   "sectors": 7,
+   "burst": 14.6
   },
   {
    "term": "통신",
    "recent": 24,
    "total": 30,
    "sectors": 3,
-   "burst": 13.8
-  },
-  {
-   "term": "감익",
-   "recent": 10,
-   "total": 12,
-   "sectors": 7,
-   "burst": 13.4
+   "burst": 13.7
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.7
+   "burst": 10.6
   },
   {
    "term": "원화",
    "recent": 26,
    "total": 36,
    "sectors": 12,
-   "burst": 9.5
+   "burst": 9.4
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.1
+   "burst": 9.0
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.1
+   "burst": 8.0
   },
   {
    "term": "사전",
    "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 6.7
+   "burst": 6.6
   },
   {
    "term": "바스켓",
@@ -37599,18 +37685,18 @@
    "burst": 6.4
   },
   {
+   "term": "우선",
+   "recent": 11,
+   "total": 17,
+   "sectors": 8,
+   "burst": 6.3
+  },
+  {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
    "burst": 6.0
-  },
-  {
-   "term": "우선",
-   "recent": 10,
-   "total": 16,
-   "sectors": 8,
-   "burst": 5.8
   }
  ]
 }
