@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-04T03:01:54.153403+00:00",
+ "generated_at": "2026-11-04T03:08:11.839231+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1505,
+ "report_count": 1508,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -37647,109 +37647,109 @@
  ],
  "candidates": [
   {
-   "term": "자에게",
-   "recent": 6,
-   "total": 6,
+   "term": "기관투자가",
+   "recent": 9,
+   "total": 9,
    "sectors": 5,
-   "burst": 24.0
+   "burst": 35.6
   },
   {
-   "term": "기관투자가",
+   "term": "자에게",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 35.6
+  },
+  {
+   "term": "압력이나",
    "recent": 6,
    "total": 6,
-   "sectors": 5,
-   "burst": 24.0
+   "sectors": 3,
+   "burst": 23.8
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 23.8
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.0
+   "burst": 15.8
   },
   {
    "term": "감익",
    "recent": 11,
    "total": 13,
    "sectors": 7,
-   "burst": 14.7
+   "burst": 14.5
   },
   {
    "term": "통신",
    "recent": 24,
    "total": 30,
    "sectors": 3,
-   "burst": 13.7
+   "burst": 13.6
+  },
+  {
+   "term": "등록",
+   "recent": 8,
+   "total": 10,
+   "sectors": 3,
+   "burst": 10.6
   },
   {
    "term": "원화",
    "recent": 26,
    "total": 36,
    "sectors": 12,
-   "burst": 9.5
+   "burst": 9.4
+  },
+  {
+   "term": "PDF",
+   "recent": 9,
+   "total": 12,
+   "sectors": 5,
+   "burst": 8.9
+  },
+  {
+   "term": "Data",
+   "recent": 6,
+   "total": 8,
+   "sectors": 4,
+   "burst": 7.9
+  },
+  {
+   "term": "사전",
+   "recent": 11,
+   "total": 16,
+   "sectors": 9,
+   "burst": 7.3
   },
   {
    "term": "바스켓",
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.4
+   "burst": 6.3
   },
   {
    "term": "우선",
    "recent": 11,
    "total": 17,
    "sectors": 8,
-   "burst": 6.3
-  },
-  {
-   "term": "PDF",
-   "recent": 6,
-   "total": 9,
-   "sectors": 5,
-   "burst": 6.0
+   "burst": 6.2
   },
   {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 6.0
-  },
-  {
-   "term": "사전",
-   "recent": 8,
-   "total": 13,
-   "sectors": 9,
-   "burst": 5.3
-  },
-  {
-   "term": "사용",
-   "recent": 10,
-   "total": 17,
-   "sectors": 8,
-   "burst": 5.0
-  },
-  {
-   "term": "철강금속",
-   "recent": 12,
-   "total": 22,
-   "sectors": 3,
-   "burst": 4.4
-  },
-  {
-   "term": "관건",
-   "recent": 12,
-   "total": 23,
-   "sectors": 10,
-   "burst": 4.0
-  },
-  {
-   "term": "해외법인",
-   "recent": 6,
-   "total": 11,
-   "sectors": 4,
-   "burst": 4.0
+   "burst": 5.9
   }
  ]
 }

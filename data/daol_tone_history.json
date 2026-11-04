@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T03:01:47.968597+00:00",
+  "generated_at": "2026-11-04T03:08:07.636458+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1505,
+  "report_count": 1508,
   "months": [
     {
       "month": "2026-11",
@@ -7374,14 +7374,131 @@
               "value": "비중확대",
               "date": "2026-09-30",
               "source": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144849/1/20260930_028670_ktbsec2_3827.pdf"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-09-30",
+              "source": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144850/1/20260930_086280_ktbsec2_3828.pdf"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-09-30",
+              "source": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144851/1/20260930_000120_ktbsec2_3825.pdf"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-09-30",
+              "source": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144852/1/20260930_003490_ktbsec2_3826.pdf"
             }
           ],
           "top_picks": [],
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 5,
           "reports": [
+            {
+              "id": "B144852",
+              "date": "2026-09-30",
+              "month": "2026-09",
+              "analyst": "리서치센터",
+              "sector": "공지",
+              "company": "대한항공",
+              "code": "003490",
+              "report_type": "기업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실0 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 SASSO 예상 기대수익률을 의미 어떠한 외부 압력이나 간섭 없이 본인의 의견을 정확하게 반영하여 예상하는 경우 본 ASS '나눔스퀘어와 '아리따 글꼴을 사용하여 - Neutral: 해당 업종 수익률이 향후 12개월 동안 (050 수익률과 유사할 것으로 예상하는 경우",
+              "industry_conclusion": "",
+              "report_conclusion": "- 동 보고서가 대한항공에 대한 마지막 투자의견 제시이며, 동사에 대한 직전 투자의견은 80, 적정주가는 34,000원입니다. 투자의견 Not Rated BUY 변경 예정입니다. 당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실0 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 SASSO 예상 기대수익률을 의미 본 자료를 작성호 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 조과수익률 수준에",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(HH) 10.6 25.4 8.2",
+                "PBR(HH) 1.0 14 1.2",
+                "EV/EBITDA(H) 6.4 9.0 6.2",
+                "Performance 1M 6M 12M YTD",
+                "PER 6.3 10.6 254 8.2 6.1"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144852/1/20260930_003490_ktbsec2_3826.pdf",
+              "pdf_error": "",
+              "title": "[다올투자증권 공지 리서치센터] ★ 대한항공 (003490) Coverage 제외",
+              "summary": "[다올투자증권 공지 리서치센터] ★ 대한항공 (003490) Coverage 제외 ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조",
+              "post_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144852/1/20260930_003490_ktbsec2_3826.pdf",
+              "source_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144852/1/20260930_003490_ktbsec2_3826.pdf"
+            },
+            {
+              "id": "B144851",
+              "date": "2026-09-30",
+              "month": "2026-09",
+              "analyst": "리서치센터",
+              "sector": "공지",
+              "company": "CJ대한통운",
+              "code": "000120",
+              "report_type": "기업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실0 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 SASSO 예상 기대수익률을 의미 어떠한 외부 압력이나 간섭 없이 본인의 의견을 정확하게 반영하여 예상하는 경우 본 ASS '나눔스퀘어와 '아리따 글꼴을 사용하여 “Neutral 해당 업종 수익률이 향후 12개월 동안 050 수익률과 유사할 것으로 예상하는 경우 작성하였습니ㄷ ㆍ Underweight: 하당 업종 수익률이 5 1274 동안 <050| 수익률을 하호할 것으로 예상 경우",
+              "industry_conclusion": "",
+              "report_conclusion": "- 동 보고서가 이대한통운에 대한 마지막 투자의견 제시이며, 동사에 대한 직전 투자의견은 BUY, 적정주가는 140,000원입니다. 투자의견 Not Rated BUY 변경 예정입니다. 당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실0 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 SASSO 예상 기대수익률을 의미 본 자료를 작성호 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 조과수익률 수준에",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "EV/EBITDA(H) 4] 44 38",
+                "Performance 1M 6M 12M YTD",
+                "영업현금 606.2 9024 6380 947.1 945.7 Pershare Data",
+                "재고자산감소(증개) (4.5 3.8 0.3 0.6 11 PER 77 8.9 59 52 49",
+                "매입채무증가(감소) 72.8 131.5 7.7 26.3 48.2 PBR 0.7 0.7 0.5 0.5 0.5"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144851/1/20260930_000120_ktbsec2_3825.pdf",
+              "pdf_error": "",
+              "title": "[다올투자증권 공지 리서치센터] ★ CJ대한통운 (000120) Coverage 제외",
+              "summary": "[다올투자증권 공지 리서치센터] ★ CJ대한통운 (000120) Coverage 제외 ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조",
+              "post_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144851/1/20260930_000120_ktbsec2_3825.pdf",
+              "source_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144851/1/20260930_000120_ktbsec2_3825.pdf"
+            },
+            {
+              "id": "B144850",
+              "date": "2026-09-30",
+              "month": "2026-09",
+              "analyst": "리서치센터",
+              "sector": "공지",
+              "company": "현대글로비스",
+              "code": "086280",
+              "report_type": "기업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실0 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 SASSO 예상 기대수익률을 의미 어떠한 외부 압력이나 간섭 없이 본인의 의견을 정확하게 반영하여 예상하는 경우 본 ASS '나눔스퀘어와 '아리따 글꼴을 사용하여 - Neutral: 해당 업종 수익률이 향후 12개월 동안 (050 수익률과 유사할 것으로 예상하는 경우",
+              "industry_conclusion": "",
+              "report_conclusion": "- 동 보고서가 현대글로비스에 대한 마지막 투자의견 제시이며, 동사에 대한 직전 투자의견은 BUY, 적정주가는 320,000원입니다 투자의견 Not Rated BUY 변경 예정입니다. 당사는 본 자료를 기관투자가 등 제 3자에게 사전 제공한 사실0 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 SASSO 예상 기대수익률을 의미 본 자료를 작성호 동 조사분석자료에서 제시된 업종 투자의견은 시장 대비 업종의 조과수익률 수준에",
+              "valuation": [
+                "Valuation wide 2025 2026E 2027E",
+                "PER(HH) 78 8.4 7.5",
+                "EV/EBITDA(H) 45 42 3.6",
+                "Performance 1M 6M 12M YTD",
+                "영업현금 21224 25008 2,775.3 2,791.5 _ 3.099.6 Pershare Data",
+                "재고자산감소(증개) 372.9 (29.6) (115.8) (159.0) (156.1) PER 8.1 7.8 84 75 65"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144850/1/20260930_086280_ktbsec2_3828.pdf",
+              "pdf_error": "",
+              "title": "[다올투자증권 공지 리서치센터] ★ 현대글로비스 (086280) Coverage 제외",
+              "summary": "[다올투자증권 공지 리서치센터] ★ 현대글로비스 (086280) Coverage 제외 ▶ 게시판 등록 자료(텔레그램 미게시) — 본문은 PDF 원문 참조",
+              "post_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144850/1/20260930_086280_ktbsec2_3828.pdf",
+              "source_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/144850/1/20260930_086280_ktbsec2_3828.pdf"
+            },
             {
               "id": "B144849",
               "date": "2026-09-30",
@@ -9608,7 +9725,7 @@
           ]
         }
       ],
-      "report_count": 58
+      "report_count": 61
     },
     {
       "month": "2026-08",
