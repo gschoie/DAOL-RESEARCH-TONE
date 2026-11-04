@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-04T03:08:11.839231+00:00",
+ "generated_at": "2026-11-04T20:19:36.515269+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1508,
+ "report_count": 1509,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35445,6 +35445,24 @@
    "title": "🔋 [LG에너지솔루션(373220)/BUY(유지)/TP 620,000원(유지)] - 3Q26 Review: 고성장 사이클 시작을 알리다 ▸ BUY·적정주가 62만원 유지: 2027년 EPS에 P/E 63배 적용.",
    "post_url": "https://t.me/daolresearch/15412",
    "source_url": "https://buly.kr/GkvNYmm"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-11-04",
+   "analyst": "유지웅",
+   "sector": "자동차/이차전지",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "민주당 양원 장악, 관세 완화 기대: 중간선거 결과로 자동차 업종 밸류에이션의 최대 부담이던 Section 232 완화 가능성이 커짐.",
+    "현대차(약 4.4조원)와 기아(3조원)의 대미 관세비용 철회 논의가 본격화되면 밸류에이션 빠르게 상승할 전망"
+   ],
+   "title": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 실적보다 먼저 찾아온 매수의 시간",
+   "post_url": "https://t.me/daolresearch/15416",
+   "source_url": "https://buly.kr/7mEjjqc"
   }
  ],
  "cross_mentions": [
@@ -37647,32 +37665,32 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 35.6
+   "term": "자에게",
+   "recent": 10,
+   "total": 10,
+   "sectors": 6,
+   "burst": 39.5
   },
   {
-   "term": "자에게",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 35.6
+   "term": "기관투자가",
+   "recent": 10,
+   "total": 10,
+   "sectors": 6,
+   "burst": 39.5
   },
   {
    "term": "압력이나",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 23.8
+   "recent": 7,
+   "total": 7,
+   "sectors": 4,
+   "burst": 27.6
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.8
+   "burst": 23.7
   },
   {
    "term": "낮추고",
@@ -37693,21 +37711,28 @@
    "recent": 24,
    "total": 30,
    "sectors": 3,
-   "burst": 13.6
+   "burst": 13.5
+  },
+  {
+   "term": "사항",
+   "recent": 6,
+   "total": 7,
+   "sectors": 5,
+   "burst": 11.8
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.6
+   "burst": 10.5
   },
   {
    "term": "원화",
    "recent": 26,
    "total": 36,
    "sectors": 12,
-   "burst": 9.4
+   "burst": 9.3
   },
   {
    "term": "PDF",
@@ -37725,10 +37750,10 @@
   },
   {
    "term": "사전",
-   "recent": 11,
-   "total": 16,
-   "sectors": 9,
-   "burst": 7.3
+   "recent": 12,
+   "total": 17,
+   "sectors": 10,
+   "burst": 7.9
   },
   {
    "term": "바스켓",
@@ -37743,13 +37768,6 @@
    "total": 17,
    "sectors": 8,
    "burst": 6.2
-  },
-  {
-   "term": "정체",
-   "recent": 9,
-   "total": 14,
-   "sectors": 5,
-   "burst": 5.9
   }
  ]
 }
