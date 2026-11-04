@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-04T22:12:20.893810+00:00",
+ "generated_at": "2026-11-04T22:47:43.586624+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1509,
+ "report_count": 1516,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35446,6 +35446,147 @@
    "title": "[다올투자증권 자동차/이차전지 유지웅] 🚘 자동차(Overweight) - 실적보다 먼저 찾아온 매수의 시간",
    "post_url": "https://t.me/daolresearch/15416",
    "source_url": "https://buly.kr/7mEjjqc"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-05",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "대웅제약",
+   "code": "069620",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "원화 강세에 따라 나보타 수출이 당사 추정 대비 하회한 것이 원인 [나보타] 1,163억원(YoY +118%), 수출 1,068억원(YoY +128%)."
+   ],
+   "title": "[대웅제약(069620)/ BUY(유지)/ TP 16만원(하향)/ 다올 의료기기 박종현] ★ 돌파구가 필요한 시간",
+   "post_url": "https://t.me/daolresearch/15418",
+   "source_url": "https://buly.kr/C0CvQoo"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-05",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "아이센스",
+   "code": "099190",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "다만 원화 강세로 매출 약 25억원, 영업이익 약 20억원이 훼손되며 QoQ 감익.",
+    "영업외에서 환율 관련 손실 약 87억원이 발생하며 지배순이익 -52억원으로 적자전환 [CGM] 매출액 104억원(YoY +82%, QoQ +10%)."
+   ],
+   "title": "[아이센스(099190)/ BUY(유지)/ TP 3.2만원(유지)/ 다올 의료기기 박종현] ★ 개발과 판매는 다른 숙제, 그래서 더 값진 성장",
+   "post_url": "https://t.me/daolresearch/15419",
+   "source_url": "https://buly.kr/DEcEIXe"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-11-05",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "에스엠",
+   "code": "041510",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "4Q 전체 모객 수는 QoQ-18% 감소하나 팬미팅 및 팬파티 제외 콘서트 모객은 소폭 증가 예상.",
+    "4Q NCT WISH, 드림 컴백으로 음반원 매출 QoQ 성장 예상"
+   ],
+   "title": "[에스엠(041510) | 다올 엔터 임도영] ★ 3Q26 Review: 27년 기존 IP도 바쁜데 신인까지",
+   "post_url": "https://t.me/daolresearch/15421",
+   "source_url": "https://buly.kr/8eoWnHw"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-05",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "company": "LG유플러스",
+   "code": "032640",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "동사는 ‘30년까지 자사+DBO를 포함한 데이터센터 용량을 600MW 이상으로 확대할 계획을 밝혔고, 200MW는 파주 1-4동, 나머지는 DBO 등으로 채워질",
+    "자체 AI DC인 파주 데이터센터는 ‘27년 6월 1동 가동 예정."
+   ],
+   "title": "[LG유플러스(032640) | BUY(유지) | TP 2만원(유지) | 다올 통신/음식료 이다연] ★ 3Q26 Review: 육하원칙 있는 AI DC 전략, 담백하다",
+   "post_url": "https://t.me/daolresearch/15422",
+   "source_url": "https://buly.kr/28wUV0v"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-05",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "환율 하락에 따른 수익성 우려는 있으나 미국 내 강관 수요 확대 방향은 동일.",
+    "여기에 환율 하락과 북미 프로젝트 납기 일정 차이로 북미 수출 비중이 47.2%에서 37.0%로 줄어든 것이 원인."
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 3분기는 아쉽지만 방향성은 동일",
+   "post_url": "https://t.me/daolresearch/15425",
+   "source_url": "https://buly.kr/6ikC0h9"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-11-05",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "수요가 확대되는데 반해 관세, 반덤핑으로 수입재 유입이 감소하면서 수급이 불안정한 것이 원인."
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 3분기는 아쉽지만 방향성은 동일",
+   "post_url": "https://t.me/daolresearch/15425",
+   "source_url": "https://buly.kr/6ikC0h9"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-05",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강금속/전력기기 이정우]"
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 3분기는 아쉽지만 방향성은 동일",
+   "post_url": "https://t.me/daolresearch/15425",
+   "source_url": "https://buly.kr/6ikC0h9"
+  },
+  {
+   "theme": "철강/철광석",
+   "category": "원자재",
+   "date": "2026-11-05",
+   "analyst": "이정우",
+   "sector": "철강/비철금속",
+   "company": "세아제강",
+   "code": "306200",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "국내 열연가격 상승에 판가 인상으로 대응.",
+    "또한, 미국 열연 유통가격 역시 지속 상승하며 원가 상승이 판가에 전이 중"
+   ],
+   "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 3분기는 아쉽지만 방향성은 동일",
+   "post_url": "https://t.me/daolresearch/15425",
+   "source_url": "https://buly.kr/6ikC0h9"
   }
  ],
  "cross_mentions": [
@@ -37648,109 +37789,109 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 31.6
-  },
-  {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.6
+   "burst": 32.2
+  },
+  {
+   "term": "기관투자가",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 32.2
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.7
+   "burst": 24.1
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.7
+   "burst": 24.1
+  },
+  {
+   "term": "감익",
+   "recent": 12,
+   "total": 14,
+   "sectors": 7,
+   "burst": 16.1
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 15.8
-  },
-  {
-   "term": "감익",
-   "recent": 11,
-   "total": 13,
-   "sectors": 7,
-   "burst": 14.5
+   "burst": 16.1
   },
   {
    "term": "통신",
    "recent": 24,
-   "total": 30,
+   "total": 32,
    "sectors": 3,
-   "burst": 13.5
+   "burst": 10.7
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.5
+   "burst": 10.7
   },
   {
    "term": "원화",
-   "recent": 26,
-   "total": 36,
+   "recent": 29,
+   "total": 39,
    "sectors": 12,
-   "burst": 9.3
+   "burst": 10.6
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 8.9
+   "burst": 9.0
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 7.9
+   "burst": 8.0
   },
   {
    "term": "사전",
    "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 6.6
+   "burst": 6.7
   },
   {
    "term": "바스켓",
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.3
-  },
-  {
-   "term": "우선",
-   "recent": 11,
-   "total": 17,
-   "sectors": 8,
-   "burst": 6.2
+   "burst": 6.4
   },
   {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 5.9
+   "burst": 6.0
+  },
+  {
+   "term": "자사",
+   "recent": 6,
+   "total": 9,
+   "sectors": 7,
+   "burst": 6.0
   }
  ]
 }
