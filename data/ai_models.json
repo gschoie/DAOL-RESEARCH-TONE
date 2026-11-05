@@ -36,6 +36,7 @@
  "models/gemini-flash-lite-latest",
  "models/gemini-nano-banana-2.1",
  "models/gemini-omni-1.1-flash",
+ "models/gemini-omni-1.2-flash",
  "models/gemini-omni-flash-preview",
  "models/gemini-pro-latest",
  "models/gemini-robotics-er-2-preview",

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-05T03:40:13.827134+00:00",
+ "generated_at": "2026-11-05T20:31:54.427318+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1516,
+ "report_count": 1517,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35587,6 +35587,58 @@
    "title": "[세아제강(306200)/ BUY(유지)/ TP 20만원(유지)/ 다올 철강금속/전력기기 이정우] ★ 3분기는 아쉽지만 방향성은 동일",
    "post_url": "https://t.me/daolresearch/15425",
    "source_url": "https://buly.kr/6ikC0h9"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-11-05",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "바뀐",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "관세 불변, AI 규제는 내러티브가 실질에 앞서 반도체 심리 변동성 확대."
+   ],
+   "title": "[Market Issue / 다올투자증권 매크로·투자전략 조병현] ★ 바뀐 의회, 바뀌기 힘든 정책",
+   "post_url": "https://t.me/daolresearch/15429",
+   "source_url": "https://buly.kr/BIXtgS3"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-05",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "바뀐",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "전력 인프라에서는 2차전지 선호, 신재생 추격 경계."
+   ],
+   "title": "[Market Issue / 다올투자증권 매크로·투자전략 조병현] ★ 바뀐 의회, 바뀌기 힘든 정책",
+   "post_url": "https://t.me/daolresearch/15429",
+   "source_url": "https://buly.kr/BIXtgS3"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-11-05",
+   "analyst": "조병현",
+   "sector": "전략/시황",
+   "company": "바뀐",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "미국채 금리 상방압력 제한 재정 확장 제동, 유가 하락으로 하방 압력성장 둔화에 대한 전망 심화 성장주 밸류에이션에 우호적성장 둔화 및 변동성 리스크 잔존",
+    "내러티브에 휩쓸리기보다 팩트체크를 통한 분야별 상황 변화 가능성을 인지할 필요 -가시적 변화를 기대해 볼 수 있는 부분은 유가 및 금리의 상방 압력 완화."
+   ],
+   "title": "[Market Issue / 다올투자증권 매크로·투자전략 조병현] ★ 바뀐 의회, 바뀌기 힘든 정책",
+   "post_url": "https://t.me/daolresearch/15429",
+   "source_url": "https://buly.kr/BIXtgS3"
   }
  ],
  "cross_mentions": [
@@ -37789,46 +37841,46 @@
  ],
  "candidates": [
   {
-   "term": "자에게",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 32.2
-  },
-  {
    "term": "기관투자가",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.2
+   "burst": 32.1
   },
   {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 24.1
+   "term": "자에게",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 32.1
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.1
+   "burst": 24.0
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.0
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 14,
    "sectors": 7,
-   "burst": 16.1
+   "burst": 16.0
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.1
+   "burst": 16.0
   },
   {
    "term": "통신",

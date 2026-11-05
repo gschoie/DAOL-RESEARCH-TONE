@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05 12:40",
+ "generated": "2026-11-06 05:37",
  "window_days": 7,
  "analysts": [
   "조병현",
@@ -9,9 +9,27 @@
   "file": "macro_daol/macro_daol_1w.md",
   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/macro_daol_1w.md",
   "count": 1,
-  "chars": 3892
+  "chars": 914
  },
  "items": [
+  {
+   "id": "15429",
+   "date": "2026-11-05",
+   "weekday": "목",
+   "analyst": "조병현",
+   "title": "바뀐 의회, 바뀌기 힘든 정책",
+   "file": "macro_daol/2026-11-05_15429.md",
+   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-11-05_15429.md",
+   "src": "telegram",
+   "kr": 441,
+   "chars": 776,
+   "model": "",
+   "post_url": "https://t.me/daolresearch/15429",
+   "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146128/1/20261105_B_bhcho_314.pdf",
+   "generated": "2026-11-06 05:37",
+   "in_window": true,
+   "final": false
+  },
   {
    "id": "15351",
    "date": "2026-10-29",
@@ -27,7 +45,7 @@
    "post_url": "https://t.me/daolresearch/15351",
    "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/145836/1/20261029_B_bhcho_312.pdf",
    "generated": "2026-10-29 09:53",
-   "in_window": true,
+   "in_window": false,
    "final": true
   },
   {
