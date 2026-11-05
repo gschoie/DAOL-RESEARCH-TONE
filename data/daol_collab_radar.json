@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-05T20:31:54.427318+00:00",
+ "generated_at": "2026-11-05T22:15:17.852015+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1517,
+ "report_count": 1518,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35639,6 +35639,23 @@
    "title": "[Market Issue / 다올투자증권 매크로·투자전략 조병현] ★ 바뀐 의회, 바뀌기 힘든 정책",
    "post_url": "https://t.me/daolresearch/15429",
    "source_url": "https://buly.kr/BIXtgS3"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-06",
+   "analyst": "이지수",
+   "sector": "제약/바이오",
+   "company": "SK바이오팜",
+   "code": "326030",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "환율 하락으로 매출은 전분기 수준이나, DTC 광고 및 환자 지원 프로그램 효과로 처방 확대 전망."
+   ],
+   "title": "[SK바이오팜(326030) | BUY(유지) | TP 16만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 본업은 탄탄, 다음은 오파칼림",
+   "post_url": "https://t.me/daolresearch/15431",
+   "source_url": "https://buly.kr/8eoX9fN"
   }
  ],
  "cross_mentions": [
@@ -37841,109 +37858,109 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 32.1
-  },
-  {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.1
+   "burst": 32.9
   },
   {
-   "term": "압력이나",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 24.0
+   "term": "기관투자가",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 32.9
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.0
+   "burst": 24.7
+  },
+  {
+   "term": "압력이나",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.7
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 14,
    "sectors": 7,
-   "burst": 16.0
+   "burst": 16.4
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.0
-  },
-  {
-   "term": "통신",
-   "recent": 24,
-   "total": 32,
-   "sectors": 3,
-   "burst": 10.7
+   "burst": 16.4
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.7
+   "burst": 11.0
   },
   {
    "term": "원화",
-   "recent": 29,
+   "recent": 28,
    "total": 39,
    "sectors": 12,
-   "burst": 10.6
+   "burst": 9.6
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.0
+   "burst": 9.2
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.0
+   "burst": 8.2
+  },
+  {
+   "term": "통신",
+   "recent": 22,
+   "total": 32,
+   "sectors": 3,
+   "burst": 8.2
   },
   {
    "term": "사전",
    "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 6.7
+   "burst": 6.9
   },
   {
    "term": "바스켓",
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.4
+   "burst": 6.6
   },
   {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 6.0
+   "burst": 6.2
   },
   {
    "term": "자사",
    "recent": 6,
    "total": 9,
    "sectors": 7,
-   "burst": 6.0
+   "burst": 6.2
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T20:28:07.173291+00:00",
+  "generated_at": "2026-11-05T22:15:04.453549+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1517,
+  "report_count": 1518,
   "months": [
     {
       "month": "2026-11",
@@ -1218,8 +1218,35 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15431,
+              "date": "2026-11-06",
+              "month": "2026-11",
+              "analyst": "이지수",
+              "sector": "제약/바이오",
+              "company": "SK바이오팜",
+              "code": "326030",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146147/1/20261106_326030_jislee_492.pdf",
+              "pdf_error": "",
+              "title": "[SK바이오팜(326030) | BUY(유지) | TP 16만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 본업은 탄탄, 다음은 오파칼림",
+              "summary": "[SK바이오팜(326030) | BUY(유지) | TP 16만원(유지) | 다올투자증권 제약/바이오 이지수 ☎ 02-2184-2363] ★ 본업은 탄탄, 다음은 오파칼림 ▶ 3Q26 매출액 2,584억원(+34.8% YoY), 영업이익 1,163억원(+65.9% YoY)으로 시장 기대치 상회. 엑스코프리 일본 허가 마일스톤 및 아시아 임상 종료에 따른 일회성 용역 매출 반영 ▶ 미국 엑스코프리 처방량(TRx)은 약 15.2만건(+6.0% QoQ)으로 성장 지속. 환율 하락으로 매출은 전분기 수준이나, DTC 광고 및 환자 지원 프로그램 효과로 처방 확대 전망. PGTC(전신 발작) 및 소아 적응증 확장 허가 신청 완료로 중장기 성장 여력 확보. 4Q는 R&D 및 마케팅 비용 집중으로 이익 감소 예상 ▶ 오파칼림은 12월 핵심 임상 2/3상(RISE-3) 탑라인 발표 예정. 긍정적 데이터 및 부분 임상 보류 해제 시 불확실성 해소와 뇌전증 포트폴리오 확대 기대. 투자의견 BUY 및 적정주가 16만원 유지 ★ 보고서원문 및 컴플라이언스 → < https://buly.kr/8eoX9fN >",
+              "post_url": "https://t.me/daolresearch/15431",
+              "source_url": "https://buly.kr/8eoX9fN"
+            },
             {
               "id": 15393,
               "date": "2026-11-03",
@@ -1564,7 +1591,7 @@
           ]
         }
       ],
-      "report_count": 34
+      "report_count": 35
     },
     {
       "month": "2026-10",
