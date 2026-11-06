@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T02:00:36.736094+00:00",
+ "generated_at": "2026-11-06T02:07:42.184256+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1524,
  "hits": [
@@ -35915,6 +35915,23 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 1주차)]",
    "post_url": "https://t.me/daolresearch/15441",
    "source_url": "https://buly.kr/3u64gLu"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-06",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "Il, 이벤트 일정 & 증시 동향 및 전망 40 국채 저가매수 흐름이 나타났으며, 중간선거 이후 트럼프와 공화당이 확대된 국방 예산을 확보하기 어렵다는 점에서 재성 5.3%에서 4.8%대까지 BH 빠른 금리 하락을 경험한 만큼 물가지표가 예상지를 상회할 경우 일부 되돌림이 발생할 수 있 일자 국가/지역 일정 및 이벤트 단위 예상치 이전치"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15441",
+   "source_url": "https://buly.kr/3u64gLu"
   }
  ],
  "cross_mentions": [
@@ -38117,13 +38134,6 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 32.2
-  },
-  {
    "term": "자에게",
    "recent": 8,
    "total": 8,
@@ -38131,14 +38141,21 @@
    "burst": 32.2
   },
   {
-   "term": "압력이나",
+   "term": "기관투자가",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 32.2
+  },
+  {
+   "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
    "burst": 24.2
   },
   {
-   "term": "간섭",
+   "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
