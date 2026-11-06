@@ -1,10 +1,10 @@
 {
- "ran_at": "2026-11-05T22:59:46.694095+00:00",
+ "ran_at": "2026-11-06T01:59:39.667382+00:00",
  "provider": "gemini",
- "analyzed": 1,
- "errors": 2,
- "cached_total": 1521,
- "pending_left": 2,
+ "analyzed": 2,
+ "errors": 1,
+ "cached_total": 1523,
+ "pending_left": 1,
  "model_tried": "gemini-flash-lite-latest",
  "last_error": "Gemini API error 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
 }

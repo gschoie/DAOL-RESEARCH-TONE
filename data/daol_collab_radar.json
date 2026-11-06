@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-05T22:59:49.209024+00:00",
+ "generated_at": "2026-11-06T02:00:36.736094+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1523,
+ "report_count": 1524,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35846,6 +35846,75 @@
    "title": "🚘 [넥센타이어(002350)/BUY(유지)/TP 9,000원(유지)] - 3Q26 Review: 저점에서 불어오는 바람 ▸ 투자의견 및 적정주가 유지: BUY 유지, 적정주가 9,000원(2027년 EPS, P/E 7.7배 적용).",
    "post_url": "https://t.me/daolresearch/15437",
    "source_url": "https://buly.kr/9iJ52mj"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-11-06",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "주 초반 미국·이란 협상 기대감에 힘입어 상승 출발."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15441",
+   "source_url": "https://buly.kr/3u64gLu"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-06",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "이후 중간선거에서 블루 웨이브가 나타나자 데이터센터 규제 우려가 확산, 반도체 업종 위주 낙폭 확대.",
+    "하이퍼스케일러 FCF 부담이 27년 상반기 절정으로 예상되고, AI 규제 내러티브도 27년 회기 초반까지 잔존할 수 있다는 부담 요인들이 존재."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15441",
+   "source_url": "https://buly.kr/3u64gLu"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-06",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "️ 차주 증시 전망 (11/09~11/13) -중간선거 이후 AI 밸류체인(반도체, H/W, 전력기기)을 중심으로 변동성 확대."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15441",
+   "source_url": "https://buly.kr/3u64gLu"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-11-06",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "그러나 유가가 급락에도 불구하고, 미국 중간선거 앞두고 경계심리 형성되며 변동성 확대."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 1주차)]",
+   "post_url": "https://t.me/daolresearch/15441",
+   "source_url": "https://buly.kr/3u64gLu"
   }
  ],
  "cross_mentions": [
@@ -38052,49 +38121,56 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.3
+   "burst": 32.2
   },
   {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.3
+   "burst": 32.2
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.3
+   "burst": 24.2
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.3
+   "burst": 24.2
+  },
+  {
+   "term": "중간선거",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.2
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 14,
    "sectors": 7,
-   "burst": 16.2
+   "burst": 16.1
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.2
+   "burst": 16.1
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.8
+   "burst": 10.7
   },
   {
    "term": "원화",
@@ -38115,7 +38191,7 @@
    "recent": 23,
    "total": 33,
    "sectors": 3,
-   "burst": 8.5
+   "burst": 8.4
   },
   {
    "term": "Data",
@@ -38136,21 +38212,14 @@
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.5
+   "burst": 6.4
   },
   {
    "term": "정체",
    "recent": 9,
    "total": 14,
    "sectors": 5,
-   "burst": 6.1
-  },
-  {
-   "term": "자사",
-   "recent": 6,
-   "total": 9,
-   "sectors": 7,
-   "burst": 6.1
+   "burst": 6.0
   }
  ]
 }
