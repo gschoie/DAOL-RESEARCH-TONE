@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09 07:47",
+ "generated": "2026-11-09 08:03",
  "window_days": 7,
  "analysts": [
   "조병현",
@@ -8,10 +8,28 @@
  "combined": {
   "file": "macro_daol/macro_daol_1w.md",
   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/macro_daol_1w.md",
-  "count": 1,
-  "chars": 25528
+  "count": 2,
+  "chars": 26307
  },
  "items": [
+  {
+   "id": "15459",
+   "date": "2026-11-09",
+   "weekday": "월",
+   "analyst": "조병현",
+   "title": "미국 10월 고용 Review: 관심 밖 견조했던 고용",
+   "file": "macro_daol/2026-11-09_15459.md",
+   "url": "https://gschoie.github.io/DAOL-RESEARCH-TONE/macro_daol/2026-11-09_15459.md",
+   "src": "telegram",
+   "kr": 342,
+   "chars": 772,
+   "model": "",
+   "post_url": "https://t.me/daolresearch/15459",
+   "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146238/1/20261109_B_bhcho_316.pdf",
+   "generated": "2026-11-09 08:03",
+   "in_window": true,
+   "final": false
+  },
   {
    "id": "15429",
    "date": "2026-11-05",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-08T22:47:47.079569+00:00",
+  "generated_at": "2026-11-08T23:00:15.988513+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1532,
+  "report_count": 1535,
   "months": [
     {
       "month": "2026-11",
@@ -328,10 +328,63 @@
             }
           ],
           "top_pick_change": "해당 기간 최초 명시",
-          "tp_changes": [],
+          "tp_changes": [
+            {
+              "company": "한국타이어앤테크놀로지",
+              "direction": "유지",
+              "old": null,
+              "new": 100000,
+              "display": "100,000원 (유지)",
+              "reasons": [
+                "어닝/실적 추정 상향"
+              ],
+              "evidence": "🚘 [한국타이어앤테크놀로지(161390)/BUY(유지)/TP 100,000원(유지)] - 3Q26 Review: 이번에도 선방 ▸ 투자의견 BUY 및 적정주가 10만원 유지: 2026년 수정 BPS에 1.1배 적용. 유가 하락에 따른 2027년 상반기 스프레드 개선 기대와 한온시스템 성과 개선, 배당 확대 기조 등 다각도 투자 메리트 보유 ▸ 3Q26 영업이익 시장 기대치 상회: 매출액 5.5조원(YoY +1.0%), 영업이익 5,988억원(YoY +2.2%). 원재료 우려에도 물량 및 판가 인상으로 극복했으며, 4Q26부터 스프레드 안정화 구간 진입 전망 ▸ 사업부별 실적 분화: 타이어 매출 2.8조원(YoY +3.7%), 영업이익 5,059억원(YoY -2.6%). 열관리 시스템 매출 2.7조원(YoY -1.8%), 영업이익 1,206억원(YoY +26.6%). (한온시스템 PPA 상각비 279억원 유지) ▸ 지역별 실",
+              "date": "2026-11-09",
+              "source": "https://t.me/daolresearch/15458"
+            }
+          ],
           "tp_raises": [],
-          "report_count": 3,
+          "report_count": 4,
           "reports": [
+            {
+              "id": 15458,
+              "date": "2026-11-09",
+              "month": "2026-11",
+              "analyst": "미분류",
+              "sector": "미분류",
+              "company": "한국타이어앤테크놀로지",
+              "code": "161390",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [
+                {
+                  "company": "한국타이어앤테크놀로지",
+                  "direction": "유지",
+                  "old": null,
+                  "new": 100000,
+                  "display": "100,000원 (유지)",
+                  "reasons": [
+                    "어닝/실적 추정 상향"
+                  ],
+                  "evidence": "🚘 [한국타이어앤테크놀로지(161390)/BUY(유지)/TP 100,000원(유지)] - 3Q26 Review: 이번에도 선방 ▸ 투자의견 BUY 및 적정주가 10만원 유지: 2026년 수정 BPS에 1.1배 적용. 유가 하락에 따른 2027년 상반기 스프레드 개선 기대와 한온시스템 성과 개선, 배당 확대 기조 등 다각도 투자 메리트 보유 ▸ 3Q26 영업이익 시장 기대치 상회: 매출액 5.5조원(YoY +1.0%), 영업이익 5,988억원(YoY +2.2%). 원재료 우려에도 물량 및 판가 인상으로 극복했으며, 4Q26부터 스프레드 안정화 구간 진입 전망 ▸ 사업부별 실적 분화: 타이어 매출 2.8조원(YoY +3.7%), 영업이익 5,059억원(YoY -2.6%). 열관리 시스템 매출 2.7조원(YoY -1.8%), 영업이익 1,206억원(YoY +26.6%). (한온시스템 PPA 상각비 279억원 유지) ▸ 지역별 실"
+                }
+              ],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146235/1/20261109_161390_jwyoo_690.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "🚘 [한국타이어앤테크놀로지(161390)/BUY(유지)/TP 100,000원(유지)] - 3Q26 Review: 이번에도 선방 ▸ 투자의견 BUY 및 적정주가 10만원 유지: 2026년 수정 BPS에 1.1배 적용.",
+              "summary": "🚘 [한국타이어앤테크놀로지(161390)/BUY(유지)/TP 100,000원(유지)] - 3Q26 Review: 이번에도 선방 ▸ 투자의견 BUY 및 적정주가 10만원 유지: 2026년 수정 BPS에 1.1배 적용. 유가 하락에 따른 2027년 상반기 스프레드 개선 기대와 한온시스템 성과 개선, 배당 확대 기조 등 다각도 투자 메리트 보유 ▸ 3Q26 영업이익 시장 기대치 상회: 매출액 5.5조원(YoY +1.0%), 영업이익 5,988억원(YoY +2.2%). 원재료 우려에도 물량 및 판가 인상으로 극복했으며, 4Q26부터 스프레드 안정화 구간 진입 전망 ▸ 사업부별 실적 분화: 타이어 매출 2.8조원(YoY +3.7%), 영업이익 5,059억원(YoY -2.6%). 열관리 시스템 매출 2.7조원(YoY -1.8%), 영업이익 1,206억원(YoY +26.6%). (한온시스템 PPA 상각비 279억원 유지) ▸ 지역별 실적 및 원가 Peak-Out: 북미(+8.2%), 중국(+6.8%), 유럽(+6.2%) 성장세나 한국(-4.7%)은 부진. 3Q26 고원가 재료비 투입 Peak-Out 확인으로 유가 하락 기반 1Q27부터 스프레드 개선 기대 ▸ 미국 공장 램프업 및 관세 모멘텀: 테네시 공장 램프업 완료로 이익 탄력 구간 진입. 향후 미국 부품관세 완화 시 관세 비용 절감(현 매출 1% 수준) 및 수출 볼륨 증가를 통한 고성장 전환 기대 * 보고서 원문 및 컴플라이언스 < https://buly.kr/CM2Sqpo > * 텔레그램 채널 < https://t.me/auto_revolution >",
+              "post_url": "https://t.me/daolresearch/15458",
+              "source_url": "https://buly.kr/CM2Sqpo"
+            },
             {
               "id": 15437,
               "date": "2026-11-06",
@@ -699,8 +752,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 13,
+          "report_count": 14,
           "reports": [
+            {
+              "id": 15456,
+              "date": "2026-11-09",
+              "month": "2026-11",
+              "analyst": "박종현",
+              "sector": "화장품/의료기기",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ Implication 23종목 중 추정 선행 1종목(실리콘투), 추정 하향 5종목(인터로조·씨젠·LG생활건강·파마리서치·한국콜마), 동행 하향 2종목(아이센스·인바디) 외국인 순매도·기관 순매수 우위.",
+              "report_conclusion": "▶ Implication 23종목 중 추정 선행 1종목(실리콘투), 추정 하향 5종목(인터로조·씨젠·LG생활건강·파마리서치·한국콜마), 동행 하향 2종목(아이센스·인바디) 외국인 순매도·기관 순매수 우위.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146236/1/20261109_B3510_alex.park_656.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[다올 화장품/의료기기 박종현] - 주간 모멘텀 체크: 알렉스 빡 다방 (11/9)",
+              "summary": "[다올 화장품/의료기기 박종현] - 주간 모멘텀 체크: 알렉스 빡 다방 (11/9) ▶ Implication 23종목 중 추정 선행 1종목(실리콘투), 추정 하향 5종목(인터로조·씨젠·LG생활건강·파마리서치·한국콜마), 동행 하향 2종목(아이센스·인바디) 외국인 순매도·기관 순매수 우위. 한국콜마·코스메카코리아·파마리서치는 외국인 매도에 기관 순매수 대응, 에이피알·휴젤·대웅제약은 외국인·기관 동반 순매수. RSI 30 이하 실리콘투·아이센스·리센스메디컬·엘앤씨바이오 에이피알·엘앤씨바이오는 기관 순매수 확대에도 주가 시장 대비 약세. 휴젤·클래시스·대웅제약은 대체 지표와 당사 추정 방향 상이 * 보고서 원문 및 컴플라이언스 < https://buly.kr/7bK0MpN > * 텔레그램 채널 링크 < https://t.me/alexppark >",
+              "post_url": "https://t.me/daolresearch/15456",
+              "source_url": "https://buly.kr/7bK0MpN"
+            },
             {
               "id": 15451,
               "date": "2026-11-09",
@@ -1860,7 +1940,8 @@
         {
           "analyst": "조병현",
           "sectors": [
-            "매크로·투자전략"
+            "매크로·투자전략",
+            "투자전략"
           ],
           "opinion": "명시 없음",
           "opinion_history": [],
@@ -1868,8 +1949,35 @@
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15459,
+              "date": "2026-11-09",
+              "month": "2026-11",
+              "analyst": "조병현",
+              "sector": "투자전략",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶ 따라서 최근 주가지수 급락으로 일부 동결 가능성도 거론되고 있지만, 당사는 12월 인상 시나리오가 더욱 강화되었다고 판단.",
+              "report_conclusion": "▶ 따라서 최근 주가지수 급락으로 일부 동결 가능성도 거론되고 있지만, 당사는 12월 인상 시나리오가 더욱 강화되었다고 판단.",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146238/1/20261109_B_bhcho_316.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[Macro Issue / 다올투자증권 박영찬 연구원, 매크로·투자전략 조병현] ★ 미국 10월 고용 Review: 관심 밖 견조했던 고용",
+              "summary": "[Macro Issue / 다올투자증권 박영찬 연구원, 매크로·투자전략 조병현] ★ 미국 10월 고용 Review: 관심 밖 견조했던 고용 ▶ 미국 10월 비농업고용은 16.5만명 증가하며 예상치(+7.0만명) 및 전월치(6.0만명)를 상회 ▶ 정부보다 민간(7.8만명 → 15.9만명)의 고용이 크게 증가. 특히 전문서비스(0.8만명 → 7.0만명)와 헬스케어(1.8만명 → 4.2만명) 주도로 서비스 제공(5.1만명 → 14.4만명) 부문이 크게 증가 ▶ 실업률은 4.2% → 4.1%로 하락. 시간당 평균 임금은 yoy/mom 기준 3.1%/0.4% 상승. 반면, 실업률(U-6)은 7.6% → 7.9%로 반등. 27주 이상 장기실업자 비중도 27.1% → 27.6%로 상승 ▶ 일부 의구심이 드는 부분(월간 고용지표의 높은 변동성, 질적인 취약 지점)도 있지만 1) 헤드라인 고용의 추세적인 회복과 함께 2) 임금 상승 압력이 예상보다 크게 확대되었고, 3) 여타 고용지표(ADP 민간고용, JOLTS, CG&C 감원보고서, 실업수당 청구건수)에서도 양호한 흐름이 함께 확인 ▶ 따라서 최근 주가지수 급락으로 일부 동결 가능성도 거론되고 있지만, 당사는 12월 인상 시나리오가 더욱 강화되었다고 판단. 12월 추가 인상 전망 및 10년물 금리의 적정 레인지 4.8~5.2% 유지 ♣️ 보고서 원문 및 Compliance Notice : https://buly.kr/6XpSTxf",
+              "post_url": "https://t.me/daolresearch/15459",
+              "source_url": "https://buly.kr/6XpSTxf"
+            },
             {
               "id": 15429,
               "date": "2026-11-05",
@@ -2217,7 +2325,7 @@
           ]
         }
       ],
-      "report_count": 49
+      "report_count": 52
     },
     {
       "month": "2026-10",
