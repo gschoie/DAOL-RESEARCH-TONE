@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-08T18:16:29.349721+00:00",
+ "generated_at": "2026-11-08T22:13:47.512838+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1527,
+ "report_count": 1532,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36072,6 +36072,110 @@
    "title": "[LIG디펜스앤에어로스페이스(079550)/BUY(유지)/TP 840,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ LIG디펜스앤에어로스페이스(079550) : 환과 한화 때문. 2026-2028은 성장 유지",
    "post_url": "https://t.me/daolresearch/15445",
    "source_url": "https://bit.ly/LIG3Q26RE"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-11-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "한국콜마",
+   "code": "161890",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "투자의견 2027E EPS 9,400원에 글로벌 화장품 평균 PER 40% 할인 적용."
+   ],
+   "title": "[한국콜마(161890)/ BUY(유지)/ TP 17만원(하향)/ 다올 화장품 박종현] ★ 수요가 받쳐주는 하방",
+   "post_url": "https://t.me/daolresearch/15447",
+   "source_url": "https://buly.kr/CWxDoy6"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "씨젠",
+   "code": "096530",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "연초 누적 평균환율로 환산하는 구조상 1H26 대비 원화 강세분이 3Q에 몰리며 매출 약 60억원 감소, 일회성 퇴직급여 36억원도 반영.",
+    "원화 강세에 따른 ASP 하락으로 2027E 매출액 5,839억원(YoY +11%), 영업이익 917억원(YoY +19%)으로 기존 대비 각각 -6%, -20% 하향."
+   ],
+   "title": "[씨젠(096530)/ BUY(유지)/ TP 5만원(하향)/ 다올 의료기기 박종현] ★ 이럴 때 눈에 띄는 배당",
+   "post_url": "https://t.me/daolresearch/15449",
+   "source_url": "https://buly.kr/GvqALLn"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "파마리서치",
+   "code": "214450",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "투자의견 원화 강세로 의료 관광 성장세는 둔화되며 내",
+    "수출 421억원(YoY +92%)은 우크라이나 선취 물량 소멸과 원화 강세에도 2Q 수준 유지."
+   ],
+   "title": "[파마리서치(214450)/ BUY(유지)/ TP 45만원(유지)/ 다올 의료기기 박종현] ★ 화장품이 메운 비수기",
+   "post_url": "https://t.me/daolresearch/15450",
+   "source_url": "https://buly.kr/BpIBtgJ"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-11-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "파마리서치",
+   "code": "214450",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "2027E EPS 19,983원에 글로벌 화장품·의료기기 가중평균 PER을 마진율 하락 감안해 25% 할인한 22.7배 적용."
+   ],
+   "title": "[파마리서치(214450)/ BUY(유지)/ TP 45만원(유지)/ 다올 의료기기 박종현] ★ 화장품이 메운 비수기",
+   "post_url": "https://t.me/daolresearch/15450",
+   "source_url": "https://buly.kr/BpIBtgJ"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "코스메카코리아",
+   "code": "241710",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "분기 말 원/달러 환율 12% 하락에 따른 외화환산손실로 지배순이익 109억원(YoY -35%)"
+   ],
+   "title": "[코스메카코리아(241710)/ BUY(유지)/ TP 14만원(하향)/ 다올 화장품 박종현] ★ 줄은 긴데 주방이 좁다",
+   "post_url": "https://t.me/daolresearch/15451",
+   "source_url": "https://buly.kr/B7d9yPN"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-11-09",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "코스메카코리아",
+   "code": "241710",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "글로벌 화장품 평균 PER 40% 할인 적용."
+   ],
+   "title": "[코스메카코리아(241710)/ BUY(유지)/ TP 14만원(하향)/ 다올 화장품 박종현] ★ 줄은 긴데 주방이 좁다",
+   "post_url": "https://t.me/daolresearch/15451",
+   "source_url": "https://buly.kr/B7d9yPN"
   }
  ],
  "cross_mentions": [
@@ -38270,113 +38374,125 @@
    "evidence": "현대차향 N87·포드향 N65 판매 재개가 회복을 이끌었고, 현대차그룹향은 출하 이연 효과로 QoQ 약 +80% ▸ 4Q26 증가세 가속: 양극재 판매량 1.5만톤(QoQ +40%) 추정.",
    "title": "🔋 [포스코퓨처엠(003670)/BUY(유지)/TP 290,000원(유지)] 3Q26 Review: 일회성 외에도 나타나는 긍정적 변화들 ▸ 최선호주 유지: BUY 유지, 적정주가 29만원 유지.",
    "post_url": "https://t.me/daolresearch/15398"
+  },
+  {
+   "company": "HK이노엔",
+   "code": "195940",
+   "owner_analyst": "이지수",
+   "owner_sector": "제약/바이오",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "date": "2026-11-09",
+   "evidence": "당사 추정 대비 영업이익 86억원 하회, 이 중 65억원이 HK이노엔과 국내 별도에서 발생.",
+   "title": "[한국콜마(161890)/ BUY(유지)/ TP 17만원(하향)/ 다올 화장품 박종현] ★ 수요가 받쳐주는 하방",
+   "post_url": "https://t.me/daolresearch/15447"
   }
  ],
  "candidates": [
-  {
-   "term": "기관투자가",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 31.9
-  },
   {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 31.9
+   "burst": 32.6
   },
   {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 23.9
+   "term": "기관투자가",
+   "recent": 8,
+   "total": 8,
+   "sectors": 4,
+   "burst": 32.6
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.9
+   "burst": 24.4
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.4
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 23.9
+   "burst": 24.4
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 14,
    "sectors": 7,
-   "burst": 16.0
+   "burst": 16.3
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.0
+   "burst": 16.3
+  },
+  {
+   "term": "원화",
+   "recent": 33,
+   "total": 44,
+   "sectors": 12,
+   "burst": 11.2
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.6
-  },
-  {
-   "term": "원화",
-   "recent": 31,
-   "total": 42,
-   "sectors": 12,
-   "burst": 10.3
+   "burst": 10.9
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.0
-  },
-  {
-   "term": "통신",
-   "recent": 24,
-   "total": 34,
-   "sectors": 3,
-   "burst": 8.7
+   "burst": 9.2
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.0
+   "burst": 8.1
+  },
+  {
+   "term": "자사",
+   "recent": 7,
+   "total": 10,
+   "sectors": 7,
+   "burst": 7.1
+  },
+  {
+   "term": "통신",
+   "recent": 22,
+   "total": 34,
+   "sectors": 3,
+   "burst": 6.9
   },
   {
    "term": "사전",
    "recent": 10,
    "total": 15,
    "sectors": 8,
-   "burst": 6.7
+   "burst": 6.8
   },
   {
    "term": "바스켓",
    "recent": 8,
    "total": 12,
    "sectors": 3,
-   "burst": 6.4
-  },
-  {
-   "term": "정체",
-   "recent": 9,
-   "total": 14,
-   "sectors": 5,
-   "burst": 6.0
+   "burst": 6.5
   }
  ]
 }
