@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-08T02:39:21.706951+00:00",
+ "generated_at": "2026-11-08T18:16:29.349721+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1524,
+ "report_count": 1527,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -35933,6 +35933,145 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 1주차)]",
    "post_url": "https://t.me/daolresearch/15441",
    "source_url": "https://buly.kr/3u64gLu"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-08",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "삼양식품",
+   "code": "003230",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "원화 강세로 인한 P 효과 상쇄, 유럽향 물량 선적 지연 및 거래선 변경에 따른 매출 공백에도 중국, 미국 법인 매출액이 각각 QoQ +12.1%, +2.5% 증가함.",
+    "원가율 상승은 1) 주요 공장 Full 가동 상태로 영업 레버리지가 제한적으로 나타난 점, 2) 환율 변동에 따라 P 효과가 감소한 점, 3) 전쟁 관련 비용 상승에 기인."
+   ],
+   "title": "[삼양식품(003230) | BUY(유지) | TP 190만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Review: 수요가 CAPA를 부른다",
+   "post_url": "https://t.me/daolresearch/15443",
+   "source_url": "https://t.me/daolresearch/15443"
+  },
+  {
+   "theme": "관세/무역분쟁",
+   "category": "매크로",
+   "date": "2026-11-08",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "삼양식품",
+   "code": "003230",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "원가율 상승에도 불구, 마케팅비 감소(QoQ -70억원), 유가 하락에 따른 물류비 감소(QoQ -110억원) 로 당기 영업이익은 관세 환급금을 제외하더라도 당사 추정치(1,798억원) 부합",
+    "[영업이익] 당 분기 관세환급금 190억원 반영(*매출원가 차감으로 반영)."
+   ],
+   "title": "[삼양식품(003230) | BUY(유지) | TP 190만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Review: 수요가 CAPA를 부른다",
+   "post_url": "https://t.me/daolresearch/15443",
+   "source_url": "https://t.me/daolresearch/15443"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-11-08",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "삼양식품",
+   "code": "003230",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "원가율 상승에도 불구, 마케팅비 감소(QoQ -70억원), 유가 하락에 따른 물류비 감소(QoQ -110억원) 로 당기 영업이익은 관세 환급금을 제외하더라도 당사 추정치(1,798억원) 부합"
+   ],
+   "title": "[삼양식품(003230) | BUY(유지) | TP 190만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Review: 수요가 CAPA를 부른다",
+   "post_url": "https://t.me/daolresearch/15443",
+   "source_url": "https://t.me/daolresearch/15443"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-08",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 조선 호재 만발: 탱커와 VLAC 수주, YPF FLNG, 필리 LSM 수주 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15444",
+   "source_url": "https://bit.ly/DOS847"
+  },
+  {
+   "theme": "조선 사이클",
+   "category": "산업테마",
+   "date": "2026-11-08",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "수혜",
+   "score": 6,
+   "evidences": [
+    "선가, 실적, 캐파 △ 신조선가지수 187p 보합, 중고선가지수 3p 오른 233p 기록 △ 일본 조선업, 2035년까지 건조량 2배 확대 추진…기술 혁신•생산성 개선이 관건",
+    "⑪ Maersk는 3Q26에 기대 이상의 실적을 시현하며 EBITDA 전망치를 14~14.5십억달러(기존 △ 일본 조선업, 2035년까지 건조량 2배 확대 추진…기술 혁신·생산성 개선이 관건 ▲ Bureau Veritas 수장, \"조선업 슈퍼사이클 쉽게 끝나지 않는다\"… 2030년 이후까지 호황 전망 LNG ▲ Capital Clean, 미계약 LNG선 신조 발주 잔고 5척 보유…2028년 이후 LNG선 공급 부족 전망 △ 한"
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 조선 호재 만발: 탱커와 VLAC 수주, YPF FLNG, 필리 LSM 수주 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15444",
+   "source_url": "https://bit.ly/DOS847"
+  },
+  {
+   "theme": "가상자산/스테이블코인",
+   "category": "산업테마",
+   "date": "2026-11-08",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "다올",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "LNG ▲ Capital Clean, 미계약 LNG선 신조 발주 잔고 5척 보유…2028년 이후 LNG선 공급 부족 전망 ▲ Worley, 미국 Venture Global의 CP2 LNG 확장 프로젝트 EPC 계약 수주 ▼ TotalEnergies, 중국 Jiangsu Guoxin과 15년 LNG 공급 기본합의 ▷ Blackstone 컨소시엄, LNG Canada 프로젝트 Mitsubishi 지분 49.9%를 3.1십억달러에 "
+   ],
+   "title": "[조선 Weekly/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 다올 선박: 한국 조선 호재 만발: 탱커와 VLAC 수주, YPF FLNG, 필리 LSM 수주 ⚓ 주시 뉴스",
+   "post_url": "https://t.me/daolresearch/15444",
+   "source_url": "https://bit.ly/DOS847"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-08",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "LIG디펜스앤에어로스페이스",
+   "code": "079550",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "Pitch: > 적정주가 하향은 ‘파이프라인 기대이익’을 낮추는 방식일 뿐, > 동사의 2026-2028 성장 전망은 유지 > 3Q 부진은 환율과 고체연료 수급 영향으로 QoQ 수출 감소가 가장 큰 원인 > 어쩌다 보니 한화가 카이에게도, LIG에게도 피해를 끼치는 국면 - 안타까운 사고이기에 다시는 이런 일이 없기를 바람 > 수주 더딤이 안타깝지만 4Q 톤은 양호 - 연말 잔고 26조원+알파를 가이던스해서, 4Q26에 3조원"
+   ],
+   "title": "[LIG디펜스앤에어로스페이스(079550)/BUY(유지)/TP 840,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ LIG디펜스앤에어로스페이스(079550) : 환과 한화 때문. 2026-2028은 성장 유지",
+   "post_url": "https://t.me/daolresearch/15445",
+   "source_url": "https://bit.ly/LIG3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-08",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "LIG디펜스앤에어로스페이스",
+   "code": "079550",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[LIG디펜스앤에어로스페이스(079550)/BUY(유지)/TP 840,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[LIG디펜스앤에어로스페이스(079550)/BUY(유지)/TP 840,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ LIG디펜스앤에어로스페이스(079550) : 환과 한화 때문. 2026-2028은 성장 유지",
+   "post_url": "https://t.me/daolresearch/15445",
+   "source_url": "https://bit.ly/LIG3Q26RE"
   }
  ],
  "cross_mentions": [
@@ -38139,84 +38278,84 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.2
+   "burst": 31.9
   },
   {
    "term": "자에게",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.2
-  },
-  {
-   "term": "압력이나",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 24.2
+   "burst": 31.9
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.2
+   "burst": 23.9
+  },
+  {
+   "term": "압력이나",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 23.9
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.2
+   "burst": 23.9
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 14,
    "sectors": 7,
-   "burst": 16.1
+   "burst": 16.0
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.1
+   "burst": 16.0
   },
   {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.7
+   "burst": 10.6
   },
   {
    "term": "원화",
-   "recent": 30,
-   "total": 41,
+   "recent": 31,
+   "total": 42,
    "sectors": 12,
-   "burst": 10.1
+   "burst": 10.3
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.1
+   "burst": 9.0
   },
   {
    "term": "통신",
-   "recent": 23,
-   "total": 33,
+   "recent": 24,
+   "total": 34,
    "sectors": 3,
-   "burst": 8.4
+   "burst": 8.7
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.1
+   "burst": 8.0
   },
   {
    "term": "사전",
