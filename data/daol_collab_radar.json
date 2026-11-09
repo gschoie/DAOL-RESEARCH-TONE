@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:53:38.488617+00:00",
+ "generated_at": "2026-11-09T22:59:18.297100+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1541,
  "hits": [
@@ -38550,13 +38550,6 @@
  ],
  "candidates": [
   {
-   "term": "자에게",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 36.3
-  },
-  {
    "term": "기관투자가",
    "recent": 9,
    "total": 9,
@@ -38564,14 +38557,21 @@
    "burst": 36.3
   },
   {
-   "term": "간섭",
+   "term": "자에게",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 36.3
+  },
+  {
+   "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
    "burst": 24.2
   },
   {
-   "term": "압력이나",
+   "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
