@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:48:25.401694+00:00",
+ "generated_at": "2026-11-09T22:53:38.488617+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1541,
  "hits": [
@@ -38551,17 +38551,17 @@
  "candidates": [
   {
    "term": "자에게",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 32.3
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 36.3
   },
   {
    "term": "기관투자가",
-   "recent": 8,
-   "total": 8,
-   "sectors": 4,
-   "burst": 32.3
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 36.3
   },
   {
    "term": "간섭",
@@ -38627,6 +38627,13 @@
    "burst": 8.1
   },
   {
+   "term": "사전",
+   "recent": 11,
+   "total": 16,
+   "sectors": 8,
+   "burst": 7.4
+  },
+  {
    "term": "바스켓",
    "recent": 9,
    "total": 13,
@@ -38639,13 +38646,6 @@
    "total": 10,
    "sectors": 7,
    "burst": 7.1
-  },
-  {
-   "term": "사전",
-   "recent": 10,
-   "total": 15,
-   "sectors": 8,
-   "burst": 6.7
   },
   {
    "term": "통신",
