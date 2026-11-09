@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T22:16:08.026491+00:00",
+ "generated_at": "2026-11-09T22:48:25.401694+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1536,
+ "report_count": 1541,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36282,6 +36282,60 @@
    "title": "[롯데칠성(005300) | BUY(유지) | TP 14만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Review: 별도는 회복 채비, 해외 변수는 감안 필요",
    "post_url": "https://t.me/daolresearch/15462",
    "source_url": "https://buly.kr/DwHHrpW"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-11-10",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "와이지엔터테인먼트",
+   "code": "122870",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "데뷔 초기 비용이 부담으로 작용할 수 있으나 흥행 시 빠른 공연 개시 및 공연 규모 확대 예상.",
+    "영업이익 하회는 1) 빅뱅 MD 매출채권 관련 대손상각비(약 20억원) 인식, 2) 빅뱅 투어 개시로 초기 제반 비용 발생 집중, 서구권 공연의 경우 상대적으로 적은 회차 및 회당 모객 수 속 운반비 및 베뉴 비용 등이 높게 발생한 영향."
+   ],
+   "title": "[와이지엔터테인먼트(122870) | 다올 엔터 임도영] ★ 3Q26 Review: 27년 실적은 빅뱅과 베몬에, 모멘텀은 신인에",
+   "post_url": "https://t.me/daolresearch/15464",
+   "source_url": "https://buly.kr/GP5tlXL"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-10",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "LG전자",
+   "code": "066570",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "️ 그룹 제조 현장을 활용해 검증과 공급 확대에 속도 - 양재에서 학습·생산한 휠형 휴머노이드를 미국 테네시 공장에 투입해 NVIDIA와 도장 공정 PoC 진행 중 - 학습 데이터는 현재 17만 시간에서 연내 누적 50만 시간 이상으로 확대 추진 - 그룹 공장에서 검증한 공정을 기존 스마트팩토리 고객에게 제안하며 기체 공급과 SI 사업으로 확대할 계획",
+    "️ 탈중국 공급망 재편, 비중국 공급자로서 기회 요인 - 중국산 기체·부품 의존도를 낮추려는 고객에게 NVIDIA 개발환경에 대응하는 대체 공급사로 진입할 기회 - 테네시 공장, 산타클라라 사업 거점 등 북미 내 제조 현장을 갖춘 점이 차별화 요인"
+   ],
+   "title": "[LG전자(066570) | 다올투자증권 전기전자 김연미] ★ 인베스터 포럼 후기: 로봇, 실증의 단계로 진입",
+   "post_url": "https://t.me/daolresearch/15470",
+   "source_url": "https://buly.kr/APy8Q3b"
+  },
+  {
+   "theme": "로봇/자동화",
+   "category": "산업테마",
+   "date": "2026-11-10",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "LG전자",
+   "code": "066570",
+   "direction": "수혜",
+   "score": 4,
+   "evidences": [
+    "️ 그룹 제조 현장을 활용해 검증과 공급 확대에 속도 - 양재에서 학습·생산한 휠형 휴머노이드를 미국 테네시 공장에 투입해 NVIDIA와 도장 공정 PoC 진행 중 - 학습 데이터는 현재 17만 시간에서 연내 누적 50만 시간 이상으로 확대 추진 - 그룹 공장에서 검증한 공정을 기존 스마트팩토리 고객에게 제안하며 기체 공급과 SI 사업으로 확대할 계획",
+    "️ 미래 성장 사업, 상용화 기반을 갖춰가는 중 - 11/9 인베스터포럼에서 LG데이터팩토리와 휴머노이드 R&D 라인 공개."
+   ],
+   "title": "[LG전자(066570) | 다올투자증권 전기전자 김연미] ★ 인베스터 포럼 후기: 로봇, 실증의 단계로 진입",
+   "post_url": "https://t.me/daolresearch/15470",
+   "source_url": "https://buly.kr/APy8Q3b"
   }
  ],
  "cross_mentions": [
@@ -38500,35 +38554,35 @@
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.2
+   "burst": 32.3
   },
   {
    "term": "기관투자가",
    "recent": 8,
    "total": 8,
    "sectors": 4,
-   "burst": 32.2
+   "burst": 32.3
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.1
+   "burst": 24.2
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.1
+   "burst": 24.2
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.1
+   "burst": 24.2
   },
   {
    "term": "감익",
@@ -38545,46 +38599,46 @@
    "burst": 16.1
   },
   {
-   "term": "원화",
-   "recent": 34,
-   "total": 45,
-   "sectors": 12,
-   "burst": 11.4
-  },
-  {
    "term": "등록",
    "recent": 8,
    "total": 10,
    "sectors": 3,
-   "burst": 10.7
+   "burst": 10.8
+  },
+  {
+   "term": "원화",
+   "recent": 33,
+   "total": 45,
+   "sectors": 12,
+   "burst": 10.2
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.0
+   "burst": 9.1
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.0
+   "burst": 8.1
   },
   {
-   "term": "통신",
-   "recent": 23,
-   "total": 35,
+   "term": "바스켓",
+   "recent": 9,
+   "total": 13,
    "sectors": 3,
-   "burst": 7.1
+   "burst": 7.3
   },
   {
    "term": "자사",
    "recent": 7,
    "total": 10,
    "sectors": 7,
-   "burst": 7.0
+   "burst": 7.1
   },
   {
    "term": "사전",
@@ -38594,11 +38648,11 @@
    "burst": 6.7
   },
   {
-   "term": "바스켓",
-   "recent": 8,
-   "total": 12,
+   "term": "통신",
+   "recent": 22,
+   "total": 35,
    "sectors": 3,
-   "burst": 6.4
+   "burst": 6.3
   }
  ]
 }
