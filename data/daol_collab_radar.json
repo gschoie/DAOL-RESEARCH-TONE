@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T23:00:59.100094+00:00",
+ "generated_at": "2026-11-09T01:18:29.801494+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1535,
  "hits": [
@@ -36127,23 +36127,6 @@
    "source_url": "https://buly.kr/BpIBtgJ"
   },
   {
-   "theme": "K뷰티 수출",
-   "category": "미국공략",
-   "date": "2026-11-09",
-   "analyst": "박종현",
-   "sector": "의료기기/화장품",
-   "company": "파마리서치",
-   "code": "214450",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "2027E EPS 19,983원에 글로벌 화장품·의료기기 가중평균 PER을 마진율 하락 감안해 25% 할인한 22.7배 적용."
-   ],
-   "title": "[파마리서치(214450)/ BUY(유지)/ TP 45만원(유지)/ 다올 의료기기 박종현] ★ 화장품이 메운 비수기",
-   "post_url": "https://t.me/daolresearch/15450",
-   "source_url": "https://buly.kr/BpIBtgJ"
-  },
-  {
    "theme": "환율/원화",
    "category": "매크로",
    "date": "2026-11-09",
@@ -36171,7 +36154,8 @@
    "direction": "중립",
    "score": 0,
    "evidences": [
-    "글로벌 화장품 평균 PER 40% 할인 적용."
+    "글로벌 화장품 평균 PER 40% 할인 적용.",
+    "글로벌 화장품 평균 PER 40% 할인으로 ZH 변경, 적정주가 14만원으로"
    ],
    "title": "[코스메카코리아(241710)/ BUY(유지)/ TP 14만원(하향)/ 다올 화장품 박종현] ★ 줄은 긴데 주방이 좁다",
    "post_url": "https://t.me/daolresearch/15451",
