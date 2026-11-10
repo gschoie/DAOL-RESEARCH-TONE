@@ -32,6 +32,7 @@
  "models/gemini-3.8-flash-lite-tts",
  "models/gemini-3.8-flash-tts",
  "models/gemini-4-argon",
+ "models/gemini-4-carbon",
  "models/gemini-flash-latest",
  "models/gemini-flash-lite-latest",
  "models/gemini-nano-banana-2.1",
