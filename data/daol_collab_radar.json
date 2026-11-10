@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-10T22:18:24.643105+00:00",
+ "generated_at": "2026-11-10T22:47:00.999543+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1541,
+ "report_count": 1543,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36336,6 +36336,40 @@
    "title": "[LG전자(066570) | 다올투자증권 전기전자 김연미] ★ 인베스터 포럼 후기: 로봇, 실증의 단계로 진입",
    "post_url": "https://t.me/daolresearch/15470",
    "source_url": "https://buly.kr/APy8Q3b"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-11-11",
+   "analyst": "김혜영",
+   "sector": "AI/인터넷/게임/레저",
+   "company": "크래프톤",
+   "code": "259960",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "기존에 2028년까지 1조원 규모의 주주환원을 발표하였으나 조기 달성 가능성이 높아졌고 향후에도 주주친화적인 정책 기대 가능"
+   ],
+   "title": "[크래프톤(259960)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Review: 곧 다가올 2027년을 기대 ★ 310,000원(유지), BUY(유지)",
+   "post_url": "https://t.me/daolresearch/15474",
+   "source_url": "https://buly.kr/9tDrpxT"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-11-11",
+   "analyst": "이다연",
+   "sector": "통신/음식료",
+   "company": "KT",
+   "code": "030200",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "• [4Q26 전망] 기존 4Q26 중 반영 예상했던 유심 교체 환입이 지연될 가능성을 ‘고객 보답 프로그램’ 종료(7월 말)와 함께 QoQ APRU 하락세도 반전될 전망 3: KT의 실적 추이 및 전망 (십억원) 6: KT의 총주주환원액 추이 및 전망 (십억원, 원) 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을"
+   ],
+   "title": "[KT(030200) | BUY(유지) | TP 7.2만원(유지) | 다올 통신/음식료 이다연] ★ 3Q26 Review: 1GW+ 로드맵, 첫 200MW의 윤곽",
+   "post_url": "https://t.me/daolresearch/15475",
+   "source_url": "https://buly.kr/Ga0f6ga"
   }
  ],
  "cross_mentions": [
@@ -38550,109 +38584,109 @@
  ],
  "candidates": [
   {
-   "term": "자에게",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 36.3
-  },
-  {
    "term": "기관투자가",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 36.3
+   "burst": 37.1
   },
   {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 24.2
+   "term": "자에게",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 37.1
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.2
+   "burst": 24.8
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.8
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.2
+   "burst": 24.8
   },
   {
    "term": "감익",
-   "recent": 12,
-   "total": 14,
+   "recent": 13,
+   "total": 15,
    "sectors": 7,
-   "burst": 16.1
+   "burst": 17.9
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.1
-  },
-  {
-   "term": "등록",
-   "recent": 8,
-   "total": 10,
-   "sectors": 3,
-   "burst": 10.8
+   "burst": 16.5
   },
   {
    "term": "원화",
    "recent": 33,
    "total": 45,
    "sectors": 12,
-   "burst": 10.2
+   "burst": 10.5
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.1
+   "burst": 9.3
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.1
+   "burst": 8.3
   },
   {
    "term": "사전",
    "recent": 11,
    "total": 16,
    "sectors": 8,
-   "burst": 7.4
+   "burst": 7.6
   },
   {
    "term": "바스켓",
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 7.3
+   "burst": 7.4
   },
   {
    "term": "자사",
    "recent": 7,
    "total": 10,
    "sectors": 7,
-   "burst": 7.1
+   "burst": 7.2
   },
   {
-   "term": "통신",
-   "recent": 22,
-   "total": 35,
+   "term": "등록",
+   "recent": 7,
+   "total": 10,
    "sectors": 3,
-   "burst": 6.3
+   "burst": 7.2
+  },
+  {
+   "term": "제안",
+   "recent": 6,
+   "total": 9,
+   "sectors": 4,
+   "burst": 6.2
   }
  ]
 }

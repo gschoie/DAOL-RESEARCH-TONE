@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T22:18:18.884802+00:00",
+  "generated_at": "2026-11-10T22:46:31.472547+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1541,
+  "report_count": 1543,
   "months": [
     {
       "month": "2026-11",
@@ -257,8 +257,35 @@
             }
           ],
           "tp_raises": [],
-          "report_count": 2,
+          "report_count": 3,
           "reports": [
+            {
+              "id": 15474,
+              "date": "2026-11-11",
+              "month": "2026-11",
+              "analyst": "김혜영",
+              "sector": "AI·인터넷·게임·레저",
+              "company": "크래프톤",
+              "code": "259960",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146328/1/20261111_259960_hyyy_229.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[크래프톤(259960)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Review: 곧 다가올 2027년을 기대 ★ 310,000원(유지), BUY(유지)",
+              "summary": "[크래프톤(259960)｜다올 AI·인터넷·게임·레저 김혜영 ☎ 2184-2395] ★ 3Q26 Review: 곧 다가올 2027년을 기대 ★ 310,000원(유지), BUY(유지) ▶ 3Q26P 연결 매출액은 9,714억원(+11.6% YoY, -24.7% QoQ), 영업이익은 2,250억원(-35.5% YoY, -45.2% QoQ; OPM 23.2%) 시현. PC 부문 약세로 매출액과 영업이익 모두 컨센서스에 하회. 당기순이익도 외화자산평가손실이 인식되며 컨센서스에 하회 ▶ [PC] 2,389억원(-32.5% YoY, -57.4% QoQ) 시현. 유의미한 이벤트 개수가 적었고 신작이 부재했기 때문에 전년 동기, 전분기 대비 큰 폭으로 감소 ▶ [모바일] 5,043억원(+3.2% YoY, +11.8% QoQ). 계절성과 함게 8월에 진행한 검래(剑来) 콜라보가 흥행하며 전분기 대비 상승 ▶ [영업비용] 7,464억원(-35.5% YoY, -15.1% QoQ). ADK 매출과 PC 매출이 감소하며 전분기 대비 하락. 4Q26은 광고 성수기이기 때문에 다시금 상승 전망 ▶ 동사는 3Q26까지 감액배당 996억원과 5,176억원 규모의 자기주식 소각을 완료. 추가적으로 3,000억원 규모의 자기 주식을 취득(~2027.02.03)하여 소각할 계획. 기존에 2028년까지 1조원 규모의 주주환원을 발표하였으나 조기 달성 가능성이 높아졌고 향후에도 주주친화적인 정책 기대 가능 ▶ 다만 4Q26까지는 유의미한 신작이 없고 계절적 비수기이기 때문에 추세적인 주가 상승은 어려울 전망. 2027년에는 PUBG 10주년 이벤트와 예정 신작 7개(Fig 8)가 있기 때문에 기대감을 끌어올리는 것이 주가 상승 견인에 중요 ♣ 보고서 원문 및 Compliance Notice: < https://buly.kr",
+              "post_url": "https://t.me/daolresearch/15474",
+              "source_url": "https://buly.kr/9tDrpxT"
+            },
             {
               "id": 15436,
               "date": "2026-11-06",
@@ -1527,8 +1554,42 @@
           "top_pick_change": "전월과 문구/구성 변경",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 6,
           "reports": [
+            {
+              "id": 15475,
+              "date": "2026-11-11",
+              "month": "2026-11",
+              "analyst": "이다연",
+              "sector": "통신/음식료",
+              "company": "KT",
+              "code": "030200",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "인식도 이루어질 수 있다는 점은 추가적인 투자포인트.",
+              "industry_conclusion": "",
+              "report_conclusion": "• [4Q26 전망] 기존 4Q26 중 반영 예상했던 유심 교체 환입이 지연될 가능성을 ‘고객 보답 프로그램’ 종료(7월 말)와 함께 QoQ APRU 하락세도 반전될 전망 3: KT의 실적 추이 및 전망 (십억원) 6: KT의 총주주환원액 추이 및 전망 (십억원, 원) 아래 종목투자의견은 향후 12개월간 추천기준일 종가대비 추천종목의 예상 기대수익률을",
+              "valuation": [
+                "(Design, Build, Operation) 역량을 바탕으로 준공 전부터 MEP 공사 매출 등 관련 수익",
+                "Valuation wide 2025 2026E 2027E",
+                "PER(배) 7.7 9.7 9.0",
+                "PBR(배) 0.8 0.8 0.7",
+                "EV/EBITDA(배) 3.6 3.9 3.7",
+                "Performance 1M 6M 12M YTD"
+              ],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146327/1/20261111_030200_lizzy_123.pdf",
+              "pdf_error": "",
+              "title": "[KT(030200) | BUY(유지) | TP 7.2만원(유지) | 다올 통신/음식료 이다연] ★ 3Q26 Review: 1GW+ 로드맵, 첫 200MW의 윤곽",
+              "summary": "[KT(030200) | BUY(유지) | TP 7.2만원(유지) | 다올 통신/음식료 이다연] ★ 3Q26 Review: 1GW+ 로드맵, 첫 200MW의 윤곽 ▶ 3Q26P 연결 매출액 6조 9,976억원(YoY -1.8%), 영업이익 5,054억원(YoY -6.1%, OPM 7.2%)로 영업이익 기준 컨센서스 소폭 하회, 당사 추정치 부합 ▶ KT 별도 매출액은 YoY -2.4% 기록했고, 무선수익이 YoY -4% 감소. ‘26년 초 위약금 면제 기간 가입자 이탈 영향, ‘고객 보답 프로그램’ 시행으로 7월까지도 ARPU 하락 영향이 지속됐기 때문. KT Cloud 는 가산 DC 가동률 상승, 공공 클라우드의 견조한 성장에 힘입어 YoY +7.7% 성장. KT에스테이트 는 호텔 매출 호조, 둔산 개발 사업 매출 인식 확대로 YoY +39.1% 성장했고, 콘텐츠 부문 도 오리지널 컨텐츠 흥행, OTT 판매 확대로 호실적 시현. 연결 영업이익 감익 사유 는 1) 임단협 관련 비용(임금 인상분, 일시금) 반영, 2) 단말 손실 확대, 3) 전년동기 부동산 NCP 개발사업 관련 일회성 이익 역기저에 기인함 ▶ [4Q26 전망] 기존 4Q26 중 반영 예상했던 유심 교체 환입이 지연될 가능성을 감안, 당초 추정치에 반영돼 있던 환입액(900억원)을 제거해 4Q26E 영업이익 추정치를 하향 조정. 상기한 환입액 외 4분기 비용 관련 특이사항은 부재하며, ‘고객 보답 프로그램’ 종료(7월 말)와 함께 QoQ APRU 하락세도 반전될 전망 ▶ [AI DC Update] 동사는 ‘31년까지 AI DC 신규 용량 1GW 확보를 목표로 관련 사업 추진 중. 현재까지 의사결정 및 Site 확보가 완료된 신규 용량은 200MW (6개 Site) 규모 이며, 미확정 물량까지 포함한 파이프라인은 911MW",
+              "post_url": "https://t.me/daolresearch/15475",
+              "source_url": "https://buly.kr/Ga0f6ga"
+            },
             {
               "id": 15462,
               "date": "2026-11-09",
@@ -2557,7 +2618,7 @@
           ]
         }
       ],
-      "report_count": 58
+      "report_count": 60
     },
     {
       "month": "2026-10",
