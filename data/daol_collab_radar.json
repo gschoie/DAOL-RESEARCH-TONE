@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T22:13:01.606007+00:00",
+ "generated_at": "2026-11-11T22:52:02.375007+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1545,
+ "report_count": 1550,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36388,6 +36388,128 @@
    "title": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Review: 역시나 잘하는 스키즈, 잘해야 할 신인 오브더블루",
    "post_url": "https://t.me/daolresearch/15484",
    "source_url": "https://buly.kr/uXEAa7"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-11-12",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "롯데웰푸드",
+   "code": "280360",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "당 분기 고원가 재고 투입(중동 전쟁 발발 후 상반기 구매분)과 유통채널 대손충당금 반영(40억원)에도 불구, 연초부터 누적된 저수익 SKU 조정 등 거래구조 개선 효과 반영으로 상반기에 이어 수익성 개선 흐름을 이어감."
+   ],
+   "title": "[롯데웰푸드(280360) | BUY(유지) | TP 15만원(유지) | 다올 음식료/통신 이다연] ★ 3Q26 Review: 진짜 달라졌네",
+   "post_url": "https://t.me/daolresearch/15486",
+   "source_url": "https://buly.kr/GkvQSBp"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "하강이 예상되는바 FWD 가장 안 좋을 2027년 EPS로 Valuation 시점 회사 잠정 당사 예상 시장 컨센서스 전년 동기 전분기 1: 대한조선 적정주가 66,000원으로 45% 내림: 이는 1) 환율 하락을 반영해 순이익 예상치 5% 하향, 5: 대한조선 실적 예상: 2027년에 컨테이너선 건조에 따른 영향을 아주 조금 반영했을 뿐 (십억원)",
+    "1: 대한조선 적정주가 66,000원으로 45% 내림: 이는 1) 환율 하락을 반영해 순이익 예상치 5% 하향,"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 66,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 시클리컬의 Valuation! 돌파구는?",
+   "post_url": "https://t.me/daolresearch/15487",
+   "source_url": "https://bit.ly/DH3Q26RE"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-11-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Pitch: > PER이 2026년 5배, 2028년 3배대로 주가 하락이 심각 - 이는 12척 건조 체재에서 탑라인 막힘과 - 20% 중반대에 다다른 OPM에서 더 좋아질 수 있을까라는 의문 때문 - 바로 시클리컬의 Valuation 인 셈 > 괴리율 등의 이유로 2027년 컨테이너선 건조 시기의 가장 낮은 EPS에 PER 10배로 낮추어 적정주가 조정 > 지켜볼 포인트 - 주주환원책의 주가 영향 - 하반기에 수에즈막스 탱커"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 66,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 시클리컬의 Valuation! 돌파구는?",
+   "post_url": "https://t.me/daolresearch/15487",
+   "source_url": "https://bit.ly/DH3Q26RE"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "Pitch: > PER이 2026년 5배, 2028년 3배대로 주가 하락이 심각 - 이는 12척 건조 체재에서 탑라인 막힘과 - 20% 중반대에 다다른 OPM에서 더 좋아질 수 있을까라는 의문 때문 - 바로 시클리컬의 Valuation 인 셈 > 괴리율 등의 이유로 2027년 컨테이너선 건조 시기의 가장 낮은 EPS에 PER 10배로 낮추어 적정주가 조정 > 지켜볼 포인트 - 주주환원책의 주가 영향 - 하반기에 수에즈막스 탱커"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 66,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 시클리컬의 Valuation! 돌파구는?",
+   "post_url": "https://t.me/daolresearch/15487",
+   "source_url": "https://bit.ly/DH3Q26RE"
+  },
+  {
+   "theme": "방산 수출",
+   "category": "산업테마",
+   "date": "2026-11-12",
+   "analyst": "최광식",
+   "sector": "조선/기계/방산",
+   "company": "대한조선",
+   "code": "439260",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[대한조선(439260)/BUY(유지)/TP 66,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308]"
+   ],
+   "title": "[대한조선(439260)/BUY(유지)/TP 66,000원(하향)/다올투자증권 조선/기계/방산 최광식 ☎️ 2184-2308] ★ 대한조선(439260) : 시클리컬의 Valuation! 돌파구는?",
+   "post_url": "https://t.me/daolresearch/15487",
+   "source_url": "https://bit.ly/DH3Q26RE"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-12",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "실리콘투",
+   "code": "257720",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "대형 유통 채널 신규 입점이 성장 동력이나, 원화 강세 지속 시 1H27까지 GPM 기저 부담 작용 가능",
+    "원화 강세로 주요 거래 통화 QoQ 6% 하락이 GPM에 직접 반영, 판관비율 12.3%(QoQ +0.9%p)는 해외 인력 확충과 대손상각비 23억원 영향."
+   ],
+   "title": "[실리콘투(257720)/ Not Rated/ 다올 화장품 박종현] ★ 그래도 소는 키워야",
+   "post_url": "https://t.me/daolresearch/15490",
+   "source_url": "https://buly.kr/CsCFhW"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-11-12",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "코스맥스",
+   "code": "192820",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "해외 인디·글로벌 브랜드의 스킨케어 발주 개시로 스킨케어와 수출이 성장 견인, 색조도 두 자릿수 성장 회복.",
+    "2027E EPS에 글로벌 화장품 평균 PER 40% 할인 적용."
+   ],
+   "title": "[코스맥스(192820)/ BUY(유지)/ TP 35만원(유지)/ 다올 화장품 박종현] ★ 아직 브레이크 없음",
+   "post_url": "https://t.me/daolresearch/15491",
+   "source_url": "https://buly.kr/615CccY"
   }
  ],
  "cross_mentions": [
@@ -38606,105 +38728,105 @@
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 38.0
+   "burst": 37.3
   },
   {
    "term": "기관투자가",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 38.0
-  },
-  {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 25.3
+   "burst": 37.3
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.3
+   "burst": 24.9
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.9
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.3
+   "burst": 24.9
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.9
+   "burst": 16.6
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 15,
    "sectors": 7,
-   "burst": 12.7
+   "burst": 12.4
   },
   {
    "term": "원화",
-   "recent": 32,
-   "total": 45,
+   "recent": 33,
+   "total": 46,
    "sectors": 12,
-   "burst": 9.6
+   "burst": 9.8
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.5
+   "burst": 9.3
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.4
+   "burst": 8.3
   },
   {
    "term": "사전",
    "recent": 11,
    "total": 16,
    "sectors": 8,
-   "burst": 7.7
+   "burst": 7.6
   },
   {
    "term": "바스켓",
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 7.6
+   "burst": 7.5
   },
   {
    "term": "자사",
    "recent": 7,
    "total": 10,
    "sectors": 7,
-   "burst": 7.4
+   "burst": 7.3
   },
   {
    "term": "등록",
    "recent": 7,
    "total": 10,
    "sectors": 3,
-   "burst": 7.4
+   "burst": 7.3
   },
   {
    "term": "제안",
    "recent": 6,
    "total": 9,
    "sectors": 4,
-   "burst": 6.3
+   "burst": 6.2
   }
  ]
 }
