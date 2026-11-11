@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T19:59:38.878331+00:00",
+  "generated_at": "2026-11-11T22:12:37.763544+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1543,
+  "report_count": 1545,
   "months": [
     {
       "month": "2026-11",
@@ -108,14 +108,46 @@
               "value": "비중확대",
               "date": "2026-11-04",
               "source": "https://t.me/daolresearch/15406"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-11-12",
+              "source": "https://t.me/daolresearch/15483"
             }
           ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 4,
+          "report_count": 5,
           "reports": [
+            {
+              "id": 15483,
+              "date": "2026-11-12",
+              "month": "2026-11",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "report_conclusion": "▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146367/1/20261112_B4010_jiwonkim_273.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[은행(Overweight)｜다올 금융 김지원 ☎️ 2184-2306] ★ (10월) 은행 여수신 동향: 성장 지속이나 변화 확인",
+              "summary": "[은행(Overweight)｜다올 금융 김지원 ☎️ 2184-2306] ★ (10월) 은행 여수신 동향: 성장 지속이나 변화 확인 ▶️ 여신: 가계대출 증가폭 확대 전환, 기업대출 전월 높은 증가폭 수준 유지. 기업대출 중심 성장 지속 ▶️ 여신 증감폭: 가계대출 +5.0조원(vs. 26년 9월 +0.5조원), 기업대출 +10.2조원(vs. 26년 9월 +10.7조원) ▶️ 여신종별 변동 요인들 잠재. 연말까지 확인 필요. 가계는 집단대출 동향, 기업은 은행들의 대출영업 방향 변화 ▶️ 수신: 전월에 이어 큰 폭 증가. 그러나 이유는 다름. 저원가성 아닌 조달 확대. 은행들의 조달구조 변화 ▶️ 수신 증감폭: +30.4조원(vs. 26년 9월 +29.1조원) ▶️ 보고서 원문 및 Compliance Notice: < https://buly.kr/EI6oiW3 > ▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15483",
+              "source_url": "https://buly.kr/EI6oiW3"
+            },
             {
               "id": 15432,
               "date": "2026-11-06",
@@ -2149,8 +2181,35 @@
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 3,
+          "report_count": 4,
           "reports": [
+            {
+              "id": 15484,
+              "date": "2026-11-12",
+              "month": "2026-11",
+              "analyst": "임도영",
+              "sector": "엔터",
+              "company": "JYP Ent.",
+              "code": "035900",
+              "report_type": "기업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146368/1/20261112_035900_dy.lim_57.pdf",
+              "pdf_error": "",
+              "title": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Review: 역시나 잘하는 스키즈, 잘해야 할 신인 오브더블루",
+              "summary": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Review: 역시나 잘하는 스키즈, 잘해야 할 신인 오브더블루 ▶ 스키즈는 지속적으로 기대치를 상회하는 실적. 1월 데뷔 보이그룹 초기 흥행 성과 확인 시 군백기 우려 완화와 재평가 기대 ▶ 3Q 매출 2,675억원, 영업이익 480억원으로 컨센서스(421억원) 상회. 스키즈 서구권 판매 확대에 따른 음반 매출 호조와 스키즈 남미 페스티벌 중심의 출연 매출 상회가 주효 ▶ 공연 매출은 특이사항 부재. YoY 감소는 전년 동기(스키즈 유럽+트와이스 일본)의 높은 기저 영향. 스키즈 남미 자체 페스티벌 수익(27만명, 순매출)이 예상치를 상회하며 출연 매출은 YoY+138% 성장 ▶ MD 매출 부합. 스키즈 팬미팅 MD 온라인 판매분과 한국/일본 공연 MD, 일본 투어 팝업 매출 등 반영. 남미는 스키즈 자체 페스티벌 개최와 락인리오 헤드라이너로 참여하며 현지 응원봉 구매 수요 확대, 행사와 연계해 개최된 SKZOO 글로벌 팝업도 성황리로 남미 입지 확대. 4Q에도 스키즈 국내 콘서트 온라인 판매분 일부와 규모가 컸던 도쿄 팝업 등이 반영될 예정으로 양호한 MD 매출 전망 ▶ 신인 보이그룹 1월 정식 데뷔 예정, 걸그룹도 준비 중. 최근 대형사 신인 걸그룹들의 초기 성과가 아쉬웠던 반면, 중소 걸그룹들(A2O LITE, 리센느)이 흥행하며 과거 4사 소속 신인들의 높은 Hit ratio에 대한 의구심도 존재하는 상황. 다만 27년 상반기에는 3사 모두 국내 보이그룹 데뷔 및 코르티스도 컴백 예상. 활동 시기 집중으로 K-POP 팬덤 관심 확대와 긍정적 효과 기대, 흥행 시 보이그룹 모멘텀도 기대 가능 * 보고서 원문 및 컴플라이언스 < https://buly.kr/uXEAa7 > * 텔레그램 채널 < https://t",
+              "post_url": "https://t.me/daolresearch/15484",
+              "source_url": "https://buly.kr/uXEAa7"
+            },
             {
               "id": 15464,
               "date": "2026-11-10",
@@ -2622,7 +2681,7 @@
           ]
         }
       ],
-      "report_count": 60
+      "report_count": 62
     },
     {
       "month": "2026-10",

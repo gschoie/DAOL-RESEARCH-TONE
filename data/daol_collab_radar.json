@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T20:02:47.725962+00:00",
+ "generated_at": "2026-11-11T22:13:01.606007+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1543,
+ "report_count": 1545,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36370,6 +36370,24 @@
    "title": "[KT(030200) | BUY(유지) | TP 7.2만원(유지) | 다올 통신/음식료 이다연] ★ 3Q26 Review: 1GW+ 로드맵, 첫 200MW의 윤곽",
    "post_url": "https://t.me/daolresearch/15475",
    "source_url": "https://buly.kr/Ga0f6ga"
+  },
+  {
+   "theme": "K콘텐츠",
+   "category": "산업테마",
+   "date": "2026-11-12",
+   "analyst": "임도영",
+   "sector": "엔터",
+   "company": "JYP Ent.",
+   "code": "035900",
+   "direction": "수혜",
+   "score": 5,
+   "evidences": [
+    "활동 시기 집중으로 K-POP 팬덤 관심 확대와 긍정적 효과 기대, 흥행 시 보이그룹 모멘텀도 기대 가능 * 보고서 원문 및 컴플라이언스 < https://buly.kr/uXEAa7 > * 텔레그램 채널 < https://t",
+    "스키즈 서구권 판매 확대에 따른 음반 매출 호조와 스키즈 남미 페스티벌 중심의 출연 매출 상회가 주효"
+   ],
+   "title": "[JYP Ent. (035900) | 다올 엔터 임도영] ★ 3Q26 Review: 역시나 잘하는 스키즈, 잘해야 할 신인 오브더블루",
+   "post_url": "https://t.me/daolresearch/15484",
+   "source_url": "https://buly.kr/uXEAa7"
   }
  ],
  "cross_mentions": [
@@ -38584,109 +38602,109 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 37.1
-  },
-  {
    "term": "자에게",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 37.1
+   "burst": 38.0
   },
   {
-   "term": "압력이나",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 24.8
+   "term": "기관투자가",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 38.0
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.8
+   "burst": 25.3
+  },
+  {
+   "term": "압력이나",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 25.3
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.8
-  },
-  {
-   "term": "감익",
-   "recent": 13,
-   "total": 15,
-   "sectors": 7,
-   "burst": 17.9
+   "burst": 25.3
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.5
+   "burst": 16.9
+  },
+  {
+   "term": "감익",
+   "recent": 12,
+   "total": 15,
+   "sectors": 7,
+   "burst": 12.7
   },
   {
    "term": "원화",
-   "recent": 33,
+   "recent": 32,
    "total": 45,
    "sectors": 12,
-   "burst": 10.5
+   "burst": 9.6
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.3
+   "burst": 9.5
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.3
+   "burst": 8.4
   },
   {
    "term": "사전",
    "recent": 11,
    "total": 16,
    "sectors": 8,
-   "burst": 7.6
+   "burst": 7.7
   },
   {
    "term": "바스켓",
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 7.4
+   "burst": 7.6
   },
   {
    "term": "자사",
    "recent": 7,
    "total": 10,
    "sectors": 7,
-   "burst": 7.2
+   "burst": 7.4
   },
   {
    "term": "등록",
    "recent": 7,
    "total": 10,
    "sectors": 3,
-   "burst": 7.2
+   "burst": 7.4
   },
   {
    "term": "제안",
    "recent": 6,
    "total": 9,
    "sectors": 4,
-   "burst": 6.2
+   "burst": 6.3
   }
  ]
 }
