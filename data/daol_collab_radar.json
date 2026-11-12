@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T20:41:23.220611+00:00",
+ "generated_at": "2026-11-12T22:12:48.984911+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1550,
+ "report_count": 1551,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36510,6 +36510,40 @@
    "title": "[코스맥스(192820)/ BUY(유지)/ TP 35만원(유지)/ 다올 화장품 박종현] ★ 아직 브레이크 없음",
    "post_url": "https://t.me/daolresearch/15491",
    "source_url": "https://buly.kr/615CccY"
+  },
+  {
+   "theme": "밸류업/주주환원",
+   "category": "매크로",
+   "date": "2026-11-13",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "미래에셋증권",
+   "code": "006800",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "27년-29년 적용될 신규 주주환원정책 발표."
+   ],
+   "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 미래에셋증권(006800): 가격매력 있는데 투자성과 시현 시점 대기",
+   "post_url": "https://t.me/daolresearch/15495",
+   "source_url": "https://buly.kr/CsmlET4"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-11-13",
+   "analyst": "김지원",
+   "sector": "금융",
+   "company": "미래에셋증권",
+   "code": "006800",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "대출과 유가증권 자산 증가 기반 수익 증가."
+   ],
+   "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 미래에셋증권(006800): 가격매력 있는데 투자성과 시현 시점 대기",
+   "post_url": "https://t.me/daolresearch/15495",
+   "source_url": "https://buly.kr/CsmlET4"
   }
  ],
  "cross_mentions": [
@@ -38724,109 +38758,109 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 37.3
-  },
-  {
    "term": "자에게",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 37.3
+   "burst": 38.2
   },
   {
-   "term": "압력이나",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 24.9
+   "term": "기관투자가",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 38.2
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.9
+   "burst": 25.4
+  },
+  {
+   "term": "압력이나",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 25.4
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 24.9
+   "burst": 25.4
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.6
+   "burst": 17.0
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 15,
    "sectors": 7,
-   "burst": 12.4
-  },
-  {
-   "term": "원화",
-   "recent": 33,
-   "total": 46,
-   "sectors": 12,
-   "burst": 9.8
+   "burst": 12.7
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.3
+   "burst": 9.5
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.3
+   "burst": 8.5
+  },
+  {
+   "term": "원화",
+   "recent": 31,
+   "total": 46,
+   "sectors": 12,
+   "burst": 8.2
   },
   {
    "term": "사전",
    "recent": 11,
    "total": 16,
    "sectors": 8,
-   "burst": 7.6
+   "burst": 7.8
   },
   {
    "term": "바스켓",
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 7.5
+   "burst": 7.6
   },
   {
    "term": "자사",
    "recent": 7,
    "total": 10,
    "sectors": 7,
-   "burst": 7.3
+   "burst": 7.4
   },
   {
    "term": "등록",
    "recent": 7,
    "total": 10,
    "sectors": 3,
-   "burst": 7.3
+   "burst": 7.4
   },
   {
    "term": "제안",
    "recent": 6,
    "total": 9,
    "sectors": 4,
-   "burst": 6.2
+   "burst": 6.4
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T20:38:09.079193+00:00",
+  "generated_at": "2026-11-12T22:12:35.160192+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1550,
+  "report_count": 1551,
   "months": [
     {
       "month": "2026-11",
@@ -113,14 +113,46 @@
               "value": "비중확대",
               "date": "2026-11-12",
               "source": "https://t.me/daolresearch/15483"
+            },
+            {
+              "value": "비중확대",
+              "date": "2026-11-13",
+              "source": "https://t.me/daolresearch/15495"
             }
           ],
           "top_picks": [],
           "top_pick_change": "해당 월 명시 없음",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 5,
+          "report_count": 6,
           "reports": [
+            {
+              "id": 15495,
+              "date": "2026-11-13",
+              "month": "2026-11",
+              "analyst": "김지원",
+              "sector": "금융",
+              "company": "미래에셋증권",
+              "code": "006800",
+              "report_type": "산업자료",
+              "opinion": "비중확대",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "",
+              "report_conclusion": "",
+              "valuation": [],
+              "earnings_changes": [],
+              "analysis_source": "PDF 원문 분석",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146408/1/20261113_006800_jiwonkim_275.pdf",
+              "pdf_error": "",
+              "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 미래에셋증권(006800): 가격매력 있는데 투자성과 시현 시점 대기",
+              "summary": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 미래에셋증권(006800): 가격매력 있는데 투자성과 시현 시점 대기 ▶ 3Q26 Review. 연결 순손실 3,941억원(YoY 적전, QoQ 적전)으로 당사 추정치로는 소폭 상회 ▶ 스페이스X 잔여물량 평가손실 추정금액 차이. 현물주식 평가이익 감소 포함 운용이익은 예상수준 감소 ▶ 27년-29년 적용될 신규 주주환원정책 발표. 내년 주총 이후 구체화되겠으나 반영 이후 기존 적정주가 유지 판단 ▶ 낮아진 현 PBR 수준 고려하면 상승여력은 충분함. 단기 과징금 반영 이슈 있으나, 결국은 PI 투자성과 회복 시점 중요 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/CB7jJDL > ★ 삼성증권(016360): 점차 부각될 배당매력, 여전히 낮은 밸류 ▶ 3Q26 Review. 연결 순이익 3,528억원(YoY+14.1%, QoQ-27.7%)으로으로, 컨센서스와 당사 추정치 대체로 부합 ▶ 고액자산가 고객층과 IB딜과의 연계성 재확인. 시장 변동성 확대 속 WM과 IB 수익 기반 유지 부각 가능 ▶ 이자이익 증가. 대출과 유가증권 자산 증가 기반 수익 증가. 발행어음도 신규 출시하여 향후 스프레드 동향 확인 필요 ▶ 증권업종 내 높은 배당수익률 전망. 그리고 정관상 가능하나 금년도 배당기준일 변화여부 확인 필요 ▶ 보고서 원문 및 Compliance Notice: < https://buly.kr/CsmlET4 > ▶️ 개별 채널 https://t.me/jiwonkimfin",
+              "post_url": "https://t.me/daolresearch/15495",
+              "source_url": "https://buly.kr/CsmlET4"
+            },
             {
               "id": 15483,
               "date": "2026-11-12",
@@ -135,9 +167,9 @@
               "preferred_stocks": [],
               "tp_changes": [],
               "tp_raises": [],
-              "pitch": "예금은행 268 연평균 대출성장률 4.7% 전망은 향후 주담대 증가폭 확대는 제한적이라는 기존 전망을 유지.",
-              "industry_conclusion": "예금은행 268 연평균 대출성장률 4.7% 전망은 향후 주담대 증가폭 확대는 제한적이라는 기존 전망을 유지.",
-              "report_conclusion": "예금은행 268 연평균 대출성장률 4.7% 전망은 향후 주담대 증가폭 확대는 제한적이라는 기존 전망을 유지.",
+              "pitch": "YoY 기준 대출성장은 여전히 기업대출 중심이며, 예금은행의 2026년 연평균 대출성장률 4.7% 전망은 유지된다. 향후 주담대 증가폭 확대는 제한적일 것으로 전망된다.",
+              "industry_conclusion": "산업 투자의견: 은행 Overweight (비중확대). YoY 기준 대출성장은 여전히 기업대출 중심이며, 예금은행의 2026년 연평균 대출성장률 4.7% 전망은 유지된다. 향후 주담대 증가폭 확대는 제한적일 것으로 전망된다.",
+              "report_conclusion": "산업 투자의견: 은행 Overweight (비중확대). YoY 기준 대출성장은 여전히 기업대출 중심이며, 예금은행의 2026년 연평균 대출성장률 4.7% 전망은 유지된다. 향후 주담대 증가폭 확대는 제한적일 것으로 전망된다.",
               "valuation": [],
               "earnings_changes": [],
               "analysis_source": "PDF 원문 분석",
@@ -2847,7 +2879,7 @@
           ]
         }
       ],
-      "report_count": 67
+      "report_count": 68
     },
     {
       "month": "2026-10",
