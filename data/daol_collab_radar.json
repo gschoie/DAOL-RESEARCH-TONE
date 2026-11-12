@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T22:12:48.984911+00:00",
+ "generated_at": "2026-11-12T22:47:09.477319+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1551,
+ "report_count": 1554,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36544,6 +36544,42 @@
    "title": "[증권(Overweight)｜다올 금융 김지원 ☎ 2184-2306] ★ 미래에셋증권(006800): 가격매력 있는데 투자성과 시현 시점 대기",
    "post_url": "https://t.me/daolresearch/15495",
    "source_url": "https://buly.kr/CsmlET4"
+  },
+  {
+   "theme": "환율/원화",
+   "category": "매크로",
+   "date": "2026-11-13",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "달바글로벌",
+   "code": "483650",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "매출액은 원화 강세로 컨센서스 대비 -9%(2Q 말 환율 적용 시 1,705억원).",
+    "투자의견 원화 강세로 탑라인 아쉬운 구간."
+   ],
+   "title": "[달바글로벌(483650)/ BUY(유지)/ TP 22만원(하향)/ 다올 화장품 박종현] ★ 환율이 깎은 탑라인, 기울기가 갈린 권역",
+   "post_url": "https://t.me/daolresearch/15497",
+   "source_url": "https://buly.kr/CsmlEbt"
+  },
+  {
+   "theme": "K뷰티 수출",
+   "category": "미국공략",
+   "date": "2026-11-13",
+   "analyst": "박종현",
+   "sector": "의료기기/화장품",
+   "company": "달바글로벌",
+   "code": "483650",
+   "direction": "피해",
+   "score": -2,
+   "evidences": [
+    "[달바글로벌(483650)/ BUY(유지)/ TP 22만원(하향)/ 다올 화장품 박종현]",
+    "[유럽] 202억원(YoY +104%)은 부츠 105점 온기와 당사 집계 스페인 아마존 뷰티 중위 2위 유지, 독일 7위권 상승."
+   ],
+   "title": "[달바글로벌(483650)/ BUY(유지)/ TP 22만원(하향)/ 다올 화장품 박종현] ★ 환율이 깎은 탑라인, 기울기가 갈린 권역",
+   "post_url": "https://t.me/daolresearch/15497",
+   "source_url": "https://buly.kr/CsmlEbt"
   }
  ],
  "cross_mentions": [
@@ -38758,81 +38794,81 @@
  ],
  "candidates": [
   {
-   "term": "자에게",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 38.2
-  },
-  {
    "term": "기관투자가",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 38.2
+   "burst": 37.8
   },
   {
-   "term": "간섭",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 25.4
+   "term": "자에게",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 37.8
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.4
+   "burst": 25.2
+  },
+  {
+   "term": "간섭",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 25.2
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.4
+   "burst": 25.2
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 17.0
+   "burst": 16.8
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 15,
    "sectors": 7,
-   "burst": 12.7
+   "burst": 12.6
   },
   {
    "term": "PDF",
    "recent": 9,
    "total": 12,
    "sectors": 5,
-   "burst": 9.5
+   "burst": 9.4
+  },
+  {
+   "term": "원화",
+   "recent": 32,
+   "total": 47,
+   "sectors": 12,
+   "burst": 8.4
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.5
-  },
-  {
-   "term": "원화",
-   "recent": 31,
-   "total": 46,
-   "sectors": 12,
-   "burst": 8.2
+   "burst": 8.4
   },
   {
    "term": "사전",
    "recent": 11,
    "total": 16,
    "sectors": 8,
-   "burst": 7.8
+   "burst": 7.7
   },
   {
    "term": "바스켓",
@@ -38846,21 +38882,21 @@
    "recent": 7,
    "total": 10,
    "sectors": 7,
-   "burst": 7.4
+   "burst": 7.3
   },
   {
    "term": "등록",
    "recent": 7,
    "total": 10,
    "sectors": 3,
-   "burst": 7.4
+   "burst": 7.3
   },
   {
-   "term": "제안",
-   "recent": 6,
-   "total": 9,
-   "sectors": 4,
-   "burst": 6.4
+   "term": "정체",
+   "recent": 10,
+   "total": 15,
+   "sectors": 5,
+   "burst": 7.0
   }
  ]
 }
