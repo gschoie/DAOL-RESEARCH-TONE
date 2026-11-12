@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T22:46:33.861752+00:00",
+  "generated_at": "2026-11-12T23:00:53.600056+00:00",
   "source": "https://t.me/daolresearch + www.daolsecurities.com 리서치 게시판",
-  "report_count": 1554,
+  "report_count": 1555,
   "months": [
     {
       "month": "2026-11",
@@ -3010,8 +3010,37 @@
           "top_pick_change": "전월 대비 유지",
           "tp_changes": [],
           "tp_raises": [],
-          "report_count": 1,
+          "report_count": 2,
           "reports": [
+            {
+              "id": 15500,
+              "date": "2026-11-13",
+              "month": "2026-11",
+              "analyst": "투자전략팀",
+              "sector": "투자전략",
+              "company": "산업/기타",
+              "code": "",
+              "report_type": "산업자료",
+              "opinion": "",
+              "top_picks": [],
+              "preferred_stocks": [],
+              "tp_changes": [],
+              "tp_raises": [],
+              "pitch": "",
+              "industry_conclusion": "▶️ Key Chart & 핵심지표 -12월 초, 텍사스 전력망 감사 결과는 현재 전망 중 실수요를 걸러내는 계기가 될 수 있음 -물가와 연준의원들의 매파적 발언으로 금리 불안감이 형성.",
+              "report_conclusion": "▶️ Key Chart & 핵심지표 -12월 초, 텍사스 전력망 감사 결과는 현재 전망 중 실수요를 걸러내는 계기가 될 수 있음 -물가와 연준의원들의 매파적 발언으로 금리 불안감이 형성.",
+              "valuation": [
+                "물가와 금리 정책에 대한 불확실성이 유입됐고, 반도체 이익의 지속성에 대한 기대치를 낮춰 두었던 상태에서 투자 심리가 위축시켰다고 해도, 3배 대의 지수 PER 수준은 분명 저평가 영역으로 보임."
+              ],
+              "earnings_changes": [],
+              "analysis_source": "텔레그램 요약",
+              "pdf_url": "https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146414/1/20261113_B_bhcho_317.pdf",
+              "pdf_error": "ValueError: PDF text is empty or scanned",
+              "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+              "summary": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)] ▶️ 금주 증시 동향 (11/06~11/12) -KOSPI(5.6%), KOSDAQ(8.1%) 상승. KOSPI는 반도체(+10.5%), 기계(+9.2%), 건설,건축관련(+5.9%) 업종이 상승한 가운데 소매(유통)(-5.5%), 필수소비재(-5.5%), 증권(-4.6%) 업종 하락. 국내증시는 낙폭 과대 인식 속 반등을 시도. 주중 미국과 이란의 협상 가능성이 부각되자 양 시장에서 매수 사이드카 발동하기도 함. 코어위브, 앤트로픽 호재가 투자심리 개선한 가운데, 코스닥은 정부 부양책 기대가 겹치며 큰 폭의 상승을 보임. 주 후반 젠슨 황 해임 리스크를 소화하며 상승폭 일부 반납하며 마감 -DOW(2.0%), S&P500(2.9%), NASDAQ(3.2%) 상승. 미 증시는 저가 매수세 유입과 중동 지정학적 긴장 완화 기대에 상승 출발. 주중 10월 CPI가 예상치 상회하고 연준 인사들의 빅스텝 시사 등 매파적 발언이 이어지며 긴축 경계 형성. 그럼에도 코어위브 호실적, 앤트로픽 IPO 기대감 등 AI 투자심리 회복하며 기술주 중심 상승. 주 후반 젠슨 황 엔비디아 CEO 사임과 유가 급등에 상승분 일부 반납 ▶️ 차주 증시 전망 (11/16~11/20) -일시적으로 5,000pt를 하회했던 KOSPI가 일단 하단은 확인한 모습. 물가와 금리 정책에 대한 불확실성이 유입됐고, 반도체 이익의 지속성에 대한 기대치를 낮춰 두었던 상태에서 투자 심리가 위축시켰다고 해도, 3배 대의 지수 PER 수준은 분명 저평가 영역으로 보임. 문제는 상방 흐름을 지속적으로 이끌어 줄 재료가 부족하다는 점 -수급 측면에서는 이미 채권과의 Trade-off가 형성되는 모습인 만큼 매수세의 탄력과 지속성을 기대하기",
+              "post_url": "https://t.me/daolresearch/15500",
+              "source_url": "https://buly.kr/Ezlr0zS"
+            },
             {
               "id": 15441,
               "date": "2026-11-06",
@@ -3049,7 +3078,7 @@
           ]
         }
       ],
-      "report_count": 71
+      "report_count": 72
     },
     {
       "month": "2026-10",

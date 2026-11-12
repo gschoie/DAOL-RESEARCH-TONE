@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T22:47:09.477319+00:00",
+ "generated_at": "2026-11-12T23:04:42.337503+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1554,
+ "report_count": 1555,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36580,6 +36580,110 @@
    "title": "[달바글로벌(483650)/ BUY(유지)/ TP 22만원(하향)/ 다올 화장품 박종현] ★ 환율이 깎은 탑라인, 기울기가 갈린 권역",
    "post_url": "https://t.me/daolresearch/15497",
    "source_url": "https://buly.kr/CsmlEbt"
+  },
+  {
+   "theme": "금리 사이클",
+   "category": "매크로",
+   "date": "2026-11-13",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "주중 10월 CPI가 예상치 상회하고 연준 인사들의 빅스텝 시사 등 매파적 발언이 이어지며 긴축 경계 형성.",
+    "️ Key Chart & 핵심지표 -12월 초, 텍사스 전력망 감사 결과는 현재 전망 중 실수요를 걸러내는 계기가 될 수 있음 -물가와 연준의원들의 매파적 발언으로 금리 불안감이 형성."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15500",
+   "source_url": "https://buly.kr/Ezlr0zS"
+  },
+  {
+   "theme": "국내 정책/재정",
+   "category": "매크로",
+   "date": "2026-11-13",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 2,
+   "evidences": [
+    "코어위브, 앤트로픽 호재가 투자심리 개선한 가운데, 코스닥은 정부 부양책 기대가 겹치며 큰 폭의 상승을 보임."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15500",
+   "source_url": "https://buly.kr/Ezlr0zS"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-11-13",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "주중 미국과 이란의 협상 가능성이 부각되자 양 시장에서 매수 사이드카 발동하기도 함."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15500",
+   "source_url": "https://buly.kr/Ezlr0zS"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-13",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "수혜",
+   "score": 1,
+   "evidences": [
+    "그럼에도 코어위브 호실적, 앤트로픽 IPO 기대감 등 AI 투자심리 회복하며 기술주 중심 상승.",
+    "주 후반 젠슨 황 엔비디아 CEO 사임과 유가 급등에 상승분 일부 반납"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15500",
+   "source_url": "https://buly.kr/Ezlr0zS"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-13",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "️ Key Chart & 핵심지표 -12월 초, 텍사스 전력망 감사 결과는 현재 전망 중 실수요를 걸러내는 계기가 될 수 있음 -물가와 연준의원들의 매파적 발언으로 금리 불안감이 형성."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15500",
+   "source_url": "https://buly.kr/Ezlr0zS"
+  },
+  {
+   "theme": "유가/정유",
+   "category": "원자재",
+   "date": "2026-11-13",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "주 후반 젠슨 황 엔비디아 CEO 사임과 유가 급등에 상승분 일부 반납"
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15500",
+   "source_url": "https://buly.kr/Ezlr0zS"
   }
  ],
  "cross_mentions": [
@@ -38794,53 +38898,53 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 37.8
-  },
-  {
    "term": "자에게",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 37.8
+   "burst": 37.6
+  },
+  {
+   "term": "기관투자가",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 37.6
   },
   {
    "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.2
+   "burst": 25.1
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.2
+   "burst": 25.1
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.2
+   "burst": 25.1
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.8
+   "burst": 16.7
   },
   {
    "term": "감익",
    "recent": 12,
    "total": 15,
    "sectors": 7,
-   "burst": 12.6
+   "burst": 12.5
   },
   {
    "term": "PDF",
@@ -38875,7 +38979,7 @@
    "recent": 9,
    "total": 13,
    "sectors": 3,
-   "burst": 7.6
+   "burst": 7.5
   },
   {
    "term": "자사",
