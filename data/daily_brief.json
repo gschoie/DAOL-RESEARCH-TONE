@@ -1,15 +1,15 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13T11:30:28.365096+09:00",
- "ai": false,
- "model": null,
+ "generated_at": "2026-11-13T11:43:17.938118+09:00",
+ "ai": true,
+ "model": "gemini-flash-lite-latest",
  "report_count": 20,
  "event_count": 20,
- "text": "**오늘의 다올 변화 (자동 요약)**\n\n주요 이벤트:\n- 2026-11-13 **전략·시황 산업** — 투자포인트 변화: 신규: 저평가 영역, 이벤트 대기 · 11.06 포인트: AI 규제 우려, 반도체 저평가, 금리 하락 우호 [원문](https://t.me/daolresearch/15500)\n- 2026-11-13 **금융-증권 산업** — 투자포인트 변화: 신규: 주주환원정책, 배당매력 · 11.02 포인트: 거래대금 변화, 발행실적 동향, 차별화 국면 [원문](https://t.me/daolresearch/15495)\n- 2026-11-13 **NAVER** — TP 하향: 400,000원 → 340,000원 ← 실적추정·멀티플 [원문](https://t.me/daolresearch/15498)\n- 2026-11-13 **NAVER** — 실적추정 하향: 영업이익은 Npay 커넥트 단말기 및 커머스 프로모션 비용 증가로 컨센서스에 소폭 하회. [원문](https://t.me/daolresearch/15498)\n- 2026-11-13 **NAVER** — 투자포인트 변화: 신규: AI Factory 계약, 물류 투자, Top-Pick 유지 · 10.28 포인트: AI 팩토리 구조, 지급보증 체결, 매출 가시화 [원문](https://t.me/daolresearch/15498)\n- 2026-11-13 **삼성증권** — 투자포인트 변화: 신규: 배당매력 [원문](https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146407/1/20261113_016360_jiwonkim_274.pdf)\n- 2026-11-13 **달바글로벌** — TP 하향: 310,000원 → 220,000원 ← 실적추정·멀티플 [원문](https://t.me/daolresearch/15497)\n- 2026-11-13 **달바글로벌** — 실적추정 하향: 2027E 매출액 9,704억원(YoY +37%), OPM 23.2%로 하향 [원문](https://t.me/daolresearch/15497)\n\n최신 리포트:\n- 2026-11-13 김지원 — ★ 삼성증권 (016360) 점차 부각될 배당매력, 여전히 낮은 밸류 [원문](https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146407/1/20261113_016360_jiwonkim_274.pdf)\n- 2026-11-13 김연미 — [NVIDIA(NVDA)] ★ 젠슨 황 퇴임 영향 [원문](https://t.me/daolresearch/15503)\n- 2026-11-13 투자전략팀 — Market Weekly_Check ME up (11월 2주차) [원문](https://t.me/daolresearch/15500)\n- 2026-11-13 김혜영 — [NAVER(035420)] ★ 3Q26 Review: 얼마 남지 않은 2027년 ★ 340,000원(하향), BUY(유지) [원문](https://t.me/daolresearch/15498)\n- 2026-11-13 박종현 — [달바글로벌(483650)/ BUY(유지)/ TP 22만원(하향)] ★ 환율이 깎은 탑라인, 기울기가 갈린 권역 [원문](https://t.me/daolresearch/15497)\n- 2026-11-13 박종현 — [클래시스(214150)/ BUY(유지)/ TP 2.9만원(하향)] ★ 단디하자 [원문](https://t.me/daolresearch/15496)",
+ "text": "### 주요 목표주가(TP) 및 실적 변동\n- **NAVER(035420)**: [NAVER 리포트](https://t.me/daolresearch/15498)에서 TP를 **400,000원 → 340,000원으로 하향** 조정 (BUY 유지). 비용 증가로 영업이익이 컨센서스를 소폭 하회했습니다.\n- **달바글로벌(483650)**: [달바글로벌 리포트](https://t.me/daolresearch/15497)에서 TP를 **310,000원 → 220,000원으로 하향** 조정 (BUY 유지). 환율 영향 및 실적 추정치 하향이 반영되었습니다.\n- **클래시스(214150)**: [클래시스 리포트](https://t.me/daolresearch/15496)에서 TP를 **40,000원 → 29,000원으로 하향** 조정 (BUY 유지). 3개 분기 연속 컨센서스를 하회하며 확신도가 이례적으로 하락(확신도 2)했습니다.\n\n### 실적 서프라이즈 및 기타 주요 동향\n- **코스맥스(192820)**: [코스맥스 리포트](https://t.me/daolresearch/15491)에서 3분기 영업이익이 컨센서스를 7% 상회하며 TP 350,000원을 유지했습니다.\n- **삼성증권(016360)**: [삼성증권 리포트](https://www.daolsecurities.com/common/download.jspx?cmd=viewPDF&path=/attach_file/RESEARCH/146407/1/20261113_016360_jiwonkim_274.pdf) 신규 발간, 점차 부각되는 배당매력과 낮은 밸류가 강조되었습니다.",
  "questions": [
-  "NAVER의 목표주가를 34만원으로 하향한 이유는?",
-  "클래시스의 3분기 실적이 컨센서스를 하회한 이유는?",
-  "코스맥스의 3분기 실적 추정 및 리뷰 내용은?",
-  "삼성증권 리포트의 주요 투자포인트는 무엇인가?"
+  "NAVER의 목표주가를 34만 원으로 내린 이유는?",
+  "클래시스의 3분기 실적이 컨센서스를 밑돈 배경은?",
+  "코스맥스의 3분기 영업이익이 컨센서스를 상회했나?",
+  "삼성증권 리포트에서 강조된 투자 포인트는 무엇인가?"
  ]
 }
