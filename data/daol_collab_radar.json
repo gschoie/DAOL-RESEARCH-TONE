@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T23:04:42.337503+00:00",
+ "generated_at": "2026-11-13T02:12:45.547832+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1555,
+ "report_count": 1557,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36554,10 +36554,10 @@
    "company": "달바글로벌",
    "code": "483650",
    "direction": "수혜",
-   "score": 2,
+   "score": 3,
    "evidences": [
-    "매출액은 원화 강세로 컨센서스 대비 -9%(2Q 말 환율 적용 시 1,705억원).",
-    "투자의견 원화 강세로 탑라인 아쉬운 구간."
+    "40는 ~_ 북미 온라인 중심 성장이나 원화 강세로 추정치 하향",
+    "매출액은 원화 강세로 컨센서스 대비 -9%(2Q 말 환율 적용 시 1,705억원)."
    ],
    "title": "[달바글로벌(483650)/ BUY(유지)/ TP 22만원(하향)/ 다올 화장품 박종현] ★ 환율이 깎은 탑라인, 기울기가 갈린 권역",
    "post_url": "https://t.me/daolresearch/15497",
@@ -36592,8 +36592,7 @@
    "direction": "피해",
    "score": -1,
    "evidences": [
-    "주중 10월 CPI가 예상치 상회하고 연준 인사들의 빅스텝 시사 등 매파적 발언이 이어지며 긴축 경계 형성.",
-    "️ Key Chart & 핵심지표 -12월 초, 텍사스 전력망 감사 결과는 현재 전망 중 실수요를 걸러내는 계기가 될 수 있음 -물가와 연준의원들의 매파적 발언으로 금리 불안감이 형성."
+    "주중 10월 CPI가 예상치 상회하고 연준 인사들의 빅스텝 시사 등 매파적 발언이 이어지며 긴축 경계 형성."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
    "post_url": "https://t.me/daolresearch/15500",
@@ -36652,23 +36651,6 @@
    "source_url": "https://buly.kr/Ezlr0zS"
   },
   {
-   "theme": "전력기기/전력망",
-   "category": "미국공략",
-   "date": "2026-11-13",
-   "analyst": "투자전략팀",
-   "sector": "전략/시황",
-   "company": "산업/기타",
-   "code": "",
-   "direction": "중립",
-   "score": 0,
-   "evidences": [
-    "️ Key Chart & 핵심지표 -12월 초, 텍사스 전력망 감사 결과는 현재 전망 중 실수요를 걸러내는 계기가 될 수 있음 -물가와 연준의원들의 매파적 발언으로 금리 불안감이 형성."
-   ],
-   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
-   "post_url": "https://t.me/daolresearch/15500",
-   "source_url": "https://buly.kr/Ezlr0zS"
-  },
-  {
    "theme": "유가/정유",
    "category": "원자재",
    "date": "2026-11-13",
@@ -36684,6 +36666,42 @@
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
    "post_url": "https://t.me/daolresearch/15500",
    "source_url": "https://buly.kr/Ezlr0zS"
+  },
+  {
+   "theme": "AI/데이터센터 투자",
+   "category": "미국공략",
+   "date": "2026-11-13",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "젠슨",
+   "code": "",
+   "direction": "피해",
+   "score": -1,
+   "evidences": [
+    "️ AI 생태계 투자 영속성에 대한 불확실성 부각 - NVIDIA는 CoreWeave·Nebius에 각각 20억달러 투자, OpenAI 300억달러 및 Anthropic 100억달러 투자 발표 - 신규 경영진의 자본 배분 정책 변화에 따라 기존 투자 기조가 조정될 가능성 부각",
+    "[NVIDIA(NVDA) | 다올투자증권 Tech 남대종, 김연미]"
+   ],
+   "title": "[NVIDIA(NVDA) | 다올투자증권 Tech 남대종, 김연미] ★ 젠슨 황 퇴임 영향",
+   "post_url": "https://t.me/daolresearch/15503",
+   "source_url": "https://buly.kr/7mEmnep"
+  },
+  {
+   "theme": "HBM/AI반도체",
+   "category": "산업테마",
+   "date": "2026-11-13",
+   "analyst": "김연미",
+   "sector": "전기전자",
+   "company": "젠슨",
+   "code": "",
+   "direction": "피해",
+   "score": -3,
+   "evidences": [
+    "그러나 메모리 수요와는 별개 - AMD Instinct GPU·ROCm, Google TPU, AWS Trainium·Neuron 등 GPU 대안으로 거론 - 경영진 교체에 따른 불확실성이 CUDA 기반 워크로드 및 신규 주문의 경쟁사 분산을 가속화할 가능성 - 다만 이것이 HBM 중심의 메모리 수요를 감소시킬 수 있다는 의미로",
+    "CFO 콜레트 크레스가 임시 CEO 선임 - 단기 AI 반도체 수요 및 업황에 미치는 직접적인 영향은 제한적 - 다만 신규 경영진의 전략 방향에 따라 중장기 제품 로드맵, AI 생태계 투자, 공급망 관계 등에 대한 불확실성 부각"
+   ],
+   "title": "[NVIDIA(NVDA) | 다올투자증권 Tech 남대종, 김연미] ★ 젠슨 황 퇴임 영향",
+   "post_url": "https://t.me/daolresearch/15503",
+   "source_url": "https://buly.kr/7mEmnep"
   }
  ],
  "cross_mentions": [
@@ -38902,42 +38920,42 @@
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 37.6
+   "burst": 37.4
   },
   {
    "term": "기관투자가",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 37.6
-  },
-  {
-   "term": "압력이나",
-   "recent": 6,
-   "total": 6,
-   "sectors": 3,
-   "burst": 25.1
+   "burst": 37.4
   },
   {
    "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.1
+   "burst": 24.9
+  },
+  {
+   "term": "압력이나",
+   "recent": 6,
+   "total": 6,
+   "sectors": 3,
+   "burst": 24.9
   },
   {
    "term": "중간선거",
    "recent": 6,
    "total": 6,
    "sectors": 3,
-   "burst": 25.1
+   "burst": 24.9
   },
   {
    "term": "낮추고",
    "recent": 8,
    "total": 9,
    "sectors": 4,
-   "burst": 16.7
+   "burst": 16.6
   },
   {
    "term": "감익",
@@ -38948,31 +38966,38 @@
   },
   {
    "term": "PDF",
-   "recent": 9,
-   "total": 12,
+   "recent": 10,
+   "total": 13,
    "sectors": 5,
-   "burst": 9.4
+   "burst": 10.4
   },
   {
    "term": "원화",
    "recent": 32,
    "total": 47,
    "sectors": 12,
-   "burst": 8.4
+   "burst": 8.3
   },
   {
    "term": "Data",
    "recent": 6,
    "total": 8,
    "sectors": 4,
-   "burst": 8.4
+   "burst": 8.3
+  },
+  {
+   "term": "등록",
+   "recent": 8,
+   "total": 11,
+   "sectors": 3,
+   "burst": 8.3
   },
   {
    "term": "사전",
    "recent": 11,
    "total": 16,
    "sectors": 8,
-   "burst": 7.7
+   "burst": 7.6
   },
   {
    "term": "바스켓",
@@ -38989,18 +39014,11 @@
    "burst": 7.3
   },
   {
-   "term": "등록",
-   "recent": 7,
-   "total": 10,
-   "sectors": 3,
-   "burst": 7.3
-  },
-  {
    "term": "정체",
    "recent": 10,
    "total": 15,
    "sectors": 5,
-   "burst": 7.0
+   "burst": 6.9
   }
  ]
 }
