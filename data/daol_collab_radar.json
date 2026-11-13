@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T03:32:53.760529+00:00",
+ "generated_at": "2026-11-13T20:20:40.949099+00:00",
  "source": "daol_tone_history.json",
- "report_count": 1557,
+ "report_count": 1558,
  "hits": [
   {
    "theme": "관세/무역분쟁",
@@ -36702,6 +36702,24 @@
    "title": "[NVIDIA(NVDA) | 다올투자증권 Tech 남대종, 김연미] ★ 젠슨 황 퇴임 영향",
    "post_url": "https://t.me/daolresearch/15503",
    "source_url": "https://buly.kr/7mEmnep"
+  },
+  {
+   "theme": "중동/호르무즈 리스크",
+   "category": "매크로",
+   "date": "2026-11-13",
+   "analyst": "이다연",
+   "sector": "음식료",
+   "company": "농심",
+   "code": "004370",
+   "direction": "피해",
+   "score": -5,
+   "evidences": [
+    "매출 공백, 2) 광고비 증가, 3) 예상 대비 컸던 중동 전쟁발 원가 부담 때문 판매량 감소 예상했으나, 비국물면·하절기면 판매 호조에 힘입어 별도 라면 • [4분기 전망] 중동 리스크로 인한 원부재료 단가 부담은 상존할 전망이나, 맞물리며 하반기 당사 수익성 개선을 전망했었음.",
+    "• [4분기 전망] 중동 리스크로 인한 원부재료 단가 부담은 상존할 전망이나, • [투자의견] 당사는 국내 가격인상 효과 반영 및 해외 광판비 축소 집행이 맞물리며 하반기 당사 수익성 개선을 전망했었음."
+   ],
+   "title": "[농심(004370) | BUY(유지) | TP 48만원(하향) | 다올 음식료/통신 이다연] ★ 3Q26 Review: 광고비 확대, 원가 부담, 영국 물량 공백",
+   "post_url": "https://t.me/daolresearch/15505",
+   "source_url": "https://buly.kr/NmxnFr"
   }
  ],
  "cross_mentions": [
@@ -38916,28 +38934,28 @@
  ],
  "candidates": [
   {
-   "term": "자에게",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 37.4
-  },
-  {
    "term": "기관투자가",
    "recent": 9,
    "total": 9,
    "sectors": 5,
-   "burst": 37.4
+   "burst": 37.3
   },
   {
-   "term": "간섭",
+   "term": "자에게",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 37.3
+  },
+  {
+   "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
    "burst": 24.9
   },
   {
-   "term": "압력이나",
+   "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
@@ -38962,7 +38980,7 @@
    "recent": 12,
    "total": 15,
    "sectors": 7,
-   "burst": 12.5
+   "burst": 12.4
   },
   {
    "term": "PDF",
@@ -39011,7 +39029,7 @@
    "recent": 7,
    "total": 10,
    "sectors": 7,
-   "burst": 7.3
+   "burst": 7.2
   },
   {
    "term": "정체",
