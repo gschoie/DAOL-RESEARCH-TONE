@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T20:20:40.949099+00:00",
+ "generated_at": "2026-11-14T01:52:31.879313+00:00",
  "source": "daol_tone_history.json",
  "report_count": 1558,
  "hits": [
@@ -36592,6 +36592,7 @@
    "direction": "피해",
    "score": -1,
    "evidences": [
+    "미-중 대화 및 AI 모멘텀이 상방 요인이나, 12월 초 텍사스 주정부 감사 보고서 확인 이슈 및 8~9일 FOMC 앞둔 변동성 우려 공존.",
     "주중 10월 CPI가 예상치 상회하고 연준 인사들의 빅스텝 시사 등 매파적 발언이 이어지며 긴축 경계 형성."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
@@ -36643,8 +36644,25 @@
    "direction": "수혜",
    "score": 1,
    "evidences": [
-    "그럼에도 코어위브 호실적, 앤트로픽 IPO 기대감 등 AI 투자심리 회복하며 기술주 중심 상승.",
-    "주 후반 젠슨 황 엔비디아 CEO 사임과 유가 급등에 상승분 일부 반납"
+    "미-중 대화 및 AI 모멘텀이 상방 요인이나, 12월 초 텍사스 주정부 감사 보고서 확인 이슈 및 8~9일 FOMC 앞둔 변동성 우려 공존.",
+    "그럼에도 코어위브 호실적, 앤트로픽 IPO 기대감 등 AI 투자심리 회복하며 기술주 중심 상승."
+   ],
+   "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
+   "post_url": "https://t.me/daolresearch/15500",
+   "source_url": "https://buly.kr/Ezlr0zS"
+  },
+  {
+   "theme": "전력기기/전력망",
+   "category": "미국공략",
+   "date": "2026-11-13",
+   "analyst": "투자전략팀",
+   "sector": "전략/시황",
+   "company": "산업/기타",
+   "code": "",
+   "direction": "중립",
+   "score": 0,
+   "evidences": [
+    "- 12월 초, 텍사스 전력망 감사 결과는 현재 전망 중 실수요를 걸러내는 계기가 될 수 있음: 텍사스는 미국 계획 데이터센터 용량의 약 30%를 차지."
    ],
    "title": "[다올투자증권 투자전략팀 / Market Weekly_Check ME up (11월 2주차)]",
    "post_url": "https://t.me/daolresearch/15500",
@@ -38934,13 +38952,6 @@
  ],
  "candidates": [
   {
-   "term": "기관투자가",
-   "recent": 9,
-   "total": 9,
-   "sectors": 5,
-   "burst": 37.3
-  },
-  {
    "term": "자에게",
    "recent": 9,
    "total": 9,
@@ -38948,14 +38959,21 @@
    "burst": 37.3
   },
   {
-   "term": "압력이나",
+   "term": "기관투자가",
+   "recent": 9,
+   "total": 9,
+   "sectors": 5,
+   "burst": 37.3
+  },
+  {
+   "term": "간섭",
    "recent": 6,
    "total": 6,
    "sectors": 3,
    "burst": 24.9
   },
   {
-   "term": "간섭",
+   "term": "압력이나",
    "recent": 6,
    "total": 6,
    "sectors": 3,
